@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-10T23:52:18.740993+00:00",
+  "snapshot_time": "2025-06-10T23:57:50.995743+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -85,6 +85,62 @@
         "object_id": "paper:arxiv.2410.23501",
         "created_at": "2025-06-10T23:46:40+00:00",
         "updated_at": "2025-06-10T23:47:11+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2503.08679": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.08679",
+        "url": "https://arxiv.org/pdf/2503.08679",
+        "title": "Chain-of-Thought Reasoning In The Wild Is Not Always Faithful",
+        "authors": "Iv\u00e1n Arcuschin, Jett Janiak, Robert Krzyzanowski, Senthooran Rajamanoharan, Neel Nanda, Arthur Conmy",
+        "abstract": "Chain-of-Thought (CoT) reasoning has significantly advanced state-of-the-art\nAI capabilities. However, recent studies have shown that CoT reasoning is not\nalways faithful, i.e. CoT reasoning does not always reflect how models arrive\nat conclusions. So far, most of these studies have focused on unfaithfulness in\nunnatural contexts where an explicit bias has been introduced. In contrast, we\nshow that unfaithful CoT can occur on realistic prompts with no artificial\nbias. Our results reveal non-negligible rates of several forms of unfaithful\nreasoning in frontier models: Sonnet 3.7 (16.3%), DeepSeek R1 (5.3%) and\nChatGPT-4o (7.0%) all answer a notable proportion of question pairs\nunfaithfully. Specifically, we find that models rationalize their implicit\nbiases in answers to binary questions (\"implicit post-hoc rationalization\").\nFor example, when separately presented with the questions \"Is X bigger than Y?\"\nand \"Is Y bigger than X?\", models sometimes produce superficially coherent\narguments to justify answering Yes to both questions or No to both questions,\ndespite such responses being logically contradictory. We also investigate\nrestoration errors (Dziri et al., 2023), where models make and then silently\ncorrect errors in their reasoning, and unfaithful shortcuts, where models use\nclearly illogical reasoning to simplify solving problems in Putnam questions (a\nhard benchmark). Our findings raise challenges for AI safety work that relies\non monitoring CoT to detect undesired behavior.",
+        "timestamp": "2025-06-10T23:57:09.917Z",
+        "rating": "novote",
+        "publishedDate": "2025-03-11T17:56:30Z",
+        "tags": [
+          "cs.AI",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 6,
+        "object_id": "paper:arxiv.2503.08679",
+        "created_at": "2025-06-10T23:57:10+00:00",
+        "updated_at": "2025-06-10T23:57:29+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2505.04741": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.04741",
+        "url": "https://arxiv.org/pdf/2505.04741",
+        "title": "When Bad Data Leads to Good Models",
+        "authors": "Kenneth Li, Yida Chen, Fernanda Vi\u00e9gas, Martin Wattenberg",
+        "abstract": "In large language model (LLM) pretraining, data quality is believed to\ndetermine model quality. In this paper, we re-examine the notion of \"quality\"\nfrom the perspective of pre- and post-training co-design. Specifically, we\nexplore the possibility that pre-training on more toxic data can lead to better\ncontrol in post-training, ultimately decreasing a model's output toxicity.\nFirst, we use a toy experiment to study how data composition affects the\ngeometry of features in the representation space. Next, through controlled\nexperiments with Olmo-1B models trained on varying ratios of clean and toxic\ndata, we find that the concept of toxicity enjoys a less entangled linear\nrepresentation as the proportion of toxic data increases. Furthermore, we show\nthat although toxic data increases the generational toxicity of the base model,\nit also makes the toxicity easier to remove. Evaluations on Toxigen and Real\nToxicity Prompts demonstrate that models trained on toxic data achieve a better\ntrade-off between reducing generational toxicity and preserving general\ncapabilities when detoxifying techniques such as inference-time intervention\n(ITI) are applied. Our findings suggest that, with post-training taken into\naccount, bad data may lead to good models.",
+        "timestamp": "2025-06-10T23:57:10.004Z",
+        "rating": "novote",
+        "publishedDate": "2025-05-07T19:17:49Z",
+        "tags": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 5,
+        "object_id": "paper:arxiv.2505.04741",
+        "created_at": "2025-06-10T23:57:10+00:00",
+        "updated_at": "2025-06-10T23:57:29+00:00",
         "version": 1
       }
     }

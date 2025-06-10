@@ -33,7 +33,7 @@ jobs:
               const runs = await github.rest.actions.listWorkflowRuns({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                workflow_id: '1_store-sync.yml',
+                workflow_id: '1_update_and_enrich.yml',
               });
               
               const activeUpdates = runs.data.workflow_runs.filter(run => 

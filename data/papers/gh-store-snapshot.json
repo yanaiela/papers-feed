@@ -1,5 +1,92 @@
 {
-  "snapshot_time": "2025-06-10T23:37:50.023671+00:00",
+  "snapshot_time": "2025-06-10T23:52:18.740993+00:00",
   "repository": "yanaiela/papers-feed",
-  "objects": {}
+  "objects": {
+    "interactions:arxiv.2411.00640": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2411.00640",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-06-10T23:48:26.492Z",
+            "data": {
+              "session_id": "session_1749599306052_fap3gto",
+              "source_id": "arxiv",
+              "paper_id": "2411.00640",
+              "start_time": "2025-06-10T23:48:18.158Z",
+              "end_time": "2025-06-10T23:48:26.052Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 4,
+        "object_id": "interactions:arxiv.2411.00640",
+        "created_at": "2025-06-10T23:48:27+00:00",
+        "updated_at": "2025-06-10T23:48:52+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2411.00640": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2411.00640",
+        "url": "https://arxiv.org/pdf/2411.00640",
+        "title": "Adding Error Bars to Evals: A Statistical Approach to Language Model\n  Evaluations",
+        "authors": "Evan Miller",
+        "abstract": "Evaluations are critical for understanding the capabilities of large language\nmodels (LLMs). Fundamentally, evaluations are experiments; but the literature\non evaluations has largely ignored the literature from other sciences on\nexperiment analysis and planning. This article shows researchers with some\ntraining in statistics how to think about and analyze data from language model\nevaluations. Conceptualizing evaluation questions as having been drawn from an\nunseen super-population, we present formulas for analyzing evaluation data,\nmeasuring differences between two models, and planning an evaluation\nexperiment. We make a number of specific recommendations for running language\nmodel evaluations and reporting experiment results in a way that minimizes\nstatistical noise and maximizes informativeness.",
+        "timestamp": "2025-06-10T23:48:18.338Z",
+        "rating": "novote",
+        "publishedDate": "2024-11-01T14:57:16Z",
+        "tags": [
+          "stat.AP",
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 3,
+        "object_id": "paper:arxiv.2411.00640",
+        "created_at": "2025-06-10T23:48:18+00:00",
+        "updated_at": "2025-06-10T23:48:37+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2410.23501": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2410.23501",
+        "url": "https://arxiv.org/pdf/2410.23501",
+        "title": "All or None: Identifiable Linear Properties of Next-token Predictors in\n  Language Modeling",
+        "authors": "Emanuele Marconato, S\u00e9bastien Lachapelle, Sebastian Weichwald, Luigi Gresele",
+        "abstract": "We analyze identifiability as a possible explanation for the ubiquity of\nlinear properties across language models, such as the vector difference between\nthe representations of \"easy\" and \"easiest\" being parallel to that between\n\"lucky\" and \"luckiest\". For this, we ask whether finding a linear property in\none model implies that any model that induces the same distribution has that\nproperty, too. To answer that, we first prove an identifiability result to\ncharacterize distribution-equivalent next-token predictors, lifting a diversity\nrequirement of previous results. Second, based on a refinement of relational\nlinearity [Paccanaro and Hinton, 2001; Hernandez et al., 2024], we show how\nmany notions of linearity are amenable to our analysis. Finally, we show that\nunder suitable conditions, these linear properties either hold in all or none\ndistribution-equivalent next-token predictors.",
+        "timestamp": "2025-06-10T23:46:40.077Z",
+        "rating": "novote",
+        "publishedDate": "2024-10-30T23:19:29Z",
+        "tags": [
+          "stat.ML",
+          "cs.AI",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2,
+        "object_id": "paper:arxiv.2410.23501",
+        "created_at": "2025-06-10T23:46:40+00:00",
+        "updated_at": "2025-06-10T23:47:11+00:00",
+        "version": 1
+      }
+    }
+  }
 }

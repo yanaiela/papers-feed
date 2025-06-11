@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-11T00:04:04.806907+00:00",
+  "snapshot_time": "2025-06-11T13:53:26.210645+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -229,6 +229,113 @@
         "object_id": "paper:arxiv.2410.03001",
         "created_at": "2025-06-11T00:03:20+00:00",
         "updated_at": "2025-06-11T00:03:43+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2412.06264": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2412.06264",
+        "url": "https://arxiv.org/abs/2412.06264",
+        "title": "Flow Matching Guide and Code",
+        "authors": "Yaron Lipman, Marton Havasi, Peter Holderrieth, Neta Shaul, Matt Le, Brian Karrer, Ricky T. Q. Chen, David Lopez-Paz, Heli Ben-Hamu, Itai Gat",
+        "abstract": "Flow Matching (FM) is a recent framework for generative modeling that has achieved state-of-the-art performance across various domains, including image, video, audio, speech, and biological structures. This guide offers a comprehensive and self-contained review of FM, covering its mathematical foundations, design choices, and extensions. By also providing a PyTorch package featuring relevant examples (e.g., image and text generation), this work aims to serve as a resource for both novice and experienced researchers interested in understanding, applying and further developing FM.",
+        "timestamp": "2025-06-11T13:52:37.558Z",
+        "rating": "novote",
+        "publishedDate": "2024/12/09",
+        "tags": [
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 14,
+        "object_id": "paper:arxiv.2412.06264",
+        "created_at": "2025-06-11T13:52:37+00:00",
+        "updated_at": "2025-06-11T13:53:01+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.02867": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.02867",
+        "url": "https://arxiv.org/abs/2506.02867v1",
+        "title": "Demystifying Reasoning Dynamics with Mutual Information: Thinking Tokens are Information Peaks in LLM Reasoning",
+        "authors": "Chen Qian, Dongrui Liu, Haochen Wen, Zhen Bai, Yong Liu, Jing Shao",
+        "abstract": "Large reasoning models (LRMs) have demonstrated impressive capabilities in complex problem-solving, yet their internal reasoning mechanisms remain poorly understood. In this paper, we investigate the reasoning trajectories of LRMs from an information-theoretic perspective. By tracking how mutual information (MI) between intermediate representations and the correct answer evolves during LRM reasoning, we observe an interesting MI peaks phenomenon: the MI at specific generative steps exhibits a sudden and significant increase during LRM's reasoning process. We theoretically analyze such phenomenon and show that as MI increases, the probability of model's prediction error decreases. Furthermore, these MI peaks often correspond to tokens expressing reflection or transition, such as ``Hmm'', ``Wait'' and ``Therefore,'' which we term as the thinking tokens. We then demonstrate that these thinking tokens are crucial for LRM's reasoning performance, while other tokens has minimal impacts. Building on these analyses, we propose two simple yet effective methods to improve LRM's reasoning performance, by delicately leveraging these thinking tokens. Overall, our work provides novel insights into the reasoning mechanisms of LRMs and offers practical ways to improve their reasoning capabilities. The code is available at this https URL.",
+        "timestamp": "2025-06-11T13:52:35.681Z",
+        "rating": "novote",
+        "publishedDate": "2025/06/03",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 13,
+        "object_id": "paper:arxiv.2506.02867",
+        "created_at": "2025-06-11T13:52:35+00:00",
+        "updated_at": "2025-06-11T13:52:58+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.01939": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.01939",
+        "url": "https://arxiv.org/abs/2506.01939",
+        "title": "Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning",
+        "authors": "Shenzhi Wang, Le Yu, Chang Gao, Chujie Zheng, Shixuan Liu, Rui Lu, Kai Dang, Xionghui Chen, Jianxin Yang, Zhenru Zhang, Yuqiong Liu, An Yang, Andrew Zhao, Yang Yue, Shiji Song, Bowen Yu, Gao Huang, Junyang Lin",
+        "abstract": "Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as a powerful approach to enhancing the reasoning capabilities of Large Language Models (LLMs), while its mechanisms are not yet well understood. In this work, we undertake a pioneering exploration of RLVR through the novel perspective of token entropy patterns, comprehensively analyzing how different tokens influence reasoning performance. By examining token entropy patterns in Chain-of-Thought (CoT) reasoning, we observe that only a small fraction of tokens exhibit high entropy, and these tokens act as critical forks that steer the model toward diverse reasoning pathways. Furthermore, studying how entropy patterns evolve during RLVR training reveals that RLVR largely adheres to the base model's entropy patterns, primarily adjusting the entropy of high-entropy tokens. These findings highlight the significance of high-entropy tokens (i.e., forking tokens) to RLVR. We ultimately improve RLVR by restricting policy gradient updates to forking tokens and uncover a finding even beyond the 80/20 rule: utilizing only 20% of the tokens while maintaining performance comparable to full-gradient updates on the Qwen3-8B base model and significantly surpassing full-gradient updates on the Qwen3-32B (+11.04 on AIME'25 and +7.71 on AIME'24) and Qwen3-14B (+4.79 on AIME'25 and +5.21 on AIME'24) base models, highlighting a strong scaling trend. In contrast, training exclusively on the 80% lowest-entropy tokens leads to a marked decline in performance. These findings indicate that the efficacy of RLVR primarily arises from optimizing the high-entropy tokens that decide reasoning directions. Collectively, our results highlight the potential to understand RLVR through a token-entropy perspective and optimize RLVR by leveraging high-entropy minority tokens to further improve LLM reasoning.",
+        "timestamp": "2025-06-11T13:52:34.922Z",
+        "rating": "novote",
+        "publishedDate": "2025/06/02",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 12,
+        "object_id": "paper:arxiv.2506.01939",
+        "created_at": "2025-06-11T13:52:35+00:00",
+        "updated_at": "2025-06-11T13:52:58+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2505.18128": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.18128",
+        "url": "https://arxiv.org/abs/2505.18128",
+        "title": "Frankentext: Stitching random text fragments into long-form narratives",
+        "authors": "Chau Minh Pham, Jenna Russell, Dzung Pham, Mohit Iyyer",
+        "abstract": "We introduce Frankentexts, a new type of long-form narratives produced by LLMs under the extreme constraint that most tokens (e.g., 90%) must be copied verbatim from human writings. This task presents a challenging test of controllable generation, requiring models to satisfy a writing prompt, integrate disparate text fragments, and still produce a coherent narrative. To generate Frankentexts, we instruct the model to produce a draft by selecting and combining human-written passages, then iteratively revise the draft while maintaining a user-specified copy ratio. We evaluate the resulting Frankentexts along three axes: writing quality, instruction adherence, and detectability. Gemini-2.5-Pro performs surprisingly well on this task: 81% of its Frankentexts are coherent and 100% relevant to the prompt. Notably, up to 59% of these outputs are misclassified as human-written by detectors like Pangram, revealing limitations in AI text detectors. Human annotators can sometimes identify Frankentexts through their abrupt tone shifts and inconsistent grammar between segments, especially in longer generations. Beyond presenting a challenging generation task, Frankentexts invite discussion on building effective detectors for this new grey zone of authorship, provide training data for mixed authorship detection, and serve as a sandbox for studying human-AI co-writing processes.",
+        "timestamp": "2025-06-11T13:52:32.703Z",
+        "rating": "novote",
+        "publishedDate": "2025/05/23",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 11,
+        "object_id": "paper:arxiv.2505.18128",
+        "created_at": "2025-06-11T13:52:32+00:00",
+        "updated_at": "2025-06-11T13:52:51+00:00",
         "version": 1
       }
     }

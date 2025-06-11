@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-11T13:53:26.210645+00:00",
+  "snapshot_time": "2025-06-11T14:53:55.300637+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -336,6 +336,32 @@
         "object_id": "paper:arxiv.2505.18128",
         "created_at": "2025-06-11T13:52:32+00:00",
         "updated_at": "2025-06-11T13:52:51+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2502.12821": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2502.12821",
+        "url": "https://arxiv.org/pdf/2502.12821",
+        "title": "Pitfalls of Scale: Investigating the Inverse Task of Redefinition in\n  Large Language Models",
+        "authors": "Elena Stringli, Maria Lymperaiou, Giorgos Filandrianos, Athanasios Voulodimos, Giorgos Stamou",
+        "abstract": "Inverse tasks can uncover potential reasoning gaps as Large Language Models\n(LLMs) scale up. In this work, we explore the redefinition task, in which we\nassign alternative values to well-known physical constants and units of\nmeasure, prompting LLMs to respond accordingly. Our findings show that not only\ndoes model performance degrade with scale, but its false confidence also rises.\nMoreover, while factors such as prompting strategies or response formatting are\ninfluential, they do not preclude LLMs from anchoring to memorized values.",
+        "timestamp": "2025-06-11T14:53:10.606Z",
+        "rating": "novote",
+        "publishedDate": "2025-02-18T12:32:11Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 15,
+        "object_id": "paper:arxiv.2502.12821",
+        "created_at": "2025-06-11T14:53:10+00:00",
+        "updated_at": "2025-06-11T14:53:29+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-11T14:53:55.300637+00:00",
+  "snapshot_time": "2025-06-11T17:45:34.046725+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -362,6 +362,90 @@
         "object_id": "paper:arxiv.2502.12821",
         "created_at": "2025-06-11T14:53:10+00:00",
         "updated_at": "2025-06-11T14:53:29+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2502.07830": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2502.07830",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-06-11T17:44:34.634Z",
+            "data": {
+              "session_id": "session_1749663874214_sl3ztf9",
+              "source_id": "arxiv",
+              "paper_id": "2502.07830",
+              "start_time": "2025-06-11T17:44:23.108Z",
+              "end_time": "2025-06-11T17:44:34.214Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 11
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 18,
+        "object_id": "interactions:arxiv.2502.07830",
+        "created_at": "2025-06-11T17:44:35+00:00",
+        "updated_at": "2025-06-11T17:45:07+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2502.07830": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2502.07830",
+        "url": "https://arxiv.org/pdf/2502.07830",
+        "title": "Captured by Captions: On Memorization and its Mitigation in CLIP Models",
+        "authors": "Wenhao Wang, Adam Dziedzic, Grace C. Kim, Michael Backes, Franziska Boenisch",
+        "abstract": "Multi-modal models, such as CLIP, have demonstrated strong performance in\naligning visual and textual representations, excelling in tasks like image\nretrieval and zero-shot classification. Despite this success, the mechanisms by\nwhich these models utilize training data, particularly the role of\nmemorization, remain unclear. In uni-modal models, both supervised and\nself-supervised, memorization has been shown to be essential for\ngeneralization. However, it is not well understood how these findings would\napply to CLIP, which incorporates elements from both supervised learning via\ncaptions that provide a supervisory signal similar to labels, and from\nself-supervised learning via the contrastive objective. To bridge this gap in\nunderstanding, we propose a formal definition of memorization in CLIP (CLIPMem)\nand use it to quantify memorization in CLIP models. Our results indicate that\nCLIP's memorization behavior falls between the supervised and self-supervised\nparadigms, with \"mis-captioned\" samples exhibiting highest levels of\nmemorization. Additionally, we find that the text encoder contributes more to\nmemorization than the image encoder, suggesting that mitigation strategies\nshould focus on the text domain. Building on these insights, we propose\nmultiple strategies to reduce memorization while at the same time improving\nutility--something that had not been shown before for traditional learning\nparadigms where reducing memorization typically results in utility decrease.",
+        "timestamp": "2025-06-11T17:44:23.430Z",
+        "rating": "novote",
+        "publishedDate": "2025-02-11T00:11:13Z",
+        "tags": [
+          "cs.CV",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 17,
+        "object_id": "paper:arxiv.2502.07830",
+        "created_at": "2025-06-11T17:44:23+00:00",
+        "updated_at": "2025-06-11T17:44:44+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2410.04265": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2410.04265",
+        "url": "https://arxiv.org/pdf/2410.04265",
+        "title": "AI as Humanity's Salieri: Quantifying Linguistic Creativity of Language\n  Models via Systematic Attribution of Machine Text against Web Text",
+        "authors": "Ximing Lu, Melanie Sclar, Skyler Hallinan, Niloofar Mireshghallah, Jiacheng Liu, Seungju Han, Allyson Ettinger, Liwei Jiang, Khyathi Chandu, Nouha Dziri, Yejin Choi",
+        "abstract": "Creativity has long been considered one of the most difficult aspect of human\nintelligence for AI to mimic. However, the rise of Large Language Models\n(LLMs), like ChatGPT, has raised questions about whether AI can match or even\nsurpass human creativity. We present CREATIVITY INDEX as the first step to\nquantify the linguistic creativity of a text by reconstructing it from existing\ntext snippets on the web. CREATIVITY INDEX is motivated by the hypothesis that\nthe seemingly remarkable creativity of LLMs may be attributable in large part\nto the creativity of human-written texts on the web. To compute CREATIVITY\nINDEX efficiently, we introduce DJ SEARCH, a novel dynamic programming\nalgorithm that can search verbatim and near-verbatim matches of text snippets\nfrom a given document against the web. Experiments reveal that the CREATIVITY\nINDEX of professional human authors is on average 66.2% higher than that of\nLLMs, and that alignment reduces the CREATIVITY INDEX of LLMs by an average of\n30.1%. In addition, we find that distinguished authors like Hemingway exhibit\nmeasurably higher CREATIVITY INDEX compared to other human writers. Finally, we\ndemonstrate that CREATIVITY INDEX can be used as a surprisingly effective\ncriterion for zero-shot machine text detection, surpassing the strongest\nexisting zero-shot system, DetectGPT, by a significant margin of 30.2%, and\neven outperforming the strongest supervised system, GhostBuster, in five out of\nsix domains.",
+        "timestamp": "2025-06-11T17:44:07.863Z",
+        "rating": "novote",
+        "publishedDate": "2024-10-05T18:55:01Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 16,
+        "object_id": "paper:arxiv.2410.04265",
+        "created_at": "2025-06-11T17:44:08+00:00",
+        "updated_at": "2025-06-11T17:44:27+00:00",
         "version": 1
       }
     }

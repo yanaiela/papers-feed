@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-11T21:27:10.952888+00:00",
+  "snapshot_time": "2025-06-11T21:55:27.849199+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -566,6 +566,34 @@
         "object_id": "paper:arxiv.2407.21530",
         "created_at": "2025-06-11T21:26:28+00:00",
         "updated_at": "2025-06-11T21:26:45+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2504.02810": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.02810",
+        "url": "https://arxiv.org/abs/2504.02810",
+        "title": "Generative Evaluation of Complex Reasoning in Large Language Models",
+        "authors": "Haowei Lin, Xiangyu Wang, Ruilin Yan, Baizhou Huang, Haotian Ye, Jianhua Zhu, Zihao Wang, James Zou, Jianzhu Ma, Yitao Liang",
+        "abstract": "With powerful large language models (LLMs) demonstrating superhuman reasoning capabilities, a critical question arises: Do LLMs genuinely reason, or do they merely recall answers from their extensive, web-scraped training datasets? Publicly released benchmarks inevitably become contaminated once incorporated into subsequent LLM training sets, undermining their reliability as faithful assessments. To address this, we introduce KUMO, a generative evaluation framework designed specifically for assessing reasoning in LLMs. KUMO synergistically combines LLMs with symbolic engines to dynamically produce diverse, multi-turn reasoning tasks that are partially observable and adjustable in difficulty. Through an automated pipeline, KUMO continuously generates novel tasks across open-ended domains, compelling models to demonstrate genuine generalization rather than memorization. We evaluated 23 state-of-the-art LLMs on 5,000 tasks across 100 domains created by KUMO, benchmarking their reasoning abilities against university students. Our findings reveal that many LLMs have outperformed university-level performance on easy reasoning tasks, and reasoning-scaled LLMs reach university-level performance on complex reasoning challenges. Moreover, LLM performance on KUMO tasks correlates strongly with results on newly released real-world reasoning benchmarks, underscoring KUMO's value as a robust, enduring assessment tool for genuine LLM reasoning capabilities.",
+        "timestamp": "2025-06-11T21:54:40.717Z",
+        "rating": "novote",
+        "publishedDate": "2025/04/03",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 23,
+        "object_id": "paper:arxiv.2504.02810",
+        "created_at": "2025-06-11T21:54:40+00:00",
+        "updated_at": "2025-06-11T21:54:59+00:00",
         "version": 1
       }
     }

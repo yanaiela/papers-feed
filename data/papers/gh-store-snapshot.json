@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-11T17:50:07.491862+00:00",
+  "snapshot_time": "2025-06-11T21:25:33.640879+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -461,6 +461,84 @@
         "object_id": "paper:arxiv.2410.04265",
         "created_at": "2025-06-11T17:44:08+00:00",
         "updated_at": "2025-06-11T17:44:27+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2412.07684": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2412.07684",
+        "url": "https://arxiv.org/pdf/2412.07684",
+        "title": "The Pitfalls of Memorization: When Memorization Hurts Generalization",
+        "authors": "Reza Bayat, Mohammad Pezeshki, Elvis Dohmatob, David Lopez-Paz, Pascal Vincent",
+        "abstract": "Neural networks often learn simple explanations that fit the majority of the\ndata while memorizing exceptions that deviate from these explanations.This\nbehavior leads to poor generalization when the learned explanations rely on\nspurious correlations. In this work, we formalize the interplay between\nmemorization and generalization, showing that spurious correlations would\nparticularly lead to poor generalization when are combined with memorization.\nMemorization can reduce training loss to zero, leaving no incentive to learn\nrobust, generalizable patterns. To address this, we propose memorization-aware\ntraining (MAT), which uses held-out predictions as a signal of memorization to\nshift a model's logits. MAT encourages learning robust patterns invariant\nacross distributions, improving generalization under distribution shifts.",
+        "timestamp": "2025-06-11T21:24:39.795Z",
+        "rating": "novote",
+        "publishedDate": "2024-12-10T17:18:33Z",
+        "tags": [
+          "cs.LG",
+          "cs.AI",
+          "stat.ML"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 21,
+        "object_id": "paper:arxiv.2412.07684",
+        "created_at": "2025-06-11T21:24:40+00:00",
+        "updated_at": "2025-06-11T21:24:58+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2410.01769": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2410.01769",
+        "url": "https://arxiv.org/pdf/2410.01769?",
+        "title": "Quantifying Generalization Complexity for Large Language Models",
+        "authors": "Zhenting Qi, Hongyin Luo, Xuliang Huang, Zhuokai Zhao, Yibo Jiang, Xiangjun Fan, Himabindu Lakkaraju, James Glass",
+        "abstract": "While large language models (LLMs) have shown exceptional capabilities in\nunderstanding complex queries and performing sophisticated tasks, their\ngeneralization abilities are often deeply entangled with memorization,\nnecessitating more precise evaluation. To address this challenge, we introduce\nScylla, a dynamic evaluation framework that quantitatively measures the\ngeneralization abilities of LLMs. Scylla disentangles generalization from\nmemorization via assessing model performance on both in-distribution (ID) and\nout-of-distribution (OOD) data through 20 tasks across 5 levels of complexity.\nThrough extensive experiments, we uncover a non-monotonic relationship between\ntask complexity and the performance gap between ID and OOD data, which we term\nthe generalization valley. Specifically, this phenomenon reveals a critical\nthreshold - referred to as critical complexity - where reliance on\nnon-generalizable behavior peaks, indicating the upper bound of LLMs'\ngeneralization capabilities. As model size increases, the critical complexity\nshifts toward higher levels of task complexity, suggesting that larger models\ncan handle more complex reasoning tasks before over-relying on memorization.\nLeveraging Scylla and the concept of critical complexity, we benchmark 28LLMs\nincluding both open-sourced models such as LLaMA and Qwen families, and\nclose-sourced models like Claude and GPT, providing a more robust evaluation\nand establishing a clearer understanding of LLMs' generalization capabilities.",
+        "timestamp": "2025-06-11T21:24:39.623Z",
+        "rating": "novote",
+        "publishedDate": "2024-10-02T17:25:37Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 20,
+        "object_id": "paper:arxiv.2410.01769",
+        "created_at": "2025-06-11T21:24:39+00:00",
+        "updated_at": "2025-06-11T21:25:03+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2407.14985": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2407.14985",
+        "url": "https://arxiv.org/pdf/2407.14985",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-06-11T21:24:11.679Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 19,
+        "object_id": "paper:arxiv.2407.14985",
+        "created_at": "2025-06-11T21:24:11+00:00",
+        "updated_at": "2025-06-11T21:24:36+00:00",
         "version": 1
       }
     }

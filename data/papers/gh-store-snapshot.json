@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-11T21:25:33.640879+00:00",
+  "snapshot_time": "2025-06-11T21:27:10.952888+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -539,6 +539,33 @@
         "object_id": "paper:arxiv.2407.14985",
         "created_at": "2025-06-11T21:24:11+00:00",
         "updated_at": "2025-06-11T21:24:36+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2407.21530": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2407.21530",
+        "url": "https://arxiv.org/abs/2407.21530",
+        "title": "Data Contamination Report from the 2024 CONDA Shared Task",
+        "authors": "Oscar Sainz, Iker Garc\u00eda-Ferrero, Alon Jacovi, Jon Ander Campos, Yanai Elazar, Eneko Agirre, Yoav Goldberg, Wei-Lin Chen, Jenny Chim, Leshem Choshen, Luca D'Amico-Wong, Melissa Dell, Run-Ze Fan, Shahriar Golchin, Yucheng Li, Pengfei Liu, Bhavish Pahwa, Ameya Prabhu, Suryansh Sharma, Emily Silcock, Kateryna Solonko, David Stap, Mihai Surdeanu, Yu-Min Tseng, Vishaal Udandarao, Zengzhi Wang, Ruijie Xu, Jinglin Yang",
+        "abstract": "The 1st Workshop on Data Contamination (CONDA 2024) focuses on all relevant aspects of data contamination in natural language processing, where data contamination is understood as situations where evaluation data is included in pre-training corpora used to train large scale models, compromising evaluation results. The workshop fostered a shared task to collect evidence on data contamination in current available datasets and models. The goal of the shared task and associated database is to assist the community in understanding the extent of the problem and to assist researchers in avoiding reporting evaluation results on known contaminated resources. The shared task provides a structured, centralized public database for the collection of contamination evidence, open to contributions from the community via GitHub pool requests. This first compilation paper is based on 566 reported entries over 91 contaminated sources from a total of 23 contributors. The details of the individual contamination events are available in the platform. The platform continues to be online, open to contributions from the community.",
+        "timestamp": "2025-06-11T21:26:27.743Z",
+        "rating": "novote",
+        "publishedDate": "2024/07/31",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 22,
+        "object_id": "paper:arxiv.2407.21530",
+        "created_at": "2025-06-11T21:26:28+00:00",
+        "updated_at": "2025-06-11T21:26:45+00:00",
         "version": 1
       }
     }

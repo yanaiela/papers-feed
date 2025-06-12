@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-11T21:55:27.849199+00:00",
+  "snapshot_time": "2025-06-12T17:20:50.841205+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -594,6 +594,1102 @@
         "object_id": "paper:arxiv.2504.02810",
         "created_at": "2025-06-11T21:54:40+00:00",
         "updated_at": "2025-06-11T21:54:59+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.02126": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.02126",
+        "url": "https://arxiv.org/pdf/2506.02126",
+        "title": "Knowledge or Reasoning? A Close Look at How LLMs Think Across Domains",
+        "authors": "Juncheng Wu, Sheng Liu, Haoqin Tu, Hang Yu, Xiaoke Huang, James Zou, Cihang Xie, Yuyin Zhou",
+        "abstract": "Recent advances in reasoning-enhanced Large Language Models such as\nOpenAI-o1/3 and DeepSeek-R1 have significantly improved performance on complex\ntasks. However, the quality and transparency of their internal reasoning\nprocesses remain underexplored. This work moves beyond the final-answer\naccuracy and investigates step-by-step reasoning in the medical and\nmathematical domains by explicitly decomposing the thinking trajectories into\ntwo parts: knowledge and reasoning. Specifically, we introduce a fine-grained\nevaluation framework that judges: (1) the correctness of knowledge used\n(measured by Knowledge Index (KI)) and (2) the quality of reasoning (measured\nby Information Gain (InfoGain)). Using this framework, we study R1-distilled\nand base Qwen models trained with supervised fine-tuning (SFT) and/or\nreinforcement learning (RL) in the medical and math domains. Three intriguing\nfindings emerge: (1) The general reasoning abilities in R1-distilled models do\nnot transfer effectively to the medical domain through either SFT or RL. (2)\nSFT raises final-answer accuracy in both domains, but often at the cost of\nreasoning quality: InfoGain drops by 38.9% on average compared with untrained\nmodels; In the medical domain, however, SFT remains crucial because domain\nknowledge is indispensable. (3) RL enhances medical reasoning by pruning\ninaccurate or irrelevant knowledge from reasoning paths, thereby improving both\nreasoning accuracy and knowledge correctness.",
+        "timestamp": "2025-06-12T17:19:47.018Z",
+        "rating": "novote",
+        "publishedDate": "2025-06-02T18:01:00Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 63,
+        "object_id": "paper:arxiv.2506.02126",
+        "created_at": "2025-06-12T17:19:47+00:00",
+        "updated_at": "2025-06-12T17:20:22+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2408.03247": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2408.03247",
+        "url": "https://arxiv.org/pdf/2408.03247",
+        "title": "Unveiling Factual Recall Behaviors of Large Language Models through\n  Knowledge Neurons",
+        "authors": "Yifei Wang, Yuheng Chen, Wanting Wen, Yu Sheng, Linjing Li, Daniel Dajun Zeng",
+        "abstract": "In this paper, we investigate whether Large Language Models (LLMs) actively\nrecall or retrieve their internal repositories of factual knowledge when faced\nwith reasoning tasks. Through an analysis of LLMs' internal factual recall at\neach reasoning step via Knowledge Neurons, we reveal that LLMs fail to harness\nthe critical factual associations under certain circumstances. Instead, they\ntend to opt for alternative, shortcut-like pathways to answer reasoning\nquestions. By manually manipulating the recall process of parametric knowledge\nin LLMs, we demonstrate that enhancing this recall process directly improves\nreasoning performance whereas suppressing it leads to notable degradation.\nFurthermore, we assess the effect of Chain-of-Thought (CoT) prompting, a\npowerful technique for addressing complex reasoning tasks. Our findings\nindicate that CoT can intensify the recall of factual knowledge by encouraging\nLLMs to engage in orderly and reliable reasoning. Furthermore, we explored how\ncontextual conflicts affect the retrieval of facts during the reasoning process\nto gain a comprehensive understanding of the factual recall behaviors of LLMs.\nCode and data will be available soon.",
+        "timestamp": "2025-06-12T17:19:47.017Z",
+        "rating": "novote",
+        "publishedDate": "2024-08-06T15:07:08Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 62,
+        "object_id": "paper:arxiv.2408.03247",
+        "created_at": "2025-06-12T17:19:47+00:00",
+        "updated_at": "2025-06-12T17:20:25+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2504.09522": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.09522",
+        "url": "https://arxiv.org/pdf/2504.09522",
+        "title": "How new data permeates LLM knowledge and how to dilute it",
+        "authors": "Chen Sun, Renat Aksitov, Andrey Zhmoginov, Nolan Andrew Miller, Max Vladymyrov, Ulrich Rueckert, Been Kim, Mark Sandler",
+        "abstract": "Large language models learn and continually learn through the accumulation of\ngradient-based updates, but how individual pieces of new information affect\nexisting knowledge, leading to both beneficial generalization and problematic\nhallucination, remains poorly understood. We demonstrate that when learning new\ninformation, LLMs exhibit a \"priming\" effect: learning a new fact can cause the\nmodel to inappropriately apply that knowledge in unrelated contexts. To\nsystematically study this phenomenon, we introduce \"Outlandish,\" a carefully\ncurated dataset of 1320 diverse text samples designed to probe how new\nknowledge permeates through an LLM's existing knowledge base. Using this\ndataset, we show that the degree of priming after learning new information can\nbe predicted by measuring the token probability of key words before learning.\nThis relationship holds robustly across different model architectures (PALM-2,\nGemma, Llama), sizes, and training stages. Finally, we develop two novel\ntechniques to modulate how new knowledge affects existing model behavior: (1) a\n``stepping-stone'' text augmentation strategy and (2) an ``ignore-k'' update\npruning method. These approaches reduce undesirable priming effects by 50-95\\%\nwhile preserving the model's ability to learn new information. Our findings\nprovide both empirical insights into how LLMs learn and practical tools for\nimproving the specificity of knowledge insertion in language models. Further\nmaterials: https://sunchipsster1.github.io/projects/outlandish/",
+        "timestamp": "2025-06-12T17:19:46.979Z",
+        "rating": "novote",
+        "publishedDate": "2025-04-13T11:25:04Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 61,
+        "object_id": "paper:arxiv.2504.09522",
+        "created_at": "2025-06-12T17:19:47+00:00",
+        "updated_at": "2025-06-12T17:20:18+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2505.14685": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.14685",
+        "url": "https://arxiv.org/pdf/2505.14685",
+        "title": "Language Models use Lookbacks to Track Beliefs",
+        "authors": "Nikhil Prakash, Natalie Shapira, Arnab Sen Sharma, Christoph Riedl, Yonatan Belinkov, Tamar Rott Shaham, David Bau, Atticus Geiger",
+        "abstract": "How do language models (LMs) represent characters' beliefs, especially when\nthose beliefs may differ from reality? This question lies at the heart of\nunderstanding the Theory of Mind (ToM) capabilities of LMs. We analyze\nLlama-3-70B-Instruct's ability to reason about characters' beliefs using causal\nmediation and abstraction. We construct a dataset that consists of simple\nstories where two characters each separately change the state of two objects,\npotentially unaware of each other's actions. Our investigation uncovered a\npervasive algorithmic pattern that we call a lookback mechanism, which enables\nthe LM to recall important information when it becomes necessary. The LM binds\neach character-object-state triple together by co-locating reference\ninformation about them, represented as their Ordering IDs (OIs) in low rank\nsubspaces of the state token's residual stream. When asked about a character's\nbeliefs regarding the state of an object, the binding lookback retrieves the\ncorresponding state OI and then an answer lookback retrieves the state token.\nWhen we introduce text specifying that one character is (not) visible to the\nother, we find that the LM first generates a visibility ID encoding the\nrelation between the observing and the observed character OIs. In a visibility\nlookback, this ID is used to retrieve information about the observed character\nand update the observing character's beliefs. Our work provides insights into\nthe LM's belief tracking mechanisms, taking a step toward reverse-engineering\nToM reasoning in LMs.",
+        "timestamp": "2025-06-12T17:19:46.992Z",
+        "rating": "novote",
+        "publishedDate": "2025-05-20T17:59:45Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 60,
+        "object_id": "paper:arxiv.2505.14685",
+        "created_at": "2025-06-12T17:19:47+00:00",
+        "updated_at": "2025-06-12T17:20:25+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2504.20879": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.20879",
+        "url": "https://arxiv.org/pdf/2504.20879",
+        "title": "The Leaderboard Illusion",
+        "authors": "Shivalika Singh, Yiyang Nan, Alex Wang, Daniel D'Souza, Sayash Kapoor, Ahmet \u00dcst\u00fcn, Sanmi Koyejo, Yuntian Deng, Shayne Longpre, Noah A. Smith, Beyza Ermis, Marzieh Fadaee, Sara Hooker",
+        "abstract": "Measuring progress is fundamental to the advancement of any scientific field.\nAs benchmarks play an increasingly central role, they also grow more\nsusceptible to distortion. Chatbot Arena has emerged as the go-to leaderboard\nfor ranking the most capable AI systems. Yet, in this work we identify\nsystematic issues that have resulted in a distorted playing field. We find that\nundisclosed private testing practices benefit a handful of providers who are\nable to test multiple variants before public release and retract scores if\ndesired. We establish that the ability of these providers to choose the best\nscore leads to biased Arena scores due to selective disclosure of performance\nresults. At an extreme, we identify 27 private LLM variants tested by Meta in\nthe lead-up to the Llama-4 release. We also establish that proprietary closed\nmodels are sampled at higher rates (number of battles) and have fewer models\nremoved from the arena than open-weight and open-source alternatives. Both\nthese policies lead to large data access asymmetries over time. Providers like\nGoogle and OpenAI have received an estimated 19.2% and 20.4% of all data on the\narena, respectively. In contrast, a combined 83 open-weight models have only\nreceived an estimated 29.7% of the total data. We show that access to Chatbot\nArena data yields substantial benefits; even limited additional data can result\nin relative performance gains of up to 112% on the arena distribution, based on\nour conservative estimates. Together, these dynamics result in overfitting to\nArena-specific dynamics rather than general model quality. The Arena builds on\nthe substantial efforts of both the organizers and an open community that\nmaintains this valuable evaluation platform. We offer actionable\nrecommendations to reform the Chatbot Arena's evaluation framework and promote\nfairer, more transparent benchmarking for the field",
+        "timestamp": "2025-06-12T17:19:46.991Z",
+        "rating": "novote",
+        "publishedDate": "2025-04-29T15:48:49Z",
+        "tags": [
+          "cs.AI",
+          "cs.CL",
+          "cs.LG",
+          "stat.ME"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 59,
+        "object_id": "paper:arxiv.2504.20879",
+        "created_at": "2025-06-12T17:19:47+00:00",
+        "updated_at": "2025-06-12T17:20:21+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2310.13121": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.13121",
+        "url": "https://arxiv.org/pdf/2310.13121",
+        "title": "Understanding Addition in Transformers",
+        "authors": "Philip Quirke, Fazl Barez",
+        "abstract": "Understanding the inner workings of machine learning models like Transformers\nis vital for their safe and ethical use. This paper provides a comprehensive\nanalysis of a one-layer Transformer model trained to perform n-digit integer\naddition. Our findings suggest that the model dissects the task into parallel\nstreams dedicated to individual digits, employing varied algorithms tailored to\ndifferent positions within the digits. Furthermore, we identify a rare scenario\ncharacterized by high loss, which we explain. By thoroughly elucidating the\nmodel's algorithm, we provide new insights into its functioning. These findings\nare validated through rigorous testing and mathematical modeling, thereby\ncontributing to the broader fields of model understanding and interpretability.\nOur approach opens the door for analyzing more complex tasks and multi-layer\nTransformer models.",
+        "timestamp": "2025-06-12T17:19:43.181Z",
+        "rating": "novote",
+        "publishedDate": "2023-10-19T19:34:42Z",
+        "tags": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 58,
+        "object_id": "paper:arxiv.2310.13121",
+        "created_at": "2025-06-12T17:19:43+00:00",
+        "updated_at": "2025-06-12T17:20:20+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2505.00985": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.00985",
+        "url": "https://arxiv.org/pdf/2505.00985",
+        "title": "Position: Enough of Scaling LLMs! Lets Focus on Downscaling",
+        "authors": "Yash Goel, Ayan Sengupta, Tanmoy Chakraborty",
+        "abstract": "We challenge the dominant focus on neural scaling laws and advocate for a\nparadigm shift toward downscaling in the development of large language models\n(LLMs). While scaling laws have provided critical insights into performance\nimprovements through increasing model and dataset size, we emphasize the\nsignificant limitations of this approach, particularly in terms of\ncomputational inefficiency, environmental impact, and deployment constraints.\nTo address these challenges, we propose a holistic framework for downscaling\nLLMs that seeks to maintain performance while drastically reducing resource\ndemands. This paper outlines practical strategies for transitioning away from\ntraditional scaling paradigms, advocating for a more sustainable, efficient,\nand accessible approach to LLM development.",
+        "timestamp": "2025-06-12T17:19:43.183Z",
+        "rating": "novote",
+        "publishedDate": "2025-05-02T04:13:27Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 57,
+        "object_id": "paper:arxiv.2505.00985",
+        "created_at": "2025-06-12T17:19:43+00:00",
+        "updated_at": "2025-06-12T17:20:18+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2501.17148": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2501.17148",
+        "url": "https://arxiv.org/abs/2501.17148",
+        "title": "AxBench: Steering LLMs? Even Simple Baselines Outperform Sparse Autoencoders",
+        "authors": "Zhengxuan Wu, Aryaman Arora, Atticus Geiger, Zheng Wang, Jing Huang, Dan Jurafsky, Christopher D. Manning, Christopher Potts",
+        "abstract": "Fine-grained steering of language model outputs is essential for safety and reliability. Prompting and finetuning are widely used to achieve these goals, but interpretability researchers have proposed a variety of representation-based techniques as well, including sparse autoencoders (SAEs), linear artificial tomography, supervised steering vectors, linear probes, and representation finetuning. At present, there is no benchmark for making direct comparisons between these proposals. Therefore, we introduce AxBench, a large-scale benchmark for steering and concept detection, and report experiments on Gemma-2-2B and 9B. For steering, we find that prompting outperforms all existing methods, followed by finetuning. For concept detection, representation-based methods such as difference-in-means, perform the best. On both evaluations, SAEs are not competitive. We introduce a novel weakly-supervised representational method (Rank-1 Representation Finetuning; ReFT-r1), which is competitive on both tasks while providing the interpretability advantages that prompting lacks. Along with AxBench, we train and publicly release SAE-scale feature dictionaries for ReFT-r1 and DiffMean.",
+        "timestamp": "2025-06-12T17:19:43.193Z",
+        "rating": "novote",
+        "publishedDate": "2025/01/28",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 56,
+        "object_id": "paper:arxiv.2501.17148",
+        "created_at": "2025-06-12T17:19:43+00:00",
+        "updated_at": "2025-06-12T17:20:15+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2312.01552": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2312.01552",
+        "url": "https://arxiv.org/pdf/2312.01552",
+        "title": "The Unlocking Spell on Base LLMs: Rethinking Alignment via In-Context\n  Learning",
+        "authors": "Bill Yuchen Lin, Abhilasha Ravichander, Ximing Lu, Nouha Dziri, Melanie Sclar, Khyathi Chandu, Chandra Bhagavatula, Yejin Choi",
+        "abstract": "The alignment tuning process of large language models (LLMs) typically\ninvolves instruction learning through supervised fine-tuning (SFT) and\npreference tuning via reinforcement learning from human feedback (RLHF). A\nrecent study, LIMA (Zhou et al. 2023), shows that using merely 1K examples for\nSFT can achieve significant alignment performance as well, suggesting that the\neffect of alignment tuning might be \"superficial.\" This raises questions about\nhow exactly the alignment tuning transforms a base LLM.\n  We analyze the effect of alignment tuning by examining the token distribution\nshift between base LLMs and their aligned counterpart. Our findings reveal that\nbase LLMs and their alignment-tuned versions perform nearly identically in\ndecoding on the majority of token positions. Most distribution shifts occur\nwith stylistic tokens. These direct evidence strongly supports the Superficial\nAlignment Hypothesis suggested by LIMA.\n  Based on these findings, we rethink the alignment of LLMs by posing the\nresearch question: how effectively can we align base LLMs without SFT or RLHF?\nTo address this, we introduce a simple, tuning-free alignment method, URIAL.\nURIAL achieves effective alignment purely through in-context learning (ICL)\nwith base LLMs, requiring as few as three constant stylistic examples and a\nsystem prompt. We conduct a fine-grained and interpretable evaluation on a\ndiverse set of examples, named JUST-EVAL-INSTRUCT. Results demonstrate that\nbase LLMs with URIAL can match or even surpass the performance of LLMs aligned\nwith SFT or SFT+RLHF. We show that the gap between tuning-free and tuning-based\nalignment methods can be significantly reduced through strategic prompting and\nICL. Our findings on the superficial nature of alignment tuning and results\nwith URIAL suggest that deeper analysis and theoretical understanding of\nalignment is crucial to future LLM research.",
+        "timestamp": "2025-06-12T17:19:42.594Z",
+        "rating": "novote",
+        "publishedDate": "2023-12-04T00:46:11Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 55,
+        "object_id": "paper:arxiv.2312.01552",
+        "created_at": "2025-06-12T17:19:43+00:00",
+        "updated_at": "2025-06-12T17:20:23+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2411.08019": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2411.08019",
+        "url": "https://arxiv.org/pdf/2411.08019",
+        "title": "Language Models as Causal Effect Generators",
+        "authors": "Lucius E. J. Bynum, Kyunghyun Cho",
+        "abstract": "We present a framework for large language model (LLM) based data generation\nwith controllable causal structure. In particular, we define a procedure for\nturning any language model and any directed acyclic graph (DAG) into a\nsequence-driven structural causal model (SD-SCM). Broadly speaking, an SD-SCM\nis a causal model with user-defined structure and LLM-defined structural\nequations. We characterize how an SD-SCM allows sampling from observational,\ninterventional, and counterfactual distributions according to the desired\ncausal structure. We then leverage this procedure to propose a new type of\nbenchmark for causal inference methods, generating individual-level\ncounterfactual data without needing to manually specify functional\nrelationships between variables. We create an example benchmark consisting of\nthousands of datasets, and test a suite of popular estimation methods on these\ndatasets for average, conditional average, and individual treatment effect\nestimation, both with and without hidden confounding. Apart from generating\ndata, the same procedure also allows us to test for the presence of a causal\neffect that might be encoded in an LLM. This procedure can underpin auditing\nLLMs for misinformation, discrimination, or otherwise undesirable behavior. We\nbelieve SD-SCMs can serve as a useful tool in any application that would\nbenefit from sequential data with controllable causal structure.",
+        "timestamp": "2025-06-12T17:19:42.507Z",
+        "rating": "novote",
+        "publishedDate": "2024-11-12T18:50:35Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG",
+          "stat.AP",
+          "stat.ME",
+          "stat.ML"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 54,
+        "object_id": "paper:arxiv.2411.08019",
+        "created_at": "2025-06-12T17:19:43+00:00",
+        "updated_at": "2025-06-12T17:20:18+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2504.18114": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.18114",
+        "url": "https://arxiv.org/pdf/2504.18114",
+        "title": "Evaluating Evaluation Metrics -- The Mirage of Hallucination Detection",
+        "authors": "Atharva Kulkarni, Yuan Zhang, Joel Ruben Antony Moniz, Xiou Ge, Bo-Hsiang Tseng, Dhivya Piraviperumal, Swabha Swayamdipta, Hong Yu",
+        "abstract": "Hallucinations pose a significant obstacle to the reliability and widespread\nadoption of language models, yet their accurate measurement remains a\npersistent challenge. While many task- and domain-specific metrics have been\nproposed to assess faithfulness and factuality concerns, the robustness and\ngeneralization of these metrics are still untested. In this paper, we conduct a\nlarge-scale empirical evaluation of 6 diverse sets of hallucination detection\nmetrics across 4 datasets, 37 language models from 5 families, and 5 decoding\nmethods. Our extensive investigation reveals concerning gaps in current\nhallucination evaluation: metrics often fail to align with human judgments,\ntake an overtly myopic view of the problem, and show inconsistent gains with\nparameter scaling. Encouragingly, LLM-based evaluation, particularly with\nGPT-4, yields the best overall results, and mode-seeking decoding methods seem\nto reduce hallucinations, especially in knowledge-grounded settings. These\nfindings underscore the need for more robust metrics to understand and quantify\nhallucinations, and better strategies to mitigate them.",
+        "timestamp": "2025-06-12T17:19:41.879Z",
+        "rating": "novote",
+        "publishedDate": "2025-04-25T06:37:29Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 53,
+        "object_id": "paper:arxiv.2504.18114",
+        "created_at": "2025-06-12T17:19:43+00:00",
+        "updated_at": "2025-06-12T17:20:15+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2403.03867": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2403.03867",
+        "url": "https://arxiv.org/pdf/2403.03867",
+        "title": "On the Origins of Linear Representations in Large Language Models",
+        "authors": "Yibo Jiang, Goutham Rajendran, Pradeep Ravikumar, Bryon Aragam, Victor Veitch",
+        "abstract": "Recent works have argued that high-level semantic concepts are encoded\n\"linearly\" in the representation space of large language models. In this work,\nwe study the origins of such linear representations. To that end, we introduce\na simple latent variable model to abstract and formalize the concept dynamics\nof the next token prediction. We use this formalism to show that the next token\nprediction objective (softmax with cross-entropy) and the implicit bias of\ngradient descent together promote the linear representation of concepts.\nExperiments show that linear representations emerge when learning from data\nmatching the latent variable model, confirming that this simple structure\nalready suffices to yield linear representations. We additionally confirm some\npredictions of the theory using the LLaMA-2 large language model, giving\nevidence that the simplified model yields generalizable insights.",
+        "timestamp": "2025-06-12T17:19:41.258Z",
+        "rating": "novote",
+        "publishedDate": "2024-03-06T17:17:36Z",
+        "tags": [
+          "cs.CL",
+          "cs.LG",
+          "stat.ML"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 52,
+        "object_id": "paper:arxiv.2403.03867",
+        "created_at": "2025-06-12T17:19:41+00:00",
+        "updated_at": "2025-06-12T17:20:13+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2406.04289": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2406.04289",
+        "url": "https://arxiv.org/pdf/2406.04289",
+        "title": "What Languages are Easy to Language-Model? A Perspective from Learning\n  Probabilistic Regular Languages",
+        "authors": "Nadav Borenstein, Anej Svete, Robin Chan, Josef Valvoda, Franz Nowak, Isabelle Augenstein, Eleanor Chodroff, Ryan Cotterell",
+        "abstract": "What can large language models learn? By definition, language models (LM) are\ndistributions over strings. Therefore, an intuitive way of addressing the above\nquestion is to formalize it as a matter of learnability of classes of\ndistributions over strings. While prior work in this direction focused on\nassessing the theoretical limits, in contrast, we seek to understand the\nempirical learnability. Unlike prior empirical work, we evaluate neural LMs on\ntheir home turf-learning probabilistic languages-rather than as classifiers of\nformal languages. In particular, we investigate the learnability of regular LMs\n(RLMs) by RNN and Transformer LMs. We empirically test the learnability of RLMs\nas a function of various complexity parameters of the RLM and the hidden state\nsize of the neural LM. We find that the RLM rank, which corresponds to the size\nof linear space spanned by the logits of its conditional distributions, and the\nexpected length of sampled strings are strong and significant predictors of\nlearnability for both RNNs and Transformers. Several other predictors also\nreach significance, but with differing patterns between RNNs and Transformers.",
+        "timestamp": "2025-06-12T17:19:41.006Z",
+        "rating": "novote",
+        "publishedDate": "2024-06-06T17:34:24Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 51,
+        "object_id": "paper:arxiv.2406.04289",
+        "created_at": "2025-06-12T17:19:41+00:00",
+        "updated_at": "2025-06-12T17:20:15+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2210.10749": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2210.10749",
+        "url": "https://arxiv.org/pdf/2210.10749",
+        "title": "Transformers Learn Shortcuts to Automata",
+        "authors": "Bingbin Liu, Jordan T. Ash, Surbhi Goel, Akshay Krishnamurthy, Cyril Zhang",
+        "abstract": "Algorithmic reasoning requires capabilities which are most naturally\nunderstood through recurrent models of computation, like the Turing machine.\nHowever, Transformer models, while lacking recurrence, are able to perform such\nreasoning using far fewer layers than the number of reasoning steps. This\nraises the question: what solutions are learned by these shallow and\nnon-recurrent models? We find that a low-depth Transformer can represent the\ncomputations of any finite-state automaton (thus, any bounded-memory\nalgorithm), by hierarchically reparameterizing its recurrent dynamics. Our\ntheoretical results characterize shortcut solutions, whereby a Transformer with\n$o(T)$ layers can exactly replicate the computation of an automaton on an input\nsequence of length $T$. We find that polynomial-sized $O(\\log T)$-depth\nsolutions always exist; furthermore, $O(1)$-depth simulators are surprisingly\ncommon, and can be understood using tools from Krohn-Rhodes theory and circuit\ncomplexity. Empirically, we perform synthetic experiments by training\nTransformers to simulate a wide variety of automata, and show that shortcut\nsolutions can be learned via standard training. We further investigate the\nbrittleness of these solutions and propose potential mitigations.",
+        "timestamp": "2025-06-12T17:19:41.006Z",
+        "rating": "novote",
+        "publishedDate": "2022-10-19T17:45:48Z",
+        "tags": [
+          "cs.LG",
+          "cs.FL",
+          "stat.ML"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 50,
+        "object_id": "paper:arxiv.2210.10749",
+        "created_at": "2025-06-12T17:19:41+00:00",
+        "updated_at": "2025-06-12T17:20:16+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2503.03703": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.03703",
+        "url": "https://arxiv.org/pdf/2503.03703",
+        "title": "SoftMatcha: A Soft and Fast Pattern Matcher for Billion-Scale Corpus\n  Searches",
+        "authors": "Hiroyuki Deguchi, Go Kamoda, Yusuke Matsushita, Chihiro Taguchi, Kohei Suenaga, Masaki Waga, Sho Yokoi",
+        "abstract": "Researchers and practitioners in natural language processing and\ncomputational linguistics frequently observe and analyze the real language\nusage in large-scale corpora. For that purpose, they often employ off-the-shelf\npattern-matching tools, such as grep, and keyword-in-context concordancers,\nwhich is widely used in corpus linguistics for gathering examples. Nonetheless,\nthese existing techniques rely on surface-level string matching, and thus they\nsuffer from the major limitation of not being able to handle orthographic\nvariations and paraphrasing -- notable and common phenomena in any natural\nlanguage. In addition, existing continuous approaches such as dense vector\nsearch tend to be overly coarse, often retrieving texts that are unrelated but\nshare similar topics. Given these challenges, we propose a novel algorithm that\nachieves \\emph{soft} (or semantic) yet efficient pattern matching by relaxing a\nsurface-level matching with word embeddings. Our algorithm is highly scalable\nwith respect to the size of the corpus text utilizing inverted indexes. We have\nprepared an efficient implementation, and we provide an accessible web tool.\nOur experiments demonstrate that the proposed method (i) can execute searches\non billion-scale corpora in less than a second, which is comparable in speed to\nsurface-level string matching and dense vector search; (ii) can extract harmful\ninstances that semantically match queries from a large set of English and\nJapanese Wikipedia articles; and (iii) can be effectively applied to\ncorpus-linguistic analyses of Latin, a language with highly diverse\ninflections.",
+        "timestamp": "2025-06-12T17:19:40.474Z",
+        "rating": "novote",
+        "publishedDate": "2025-03-05T17:53:11Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 49,
+        "object_id": "paper:arxiv.2503.03703",
+        "created_at": "2025-06-12T17:19:41+00:00",
+        "updated_at": "2025-06-12T17:20:14+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.HvSytvg3Jh": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "HvSytvg3Jh",
+        "url": "https://openreview.net/pdf?id=HvSytvg3Jh",
+        "title": "HvSytvg3Jh",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-06-12T17:19:39.787Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "pdf"
+      },
+      "meta": {
+        "issue_number": 48,
+        "object_id": "paper:openreview.HvSytvg3Jh",
+        "created_at": "2025-06-12T17:19:40+00:00",
+        "updated_at": "2025-06-12T17:20:11+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.HD6bWcj87Y": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "HD6bWcj87Y",
+        "url": "https://openreview.net/pdf?id=HD6bWcj87Y",
+        "title": "HD6bWcj87Y",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-06-12T17:19:38.488Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "pdf"
+      },
+      "meta": {
+        "issue_number": 47,
+        "object_id": "paper:openreview.HD6bWcj87Y",
+        "created_at": "2025-06-12T17:19:40+00:00",
+        "updated_at": "2025-06-12T17:20:16+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2408.12578": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2408.12578",
+        "url": "https://arxiv.org/pdf/2408.12578",
+        "title": "A Percolation Model of Emergence: Analyzing Transformers Trained on a\n  Formal Language",
+        "authors": "Ekdeep Singh Lubana, Kyogo Kawaguchi, Robert P. Dick, Hidenori Tanaka",
+        "abstract": "Increase in data, size, or compute can lead to sudden learning of specific\ncapabilities by a neural network -- a phenomenon often called \"emergence''.\nBeyond scientific understanding, establishing the causal factors underlying\nsuch emergent capabilities is crucial to enable risk regulation frameworks for\nAI. In this work, we seek inspiration from study of emergent properties in\nother fields and propose a phenomenological definition for the concept in the\ncontext of neural networks. Our definition implicates the acquisition of\ngeneral structures underlying the data-generating process as a cause of sudden\nperformance growth for specific, narrower tasks. We empirically investigate\nthis definition by proposing an experimental system grounded in a\ncontext-sensitive formal language and find that Transformers trained to perform\ntasks on top of strings from this language indeed exhibit emergent\ncapabilities. Specifically, we show that once the language's underlying grammar\nand context-sensitivity inducing structures are learned by the model,\nperformance on narrower tasks suddenly begins to improve. We then analogize our\nnetwork's learning dynamics with the process of percolation on a bipartite\ngraph, establishing a formal phase transition model that predicts the shift in\nthe point of emergence observed in our experiments when changing the data\nstructure. Overall, our experimental and theoretical frameworks yield a step\ntowards better defining, characterizing, and predicting emergence in neural\nnetworks.",
+        "timestamp": "2025-06-12T17:19:34.859Z",
+        "rating": "novote",
+        "publishedDate": "2024-08-22T17:44:22Z",
+        "tags": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 46,
+        "object_id": "paper:arxiv.2408.12578",
+        "created_at": "2025-06-12T17:19:35+00:00",
+        "updated_at": "2025-06-12T17:20:17+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2311.12786": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2311.12786",
+        "url": "https://arxiv.org/pdf/2311.12786",
+        "title": "Mechanistically analyzing the effects of fine-tuning on procedurally\n  defined tasks",
+        "authors": "Samyak Jain, Robert Kirk, Ekdeep Singh Lubana, Robert P. Dick, Hidenori Tanaka, Edward Grefenstette, Tim Rockt\u00e4schel, David Scott Krueger",
+        "abstract": "Fine-tuning large pre-trained models has become the de facto strategy for\ndeveloping both task-specific and general-purpose machine learning systems,\nincluding developing models that are safe to deploy. Despite its clear\nimportance, there has been minimal work that explains how fine-tuning alters\nthe underlying capabilities learned by a model during pretraining: does\nfine-tuning yield entirely novel capabilities or does it just modulate existing\nones? We address this question empirically in synthetic, controlled settings\nwhere we can use mechanistic interpretability tools (e.g., network pruning and\nprobing) to understand how the model's underlying capabilities are changing. We\nperform an extensive analysis of the effects of fine-tuning in these settings,\nand show that: (i) fine-tuning rarely alters the underlying model capabilities;\n(ii) a minimal transformation, which we call a 'wrapper', is typically learned\non top of the underlying model capabilities, creating the illusion that they\nhave been modified; and (iii) further fine-tuning on a task where such hidden\ncapabilities are relevant leads to sample-efficient 'revival' of the\ncapability, i.e., the model begins reusing these capability after only a few\ngradient steps. This indicates that practitioners can unintentionally remove a\nmodel's safety wrapper merely by fine-tuning it on a, e.g., superficially\nunrelated, downstream task. We additionally perform analysis on language models\ntrained on the TinyStories dataset to support our claims in a more realistic\nsetup.",
+        "timestamp": "2025-06-12T17:19:34.136Z",
+        "rating": "novote",
+        "publishedDate": "2023-11-21T18:51:04Z",
+        "tags": [
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 45,
+        "object_id": "paper:arxiv.2311.12786",
+        "created_at": "2025-06-12T17:19:34+00:00",
+        "updated_at": "2025-06-12T17:20:21+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2503.18866": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.18866",
+        "url": "https://arxiv.org/pdf/2503.18866",
+        "title": "Reasoning to Learn from Latent Thoughts",
+        "authors": "Yangjun Ruan, Neil Band, Chris J. Maddison, Tatsunori Hashimoto",
+        "abstract": "Compute scaling for language model (LM) pretraining has outpaced the growth\nof human-written texts, leading to concerns that data will become the\nbottleneck to LM scaling. To continue scaling pretraining in this\ndata-constrained regime, we propose that explicitly modeling and inferring the\nlatent thoughts that underlie the text generation process can significantly\nimprove pretraining data efficiency. Intuitively, our approach views web text\nas the compressed final outcome of a verbose human thought process and that the\nlatent thoughts contain important contextual knowledge and reasoning steps that\nare critical to data-efficient learning. We empirically demonstrate the\neffectiveness of our approach through data-constrained continued pretraining\nfor math. We first show that synthetic data approaches to inferring latent\nthoughts significantly improve data efficiency, outperforming training on the\nsame amount of raw data (5.7\\% $\\rightarrow$ 25.4\\% on MATH). Furthermore, we\ndemonstrate latent thought inference without a strong teacher, where an LM\nbootstraps its own performance by using an EM algorithm to iteratively improve\nthe capability of the trained LM and the quality of thought-augmented\npretraining data. We show that a 1B LM can bootstrap its performance across at\nleast three iterations and significantly outperform baselines trained on raw\ndata, with increasing gains from additional inference compute when performing\nthe E-step. The gains from inference scaling and EM iterations suggest new\nopportunities for scaling data-constrained pretraining.",
+        "timestamp": "2025-06-12T17:19:34.135Z",
+        "rating": "novote",
+        "publishedDate": "2025-03-24T16:41:23Z",
+        "tags": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 44,
+        "object_id": "paper:arxiv.2503.18866",
+        "created_at": "2025-06-12T17:19:34+00:00",
+        "updated_at": "2025-06-12T17:19:57+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2503.10061": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.10061",
+        "url": "https://arxiv.org/pdf/2503.10061",
+        "title": "Compute Optimal Scaling of Skills: Knowledge vs Reasoning",
+        "authors": "Nicholas Roberts, Niladri Chatterji, Sharan Narang, Mike Lewis, Dieuwke Hupkes",
+        "abstract": "Scaling laws are a critical component of the LLM development pipeline, most\nfamously as a way to forecast training decisions such as 'compute-optimally'\ntrading-off parameter count and dataset size, alongside a more recent growing\nlist of other crucial decisions. In this work, we ask whether compute-optimal\nscaling behaviour can be skill-dependent. In particular, we examine knowledge\nand reasoning-based skills such as knowledge-based QA and code generation, and\nwe answer this question in the affirmative: scaling laws are skill-dependent.\nNext, to understand whether skill-dependent scaling is an artefact of the\npretraining datamix, we conduct an extensive ablation of different datamixes\nand find that, also when correcting for datamix differences, knowledge and code\nexhibit fundamental differences in scaling behaviour. We conclude with an\nanalysis of how our findings relate to standard compute-optimal scaling using a\nvalidation set, and find that a misspecified validation set can impact\ncompute-optimal parameter count by nearly 50%, depending on its skill\ncomposition.",
+        "timestamp": "2025-06-12T17:19:33.076Z",
+        "rating": "novote",
+        "publishedDate": "2025-03-13T05:21:22Z",
+        "tags": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 43,
+        "object_id": "paper:arxiv.2503.10061",
+        "created_at": "2025-06-12T17:19:34+00:00",
+        "updated_at": "2025-06-12T17:20:20+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2411.12580": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2411.12580",
+        "url": "https://arxiv.org/pdf/2411.12580",
+        "title": "Procedural Knowledge in Pretraining Drives Reasoning in Large Language\n  Models",
+        "authors": "Laura Ruis, Maximilian Mozes, Juhan Bae, Siddhartha Rao Kamalakara, Dwarak Talupuru, Acyr Locatelli, Robert Kirk, Tim Rockt\u00e4schel, Edward Grefenstette, Max Bartolo",
+        "abstract": "The capabilities and limitations of Large Language Models have been sketched\nout in great detail in recent years, providing an intriguing yet conflicting\npicture. On the one hand, LLMs demonstrate a general ability to solve problems.\nOn the other hand, they show surprising reasoning gaps when compared to humans,\ncasting doubt on the robustness of their generalisation strategies. The sheer\nvolume of data used in the design of LLMs has precluded us from applying the\nmethod traditionally used to measure generalisation: train-test set separation.\nTo overcome this, we study what kind of generalisation strategies LLMs employ\nwhen performing reasoning tasks by investigating the pretraining data they rely\non. For two models of different sizes (7B and 35B) and 2.5B of their\npretraining tokens, we identify what documents influence the model outputs for\nthree simple mathematical reasoning tasks and contrast this to the data that\nare influential for answering factual questions. We find that, while the models\nrely on mostly distinct sets of data for each factual question, a document\noften has a similar influence across different reasoning questions within the\nsame task, indicating the presence of procedural knowledge. We further find\nthat the answers to factual questions often show up in the most influential\ndata. However, for reasoning questions the answers usually do not show up as\nhighly influential, nor do the answers to the intermediate reasoning steps.\nWhen we characterise the top ranked documents for the reasoning questions\nqualitatively, we confirm that the influential documents often contain\nprocedural knowledge, like demonstrating how to obtain a solution using\nformulae or code. Our findings indicate that the approach to reasoning the\nmodels use is unlike retrieval, and more like a generalisable strategy that\nsynthesises procedural knowledge from documents doing a similar form of\nreasoning.",
+        "timestamp": "2025-06-12T17:19:32.447Z",
+        "rating": "novote",
+        "publishedDate": "2024-11-19T15:47:12Z",
+        "tags": [
+          "cs.CL",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 42,
+        "object_id": "paper:arxiv.2411.12580",
+        "created_at": "2025-06-12T17:19:33+00:00",
+        "updated_at": "2025-06-12T17:19:57+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2409.12183": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2409.12183",
+        "url": "https://arxiv.org/pdf/2409.12183",
+        "title": "To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic\n  reasoning",
+        "authors": "Zayne Sprague, Fangcong Yin, Juan Diego Rodriguez, Dongwei Jiang, Manya Wadhwa, Prasann Singhal, Xinyu Zhao, Xi Ye, Kyle Mahowald, Greg Durrett",
+        "abstract": "Chain-of-thought (CoT) via prompting is the de facto method for eliciting\nreasoning capabilities from large language models (LLMs). But for what kinds of\ntasks is this extra ``thinking'' really helpful? To analyze this, we conducted\na quantitative meta-analysis covering over 100 papers using CoT and ran our own\nevaluations of 20 datasets across 14 models. Our results show that CoT gives\nstrong performance benefits primarily on tasks involving math or logic, with\nmuch smaller gains on other types of tasks. On MMLU, directly generating the\nanswer without CoT leads to almost identical accuracy as CoT unless the\nquestion or model's response contains an equals sign, indicating symbolic\noperations and reasoning. Following this finding, we analyze the behavior of\nCoT on these problems by separating planning and execution and comparing\nagainst tool-augmented LLMs. Much of CoT's gain comes from improving symbolic\nexecution, but it underperforms relative to using a symbolic solver. Our\nresults indicate that CoT can be applied selectively, maintaining performance\nwhile saving inference costs. Furthermore, they suggest a need to move beyond\nprompt-based CoT to new paradigms that better leverage intermediate computation\nacross the whole range of LLM applications.",
+        "timestamp": "2025-06-12T17:19:32.447Z",
+        "rating": "novote",
+        "publishedDate": "2024-09-18T17:55:00Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 41,
+        "object_id": "paper:arxiv.2409.12183",
+        "created_at": "2025-06-12T17:19:33+00:00",
+        "updated_at": "2025-06-12T17:20:05+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2006.07710": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2006.07710",
+        "url": "https://arxiv.org/pdf/2006.07710",
+        "title": "The Pitfalls of Simplicity Bias in Neural Networks",
+        "authors": "Harshay Shah, Kaustav Tamuly, Aditi Raghunathan, Prateek Jain, Praneeth Netrapalli",
+        "abstract": "Several works have proposed Simplicity Bias (SB)---the tendency of standard\ntraining procedures such as Stochastic Gradient Descent (SGD) to find simple\nmodels---to justify why neural networks generalize well [Arpit et al. 2017,\nNakkiran et al. 2019, Soudry et al. 2018]. However, the precise notion of\nsimplicity remains vague. Furthermore, previous settings that use SB to\ntheoretically justify why neural networks generalize well do not simultaneously\ncapture the non-robustness of neural networks---a widely observed phenomenon in\npractice [Goodfellow et al. 2014, Jo and Bengio 2017]. We attempt to reconcile\nSB and the superior standard generalization of neural networks with the\nnon-robustness observed in practice by designing datasets that (a) incorporate\na precise notion of simplicity, (b) comprise multiple predictive features with\nvarying levels of simplicity, and (c) capture the non-robustness of neural\nnetworks trained on real data. Through theory and empirics on these datasets,\nwe make four observations: (i) SB of SGD and variants can be extreme: neural\nnetworks can exclusively rely on the simplest feature and remain invariant to\nall predictive complex features. (ii) The extreme aspect of SB could explain\nwhy seemingly benign distribution shifts and small adversarial perturbations\nsignificantly degrade model performance. (iii) Contrary to conventional wisdom,\nSB can also hurt generalization on the same data distribution, as SB persists\neven when the simplest feature has less predictive power than the more complex\nfeatures. (iv) Common approaches to improve generalization and\nrobustness---ensembles and adversarial training---can fail in mitigating SB and\nits pitfalls. Given the role of SB in training neural networks, we hope that\nthe proposed datasets and methods serve as an effective testbed to evaluate\nnovel algorithmic approaches aimed at avoiding the pitfalls of SB.",
+        "timestamp": "2025-06-12T17:19:32.437Z",
+        "rating": "novote",
+        "publishedDate": "2020-06-13T20:15:26Z",
+        "tags": [
+          "cs.LG",
+          "cs.AI",
+          "stat.ML"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 40,
+        "object_id": "paper:arxiv.2006.07710",
+        "created_at": "2025-06-12T17:19:33+00:00",
+        "updated_at": "2025-06-12T17:20:00+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2503.14481": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.14481",
+        "url": "https://arxiv.org/pdf/2503.14481",
+        "title": "Don't lie to your friends: Learning what you know from collaborative\n  self-play",
+        "authors": "Jacob Eisenstein, Reza Aghajani, Adam Fisch, Dheeru Dua, Fantine Huot, Mirella Lapata, Vicky Zayats, Jonathan Berant",
+        "abstract": "To be helpful assistants, AI agents must be aware of their own capabilities\nand limitations. This includes knowing when to answer from parametric knowledge\nversus using tools, when to trust tool outputs, and when to abstain or hedge.\nSuch capabilities are hard to teach through supervised fine-tuning because they\nrequire constructing examples that reflect the agent's specific capabilities.\nWe therefore propose a radically new approach to teaching agents what they\nknow: \\emph{collaborative self-play}. We construct multi-agent collaborations\nin which the group is rewarded for collectively arriving at correct answers.\nThe desired meta-knowledge emerges from the incentives built into the structure\nof the interaction. We focus on small societies of agents that have access to\nheterogeneous tools (corpus-specific retrieval), and therefore must collaborate\nto maximize their success while minimizing their effort. Experiments show that\ngroup-level rewards for multi-agent communities can induce policies that\n\\emph{transfer} to improve tool use and selective prediction in settings where\nindividual agents are deployed in isolation.",
+        "timestamp": "2025-06-12T17:19:32.437Z",
+        "rating": "novote",
+        "publishedDate": "2025-03-18T17:53:20Z",
+        "tags": [
+          "cs.LG",
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 39,
+        "object_id": "paper:arxiv.2503.14481",
+        "created_at": "2025-06-12T17:19:33+00:00",
+        "updated_at": "2025-06-12T17:20:02+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2502.07776": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2502.07776",
+        "url": "https://arxiv.org/pdf/2502.07776",
+        "title": "Auditing Prompt Caching in Language Model APIs",
+        "authors": "Chenchen Gu, Xiang Lisa Li, Rohith Kuditipudi, Percy Liang, Tatsunori Hashimoto",
+        "abstract": "Prompt caching in large language models (LLMs) results in data-dependent\ntiming variations: cached prompts are processed faster than non-cached prompts.\nThese timing differences introduce the risk of side-channel timing attacks. For\nexample, if the cache is shared across users, an attacker could identify cached\nprompts from fast API response times to learn information about other users'\nprompts. Because prompt caching may cause privacy leakage, transparency around\nthe caching policies of API providers is important. To this end, we develop and\nconduct statistical audits to detect prompt caching in real-world LLM API\nproviders. We detect global cache sharing across users in seven API providers,\nincluding OpenAI, resulting in potential privacy leakage about users' prompts.\nTiming variations due to prompt caching can also result in leakage of\ninformation about model architecture. Namely, we find evidence that OpenAI's\nembedding model is a decoder-only Transformer, which was previously not\npublicly known.",
+        "timestamp": "2025-06-12T17:19:31.239Z",
+        "rating": "novote",
+        "publishedDate": "2025-02-11T18:58:04Z",
+        "tags": [
+          "cs.CL",
+          "cs.CR",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 38,
+        "object_id": "paper:arxiv.2502.07776",
+        "created_at": "2025-06-12T17:19:32+00:00",
+        "updated_at": "2025-06-12T17:20:03+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2407.15845": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2407.15845",
+        "url": "https://arxiv.org/pdf/2407.15845",
+        "title": "Reconstructing Training Data From Real World Models Trained with\n  Transfer Learning",
+        "authors": "Yakir Oz, Gilad Yehudai, Gal Vardi, Itai Antebi, Michal Irani, Niv Haim",
+        "abstract": "Current methods for reconstructing training data from trained classifiers are\nrestricted to very small models, limited training set sizes, and low-resolution\nimages. Such restrictions hinder their applicability to real-world scenarios.\nIn this paper, we present a novel approach enabling data reconstruction in\nrealistic settings for models trained on high-resolution images. Our method\nadapts the reconstruction scheme of arXiv:2206.07758 to real-world scenarios --\nspecifically, targeting models trained via transfer learning over image\nembeddings of large pre-trained models like DINO-ViT and CLIP. Our work employs\ndata reconstruction in the embedding space rather than in the image space,\nshowcasing its applicability beyond visual data. Moreover, we introduce a novel\nclustering-based method to identify good reconstructions from thousands of\ncandidates. This significantly improves on previous works that relied on\nknowledge of the training set to identify good reconstructed images. Our\nfindings shed light on a potential privacy risk for data leakage from models\ntrained using transfer learning.",
+        "timestamp": "2025-06-12T17:19:31.441Z",
+        "rating": "novote",
+        "publishedDate": "2024-07-22T17:59:10Z",
+        "tags": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CR",
+          "cs.CV"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 37,
+        "object_id": "paper:arxiv.2407.15845",
+        "created_at": "2025-06-12T17:19:32+00:00",
+        "updated_at": "2025-06-12T17:19:57+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2412.20292": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2412.20292",
+        "url": "https://arxiv.org/pdf/2412.20292",
+        "title": "An analytic theory of creativity in convolutional diffusion models",
+        "authors": "Mason Kamb, Surya Ganguli",
+        "abstract": "We obtain an analytic, interpretable and predictive theory of creativity in\nconvolutional diffusion models. Indeed, score-matching diffusion models can\ngenerate highly original images that lie far from their training data. However,\noptimal score-matching theory suggests that these models should only be able to\nproduce memorized training examples. To reconcile this theory-experiment gap,\nwe identify two simple inductive biases, locality and equivariance, that: (1)\ninduce a form of combinatorial creativity by preventing optimal score-matching;\n(2) result in fully analytic, completely mechanistically interpretable, local\nscore (LS) and equivariant local score (ELS) machines that, (3) after\ncalibrating a single time-dependent hyperparameter can quantitatively predict\nthe outputs of trained convolution only diffusion models (like ResNets and\nUNets) with high accuracy (median $r^2$ of $0.95, 0.94, 0.94, 0.96$ for our top\nmodel on CIFAR10, FashionMNIST, MNIST, and CelebA). Our model reveals a locally\nconsistent patch mosaic mechanism of creativity, in which diffusion models\ncreate exponentially many novel images by mixing and matching different local\ntraining set patches at different scales and image locations. Our theory also\npartially predicts the outputs of pre-trained self-attention enabled UNets\n(median $r^2 \\sim 0.77$ on CIFAR10), revealing an intriguing role for attention\nin carving out semantic coherence from local patch mosaics.",
+        "timestamp": "2025-06-12T17:19:31.247Z",
+        "rating": "novote",
+        "publishedDate": "2024-12-28T22:33:29Z",
+        "tags": [
+          "cs.LG",
+          "cond-mat.dis-nn",
+          "cs.AI",
+          "q-bio.NC",
+          "stat.ML",
+          "I.2.10"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 36,
+        "object_id": "paper:arxiv.2412.20292",
+        "created_at": "2025-06-12T17:19:32+00:00",
+        "updated_at": "2025-06-12T17:19:56+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2502.21278": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2502.21278",
+        "url": "https://arxiv.org/pdf/2502.21278",
+        "title": "Does Generation Require Memorization? Creative Diffusion Models using\n  Ambient Diffusion",
+        "authors": "Kulin Shah, Alkis Kalavasis, Adam R. Klivans, Giannis Daras",
+        "abstract": "There is strong empirical evidence that the state-of-the-art diffusion\nmodeling paradigm leads to models that memorize the training set, especially\nwhen the training set is small. Prior methods to mitigate the memorization\nproblem often lead to a decrease in image quality. Is it possible to obtain\nstrong and creative generative models, i.e., models that achieve high\ngeneration quality and low memorization? Despite the current pessimistic\nlandscape of results, we make significant progress in pushing the trade-off\nbetween fidelity and memorization. We first provide theoretical evidence that\nmemorization in diffusion models is only necessary for denoising problems at\nlow noise scales (usually used in generating high-frequency details). Using\nthis theoretical insight, we propose a simple, principled method to train the\ndiffusion models using noisy data at large noise scales. We show that our\nmethod significantly reduces memorization without decreasing the image quality,\nfor both text-conditional and unconditional models and for a variety of data\navailability settings.",
+        "timestamp": "2025-06-12T17:19:31.324Z",
+        "rating": "novote",
+        "publishedDate": "2025-02-28T17:57:48Z",
+        "tags": [
+          "cs.LG",
+          "stat.ML"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 35,
+        "object_id": "paper:arxiv.2502.21278",
+        "created_at": "2025-06-12T17:19:32+00:00",
+        "updated_at": "2025-06-12T17:20:06+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2307.03056": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2307.03056",
+        "url": "https://arxiv.org/pdf/2307.03056",
+        "title": "Generalizing Backpropagation for Gradient-Based Interpretability",
+        "authors": "Kevin Du, Lucas Torroba Hennigen, Niklas Stoehr, Alexander Warstadt, Ryan Cotterell",
+        "abstract": "Many popular feature-attribution methods for interpreting deep neural\nnetworks rely on computing the gradients of a model's output with respect to\nits inputs. While these methods can indicate which input features may be\nimportant for the model's prediction, they reveal little about the inner\nworkings of the model itself. In this paper, we observe that the gradient\ncomputation of a model is a special case of a more general formulation using\nsemirings. This observation allows us to generalize the backpropagation\nalgorithm to efficiently compute other interpretable statistics about the\ngradient graph of a neural network, such as the highest-weighted path and\nentropy. We implement this generalized algorithm, evaluate it on synthetic\ndatasets to better understand the statistics it computes, and apply it to study\nBERT's behavior on the subject-verb number agreement task (SVA). With this\nmethod, we (a) validate that the amount of gradient flow through a component of\na model reflects its importance to a prediction and (b) for SVA, identify which\npathways of the self-attention mechanism are most important.",
+        "timestamp": "2025-06-12T17:19:30.465Z",
+        "rating": "novote",
+        "publishedDate": "2023-07-06T15:19:53Z",
+        "tags": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 34,
+        "object_id": "paper:arxiv.2307.03056",
+        "created_at": "2025-06-12T17:19:32+00:00",
+        "updated_at": "2025-06-12T17:19:57+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2412.20760": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2412.20760",
+        "url": "https://arxiv.org/pdf/2412.20760",
+        "title": "Attributing Culture-Conditioned Generations to Pretraining Corpora",
+        "authors": "Huihan Li, Arnav Goel, Keyu He, Xiang Ren",
+        "abstract": "In open-ended generative tasks like narrative writing or dialogue, large\nlanguage models often exhibit cultural biases, showing limited knowledge and\ngenerating templated outputs for less prevalent cultures. Recent works show\nthat these biases may stem from uneven cultural representation in pretraining\ncorpora. This work investigates how pretraining leads to biased\nculture-conditioned generations by analyzing how models associate entities with\ncultures based on pretraining data patterns. We propose the MEMOed framework\n(MEMOrization from pretraining document) to determine whether a generation for\na culture arises from memorization. Using MEMOed on culture-conditioned\ngenerations about food and clothing for 110 cultures, we find that\nhigh-frequency cultures in pretraining data yield more generations with\nmemorized symbols, while some low-frequency cultures produce none.\nAdditionally, the model favors generating entities with extraordinarily high\nfrequency regardless of the conditioned culture, reflecting biases toward\nfrequent pretraining terms irrespective of relevance. We hope that the MEMOed\nframework and our insights will inspire more works on attributing model\nperformance on pretraining data.",
+        "timestamp": "2025-06-12T17:19:30.409Z",
+        "rating": "novote",
+        "publishedDate": "2024-12-30T07:09:25Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 33,
+        "object_id": "paper:arxiv.2412.20760",
+        "created_at": "2025-06-12T17:19:32+00:00",
+        "updated_at": "2025-06-12T17:20:00+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2010.12016": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2010.12016",
+        "url": "https://arxiv.org/pdf/2010.12016",
+        "title": "Towards falsifiable interpretability research",
+        "authors": "Matthew L. Leavitt, Ari Morcos",
+        "abstract": "Methods for understanding the decisions of and mechanisms underlying deep\nneural networks (DNNs) typically rely on building intuition by emphasizing\nsensory or semantic features of individual examples. For instance, methods aim\nto visualize the components of an input which are \"important\" to a network's\ndecision, or to measure the semantic properties of single neurons. Here, we\nargue that interpretability research suffers from an over-reliance on\nintuition-based approaches that risk-and in some cases have caused-illusory\nprogress and misleading conclusions. We identify a set of limitations that we\nargue impede meaningful progress in interpretability research, and examine two\npopular classes of interpretability methods-saliency and single-neuron-based\napproaches-that serve as case studies for how overreliance on intuition and\nlack of falsifiability can undermine interpretability research. To address\nthese concerns, we propose a strategy to address these impediments in the form\nof a framework for strongly falsifiable interpretability research. We encourage\nresearchers to use their intuitions as a starting point to develop and test\nclear, falsifiable hypotheses, and hope that our framework yields robust,\nevidence-based interpretability methods that generate meaningful advances in\nour understanding of DNNs.",
+        "timestamp": "2025-06-12T17:19:31.042Z",
+        "rating": "novote",
+        "publishedDate": "2020-10-22T22:03:41Z",
+        "tags": [
+          "cs.CY",
+          "cs.AI",
+          "cs.CV",
+          "cs.LG",
+          "stat.ML"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 32,
+        "object_id": "paper:arxiv.2010.12016",
+        "created_at": "2025-06-12T17:19:32+00:00",
+        "updated_at": "2025-06-12T17:19:56+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2501.01558": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2501.01558",
+        "url": "https://arxiv.org/pdf/2501.01558",
+        "title": "Predicting the Performance of Black-box LLMs through Self-Queries",
+        "authors": "Dylan Sam, Marc Finzi, J. Zico Kolter",
+        "abstract": "As large language models (LLMs) are increasingly relied on in AI systems,\npredicting when they make mistakes is crucial. While a great deal of work in\nthe field uses internal representations to interpret model behavior, these\nrepresentations are inaccessible when given solely black-box access through an\nAPI. In this paper, we extract features of LLMs in a black-box manner by using\nfollow-up prompts and taking the probabilities of different responses as\nrepresentations to train reliable predictors of model behavior. We demonstrate\nthat training a linear model on these low-dimensional representations produces\nreliable and generalizable predictors of model performance at the instance\nlevel (e.g., if a particular generation correctly answers a question).\nRemarkably, these can often outperform white-box linear predictors that operate\nover a model's hidden state or the full distribution over its vocabulary. In\naddition, we demonstrate that these extracted features can be used to evaluate\nmore nuanced aspects of a language model's state. For instance, they can be\nused to distinguish between a clean version of GPT-4o-mini and a version that\nhas been influenced via an adversarial system prompt that answers\nquestion-answering tasks incorrectly or introduces bugs into generated code.\nFurthermore, they can reliably distinguish between different model\narchitectures and sizes, enabling the detection of misrepresented models\nprovided through an API (e.g., identifying if GPT-3.5 is supplied instead of\nGPT-4o-mini).",
+        "timestamp": "2025-06-12T17:19:30.047Z",
+        "rating": "novote",
+        "publishedDate": "2025-01-02T22:26:54Z",
+        "tags": [
+          "cs.LG",
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 31,
+        "object_id": "paper:arxiv.2501.01558",
+        "created_at": "2025-06-12T17:19:31+00:00",
+        "updated_at": "2025-06-12T17:19:57+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2410.13852": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2410.13852",
+        "url": "https://arxiv.org/pdf/2410.13852",
+        "title": "Retrospective Learning from Interactions",
+        "authors": "Zizhao Chen, Mustafa Omer Gul, Yiwei Chen, Gloria Geng, Anne Wu, Yoav Artzi",
+        "abstract": "Multi-turn interactions between large language models (LLMs) and users\nnaturally include implicit feedback signals. If an LLM responds in an\nunexpected way to an instruction, the user is likely to signal it by rephrasing\nthe request, expressing frustration, or pivoting to an alternative task. Such\nsignals are task-independent and occupy a relatively constrained subspace of\nlanguage, allowing the LLM to identify them even if it fails on the actual\ntask. We introduce ReSpect, a method to learn from such signals in past\ninteractions via retrospection without additional annotations. We deploy\nReSpect in a new multimodal interaction scenario, where humans instruct a\nmultimodal LLM to solve an abstract reasoning task with a combinatorial\nsolution space. Through thousands of interactions with humans, we show how\nReSpect gradually improves task completion rate from 31% to 82%, all without\nany external annotation.",
+        "timestamp": "2025-06-12T17:19:30.033Z",
+        "rating": "novote",
+        "publishedDate": "2024-10-17T17:59:03Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CV",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 30,
+        "object_id": "paper:arxiv.2410.13852",
+        "created_at": "2025-06-12T17:19:31+00:00",
+        "updated_at": "2025-06-12T17:19:56+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2304.15004": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2304.15004",
+        "url": "https://arxiv.org/pdf/2304.15004",
+        "title": "Are Emergent Abilities of Large Language Models a Mirage?",
+        "authors": "Rylan Schaeffer, Brando Miranda, Sanmi Koyejo",
+        "abstract": "Recent work claims that large language models display emergent abilities,\nabilities not present in smaller-scale models that are present in larger-scale\nmodels. What makes emergent abilities intriguing is two-fold: their sharpness,\ntransitioning seemingly instantaneously from not present to present, and their\nunpredictability, appearing at seemingly unforeseeable model scales. Here, we\npresent an alternative explanation for emergent abilities: that for a\nparticular task and model family, when analyzing fixed model outputs, emergent\nabilities appear due to the researcher's choice of metric rather than due to\nfundamental changes in model behavior with scale. Specifically, nonlinear or\ndiscontinuous metrics produce apparent emergent abilities, whereas linear or\ncontinuous metrics produce smooth, continuous predictable changes in model\nperformance. We present our alternative explanation in a simple mathematical\nmodel, then test it in three complementary ways: we (1) make, test and confirm\nthree predictions on the effect of metric choice using the InstructGPT/GPT-3\nfamily on tasks with claimed emergent abilities; (2) make, test and confirm two\npredictions about metric choices in a meta-analysis of emergent abilities on\nBIG-Bench; and (3) show to choose metrics to produce never-before-seen\nseemingly emergent abilities in multiple vision tasks across diverse deep\nnetworks. Via all three analyses, we provide evidence that alleged emergent\nabilities evaporate with different metrics or with better statistics, and may\nnot be a fundamental property of scaling AI models.",
+        "timestamp": "2025-06-12T17:19:30.034Z",
+        "rating": "novote",
+        "publishedDate": "2023-04-28T17:52:11Z",
+        "tags": [
+          "cs.AI",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 29,
+        "object_id": "paper:arxiv.2304.15004",
+        "created_at": "2025-06-12T17:19:31+00:00",
+        "updated_at": "2025-06-12T17:19:57+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2310.14491": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.14491",
+        "url": "https://arxiv.org/pdf/2310.14491",
+        "title": "Towards a Mechanistic Interpretation of Multi-Step Reasoning\n  Capabilities of Language Models",
+        "authors": "Yifan Hou, Jiaoda Li, Yu Fei, Alessandro Stolfo, Wangchunshu Zhou, Guangtao Zeng, Antoine Bosselut, Mrinmaya Sachan",
+        "abstract": "Recent work has shown that language models (LMs) have strong multi-step\n(i.e., procedural) reasoning capabilities. However, it is unclear whether LMs\nperform these tasks by cheating with answers memorized from pretraining corpus,\nor, via a multi-step reasoning mechanism. In this paper, we try to answer this\nquestion by exploring a mechanistic interpretation of LMs for multi-step\nreasoning tasks. Concretely, we hypothesize that the LM implicitly embeds a\nreasoning tree resembling the correct reasoning process within it. We test this\nhypothesis by introducing a new probing approach (called MechanisticProbe) that\nrecovers the reasoning tree from the model's attention patterns. We use our\nprobe to analyze two LMs: GPT-2 on a synthetic task (k-th smallest element),\nand LLaMA on two simple language-based reasoning tasks (ProofWriter & AI2\nReasoning Challenge). We show that MechanisticProbe is able to detect the\ninformation of the reasoning tree from the model's attentions for most\nexamples, suggesting that the LM indeed is going through a process of\nmulti-step reasoning within its architecture in many cases.",
+        "timestamp": "2025-06-12T17:19:30.047Z",
+        "rating": "novote",
+        "publishedDate": "2023-10-23T01:47:29Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 28,
+        "object_id": "paper:arxiv.2310.14491",
+        "created_at": "2025-06-12T17:19:31+00:00",
+        "updated_at": "2025-06-12T17:19:58+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2505.05017": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.05017",
+        "url": "https://arxiv.org/pdf/2505.05017",
+        "title": "Scalable Multi-Stage Influence Function for Large Language Models via\n  Eigenvalue-Corrected Kronecker-Factored Parameterization",
+        "authors": "Yuntai Bao, Xuhong Zhang, Tianyu Du, Xinkui Zhao, Jiang Zong, Hao Peng, Jianwei Yin",
+        "abstract": "Pre-trained large language models (LLMs) are commonly fine-tuned to adapt to\ndownstream tasks. Since the majority of knowledge is acquired during\npre-training, attributing the predictions of fine-tuned LLMs to their\npre-training data may provide valuable insights. Influence functions have been\nproposed as a means to explain model predictions based on training data.\nHowever, existing approaches fail to compute ``multi-stage'' influence and lack\nscalability to billion-scale LLMs.\n  In this paper, we propose the multi-stage influence function to attribute the\ndownstream predictions of fine-tuned LLMs to pre-training data under the\nfull-parameter fine-tuning paradigm. To enhance the efficiency and practicality\nof our multi-stage influence function, we leverage Eigenvalue-corrected\nKronecker-Factored (EK-FAC) parameterization for efficient approximation.\nEmpirical results validate the superior scalability of EK-FAC approximation and\nthe effectiveness of our multi-stage influence function. Additionally, case\nstudies on a real-world LLM, dolly-v2-3b, demonstrate its interpretive power,\nwith exemplars illustrating insights provided by multi-stage influence\nestimates. Our code is public at\nhttps://github.com/colored-dye/multi_stage_influence_function.",
+        "timestamp": "2025-06-12T17:19:30.047Z",
+        "rating": "novote",
+        "publishedDate": "2025-05-08T07:43:44Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 27,
+        "object_id": "paper:arxiv.2505.05017",
+        "created_at": "2025-06-12T17:19:31+00:00",
+        "updated_at": "2025-06-12T17:19:58+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2406.02550": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2406.02550",
+        "url": "https://arxiv.org/pdf/2406.02550",
+        "title": "Learning to grok: Emergence of in-context learning and skill composition\n  in modular arithmetic tasks",
+        "authors": "Tianyu He, Darshil Doshi, Aritra Das, Andrey Gromov",
+        "abstract": "Large language models can solve tasks that were not present in the training\nset. This capability is believed to be due to in-context learning and skill\ncomposition. In this work, we study the emergence of in-context learning and\nskill composition in a collection of modular arithmetic tasks. Specifically, we\nconsider a finite collection of linear modular functions $z = a \\, x + b \\, y\n\\;\\mathrm{mod}\\; p$ labeled by the vector $(a, b) \\in \\mathbb{Z}_p^2$. We use\nsome of these tasks for pre-training and the rest for out-of-distribution\ntesting. We empirically show that a GPT-style transformer exhibits a transition\nfrom in-distribution to out-of-distribution generalization as the number of\npre-training tasks increases. We find that the smallest model capable of\nout-of-distribution generalization requires two transformer blocks, while for\ndeeper models, the out-of-distribution generalization phase is\n\\emph{transient}, necessitating early stopping. Finally, we perform an\ninterpretability study of the pre-trained models, revealing highly structured\nrepresentations in both attention heads and MLPs; and discuss the learned\nalgorithms. Notably, we find an algorithmic shift in deeper models, as we go\nfrom few to many in-context examples.",
+        "timestamp": "2025-06-12T17:19:30.047Z",
+        "rating": "novote",
+        "publishedDate": "2024-06-04T17:59:36Z",
+        "tags": [
+          "cs.LG",
+          "cond-mat.dis-nn",
+          "hep-th",
+          "stat.ML"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 26,
+        "object_id": "paper:arxiv.2406.02550",
+        "created_at": "2025-06-12T17:19:31+00:00",
+        "updated_at": "2025-06-12T17:19:59+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2501.05790": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2501.05790",
+        "url": "https://arxiv.org/pdf/2501.05790",
+        "title": "Understanding Impact of Human Feedback via Influence Functions",
+        "authors": "Taywon Min, Haeone Lee, Yongchan Kwon, Kimin Lee",
+        "abstract": "In Reinforcement Learning from Human Feedback (RLHF), it is crucial to learn\nsuitable reward models from human feedback to align large language models\n(LLMs) with human intentions. However, human feedback can often be noisy,\ninconsistent, or biased, especially when evaluating complex responses. Such\nfeedback can lead to misaligned reward signals, potentially causing unintended\nside effects during the RLHF process. To address these challenges, we explore\nthe use of influence functions to measure the impact of human feedback on the\nperformance of reward models. We propose a compute-efficient approximation\nmethod that enables the application of influence functions to LLM-based reward\nmodels and large-scale preference datasets. In our experiments, we demonstrate\ntwo key applications of influence functions: (1) detecting common forms of\nlabeler bias in human feedback datasets and (2) guiding labelers to refine\ntheir strategies to align more closely with expert feedback. By quantifying the\nimpact of human feedback on reward models, we believe that influence functions\ncan enhance feedback interpretability and contribute to scalable oversight in\nRLHF, helping labelers provide more accurate and consistent feedback. Source\ncode is available at https://github.com/mintaywon/IF_RLHF",
+        "timestamp": "2025-06-12T17:19:30.047Z",
+        "rating": "novote",
+        "publishedDate": "2025-01-10T08:50:38Z",
+        "tags": [
+          "cs.AI",
+          "cs.HC",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 25,
+        "object_id": "paper:arxiv.2501.05790",
+        "created_at": "2025-06-12T17:19:31+00:00",
+        "updated_at": "2025-06-12T17:20:00+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2411.13981": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2411.13981",
+        "url": "https://arxiv.org/pdf/2411.13981",
+        "title": "On the Fairness, Diversity and Reliability of Text-to-Image Generative\n  Models",
+        "authors": "Jordan Vice, Naveed Akhtar, Leonid Sigal, Richard Hartley, Ajmal Mian",
+        "abstract": "The rapid proliferation of multimodal generative models has sparked critical\ndiscussions on their reliability, fairness and potential for misuse. While\ntext-to-image models excel at producing high-fidelity, user-guided content,\nthey often exhibit unpredictable behaviors and vulnerabilities that can be\nexploited to manipulate class or concept representations. To address this, we\npropose an evaluation framework to assess model reliability by analyzing\nresponses to global and local perturbations in the embedding space, enabling\nthe identification of inputs that trigger unreliable or biased behavior. Beyond\nsocial implications, fairness and diversity are fundamental to defining robust\nand trustworthy model behavior. Our approach offers deeper insights into these\nessential aspects by evaluating: (i) generative diversity, measuring the\nbreadth of visual representations for learned concepts, and (ii) generative\nfairness, which examines the impact that removing concepts from input prompts\nhas on control, under a low guidance setup. Beyond these evaluations, our\nmethod lays the groundwork for detecting unreliable, bias-injected models and\ntracing the provenance of embedded biases. Our code is publicly available at\nhttps://github.com/JJ-Vice/T2I_Fairness_Diversity_Reliability.\n  Keywords: Fairness, Reliability, AI Ethics, Bias, Text-to-Image Models",
+        "timestamp": "2025-06-12T17:19:30.033Z",
+        "rating": "novote",
+        "publishedDate": "2024-11-21T09:46:55Z",
+        "tags": [
+          "cs.CV",
+          "cs.AI"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 24,
+        "object_id": "paper:arxiv.2411.13981",
+        "created_at": "2025-06-12T17:19:31+00:00",
+        "updated_at": "2025-06-12T17:20:00+00:00",
         "version": 1
       }
     }

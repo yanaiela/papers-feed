@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-12T17:32:38.410228+00:00",
+  "snapshot_time": "2025-06-13T00:13:53.082636+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -1714,6 +1714,104 @@
         "object_id": "paper:arxiv.2410.21333",
         "created_at": "2025-06-12T17:31:52+00:00",
         "updated_at": "2025-06-12T17:32:11+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2504.01542": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.01542",
+        "url": "https://arxiv.org/pdf/2504.01542",
+        "title": "Register Always Matters: Analysis of LLM Pretraining Data Through the\n  Lens of Language Variation",
+        "authors": "Amanda Myntti, Erik Henriksson, Veronika Laippala, Sampo Pyysalo",
+        "abstract": "Pretraining data curation is a cornerstone in Large Language Model (LLM)\ndevelopment, leading to growing research on quality filtering of large web\ncorpora. From statistical quality flags to LLM-based labeling systems, datasets\nare divided into categories, frequently reducing to a binary: those passing the\nfilters deemed as valuable examples, others discarded as useless or\ndetrimental. However, a more detailed understanding of the contribution of\ndifferent kinds of texts to model performance is still largely lacking. In this\narticle, we present the first study utilizing registers (also known as genres)\n- a widely used standard in corpus linguistics to model linguistic variation -\nto curate pretraining datasets and investigate the effect of register on the\nperformance of LLMs. We perform comparative studies by training models with\nregister classified data and evaluating them using standard benchmarks, and\nshow that the register of pretraining data substantially affects model\nperformance. We uncover surprising relationships between the pretraining\nmaterial and the resulting models: using the News register results in subpar\nperformance, and on the contrary, including the Opinion class, covering texts\nsuch as reviews and opinion blogs, is highly beneficial. While a model trained\non the entire unfiltered dataset outperforms those trained on datasets limited\nto a single register, combining well-performing registers like\nHow-to-Instructions, Informational Description, and Opinion leads to major\nimprovements. Furthermore, analysis of individual benchmark results reveals key\ndifferences in the strengths and drawbacks of specific register classes as\npretraining data. These findings show that register is an important explainer\nof model variation and can facilitate more deliberate future data selection\npractices.",
+        "timestamp": "2025-06-13T00:13:02.909Z",
+        "rating": "novote",
+        "publishedDate": "2025-04-02T09:30:24Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 69,
+        "object_id": "paper:arxiv.2504.01542",
+        "created_at": "2025-06-13T00:13:03+00:00",
+        "updated_at": "2025-06-13T00:13:23+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2502.13259": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2502.13259",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-06-13T00:12:48.287Z",
+            "data": {
+              "session_id": "session_1749773567705_jkfryvy",
+              "source_id": "arxiv",
+              "paper_id": "2502.13259",
+              "start_time": "2025-06-13T00:12:39.595Z",
+              "end_time": "2025-06-13T00:12:47.705Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 68,
+        "object_id": "interactions:arxiv.2502.13259",
+        "created_at": "2025-06-13T00:12:48+00:00",
+        "updated_at": "2025-06-13T00:13:13+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2502.13259": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2502.13259",
+        "url": "https://arxiv.org/pdf/2502.13259",
+        "title": "HumT DumT: Measuring and controlling human-like language in LLMs",
+        "authors": "Myra Cheng, Sunny Yu, Dan Jurafsky",
+        "abstract": "Should LLMs generate language that makes them seem human? Human-like language\nmight improve user experience, but might also lead to deception, overreliance,\nand stereotyping. Assessing these potential impacts requires a systematic way\nto measure human-like tone in LLM outputs. We introduce HumT and SocioT,\nmetrics for human-like tone and other dimensions of social perceptions in text\ndata based on relative probabilities from an LLM. By measuring HumT across\npreference and usage datasets, we find that users prefer less human-like\noutputs from LLMs in many contexts. HumT also offers insights into the\nperceptions and impacts of anthropomorphism: human-like LLM outputs are highly\ncorrelated with warmth, social closeness, femininity, and low status, which are\nclosely linked to the aforementioned harms. We introduce DumT, a method using\nHumT to systematically control and reduce the degree of human-like tone while\npreserving model performance. DumT offers a practical approach for mitigating\nrisks associated with anthropomorphic language generation.",
+        "timestamp": "2025-06-13T00:12:40.100Z",
+        "rating": "novote",
+        "publishedDate": "2025-02-18T20:04:09Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CY"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 67,
+        "object_id": "paper:arxiv.2502.13259",
+        "created_at": "2025-06-13T00:12:40+00:00",
+        "updated_at": "2025-06-13T00:12:58+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2410.21333": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2410.21333",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 66,
+        "object_id": "interactions:arxiv.2410.21333",
+        "created_at": "2025-06-12T17:34:01+00:00",
+        "updated_at": "2025-06-12T17:34:02+00:00",
         "version": 1
       }
     }

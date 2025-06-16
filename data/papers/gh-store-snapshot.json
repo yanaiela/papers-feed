@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-16T17:48:28.432833+00:00",
+  "snapshot_time": "2025-06-16T18:14:39.759044+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -1999,6 +1999,88 @@
         "object_id": "interactions:arxiv.2502.03826",
         "created_at": "2025-06-16T17:46:17+00:00",
         "updated_at": "2025-06-16T17:47:50+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2506.11618": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.11618",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 83,
+        "object_id": "interactions:arxiv.2506.11618",
+        "created_at": "2025-06-16T18:14:20+00:00",
+        "updated_at": "2025-06-16T18:14:22+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2506.11673": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.11673",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 82,
+        "object_id": "interactions:arxiv.2506.11673",
+        "created_at": "2025-06-16T18:14:01+00:00",
+        "updated_at": "2025-06-16T18:14:03+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.11673": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.11673",
+        "url": "https://arxiv.org/pdf/2506.11673",
+        "title": "Improving Causal Interventions in Amnesic Probing with Mean Projection\n  or LEACE",
+        "authors": "Alicja Dobrzeniecka, Antske Fokkens, Pia Sommerauer",
+        "abstract": "Amnesic probing is a technique used to examine the influence of specific\nlinguistic information on the behaviour of a model. This involves identifying\nand removing the relevant information and then assessing whether the model's\nperformance on the main task changes. If the removed information is relevant,\nthe model's performance should decline. The difficulty with this approach lies\nin removing only the target information while leaving other information\nunchanged. It has been shown that Iterative Nullspace Projection (INLP), a\nwidely used removal technique, introduces random modifications to\nrepresentations when eliminating target information. We demonstrate that Mean\nProjection (MP) and LEACE, two proposed alternatives, remove information in a\nmore targeted manner, thereby enhancing the potential for obtaining behavioural\nexplanations through Amnesic Probing.",
+        "timestamp": "2025-06-16T18:13:52.394Z",
+        "rating": "novote",
+        "publishedDate": "2025-06-13T11:07:14Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 81,
+        "object_id": "paper:arxiv.2506.11673",
+        "created_at": "2025-06-16T18:13:52+00:00",
+        "updated_at": "2025-06-16T18:14:13+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.11618": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.11618",
+        "url": "https://arxiv.org/pdf/2506.11618",
+        "title": "Convergent Linear Representations of Emergent Misalignment",
+        "authors": "Anna Soligo, Edward Turner, Senthooran Rajamanoharan, Neel Nanda",
+        "abstract": "Fine-tuning large language models on narrow datasets can cause them to\ndevelop broadly misaligned behaviours: a phenomena known as emergent\nmisalignment. However, the mechanisms underlying this misalignment, and why it\ngeneralizes beyond the training domain, are poorly understood, demonstrating\ncritical gaps in our knowledge of model alignment. In this work, we train and\nstudy a minimal model organism which uses just 9 rank-1 adapters to emergently\nmisalign Qwen2.5-14B-Instruct. Studying this, we find that different emergently\nmisaligned models converge to similar representations of misalignment. We\ndemonstrate this convergence by extracting a 'misalignment direction' from one\nfine-tuned model's activations, and using it to effectively ablate misaligned\nbehaviour from fine-tunes using higher dimensional LoRAs and different\ndatasets. Leveraging the scalar hidden state of rank-1 LoRAs, we further\npresent a set of experiments for directly interpreting the fine-tuning\nadapters, showing that six contribute to general misalignment, while two\nspecialise for misalignment in just the fine-tuning domain. Emergent\nmisalignment is a particularly salient example of undesirable and unexpected\nmodel behaviour and by advancing our understanding of the mechanisms behind it,\nwe hope to move towards being able to better understand and mitigate\nmisalignment more generally.",
+        "timestamp": "2025-06-16T18:13:49.017Z",
+        "rating": "novote",
+        "publishedDate": "2025-06-13T09:39:54Z",
+        "tags": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 79,
+        "object_id": "paper:arxiv.2506.11618",
+        "created_at": "2025-06-16T18:13:49+00:00",
+        "updated_at": "2025-06-16T18:14:08+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-16T17:41:09.677181+00:00",
+  "snapshot_time": "2025-06-16T17:44:55.703049+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -1928,6 +1928,32 @@
         "object_id": "interactions:arxiv.2505.18128",
         "created_at": "2025-06-13T21:59:55+00:00",
         "updated_at": "2025-06-13T21:59:57+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2502.03826": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2502.03826",
+        "url": "https://arxiv.org/pdf/2502.03826",
+        "title": "FairT2I: Mitigating Social Bias in Text-to-Image Generation via Large\n  Language Model-Assisted Detection and Attribute Rebalancing",
+        "authors": "Jinya Sakurai, Issei Sato",
+        "abstract": "The proliferation of Text-to-Image (T2I) models has revolutionized content\ncreation, providing powerful tools for diverse applications ranging from\nartistic expression to educational material development and marketing. Despite\nthese technological advancements, significant ethical concerns arise from these\nmodels' reliance on large-scale datasets that often contain inherent societal\nbiases. These biases are further amplified when AI-generated content is\nincluded in training data, potentially reinforcing and perpetuating stereotypes\nin the generated outputs. In this paper, we introduce FairT2I, a novel\nframework that harnesses large language models to detect and mitigate social\nbiases in T2I generation. Our framework comprises two key components: (1) an\nLLM-based bias detection module that identifies potential social biases in\ngenerated images based on text prompts, and (2) an attribute rebalancing module\nthat fine-tunes sensitive attributes within the T2I model to mitigate\nidentified biases. Our extensive experiments across various T2I models and\ndatasets show that FairT2I can significantly reduce bias while maintaining\nhigh-quality image generation. We conducted both qualitative user studies and\nquantitative non-parametric analyses in the generated image feature space,\nbuilding upon the occupational dataset introduced in the Stable Bias study. Our\nresults show that FairT2I successfully mitigates social biases and enhances the\ndiversity of sensitive attributes in generated images. We further demonstrate,\nusing the P2 dataset, that our framework can detect subtle biases that are\nchallenging for human observers to perceive, extending beyond\noccupation-related prompts. On the basis of these findings, we introduce a new\nbenchmark dataset for evaluating bias in T2I models.",
+        "timestamp": "2025-06-16T17:43:13.817Z",
+        "rating": "novote",
+        "publishedDate": "2025-02-06T07:22:57Z",
+        "tags": [
+          "cs.CV"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 76,
+        "object_id": "paper:arxiv.2502.03826",
+        "created_at": "2025-06-16T17:43:14+00:00",
+        "updated_at": "2025-06-16T17:43:33+00:00",
         "version": 1
       }
     }

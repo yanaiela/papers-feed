@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-17T17:16:57.054177+00:00",
+  "snapshot_time": "2025-06-17T18:02:45.457734+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -2152,6 +2152,32 @@
         "object_id": "paper:arxiv.2506.12152",
         "created_at": "2025-06-17T17:16:08+00:00",
         "updated_at": "2025-06-17T17:16:32+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.12229": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.12229",
+        "url": "https://arxiv.org/pdf/2506.12229",
+        "title": "Infini-gram mini: Exact n-gram Search at the Internet Scale with\n  FM-Index",
+        "authors": "Hao Xu, Jiacheng Liu, Yejin Choi, Noah A. Smith, Hannaneh Hajishirzi",
+        "abstract": "Language models are trained mainly on massive text data from the Internet,\nand it becomes increasingly important to understand this data source.\nExact-match search engines enable searching in large text corpora -- counting\nstring appearances and retrieving the enclosing documents -- yet the high\nstorage overhead hinders their application on Internet-scale data. We present\nInfini-gram mini, an efficient and scalable system that can make petabyte-level\ntext corpora searchable. Based on the FM-index data structure (Ferragina and\nManzini, 2000), which simultaneously indexes and compresses text, our system\ncreates indexes with size only 44% of the corpus. Infini-gram mini greatly\nimproves upon the best existing implementation of FM-index in terms of indexing\nspeed (18$\\times$) and memory use during both indexing (3.2$\\times$ reduction)\nand querying (down to a negligible amount). We index 46TB of Internet text in\n50 days with a single 128-core CPU node (or 19 hours if using 75 such nodes).\nWe show one important use case of Infini-gram mini in a large-scale analysis of\nbenchmark contamination. We find several core LM evaluation benchmarks to be\nheavily contaminated in Internet crawls (up to 40% in SQuAD), which could lead\nto overestimating the capabilities of language models if trained on such data.\nWe host a benchmark contamination bulletin to share the contamination rate of\nmany core and community-contributed benchmarks. We also release a web interface\nand an API endpoint to serve general search queries on Infini-gram mini\nindexes.",
+        "timestamp": "2025-06-17T18:01:55.586Z",
+        "rating": "novote",
+        "publishedDate": "2025-06-13T21:13:57Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 86,
+        "object_id": "paper:arxiv.2506.12229",
+        "created_at": "2025-06-17T18:01:55+00:00",
+        "updated_at": "2025-06-17T18:02:20+00:00",
         "version": 1
       }
     }

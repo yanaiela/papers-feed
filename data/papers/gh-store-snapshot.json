@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-16T21:06:30.378475+00:00",
+  "snapshot_time": "2025-06-17T17:16:57.054177+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -2112,6 +2112,46 @@
         "object_id": "paper:arxiv.2506.11618",
         "created_at": "2025-06-16T18:13:49+00:00",
         "updated_at": "2025-06-16T18:14:08+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2506.12152": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.12152",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 85,
+        "object_id": "interactions:arxiv.2506.12152",
+        "created_at": "2025-06-17T17:16:39+00:00",
+        "updated_at": "2025-06-17T17:16:41+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.12152": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.12152",
+        "url": "https://arxiv.org/abs/2506.12152",
+        "title": "Because we have LLMs, we Can and Should Pursue Agentic Interpretability",
+        "authors": "Been Kim, John Hewitt, Neel Nanda, Noah Fiedel, Oyvind Tafjord",
+        "abstract": "The era of Large Language Models (LLMs) presents a new opportunity for interpretability--agentic interpretability: a multi-turn conversation with an LLM wherein the LLM proactively assists human understanding by developing and leveraging a mental model of the user, which in turn enables humans to develop better mental models of the LLM. Such conversation is a new capability that traditional `inspective' interpretability methods (opening the black-box) do not use. Having a language model that aims to teach and explain--beyond just knowing how to talk--is similar to a teacher whose goal is to teach well, understanding that their success will be measured by the student's comprehension. While agentic interpretability may trade off completeness for interactivity, making it less suitable for high-stakes safety situations with potentially deceptive models, it leverages a cooperative model to discover potentially superhuman concepts that can improve humans' mental model of machines. Agentic interpretability introduces challenges, particularly in evaluation, due to what we call `human-entangled-in-the-loop' nature (humans responses are integral part of the algorithm), making the design and evaluation difficult. We discuss possible solutions and proxy goals. As LLMs approach human parity in many tasks, agentic interpretability's promise is to help humans learn the potentially superhuman concepts of the LLMs, rather than see us fall increasingly far from understanding them.",
+        "timestamp": "2025-06-17T17:16:08.446Z",
+        "rating": "novote",
+        "publishedDate": "2025/06/13",
+        "tags": [
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 84,
+        "object_id": "paper:arxiv.2506.12152",
+        "created_at": "2025-06-17T17:16:08+00:00",
+        "updated_at": "2025-06-17T17:16:32+00:00",
         "version": 1
       }
     }

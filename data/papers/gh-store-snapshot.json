@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-18T17:33:33.016903+00:00",
+  "snapshot_time": "2025-06-18T17:37:26.985142+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -2305,23 +2305,28 @@
       "data": {
         "sourceId": "openreview",
         "paperId": "tPNHOoZFl9",
-        "url": "https://openreview.net/pdf?id=tPNHOoZFl9",
-        "title": "tPNHOoZFl9",
-        "authors": "",
-        "abstract": "",
-        "timestamp": "2025-06-18T17:32:47.954Z",
+        "url": "https://openreview.net/forum?id=tPNHOoZFl9",
+        "title": "Learning Dynamics of LLM Finetuning",
+        "authors": "Yi Ren, Danica J. Sutherland",
+        "abstract": "Learning dynamics, which describes how the learning of specific training examples influences the model's predictions on other examples, \ngives us a powerful tool for understanding the behavior of deep learning systems. We study the learning dynamics of large language models during different types of finetuning, by analyzing the step-wise decomposition of how influence accumulates among different potential responses. Our framework allows a uniform interpretation of many interesting observations about the training of popular algorithms for both instruction tuning and preference tuning. In particular, we propose a hypothetical explanation of why specific types of hallucination are strengthened after finetuning, e.g., the model might use phrases or facts in the response for question B to answer question A, or the model might keep repeating similar simple phrases when generating responses. We also extend our framework and highlight a unique ``squeezing effect'' to explain a previously observed phenomenon in off-policy direct preference optimization (DPO), where running DPO for too long makes even the desired outputs less likely. This framework also provides insights into where the benefits of on-policy DPO and other variants come from. The analysis not only provides a novel perspective of understanding LLM's finetuning but also inspires a simple, effective method to improve alignment performance.",
+        "timestamp": "2025-06-18T17:33:36.585Z",
         "rating": "novote",
-        "publishedDate": "",
-        "tags": [],
+        "publishedDate": "22 Jan 2025",
+        "tags": [
+          "Learning dynamics",
+          "LLM",
+          "finetuning",
+          "DPO"
+        ],
         "doi": "",
-        "journalName": "",
-        "sourceType": "pdf"
+        "journalName": "ICLR 2025 Oral",
+        "sourceType": "url"
       },
       "meta": {
-        "issue_number": 90,
+        "issue_number": 91,
         "object_id": "paper:openreview.tPNHOoZFl9",
-        "created_at": "2025-06-18T17:32:48+00:00",
-        "updated_at": "2025-06-18T17:33:08+00:00",
+        "created_at": "2025-06-18T17:33:36+00:00",
+        "updated_at": "2025-06-18T17:33:58+00:00",
         "version": 1
       }
     }

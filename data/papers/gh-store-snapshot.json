@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-18T20:08:42.694541+00:00",
+  "snapshot_time": "2025-06-18T20:10:36.651510+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -2365,6 +2365,84 @@
         "object_id": "paper:arxiv.2506.13886",
         "created_at": "2025-06-18T20:07:45+00:00",
         "updated_at": "2025-06-18T20:08:15+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2506.08872": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.08872",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-06-18T20:09:48.467Z",
+            "data": {
+              "session_id": "session_1750277388432_wa51wiv",
+              "source_id": "arxiv",
+              "paper_id": "2506.08872",
+              "start_time": "2025-06-18T20:09:33.492Z",
+              "end_time": "2025-06-18T20:09:48.432Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 5,
+              "total_elapsed_seconds": 15
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 96,
+        "object_id": "interactions:arxiv.2506.08872",
+        "created_at": "2025-06-18T20:09:49+00:00",
+        "updated_at": "2025-06-18T20:10:09+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.08872": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.08872",
+        "url": "https://arxiv.org/pdf/2506.08872",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-06-18T20:09:29.973Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 95,
+        "object_id": "paper:arxiv.2506.08872",
+        "created_at": "2025-06-18T20:09:30+00:00",
+        "updated_at": "2025-06-18T20:09:53+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2411.08324": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2411.08324",
+        "url": "https://arxiv.org/html/2411.08324v1",
+        "title": "Are LLMs Prescient? A Continuous Evaluation using Daily News as the Oracle",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-06-18T20:09:04.974Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 94,
+        "object_id": "paper:arxiv.2411.08324",
+        "created_at": "2025-06-18T20:09:05+00:00",
+        "updated_at": "2025-06-18T20:09:27+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-18T20:10:36.651510+00:00",
+  "snapshot_time": "2025-06-22T19:58:54.174936+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -2443,6 +2443,63 @@
         "object_id": "paper:arxiv.2411.08324",
         "created_at": "2025-06-18T20:09:05+00:00",
         "updated_at": "2025-06-18T20:09:27+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2506.06298": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.06298",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-06-22T19:58:05.405Z",
+            "data": {
+              "session_id": "session_1750622284879_mabvs41",
+              "source_id": "arxiv",
+              "paper_id": "2506.06298",
+              "start_time": "2025-06-22T19:57:41.387Z",
+              "end_time": "2025-06-22T19:58:04.879Z",
+              "heartbeat_count": 4,
+              "duration_seconds": 20,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 23
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 99,
+        "object_id": "interactions:arxiv.2506.06298",
+        "created_at": "2025-06-22T19:58:05+00:00",
+        "updated_at": "2025-06-22T19:58:28+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.06298": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.06298",
+        "url": "https://arxiv.org/pdf/2506.06298",
+        "title": "Pairwise Calibrated Rewards for Pluralistic Alignment",
+        "authors": "Daniel Halpern, Evi Micha, Ariel D. Procaccia, Itai Shapira",
+        "abstract": "Current alignment pipelines presume a single, universal notion of desirable\nbehavior. However, human preferences often diverge across users, contexts, and\ncultures. As a result, disagreement collapses into the majority signal and\nminority perspectives are discounted. To address this, we propose reflecting\ndiverse human preferences through a distribution over multiple reward\nfunctions, each inducing a distinct aligned policy. The distribution is learned\ndirectly from pairwise preference without annotator identifiers or predefined\ngroups. Instead, annotator disagreements are treated as informative soft\nlabels. Our central criterion is pairwise calibration: for every pair of\ncandidate responses, the proportion of reward functions preferring one response\nmatches the fraction of annotators with that preference. We prove that even a\nsmall outlier-free ensemble can accurately represent diverse preference\ndistributions. Empirically, we introduce and validate a practical training\nheuristic to learn such ensembles, and demonstrate its effectiveness through\nimproved calibration, implying a more faithful representation of pluralistic\nvalues.",
+        "timestamp": "2025-06-22T19:57:41.869Z",
+        "rating": "novote",
+        "publishedDate": "2025-05-17T18:38:24Z",
+        "tags": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 97,
+        "object_id": "paper:arxiv.2506.06298",
+        "created_at": "2025-06-22T19:57:42+00:00",
+        "updated_at": "2025-06-22T19:58:03+00:00",
         "version": 1
       }
     }

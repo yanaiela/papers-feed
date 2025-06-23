@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-23T18:15:19.089944+00:00",
+  "snapshot_time": "2025-06-23T18:26:55.035931+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -2575,6 +2575,33 @@
         "object_id": "paper:arxiv.2506.06298",
         "created_at": "2025-06-22T19:57:42+00:00",
         "updated_at": "2025-06-22T19:58:03+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.14200": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.14200",
+        "url": "https://arxiv.org/pdf/2506.14200",
+        "title": "ELI-Why: Evaluating the Pedagogical Utility of Language Model\n  Explanations",
+        "authors": "Brihi Joshi, Keyu He, Sahana Ramnath, Sadra Sabouri, Kaitlyn Zhou, Souti Chattopadhyay, Swabha Swayamdipta, Xiang Ren",
+        "abstract": "Language models today are widely used in education, yet their ability to\ntailor responses for learners with varied informational needs and knowledge\nbackgrounds remains under-explored. To this end, we introduce ELI-Why, a\nbenchmark of 13.4K \"Why\" questions to evaluate the pedagogical capabilities of\nlanguage models. We then conduct two extensive human studies to assess the\nutility of language model-generated explanatory answers (explanations) on our\nbenchmark, tailored to three distinct educational grades: elementary,\nhigh-school and graduate school. In our first study, human raters assume the\nrole of an \"educator\" to assess model explanations' fit to different\neducational grades. We find that GPT-4-generated explanations match their\nintended educational background only 50% of the time, compared to 79% for lay\nhuman-curated explanations. In our second study, human raters assume the role\nof a learner to assess if an explanation fits their own informational needs.\nAcross all educational backgrounds, users deemed GPT-4-generated explanations\n20% less suited on average to their informational needs, when compared to\nexplanations curated by lay people. Additionally, automated evaluation metrics\nreveal that explanations generated across different language model families for\ndifferent informational needs remain indistinguishable in their grade-level,\nlimiting their pedagogical effectiveness.",
+        "timestamp": "2025-06-23T18:25:55.019Z",
+        "rating": "novote",
+        "publishedDate": "2025-06-17T05:36:39Z",
+        "tags": [
+          "cs.CL",
+          "cs.HC"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 100,
+        "object_id": "paper:arxiv.2506.14200",
+        "created_at": "2025-06-23T18:25:55+00:00",
+        "updated_at": "2025-06-23T18:26:22+00:00",
         "version": 1
       }
     }

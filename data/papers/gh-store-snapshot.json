@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-25T18:01:10.190307+00:00",
+  "snapshot_time": "2025-06-25T18:11:42.546633+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -2822,6 +2822,32 @@
         "object_id": "paper:arxiv.2403.14653",
         "created_at": "2025-06-25T14:26:55+00:00",
         "updated_at": "2025-06-25T14:27:21+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2006.03010": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2006.03010",
+        "url": "https://arxiv.org/abs/2006.03010",
+        "title": "Syntactic Search by Example",
+        "authors": "Micah Shlain, Hillel Taub-Tabib, Shoval Sadde, Yoav Goldberg",
+        "abstract": "We present a system that allows a user to search a large linguistically annotated corpus using syntactic patterns over dependency graphs. In contrast to previous attempts to this effect, we introduce a light-weight query language that does not require the user to know the details of the underlying syntactic representations, and instead to query the corpus by providing an example sentence coupled with simple markup. Search is performed at an interactive speed due to an efficient linguistic graph-indexing and retrieval engine. This allows for rapid exploration, development and refinement of syntax-based queries. We demonstrate the system using queries over two corpora: the English wikipedia, and a collection of English pubmed abstracts. A demo of the wikipedia system is available at: this https URL",
+        "timestamp": "2025-06-25T18:10:46.604Z",
+        "rating": "novote",
+        "publishedDate": "2020/06/04",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 106,
+        "object_id": "paper:arxiv.2006.03010",
+        "created_at": "2025-06-25T18:10:47+00:00",
+        "updated_at": "2025-06-25T18:11:14+00:00",
         "version": 1
       }
     }

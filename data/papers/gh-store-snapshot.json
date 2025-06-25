@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-25T22:36:55.307639+00:00",
+  "snapshot_time": "2025-06-25T22:51:11.924469+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -2893,6 +2893,32 @@
         "object_id": "paper:arxiv.2006.03010",
         "created_at": "2025-06-25T18:10:47+00:00",
         "updated_at": "2025-06-25T18:11:14+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2410.22592": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2410.22592",
+        "url": "https://arxiv.org/abs/2410.22592",
+        "title": "GRADE: Quantifying Sample Diversity in Text-to-Image Models",
+        "authors": "Royi Rassin, Aviv Slobodkin, Shauli Ravfogel, Yanai Elazar, Yoav Goldberg",
+        "abstract": "We introduce GRADE, an automatic method for quantifying sample diversity in text-to-image models. Our method leverages the world knowledge embedded in large language models and visual question-answering systems to identify relevant concept-specific axes of diversity (e.g., ``shape'' for the concept ``cookie''). It then estimates frequency distributions of concepts and their attributes and quantifies diversity using entropy. We use GRADE to measure the diversity of 12 models over a total of 720K images, revealing that all models display limited variation, with clear deterioration in stronger models. Further, we find that models often exhibit default behaviors, a phenomenon where a model consistently generates concepts with the same attributes (e.g., 98% of the cookies are round). Lastly, we show that a key reason for low diversity is underspecified captions in training data. Our work proposes an automatic, semantically-driven approach to measure sample diversity and highlights the stunning homogeneity in text-to-image models.",
+        "timestamp": "2025-06-25T22:50:30.897Z",
+        "rating": "novote",
+        "publishedDate": "2024/10/29",
+        "tags": [
+          "Computer Vision and Pattern Recognition (cs.CV)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 107,
+        "object_id": "paper:arxiv.2410.22592",
+        "created_at": "2025-06-25T22:50:31+00:00",
+        "updated_at": "2025-06-25T22:50:50+00:00",
         "version": 1
       }
     }

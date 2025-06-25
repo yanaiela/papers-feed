@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-24T21:10:57.416711+00:00",
+  "snapshot_time": "2025-06-25T14:27:46.670580+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -2736,6 +2736,62 @@
         "object_id": "interactions:arxiv.2404.15758",
         "created_at": "2025-06-23T21:51:04+00:00",
         "updated_at": "2025-06-23T21:51:24+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2403.14653": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2403.14653",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-06-25T14:27:04.652Z",
+            "data": {
+              "session_id": "session_1750861623868_3zmswio",
+              "source_id": "arxiv",
+              "paper_id": "2403.14653",
+              "start_time": "2025-06-25T14:26:57.595Z",
+              "end_time": "2025-06-25T14:27:03.868Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 105,
+        "object_id": "interactions:arxiv.2403.14653",
+        "created_at": "2025-06-25T14:27:05+00:00",
+        "updated_at": "2025-06-25T14:27:25+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2403.14653": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2403.14653",
+        "url": "https://arxiv.org/abs/2403.14653",
+        "title": "Between Copyright and Computer Science: The Law and Ethics of Generative AI",
+        "authors": "Deven R. Desai, Mark Riedl",
+        "abstract": "Copyright and computer science continue to intersect and clash, but they can coexist. The advent of new technologies such as digitization of visual and aural creations, sharing technologies, search engines, social media offerings, and more challenge copyright-based industries and reopen questions about the reach of copyright law. Breakthroughs in artificial intelligence research, especially Large Language Models that leverage copyrighted material as part of training models, are the latest examples of the ongoing tension between copyright and computer science. The exuberance, rush-to-market, and edge problem cases created by a few misguided companies now raises challenges to core legal doctrines and may shift Open Internet practices for the worse. That result does not have to be, and should not be, the outcome.\nThis Article shows that, contrary to some scholars' views, fair use law does not bless all ways that someone can gain access to copyrighted material even when the purpose is fair use. Nonetheless, the scientific need for more data to advance AI research means access to large book corpora and the Open Internet is vital for the future of that research. The copyright industry claims, however, that almost all uses of copyrighted material must be compensated, even for non-expressive uses. The Article's solution accepts that both sides need to change. It is one that forces the computer science world to discipline its behaviors and, in some cases, pay for copyrighted material. It also requires the copyright industry to abandon its belief that all uses must be compensated or restricted to uses sanctioned by the copyright industry. As part of this re-balancing, the Article addresses a problem that has grown out of this clash and under theorized.",
+        "timestamp": "2025-06-25T14:26:55.279Z",
+        "rating": "novote",
+        "publishedDate": "2024/02/24",
+        "tags": [
+          "Computers and Society (cs.CY)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 103,
+        "object_id": "paper:arxiv.2403.14653",
+        "created_at": "2025-06-25T14:26:55+00:00",
+        "updated_at": "2025-06-25T14:27:21+00:00",
         "version": 1
       }
     }

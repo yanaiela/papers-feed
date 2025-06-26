@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-26T22:38:11.963745+00:00",
+  "snapshot_time": "2025-06-26T22:39:33.175983+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -3380,6 +3380,77 @@
         "object_id": "interactions:arxiv.2505.00985",
         "created_at": "2025-06-26T22:36:29+00:00",
         "updated_at": "2025-06-26T22:36:51+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2504.09858": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.09858",
+        "url": "https://arxiv.org/abs/2504.09858",
+        "title": "Reasoning Models Can Be Effective Without Thinking",
+        "authors": "Wenjie Ma, Jingxuan He, Charlie Snell, Tyler Griggs, Sewon Min, Matei Zaharia",
+        "abstract": "Recent LLMs have significantly improved reasoning capabilities, primarily by including an explicit, lengthy Thinking process as part of generation. In this paper, we question whether this explicit thinking is necessary. Using the state-of-the-art DeepSeek-R1-Distill-Qwen, we find that bypassing the thinking process via simple prompting, denoted as NoThinking, can be surprisingly effective. When controlling for the number of tokens, NoThinking outperforms Thinking across a diverse set of seven challenging reasoning datasets--including mathematical problem solving, formal theorem proving, and coding--especially in low-budget settings, e.g., 51.3 vs. 28.9 on ACM 23 with 700 tokens. Notably, the performance of NoThinking becomes more competitive with pass@k as k increases. Building on this observation, we demonstrate that a parallel scaling approach that uses NoThinking to generate N outputs independently and aggregates them is highly effective. For aggregation, we use task-specific verifiers when available, or we apply simple best-of-N strategies such as confidence-based selection. Our method outperforms a range of baselines with similar latency using Thinking, and is comparable to Thinking with significantly longer latency (up to 9x). Together, our research encourages a reconsideration of the necessity of lengthy thinking processes, while also establishing a competitive reference for achieving strong reasoning performance in low-budget settings or at low latency using parallel scaling.",
+        "timestamp": "2025-06-26T22:38:53.205Z",
+        "rating": "novote",
+        "publishedDate": "2025/04/14",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 121,
+        "object_id": "paper:arxiv.2504.09858",
+        "created_at": "2025-06-26T22:38:53+00:00",
+        "updated_at": "2025-06-26T22:39:15+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2504.09522": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.09522",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 120,
+        "object_id": "interactions:arxiv.2504.09522",
+        "created_at": "2025-06-26T22:38:40+00:00",
+        "updated_at": "2025-06-26T22:38:42+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2504.18114": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.18114",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-06-26T22:38:19.948Z",
+            "data": {
+              "session_id": "session_1750977499736_co3bk0b",
+              "source_id": "arxiv",
+              "paper_id": "2504.18114",
+              "start_time": "2025-06-26T22:37:25.727Z",
+              "end_time": "2025-06-26T22:38:19.736Z",
+              "heartbeat_count": 10,
+              "duration_seconds": 50,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 54
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 119,
+        "object_id": "interactions:arxiv.2504.18114",
+        "created_at": "2025-06-26T22:38:20+00:00",
+        "updated_at": "2025-06-26T22:38:41+00:00",
         "version": 1
       }
     }

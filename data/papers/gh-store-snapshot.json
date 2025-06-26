@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-26T22:39:33.175983+00:00",
+  "snapshot_time": "2025-06-26T22:40:44.260065+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -3451,6 +3451,46 @@
         "object_id": "interactions:arxiv.2504.18114",
         "created_at": "2025-06-26T22:38:20+00:00",
         "updated_at": "2025-06-26T22:38:41+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2503.21934": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.21934",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 123,
+        "object_id": "interactions:arxiv.2503.21934",
+        "created_at": "2025-06-26T22:39:47+00:00",
+        "updated_at": "2025-06-26T22:39:49+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2503.21934": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.21934",
+        "url": "https://arxiv.org/abs/2503.21934",
+        "title": "Proof or Bluff? Evaluating LLMs on 2025 USA Math Olympiad",
+        "authors": "Ivo Petrov, Jasper Dekoninck, Lyuben Baltadzhiev, Maria Drencheva, Kristian Minchev, Mislav Balunovi\u0107, Nikola Jovanovi\u0107, Martin Vechev",
+        "abstract": "Recent math benchmarks for large language models (LLMs) such as MathArena indicate that state-of-the-art reasoning models achieve impressive performance on mathematical competitions like AIME, with the leading model, Gemini-2.5-Pro, achieving scores comparable to top human competitors. However, these benchmarks evaluate models solely based on final numerical answers, neglecting rigorous reasoning and proof generation which are essential for real-world mathematical tasks. To address this, we introduce the first comprehensive evaluation of full-solution reasoning for challenging mathematical problems. Using expert human annotators, we evaluated several state-of-the-art reasoning models on the six problems from the 2025 USAMO within hours of their release. Our results reveal that all tested models struggled significantly: only Gemini-2.5-Pro achieves a non-trivial score of 25%, while all other models achieve less than 5%. Through detailed analysis of reasoning traces, we identify the most common failure modes and find several unwanted artifacts arising from the optimization strategies employed during model training. Overall, our results suggest that current LLMs are inadequate for rigorous mathematical reasoning tasks, highlighting the need for substantial improvements in reasoning and proof generation capabilities.",
+        "timestamp": "2025-06-26T22:39:32.573Z",
+        "rating": "novote",
+        "publishedDate": "2025/03/27",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 122,
+        "object_id": "paper:arxiv.2503.21934",
+        "created_at": "2025-06-26T22:39:32+00:00",
+        "updated_at": "2025-06-26T22:40:02+00:00",
         "version": 1
       }
     }

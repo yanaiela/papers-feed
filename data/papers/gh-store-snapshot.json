@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-26T22:34:36.789892+00:00",
+  "snapshot_time": "2025-06-26T22:36:35.929910+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -3144,6 +3144,138 @@
         "object_id": "interactions:openreview.tPNHOoZFl9",
         "created_at": "2025-06-26T22:25:53+00:00",
         "updated_at": "2025-06-26T22:26:15+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2502.12120": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2502.12120",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 114,
+        "object_id": "interactions:arxiv.2502.12120",
+        "created_at": "2025-06-26T22:36:01+00:00",
+        "updated_at": "2025-06-26T22:36:02+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2502.12120": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2502.12120",
+        "url": "https://arxiv.org/abs/2502.12120",
+        "title": "LLMs on the Line: Data Determines Loss-to-Loss Scaling Laws",
+        "authors": "Prasanna Mayilvahanan, Thadd\u00e4us Wiedemer, Sayak Mallick, Matthias Bethge, Wieland Brendel",
+        "abstract": "Scaling laws guide the development of large language models (LLMs) by offering estimates for the optimal balance of model size, tokens, and compute. More recently, loss-to-loss scaling laws that relate losses across pretraining datasets and downstream tasks have emerged as a powerful tool for understanding and improving LLM performance. In this work, we investigate which factors most strongly influence loss-to-loss scaling. Our experiments reveal that the pretraining data and tokenizer determine the scaling trend. In contrast, model size, optimization hyperparameters, and even significant architectural differences, such as between transformer-based models like Llama and state-space models like Mamba, have limited impact. Consequently, practitioners should carefully curate suitable pretraining datasets for optimal downstream performance, while architectures and other settings can be freely optimized for training efficiency.",
+        "timestamp": "2025-06-26T22:35:53.903Z",
+        "rating": "novote",
+        "publishedDate": "2025/02/17",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 113,
+        "object_id": "paper:arxiv.2502.12120",
+        "created_at": "2025-06-26T22:35:54+00:00",
+        "updated_at": "2025-06-26T22:36:12+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2505.04741": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.04741",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-06-26T22:35:51.470Z",
+            "data": {
+              "session_id": "session_1750977351273_b5h40du",
+              "source_id": "arxiv",
+              "paper_id": "2505.04741",
+              "start_time": "2025-06-26T22:35:34.061Z",
+              "end_time": "2025-06-26T22:35:51.273Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 17
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 112,
+        "object_id": "interactions:arxiv.2505.04741",
+        "created_at": "2025-06-26T22:35:52+00:00",
+        "updated_at": "2025-06-26T22:36:10+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2503.08679": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.08679",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-06-26T22:35:30.896Z",
+            "data": {
+              "session_id": "session_1750977330627_sxgmmia",
+              "source_id": "arxiv",
+              "paper_id": "2503.08679",
+              "start_time": "2025-06-26T22:35:16.533Z",
+              "end_time": "2025-06-26T22:35:30.627Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 14
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 111,
+        "object_id": "interactions:arxiv.2503.08679",
+        "created_at": "2025-06-26T22:35:31+00:00",
+        "updated_at": "2025-06-26T22:35:50+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2408.03247": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2408.03247",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-06-26T22:34:59.105Z",
+            "data": {
+              "session_id": "session_1750977299099_gsn6ml1",
+              "source_id": "arxiv",
+              "paper_id": "2408.03247",
+              "start_time": "2025-06-26T22:34:43.568Z",
+              "end_time": "2025-06-26T22:34:59.099Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 16
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 110,
+        "object_id": "interactions:arxiv.2408.03247",
+        "created_at": "2025-06-26T22:34:59+00:00",
+        "updated_at": "2025-06-26T22:35:23+00:00",
         "version": 1
       }
     }

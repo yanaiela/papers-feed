@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-26T22:46:29.106850+00:00",
+  "snapshot_time": "2025-06-26T22:48:04.017175+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -3690,17 +3690,17 @@
         "interactions": [
           {
             "type": "reading_session",
-            "timestamp": "2025-06-26T22:45:44.143Z",
+            "timestamp": "2025-06-26T22:46:29.873Z",
             "data": {
-              "session_id": "session_1750977943726_nm45czw",
+              "session_id": "session_1750977989869_2q6i5sq",
               "source_id": "arxiv",
               "paper_id": "2409.12183",
-              "start_time": "2025-06-26T22:45:36.191Z",
-              "end_time": "2025-06-26T22:45:43.726Z",
+              "start_time": "2025-06-26T22:46:21.162Z",
+              "end_time": "2025-06-26T22:46:29.869Z",
               "heartbeat_count": 1,
               "duration_seconds": 5,
-              "idle_seconds": 3,
-              "total_elapsed_seconds": 8
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 9
             }
           }
         ]
@@ -3709,7 +3709,7 @@
         "issue_number": 135,
         "object_id": "interactions:arxiv.2409.12183",
         "created_at": "2025-06-26T22:45:44+00:00",
-        "updated_at": "2025-06-26T22:46:06+00:00",
+        "updated_at": "2025-06-26T22:46:47+00:00",
         "version": 1
       }
     },
@@ -3784,6 +3784,104 @@
         "object_id": "interactions:arxiv.2006.07710",
         "created_at": "2025-06-26T22:45:11+00:00",
         "updated_at": "2025-06-26T22:45:31+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2503.01822": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.01822",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 139,
+        "object_id": "interactions:arxiv.2503.01822",
+        "created_at": "2025-06-26T22:47:04+00:00",
+        "updated_at": "2025-06-26T22:47:06+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2503.01822": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.01822",
+        "url": "https://arxiv.org/abs/2503.01822",
+        "title": "Projecting Assumptions: The Duality Between Sparse Autoencoders and Concept Geometry",
+        "authors": "Sai Sumedh R. Hindupur, Ekdeep Singh Lubana, Thomas Fel, Demba Ba",
+        "abstract": "Sparse Autoencoders (SAEs) are widely used to interpret neural networks by identifying meaningful concepts from their representations. However, do SAEs truly uncover all concepts a model relies on, or are they inherently biased toward certain kinds of concepts? We introduce a unified framework that recasts SAEs as solutions to a bilevel optimization problem, revealing a fundamental challenge: each SAE imposes structural assumptions about how concepts are encoded in model representations, which in turn shapes what it can and cannot detect. This means different SAEs are not interchangeable -- switching architectures can expose entirely new concepts or obscure existing ones. To systematically probe this effect, we evaluate SAEs across a spectrum of settings: from controlled toy models that isolate key variables, to semi-synthetic experiments on real model activations and finally to large-scale, naturalistic datasets. Across this progression, we examine two fundamental properties that real-world concepts often exhibit: heterogeneity in intrinsic dimensionality (some concepts are inherently low-dimensional, others are not) and nonlinear separability. We show that SAEs fail to recover concepts when these properties are ignored, and we design a new SAE that explicitly incorporates both, enabling the discovery of previously hidden concepts and reinforcing our theoretical insights. Our findings challenge the idea of a universal SAE and underscores the need for architecture-specific choices in model interpretability. Overall, we argue an SAE does not just reveal concepts -- it determines what can be seen at all.",
+        "timestamp": "2025-06-26T22:46:59.177Z",
+        "rating": "novote",
+        "publishedDate": "2025/03/03",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 138,
+        "object_id": "paper:arxiv.2503.01822",
+        "created_at": "2025-06-26T22:46:59+00:00",
+        "updated_at": "2025-06-26T22:47:17+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2503.03862": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.03862",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-06-26T22:46:52.455Z",
+            "data": {
+              "session_id": "session_1750978012437_szcq18d",
+              "source_id": "arxiv",
+              "paper_id": "2503.03862",
+              "start_time": "2025-06-26T22:46:37.271Z",
+              "end_time": "2025-06-26T22:46:52.437Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 15
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 137,
+        "object_id": "interactions:arxiv.2503.03862",
+        "created_at": "2025-06-26T22:46:52+00:00",
+        "updated_at": "2025-06-26T22:47:11+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2503.03862": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.03862",
+        "url": "https://arxiv.org/abs/2503.03862",
+        "title": "Not-Just-Scaling Laws: Towards a Better Understanding of the Downstream Impact of Language Model Design Decisions",
+        "authors": "Emmy Liu, Amanda Bertsch, Lintang Sutawika, Lindia Tjuatja, Patrick Fernandes, Lara Marinov, Michael Chen, Shreya Singhal, Carolin Lawrence, Aditi Raghunathan, Kiril Gashteovski, Graham Neubig",
+        "abstract": "Improvements in language model capabilities are often attributed to increasing model size or training data, but in some cases smaller models trained on curated data or with different architectural decisions can outperform larger ones trained on more tokens. What accounts for this? To quantify the impact of these design choices, we meta-analyze 92 open-source pretrained models across a wide array of scales, including state-of-the-art open-weights models as well as less performant models and those with less conventional design decisions. We find that by incorporating features besides model size and number of training tokens, we can achieve a relative 3-28% increase in ability to predict downstream performance compared with using scale alone. Analysis of model design decisions reveal insights into data composition, such as the trade-off between language and code tasks at 15-25\\% code, as well as the better performance of some architectural decisions such as choosing rotary over learned embeddings. Broadly, our framework lays a foundation for more systematic investigation of how model development choices shape final capabilities.",
+        "timestamp": "2025-06-26T22:46:34.099Z",
+        "rating": "novote",
+        "publishedDate": "2025/03/05",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 136,
+        "object_id": "paper:arxiv.2503.03862",
+        "created_at": "2025-06-26T22:46:34+00:00",
+        "updated_at": "2025-06-26T22:46:56+00:00",
         "version": 1
       }
     }

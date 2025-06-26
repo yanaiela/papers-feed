@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-26T22:43:38.430836+00:00",
+  "snapshot_time": "2025-06-26T22:44:51.599204+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -3609,6 +3609,77 @@
         "object_id": "interactions:arxiv.2210.10749",
         "created_at": "2025-06-26T22:42:12+00:00",
         "updated_at": "2025-06-26T22:42:36+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2503.11985": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.11985",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 131,
+        "object_id": "interactions:arxiv.2503.11985",
+        "created_at": "2025-06-26T22:44:22+00:00",
+        "updated_at": "2025-06-26T22:44:23+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2503.11985": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.11985",
+        "url": "https://arxiv.org/abs/2503.11985",
+        "title": "No LLM is Free From Bias: A Comprehensive Study of Bias Evaluation in Large Language Models",
+        "authors": "Charaka Vinayak Kumar, Ashok Urlana, Gopichand Kanumolu, Bala Mallikarjunarao Garlapati, Pruthwik Mishra",
+        "abstract": "Advancements in Large Language Models (LLMs) have increased the performance of different natural language understanding as well as generation tasks. Although LLMs have breached the state-of-the-art performance in various tasks, they often reflect different forms of bias present in the training data. In the light of this perceived limitation, we provide a unified evaluation of benchmarks using a set of representative small and medium-sized LLMs that cover different forms of biases starting from physical characteristics to socio-economic categories. Moreover, we propose five prompting approaches to carry out the bias detection task across different aspects of bias. Further, we formulate three research questions to gain valuable insight in detecting biases in LLMs using different approaches and evaluation metrics across benchmarks. The results indicate that each of the selected LLMs suffer from one or the other form of bias with the Phi-3.5B model being the least biased. Finally, we conclude the paper with the identification of key challenges and possible future directions.",
+        "timestamp": "2025-06-26T22:44:15.683Z",
+        "rating": "novote",
+        "publishedDate": "2025/03/15",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 130,
+        "object_id": "paper:arxiv.2503.11985",
+        "created_at": "2025-06-26T22:44:15+00:00",
+        "updated_at": "2025-06-26T22:44:33+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2503.10061": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.10061",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-06-26T22:43:25.994Z",
+            "data": {
+              "session_id": "session_1750977805562_4m204um",
+              "source_id": "arxiv",
+              "paper_id": "2503.10061",
+              "start_time": "2025-06-26T22:43:19.462Z",
+              "end_time": "2025-06-26T22:43:25.562Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 129,
+        "object_id": "interactions:arxiv.2503.10061",
+        "created_at": "2025-06-26T22:43:26+00:00",
+        "updated_at": "2025-06-26T22:43:45+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-26T22:40:44.260065+00:00",
+  "snapshot_time": "2025-06-26T22:43:38.430836+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -3491,6 +3491,124 @@
         "object_id": "paper:arxiv.2503.21934",
         "created_at": "2025-06-26T22:39:32+00:00",
         "updated_at": "2025-06-26T22:40:02+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2501.17148": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2501.17148",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 128,
+        "object_id": "interactions:arxiv.2501.17148",
+        "created_at": "2025-06-26T22:43:13+00:00",
+        "updated_at": "2025-06-26T22:43:15+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2311.12786": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2311.12786",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 127,
+        "object_id": "interactions:arxiv.2311.12786",
+        "created_at": "2025-06-26T22:42:55+00:00",
+        "updated_at": "2025-06-26T22:42:57+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2408.12578": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2408.12578",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-06-26T22:42:44.191Z",
+            "data": {
+              "session_id": "session_1750977763894_pvti6ps",
+              "source_id": "arxiv",
+              "paper_id": "2408.12578",
+              "start_time": "2025-06-26T22:42:32.922Z",
+              "end_time": "2025-06-26T22:42:43.894Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 11
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 126,
+        "object_id": "interactions:arxiv.2408.12578",
+        "created_at": "2025-06-26T22:42:44+00:00",
+        "updated_at": "2025-06-26T22:43:04+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2406.04289": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2406.04289",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-06-26T22:42:20.692Z",
+            "data": {
+              "session_id": "session_1750977740588_8yjc7zf",
+              "source_id": "arxiv",
+              "paper_id": "2406.04289",
+              "start_time": "2025-06-26T22:42:14.188Z",
+              "end_time": "2025-06-26T22:42:20.588Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 125,
+        "object_id": "interactions:arxiv.2406.04289",
+        "created_at": "2025-06-26T22:42:21+00:00",
+        "updated_at": "2025-06-26T22:42:41+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2210.10749": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2210.10749",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-06-26T22:42:12.305Z",
+            "data": {
+              "session_id": "session_1750977732291_pvlhzfz",
+              "source_id": "arxiv",
+              "paper_id": "2210.10749",
+              "start_time": "2025-06-26T22:41:52.814Z",
+              "end_time": "2025-06-26T22:42:12.291Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 19
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 124,
+        "object_id": "interactions:arxiv.2210.10749",
+        "created_at": "2025-06-26T22:42:12+00:00",
+        "updated_at": "2025-06-26T22:42:36+00:00",
         "version": 1
       }
     }

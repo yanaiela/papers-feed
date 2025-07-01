@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-06-26T23:08:36.888849+00:00",
+  "snapshot_time": "2025-07-01T17:40:55.273252+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -3999,6 +3999,34 @@
         "object_id": "interactions:arxiv.2412.20760",
         "created_at": "2025-06-26T23:00:54+00:00",
         "updated_at": "2025-06-26T23:00:56+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2406.09070": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2406.09070",
+        "url": "https://arxiv.org/pdf/2406.09070",
+        "title": "FairCoT: Enhancing Fairness in Text-to-Image Generation via Chain of\n  Thought Reasoning with Multimodal Large Language Models",
+        "authors": "Zahraa Al Sahili, Ioannis Patras, Matthew Purver",
+        "abstract": "In the domain of text-to-image generative models, biases inherent in training\ndatasets often propagate into generated content, posing significant ethical\nchallenges, particularly in socially sensitive contexts. We introduce FairCoT,\na novel framework that enhances fairness in text to image models through Chain\nof Thought (CoT) reasoning within multimodal generative large language models.\nFairCoT employs iterative CoT refinement to systematically mitigate biases, and\ndynamically adjusts textual prompts in real time, ensuring diverse and\nequitable representation in generated images. By integrating iterative\nreasoning processes, FairCoT addresses the limitations of zero shot CoT in\nsensitive scenarios, balancing creativity with ethical responsibility.\nExperimental evaluations across popular text-to-image systems including DALLE\nand various Stable Diffusion variants, demonstrate that FairCoT significantly\nenhances fairness and diversity without sacrificing image quality or semantic\nfidelity. By combining robust reasoning, lightweight deployment, and\nextensibility to multiple models, FairCoT represents a promising step toward\nmore socially responsible and transparent AI driven content generation.",
+        "timestamp": "2025-07-01T17:39:36.486Z",
+        "rating": "novote",
+        "publishedDate": "2024-06-13T12:55:10Z",
+        "tags": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CV"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 145,
+        "object_id": "paper:arxiv.2406.09070",
+        "created_at": "2025-07-01T17:39:36+00:00",
+        "updated_at": "2025-07-01T17:40:02+00:00",
         "version": 1
       }
     }

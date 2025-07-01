@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-07-01T17:42:05.767948+00:00",
+  "snapshot_time": "2025-07-01T17:51:56.494277+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -4057,6 +4057,35 @@
         "object_id": "interactions:arxiv.2406.09070",
         "created_at": "2025-07-01T17:41:06+00:00",
         "updated_at": "2025-07-01T17:41:34+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2402.03239": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2402.03239",
+        "url": "https://arxiv.org/abs/2402.03239",
+        "title": "Bluesky and the AT Protocol: Usable Decentralized Social Media",
+        "authors": "Martin Kleppmann, Paul Frazee, Jake Gold, Jay Graber, Daniel Holmgren, Devin Ivy, Jeromy Johnson, Bryan Newbold, Jaz Volpert",
+        "abstract": "Bluesky is a new social network built upon the AT Protocol, a decentralized foundation for public social media. It was launched in private beta in February 2023, and has grown to over 10 million registered users by October 2024. In this paper we introduce the architecture of Bluesky and the AT Protocol, and explain how the technical design of Bluesky is informed by our goals: to enable decentralization by having multiple interoperable providers for every part of the system; to make it easy for users to switch providers; to give users agency over the content they see; and to provide a simple user experience that does not burden users with complexity arising from the system's decentralized nature. The system's openness allows anybody to contribute to content moderation and community management, and we invite the research community to use Bluesky as a dataset and testing ground for new approaches in social media moderation.",
+        "timestamp": "2025-07-01T17:50:32.101Z",
+        "rating": "novote",
+        "publishedDate": "2024/02/05",
+        "tags": [
+          "Distributed",
+          "Parallel",
+          "and Cluster Computing (cs.DC)",
+          "Social and Information Networks (cs.SI)"
+        ],
+        "doi": "10.1145/3694809.3700740",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 147,
+        "object_id": "paper:arxiv.2402.03239",
+        "created_at": "2025-07-01T17:50:32+00:00",
+        "updated_at": "2025-07-01T17:50:58+00:00",
         "version": 1
       }
     }

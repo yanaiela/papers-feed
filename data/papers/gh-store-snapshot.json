@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-07-02T21:35:57.089294+00:00",
+  "snapshot_time": "2025-07-02T21:38:26.631301+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -2381,6 +2381,21 @@
               "idle_seconds": 2,
               "total_elapsed_seconds": 37
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-07-02T21:37:21.536Z",
+            "data": {
+              "session_id": "session_1751492241149_t8usv8f",
+              "source_id": "arxiv",
+              "paper_id": "2506.12229",
+              "start_time": "2025-07-02T21:35:16.668Z",
+              "end_time": "2025-07-02T21:37:21.149Z",
+              "heartbeat_count": 24,
+              "duration_seconds": 120,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 124
+            }
           }
         ]
       },
@@ -2388,7 +2403,7 @@
         "issue_number": 87,
         "object_id": "interactions:arxiv.2506.12229",
         "created_at": "2025-06-17T18:23:34+00:00",
-        "updated_at": "2025-07-02T21:35:33+00:00",
+        "updated_at": "2025-07-02T21:37:46+00:00",
         "version": 1
       }
     },
@@ -4145,6 +4160,47 @@
         "object_id": "interactions:arxiv.2505.14685",
         "created_at": "2025-07-02T18:27:01+00:00",
         "updated_at": "2025-07-02T18:27:03+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2204.10628": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2204.10628",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 151,
+        "object_id": "interactions:arxiv.2204.10628",
+        "created_at": "2025-07-02T21:37:41+00:00",
+        "updated_at": "2025-07-02T21:37:42+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2204.10628": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2204.10628",
+        "url": "https://arxiv.org/pdf/2204.10628",
+        "title": "Autoregressive Search Engines: Generating Substrings as Document\n  Identifiers",
+        "authors": "Michele Bevilacqua, Giuseppe Ottaviano, Patrick Lewis, Wen-tau Yih, Sebastian Riedel, Fabio Petroni",
+        "abstract": "Knowledge-intensive language tasks require NLP systems to both provide the\ncorrect answer and retrieve supporting evidence for it in a given corpus.\nAutoregressive language models are emerging as the de-facto standard for\ngenerating answers, with newer and more powerful systems emerging at an\nastonishing pace. In this paper we argue that all this (and future) progress\ncan be directly applied to the retrieval problem with minimal intervention to\nthe models' architecture. Previous work has explored ways to partition the\nsearch space into hierarchical structures and retrieve documents by\nautoregressively generating their unique identifier. In this work we propose an\nalternative that doesn't force any structure in the search space: using all\nngrams in a passage as its possible identifiers. This setup allows us to use an\nautoregressive model to generate and score distinctive ngrams, that are then\nmapped to full passages through an efficient data structure. Empirically, we\nshow this not only outperforms prior autoregressive approaches but also leads\nto an average improvement of at least 10 points over more established retrieval\nsolutions for passage-level retrieval on the KILT benchmark, establishing new\nstate-of-the-art downstream performance on some datasets, while using a\nconsiderably lighter memory footprint than competing systems. Code and\npre-trained models at https://github.com/facebookresearch/SEAL.",
+        "timestamp": "2025-07-02T21:37:33.933Z",
+        "rating": "novote",
+        "publishedDate": "2022-04-22T10:45:01Z",
+        "tags": [
+          "cs.CL",
+          "cs.IR"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 150,
+        "object_id": "paper:arxiv.2204.10628",
+        "created_at": "2025-07-02T21:37:34+00:00",
+        "updated_at": "2025-07-02T21:37:54+00:00",
         "version": 1
       }
     }

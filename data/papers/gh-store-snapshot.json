@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-07-03T18:46:06.907486+00:00",
+  "snapshot_time": "2025-07-03T18:47:24.920695+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -4503,6 +4503,34 @@
         "object_id": "paper:arxiv.2204.10628",
         "created_at": "2025-07-02T21:37:34+00:00",
         "updated_at": "2025-07-02T21:37:54+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.18777": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.18777",
+        "url": "https://arxiv.org/abs/2506.18777",
+        "title": "Programming by Backprop: LLMs Acquire Reusable Algorithmic Abstractions During Code Training",
+        "authors": "Jonathan Cook, Silvia Sapora, Arash Ahmadian, Akbir Khan, Tim Rocktaschel, Jakob Foerster, Laura Ruis",
+        "abstract": "Training large language models (LLMs) on source code significantly enhances their general-purpose reasoning abilities, but the mechanisms underlying this generalisation are poorly understood. In this paper, we propose Programming by Backprop (PBB) as a potential driver of this effect - teaching a model to evaluate a program for inputs by training on its source code alone, without ever seeing I/O examples. To explore this idea, we finetune LLMs on two sets of programs representing simple maths problems and algorithms: one with source code and I/O examples (w/ IO), the other with source code only (w/o IO). We find evidence that LLMs have some ability to evaluate w/o IO programs for inputs in a range of experimental settings, and make several observations. Firstly, PBB works significantly better when programs are provided as code rather than semantically equivalent language descriptions. Secondly, LLMs can produce outputs for w/o IO programs directly, by implicitly evaluating the program within the forward pass, and more reliably when stepping through the program in-context via chain-of-thought. We further show that PBB leads to more robust evaluation of programs across inputs than training on I/O pairs drawn from a distribution that mirrors naturally occurring data. Our findings suggest a mechanism for enhanced reasoning through code training: it allows LLMs to internalise reusable algorithmic abstractions. Significant scope remains for future work to enable LLMs to more effectively learn from symbolic procedures, and progress in this direction opens other avenues like model alignment by training on formal constitutional principles.",
+        "timestamp": "2025-07-03T18:46:46.748Z",
+        "rating": "novote",
+        "publishedDate": "2025/06/23",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 152,
+        "object_id": "paper:arxiv.2506.18777",
+        "created_at": "2025-07-03T18:46:47+00:00",
+        "updated_at": "2025-07-03T18:47:03+00:00",
         "version": 1
       }
     }

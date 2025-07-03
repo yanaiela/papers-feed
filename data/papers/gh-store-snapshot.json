@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-07-03T18:49:52.960441+00:00",
+  "snapshot_time": "2025-07-03T19:18:45.979449+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -3253,6 +3253,21 @@
               "idle_seconds": 3,
               "total_elapsed_seconds": 8
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-07-03T19:17:59.401Z",
+            "data": {
+              "session_id": "session_1751570279142_or3am8b",
+              "source_id": "arxiv",
+              "paper_id": "2403.14653",
+              "start_time": "2025-07-03T19:17:47.693Z",
+              "end_time": "2025-07-03T19:17:59.142Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 11
+            }
           }
         ]
       },
@@ -3260,7 +3275,7 @@
         "issue_number": 105,
         "object_id": "interactions:arxiv.2403.14653",
         "created_at": "2025-06-25T14:27:05+00:00",
-        "updated_at": "2025-07-03T18:45:38+00:00",
+        "updated_at": "2025-07-03T19:18:20+00:00",
         "version": 1
       }
     },
@@ -4561,6 +4576,32 @@
         "object_id": "interactions:arxiv.2506.18777",
         "created_at": "2025-07-03T18:49:05+00:00",
         "updated_at": "2025-07-03T18:49:28+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2407.02273": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2407.02273",
+        "url": "https://arxiv.org/pdf/2407.02273#page=28.10",
+        "title": "Language Model Alignment in Multilingual Trolley Problems",
+        "authors": "Zhijing Jin, Max Kleiman-Weiner, Giorgio Piatti, Sydney Levine, Jiarui Liu, Fernando Gonzalez, Francesco Ortu, Andr\u00e1s Strausz, Mrinmaya Sachan, Rada Mihalcea, Yejin Choi, Bernhard Sch\u00f6lkopf",
+        "abstract": "We evaluate the moral alignment of LLMs with human preferences in\nmultilingual trolley problems. Building on the Moral Machine experiment, which\ncaptures over 40 million human judgments across 200+ countries, we develop a\ncross-lingual corpus of moral dilemma vignettes in over 100 languages called\nMultiTP. This dataset enables the assessment of LLMs' decision-making processes\nin diverse linguistic contexts. Our analysis explores the alignment of 19\ndifferent LLMs with human judgments, capturing preferences across six moral\ndimensions: species, gender, fitness, status, age, and the number of lives\ninvolved. By correlating these preferences with the demographic distribution of\nlanguage speakers and examining the consistency of LLM responses to various\nprompt paraphrasings, our findings provide insights into cross-lingual and\nethical biases of LLMs and their intersection. We discover significant variance\nin alignment across languages, challenging the assumption of uniform moral\nreasoning in AI systems and highlighting the importance of incorporating\ndiverse perspectives in AI ethics. The results underscore the need for further\nresearch on the integration of multilingual dimensions in responsible AI\nresearch to ensure fair and equitable AI interactions worldwide. Our code and\ndata are at https://github.com/causalNLP/moralmachine",
+        "timestamp": "2025-07-03T19:17:43.652Z",
+        "rating": "novote",
+        "publishedDate": "2024-07-02T14:02:53Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 154,
+        "object_id": "paper:arxiv.2407.02273",
+        "created_at": "2025-07-03T19:17:43+00:00",
+        "updated_at": "2025-07-03T19:18:03+00:00",
         "version": 1
       }
     }

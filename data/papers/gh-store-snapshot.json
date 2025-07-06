@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-07-03T21:27:53.385038+00:00",
+  "snapshot_time": "2025-07-06T18:49:30.356098+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -4828,6 +4828,225 @@
         "object_id": "interactions:arxiv.2312.01552",
         "created_at": "2025-07-03T21:15:21+00:00",
         "updated_at": "2025-07-03T21:16:19+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2407.13765": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2407.13765",
+        "url": "https://arxiv.org/pdf/2407.13765",
+        "title": "Latent Causal Probing: A Formal Perspective on Probing with Causal\n  Models of Data",
+        "authors": "Charles Jin, Martin Rinard",
+        "abstract": "As language models (LMs) deliver increasing performance on a range of NLP\ntasks, probing classifiers have become an indispensable technique in the effort\nto better understand their inner workings. A typical setup involves (1)\ndefining an auxiliary task consisting of a dataset of text annotated with\nlabels, then (2) supervising small classifiers to predict the labels from the\nrepresentations of a pretrained LM as it processed the dataset. A high probing\naccuracy is interpreted as evidence that the LM has learned to perform the\nauxiliary task as an unsupervised byproduct of its original pretraining\nobjective. Despite the widespread usage of probes, however, the robust design\nand analysis of probing experiments remains a challenge. We develop a formal\nperspective on probing using structural causal models (SCM). Specifically,\ngiven an SCM which explains the distribution of tokens observed during\ntraining, we frame the central hypothesis as whether the LM has learned to\nrepresent the latent variables of the SCM. Empirically, we extend a recent\nstudy of LMs in the context of a synthetic grid-world navigation task, where\nhaving an exact model of the underlying causal structure allows us to draw\nstrong inferences from the result of probing experiments. Our techniques\nprovide robust empirical evidence for the ability of LMs to induce the latent\nconcepts underlying text.",
+        "timestamp": "2025-07-06T18:48:36.277Z",
+        "rating": "novote",
+        "publishedDate": "2024-07-18T17:59:27Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 166,
+        "object_id": "paper:arxiv.2407.13765",
+        "created_at": "2025-07-06T18:48:36+00:00",
+        "updated_at": "2025-07-06T18:49:01+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2407.19200": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2407.19200",
+        "url": "https://arxiv.org/pdf/2407.19200",
+        "title": "On Behalf of the Stakeholders: Trends in NLP Model Interpretability in\n  the Era of LLMs",
+        "authors": "Nitay Calderon, Roi Reichart",
+        "abstract": "Recent advancements in NLP systems, particularly with the introduction of\nLLMs, have led to widespread adoption of these systems by a broad spectrum of\nusers across various domains, impacting decision-making, the job market,\nsociety, and scientific research. This surge in usage has led to an explosion\nin NLP model interpretability and analysis research, accompanied by numerous\ntechnical surveys. Yet, these surveys often overlook the needs and perspectives\nof explanation stakeholders. In this paper, we address three fundamental\nquestions: Why do we need interpretability, what are we interpreting, and how?\nBy exploring these questions, we examine existing interpretability paradigms,\ntheir properties, and their relevance to different stakeholders. We further\nexplore the practical implications of these paradigms by analyzing trends from\nthe past decade across multiple research fields. To this end, we retrieved\nthousands of papers and employed an LLM to characterize them. Our analysis\nreveals significant disparities between NLP developers and non-developer users,\nas well as between research fields, underscoring the diverse needs of\nstakeholders. For example, explanations of internal model components are rarely\nused outside the NLP field. We hope this paper informs the future design,\ndevelopment, and application of methods that align with the objectives and\nrequirements of various stakeholders.",
+        "timestamp": "2025-07-06T18:48:36.240Z",
+        "rating": "novote",
+        "publishedDate": "2024-07-27T08:00:27Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 165,
+        "object_id": "paper:arxiv.2407.19200",
+        "created_at": "2025-07-06T18:48:36+00:00",
+        "updated_at": "2025-07-06T18:48:57+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2407.10827": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2407.10827",
+        "url": "https://arxiv.org/pdf/2407.10827",
+        "title": "LLM Circuit Analyses Are Consistent Across Training and Scale",
+        "authors": "Curt Tigges, Michael Hanna, Qinan Yu, Stella Biderman",
+        "abstract": "Most currently deployed large language models (LLMs) undergo continuous\ntraining or additional finetuning. By contrast, most research into LLMs'\ninternal mechanisms focuses on models at one snapshot in time (the end of\npre-training), raising the question of whether their results generalize to\nreal-world settings. Existing studies of mechanisms over time focus on\nencoder-only or toy models, which differ significantly from most deployed\nmodels. In this study, we track how model mechanisms, operationalized as\ncircuits, emerge and evolve across 300 billion tokens of training in\ndecoder-only LLMs, in models ranging from 70 million to 2.8 billion parameters.\nWe find that task abilities and the functional components that support them\nemerge consistently at similar token counts across scale. Moreover, although\nsuch components may be implemented by different attention heads over time, the\noverarching algorithm that they implement remains. Surprisingly, both these\nalgorithms and the types of components involved therein can replicate across\nmodel scale. These results suggest that circuit analyses conducted on small\nmodels at the end of pre-training can provide insights that still apply after\nadditional pre-training and over model scale.",
+        "timestamp": "2025-07-06T18:48:36.240Z",
+        "rating": "novote",
+        "publishedDate": "2024-07-15T15:38:51Z",
+        "tags": [
+          "cs.LG",
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 164,
+        "object_id": "paper:arxiv.2407.10827",
+        "created_at": "2025-07-06T18:48:36+00:00",
+        "updated_at": "2025-07-06T18:48:55+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2408.15510": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2408.15510",
+        "url": "https://arxiv.org/pdf/2408.15510",
+        "title": "How Reliable are Causal Probing Interventions?",
+        "authors": "Marc Canby, Adam Davies, Chirag Rastogi, Julia Hockenmaier",
+        "abstract": "Causal probing aims to analyze foundation models by examining how intervening\non their representation of various latent properties impacts their outputs.\nRecent works have cast doubt on the theoretical basis of several leading causal\nprobing methods, but it has been unclear how to systematically evaluate the\neffectiveness of these methods in practice. To address this, we define two key\ncausal probing desiderata: completeness (how thoroughly the representation of\nthe target property has been transformed) and selectivity (how little\nnon-targeted properties have been impacted). We find that there is an inherent\ntradeoff between the two, which we define as reliability, their harmonic mean.\nWe introduce an empirical analysis framework to measure and evaluate these\nquantities, allowing us to make the first direct comparisons between different\nfamilies of leading causal probing methods (e.g., linear vs. nonlinear, or\nconcept removal vs. counterfactual interventions). We find that: (1) no method\nis reliable across all layers; (2) more reliable methods have a greater impact\non LLM behavior; (3) nonlinear interventions are more reliable in early and\nintermediate layers, and linear interventions are more reliable in later\nlayers; and (4) concept removal methods are far less reliable than\ncounterfactual interventions, suggesting that they may not be an effective\napproach to causal probing.",
+        "timestamp": "2025-07-06T18:48:36.239Z",
+        "rating": "novote",
+        "publishedDate": "2024-08-28T03:45:49Z",
+        "tags": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 163,
+        "object_id": "paper:arxiv.2408.15510",
+        "created_at": "2025-07-06T18:48:36+00:00",
+        "updated_at": "2025-07-06T18:48:55+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2407.01687": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2407.01687",
+        "url": "https://arxiv.org/pdf/2407.01687",
+        "title": "Deciphering the Factors Influencing the Efficacy of Chain-of-Thought:\n  Probability, Memorization, and Noisy Reasoning",
+        "authors": "Akshara Prabhakar, Thomas L. Griffiths, R. Thomas McCoy",
+        "abstract": "Chain-of-Thought (CoT) prompting has been shown to enhance the multi-step\nreasoning capabilities of Large Language Models (LLMs). However, debates\npersist about whether LLMs exhibit abstract generalization or rely on shallow\nheuristics when given CoT prompts. To understand the factors influencing CoT\nreasoning we provide a detailed case study of the symbolic reasoning task of\ndecoding shift ciphers, where letters are shifted forward some number of steps\nin the alphabet. We analyze the pattern of results produced by three LLMs --\nGPT-4, Claude 3, and Llama 3.1 -- performing this task using CoT prompting. By\nfocusing on a single relatively simple task, we are able to identify three\nfactors that systematically affect CoT performance: the probability of the\ntask's expected output (probability), what the model has implicitly learned\nduring pre-training (memorization), and the number of intermediate operations\ninvolved in reasoning (noisy reasoning). We show that these factors can\ndrastically influence task accuracy across all three LLMs; e.g., when tested\nwith GPT-4, varying the output's probability of occurrence shifts accuracy from\n26% to 70%. Overall, we conclude that CoT prompting performance reflects both\nmemorization and a probabilistic version of genuine reasoning. Code and data at\nthis https://github.com/aksh555/deciphering_cot",
+        "timestamp": "2025-07-06T18:48:36.277Z",
+        "rating": "novote",
+        "publishedDate": "2024-07-01T18:01:07Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 162,
+        "object_id": "paper:arxiv.2407.01687",
+        "created_at": "2025-07-06T18:48:36+00:00",
+        "updated_at": "2025-07-06T18:48:59+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2407.04690": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2407.04690",
+        "url": "https://arxiv.org/pdf/2407.04690",
+        "title": "Missed Causes and Ambiguous Effects: Counterfactuals Pose Challenges for\n  Interpreting Neural Networks",
+        "authors": "Aaron Mueller",
+        "abstract": "Interpretability research takes counterfactual theories of causality for\ngranted. Most causal methods rely on counterfactual interventions to inputs or\nthe activations of particular model components, followed by observations of the\nchange in models' output logits or behaviors. While this yields more faithful\nevidence than correlational methods, counterfactuals nonetheless have key\nproblems that bias our findings in specific and predictable ways. Specifically,\n(i) counterfactual theories do not effectively capture multiple independently\nsufficient causes of the same effect, which leads us to miss certain causes\nentirely; and (ii) counterfactual dependencies in neural networks are generally\nnot transitive, which complicates methods for extracting and interpreting\ncausal graphs from neural networks. We discuss the implications of these\nchallenges for interpretability researchers and propose concrete suggestions\nfor future work.",
+        "timestamp": "2025-07-06T18:48:36.240Z",
+        "rating": "novote",
+        "publishedDate": "2024-07-05T17:53:03Z",
+        "tags": [
+          "cs.LG",
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 161,
+        "object_id": "paper:arxiv.2407.04690",
+        "created_at": "2025-07-06T18:48:36+00:00",
+        "updated_at": "2025-07-06T18:48:56+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2407.16997": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2407.16997",
+        "url": "https://arxiv.org/pdf/2407.16997",
+        "title": "Revisiting Who's Harry Potter: Towards Targeted Unlearning from a Causal\n  Intervention Perspective",
+        "authors": "Yujian Liu, Yang Zhang, Tommi Jaakkola, Shiyu Chang",
+        "abstract": "This paper investigates Who's Harry Potter (WHP), a pioneering yet\ninsufficiently understood method for LLM unlearning. We explore it in two\nsteps. First, we introduce a new task of LLM targeted unlearning, where given\nan unlearning target (e.g., a person) and some unlearning documents, we aim to\nunlearn only the information about the target, rather than everything in the\nunlearning documents. We further argue that a successful unlearning should\nsatisfy criteria such as not outputting gibberish, not fabricating facts about\nthe unlearning target, and not releasing factual information under jailbreak\nattacks. Second, we construct a causal intervention framework for targeted\nunlearning, where the knowledge of the unlearning target is modeled as a\nconfounder between LLM input and output, and the unlearning process as a\ndeconfounding process. This framework justifies and extends WHP, deriving a\nsimple unlearning algorithm that includes WHP as a special case. Experiments on\nexisting and new datasets show that our approach, without explicitly optimizing\nfor the aforementioned criteria, achieves competitive performance in all of\nthem. Our code is available at\nhttps://github.com/UCSB-NLP-Chang/causal_unlearn.git.",
+        "timestamp": "2025-07-06T18:48:36.239Z",
+        "rating": "novote",
+        "publishedDate": "2024-07-24T04:39:24Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 160,
+        "object_id": "paper:arxiv.2407.16997",
+        "created_at": "2025-07-06T18:48:36+00:00",
+        "updated_at": "2025-07-06T18:49:01+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2407.15017": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2407.15017",
+        "url": "https://arxiv.org/pdf/2407.15017",
+        "title": "Knowledge Mechanisms in Large Language Models: A Survey and Perspective",
+        "authors": "Mengru Wang, Yunzhi Yao, Ziwen Xu, Shuofei Qiao, Shumin Deng, Peng Wang, Xiang Chen, Jia-Chen Gu, Yong Jiang, Pengjun Xie, Fei Huang, Huajun Chen, Ningyu Zhang",
+        "abstract": "Understanding knowledge mechanisms in Large Language Models (LLMs) is crucial\nfor advancing towards trustworthy AGI. This paper reviews knowledge mechanism\nanalysis from a novel taxonomy including knowledge utilization and evolution.\nKnowledge utilization delves into the mechanism of memorization, comprehension\nand application, and creation. Knowledge evolution focuses on the dynamic\nprogression of knowledge within individual and group LLMs. Moreover, we discuss\nwhat knowledge LLMs have learned, the reasons for the fragility of parametric\nknowledge, and the potential dark knowledge (hypothesis) that will be\nchallenging to address. We hope this work can help understand knowledge in LLMs\nand provide insights for future research.",
+        "timestamp": "2025-07-06T18:48:36.240Z",
+        "rating": "novote",
+        "publishedDate": "2024-07-22T06:15:59Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CV",
+          "cs.HC",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 159,
+        "object_id": "paper:arxiv.2407.15017",
+        "created_at": "2025-07-06T18:48:36+00:00",
+        "updated_at": "2025-07-06T18:48:57+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-07-08T18:40:41.730019+00:00",
+  "snapshot_time": "2025-07-08T20:03:10.481043+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -5431,6 +5431,32 @@
         "object_id": "interactions:arxiv.2410.15002",
         "created_at": "2025-07-08T18:18:11+00:00",
         "updated_at": "2025-07-08T18:22:33+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2505.21828": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.21828",
+        "url": "https://arxiv.org/html/2505.21828v1",
+        "title": "SAGE-Eval: Evaluating LLMs for Systematic Generalizations of Safety\n  Facts",
+        "authors": "Chen Yueh-Han, Guy Davidson, Brenden M. Lake",
+        "abstract": "Do LLMs robustly generalize critical safety facts to novel situations?\nLacking this ability is dangerous when users ask naive questions. For instance,\n\"I'm considering packing melon balls for my 10-month-old's lunch. What other\nfoods would be good to include?\" Before offering food options, the LLM should\nwarn that melon balls pose a choking hazard to toddlers, as documented by the\nCDC. Failing to provide such warnings could result in serious injuries or even\ndeath. To evaluate this, we introduce SAGE-Eval, SAfety-fact systematic\nGEneralization evaluation, the first benchmark that tests whether LLMs properly\napply well established safety facts to naive user queries. SAGE-Eval comprises\n104 facts manually sourced from reputable organizations, systematically\naugmented to create 10,428 test scenarios across 7 common domains (e.g.,\nOutdoor Activities, Medicine). We find that the top model, Claude-3.7-sonnet,\npasses only 58% of all the safety facts tested. We also observe that model\ncapabilities and training compute weakly correlate with performance on\nSAGE-Eval, implying that scaling up is not the golden solution. Our findings\nsuggest frontier LLMs still lack robust generalization ability. We recommend\ndevelopers use SAGE-Eval in pre-deployment evaluations to assess model\nreliability in addressing salient risks. We publicly release SAGE-Eval at\nhttps://huggingface.co/datasets/YuehHanChen/SAGE-Eval and our code is available\nat https://github.com/YuehHanChen/SAGE-Eval/tree/main.",
+        "timestamp": "2025-07-08T20:02:26.847Z",
+        "rating": "novote",
+        "publishedDate": "2025-05-27T23:29:32Z",
+        "tags": [
+          "cs.AI"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 181,
+        "object_id": "paper:arxiv.2505.21828",
+        "created_at": "2025-07-08T20:02:27+00:00",
+        "updated_at": "2025-07-08T20:02:47+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-07-08T16:45:00.858559+00:00",
+  "snapshot_time": "2025-07-08T16:51:47.379810+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -5075,6 +5075,62 @@
         "object_id": "paper:arxiv.2110.11334",
         "created_at": "2025-07-08T16:44:15+00:00",
         "updated_at": "2025-07-08T16:44:39+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2108.13624": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2108.13624",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-07-08T16:50:57.491Z",
+            "data": {
+              "session_id": "session_1751993457102_oagru5s",
+              "source_id": "arxiv",
+              "paper_id": "2108.13624",
+              "start_time": "2025-07-08T16:50:48.947Z",
+              "end_time": "2025-07-08T16:50:57.102Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 171,
+        "object_id": "interactions:arxiv.2108.13624",
+        "created_at": "2025-07-08T16:50:57+00:00",
+        "updated_at": "2025-07-08T16:51:19+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2108.13624": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2108.13624",
+        "url": "https://arxiv.org/pdf/2108.13624",
+        "title": "Towards Out-Of-Distribution Generalization: A Survey",
+        "authors": "Jiashuo Liu, Zheyan Shen, Yue He, Xingxuan Zhang, Renzhe Xu, Han Yu, Peng Cui",
+        "abstract": "Traditional machine learning paradigms are based on the assumption that both\ntraining and test data follow the same statistical pattern, which is\nmathematically referred to as Independent and Identically Distributed\n($i.i.d.$). However, in real-world applications, this $i.i.d.$ assumption often\nfails to hold due to unforeseen distributional shifts, leading to considerable\ndegradation in model performance upon deployment. This observed discrepancy\nindicates the significance of investigating the Out-of-Distribution (OOD)\ngeneralization problem. OOD generalization is an emerging topic of machine\nlearning research that focuses on complex scenarios wherein the distributions\nof the test data differ from those of the training data. This paper represents\nthe first comprehensive, systematic review of OOD generalization, encompassing\na spectrum of aspects from problem definition, methodological development, and\nevaluation procedures, to the implications and future directions of the field.\nOur discussion begins with a precise, formal characterization of the OOD\ngeneralization problem. Following that, we categorize existing methodologies\ninto three segments: unsupervised representation learning, supervised model\nlearning, and optimization, according to their positions within the overarching\nlearning process. We provide an in-depth discussion on representative\nmethodologies for each category, further elucidating the theoretical links\nbetween them. Subsequently, we outline the prevailing benchmark datasets\nemployed in OOD generalization studies. To conclude, we overview the existing\nbody of work in this domain and suggest potential avenues for future research\non OOD generalization. A summary of the OOD generalization methodologies\nsurveyed in this paper can be accessed at\nhttp://out-of-distribution-generalization.com.",
+        "timestamp": "2025-07-08T16:50:49.165Z",
+        "rating": "novote",
+        "publishedDate": "2021-08-31T05:28:42Z",
+        "tags": [
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 170,
+        "object_id": "paper:arxiv.2108.13624",
+        "created_at": "2025-07-08T16:50:49+00:00",
+        "updated_at": "2025-07-08T16:51:11+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-07-06T18:49:30.356098+00:00",
+  "snapshot_time": "2025-07-08T16:45:00.858559+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -5047,6 +5047,34 @@
         "object_id": "paper:arxiv.2407.15017",
         "created_at": "2025-07-06T18:48:36+00:00",
         "updated_at": "2025-07-06T18:48:57+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2110.11334": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2110.11334",
+        "url": "https://arxiv.org/abs/2110.11334",
+        "title": "Generalized Out-of-Distribution Detection: A Survey",
+        "authors": "Jingkang Yang, Kaiyang Zhou, Yixuan Li, Ziwei Liu",
+        "abstract": "Out-of-distribution (OOD) detection is critical to ensuring the reliability and safety of machine learning systems. For instance, in autonomous driving, we would like the driving system to issue an alert and hand over the control to humans when it detects unusual scenes or objects that it has never seen during training time and cannot make a safe decision. The term, OOD detection, first emerged in 2017 and since then has received increasing attention from the research community, leading to a plethora of methods developed, ranging from classification-based to density-based to distance-based ones. Meanwhile, several other problems, including anomaly detection (AD), novelty detection (ND), open set recognition (OSR), and outlier detection (OD), are closely related to OOD detection in terms of motivation and methodology. Despite common goals, these topics develop in isolation, and their subtle differences in definition and problem setting often confuse readers and practitioners. In this survey, we first present a unified framework called generalized OOD detection, which encompasses the five aforementioned problems, i.e., AD, ND, OSR, OOD detection, and OD. Under our framework, these five problems can be seen as special cases or sub-tasks, and are easier to distinguish. We then review each of these five areas by summarizing their recent technical developments, with a special focus on OOD detection methodologies. We conclude this survey with open challenges and potential research directions.",
+        "timestamp": "2025-07-08T16:44:15.579Z",
+        "rating": "novote",
+        "publishedDate": "2021/10/21",
+        "tags": [
+          "Computer Vision and Pattern Recognition (cs.CV)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 167,
+        "object_id": "paper:arxiv.2110.11334",
+        "created_at": "2025-07-08T16:44:15+00:00",
+        "updated_at": "2025-07-08T16:44:39+00:00",
         "version": 1
       }
     }

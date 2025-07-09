@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-07-09T16:43:50.719550+00:00",
+  "snapshot_time": "2025-07-09T16:52:25.548228+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -6070,6 +6070,72 @@
         "object_id": "paper:arxiv.2506.22724",
         "created_at": "2025-07-09T16:43:08+00:00",
         "updated_at": "2025-07-09T16:43:29+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2010.08275": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2010.08275",
+        "url": "https://arxiv.org/abs/2010.08275",
+        "title": "It's not Greek to mBERT: Inducing Word-Level Translations from Multilingual BERT",
+        "authors": "Hila Gonen, Shauli Ravfogel, Yanai Elazar, Yoav Goldberg",
+        "abstract": "Recent works have demonstrated that multilingual BERT (mBERT) learns rich cross-lingual representations, that allow for transfer across languages. We study the word-level translation information embedded in mBERT and present two simple methods that expose remarkable translation capabilities with no fine-tuning. The results suggest that most of this information is encoded in a non-linear way, while some of it can also be recovered with purely linear tools. As part of our analysis, we test the hypothesis that mBERT learns representations which contain both a language-encoding component and an abstract, cross-lingual component, and explicitly identify an empirical language-identity subspace within mBERT representations.",
+        "timestamp": "2025-07-09T16:51:39.151Z",
+        "rating": "novote",
+        "publishedDate": "2020/10/16",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 206,
+        "object_id": "paper:arxiv.2010.08275",
+        "created_at": "2025-07-09T16:51:39+00:00",
+        "updated_at": "2025-07-09T16:52:02+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2006.00995": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2006.00995",
+        "url": "https://arxiv.org/abs/2006.00995",
+        "title": "Amnesic Probing: Behavioral Explanation with Amnesic Counterfactuals",
+        "authors": "Yanai Elazar, Shauli Ravfogel, Alon Jacovi, Yoav Goldberg",
+        "abstract": "A growing body of work makes use of probing to investigate the working of neural models, often considered black boxes. Recently, an ongoing debate emerged surrounding the limitations of the probing paradigm. In this work, we point out the inability to infer behavioral conclusions from probing results and offer an alternative method that focuses on how the information is being used, rather than on what information is encoded. Our method, Amnesic Probing, follows the intuition that the utility of a property for a given task can be assessed by measuring the influence of a causal intervention that removes it from the representation. Equipped with this new analysis tool, we can ask questions that were not possible before, e.g. is part-of-speech information important for word prediction? We perform a series of analyses on BERT to answer these types of questions. Our findings demonstrate that conventional probing performance is not correlated to task importance, and we call for increased scrutiny of claims that draw behavioral or causal conclusions from probing results.",
+        "timestamp": "2025-07-09T16:51:35.747Z",
+        "rating": "novote",
+        "publishedDate": "2020/06/01",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 205,
+        "object_id": "paper:arxiv.2006.00995",
+        "created_at": "2025-07-09T16:51:36+00:00",
+        "updated_at": "2025-07-09T16:51:59+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2506.22724": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.22724",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 204,
+        "object_id": "interactions:arxiv.2506.22724",
+        "created_at": "2025-07-09T16:45:45+00:00",
+        "updated_at": "2025-07-09T16:45:46+00:00",
         "version": 1
       }
     }

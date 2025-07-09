@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-07-09T00:40:54.747302+00:00",
+  "snapshot_time": "2025-07-09T00:42:59.383799+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -5602,6 +5602,362 @@
         "object_id": "paper:arxiv.2406.17241",
         "created_at": "2025-07-09T00:40:07+00:00",
         "updated_at": "2025-07-09T00:40:28+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2505.15075": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.15075",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 199,
+        "object_id": "interactions:arxiv.2505.15075",
+        "created_at": "2025-07-09T00:42:00+00:00",
+        "updated_at": "2025-07-09T00:42:02+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.03074": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.03074",
+        "url": "https://arxiv.org/html/2506.03074v1",
+        "title": "GL-LowPopArt: A Nearly Instance-Wise Minimax-Optimal Estimator for\n  Generalized Low-Rank Trace Regression",
+        "authors": "Junghyun Lee, Kyoungseok Jang, Kwang-Sung Jun, Milan Vojnovi\u0107, Se-Young Yun",
+        "abstract": "We present `GL-LowPopArt`, a novel Catoni-style estimator for generalized\nlow-rank trace regression. Building on `LowPopArt` (Jang et al., 2024), it\nemploys a two-stage approach: nuclear norm regularization followed by matrix\nCatoni estimation. We establish state-of-the-art estimation error bounds,\nsurpassing existing guarantees (Fan et al., 2019; Kang et al., 2022), and\nreveal a novel experimental design objective, $\\mathrm{GL}(\\pi)$. The key\ntechnical challenge is controlling bias from the nonlinear inverse link\nfunction, which we address by our two-stage approach. We prove a *local*\nminimax lower bound, showing that our `GL-LowPopArt` enjoys instance-wise\noptimality up to the condition number of the ground-truth Hessian. Applications\ninclude generalized linear matrix completion, where `GL-LowPopArt` achieves a\nstate-of-the-art Frobenius error guarantee, and **bilinear dueling bandits**, a\nnovel setting inspired by general preference learning (Zhang et al., 2024). Our\nanalysis of a `GL-LowPopArt`-based explore-then-commit algorithm reveals a new,\npotentially interesting problem-dependent quantity, along with improved Borda\nregret bound than vectorization (Wu et al., 2024).",
+        "timestamp": "2025-07-09T00:41:59.895Z",
+        "rating": "novote",
+        "publishedDate": "2025-06-03T16:52:24Z",
+        "tags": [
+          "stat.ML",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 198,
+        "object_id": "paper:arxiv.2506.03074",
+        "created_at": "2025-07-09T00:42:00+00:00",
+        "updated_at": "2025-07-09T00:42:24+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2502.03708": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2502.03708",
+        "url": "https://arxiv.org/html/2502.03708v1",
+        "title": "Toward universal steering and monitoring of AI models",
+        "authors": "Daniel Beaglehole, Adityanarayanan Radhakrishnan, Enric Boix-Adser\u00e0, Mikhail Belkin",
+        "abstract": "Modern AI models contain much of human knowledge, yet understanding of their\ninternal representation of this knowledge remains elusive. Characterizing the\nstructure and properties of this representation will lead to improvements in\nmodel capabilities and development of effective safeguards. Building on recent\nadvances in feature learning, we develop an effective, scalable approach for\nextracting linear representations of general concepts in large-scale AI models\n(language models, vision-language models, and reasoning models). We show how\nthese representations enable model steering, through which we expose\nvulnerabilities, mitigate misaligned behaviors, and improve model capabilities.\nAdditionally, we demonstrate that concept representations are remarkably\ntransferable across human languages and combinable to enable multi-concept\nsteering. Through quantitative analysis across hundreds of concepts, we find\nthat newer, larger models are more steerable and steering can improve model\ncapabilities beyond standard prompting. We show how concept representations are\neffective for monitoring misaligned content (hallucinations, toxic content). We\ndemonstrate that predictive models built using concept representations are more\naccurate for monitoring misaligned content than using models that judge outputs\ndirectly. Together, our results illustrate the power of using internal\nrepresentations to map the knowledge in AI models, advance AI safety, and\nimprove model capabilities.",
+        "timestamp": "2025-07-09T00:41:53.374Z",
+        "rating": "novote",
+        "publishedDate": "2025-02-06T01:41:48Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI",
+          "stat.ML"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 197,
+        "object_id": "paper:arxiv.2502.03708",
+        "created_at": "2025-07-09T00:41:53+00:00",
+        "updated_at": "2025-07-09T00:42:14+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2506.00418": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.00418",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 196,
+        "object_id": "interactions:arxiv.2506.00418",
+        "created_at": "2025-07-09T00:41:52+00:00",
+        "updated_at": "2025-07-09T00:41:54+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2403.08142": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2403.08142",
+        "url": "https://arxiv.org/html/2403.08142v2",
+        "title": "FieldNet: Efficient Real-Time Shadow Removal for Enhanced Vision in\n  Field Robotics",
+        "authors": "Alzayat Saleh, Alex Olsen, Jake Wood, Bronson Philippa, Mostafa Rahimi Azghadi",
+        "abstract": "Shadows significantly hinder computer vision tasks in outdoor environments,\nparticularly in field robotics, where varying lighting conditions complicate\nobject detection and localisation. We present FieldNet, a novel deep learning\nframework for real-time shadow removal, optimised for resource-constrained\nhardware. FieldNet introduces a probabilistic enhancement module and a novel\nloss function to address challenges of inconsistent shadow boundary supervision\nand artefact generation, achieving enhanced accuracy and simplicity without\nrequiring shadow masks during inference. Trained on a dataset of 10,000 natural\nimages augmented with synthetic shadows, FieldNet outperforms state-of-the-art\nmethods on benchmark datasets (ISTD, ISTD+, SRD), with up to $9$x speed\nimprovements (66 FPS on Nvidia 2080Ti) and superior shadow removal quality\n(PSNR: 38.67, SSIM: 0.991). Real-world case studies in precision agriculture\nrobotics demonstrate the practical impact of FieldNet in enhancing weed\ndetection accuracy. These advancements establish FieldNet as a robust,\nefficient solution for real-time vision tasks in field robotics and beyond.",
+        "timestamp": "2025-07-09T00:41:49.971Z",
+        "rating": "novote",
+        "publishedDate": "2024-03-13T00:04:07Z",
+        "tags": [
+          "cs.CV"
+        ],
+        "doi": "10.1016/j.eswa.2025.127442",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 195,
+        "object_id": "paper:arxiv.2403.08142",
+        "created_at": "2025-07-09T00:41:50+00:00",
+        "updated_at": "2025-07-09T00:42:30+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2212.08983": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2212.08983",
+        "url": "https://arxiv.org/html/2212.08983v2",
+        "title": "Adaptive deep learning framework for robust unsupervised underwater\n  image enhancement",
+        "authors": "Alzayat Saleh, Marcus Sheaves, Dean Jerry, Mostafa Rahimi Azghadi",
+        "abstract": "One of the main challenges in deep learning-based underwater image\nenhancement is the limited availability of high-quality training data.\nUnderwater images are difficult to capture and are often of poor quality due to\nthe distortion and loss of colour and contrast in water. This makes it\ndifficult to train supervised deep learning models on large and diverse\ndatasets, which can limit the model's performance. In this paper, we explore an\nalternative approach to supervised underwater image enhancement. Specifically,\nwe propose a novel unsupervised underwater image enhancement framework that\nemploys a conditional variational autoencoder (cVAE) to train a deep learning\nmodel with probabilistic adaptive instance normalization (PAdaIN) and\nstatistically guided multi-colour space stretch that produces realistic\nunderwater images. The resulting framework is composed of a U-Net as a feature\nextractor and a PAdaIN to encode the uncertainty, which we call UDnet. To\nimprove the visual quality of the images generated by UDnet, we use a\nstatistically guided multi-colour space stretch module that ensures visual\nconsistency with the input image and provides an alternative to training using\na ground truth image. The proposed model does not need manual human annotation\nand can learn with a limited amount of data and achieves state-of-the-art\nresults on underwater images. We evaluated our proposed framework on eight\npublicly-available datasets. The results show that our proposed framework\nyields competitive performance compared to other state-of-the-art approaches in\nquantitative as well as qualitative metrics. Code available at\nhttps://github.com/alzayats/UDnet .",
+        "timestamp": "2025-07-09T00:41:47.883Z",
+        "rating": "novote",
+        "publishedDate": "2022-12-18T01:07:20Z",
+        "tags": [
+          "cs.CV"
+        ],
+        "doi": "10.1016/j.eswa.2024.126314",
+        "journalName": "Expert Systems with Applications, 126314 (2025)",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 194,
+        "object_id": "paper:arxiv.2212.08983",
+        "created_at": "2025-07-09T00:41:48+00:00",
+        "updated_at": "2025-07-09T00:42:07+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2501.13461": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2501.13461",
+        "url": "https://arxiv.org/html/2501.13461v1",
+        "title": "Knowledge-Informed Multi-Agent Trajectory Prediction at Signalized\n  Intersections for Infrastructure-to-Everything",
+        "authors": "Huilin Yin, Yangwenhui Xu, Jiaxiang Li, Hao Zhang, Gerhard Rigoll",
+        "abstract": "Multi-agent trajectory prediction at signalized intersections is crucial for\ndeveloping efficient intelligent transportation systems and safe autonomous\ndriving systems. Due to the complexity of intersection scenarios and the\nlimitations of single-vehicle perception, the performance of vehicle-centric\nprediction methods has reached a plateau. In this paper, we introduce an\nInfrastructure-to-Everything (I2X) collaborative prediction scheme. In this\nscheme, roadside units (RSUs) independently forecast the future trajectories of\nall vehicles and transmit these predictions unidirectionally to subscribing\nvehicles. Building on this scheme, we propose I2XTraj, a dedicated\ninfrastructure-based trajectory prediction model. I2XTraj leverages real-time\ntraffic signal states, prior maneuver strategy knowledge, and multi-agent\ninteractions to generate accurate, joint multi-modal trajectory prediction.\nFirst, a continuous signal-informed mechanism is proposed to adaptively process\nreal-time traffic signals to guide trajectory proposal generation under varied\nintersection configurations. Second, a driving strategy awareness mechanism\nestimates the joint distribution of maneuver strategies by integrating spatial\npriors of intersection areas with dynamic vehicle states, enabling coverage of\nthe full set of feasible maneuvers. Third, a spatial-temporal-mode attention\nnetwork models multi-agent interactions to refine and adjust joint trajectory\noutputs.Finally, I2XTraj is evaluated on two real-world datasets of signalized\nintersections, the V2X-Seq and the SinD drone dataset. In both\nsingle-infrastructure and online collaborative scenarios, our model outperforms\nstate-of-the-art methods by over 30\\% on V2X-Seq and 15\\% on SinD,\ndemonstrating strong generalizability and robustness.",
+        "timestamp": "2025-07-09T00:41:46.396Z",
+        "rating": "novote",
+        "publishedDate": "2025-01-23T08:23:45Z",
+        "tags": [
+          "cs.RO",
+          "cs.CV",
+          "cs.MA"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 193,
+        "object_id": "paper:arxiv.2501.13461",
+        "created_at": "2025-07-09T00:41:46+00:00",
+        "updated_at": "2025-07-09T00:42:27+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.01324": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.01324",
+        "url": "https://arxiv.org/html/2506.01324v1",
+        "title": "Near-Optimal Clustering in Mixture of Markov Chains",
+        "authors": "Junghyun Lee, Yassir Jedra, Alexandre Prouti\u00e8re, Se-Young Yun",
+        "abstract": "We study the problem of clustering $T$ trajectories of length $H$, each\ngenerated by one of $K$ unknown ergodic Markov chains over a finite state space\nof size $S$. The goal is to accurately group trajectories according to their\nunderlying generative model. We begin by deriving an instance-dependent,\nhigh-probability lower bound on the clustering error rate, governed by the\nweighted KL divergence between the transition kernels of the chains. We then\npresent a novel two-stage clustering algorithm. In Stage~I, we apply spectral\nclustering using a new injective Euclidean embedding for ergodic Markov chains\n-- a contribution of independent interest that enables sharp concentration\nresults. Stage~II refines the initial clusters via a single step of\nlikelihood-based reassignment. Our method achieves a near-optimal clustering\nerror with high probability, under the conditions $H =\n\\tilde{\\Omega}(\\gamma_{\\mathrm{ps}}^{-1} (S^2 \\vee \\pi_{\\min}^{-1}))$ and $TH =\n\\tilde{\\Omega}(\\gamma_{\\mathrm{ps}}^{-1} S^2 )$, where $\\pi_{\\min}$ is the\nminimum stationary probability of a state across the $K$ chains and\n$\\gamma_{\\mathrm{ps}}$ is the minimum pseudo-spectral gap. These requirements\nprovide significant improvements, if not at least comparable, to the\nstate-of-the-art guarantee (Kausik et al., 2023), and moreover, our algorithm\noffers a key practical advantage: unlike existing approach, it requires no\nprior knowledge of model-specific quantities (e.g., separation between kernels\nor visitation probabilities). We conclude by discussing the inherent gap\nbetween our upper and lower bounds, providing insights into the unique\nstructure of this clustering problem.",
+        "timestamp": "2025-07-09T00:41:46.101Z",
+        "rating": "novote",
+        "publishedDate": "2025-06-02T05:10:40Z",
+        "tags": [
+          "stat.ML",
+          "cs.IT",
+          "cs.LG",
+          "math.IT",
+          "math.PR"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 192,
+        "object_id": "paper:arxiv.2506.01324",
+        "created_at": "2025-07-09T00:41:46+00:00",
+        "updated_at": "2025-07-09T00:42:10+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2408.13940": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2408.13940",
+        "url": "https://arxiv.org/html/2408.13940",
+        "title": "Derailer-Rerailer: Adaptive Verification for Efficient and Reliable\n  Language Model Reasoning",
+        "authors": "Guangya Wan, Yuqi Wu, Hao Wang, Shengming Zhao, Jie Chen, Sheng Li",
+        "abstract": "Large Language Models (LLMs) have shown impressive reasoning capabilities,\nyet existing prompting methods face a critical trade-off: simple approaches\noften struggle with complex tasks and reasoning stability, while more\nsophisticated methods require multiple inferences and substantial computational\nresources, limiting their practical deployment. To address this challenge, we\npropose Derailer-Rerailer, a novel framework that adaptively balances reasoning\naccuracy and computational efficiency. At its core, our framework employs a\nlightweight Derailer mechanism to assess reasoning stability and selectively\ntriggers an advanced Rerailer verification process only when necessary, thereby\noptimizing computational resource usage. Extensive evaluation across both open\nand closed-source models on more than 20 categories of mathematical, symbolic,\nand commonsense reasoning tasks demonstrates our framework's effectiveness:\nDerailer-Rerailer achieves significant accuracy improvements (8-11\\% across\nvarious reasoning tasks) while maintaining 2-3 times better efficiency than\nexisting verification methods, with particularly strong performance in\nmathematical and symbolic reasoning, offering a practical solution for\nenhancing LLM reasoning reliability while significantly reducing computational\noverhead.",
+        "timestamp": "2025-07-09T00:41:44.534Z",
+        "rating": "novote",
+        "publishedDate": "2024-08-25T21:20:17Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 191,
+        "object_id": "paper:arxiv.2408.13940",
+        "created_at": "2025-07-09T00:41:44+00:00",
+        "updated_at": "2025-07-09T00:42:05+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2501.08667": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2501.08667",
+        "url": "https://arxiv.org/html/2501.08667v1",
+        "title": "TimeFlow: Longitudinal Brain Image Registration and Aging Progression\n  Analysis",
+        "authors": "Bailiang Jian, Jiazhen Pan, Yitong Li, Fabian Bongratz, Ruochen Li, Daniel Rueckert, Benedikt Wiestler, Christian Wachinger",
+        "abstract": "Predicting future brain states is crucial for understanding healthy aging and\nneurodegenerative diseases. Longitudinal brain MRI registration, a cornerstone\nfor such analyses, has long been limited by its inability to forecast future\ndevelopments, reliance on extensive dense longitudinal data, and the need to\nbalance registration accuracy with temporal smoothness. In this work, we\npresent \\emph{TimeFlow}, a novel framework for longitudinal brain MRI\nregistration that overcomes all these challenges. TimeFlow leverages a U-Net\narchitecture with temporal conditioning inspired by diffusion models, enabling\naccurate registration using only two images as input and facilitating\nprospective analyses through future image prediction. Unlike traditional\nmethods, TimeFlow eliminates the demand for explicit smoothness regularizers\nand dense sequential data while maintaining temporal consistency and\ncontinuity. Experimental results highlight its superior performance in both\nfuture timepoint prediction and registration accuracy compared to\nstate-of-the-art methods. Additionally, TimeFlow supports novel biological\nbrain aging analyses, effectively differentiating neurodegenerative conditions\nfrom healthy aging, all without requiring segmentation, thus avoiding\nnon-trivial annotation and inconsistent segmentation flaws. This framework\npaves the way for accurate, data-efficient, and annotation-free prospective\nanalyses of brain aging and chronic diseases.",
+        "timestamp": "2025-07-09T00:41:41.436Z",
+        "rating": "novote",
+        "publishedDate": "2025-01-15T09:02:04Z",
+        "tags": [
+          "eess.IV",
+          "cs.CV"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 190,
+        "object_id": "paper:arxiv.2501.08667",
+        "created_at": "2025-07-09T00:41:41+00:00",
+        "updated_at": "2025-07-09T00:42:05+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2505.22998": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.22998",
+        "url": "https://arxiv.org/html/2505.22998v1",
+        "title": "LLM Agents for Bargaining with Utility-based Feedback",
+        "authors": "Jihwan Oh, Murad Aghazada, Se-Young Yun, Taehyeon Kim",
+        "abstract": "Bargaining, a critical aspect of real-world interactions, presents challenges\nfor large language models (LLMs) due to limitations in strategic depth and\nadaptation to complex human factors. Existing benchmarks often fail to capture\nthis real-world complexity. To address this and enhance LLM capabilities in\nrealistic bargaining, we introduce a comprehensive framework centered on\nutility-based feedback. Our contributions are threefold: (1) BargainArena, a\nnovel benchmark dataset with six intricate scenarios (e.g., deceptive\npractices, monopolies) to facilitate diverse strategy modeling; (2)\nhuman-aligned, economically-grounded evaluation metrics inspired by utility\ntheory, incorporating agent utility and negotiation power, which implicitly\nreflect and promote opponent-aware reasoning (OAR); and (3) a structured\nfeedback mechanism enabling LLMs to iteratively refine their bargaining\nstrategies. This mechanism can positively collaborate with in-context learning\n(ICL) prompts, including those explicitly designed to foster OAR. Experimental\nresults show that LLMs often exhibit negotiation strategies misaligned with\nhuman preferences, and that our structured feedback mechanism significantly\nimproves their performance, yielding deeper strategic and opponent-aware\nreasoning.",
+        "timestamp": "2025-07-09T00:41:39.610Z",
+        "rating": "novote",
+        "publishedDate": "2025-05-29T02:07:27Z",
+        "tags": [
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 189,
+        "object_id": "paper:arxiv.2505.22998",
+        "created_at": "2025-07-09T00:41:40+00:00",
+        "updated_at": "2025-07-09T00:42:02+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2502.19918": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2502.19918",
+        "url": "https://arxiv.org/html/2502.19918v2",
+        "title": "Meta-Reasoner: Dynamic Guidance for Optimized Inference-time Reasoning\n  in Large Language Models",
+        "authors": "Yuan Sui, Yufei He, Tri Cao, Simeng Han, Yulin Chen, Bryan Hooi",
+        "abstract": "Large Language Models (LLMs) increasingly rely on prolonged reasoning chains\nto solve complex tasks. However, this trial-and-error approach often leads to\nhigh computational overhead and error propagation, where early mistakes can\nderail subsequent steps. To address these issues, we introduce Meta-Reasoner, a\nframework that dynamically optimizes inference-time reasoning by enabling LLMs\nto \"think about how to think.\" Drawing inspiration from human meta-cognition\nand dual-process theory, Meta-Reasoner operates as a strategic advisor,\ndecoupling high-level guidance from step-by-step generation. It employs\ncontextual multi-armed bandits to iteratively evaluate reasoning progress and\nselect optimal strategies (e.g., backtrack, clarify ambiguity, restart from\nscratch, or propose alternative approaches), and reallocates computational\nresources toward the most promising paths. Our evaluations on mathematical\nreasoning and puzzles highlight the potential of dynamic reasoning chains to\novercome inherent challenges in the LLM reasoning process and also show promise\nin broader applications, offering a scalable and adaptable solution for\nreasoning-intensive tasks.",
+        "timestamp": "2025-07-09T00:41:32.959Z",
+        "rating": "novote",
+        "publishedDate": "2025-02-27T09:40:13Z",
+        "tags": [
+          "cs.AI",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 188,
+        "object_id": "paper:arxiv.2502.19918",
+        "created_at": "2025-07-09T00:41:33+00:00",
+        "updated_at": "2025-07-09T00:41:55+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2505.15075": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.15075",
+        "url": "https://arxiv.org/html/2505.15075v1",
+        "title": "Traveling Across Languages: Benchmarking Cross-Lingual Consistency in\n  Multimodal LLMs",
+        "authors": "Hao Wang, Pinzhi Huang, Jihan Yang, Saining Xie, Daisuke Kawahara",
+        "abstract": "The rapid evolution of multimodal large language models (MLLMs) has\nsignificantly enhanced their real-world applications. However, achieving\nconsistent performance across languages, especially when integrating cultural\nknowledge, remains a significant challenge. To better assess this issue, we\nintroduce two new benchmarks: KnowRecall and VisRecall, which evaluate\ncross-lingual consistency in MLLMs. KnowRecall is a visual question answering\nbenchmark designed to measure factual knowledge consistency in 15 languages,\nfocusing on cultural and historical questions about global landmarks. VisRecall\nassesses visual memory consistency by asking models to describe landmark\nappearances in 9 languages without access to images. Experimental results\nreveal that state-of-the-art MLLMs, including proprietary ones, still struggle\nto achieve cross-lingual consistency. This underscores the need for more robust\napproaches that produce truly multilingual and culturally aware models.",
+        "timestamp": "2025-07-09T00:41:30.652Z",
+        "rating": "novote",
+        "publishedDate": "2025-05-21T03:43:37Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CV",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 187,
+        "object_id": "paper:arxiv.2505.15075",
+        "created_at": "2025-07-09T00:41:31+00:00",
+        "updated_at": "2025-07-09T00:41:54+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.00418": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.00418",
+        "url": "https://arxiv.org/html/2506.00418v1",
+        "title": "Dual Debiasing for Noisy In-Context Learning for Text Generation",
+        "authors": "Siqi Liang, Sumyeong Ahn, Paramveer S. Dhillon, Jiayu Zhou",
+        "abstract": "In context learning (ICL) relies heavily on high quality demonstrations drawn\nfrom large annotated corpora. Existing approaches detect noisy annotations by\nranking local perplexities, presuming that noisy samples yield higher\nperplexities than their clean counterparts. However, this assumption breaks\ndown when the noise ratio is high and many demonstrations are flawed. We\nreexamine the perplexity based paradigm for text generation under noisy\nannotations, highlighting two sources of bias in perplexity: the annotation\nitself and the domain specific knowledge inherent in large language models\n(LLMs). To overcome these biases, we introduce a dual debiasing framework that\nuses synthesized neighbors to explicitly correct perplexity estimates, yielding\na robust Sample Cleanliness Score. This metric uncovers absolute sample\ncleanliness regardless of the overall corpus noise level. Extensive experiments\ndemonstrate our method's superior noise detection capabilities and show that\nits final ICL performance is comparable to that of a fully clean demonstration\ncorpus. Moreover, our approach remains robust even when noise ratios are\nextremely high.",
+        "timestamp": "2025-07-09T00:41:30.539Z",
+        "rating": "novote",
+        "publishedDate": "2025-05-31T06:44:48Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI",
+          "I.2.7"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 186,
+        "object_id": "paper:arxiv.2506.00418",
+        "created_at": "2025-07-09T00:41:31+00:00",
+        "updated_at": "2025-07-09T00:41:56+00:00",
         "version": 1
       }
     }

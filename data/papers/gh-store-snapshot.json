@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-07-09T00:42:59.383799+00:00",
+  "snapshot_time": "2025-07-09T15:57:02.291628+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -5958,6 +5958,34 @@
         "object_id": "paper:arxiv.2506.00418",
         "created_at": "2025-07-09T00:41:31+00:00",
         "updated_at": "2025-07-09T00:41:56+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2402.16048": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2402.16048",
+        "url": "https://arxiv.org/abs/2402.16048",
+        "title": "How Likely Do LLMs with CoT Mimic Human Reasoning?",
+        "authors": "Guangsheng Bao, Hongbo Zhang, Cunxiang Wang, Linyi Yang, Yue Zhang",
+        "abstract": "Chain-of-thought emerges as a promising technique for eliciting reasoning capabilities from Large Language Models (LLMs). However, it does not always improve task performance or accurately represent reasoning processes, leaving unresolved questions about its usage. In this paper, we diagnose the underlying mechanism by comparing the reasoning process of LLMs with humans, using causal analysis to understand the relationships between the problem instruction, reasoning, and the answer in LLMs. Our empirical study reveals that LLMs often deviate from the ideal causal chain, resulting in spurious correlations and potential consistency errors (inconsistent reasoning and answers). We also examine various factors influencing the causal structure, finding that in-context learning with examples strengthens it, while post-training techniques like supervised fine-tuning and reinforcement learning on human feedback weaken it. To our surprise, the causal structure cannot be strengthened by enlarging the model size only, urging research on new techniques. We hope that this preliminary study will shed light on understanding and improving the reasoning process in LLM.",
+        "timestamp": "2025-07-09T15:56:09.189Z",
+        "rating": "novote",
+        "publishedDate": "2024/02/25",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 200,
+        "object_id": "paper:arxiv.2402.16048",
+        "created_at": "2025-07-09T15:56:09+00:00",
+        "updated_at": "2025-07-09T15:56:32+00:00",
         "version": 1
       }
     }

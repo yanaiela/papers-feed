@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-07-09T19:48:30.495751+00:00",
+  "snapshot_time": "2025-07-09T20:02:34.865860+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -6388,6 +6388,32 @@
         "object_id": "paper:arxiv.2101.11109",
         "created_at": "2025-07-09T16:54:58+00:00",
         "updated_at": "2025-07-09T16:55:17+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2507.00163": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2507.00163",
+        "url": "https://arxiv.org/abs/2507.00163",
+        "title": "Prompting as Scientific Inquiry",
+        "authors": "Ari Holtzman, Chenhao Tan",
+        "abstract": "Prompting is the primary method by which we study and control large language models. It is also one of the most powerful: nearly every major capability attributed to LLMs-few-shot learning, chain-of-thought, constitutional AI-was first unlocked through prompting. Yet prompting is rarely treated as science and is frequently frowned upon as alchemy. We argue that this is a category error. If we treat LLMs as a new kind of complex and opaque organism that is trained rather than programmed, then prompting is not a workaround: it is behavioral science. Mechanistic interpretability peers into the neural substrate, prompting probes the model in its native interface: language. We contend that prompting is not inferior, but rather a key component in the science of LLMs.",
+        "timestamp": "2025-07-09T20:01:47.850Z",
+        "rating": "novote",
+        "publishedDate": "2025/06/30",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 210,
+        "object_id": "paper:arxiv.2507.00163",
+        "created_at": "2025-07-09T20:01:48+00:00",
+        "updated_at": "2025-07-09T20:02:13+00:00",
         "version": 1
       }
     }

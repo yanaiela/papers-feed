@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-07-09T16:53:38.526711+00:00",
+  "snapshot_time": "2025-07-09T16:55:40.988845+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -6150,6 +6150,32 @@
         "object_id": "interactions:arxiv.2010.08275",
         "created_at": "2025-07-09T16:53:09+00:00",
         "updated_at": "2025-07-09T16:53:11+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2101.11109": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2101.11109",
+        "url": "https://arxiv.org/abs/2101.11109",
+        "title": "First Align, then Predict: Understanding the Cross-Lingual Ability of Multilingual BERT",
+        "authors": "Benjamin Muller, Yanai Elazar, Beno\u00eet Sagot, Djam\u00e9 Seddah",
+        "abstract": "Multilingual pretrained language models have demonstrated remarkable zero-shot cross-lingual transfer capabilities. Such transfer emerges by fine-tuning on a task of interest in one language and evaluating on a distinct language, not seen during the fine-tuning. Despite promising results, we still lack a proper understanding of the source of this transfer. Using a novel layer ablation technique and analyses of the model's internal representations, we show that multilingual BERT, a popular multilingual language model, can be viewed as the stacking of two sub-networks: a multilingual encoder followed by a task-specific language-agnostic predictor. While the encoder is crucial for cross-lingual transfer and remains mostly unchanged during fine-tuning, the task predictor has little importance on the transfer and can be reinitialized during fine-tuning. We present extensive experiments with three distinct tasks, seventeen typologically diverse languages and multiple domains to support our hypothesis.",
+        "timestamp": "2025-07-09T16:54:57.742Z",
+        "rating": "novote",
+        "publishedDate": "2021/01/26",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 209,
+        "object_id": "paper:arxiv.2101.11109",
+        "created_at": "2025-07-09T16:54:58+00:00",
+        "updated_at": "2025-07-09T16:55:17+00:00",
         "version": 1
       }
     }

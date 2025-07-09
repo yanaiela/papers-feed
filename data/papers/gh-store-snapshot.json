@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-07-09T20:02:34.865860+00:00",
+  "snapshot_time": "2025-07-09T21:42:51.900247+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -6414,6 +6414,32 @@
         "object_id": "paper:arxiv.2507.00163",
         "created_at": "2025-07-09T20:01:48+00:00",
         "updated_at": "2025-07-09T20:02:13+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2505.23829": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.23829",
+        "url": "https://arxiv.org/pdf/2505.23829",
+        "title": "BiasFilter: An Inference-Time Debiasing Framework for Large Language\n  Models",
+        "authors": "Xiaoqing Cheng, Ruizhe Chen, Hongying Zan, Yuxiang Jia, Min Peng",
+        "abstract": "Mitigating social bias in large language models (LLMs) has become an\nincreasingly important research objective. However, existing debiasing methods\noften incur high human and computational costs, exhibit limited effectiveness,\nand struggle to scale to larger models and open-ended generation tasks. To\naddress these limitations, this paper proposes BiasFilter, a model-agnostic,\ninference-time debiasing framework that integrates seamlessly with both\nopen-source and API-based LLMs. Instead of relying on retraining with balanced\ndata or modifying model parameters, BiasFilter enforces fairness by filtering\ngeneration outputs in real time. Specifically, it periodically evaluates\nintermediate outputs every few tokens, maintains an active set of candidate\ncontinuations, and incrementally completes generation by discarding low-reward\nsegments based on a fairness reward signal. To support this process, we\nconstruct a fairness preference dataset and train an implicit reward model to\nassess token-level fairness in generated responses. Extensive experiments\ndemonstrate that BiasFilter effectively mitigates social bias across a range of\nLLMs while preserving overall generation quality.",
+        "timestamp": "2025-07-09T21:42:04.115Z",
+        "rating": "novote",
+        "publishedDate": "2025-05-28T08:09:10Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 212,
+        "object_id": "paper:arxiv.2505.23829",
+        "created_at": "2025-07-09T21:42:04+00:00",
+        "updated_at": "2025-07-09T21:42:23+00:00",
         "version": 1
       }
     }

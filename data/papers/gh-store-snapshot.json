@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-07-09T16:52:25.548228+00:00",
+  "snapshot_time": "2025-07-09T16:53:38.526711+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -6077,25 +6077,25 @@
       "data": {
         "sourceId": "arxiv",
         "paperId": "2010.08275",
-        "url": "https://arxiv.org/abs/2010.08275",
-        "title": "It's not Greek to mBERT: Inducing Word-Level Translations from Multilingual BERT",
+        "url": "https://arxiv.org/pdf/2010.08275",
+        "title": "It's not Greek to mBERT: Inducing Word-Level Translations from\n  Multilingual BERT",
         "authors": "Hila Gonen, Shauli Ravfogel, Yanai Elazar, Yoav Goldberg",
-        "abstract": "Recent works have demonstrated that multilingual BERT (mBERT) learns rich cross-lingual representations, that allow for transfer across languages. We study the word-level translation information embedded in mBERT and present two simple methods that expose remarkable translation capabilities with no fine-tuning. The results suggest that most of this information is encoded in a non-linear way, while some of it can also be recovered with purely linear tools. As part of our analysis, we test the hypothesis that mBERT learns representations which contain both a language-encoding component and an abstract, cross-lingual component, and explicitly identify an empirical language-identity subspace within mBERT representations.",
-        "timestamp": "2025-07-09T16:51:39.151Z",
+        "abstract": "Recent works have demonstrated that multilingual BERT (mBERT) learns rich\ncross-lingual representations, that allow for transfer across languages. We\nstudy the word-level translation information embedded in mBERT and present two\nsimple methods that expose remarkable translation capabilities with no\nfine-tuning. The results suggest that most of this information is encoded in a\nnon-linear way, while some of it can also be recovered with purely linear\ntools. As part of our analysis, we test the hypothesis that mBERT learns\nrepresentations which contain both a language-encoding component and an\nabstract, cross-lingual component, and explicitly identify an empirical\nlanguage-identity subspace within mBERT representations.",
+        "timestamp": "2025-07-09T16:52:30.381Z",
         "rating": "novote",
-        "publishedDate": "2020/10/16",
+        "publishedDate": "2020-10-16T09:49:32Z",
         "tags": [
-          "Computation and Language (cs.CL)"
+          "cs.CL"
         ],
         "doi": "",
         "journalName": "",
         "sourceType": "url"
       },
       "meta": {
-        "issue_number": 206,
+        "issue_number": 207,
         "object_id": "paper:arxiv.2010.08275",
-        "created_at": "2025-07-09T16:51:39+00:00",
-        "updated_at": "2025-07-09T16:52:02+00:00",
+        "created_at": "2025-07-09T16:52:30+00:00",
+        "updated_at": "2025-07-09T16:52:57+00:00",
         "version": 1
       }
     },
@@ -6136,6 +6136,20 @@
         "object_id": "interactions:arxiv.2506.22724",
         "created_at": "2025-07-09T16:45:45+00:00",
         "updated_at": "2025-07-09T16:45:46+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2010.08275": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2010.08275",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 208,
+        "object_id": "interactions:arxiv.2010.08275",
+        "created_at": "2025-07-09T16:53:09+00:00",
+        "updated_at": "2025-07-09T16:53:11+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-07-08T20:29:57.985301+00:00",
+  "snapshot_time": "2025-07-09T00:40:54.747302+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -5562,6 +5562,46 @@
         "object_id": "interactions:arxiv.2505.21828",
         "created_at": "2025-07-08T20:03:09+00:00",
         "updated_at": "2025-07-08T20:03:11+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2406.17241": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2406.17241",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 185,
+        "object_id": "interactions:arxiv.2406.17241",
+        "created_at": "2025-07-09T00:40:21+00:00",
+        "updated_at": "2025-07-09T00:40:22+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2406.17241": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2406.17241",
+        "url": "https://arxiv.org/abs/2406.17241",
+        "title": "Understanding Language Model Circuits through Knowledge Editing",
+        "authors": "Huaizhi Ge, Frank Rudzicz, Zining Zhu",
+        "abstract": "Recent advances in language model interpretability have identified circuits, critical subnetworks that replicate model behaviors, yet how knowledge is structured within these crucial subnetworks remains opaque. To gain an understanding toward the knowledge in the circuits, we conduct systematic knowledge editing experiments on the circuits of the GPT-2 language model. Our analysis reveals intriguing patterns in how circuits respond to editing attempts, the extent of knowledge distribution across network components, and the architectural composition of knowledge-bearing circuits. These findings offer insights into the complex relationship between model circuits and knowledge representation, deepening the understanding of how information is organized within language models. Our findings offer novel insights into the ``meanings'' of the circuits, and introduce directions for further interpretability and safety research of language models.",
+        "timestamp": "2025-07-09T00:40:06.639Z",
+        "rating": "novote",
+        "publishedDate": "2024/06/25",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 184,
+        "object_id": "paper:arxiv.2406.17241",
+        "created_at": "2025-07-09T00:40:07+00:00",
+        "updated_at": "2025-07-09T00:40:28+00:00",
         "version": 1
       }
     }

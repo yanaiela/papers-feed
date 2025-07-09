@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-07-09T15:57:02.291628+00:00",
+  "snapshot_time": "2025-07-09T16:36:31.440892+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -5424,6 +5424,21 @@
               "idle_seconds": 1,
               "total_elapsed_seconds": 51
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-07-09T16:35:44.776Z",
+            "data": {
+              "session_id": "session_1752078944299_mxk0yrb",
+              "source_id": "arxiv",
+              "paper_id": "2407.00211",
+              "start_time": "2025-07-09T16:34:19.367Z",
+              "end_time": "2025-07-09T16:35:44.299Z",
+              "heartbeat_count": 16,
+              "duration_seconds": 80,
+              "idle_seconds": 5,
+              "total_elapsed_seconds": 85
+            }
           }
         ]
       },
@@ -5431,7 +5446,7 @@
         "issue_number": 177,
         "object_id": "interactions:arxiv.2407.00211",
         "created_at": "2025-07-08T18:18:39+00:00",
-        "updated_at": "2025-07-08T18:32:54+00:00",
+        "updated_at": "2025-07-09T16:36:08+00:00",
         "version": 1
       }
     },
@@ -5986,6 +6001,34 @@
         "object_id": "paper:arxiv.2402.16048",
         "created_at": "2025-07-09T15:56:09+00:00",
         "updated_at": "2025-07-09T15:56:32+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.EDoD3DgivF": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "EDoD3DgivF",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 202,
+        "object_id": "interactions:openreview.EDoD3DgivF",
+        "created_at": "2025-07-09T16:36:18+00:00",
+        "updated_at": "2025-07-09T16:36:20+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2402.16048": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2402.16048",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 201,
+        "object_id": "interactions:arxiv.2402.16048",
+        "created_at": "2025-07-09T15:57:44+00:00",
+        "updated_at": "2025-07-09T15:57:46+00:00",
         "version": 1
       }
     }

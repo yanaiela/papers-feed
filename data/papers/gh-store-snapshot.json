@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-16T14:20:42.994790+00:00",
+  "snapshot_time": "2025-10-16T16:44:07.605756+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -7672,6 +7672,33 @@
         "object_id": "paper:arxiv.2509.09672",
         "created_at": "2025-10-16T14:00:43+00:00",
         "updated_at": "2025-10-16T14:01:13+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2207.12598": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2207.12598",
+        "url": "https://arxiv.org/abs/2207.12598",
+        "title": "Classifier-Free Diffusion Guidance",
+        "authors": "Jonathan Ho, Tim Salimans",
+        "abstract": "Classifier guidance is a recently introduced method to trade off mode coverage and sample fidelity in conditional diffusion models post training, in the same spirit as low temperature sampling or truncation in other types of generative models. Classifier guidance combines the score estimate of a diffusion model with the gradient of an image classifier and thereby requires training an image classifier separate from the diffusion model. It also raises the question of whether guidance can be performed without a classifier. We show that guidance can be indeed performed by a pure generative model without such a classifier: in what we call classifier-free guidance, we jointly train a conditional and an unconditional diffusion model, and we combine the resulting conditional and unconditional score estimates to attain a trade-off between sample quality and diversity similar to that obtained using classifier guidance.",
+        "timestamp": "2025-10-16T16:43:18.105Z",
+        "rating": "novote",
+        "publishedDate": "2022/07/26",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 323,
+        "object_id": "paper:arxiv.2207.12598",
+        "created_at": "2025-10-16T16:43:18+00:00",
+        "updated_at": "2025-10-16T16:43:40+00:00",
         "version": 1
       }
     }

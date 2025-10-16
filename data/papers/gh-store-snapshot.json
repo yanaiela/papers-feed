@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-16T09:49:08.025037+00:00",
+  "snapshot_time": "2025-10-16T10:09:59.521302+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -7357,6 +7357,60 @@
         "object_id": "interactions:arxiv.2508.17416",
         "created_at": "2025-10-15T08:30:38+00:00",
         "updated_at": "2025-10-16T06:53:17+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.H9lzKf1YTle": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "H9lzKf1YTle",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-16T10:08:53.327Z",
+            "data": {
+              "session_id": "session_1760609332722_zmzdqay",
+              "source_id": "openreview",
+              "paper_id": "H9lzKf1YTle",
+              "start_time": "2025-10-16T10:08:39.632Z",
+              "end_time": "2025-10-16T10:08:52.722Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 13
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 318,
+        "object_id": "interactions:openreview.H9lzKf1YTle",
+        "created_at": "2025-10-16T10:08:54+00:00",
+        "updated_at": "2025-10-16T10:09:24+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.H9lzKf1YTle": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "H9lzKf1YTle",
+        "url": "https://openreview.net/forum?id=H9lzKf1YTle&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs)",
+        "title": "The Israel Seminar on Computational Linguistic 2025",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-10-16T10:08:39.998Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 317,
+        "object_id": "paper:openreview.H9lzKf1YTle",
+        "created_at": "2025-10-16T10:08:40+00:00",
+        "updated_at": "2025-10-16T10:09:07+00:00",
         "version": 1
       }
     }

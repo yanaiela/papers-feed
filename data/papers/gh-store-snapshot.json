@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-16T06:13:57.138709+00:00",
+  "snapshot_time": "2025-10-16T09:49:08.025037+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -7236,6 +7236,127 @@
         "object_id": "interactions:arxiv.2503.17514",
         "created_at": "2025-07-09T23:49:53+00:00",
         "updated_at": "2025-07-09T23:49:55+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2403.00499": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2403.00499",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-16T09:48:13.109Z",
+            "data": {
+              "session_id": "session_1760608092388_fomut3a",
+              "source_id": "arxiv",
+              "paper_id": "2403.00499",
+              "start_time": "2025-10-16T09:47:58.971Z",
+              "end_time": "2025-10-16T09:48:12.388Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 13
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 316,
+        "object_id": "interactions:arxiv.2403.00499",
+        "created_at": "2025-10-16T09:48:13+00:00",
+        "updated_at": "2025-10-16T09:48:37+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2403.00499": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2403.00499",
+        "url": "https://arxiv.org/pdf/2403.00499",
+        "title": "Do Zombies Understand? A Choose-Your-Own-Adventure Exploration of\n  Machine Cognition",
+        "authors": "Ariel Goldstein, Gabriel Stanovsky",
+        "abstract": "Recent advances in LLMs have sparked a debate on whether they understand\ntext. In this position paper, we argue that opponents in this debate hold\ndifferent definitions for understanding, and particularly differ in their view\non the role of consciousness. To substantiate this claim, we propose a thought\nexperiment involving an open-source chatbot $Z$ which excels on every possible\nbenchmark, seemingly without subjective experience. We ask whether $Z$ is\ncapable of understanding, and show that different schools of thought within\nseminal AI research seem to answer this question differently, uncovering their\nterminological disagreement. Moving forward, we propose two distinct working\ndefinitions for understanding which explicitly acknowledge the question of\nconsciousness, and draw connections with a rich literature in philosophy,\npsychology and neuroscience.",
+        "timestamp": "2025-10-16T09:47:59.352Z",
+        "rating": "novote",
+        "publishedDate": "2024-03-01T12:42:47Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 315,
+        "object_id": "paper:arxiv.2403.00499",
+        "created_at": "2025-10-16T09:47:59+00:00",
+        "updated_at": "2025-10-16T09:48:20+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.12402": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.12402",
+        "url": "https://arxiv.org/pdf/2510.12402",
+        "title": "Cautious Weight Decay",
+        "authors": "Lizhang Chen, Jonathan Li, Kaizhao Liang, Baiyu Su, Cong Xie, Nuo Wang Pierse, Chen Liang, Ni Lao, Qiang Liu",
+        "abstract": "We introduce Cautious Weight Decay (CWD), a one-line, optimizer-agnostic\nmodification that applies weight decay only to parameter coordinates whose\nsigns align with the optimizer update. Unlike standard decoupled decay, which\nimplicitly optimizes a regularized or constrained objective, CWD preserves the\noriginal loss and admits a bilevel interpretation: it induces sliding-mode\nbehavior upon reaching the stationary manifold, allowing it to search for\nlocally Pareto-optimal stationary points of the unmodified objective. In\npractice, CWD is a drop-in change for optimizers such as AdamW, Lion, and Muon,\nrequiring no new hyperparameters or additional tuning. For language model\npre-training and ImageNet classification, CWD consistently improves final loss\nand accuracy at million- to billion-parameter scales.",
+        "timestamp": "2025-10-16T06:08:53.688Z",
+        "rating": "novote",
+        "publishedDate": "2025-10-14T11:32:55Z",
+        "tags": [
+          "cs.LG",
+          "math.OC",
+          "stat.ML"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 311,
+        "object_id": "paper:arxiv.2510.12402",
+        "created_at": "2025-10-16T06:08:54+00:00",
+        "updated_at": "2025-10-16T06:53:12+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2508.17416": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2508.17416",
+        "interactions": [
+          {
+            "type": "rating",
+            "timestamp": "2025-10-15T08:30:37.825Z",
+            "data": {
+              "rating": "thumbsup"
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-15T18:59:17.722Z",
+            "data": {
+              "session_id": "session_1760554757391_f921lgp",
+              "source_id": "arxiv",
+              "paper_id": "2508.17416",
+              "start_time": "2025-10-15T18:58:41.972Z",
+              "end_time": "2025-10-15T18:59:17.391Z",
+              "heartbeat_count": 7,
+              "duration_seconds": 35,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 35
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 238,
+        "object_id": "interactions:arxiv.2508.17416",
+        "created_at": "2025-10-15T08:30:38+00:00",
+        "updated_at": "2025-10-16T06:53:17+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-16T12:32:56.277771+00:00",
+  "snapshot_time": "2025-10-16T13:11:18.600166+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -7531,6 +7531,63 @@
         "object_id": "paper:openreview.H9lzKf1YTle",
         "created_at": "2025-10-16T10:08:40+00:00",
         "updated_at": "2025-10-16T10:09:07+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2503.13431": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.13431",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-16T13:10:19.983Z",
+            "data": {
+              "session_id": "session_1760620219373_wnz3xdk",
+              "source_id": "arxiv",
+              "paper_id": "2503.13431",
+              "start_time": "2025-10-16T13:10:13.766Z",
+              "end_time": "2025-10-16T13:10:19.373Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 320,
+        "object_id": "interactions:arxiv.2503.13431",
+        "created_at": "2025-10-16T13:10:20+00:00",
+        "updated_at": "2025-10-16T13:10:42+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2503.13431": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.13431",
+        "url": "https://arxiv.org/pdf/2503.13431",
+        "title": "Measuring In-Context Computation Complexity via Hidden State Prediction",
+        "authors": "Vincent Herrmann, R\u00f3bert Csord\u00e1s, J\u00fcrgen Schmidhuber",
+        "abstract": "Detecting when a neural sequence model does \"interesting\" computation is an\nopen problem. The next token prediction loss is a poor indicator: Low loss can\nstem from trivially predictable sequences that are uninteresting, while high\nloss may reflect unpredictable but also irrelevant information that can be\nignored by the model. We propose a better metric: measuring the model's ability\nto predict its own future hidden states. We show empirically that this metric\n-- in contrast to the next token prediction loss -- correlates with the\nintuitive interestingness of the task. To measure predictability, we introduce\nthe architecture-agnostic \"prediction of hidden states\" (PHi) layer that serves\nas an information bottleneck on the main pathway of the network (e.g., the\nresidual stream in Transformers). We propose a novel learned predictive prior\nthat enables us to measure the novel information gained in each computation\nstep, which serves as our metric. We show empirically that our metric predicts\nthe description length of formal languages learned in-context, the complexity\nof mathematical reasoning problems, and the correctness of self-generated\nreasoning chains.",
+        "timestamp": "2025-10-16T13:10:14.176Z",
+        "rating": "novote",
+        "publishedDate": "2025-03-17T17:56:14Z",
+        "tags": [
+          "cs.LG",
+          "I.2.6"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 319,
+        "object_id": "paper:arxiv.2503.13431",
+        "created_at": "2025-10-16T13:10:14+00:00",
+        "updated_at": "2025-10-16T13:10:43+00:00",
         "version": 1
       }
     }

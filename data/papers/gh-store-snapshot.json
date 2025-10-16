@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-07-09T23:47:00.397577+00:00",
+  "snapshot_time": "2025-10-16T06:13:57.138709+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -6162,10 +6162,10 @@
         "interactions": []
       },
       "meta": {
-        "issue_number": 202,
+        "issue_number": 276,
         "object_id": "interactions:openreview.EDoD3DgivF",
-        "created_at": "2025-07-09T16:36:18+00:00",
-        "updated_at": "2025-07-09T16:36:20+00:00",
+        "created_at": "2025-10-15T14:00:09+00:00",
+        "updated_at": "2025-10-15T14:00:12+00:00",
         "version": 1
       }
     },
@@ -6544,6 +6544,698 @@
         "object_id": "paper:arxiv.2503.17514",
         "created_at": "2025-07-09T23:46:17+00:00",
         "updated_at": "2025-07-09T23:46:37+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.12463": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.12463",
+        "url": "https://arxiv.org/pdf/2510.12463",
+        "title": "Resource-sensitive but language-blind: Community size and not\n  grammatical complexity better predicts the accuracy of Large Language Models\n  in a novel Wug Test",
+        "authors": "Nikoleta Pantelidou, Evelina Leivada, Paolo Morosi",
+        "abstract": "The linguistic abilities of Large Language Models are a matter of ongoing\ndebate. This study contributes to this discussion by investigating model\nperformance in a morphological generalization task that involves novel words.\nUsing a multilingual adaptation of the Wug Test, six models were tested across\nfour partially unrelated languages (Catalan, English, Greek, and Spanish) and\ncompared with human speakers. The aim is to determine whether model accuracy\napproximates human competence and whether it is shaped primarily by linguistic\ncomplexity or by the quantity of available training data. Consistent with\nprevious research, the results show that the models are able to generalize\nmorphological processes to unseen words with human-like accuracy. However,\naccuracy patterns align more closely with community size and data availability\nthan with structural complexity, refining earlier claims in the literature. In\nparticular, languages with larger speaker communities and stronger digital\nrepresentation, such as Spanish and English, revealed higher accuracy than\nless-resourced ones like Catalan and Greek. Overall, our findings suggest that\nmodel behavior is mainly driven by the richness of linguistic resources rather\nthan by sensitivity to grammatical complexity, reflecting a form of performance\nthat resembles human linguistic competence only superficially.",
+        "timestamp": "2025-10-16T06:12:59.462Z",
+        "rating": "novote",
+        "publishedDate": "2025-10-14T12:52:57Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 313,
+        "object_id": "paper:arxiv.2510.12463",
+        "created_at": "2025-10-16T06:12:59+00:00",
+        "updated_at": "2025-10-16T06:13:27+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2311.12233": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2311.12233",
+        "url": "https://arxiv.org/abs/2311.12233",
+        "title": "Unifying Corroborative and Contributive Attributions in Large Language Models",
+        "authors": "Theodora Worledge, Judy Hanwen Shen, Nicole Meister, Caleb Winston, Carlos Guestrin",
+        "abstract": "As businesses, products, and services spring up around large language models, the trustworthiness of these models hinges on the verifiability of their outputs. However, methods for explaining language model outputs largely fall across two distinct fields of study which both use the term \"attribution\" to refer to entirely separate techniques: citation generation and training data attribution. In many modern applications, such as legal document generation and medical question answering, both types of attributions are important. In this work, we argue for and present a unified framework of large language model attributions. We show how existing methods of different types of attribution fall under the unified framework. We also use the framework to discuss real-world use cases where one or both types of attributions are required. We believe that this unified framework will guide the use case driven development of systems that leverage both types of attribution, as well as the standardization of their evaluation.",
+        "timestamp": "2025-10-15T14:08:11.111Z",
+        "rating": "novote",
+        "publishedDate": "2023/11/20",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 280,
+        "object_id": "paper:arxiv.2311.12233",
+        "created_at": "2025-10-15T14:08:11+00:00",
+        "updated_at": "2025-10-15T18:45:11+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.17585": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.17585",
+        "url": "https://arxiv.org/pdf/2506.17585",
+        "title": "Cite Pretrain: Retrieval-Free Knowledge Attribution for Large Language\n  Models",
+        "authors": "Yukun Huang, Sanxing Chen, Jian Pei, Manzil Zaheer, Bhuwan Dhingra",
+        "abstract": "Trustworthy language models should provide both correct and verifiable\nanswers. While language models can sometimes attribute their outputs to\npretraining data, their citations are often unreliable due to hallucination. As\na result, current systems insert citations by querying an external retriever at\ninference time, introducing latency, infrastructure dependence, and\nvulnerability to retrieval noise. We explore whether LLMs can be made to\nreliably attribute to the documents seen during (continual)\npretraining--without test-time retrieval--by revising the training process. To\nevaluate this, we release CitePretrainBench, a benchmark that mixes real-world\ncorpora (Wikipedia, Common Crawl, arXiv) with novel, unseen documents and\nprobes both short-form (single fact) and long-form (multi-fact) citation tasks.\nOur approach follows a two-stage process: (1) continual pretraining to bind\nfacts to persistent document identifiers, and (2) instruction tuning to elicit\ncitation behavior. We find that simple Passive Indexing, which appends an\nidentifier to each document, helps memorize verbatim text but fails on\nparaphrased or compositional facts. Instead, we propose Active Indexing, which\ncontinually pretrains on synthetic QA pairs that (1) restate each fact in\ndiverse compositional forms, and (2) require bidirectional source-to-fact and\nfact-to-source generation, jointly teaching the model to generate content from\na cited source and to attribute its own answers. Experiments with Qwen2.5-7B\nand 3B show that Active Indexing consistently outperforms Passive Indexing\nacross all tasks and models, with citation precision gains up to 30.2 percent.\nOur ablation studies reveal that performance continues to improve as we scale\nthe amount of augmented data, showing a clear upward trend even at 16 times the\noriginal token count.",
+        "timestamp": "2025-10-15T13:11:12.642Z",
+        "rating": "novote",
+        "publishedDate": "2025-06-21T04:48:05Z",
+        "tags": [
+          "cs.AI",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 265,
+        "object_id": "paper:arxiv.2506.17585",
+        "created_at": "2025-10-15T13:11:12+00:00",
+        "updated_at": "2025-10-15T18:46:25+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2311.12233": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2311.12233",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-15T14:09:57.414Z",
+            "data": {
+              "session_id": "session_1760537396799_uu6i51k",
+              "source_id": "arxiv",
+              "paper_id": "2311.12233",
+              "start_time": "2025-10-15T14:08:18.051Z",
+              "end_time": "2025-10-15T14:09:56.799Z",
+              "heartbeat_count": 19,
+              "duration_seconds": 95,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 99
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 281,
+        "object_id": "interactions:arxiv.2311.12233",
+        "created_at": "2025-10-15T14:08:20+00:00",
+        "updated_at": "2025-10-15T18:45:05+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2210.01296": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2210.01296",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-15T13:41:47.300Z",
+            "data": {
+              "session_id": "session_1760535706690_2fpslis",
+              "source_id": "arxiv",
+              "paper_id": "2210.01296",
+              "start_time": "2025-10-15T13:30:11.461Z",
+              "end_time": "2025-10-15T13:41:46.690Z",
+              "heartbeat_count": 139,
+              "duration_seconds": 695,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 695
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 273,
+        "object_id": "interactions:arxiv.2210.01296",
+        "created_at": "2025-10-15T13:30:11+00:00",
+        "updated_at": "2025-10-15T18:45:43+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2210.01296": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2210.01296",
+        "url": "https://arxiv.org/abs/2210.01296",
+        "title": "Recitation-Augmented Language Models",
+        "authors": "Zhiqing Sun, Xuezhi Wang, Yi Tay, Yiming Yang, Denny Zhou",
+        "abstract": "We propose a new paradigm to help Large Language Models (LLMs) generate more accurate factual knowledge without retrieving from an external corpus, called RECITation-augmented gEneration (RECITE). Different from retrieval-augmented language models that retrieve relevant documents before generating the outputs, given an input, RECITE first recites one or several relevant passages from LLMs' own memory via sampling, and then produces the final answers. We show that RECITE is a powerful paradigm for knowledge-intensive NLP tasks. Specifically, we show that by utilizing recitation as the intermediate step, a recite-and-answer scheme can achieve new state-of-the-art performance in various closed-book question answering (CBQA) tasks. In experiments, we verify the effectiveness of \\method~on four pre-trained models (PaLM, UL2, OPT, and Codex) and three CBQA tasks (Natural Questions, TriviaQA, and HotpotQA). Our code is available at \"this https URL.",
+        "timestamp": "2025-10-15T13:25:35.247Z",
+        "rating": "novote",
+        "publishedDate": "2022/10/04",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 271,
+        "object_id": "paper:arxiv.2210.01296",
+        "created_at": "2025-10-15T13:25:35+00:00",
+        "updated_at": "2025-10-15T18:45:54+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.w7LU2s14kE": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "w7LU2s14kE",
+        "url": "https://openreview.net/forum?id=w7LU2s14kE",
+        "title": "Linearity of Relation Decoding in Transformer Language Models",
+        "authors": "Evan Hernandez, Arnab Sen Sharma, Tal Haklay, Kevin Meng, Martin Wattenberg, Jacob Andreas, Yonatan Belinkov, David Bau",
+        "abstract": "Much of the knowledge encoded in transformer language models (LMs) may be expressed in terms of relations: relations between words and their synonyms, entities and their attributes, etc. We show that, for a subset of relations, this computation is well-approximated by a single linear transformation on the subject representation. Linear relation representations may be obtained by constructing a first-order approximation to the LM from a single prompt, and they exist for a variety of factual, commonsense, and linguistic relations. However, we also identify many cases in which LM predictions capture relational knowledge accurately, but this knowledge is not linearly encoded in their representations. Our results thus reveal a simple, interpretable, but heterogeneously deployed knowledge representation strategy in transformer LMs.",
+        "timestamp": "2025-10-15T13:54:03.261Z",
+        "rating": "novote",
+        "publishedDate": "16 Jan 2024",
+        "tags": [
+          "Natural language processing",
+          "interpretability",
+          "language models"
+        ],
+        "doi": "",
+        "journalName": "ICLR 2024 spotlight",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 274,
+        "object_id": "paper:openreview.w7LU2s14kE",
+        "created_at": "2025-10-15T13:54:03+00:00",
+        "updated_at": "2025-10-15T18:45:38+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2308.14179": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2308.14179",
+        "url": "https://arxiv.org/abs/2308.14179",
+        "title": "Towards Vision-Language Mechanistic Interpretability: A Causal Tracing Tool for BLIP",
+        "authors": "Vedant Palit, Rohan Pandey, Aryaman Arora, Paul Pu Liang",
+        "abstract": "Mechanistic interpretability seeks to understand the neural mechanisms that enable specific behaviors in Large Language Models (LLMs) by leveraging causality-based methods. While these approaches have identified neural circuits that copy spans of text, capture factual knowledge, and more, they remain unusable for multimodal models since adapting these tools to the vision-language domain requires considerable architectural changes. In this work, we adapt a unimodal causal tracing tool to BLIP to enable the study of the neural mechanisms underlying image-conditioned text generation. We demonstrate our approach on a visual question answering dataset, highlighting the causal relevance of later layer representations for all tokens. Furthermore, we release our BLIP causal tracing tool as open source to enable further experimentation in vision-language mechanistic interpretability by the community. Our code is available at this https URL.",
+        "timestamp": "2025-10-15T14:10:47.695Z",
+        "rating": "novote",
+        "publishedDate": "2023/08/27",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Computer Vision and Pattern Recognition (cs.CV)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 282,
+        "object_id": "paper:arxiv.2308.14179",
+        "created_at": "2025-10-15T14:10:48+00:00",
+        "updated_at": "2025-10-15T18:45:00+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.w7LU2s14kE": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "w7LU2s14kE",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-15T14:02:16.193Z",
+            "data": {
+              "session_id": "session_1760536935539_nbomscy",
+              "source_id": "openreview",
+              "paper_id": "w7LU2s14kE",
+              "start_time": "2025-10-15T14:00:04.773Z",
+              "end_time": "2025-10-15T14:02:15.539Z",
+              "heartbeat_count": 26,
+              "duration_seconds": 130,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 131
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 275,
+        "object_id": "interactions:openreview.w7LU2s14kE",
+        "created_at": "2025-10-15T13:59:50+00:00",
+        "updated_at": "2025-10-15T18:45:32+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2506.17585": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.17585",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-15T13:18:21.325Z",
+            "data": {
+              "session_id": "session_1760534301308_k9ihiuq",
+              "source_id": "arxiv",
+              "paper_id": "2506.17585",
+              "start_time": "2025-10-15T13:18:10.575Z",
+              "end_time": "2025-10-15T13:18:21.308Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 11
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 266,
+        "object_id": "interactions:arxiv.2506.17585",
+        "created_at": "2025-10-15T13:15:26+00:00",
+        "updated_at": "2025-10-15T18:46:16+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2503.22362": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.22362",
+        "url": "https://arxiv.org/abs/2503.22362",
+        "title": "Supposedly Equivalent Facts That Aren't? Entity Frequency in Pre-training Induces Asymmetry in LLMs",
+        "authors": "Yuan He, Bailan He, Zifeng Ding, Alisia Lupidi, Yuqicheng Zhu, Shuo Chen, Caiqi Zhang, Jiaoyan Chen, Yunpu Ma, Volker Tresp, Ian Horrocks",
+        "abstract": "Understanding and mitigating hallucinations in Large Language Models (LLMs) is crucial for ensuring reliable content generation. While previous research has primarily focused on \"when\" LLMs hallucinate, our work explains \"why\" and directly links model behaviour to the pre-training data that forms their prior knowledge. Specifically, we demonstrate that an asymmetry exists in the recognition of logically equivalent facts, which can be attributed to frequency discrepancies of entities appearing as subjects versus objects. Given that most pre-training datasets are inaccessible, we leverage the fully open-source OLMo series by indexing its Dolma dataset to estimate entity frequencies. Using relational facts (represented as triples) from Wikidata5M, we construct probing datasets to isolate this effect. Our experiments reveal that facts with a high-frequency subject and a low-frequency object are better recognised than their inverse, despite their logical equivalence. The pattern reverses in low-to-high frequency settings, and no statistically significant asymmetry emerges when both entities are high-frequency. These findings highlight the influential role of pre-training data in shaping model predictions and provide insights for inferring the characteristics of pre-training data in closed or partially closed LLMs.",
+        "timestamp": "2025-10-15T07:16:30.148Z",
+        "rating": "novote",
+        "publishedDate": "2025/03/28",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 219,
+        "object_id": "paper:arxiv.2503.22362",
+        "created_at": "2025-10-15T07:16:30+00:00",
+        "updated_at": "2025-10-15T18:50:14+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2503.22362": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.22362",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-15T07:53:51.285Z",
+            "data": {
+              "session_id": "session_1760514831275_5da2iu7",
+              "source_id": "arxiv",
+              "paper_id": "2503.22362",
+              "start_time": "2025-10-15T07:53:38.077Z",
+              "end_time": "2025-10-15T07:53:51.275Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 13
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 224,
+        "object_id": "interactions:arxiv.2503.22362",
+        "created_at": "2025-10-15T07:53:20+00:00",
+        "updated_at": "2025-10-15T18:49:50+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2411.16679": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2411.16679",
+        "url": "https://arxiv.org/abs/2411.16679",
+        "title": "Do Large Language Models Perform Latent Multi-Hop Reasoning without Exploiting Shortcuts?",
+        "authors": "Sohee Yang, Nora Kassner, Elena Gribovskaya, Sebastian Riedel, Mor Geva",
+        "abstract": "We evaluate how well Large Language Models (LLMs) latently recall and compose facts to answer multi-hop queries like \"In the year Scarlett Johansson was born, the Summer Olympics were hosted in the country of\". One major challenge in such evaluation is that LLMs may have developed shortcuts by encountering the head entity \"Scarlett Johansson\" and the answer entity \"United States\" in the same training sequences or merely guess the answer based on frequency-based priors. To prevent shortcuts, we exclude test queries where the head and answer entities might have co-appeared during training. Through careful selection of relations and facts and systematic removal of cases where models might guess answers or exploit partial matches, we construct an evaluation dataset SOCRATES (ShOrtCut-fRee lATent rEaSoning). We observe that LLMs demonstrate promising latent multi-hop reasoning abilities without exploiting shortcuts, but only for certain types of queries. For queries requiring latent recall of countries as the intermediate answer, the best models achieve 80% latent composability, but this drops to just 5% for the recall of years. Comparisons with Chain-of-Thought highlight a significant gap between the ability of models to reason latently versus explicitly. Analysis reveals that latent representations of the intermediate answer are constructed more often in queries with higher latent composability, and shows the emergence of latent multi-hop reasoning during pretraining.",
+        "timestamp": "2025-10-15T08:42:59.886Z",
+        "rating": "novote",
+        "publishedDate": "2024/11/25",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 243,
+        "object_id": "paper:arxiv.2411.16679",
+        "created_at": "2025-10-15T08:43:00+00:00",
+        "updated_at": "2025-10-15T18:48:06+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2411.16679": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2411.16679",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-15T08:48:30.803Z",
+            "data": {
+              "session_id": "session_1760518110753_ksvjjjw",
+              "source_id": "arxiv",
+              "paper_id": "2411.16679",
+              "start_time": "2025-10-15T08:47:41.016Z",
+              "end_time": "2025-10-15T08:48:30.753Z",
+              "heartbeat_count": 9,
+              "duration_seconds": 45,
+              "idle_seconds": 5,
+              "total_elapsed_seconds": 50
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 244,
+        "object_id": "interactions:arxiv.2411.16679",
+        "created_at": "2025-10-15T08:47:40+00:00",
+        "updated_at": "2025-10-15T18:47:59+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2311.17035": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2311.17035",
+        "url": "https://arxiv.org/pdf/2311.17035",
+        "title": "Scalable Extraction of Training Data from (Production) Language Models",
+        "authors": "Milad Nasr, Nicholas Carlini, Jonathan Hayase, Matthew Jagielski, A. Feder Cooper, Daphne Ippolito, Christopher A. Choquette-Choo, Eric Wallace, Florian Tram\u00e8r, Katherine Lee",
+        "abstract": "This paper studies extractable memorization: training data that an adversary\ncan efficiently extract by querying a machine learning model without prior\nknowledge of the training dataset. We show an adversary can extract gigabytes\nof training data from open-source language models like Pythia or GPT-Neo,\nsemi-open models like LLaMA or Falcon, and closed models like ChatGPT. Existing\ntechniques from the literature suffice to attack unaligned models; in order to\nattack the aligned ChatGPT, we develop a new divergence attack that causes the\nmodel to diverge from its chatbot-style generations and emit training data at a\nrate 150x higher than when behaving properly. Our methods show practical\nattacks can recover far more data than previously thought, and reveal that\ncurrent alignment techniques do not eliminate memorization.",
+        "timestamp": "2025-10-15T10:46:38.523Z",
+        "rating": "novote",
+        "publishedDate": "2023-11-28T18:47:03Z",
+        "tags": [
+          "cs.LG",
+          "cs.CL",
+          "cs.CR"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 254,
+        "object_id": "paper:arxiv.2311.17035",
+        "created_at": "2025-10-15T10:46:39+00:00",
+        "updated_at": "2025-10-15T18:47:10+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2310.20707": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.20707",
+        "url": "https://arxiv.org/abs/2310.20707",
+        "title": "What's In My Big Data?",
+        "authors": "Yanai Elazar, Akshita Bhagia, Ian Magnusson, Abhilasha Ravichander, Dustin Schwenk, Alane Suhr, Pete Walsh, Dirk Groeneveld, Luca Soldaini, Sameer Singh, Hanna Hajishirzi, Noah A. Smith, Jesse Dodge",
+        "abstract": "Large text corpora are the backbone of language models. However, we have a limited understanding of the content of these corpora, including general statistics, quality, social factors, and inclusion of evaluation data (contamination). In this work, we propose What's In My Big Data? (WIMBD), a platform and a set of sixteen analyses that allow us to reveal and compare the contents of large text corpora. WIMBD builds on two basic capabilities -- count and search -- at scale, which allows us to analyze more than 35 terabytes on a standard compute node. We apply WIMBD to ten different corpora used to train popular language models, including C4, The Pile, and RedPajama. Our analysis uncovers several surprising and previously undocumented findings about these corpora, including the high prevalence of duplicate, synthetic, and low-quality content, personally identifiable information, toxic language, and benchmark contamination. For instance, we find that about 50% of the documents in RedPajama and LAION-2B-en are duplicates. In addition, several datasets used for benchmarking models trained on such corpora are contaminated with respect to important benchmarks, including the Winograd Schema Challenge and parts of GLUE and SuperGLUE. We open-source WIMBD's code and artifacts to provide a standard set of evaluations for new text-based corpora and to encourage more analyses and transparency around them.",
+        "timestamp": "2025-10-15T10:54:40.843Z",
+        "rating": "novote",
+        "publishedDate": "2023/10/31",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 256,
+        "object_id": "paper:arxiv.2310.20707",
+        "created_at": "2025-10-15T10:54:41+00:00",
+        "updated_at": "2025-10-15T18:47:01+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2311.17035": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2311.17035",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-15T10:47:12.680Z",
+            "data": {
+              "session_id": "session_1760525232069_6lz9gmp",
+              "source_id": "arxiv",
+              "paper_id": "2311.17035",
+              "start_time": "2025-10-15T10:46:38.160Z",
+              "end_time": "2025-10-15T10:47:12.069Z",
+              "heartbeat_count": 6,
+              "duration_seconds": 30,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 34
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 255,
+        "object_id": "interactions:arxiv.2311.17035",
+        "created_at": "2025-10-15T10:47:13+00:00",
+        "updated_at": "2025-10-15T18:47:05+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2404.01019": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2404.01019",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-15T08:37:08.669Z",
+            "data": {
+              "session_id": "session_1760517427715_wttmbza",
+              "source_id": "arxiv",
+              "paper_id": "2404.01019",
+              "start_time": "2025-10-15T08:35:53.301Z",
+              "end_time": "2025-10-15T08:37:07.715Z",
+              "heartbeat_count": 14,
+              "duration_seconds": 70,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 74
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 240,
+        "object_id": "interactions:arxiv.2404.01019",
+        "created_at": "2025-10-15T08:37:09+00:00",
+        "updated_at": "2025-10-15T18:48:23+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2404.01019": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2404.01019",
+        "url": "https://arxiv.org/pdf/2404.01019",
+        "title": "Source-Aware Training Enables Knowledge Attribution in Language Models",
+        "authors": "Muhammad Khalifa, David Wadden, Emma Strubell, Honglak Lee, Lu Wang, Iz Beltagy, Hao Peng",
+        "abstract": "Large language models (LLMs) learn a vast amount of knowledge during\npretraining, but they are often oblivious to the source(s) of such knowledge.\nWe investigate the problem of intrinsic source citation, where LLMs are\nrequired to cite the pretraining source supporting a generated response.\nIntrinsic source citation can enhance LLM transparency, interpretability, and\nverifiability. To give LLMs such ability, we explore source-aware training -- a\nrecipe that involves (i) training the LLM to associate unique source document\nidentifiers with the knowledge in each document, followed by (ii) an\ninstruction-tuning stage to teach the LLM to cite a supporting pretraining\nsource when prompted. Source-aware training borrows from existing\npretraining/fine-tuning frameworks and requires minimal changes to the model\narchitecture or implementation. Through experiments on synthetic data, we\ndemonstrate that our training recipe can enable faithful attribution to the\npretraining data without a substantial impact on the model's perplexity\ncompared to standard pretraining. Our findings also highlight the importance of\npretraining data augmentation in achieving attribution. Code and data available\nhere: \\url{https://github.com/mukhal/intrinsic-source-citation}",
+        "timestamp": "2025-10-15T08:35:53.711Z",
+        "rating": "novote",
+        "publishedDate": "2024-04-01T09:39:38Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 239,
+        "object_id": "paper:arxiv.2404.01019",
+        "created_at": "2025-10-15T08:35:54+00:00",
+        "updated_at": "2025-10-15T18:48:28+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2402.16837": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2402.16837",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-15T08:48:38.424Z",
+            "data": {
+              "session_id": "session_1760518117777_r6c2bck",
+              "source_id": "arxiv",
+              "paper_id": "2402.16837",
+              "start_time": "2025-10-15T08:48:31.416Z",
+              "end_time": "2025-10-15T08:48:37.777Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 246,
+        "object_id": "interactions:arxiv.2402.16837",
+        "created_at": "2025-10-15T08:48:39+00:00",
+        "updated_at": "2025-10-15T18:47:50+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2402.16837": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2402.16837",
+        "url": "https://arxiv.org/pdf/2402.16837",
+        "title": "Do Large Language Models Latently Perform Multi-Hop Reasoning?",
+        "authors": "Sohee Yang, Elena Gribovskaya, Nora Kassner, Mor Geva, Sebastian Riedel",
+        "abstract": "We study whether Large Language Models (LLMs) latently perform multi-hop\nreasoning with complex prompts such as \"The mother of the singer of\n'Superstition' is\". We look for evidence of a latent reasoning pathway where an\nLLM (1) latently identifies \"the singer of 'Superstition'\" as Stevie Wonder,\nthe bridge entity, and (2) uses its knowledge of Stevie Wonder's mother to\ncomplete the prompt. We analyze these two hops individually and consider their\nco-occurrence as indicative of latent multi-hop reasoning. For the first hop,\nwe test if changing the prompt to indirectly mention the bridge entity instead\nof any other entity increases the LLM's internal recall of the bridge entity.\nFor the second hop, we test if increasing this recall causes the LLM to better\nutilize what it knows about the bridge entity. We find strong evidence of\nlatent multi-hop reasoning for the prompts of certain relation types, with the\nreasoning pathway used in more than 80% of the prompts. However, the\nutilization is highly contextual, varying across different types of prompts.\nAlso, on average, the evidence for the second hop and the full multi-hop\ntraversal is rather moderate and only substantial for the first hop. Moreover,\nwe find a clear scaling trend with increasing model size for the first hop of\nreasoning but not for the second hop. Our experimental findings suggest\npotential challenges and opportunities for future development and applications\nof LLMs.",
+        "timestamp": "2025-10-15T08:48:31.843Z",
+        "rating": "novote",
+        "publishedDate": "2024-02-26T18:57:54Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 245,
+        "object_id": "paper:arxiv.2402.16837",
+        "created_at": "2025-10-15T08:48:32+00:00",
+        "updated_at": "2025-10-15T18:47:55+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2508.17416": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2508.17416",
+        "url": "https://arxiv.org/pdf/2508.17416",
+        "title": "Data Leakage in Visual Datasets",
+        "authors": "Patrick Ramos, Ryan Ramos, Noa Garcia",
+        "abstract": "We analyze data leakage in visual datasets. Data leakage refers to images in\nevaluation benchmarks that have been seen during training, compromising fair\nmodel evaluation. Given that large-scale datasets are often sourced from the\ninternet, where many computer vision benchmarks are publicly available, our\nefforts are focused into identifying and studying this phenomenon. We\ncharacterize visual leakage into different types according to its modality,\ncoverage, and degree. By applying image retrieval techniques, we unequivocally\nshow that all the analyzed datasets present some form of leakage, and that all\ntypes of leakage, from severe instances to more subtle cases, compromise the\nreliability of model evaluation in downstream tasks.",
+        "timestamp": "2025-10-15T08:30:30.611Z",
+        "rating": "thumbsup",
+        "publishedDate": "2025-08-24T15:42:58Z",
+        "tags": [
+          "cs.CV"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 237,
+        "object_id": "paper:arxiv.2508.17416",
+        "created_at": "2025-10-15T08:30:31+00:00",
+        "updated_at": "2025-10-15T18:48:39+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2510.03721": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.03721",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-15T08:28:08.328Z",
+            "data": {
+              "session_id": "session_1760516888227_vi7rxqn",
+              "source_id": "arxiv",
+              "paper_id": "2510.03721",
+              "start_time": "2025-10-15T08:28:03.087Z",
+              "end_time": "2025-10-15T08:28:08.226Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 5
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 236,
+        "object_id": "interactions:arxiv.2510.03721",
+        "created_at": "2025-10-15T08:27:50+00:00",
+        "updated_at": "2025-10-15T18:48:45+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.03721": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.03721",
+        "url": "https://arxiv.org/pdf/2510.03721",
+        "title": "Person-Centric Annotations of LAION-400M: Auditing Bias and Its Transfer\n  to Models",
+        "authors": "Leander Girrbach, Stephan Alaniz, Genevieve Smith, Trevor Darrell, Zeynep Akata",
+        "abstract": "Vision-language models trained on large-scale multimodal datasets show strong\ndemographic biases, but the role of training data in producing these biases\nremains unclear. A major barrier has been the lack of demographic annotations\nin web-scale datasets such as LAION-400M. We address this gap by creating\nperson-centric annotations for the full dataset, including over 276 million\nbounding boxes, perceived gender and race/ethnicity labels, and automatically\ngenerated captions. These annotations are produced through validated automatic\nlabeling pipelines combining object detection, multimodal captioning, and\nfinetuned classifiers. Using them, we uncover demographic imbalances and\nharmful associations, such as the disproportionate linking of men and\nindividuals perceived as Black or Middle Eastern with crime-related and\nnegative content. We also show that 60-70% of gender bias in CLIP and Stable\nDiffusion can be linearly explained by direct co-occurrences in the data. Our\nresources establish the first large-scale empirical link between dataset\ncomposition and downstream model bias.",
+        "timestamp": "2025-10-15T06:56:17.746Z",
+        "rating": "novote",
+        "publishedDate": "2025-10-04T07:51:59Z",
+        "tags": [
+          "cs.CV",
+          "cs.CL",
+          "cs.CY",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 217,
+        "object_id": "paper:arxiv.2510.03721",
+        "created_at": "2025-10-15T06:56:18+00:00",
+        "updated_at": "2025-10-15T18:50:22+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2503.17514": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.17514",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 216,
+        "object_id": "interactions:arxiv.2503.17514",
+        "created_at": "2025-07-09T23:49:53+00:00",
+        "updated_at": "2025-07-09T23:49:55+00:00",
         "version": 1
       }
     }

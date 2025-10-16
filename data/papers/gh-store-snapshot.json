@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-16T13:11:18.600166+00:00",
+  "snapshot_time": "2025-10-16T13:28:57.432414+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -7588,6 +7588,34 @@
         "object_id": "paper:arxiv.2503.13431",
         "created_at": "2025-10-16T13:10:14+00:00",
         "updated_at": "2025-10-16T13:10:43+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2508.08855": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2508.08855",
+        "url": "https://arxiv.org/abs/2508.08855",
+        "title": "BiasGym: Fantastic LLM Biases and How to Find (and Remove) Them",
+        "authors": "Sekh Mainul Islam, Nadav Borenstein, Siddhesh Milind Pawar, Haeun Yu, Arnav Arora, Isabelle Augenstein",
+        "abstract": "Understanding biases and stereotypes encoded in the weights of Large Language Models (LLMs) is crucial for developing effective mitigation strategies. Biased behaviour is often subtle and non-trivial to isolate, even when deliberately elicited, making systematic analysis and debiasing particularly challenging. To address this, we introduce BiasGym, a simple, cost-effective, and generalizable framework for reliably injecting, analyzing, and mitigating conceptual associations within LLMs. BiasGym consists of two components: BiasInject, which injects specific biases into the model via token-based fine-tuning while keeping the model frozen, and BiasScope, which leverages these injected signals to identify and steer the components responsible for biased behavior. Our method enables consistent bias elicitation for mechanistic analysis, supports targeted debiasing without degrading performance on downstream tasks, and generalizes to biases unseen during token-based fine-tuning. We demonstrate the effectiveness of BiasGym in reducing real-world stereotypes (e.g., people from Italy being `reckless drivers') and in probing fictional associations (e.g., people from a fictional country having `blue skin'), showing its utility for both safety interventions and interpretability research.",
+        "timestamp": "2025-10-16T13:28:02.524Z",
+        "rating": "novote",
+        "publishedDate": "2025/08/12",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 321,
+        "object_id": "paper:arxiv.2508.08855",
+        "created_at": "2025-10-16T13:28:03+00:00",
+        "updated_at": "2025-10-16T13:28:27+00:00",
         "version": 1
       }
     }

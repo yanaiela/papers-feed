@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-17T07:12:57.723230+00:00",
+  "snapshot_time": "2025-10-17T07:58:34.941981+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -8531,6 +8531,63 @@
         "object_id": "paper:arxiv.2506.20481",
         "created_at": "2025-10-17T07:11:31+00:00",
         "updated_at": "2025-10-17T07:11:59+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2506.05209": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.05209",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-17T07:57:37.025Z",
+            "data": {
+              "session_id": "session_1760687856457_qwhxwod",
+              "source_id": "arxiv",
+              "paper_id": "2506.05209",
+              "start_time": "2025-10-17T07:57:08.441Z",
+              "end_time": "2025-10-17T07:57:36.457Z",
+              "heartbeat_count": 5,
+              "duration_seconds": 25,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 28
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 354,
+        "object_id": "interactions:arxiv.2506.05209",
+        "created_at": "2025-10-17T07:57:37+00:00",
+        "updated_at": "2025-10-17T07:58:02+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.05209": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.05209",
+        "url": "https://arxiv.org/pdf/2506.05209?",
+        "title": "The Common Pile v0.1: An 8TB Dataset of Public Domain and Openly\n  Licensed Text",
+        "authors": "Nikhil Kandpal, Brian Lester, Colin Raffel, Sebastian Majstorovic, Stella Biderman, Baber Abbasi, Luca Soldaini, Enrico Shippole, A. Feder Cooper, Aviya Skowron, John Kirchenbauer, Shayne Longpre, Lintang Sutawika, Alon Albalak, Zhenlin Xu, Guilherme Penedo, Loubna Ben Allal, Elie Bakouch, John David Pressman, Honglu Fan, Dashiell Stander, Guangyu Song, Aaron Gokaslan, Tom Goldstein, Brian R. Bartoldson, Bhavya Kailkhura, Tyler Murray",
+        "abstract": "Large language models (LLMs) are typically trained on enormous quantities of\nunlicensed text, a practice that has led to scrutiny due to possible\nintellectual property infringement and ethical concerns. Training LLMs on\nopenly licensed text presents a first step towards addressing these issues, but\nprior data collection efforts have yielded datasets too small or low-quality to\nproduce performant LLMs. To address this gap, we collect, curate, and release\nthe Common Pile v0.1, an eight terabyte collection of openly licensed text\ndesigned for LLM pretraining. The Common Pile comprises content from 30 sources\nthat span diverse domains including research papers, code, books,\nencyclopedias, educational materials, audio transcripts, and more. Crucially,\nwe validate our efforts by training two 7 billion parameter LLMs on text from\nthe Common Pile: Comma v0.1-1T and Comma v0.1-2T, trained on 1 and 2 trillion\ntokens respectively. Both models attain competitive performance to LLMs trained\non unlicensed text with similar computational budgets, such as Llama 1 and 2\n7B. In addition to releasing the Common Pile v0.1 itself, we also release the\ncode used in its creation as well as the training mixture and checkpoints for\nthe Comma v0.1 models.",
+        "timestamp": "2025-10-17T07:57:08.752Z",
+        "rating": "novote",
+        "publishedDate": "2025-06-05T16:21:30Z",
+        "tags": [
+          "cs.CL",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 353,
+        "object_id": "paper:arxiv.2506.05209",
+        "created_at": "2025-10-17T07:57:09+00:00",
+        "updated_at": "2025-10-17T07:57:44+00:00",
         "version": 1
       }
     }

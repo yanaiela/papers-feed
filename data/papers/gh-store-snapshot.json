@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-17T06:37:55.207109+00:00",
+  "snapshot_time": "2025-10-17T06:38:48.967881+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -7898,6 +7898,33 @@
         "object_id": "paper:arxiv.2501.08156",
         "created_at": "2025-10-17T06:36:18+00:00",
         "updated_at": "2025-10-17T06:36:42+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2305.04388": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2305.04388",
+        "url": "https://arxiv.org/abs/2305.04388",
+        "title": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
+        "authors": "Miles Turpin, Julian Michael, Ethan Perez, Samuel R. Bowman",
+        "abstract": "Large Language Models (LLMs) can achieve strong performance on many tasks by producing step-by-step reasoning before giving a final output, often referred to as chain-of-thought reasoning (CoT). It is tempting to interpret these CoT explanations as the LLM's process for solving a task. This level of transparency into LLMs' predictions would yield significant safety benefits. However, we find that CoT explanations can systematically misrepresent the true reason for a model's prediction. We demonstrate that CoT explanations can be heavily influenced by adding biasing features to model inputs--e.g., by reordering the multiple-choice options in a few-shot prompt to make the answer always \"(A)\"--which models systematically fail to mention in their explanations. When we bias models toward incorrect answers, they frequently generate CoT explanations rationalizing those answers. This causes accuracy to drop by as much as 36% on a suite of 13 tasks from BIG-Bench Hard, when testing with GPT-3.5 from OpenAI and Claude 1.0 from Anthropic. On a social-bias task, model explanations justify giving answers in line with stereotypes without mentioning the influence of these social biases. Our findings indicate that CoT explanations can be plausible yet misleading, which risks increasing our trust in LLMs without guaranteeing their safety. Building more transparent and explainable systems will require either improving CoT faithfulness through targeted efforts or abandoning CoT in favor of alternative methods.",
+        "timestamp": "2025-10-17T06:37:51.447Z",
+        "rating": "novote",
+        "publishedDate": "2023/05/07",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 330,
+        "object_id": "paper:arxiv.2305.04388",
+        "created_at": "2025-10-17T06:37:51+00:00",
+        "updated_at": "2025-10-17T06:38:14+00:00",
         "version": 1
       }
     }

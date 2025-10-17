@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-17T17:30:54.185220+00:00",
+  "snapshot_time": "2025-10-17T19:31:01.075841+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -9150,6 +9150,33 @@
         "object_id": "interactions:arxiv.2411.08019",
         "created_at": "2025-10-17T17:23:52+00:00",
         "updated_at": "2025-10-17T17:26:19+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.14086": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.14086",
+        "url": "https://arxiv.org/abs/2510.14086",
+        "title": "Every Language Model Has a Forgery-Resistant Signature",
+        "authors": "Matthew Finlayson, Xiang Ren, Swabha Swayamdipta",
+        "abstract": "The ubiquity of closed-weight language models with public-facing APIs has generated interest in forensic methods, both for extracting hidden model details (e.g., parameters) and for identifying models by their outputs. One successful approach to these goals has been to exploit the geometric constraints imposed by the language model architecture and parameters. In this work, we show that a lesser-known geometric constraint--namely, that language model outputs lie on the surface of a high-dimensional ellipse--functions as a signature for the model and can be used to identify the source model of a given output. This ellipse signature has unique properties that distinguish it from existing model-output association methods like language model fingerprints. In particular, the signature is hard to forge: without direct access to model parameters, it is practically infeasible to produce log-probabilities (logprobs) on the ellipse. Secondly, the signature is naturally occurring, since all language models have these elliptical constraints. Thirdly, the signature is self-contained, in that it is detectable without access to the model inputs or the full weights. Finally, the signature is compact and redundant, as it is independently detectable in each logprob output from the model. We evaluate a novel technique for extracting the ellipse from small models and discuss the practical hurdles that make it infeasible for production-scale models. Finally, we use ellipse signatures to propose a protocol for language model output verification, analogous to cryptographic symmetric-key message authentication systems.",
+        "timestamp": "2025-10-17T19:29:51.130Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/15",
+        "tags": [
+          "Cryptography and Security (cs.CR)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 369,
+        "object_id": "paper:arxiv.2510.14086",
+        "created_at": "2025-10-17T19:29:51+00:00",
+        "updated_at": "2025-10-17T19:30:20+00:00",
         "version": 1
       }
     }

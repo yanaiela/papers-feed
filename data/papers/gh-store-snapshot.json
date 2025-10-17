@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-17T06:39:26.057143+00:00",
+  "snapshot_time": "2025-10-17T07:12:57.723230+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -7940,6 +7940,597 @@
         "object_id": "paper:arxiv.2305.04388",
         "created_at": "2025-10-17T06:37:51+00:00",
         "updated_at": "2025-10-17T06:38:14+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2509.02534": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.02534",
+        "url": "https://arxiv.org/abs/2509.02534",
+        "title": "Jointly Reinforcing Diversity and Quality in Language Model Generations",
+        "authors": "Tianjian Li, Yiming Zhang, Ping Yu, Swarnadeep Saha, Daniel Khashabi, Jason Weston, Jack Lanchantin, Tianlu Wang",
+        "abstract": "Post-training of Large Language Models (LMs) often prioritizes accuracy and helpfulness at the expense of diversity. This creates a tension: while post-training improves response quality, it also sharpens output distributions and reduces the range of ideas, limiting the usefulness of LMs in creative and exploratory tasks such as brainstorming, storytelling, or problem solving. We address this challenge with Diversity-Aware Reinforcement Learning (DARLING), a framework that jointly optimizes for response quality and semantic diversity. At its core, DARLING introduces a learned partition function to measure diversity beyond surface-level lexical variations. This diversity signal is then combined with a quality reward during online reinforcement learning, encouraging models to generate outputs that are both high-quality and distinct. Experiments across multiple model families and sizes show that DARLING generalizes to two regimes: non-verifiable tasks (instruction following and creative writing) and verifiable tasks (competition math). On five benchmarks in the first setting, DARLING consistently outperforms quality-only RL baselines, producing outputs that are simultaneously of higher quality and novelty. In the second setting, DARLING achieves higher pass@1 (solution quality) and pass@k (solution variety). Most strikingly, explicitly optimizing for diversity catalyzes exploration in online RL, which manifests itself as higher-quality responses.",
+        "timestamp": "2025-10-17T07:11:41.694Z",
+        "rating": "novote",
+        "publishedDate": "2025/09/02",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 352,
+        "object_id": "paper:arxiv.2509.02534",
+        "created_at": "2025-10-17T07:11:42+00:00",
+        "updated_at": "2025-10-17T07:12:18+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2504.05228": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.05228",
+        "url": "https://arxiv.org/abs/2504.05228",
+        "title": "NoveltyBench: Evaluating Language Models for Humanlike Diversity",
+        "authors": "Yiming Zhang, Harshita Diddee, Susan Holm, Hanchen Liu, Xinyue Liu, Vinay Samuel, Barry Wang, Daphne Ippolito",
+        "abstract": "Language models have demonstrated remarkable capabilities on standard benchmarks, yet they struggle increasingly from mode collapse, the inability to generate diverse and novel outputs. Our work introduces NoveltyBench, a benchmark specifically designed to evaluate the ability of language models to produce multiple distinct and high-quality outputs. NoveltyBench utilizes prompts curated to elicit diverse answers and filtered real-world user queries. Evaluating 20 leading language models, we find that current state-of-the-art systems generate significantly less diversity than human writers. Notably, larger models within a family often exhibit less diversity than their smaller counterparts, challenging the notion that capability on standard benchmarks translates directly to generative utility. While prompting strategies like in-context regeneration can elicit diversity, our findings highlight a fundamental lack of distributional diversity in current models, reducing their utility for users seeking varied responses and suggesting the need for new training and evaluation paradigms that prioritize diversity alongside quality.",
+        "timestamp": "2025-10-17T07:11:41.257Z",
+        "rating": "novote",
+        "publishedDate": "2025/04/07",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 351,
+        "object_id": "paper:arxiv.2504.05228",
+        "created_at": "2025-10-17T07:11:41+00:00",
+        "updated_at": "2025-10-17T07:12:19+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2507.06268": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2507.06268",
+        "url": "https://www.arxiv.org/abs/2507.06268",
+        "title": "A Collectivist, Economic Perspective on AI",
+        "authors": "Michael I. Jordan",
+        "abstract": "Information technology is in the midst of a revolution in which omnipresent data collection and machine learning are impacting the human world as never before. The word \"intelligence\" is being used as a North Star for the development of this technology, with human cognition viewed as a baseline. This view neglects the fact that humans are social animals, and that much of our intelligence is social and cultural in origin. A related issue is that the current view treats the social consequences of technology as an afterthought. The path forward is not merely more data and compute, and not merely more attention paid to cognitive or symbolic representations, but a thorough blending of economic and social concepts with computational and inferential concepts, in the service of system-level designs in which social welfare is a first-class citizen, and with the aspiration that a new human-centric engineering field will emerge.",
+        "timestamp": "2025-10-17T07:11:39.361Z",
+        "rating": "novote",
+        "publishedDate": "2025/07/08",
+        "tags": [
+          "Computers and Society (cs.CY)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 350,
+        "object_id": "paper:arxiv.2507.06268",
+        "created_at": "2025-10-17T07:11:40+00:00",
+        "updated_at": "2025-10-17T07:12:04+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2408.08184": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2408.08184",
+        "url": "https://arxiv.org/pdf/2408.08184",
+        "title": "Not Every Image is Worth a Thousand Words: Quantifying Originality in\n  Stable Diffusion",
+        "authors": "Adi Haviv, Shahar Sarfaty, Uri Hacohen, Niva Elkin-Koren, Roi Livni, Amit H Bermano",
+        "abstract": "This work addresses the challenge of quantifying originality in text-to-image\n(T2I) generative diffusion models, with a focus on copyright originality. We\nbegin by evaluating T2I models' ability to innovate and generalize through\ncontrolled experiments, revealing that stable diffusion models can effectively\nrecreate unseen elements with sufficiently diverse training data. Then, our key\ninsight is that concepts and combinations of image elements the model is\nfamiliar with, and saw more during training, are more concisly represented in\nthe model's latent space. We hence propose a method that leverages textual\ninversion to measure the originality of an image based on the number of tokens\nrequired for its reconstruction by the model. Our approach is inspired by legal\ndefinitions of originality and aims to assess whether a model can produce\noriginal content without relying on specific prompts or having the training\ndata of the model. We demonstrate our method using both a pre-trained stable\ndiffusion model and a synthetic dataset, showing a correlation between the\nnumber of tokens and image originality. This work contributes to the\nunderstanding of originality in generative models and has implications for\ncopyright infringement cases.",
+        "timestamp": "2025-10-17T07:11:37.519Z",
+        "rating": "novote",
+        "publishedDate": "2024-08-15T14:42:02Z",
+        "tags": [
+          "cs.CV",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 349,
+        "object_id": "paper:arxiv.2408.08184",
+        "created_at": "2025-10-17T07:11:39+00:00",
+        "updated_at": "2025-10-17T07:12:19+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2310.00902": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.00902",
+        "url": "https://arxiv.org/pdf/2310.00902v2",
+        "title": "DataInf: Efficiently Estimating Data Influence in LoRA-tuned LLMs and\n  Diffusion Models",
+        "authors": "Yongchan Kwon, Eric Wu, Kevin Wu, James Zou",
+        "abstract": "Quantifying the impact of training data points is crucial for understanding\nthe outputs of machine learning models and for improving the transparency of\nthe AI pipeline. The influence function is a principled and popular data\nattribution method, but its computational cost often makes it challenging to\nuse. This issue becomes more pronounced in the setting of large language models\nand text-to-image models. In this work, we propose DataInf, an efficient\ninfluence approximation method that is practical for large-scale generative AI\nmodels. Leveraging an easy-to-compute closed-form expression, DataInf\noutperforms existing influence computation algorithms in terms of computational\nand memory efficiency. Our theoretical analysis shows that DataInf is\nparticularly well-suited for parameter-efficient fine-tuning techniques such as\nLoRA. Through systematic empirical evaluations, we show that DataInf accurately\napproximates influence scores and is orders of magnitude faster than existing\nmethods. In applications to RoBERTa-large, Llama-2-13B-chat, and\nstable-diffusion-v1.5 models, DataInf effectively identifies the most\ninfluential fine-tuning examples better than other approximate influence\nscores. Moreover, it can help to identify which data points are mislabeled.",
+        "timestamp": "2025-10-17T07:11:37.446Z",
+        "rating": "novote",
+        "publishedDate": "2023-10-02T04:59:19Z",
+        "tags": [
+          "cs.LG",
+          "stat.ML"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 348,
+        "object_id": "paper:arxiv.2310.00902",
+        "created_at": "2025-10-17T07:11:39+00:00",
+        "updated_at": "2025-10-17T07:12:23+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2406.10209": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2406.10209",
+        "url": "https://arxiv.org/abs/2406.10209",
+        "title": "Be like a Goldfish, Don't Memorize! Mitigating Memorization in Generative LLMs",
+        "authors": "Abhimanyu Hans, Yuxin Wen, Neel Jain, John Kirchenbauer, Hamid Kazemi, Prajwal Singhania, Siddharth Singh, Gowthami Somepalli, Jonas Geiping, Abhinav Bhatele, Tom Goldstein",
+        "abstract": "Large language models can memorize and repeat their training data, causing privacy and copyright risks. To mitigate memorization, we introduce a subtle modification to the next-token training objective that we call the goldfish loss. During training, randomly sampled subsets of tokens are excluded from the loss computation. These dropped tokens are not memorized by the model, which prevents verbatim reproduction of a complete chain of tokens from the training set. We run extensive experiments training billion-scale Llama-2 models, both pre-trained and trained from scratch, and demonstrate significant reductions in extractable memorization with little to no impact on downstream benchmarks.",
+        "timestamp": "2025-10-17T07:11:35.135Z",
+        "rating": "novote",
+        "publishedDate": "2024/06/14",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 347,
+        "object_id": "paper:arxiv.2406.10209",
+        "created_at": "2025-10-17T07:11:35+00:00",
+        "updated_at": "2025-10-17T07:12:06+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2412.05265": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2412.05265",
+        "url": "https://arxiv.org/abs/2412.05265",
+        "title": "Reinforcement Learning: An Overview",
+        "authors": "Kevin Murphy",
+        "abstract": "This manuscript gives a big-picture, up-to-date overview of the field of (deep) reinforcement learning and sequential decision making, covering value-based methods, policy-based methods, model-based methods, multi-agent RL, LLMs and RL, and various other topics (e.g., offline RL, hierarchical RL, intrinsic reward).",
+        "timestamp": "2025-10-17T07:11:35.136Z",
+        "rating": "novote",
+        "publishedDate": "2024/12/06",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 346,
+        "object_id": "paper:arxiv.2412.05265",
+        "created_at": "2025-10-17T07:11:35+00:00",
+        "updated_at": "2025-10-17T07:12:04+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2509.08825": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.08825",
+        "url": "https://arxiv.org/pdf/2509.08825",
+        "title": "Large Language Model Hacking: Quantifying the Hidden Risks of Using LLMs\n  for Text Annotation",
+        "authors": "Joachim Baumann, Paul R\u00f6ttger, Aleksandra Urman, Albert Wendsj\u00f6, Flor Miriam Plaza-del-Arco, Johannes B. Gruber, Dirk Hovy",
+        "abstract": "Large language models are rapidly transforming social science research by\nenabling the automation of labor-intensive tasks like data annotation and text\nanalysis. However, LLM outputs vary significantly depending on the\nimplementation choices made by researchers (e.g., model selection or prompting\nstrategy). Such variation can introduce systematic biases and random errors,\nwhich propagate to downstream analyses and cause Type I (false positive), Type\nII (false negative), Type S (wrong sign), or Type M (exaggerated effect)\nerrors. We call this phenomenon where configuration choices lead to incorrect\nconclusions LLM hacking.\n  We find that intentional LLM hacking is strikingly simple. By replicating 37\ndata annotation tasks from 21 published social science studies, we show that,\nwith just a handful of prompt paraphrases, virtually anything can be presented\nas statistically significant.\n  Beyond intentional manipulation, our analysis of 13 million labels from 18\ndifferent LLMs across 2361 realistic hypotheses shows that there is also a high\nrisk of accidental LLM hacking, even when following standard research\npractices. We find incorrect conclusions in approximately 31% of hypotheses for\nstate-of-the-art LLMs, and in half the hypotheses for smaller language models.\nWhile higher task performance and stronger general model capabilities reduce\nLLM hacking risk, even highly accurate models remain susceptible. The risk of\nLLM hacking decreases as effect sizes increase, indicating the need for more\nrigorous verification of LLM-based findings near significance thresholds. We\nanalyze 21 mitigation techniques and find that human annotations provide\ncrucial protection against false positives. Common regression estimator\ncorrection techniques can restore valid inference but trade off Type I vs. Type\nII errors.\n  We publish a list of practical recommendations to prevent LLM hacking.",
+        "timestamp": "2025-10-17T07:11:35.122Z",
+        "rating": "novote",
+        "publishedDate": "2025-09-10T17:58:53Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 345,
+        "object_id": "paper:arxiv.2509.08825",
+        "created_at": "2025-10-17T07:11:35+00:00",
+        "updated_at": "2025-10-17T07:11:59+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.03231": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.03231",
+        "url": "https://arxiv.org/abs/2510.03231",
+        "title": "Reward Models are Metrics in a Trench Coat",
+        "authors": "Sebastian Gehrmann",
+        "abstract": "The emergence of reinforcement learning in post-training of large language models has sparked significant interest in reward models. Reward models assess the quality of sampled model outputs to generate training signals. This task is also performed by evaluation metrics that monitor the performance of an AI model. We find that the two research areas are mostly separate, leading to redundant terminology and repeated pitfalls. Common challenges include susceptibility to spurious correlations, impact on downstream reward hacking, methods to improve data quality, and approaches to meta-evaluation. Our position paper argues that a closer collaboration between the fields can help overcome these issues. To that end, we show how metrics outperform reward models on specific tasks and provide an extensive survey of the two areas. Grounded in this survey, we point to multiple research topics in which closer alignment can improve reward models and metrics in areas such as preference elicitation methods, avoidance of spurious correlations and reward hacking, and calibration-aware meta-evaluation.",
+        "timestamp": "2025-10-17T07:11:32.921Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/03",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 344,
+        "object_id": "paper:arxiv.2510.03231",
+        "created_at": "2025-10-17T07:11:33+00:00",
+        "updated_at": "2025-10-17T07:11:58+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.f7GG1MbsSM": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "f7GG1MbsSM",
+        "url": "https://openreview.net/forum?id=f7GG1MbsSM#discussion",
+        "title": "Inside-Out: Hidden Factual Knowledge in LLMs",
+        "authors": "Zorik Gekhman, Eyal Ben-David, Hadas Orgad, Eran Ofek, Yonatan Belinkov, Idan Szpektor, Jonathan Herzig, Roi Reichart",
+        "abstract": "This work presents a framework for assessing whether large language models (LLMs) encode more factual knowledge in their parameters than what they express in their outputs. While a few studies hint at this possibility, none has clearly defined or demonstrated this phenomenon. We first propose a formal definition of knowledge, quantifying it for a given question as the fraction of correct-incorrect answer pairs where the correct one is ranked higher. This gives rise to external and internal knowledge, depending on the information used to score individual answer candidates: either the model\u2019s observable token-level probabilities or its intermediate computations. Hidden knowledge arises when internal knowledge exceeds external knowledge. We then present a case study, applying this framework to three popular open-weights LLMs in a closed-book QA setup. Our results indicate that: (1) LLMs consistently encode more factual knowledge internally than what they express externally, with an average gap of 40%. (2) Surprisingly, some knowledge is so deeply hidden that a model can internally know an answer perfectly, yet fail to generate it even once, despite large-scale repeated sampling of 1,000 answers. This reveals fundamental limitations in the generation capabilities of LLMs, which (3) puts a practical constraint on scaling test-time compute via repeated answer sampling in closed-book QA: significant performance improvements remain inaccessible because some answers are practically never sampled, yet if they were, we would be guaranteed to rank them first.",
+        "timestamp": "2025-10-17T07:11:32.838Z",
+        "rating": "novote",
+        "publishedDate": "08 Jul 2025",
+        "tags": [
+          "LLMs",
+          "Knowledge"
+        ],
+        "doi": "",
+        "journalName": "COLM 2025",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 343,
+        "object_id": "paper:openreview.f7GG1MbsSM",
+        "created_at": "2025-10-17T07:11:33+00:00",
+        "updated_at": "2025-10-17T07:12:02+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.06278": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.06278",
+        "url": "https://arxiv.org/pdf/2506.06278",
+        "title": "Distillation Robustifies Unlearning",
+        "authors": "Bruce W. Lee, Addie Foote, Alex Infanger, Leni Shor, Harish Kamath, Jacob Goldman-Wetzler, Bryce Woodworth, Alex Cloud, Alexander Matt Turner",
+        "abstract": "Current LLM unlearning methods are not robust: they can be reverted easily\nwith a few steps of finetuning. This is true even for the idealized unlearning\nmethod of training to imitate an oracle model that was never exposed to\nunwanted information, suggesting that output-based finetuning is insufficient\nto achieve robust unlearning. In a similar vein, we find that training a\nrandomly initialized student to imitate an unlearned model transfers desired\nbehaviors while leaving undesired capabilities behind. In other words,\ndistillation robustifies unlearning. Building on this insight, we propose\nUnlearn-Noise-Distill-on-Outputs (UNDO), a scalable method that distills an\nunlearned model into a partially noised copy of itself. UNDO introduces a\ntunable tradeoff between compute cost and robustness, establishing a new Pareto\nfrontier on synthetic language and arithmetic tasks. At its strongest setting,\nUNDO matches the robustness of a model retrained from scratch with perfect data\nfiltering while using only 60-80% of the compute and requiring only 0.01% of\nthe pretraining data to be labeled. We also show that UNDO robustifies\nunlearning on the more realistic Weapons of Mass Destruction Proxy (WMDP)\nbenchmark. Since distillation is widely used in practice, incorporating an\nunlearning step beforehand offers a convenient path to robust capability\nremoval.",
+        "timestamp": "2025-10-17T07:11:32.796Z",
+        "rating": "novote",
+        "publishedDate": "2025-06-06T17:58:54Z",
+        "tags": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 342,
+        "object_id": "paper:arxiv.2506.06278",
+        "created_at": "2025-10-17T07:11:33+00:00",
+        "updated_at": "2025-10-17T07:11:57+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2508.17099": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2508.17099",
+        "url": "https://arxiv.org/pdf/2508.17099",
+        "title": "Challenges in Statistics: A Dozen Challenges in Causality and Causal\n  Inference",
+        "authors": "Carlos Cinelli, Avi Feller, Guido Imbens, Edward Kennedy, Sara Magliacane, Jose Zubizarreta",
+        "abstract": "Causality and causal inference have emerged as core research areas at the\ninterface of modern statistics and domains including biomedical sciences,\nsocial sciences, computer science, and beyond. The field's inherently\ninterdisciplinary nature -- particularly the central role of incorporating\ndomain knowledge -- creates a rich and varied set of statistical challenges.\nMuch progress has been made, especially in the last three decades, but there\nremain many open questions. Our goal in this discussion is to outline research\ndirections and open problems we view as particularly promising for future work.\nThroughout we emphasize that advancing causal research requires a wide range of\ncontributions, from novel theory and methodological innovations to improved\nsoftware tools and closer engagement with domain scientists and practitioners.",
+        "timestamp": "2025-10-17T07:11:32.623Z",
+        "rating": "novote",
+        "publishedDate": "2025-08-23T18:00:49Z",
+        "tags": [
+          "stat.ME"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 341,
+        "object_id": "paper:arxiv.2508.17099",
+        "created_at": "2025-10-17T07:11:33+00:00",
+        "updated_at": "2025-10-17T07:12:01+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2508.21038": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2508.21038",
+        "url": "https://arxiv.org/pdf/2508.21038",
+        "title": "On the Theoretical Limitations of Embedding-Based Retrieval",
+        "authors": "Orion Weller, Michael Boratko, Iftekhar Naim, Jinhyuk Lee",
+        "abstract": "Vector embeddings have been tasked with an ever-increasing set of retrieval\ntasks over the years, with a nascent rise in using them for reasoning,\ninstruction-following, coding, and more. These new benchmarks push embeddings\nto work for any query and any notion of relevance that could be given. While\nprior works have pointed out theoretical limitations of vector embeddings,\nthere is a common assumption that these difficulties are exclusively due to\nunrealistic queries, and those that are not can be overcome with better\ntraining data and larger models. In this work, we demonstrate that we may\nencounter these theoretical limitations in realistic settings with extremely\nsimple queries. We connect known results in learning theory, showing that the\nnumber of top-k subsets of documents capable of being returned as the result of\nsome query is limited by the dimension of the embedding. We empirically show\nthat this holds true even if we restrict to k=2, and directly optimize on the\ntest set with free parameterized embeddings. We then create a realistic dataset\ncalled LIMIT that stress tests models based on these theoretical results, and\nobserve that even state-of-the-art models fail on this dataset despite the\nsimple nature of the task. Our work shows the limits of embedding models under\nthe existing single vector paradigm and calls for future research to develop\nmethods that can resolve this fundamental limitation.",
+        "timestamp": "2025-10-17T07:11:32.294Z",
+        "rating": "novote",
+        "publishedDate": "2025-08-28T17:43:53Z",
+        "tags": [
+          "cs.IR",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 340,
+        "object_id": "paper:arxiv.2508.21038",
+        "created_at": "2025-10-17T07:11:33+00:00",
+        "updated_at": "2025-10-17T07:12:07+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2401.12973": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2401.12973",
+        "url": "https://arxiv.org/pdf/2401.12973",
+        "title": "In-Context Language Learning: Architectures and Algorithms",
+        "authors": "Ekin Aky\u00fcrek, Bailin Wang, Yoon Kim, Jacob Andreas",
+        "abstract": "Large-scale neural language models exhibit a remarkable capacity for\nin-context learning (ICL): they can infer novel functions from datasets\nprovided as input. Most of our current understanding of when and how ICL arises\ncomes from LMs trained on extremely simple learning problems like linear\nregression and associative recall. There remains a significant gap between\nthese model problems and the \"real\" ICL exhibited by LMs trained on large text\ncorpora, which involves not just retrieval and function approximation but\nfree-form generation of language and other structured outputs. In this paper,\nwe study ICL through the lens of a new family of model problems we term in\ncontext language learning (ICLL). In ICLL, LMs are presented with a set of\nstrings from a formal language, and must generate additional strings from the\nsame language. We focus on in-context learning of regular languages generated\nby random finite automata. We evaluate a diverse set of neural sequence models\n(including several RNNs, Transformers, and state-space model variants) on\nregular ICLL tasks, aiming to answer three questions: (1) Which model classes\nare empirically capable of ICLL? (2) What algorithmic solutions do successful\nmodels implement to perform ICLL? (3) What architectural changes can improve\nICLL in less performant models? We first show that Transformers significantly\noutperform neural sequence models with recurrent or convolutional\nrepresentations on ICLL tasks. Next, we provide evidence that their ability to\ndo so relies on specialized \"n-gram heads\" (higher-order variants of induction\nheads) that compute input-conditional next-token distributions. Finally, we\nshow that hard-wiring these heads into neural models improves performance not\njust on ICLL, but natural language modeling -- improving the perplexity of\n340M-parameter models by up to 1.14 points (6.7%) on the SlimPajama dataset.",
+        "timestamp": "2025-10-17T07:11:31.857Z",
+        "rating": "novote",
+        "publishedDate": "2024-01-23T18:59:21Z",
+        "tags": [
+          "cs.CL",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 339,
+        "object_id": "paper:arxiv.2401.12973",
+        "created_at": "2025-10-17T07:11:32+00:00",
+        "updated_at": "2025-10-17T07:12:02+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.0804.2996": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "0804.2996",
+        "url": "https://arxiv.org/pdf/0804.2996",
+        "title": "The Epic Story of Maximum Likelihood",
+        "authors": "Stephen M. Stigler",
+        "abstract": "At a superficial level, the idea of maximum likelihood must be prehistoric:\nearly hunters and gatherers may not have used the words ``method of maximum\nlikelihood'' to describe their choice of where and how to hunt and gather, but\nit is hard to believe they would have been surprised if their method had been\ndescribed in those terms. It seems a simple, even unassailable idea: Who would\nrise to argue in favor of a method of minimum likelihood, or even mediocre\nlikelihood? And yet the mathematical history of the topic shows this ``simple\nidea'' is really anything but simple. Joseph Louis Lagrange, Daniel Bernoulli,\nLeonard Euler, Pierre Simon Laplace and Carl Friedrich Gauss are only some of\nthose who explored the topic, not always in ways we would sanction today. In\nthis article, that history is reviewed from back well before Fisher to the time\nof Lucien Le Cam's dissertation. In the process Fisher's unpublished 1930\ncharacterization of conditions for the consistency and efficiency of maximum\nlikelihood estimates is presented, and the mathematical basis of his three\nproofs discussed. In particular, Fisher's derivation of the information\ninequality is seen to be derived from his work on the analysis of variance, and\nhis later approach via estimating functions was derived from Euler's Relation\nfor homogeneous functions. The reaction to Fisher's work is reviewed, and some\nlessons drawn.",
+        "timestamp": "2025-10-17T07:11:31.857Z",
+        "rating": "novote",
+        "publishedDate": "2008-04-18T11:11:13Z",
+        "tags": [
+          "stat.ME"
+        ],
+        "doi": "10.1214/07-STS249",
+        "journalName": "Statistical Science 2007, Vol. 22, No. 4, 598-620",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 338,
+        "object_id": "paper:arxiv.0804.2996",
+        "created_at": "2025-10-17T07:11:32+00:00",
+        "updated_at": "2025-10-17T07:11:58+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2509.04259": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.04259",
+        "url": "https://arxiv.org/pdf/2509.04259",
+        "title": "RL's Razor: Why Online Reinforcement Learning Forgets Less",
+        "authors": "Idan Shenfeld, Jyothish Pari, Pulkit Agrawal",
+        "abstract": "Comparison of fine-tuning models with reinforcement learning (RL) and\nsupervised fine-tuning (SFT) reveals that, despite similar performance at a new\ntask, RL preserves prior knowledge and capabilities significantly better. We\nfind that the degree of forgetting is determined by the distributional shift,\nmeasured as the KL-divergence between the fine-tuned and base policy evaluated\non the new task. Our analysis reveals that on-policy RL is implicitly biased\ntowards KL-minimal solutions among the many that solve the new task, whereas\nSFT can converge to distributions arbitrarily far from the base model. We\nvalidate these findings through experiments with large language models and\nrobotic foundation models and further provide theoretical justification for why\non-policy RL updates lead to a smaller KL change. We term this principle\n$\\textit{RL's Razor}$: among all ways to solve a new task, RL prefers those\nclosest in KL to the original model.",
+        "timestamp": "2025-10-17T07:11:31.672Z",
+        "rating": "novote",
+        "publishedDate": "2025-09-04T14:38:08Z",
+        "tags": [
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 337,
+        "object_id": "paper:arxiv.2509.04259",
+        "created_at": "2025-10-17T07:11:32+00:00",
+        "updated_at": "2025-10-17T07:12:09+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.AFMGbq39bQ": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "AFMGbq39bQ",
+        "url": "https://openreview.net/pdf?id=AFMGbq39bQ",
+        "title": "AFMGbq39bQ",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-10-17T07:11:31.355Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "pdf"
+      },
+      "meta": {
+        "issue_number": 336,
+        "object_id": "paper:openreview.AFMGbq39bQ",
+        "created_at": "2025-10-17T07:11:31+00:00",
+        "updated_at": "2025-10-17T07:12:00+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.06485": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.06485",
+        "url": "https://arxiv.org/pdf/2506.06485",
+        "title": "Task Matters: Knowledge Requirements Shape LLM Responses to\n  Context-Memory Conflict",
+        "authors": "Kaiser Sun, Fan Bai, Mark Dredze",
+        "abstract": "Large Language Models require both contextual knowledge and parametric\nmemory, but these sources can disagree. Prior investigations on contextual\nquestion answering tasks report a preference toward parametric knowledge under\nconflict, yet they focus almost exclusively on tasks that should always rely on\nthe given passage, leaving open how this behavior manifests when tasks demand\ndifferent amounts and kinds of knowledge. We study this question with a\nmodel-agnostic diagnostic framework that (i) automatically detects\ndisagreements between a model's beliefs and a curated knowledge set, and (ii)\ninjects controlled conflicts into tasks. The resulting datasets span two\northogonal dimensions: task knowledge reliance and conflict plausibility.\nEvaluating representative open-source LLMs, we find that: (1) performance\ndegradation from conflict correlates with a task's knowledge reliance; (2)\nexplanatory rationales and simple reiteration both increase context\nreliance-helpful for context-only tasks but harmful when parametric knowledge\nshould dominate; (3) These behaviors raise concerns about the validity of\nmodel-based evaluation and underscore the need to account for knowledge\nconflict in the deployment of LLMs.",
+        "timestamp": "2025-10-17T07:11:31.310Z",
+        "rating": "novote",
+        "publishedDate": "2025-06-06T19:20:23Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 334,
+        "object_id": "paper:arxiv.2506.06485",
+        "created_at": "2025-10-17T07:11:31+00:00",
+        "updated_at": "2025-10-17T07:12:02+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2509.16189": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.16189",
+        "url": "https://arxiv.org/pdf/2509.16189",
+        "title": "Latent learning: episodic memory complements parametric learning by\n  enabling flexible reuse of experiences",
+        "authors": "Andrew Kyle Lampinen, Martin Engelcke, Yuxuan Li, Arslan Chaudhry, James L. McClelland",
+        "abstract": "When do machine learning systems fail to generalize, and what mechanisms\ncould improve their generalization? Here, we draw inspiration from cognitive\nscience to argue that one weakness of machine learning systems is their failure\nto exhibit latent learning -- learning information that is not relevant to the\ntask at hand, but that might be useful in a future task. We show how this\nperspective links failures ranging from the reversal curse in language modeling\nto new findings on agent-based navigation. We then highlight how cognitive\nscience points to episodic memory as a potential part of the solution to these\nissues. Correspondingly, we show that a system with an oracle retrieval\nmechanism can use learning experiences more flexibly to generalize better\nacross many of these challenges. We also identify some of the essential\ncomponents for effectively using retrieval, including the importance of\nwithin-example in-context learning for acquiring the ability to use information\nacross retrieved examples. In summary, our results illustrate one possible\ncontributor to the relative data inefficiency of current machine learning\nsystems compared to natural intelligence, and help to understand how retrieval\nmethods can complement parametric learning to improve generalization.",
+        "timestamp": "2025-10-17T07:11:31.366Z",
+        "rating": "novote",
+        "publishedDate": "2025-09-19T17:49:25Z",
+        "tags": [
+          "cs.LG",
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 335,
+        "object_id": "paper:arxiv.2509.16189",
+        "created_at": "2025-10-17T07:11:31+00:00",
+        "updated_at": "2025-10-17T07:12:01+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2507.01844": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2507.01844",
+        "url": "https://arxiv.org/pdf/2507.01844",
+        "title": "Low-Perplexity LLM-Generated Sequences and Where To Find Them",
+        "authors": "Arthur Wuhrmann, Anastasiia Kucherenko, Andrei Kucharavy",
+        "abstract": "As Large Language Models (LLMs) become increasingly widespread, understanding\nhow specific training data shapes their outputs is crucial for transparency,\naccountability, privacy, and fairness. To explore how LLMs leverage and\nreplicate their training data, we introduce a systematic approach centered on\nanalyzing low-perplexity sequences - high-probability text spans generated by\nthe model. Our pipeline reliably extracts such long sequences across diverse\ntopics while avoiding degeneration, then traces them back to their sources in\nthe training data. Surprisingly, we find that a substantial portion of these\nlow-perplexity spans cannot be mapped to the corpus. For those that do match,\nwe quantify the distribution of occurrences across source documents,\nhighlighting the scope and nature of verbatim recall and paving a way toward\nbetter understanding of how LLMs training data impacts their behavior.",
+        "timestamp": "2025-10-17T07:11:31.406Z",
+        "rating": "novote",
+        "publishedDate": "2025-07-02T15:58:51Z",
+        "tags": [
+          "cs.CL",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 333,
+        "object_id": "paper:arxiv.2507.01844",
+        "created_at": "2025-10-17T07:11:31+00:00",
+        "updated_at": "2025-10-17T07:11:57+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2507.00239": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2507.00239",
+        "url": "https://arxiv.org/pdf/2507.00239",
+        "title": "Linearly Decoding Refused Knowledge in Aligned Language Models",
+        "authors": "Aryan Shrivastava, Ari Holtzman",
+        "abstract": "Most commonly used language models (LMs) are instruction-tuned and aligned\nusing a combination of fine-tuning and reinforcement learning, causing them to\nrefuse users requests deemed harmful by the model. However, jailbreak prompts\ncan often bypass these refusal mechanisms and elicit harmful responses. In this\nwork, we study the extent to which information accessed via jailbreak prompts\nis decodable using linear probes trained on LM hidden states. We show that a\ngreat deal of initially refused information is linearly decodable. For example,\nacross models, the response of a jailbroken LM for the average IQ of a country\ncan be predicted by a linear probe with Pearson correlations exceeding $0.8$.\nSurprisingly, we find that probes trained on base models (which do not refuse)\nsometimes transfer to their instruction-tuned versions and are capable of\nrevealing information that jailbreaks decode generatively, suggesting that the\ninternal representations of many refused properties persist from base LMs\nthrough instruction-tuning. Importantly, we show that this information is not\nmerely \"leftover\" in instruction-tuned models, but is actively used by them: we\nfind that probe-predicted values correlate with LM generated pairwise\ncomparisons, indicating that the information decoded by our probes align with\nsuppressed generative behavior that may be expressed more subtly in other\ndownstream tasks. Overall, our results suggest that instruction-tuning does not\nwholly eliminate or even relocate harmful information in representation\nspace-they merely suppress its direct expression, leaving it both linearly\naccessible and indirectly influential in downstream behavior.",
+        "timestamp": "2025-10-17T07:11:31.405Z",
+        "rating": "novote",
+        "publishedDate": "2025-06-30T20:13:49Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 332,
+        "object_id": "paper:arxiv.2507.00239",
+        "created_at": "2025-10-17T07:11:31+00:00",
+        "updated_at": "2025-10-17T07:12:03+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.20481": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.20481",
+        "url": "https://arxiv.org/pdf/2506.20481",
+        "title": "Counterfactual Influence as a Distributional Quantity",
+        "authors": "Matthieu Meeus, Igor Shilov, Georgios Kaissis, Yves-Alexandre de Montjoye",
+        "abstract": "Machine learning models are known to memorize samples from their training\ndata, raising concerns around privacy and generalization. Counterfactual\nself-influence is a popular metric to study memorization, quantifying how the\nmodel's prediction for a sample changes depending on the sample's inclusion in\nthe training dataset. However, recent work has shown memorization to be\naffected by factors beyond self-influence, with other training samples, in\nparticular (near-)duplicates, having a large impact. We here study memorization\ntreating counterfactual influence as a distributional quantity, taking into\naccount how all training samples influence how a sample is memorized. For a\nsmall language model, we compute the full influence distribution of training\nsamples on each other and analyze its properties. We find that solely looking\nat self-influence can severely underestimate tangible risks associated with\nmemorization: the presence of (near-)duplicates seriously reduces\nself-influence, while we find these samples to be (near-)extractable. We\nobserve similar patterns for image classification, where simply looking at the\ninfluence distributions reveals the presence of near-duplicates in CIFAR-10.\nOur findings highlight that memorization stems from complex interactions across\ntraining data and is better captured by the full influence distribution than by\nself-influence alone.",
+        "timestamp": "2025-10-17T07:11:31.360Z",
+        "rating": "novote",
+        "publishedDate": "2025-06-25T14:25:11Z",
+        "tags": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL",
+          "cs.CR"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 331,
+        "object_id": "paper:arxiv.2506.20481",
+        "created_at": "2025-10-17T07:11:31+00:00",
+        "updated_at": "2025-10-17T07:11:59+00:00",
         "version": 1
       }
     }

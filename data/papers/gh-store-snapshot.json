@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-17T08:01:38.785219+00:00",
+  "snapshot_time": "2025-10-17T08:06:22.404264+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -8603,6 +8603,32 @@
         "object_id": "paper:arxiv.2506.05209",
         "created_at": "2025-10-17T07:57:09+00:00",
         "updated_at": "2025-10-17T07:57:44+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.01912": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.01912",
+        "url": "https://arxiv.org/pdf/2506.01912",
+        "title": "Unconditional CNN denoisers contain sparse semantic representation of\n  images",
+        "authors": "Zahra Kadkhodaie, St\u00e9phane Mallat, Eero Simoncelli",
+        "abstract": "Generative diffusion models learn probability densities over diverse image\ndatasets by estimating the score with a neural network trained to remove noise.\nDespite their remarkable success in generating high-quality images, the\ninternal mechanisms of the underlying score networks are not well understood.\nHere, we examine the image representation that arises from score estimation in\na {fully-convolutional unconditional UNet}. We show that the middle block of\nthe UNet decomposes individual images into sparse subsets of active channels,\nand that the vector of spatial averages of these channels can provide a\nnonlinear representation of the underlying clean images. Euclidean distances in\nthis representation space are semantically meaningful, even though no\nconditioning information is provided during training. We develop a novel\nalgorithm for stochastic reconstruction of images conditioned on this\nrepresentation: The synthesis using the unconditional model is \"self-guided\" by\nthe representation extracted from that very same model. For a given\nrepresentation, the common patterns in the set of reconstructed samples reveal\nthe features captured in the middle block of the UNet. Together, these results\nshow, for the first time, that a measure of semantic similarity emerges,\nunsupervised, solely from the denoising objective.",
+        "timestamp": "2025-10-17T08:05:34.016Z",
+        "rating": "novote",
+        "publishedDate": "2025-06-02T17:33:34Z",
+        "tags": [
+          "cs.CV"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 355,
+        "object_id": "paper:arxiv.2506.01912",
+        "created_at": "2025-10-17T08:05:34+00:00",
+        "updated_at": "2025-10-17T08:05:56+00:00",
         "version": 1
       }
     }

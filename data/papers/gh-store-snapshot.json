@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-17T16:31:50.367773+00:00",
+  "snapshot_time": "2025-10-17T16:48:24.455248+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -8809,6 +8809,47 @@
         "object_id": "interactions:arxiv.2509.02534",
         "created_at": "2025-10-17T15:26:17+00:00",
         "updated_at": "2025-10-17T15:26:38+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2501.11866": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2501.11866",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 359,
+        "object_id": "interactions:arxiv.2501.11866",
+        "created_at": "2025-10-17T16:48:03+00:00",
+        "updated_at": "2025-10-17T16:48:05+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2501.11866": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2501.11866",
+        "url": "https://arxiv.org/abs/2501.11866",
+        "title": "Evaluating multiple models using labeled and unlabeled data",
+        "authors": "Divya Shanmugam, Shuvom Sadhuka, Manish Raghavan, John Guttag, Bonnie Berger, Emma Pierson",
+        "abstract": "It remains difficult to evaluate machine learning classifiers in the absence of a large, labeled dataset. While labeled data can be prohibitively expensive or impossible to obtain, unlabeled data is plentiful. Here, we introduce Semi-Supervised Model Evaluation (SSME), a method that uses both labeled and unlabeled data to evaluate machine learning classifiers. SSME is the first evaluation method to take advantage of the fact that: (i) there are frequently multiple classifiers for the same task, (ii) continuous classifier scores are often available for all classes, and (iii) unlabeled data is often far more plentiful than labeled data. The key idea is to use a semi-supervised mixture model to estimate the joint distribution of ground truth labels and classifier predictions. We can then use this model to estimate any metric that is a function of classifier scores and ground truth labels (e.g., accuracy or expected calibration error). We present experiments in four domains where obtaining large labeled datasets is often impractical: (1) healthcare, (2) content moderation, (3) molecular property prediction, and (4) image annotation. Our results demonstrate that SSME estimates performance more accurately than do competing methods, reducing error by 5.1x relative to using labeled data alone and 2.4x relative to the next best competing method. SSME also improves accuracy when evaluating performance across subsets of the test distribution (e.g., specific demographic subgroups) and when evaluating the performance of language models.",
+        "timestamp": "2025-10-17T16:47:18.440Z",
+        "rating": "novote",
+        "publishedDate": "2025/01/21",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Computers and Society (cs.CY)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 358,
+        "object_id": "paper:arxiv.2501.11866",
+        "created_at": "2025-10-17T16:47:18+00:00",
+        "updated_at": "2025-10-17T16:47:45+00:00",
         "version": 1
       }
     }

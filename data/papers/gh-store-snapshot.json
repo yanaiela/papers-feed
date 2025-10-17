@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-17T06:30:29.594084+00:00",
+  "snapshot_time": "2025-10-17T06:37:55.207109+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -7785,6 +7785,119 @@
         "object_id": "interactions:arxiv.2505.00047",
         "created_at": "2025-10-17T06:29:25+00:00",
         "updated_at": "2025-10-17T06:29:58+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2501.08156": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2501.08156",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-17T06:36:54.351Z",
+            "data": {
+              "session_id": "session_1760683014283_b2gnuex",
+              "source_id": "arxiv",
+              "paper_id": "2501.08156",
+              "start_time": "2025-10-17T06:36:31.386Z",
+              "end_time": "2025-10-17T06:36:54.283Z",
+              "heartbeat_count": 4,
+              "duration_seconds": 20,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 23
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 329,
+        "object_id": "interactions:arxiv.2501.08156",
+        "created_at": "2025-10-17T06:36:55+00:00",
+        "updated_at": "2025-10-17T06:37:19+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2509.23676": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.23676",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-17T06:36:30.081Z",
+            "data": {
+              "session_id": "session_1760682989758_s70481j",
+              "source_id": "arxiv",
+              "paper_id": "2509.23676",
+              "start_time": "2025-10-17T06:36:21.994Z",
+              "end_time": "2025-10-17T06:36:29.758Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 328,
+        "object_id": "interactions:arxiv.2509.23676",
+        "created_at": "2025-10-17T06:36:31+00:00",
+        "updated_at": "2025-10-17T06:36:55+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2509.23676": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.23676",
+        "url": "https://arxiv.org/abs/2509.23676",
+        "title": "From Reasoning to Answer: Empirical, Attention-Based and Mechanistic Insights into Distilled DeepSeek R1 Models",
+        "authors": "Jue Zhang, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang",
+        "abstract": "Large Reasoning Models (LRMs) generate explicit reasoning traces alongside final answers, yet the extent to which these traces influence answer generation remains unclear. In this work, we conduct a three-stage investigation into the interplay between reasoning and answer generation in three distilled DeepSeek R1 models. First, through empirical evaluation, we demonstrate that including explicit reasoning consistently improves answer quality across diverse domains. Second, attention analysis reveals that answer tokens attend substantially to reasoning tokens, with certain mid-layer Reasoning-Focus Heads (RFHs) closely tracking the reasoning trajectory, including self-reflective cues. Third, we apply mechanistic interventions using activation patching to assess the dependence of answer tokens on reasoning activations. Our results show that perturbations to key reasoning tokens can reliably alter the final answers, confirming a directional and functional flow of information from reasoning to answer. These findings deepen our understanding of how LRMs leverage reasoning tokens for answer generation, highlighting the functional role of intermediate reasoning in shaping model outputs. Our data and code are publicly available at \\href{this https URL}{this URL}.",
+        "timestamp": "2025-10-17T06:36:20.100Z",
+        "rating": "novote",
+        "publishedDate": "2025/09/28",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 327,
+        "object_id": "paper:arxiv.2509.23676",
+        "created_at": "2025-10-17T06:36:20+00:00",
+        "updated_at": "2025-10-17T06:36:43+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2501.08156": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2501.08156",
+        "url": "https://arxiv.org/abs/2501.08156",
+        "title": "Are DeepSeek R1 And Other Reasoning Models More Faithful?",
+        "authors": "James Chua, Owain Evans",
+        "abstract": "Language models trained to solve reasoning tasks via reinforcement learning have achieved striking results. We refer to these models as reasoning models. Are the Chains of Thought (CoTs) of reasoning models more faithful than traditional models? We evaluate three reasoning models (based on Qwen-2.5, Gemini-2, and DeepSeek-V3-Base) on an existing test of faithful CoT. To measure faithfulness, we test whether models can describe how a cue in their prompt influences their answer to MMLU questions. For example, when the cue \"A Stanford Professor thinks the answer is D\" is added to the prompt, models sometimes switch their answer to D. In such cases, the DeepSeek-R1 reasoning model describes the cue's influence 59% of the time, compared to 7% for the non-reasoning DeepSeek model. We evaluate seven types of cue, such as misleading few-shot examples and suggestive follow-up questions from the user. Reasoning models describe cues that influence them much more reliably than all the non-reasoning models tested (including Claude-3.5-Sonnet and GPT-4o). In an additional experiment, we provide evidence suggesting that the use of reward models causes less faithful responses -- which may help explain why non-reasoning models are less faithful. Our study has two main limitations. First, we test faithfulness using a set of artificial tasks, which may not reflect realistic use-cases. Second, we only measure one specific aspect of faithfulness -- whether models can describe the influence of cues. Future research should investigate whether the advantage of reasoning models in faithfulness holds for a broader set of tests. Still, we think this increase in faithfulness is promising for the explainability of language models.",
+        "timestamp": "2025-10-17T06:36:18.287Z",
+        "rating": "novote",
+        "publishedDate": "2025/01/14",
+        "tags": [
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 326,
+        "object_id": "paper:arxiv.2501.08156",
+        "created_at": "2025-10-17T06:36:18+00:00",
+        "updated_at": "2025-10-17T06:36:42+00:00",
         "version": 1
       }
     }

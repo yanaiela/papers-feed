@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-16T17:21:26.899832+00:00",
+  "snapshot_time": "2025-10-17T06:28:40.368646+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -7729,6 +7729,32 @@
         "object_id": "paper:arxiv.2207.12598",
         "created_at": "2025-10-16T16:43:18+00:00",
         "updated_at": "2025-10-16T16:43:40+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2505.00047": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.00047",
+        "url": "https://arxiv.org/abs/2505.00047",
+        "title": "Base Models Beat Aligned Models at Randomness and Creativity",
+        "authors": "Peter West, Christopher Potts",
+        "abstract": "Alignment has quickly become a default ingredient in LLM development, with techniques such as reinforcement learning from human feedback making models act safely, follow instructions, and perform ever-better on complex tasks. While these techniques are certainly useful, we propose that they should not be universally applied and demonstrate a range of tasks on which base language models consistently outperform their popular aligned forms. Particularly, we study tasks that require unpredictable outputs, such as random number generation, mixed strategy games (rock-paper-scissors and hide-and-seek), and creative writing. In each case, aligned models tend towards narrow behaviors that result in distinct disadvantages, for instance, preferring to generate \"7\" over other uniformly random numbers, becoming almost fully predictable in some game states, or prioritizing pleasant writing over creative originality. Across models tested, better performance on common benchmarks tends to correlate with worse performance on our tasks, suggesting an effective trade-off in the required capabilities.",
+        "timestamp": "2025-10-17T06:27:53.046Z",
+        "rating": "novote",
+        "publishedDate": "2025/04/30",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 324,
+        "object_id": "paper:arxiv.2505.00047",
+        "created_at": "2025-10-17T06:27:53+00:00",
+        "updated_at": "2025-10-17T06:28:17+00:00",
         "version": 1
       }
     }

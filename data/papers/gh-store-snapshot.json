@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-18T08:16:03.537460+00:00",
+  "snapshot_time": "2025-10-18T13:49:38.986290+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -9671,6 +9671,32 @@
         "object_id": "interactions:arxiv.2406.13069",
         "created_at": "2025-10-18T08:15:03+00:00",
         "updated_at": "2025-10-18T08:15:29+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.14261": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.14261",
+        "url": "https://arxiv.org/abs/2510.14261",
+        "title": "Rewriting History: A Recipe for Interventional Analyses to Study Data Effects on Model Behavior",
+        "authors": "Rahul Nadkarni, Yanai Elazar, Hila Gonen, Noah A. Smith",
+        "abstract": "We present an experimental recipe for studying the relationship between training data and language model (LM) behavior. We outline steps for intervening on data batches -- i.e., ``rewriting history'' -- and then retraining model checkpoints over that data to test hypotheses relating data to behavior. Our recipe breaks down such an intervention into stages that include selecting evaluation items from a benchmark that measures model behavior, matching relevant documents to those items, and modifying those documents before retraining and measuring the effects. We demonstrate the utility of our recipe through case studies on factual knowledge acquisition in LMs, using both cooccurrence statistics and information retrieval methods to identify documents that might contribute to knowledge learning. Our results supplement past observational analyses that link cooccurrence to model behavior, while demonstrating that extant methods for identifying relevant training documents do not fully explain an LM's ability to correctly answer knowledge questions. Overall, we outline a recipe that researchers can follow to test further hypotheses about how training data affects model behavior. Our code is made publicly available to promote future work.",
+        "timestamp": "2025-10-18T13:48:50.432Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/16",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 383,
+        "object_id": "paper:arxiv.2510.14261",
+        "created_at": "2025-10-18T13:48:50+00:00",
+        "updated_at": "2025-10-18T13:49:11+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-18T07:05:13.834786+00:00",
+  "snapshot_time": "2025-10-18T07:09:11.952715+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -9265,6 +9265,116 @@
         "object_id": "paper:openreview.u3X9yFP40t",
         "created_at": "2025-10-18T07:02:39+00:00",
         "updated_at": "2025-10-18T07:03:08+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.8T5fcnGlP1": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "8T5fcnGlP1",
+        "url": "https://openreview.net/forum?id=8T5fcnGlP1&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2FARR%2F2025%2FOctober%2FArea_Chairs%23assigned-submissions)",
+        "title": "Revisiting Non-Verbatim Memorization in Large Language Models: The Role of Entity Surface Forms",
+        "authors": "",
+        "abstract": "Understanding what kinds of knowledge large language models (LLMs) memorize is essential for evaluating their reliability and limitations. \nPrevious studies have analyzed such non-verbatim memorization using entity-based question answering (QA) datasets, \nbut these datasets typically assume a single canonical surface form per entity, making it unclear whether LLMs memorize entities as conceptual units or only through specific surface expressions. \nTo bridge this gap, we introduce RedirectQA, an entity-based QA dataset constructed from Wikipedia redirect information that provides multiple surface forms for each entity, categorized into some types.\nUsing this dataset, we systematically examine how LLM memorization differs across surface types, frequencies, and entity\u2013surface linkages. \nOur experiments reveal that model outputs are often inconsistent across different surface forms of the same entity, \nand that memorization is more robust for minor variations, e.g., spelling, than for aliases or major rephrasings. \nFurther analysis of entity- and surface-level frequencies suggests that entity frequency contributes more strongly to memorization than surface frequency, \nimplying that LLMs may not memorize surface forms independently but rather link them through an underlying entity-level representation.\nThese findings highlight the necessity of considering surface-form diversity when evaluating non-verbatim memorization in LLMs.",
+        "timestamp": "2025-10-18T07:08:21.783Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "probing",
+          "robustness"
+        ],
+        "doi": "",
+        "journalName": "ACL ARR 2025 October Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 376,
+        "object_id": "paper:openreview.8T5fcnGlP1",
+        "created_at": "2025-10-18T07:08:22+00:00",
+        "updated_at": "2025-10-18T07:08:41+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.sYF69As4M5": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "sYF69As4M5",
+        "url": "https://openreview.net/forum?id=sYF69As4M5&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2FARR%2F2025%2FOctober%2FArea_Chairs%23assigned-submissions)",
+        "title": "Protoknowledge Shapes Behaviour of LLMs in Downstream Tasks: Memorization and Generalization with Knowledge Graphs",
+        "authors": "",
+        "abstract": "We introduce the concept of protoknowledge to formalize and measure how Knowledge Graphs (KGs) are internalized during pretraining and reused at inference by Large Language Models (LLMs). LLMs are known to memorize vast amounts of token sequences and a central open question is how this memorization can serve as reusable knowledge through implicit abstraction and generalization. We categorize \n protoknowledge into lexical, hierarchical, and topological forms, reflecting different levels of abstraction over KGs. We measure these forms through Knowledge Activation Tasks (KATs), analyzing general properties such as semantic bias.\nWe then examine how protoknowledge affects Text-to-SPARQL, a task requiring conformity to the target KG\u2019s formal structure. To this end, we adopt a novel analysis framework that assesses whether model predictions align with the successful activation of the relevant protoknowledge for each query.\n\nWe do not frame this phenomenon as data contamination alone: rather, protoknowledge provides a measurable signal of how LLMs internalize structured information during pretraining and reuse it in downstream tasks. This perspective offers a more nuanced view of semantic-level data contamination and supplies an effective strategy for interpreting the behaviour of Closed-Pretraining models.",
+        "timestamp": "2025-10-18T07:07:51.783Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Knowledge Graphs",
+          "Memorization",
+          "Text-To-SPARQL",
+          "Data Contamination"
+        ],
+        "doi": "",
+        "journalName": "ACL ARR 2025 October Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 375,
+        "object_id": "paper:openreview.sYF69As4M5",
+        "created_at": "2025-10-18T07:07:52+00:00",
+        "updated_at": "2025-10-18T07:08:15+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.RyEe7oZgz9": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "RyEe7oZgz9",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-18T07:07:46.603Z",
+            "data": {
+              "session_id": "session_1760771266301_kihv7kx",
+              "source_id": "openreview",
+              "paper_id": "RyEe7oZgz9",
+              "start_time": "2025-10-18T07:07:22.215Z",
+              "end_time": "2025-10-18T07:07:46.301Z",
+              "heartbeat_count": 4,
+              "duration_seconds": 20,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 24
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 374,
+        "object_id": "interactions:openreview.RyEe7oZgz9",
+        "created_at": "2025-10-18T07:07:47+00:00",
+        "updated_at": "2025-10-18T07:08:15+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.RyEe7oZgz9": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "RyEe7oZgz9",
+        "url": "https://openreview.net/pdf?id=RyEe7oZgz9",
+        "title": "RyEe7oZgz9",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-10-18T07:07:20.941Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "pdf"
+      },
+      "meta": {
+        "issue_number": 373,
+        "object_id": "paper:openreview.RyEe7oZgz9",
+        "created_at": "2025-10-18T07:07:21+00:00",
+        "updated_at": "2025-10-18T07:07:39+00:00",
         "version": 1
       }
     }

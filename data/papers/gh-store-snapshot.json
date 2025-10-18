@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-18T14:13:09.265534+00:00",
+  "snapshot_time": "2025-10-18T15:04:13.013107+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -9742,6 +9742,32 @@
         "object_id": "interactions:arxiv.2510.14261",
         "created_at": "2025-10-18T13:58:48+00:00",
         "updated_at": "2025-10-18T14:12:46+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2509.06184": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.06184",
+        "url": "https://arxiv.org/pdf/2509.06184",
+        "title": "Understanding the Influence of Synthetic Data for Text Embedders",
+        "authors": "Jacob Mitchell Springer, Vaibhav Adlakha, Siva Reddy, Aditi Raghunathan, Marius Mosbach",
+        "abstract": "Recent progress in developing general purpose text embedders has been driven\nby training on ever-growing corpora of synthetic LLM-generated data.\nNonetheless, no publicly available synthetic dataset exists, posing a barrier\nto studying its role for generalization. To address this issue, we first\nreproduce and publicly release the synthetic data proposed by Wang et al.\n(Mistral-E5). Our synthetic data is high quality and leads to consistent\nimprovements in performance. Next, we critically examine where exactly\nsynthetic data improves model generalization. Our analysis reveals that\nbenefits from synthetic data are sparse and highly localized to individual\ndatasets. Moreover, we observe trade-offs between the performance on different\ncategories and data that benefits one task, degrades performance on another.\nOur findings highlight the limitations of current synthetic data approaches for\nbuilding general-purpose embedders and challenge the notion that training on\nsynthetic data leads to more robust embedding models across tasks.",
+        "timestamp": "2025-10-18T15:03:27.947Z",
+        "rating": "novote",
+        "publishedDate": "2025-09-07T19:28:52Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 385,
+        "object_id": "paper:arxiv.2509.06184",
+        "created_at": "2025-10-18T15:03:28+00:00",
+        "updated_at": "2025-10-18T15:03:47+00:00",
         "version": 1
       }
     }

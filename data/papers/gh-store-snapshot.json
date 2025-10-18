@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-18T07:16:07.577388+00:00",
+  "snapshot_time": "2025-10-18T07:18:18.340929+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -9470,6 +9470,21 @@
               "idle_seconds": 0,
               "total_elapsed_seconds": 5
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-18T07:16:56.304Z",
+            "data": {
+              "session_id": "session_1760771816292_37huieo",
+              "source_id": "openreview",
+              "paper_id": "sYF69As4M5",
+              "start_time": "2025-10-18T07:16:36.853Z",
+              "end_time": "2025-10-18T07:16:56.292Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 19
+            }
           }
         ]
       },
@@ -9477,7 +9492,7 @@
         "issue_number": 380,
         "object_id": "interactions:openreview.sYF69As4M5",
         "created_at": "2025-10-18T07:13:27+00:00",
-        "updated_at": "2025-10-18T07:15:18+00:00",
+        "updated_at": "2025-10-18T07:17:18+00:00",
         "version": 1
       }
     },
@@ -9515,6 +9530,21 @@
               "idle_seconds": 5,
               "total_elapsed_seconds": 25
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-18T07:17:25.013Z",
+            "data": {
+              "session_id": "session_1760771844998_atow9ay",
+              "source_id": "openreview",
+              "paper_id": "Ou2EtkDRes",
+              "start_time": "2025-10-18T07:17:19.626Z",
+              "end_time": "2025-10-18T07:17:24.998Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 5
+            }
           }
         ]
       },
@@ -9522,7 +9552,7 @@
         "issue_number": 379,
         "object_id": "interactions:openreview.Ou2EtkDRes",
         "created_at": "2025-10-18T07:12:37+00:00",
-        "updated_at": "2025-10-18T07:14:24+00:00",
+        "updated_at": "2025-10-18T07:17:50+00:00",
         "version": 1
       }
     }

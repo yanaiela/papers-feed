@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-18T07:12:39.478483+00:00",
+  "snapshot_time": "2025-10-18T07:14:18.434969+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -9404,6 +9404,35 @@
         "object_id": "interactions:openreview.8T5fcnGlP1",
         "created_at": "2025-10-18T07:10:26+00:00",
         "updated_at": "2025-10-18T07:10:28+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.Ou2EtkDRes": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "Ou2EtkDRes",
+        "url": "https://openreview.net/forum?id=Ou2EtkDRes",
+        "title": "Protoknowledge Shapes Behaviour of LLMs in Downstream Tasks: Memorization and Generalization with Knowledge Graphs",
+        "authors": "",
+        "abstract": "In this paper, we introduce the concept of protoknowledge to formalize and measure when sequences of tokens encoding Knowledge Graphs become are internalized and utilized during inference in large language models (LLMs). Indeed, LLMs have demonstrated the ability to memorize vast amounts of token sequences during pretraining, and a central open question is how LLMs leverage this memorization as reusable knowledge through generalization. We then categorize protoknowledge into lexical, hierarchical, and topological forms, varying on the type of knowledge that needs to be activated. We measure protoknowledge through Knowledge Activation Tasks (KATs), analyzing its general properties such as semantic bias. We then investigate the impact of protoknowledge on Text-to-SPARQL performance by varying prompting strategies depending on input conditions. To this end, we adopt a novel analysis framework that assesses whether model predictions align with the successful activation of the relevant protoknowledge for each query. This methodology provides a practical tool to explore Semantic-Level Data Contamination and serves as an effective strategy for Closed-Pretraining models.",
+        "timestamp": "2025-10-18T07:12:25.734Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Knowledge Graphs",
+          "Generalization",
+          "Memorization",
+          "Text-To-SPARQL"
+        ],
+        "doi": "",
+        "journalName": "ACL ARR 2025 May Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 378,
+        "object_id": "paper:openreview.Ou2EtkDRes",
+        "created_at": "2025-10-18T07:12:26+00:00",
+        "updated_at": "2025-10-18T07:12:48+00:00",
         "version": 1
       }
     }

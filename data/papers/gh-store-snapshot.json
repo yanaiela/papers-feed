@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-17T19:32:07.812679+00:00",
+  "snapshot_time": "2025-10-18T07:03:36.761016+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -9207,6 +9207,48 @@
         "object_id": "interactions:arxiv.2510.14086",
         "created_at": "2025-10-17T19:31:05+00:00",
         "updated_at": "2025-10-17T19:31:30+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.u3X9yFP40t": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "u3X9yFP40t",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 372,
+        "object_id": "interactions:openreview.u3X9yFP40t",
+        "created_at": "2025-10-18T07:02:48+00:00",
+        "updated_at": "2025-10-18T07:02:50+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.u3X9yFP40t": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "u3X9yFP40t",
+        "url": "https://openreview.net/forum?id=u3X9yFP40t&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2FARR%2F2025%2FOctober%2FArea_Chairs%23assigned-submissions)",
+        "title": "Tracing Multilingual Representations in LLMs with Cross-Layer Transcoders",
+        "authors": "",
+        "abstract": "Multilingual Large Language Models (LLMs) can process many languages, yet how they internally represent this diversity remains unclear. Do they form shared multilingual representations with language-specific decoding, and if so, why does performance still favor the dominant training language? To address this, we train a series of LLMs on different mixtures of multilingual data and analyze their internal mechanisms using cross-layer transcoders and attribution graphs. Our results provide strong evidence for pivot language representations: the model employs nearly identical representations across languages, while language-specific decoding emerges in later layers. Attribution analyses reveal that decoding relies in part on a small set of high-frequency language features in the final layers, which linearly read out language identity from the first layer in the model. By intervening on these features, we can suppress one language and substitute another in the model\u2019s outputs. Finally, we study how the dominant training language influences these mechanisms across attribution graphs and decoding pathways. We argue that understanding this pivot-language mechanism is crucial for improving multilingual alignment in LLMs.",
+        "timestamp": "2025-10-18T07:02:39.703Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Interpretability",
+          "Cross-LayerTranscoders",
+          "Multilingualism and Cross-Lingual NLP"
+        ],
+        "doi": "",
+        "journalName": "ACL ARR 2025 October Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 371,
+        "object_id": "paper:openreview.u3X9yFP40t",
+        "created_at": "2025-10-18T07:02:39+00:00",
+        "updated_at": "2025-10-18T07:03:08+00:00",
         "version": 1
       }
     }

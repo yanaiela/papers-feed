@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-20T19:15:15.672443+00:00",
+  "snapshot_time": "2025-10-20T20:04:50.044615+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -10734,6 +10734,33 @@
         "object_id": "paper:arxiv.2510.11977",
         "created_at": "2025-10-20T19:14:16+00:00",
         "updated_at": "2025-10-20T19:14:43+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.02132": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.02132",
+        "url": "https://arxiv.org/abs/2506.02132",
+        "title": "Echoes of BERT: Do Modern Language Models Rediscover the Classical NLP Pipeline?",
+        "authors": "Michael Li, Nishant Subramani",
+        "abstract": "Large transformer-based language models dominate modern NLP, yet our understanding of how they encode linguistic information relies primarily on studies of early models like BERT and GPT-2. Building on classic BERTology work, we analyze 25 models spanning from classical architectures (BERT, DeBERTa, GPT-2) to modern large language models (Pythia, OLMo-2, Gemma-2, Qwen2.5, Llama-3.1), probing layer-by-layer representations across eight linguistic tasks in English. Consistent with earlier findings, we find that hierarchical organization persists in modern models: early layers capture syntax, middle layers handle semantics and entity-level information, and later layers encode discourse phenomena. We dive deeper, conducting an in-depth multilingual analysis of two specific linguistic properties - lexical identity and inflectional morphology - that help disentangle form from meaning. We find that lexical information concentrates linearly in early layers but becomes increasingly nonlinear deeper in the network, while inflectional information remains linearly accessible throughout all layers. Additional analyses of attention mechanisms, steering vectors, and pretraining checkpoints reveal where this information resides within layers, how it can be functionally manipulated, and how representations evolve during pretraining. Taken together, our findings suggest that, even with substantial advances in LLM technologies, transformer models learn to organize linguistic information in similar ways, regardless of model architecture, size, or training regime, indicating that these properties are important for next token prediction. Our code is available at this https URL",
+        "timestamp": "2025-10-20T20:03:38.874Z",
+        "rating": "novote",
+        "publishedDate": "2025/06/02",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 420,
+        "object_id": "paper:arxiv.2506.02132",
+        "created_at": "2025-10-20T20:03:39+00:00",
+        "updated_at": "2025-10-20T20:04:04+00:00",
         "version": 1
       }
     }

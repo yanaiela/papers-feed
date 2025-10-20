@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-20T15:25:46.804980+00:00",
+  "snapshot_time": "2025-10-20T15:28:03.543159+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -10196,6 +10196,64 @@
         "object_id": "paper:openreview.Ti67584b98",
         "created_at": "2025-10-20T15:24:55+00:00",
         "updated_at": "2025-10-20T15:25:19+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2208.12852": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2208.12852",
+        "url": "https://arxiv.org/pdf/2208.12852",
+        "title": "What Do NLP Researchers Believe? Results of the NLP Community Metasurvey",
+        "authors": "Julian Michael, Ari Holtzman, Alicia Parrish, Aaron Mueller, Alex Wang, Angelica Chen, Divyam Madaan, Nikita Nangia, Richard Yuanzhe Pang, Jason Phang, Samuel R. Bowman",
+        "abstract": "We present the results of the NLP Community Metasurvey. Run from May to June\n2022, the survey elicited opinions on controversial issues, including industry\ninfluence in the field, concerns about AGI, and ethics. Our results put\nconcrete numbers to several controversies: For example, respondents are split\nalmost exactly in half on questions about the importance of artificial general\nintelligence, whether language models understand language, and the necessity of\nlinguistic structure and inductive bias for solving NLP problems. In addition,\nthe survey posed meta-questions, asking respondents to predict the distribution\nof survey responses. This allows us not only to gain insight on the spectrum of\nbeliefs held by NLP researchers, but also to uncover false sociological beliefs\nwhere the community's predictions don't match reality. We find such mismatches\non a wide range of issues. Among other results, the community greatly\noverestimates its own belief in the usefulness of benchmarks and the potential\nfor scaling to solve real-world problems, while underestimating its own belief\nin the importance of linguistic structure, inductive bias, and\ninterdisciplinary science.",
+        "timestamp": "2025-10-20T15:27:19.171Z",
+        "rating": "novote",
+        "publishedDate": "2022-08-26T19:45:51Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI",
+          "I.2.7"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 406,
+        "object_id": "paper:arxiv.2208.12852",
+        "created_at": "2025-10-20T15:27:19+00:00",
+        "updated_at": "2025-10-20T15:27:42+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.Ti67584b98": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "Ti67584b98",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-20T15:26:45.513Z",
+            "data": {
+              "session_id": "session_1760974004713_hcpvq2b",
+              "source_id": "openreview",
+              "paper_id": "Ti67584b98",
+              "start_time": "2025-10-20T15:25:02.871Z",
+              "end_time": "2025-10-20T15:26:44.713Z",
+              "heartbeat_count": 20,
+              "duration_seconds": 100,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 102
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 405,
+        "object_id": "interactions:openreview.Ti67584b98",
+        "created_at": "2025-10-20T15:26:46+00:00",
+        "updated_at": "2025-10-20T15:27:10+00:00",
         "version": 1
       }
     }

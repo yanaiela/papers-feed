@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-20T14:45:04.584491+00:00",
+  "snapshot_time": "2025-10-20T15:13:20.985196+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -9928,6 +9928,121 @@
         "object_id": "interactions:openreview.AFMGbq39bQ",
         "created_at": "2025-10-20T14:43:52+00:00",
         "updated_at": "2025-10-20T14:43:55+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2505.22137": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.22137",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-20T15:12:26.028Z",
+            "data": {
+              "session_id": "session_1760973145718_7vii4kj",
+              "source_id": "arxiv",
+              "paper_id": "2505.22137",
+              "start_time": "2025-10-20T15:12:18.960Z",
+              "end_time": "2025-10-20T15:12:25.718Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 7
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 398,
+        "object_id": "interactions:arxiv.2505.22137",
+        "created_at": "2025-10-20T15:12:26+00:00",
+        "updated_at": "2025-10-20T15:12:52+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2505.22137": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.22137",
+        "url": "https://arxiv.org/pdf/2505.22137",
+        "title": "Limited Generalizability in Argument Mining: State-Of-The-Art Models\n  Learn Datasets, Not Arguments",
+        "authors": "Marc Feger, Katarina Boland, Stefan Dietze",
+        "abstract": "Identifying arguments is a necessary prerequisite for various tasks in\nautomated discourse analysis, particularly within contexts such as political\ndebates, online discussions, and scientific reasoning. In addition to\ntheoretical advances in understanding the constitution of arguments, a\nsignificant body of research has emerged around practical argument mining,\nsupported by a growing number of publicly available datasets. On these\nbenchmarks, BERT-like transformers have consistently performed best,\nreinforcing the belief that such models are broadly applicable across diverse\ncontexts of debate. This study offers the first large-scale re-evaluation of\nsuch state-of-the-art models, with a specific focus on their ability to\ngeneralize in identifying arguments. We evaluate four transformers, three\nstandard and one enhanced with contrastive pre-training for better\ngeneralization, on 17 English sentence-level datasets as most relevant to the\ntask. Our findings show that, to varying degrees, these models tend to rely on\nlexical shortcuts tied to content words, suggesting that apparent progress may\noften be driven by dataset-specific cues rather than true task alignment. While\nthe models achieve strong results on familiar benchmarks, their performance\ndrops markedly when applied to unseen datasets. Nonetheless, incorporating both\ntask-specific pre-training and joint benchmark training proves effective in\nenhancing both robustness and generalization.",
+        "timestamp": "2025-10-20T15:12:17.125Z",
+        "rating": "novote",
+        "publishedDate": "2025-05-28T09:00:56Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 395,
+        "object_id": "paper:arxiv.2505.22137",
+        "created_at": "2025-10-20T15:12:17+00:00",
+        "updated_at": "2025-10-20T15:12:43+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2505.20959": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.20959",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-20T15:12:14.138Z",
+            "data": {
+              "session_id": "session_1760973133532_ti7a8to",
+              "source_id": "arxiv",
+              "paper_id": "2505.20959",
+              "start_time": "2025-10-20T15:11:55.818Z",
+              "end_time": "2025-10-20T15:12:13.532Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 18
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 394,
+        "object_id": "interactions:arxiv.2505.20959",
+        "created_at": "2025-10-20T15:12:14+00:00",
+        "updated_at": "2025-10-20T15:12:40+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2505.20959": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.20959",
+        "url": "https://arxiv.org/pdf/2505.20959",
+        "title": "Research Community Perspectives on \"Intelligence\" and Large Language\n  Models",
+        "authors": "Bertram H\u00f8jer, Terne Sasha Thorn Jakobsen, Anna Rogers, Stefan Heinrich",
+        "abstract": "Despite the widespread use of ''artificial intelligence'' (AI) framing in\nNatural Language Processing (NLP) research, it is not clear what researchers\nmean by ''intelligence''. To that end, we present the results of a survey on\nthe notion of ''intelligence'' among researchers and its role in the research\nagenda. The survey elicited complete responses from 303 researchers from a\nvariety of fields including NLP, Machine Learning (ML), Cognitive Science,\nLinguistics, and Neuroscience. We identify 3 criteria of intelligence that the\ncommunity agrees on the most: generalization, adaptability, & reasoning. Our\nresults suggests that the perception of the current NLP systems as\n''intelligent'' is a minority position (29%). Furthermore, only 16.2% of the\nrespondents see developing intelligent systems as a research goal, and these\nrespondents are more likely to consider the current systems intelligent.",
+        "timestamp": "2025-10-20T15:11:56.168Z",
+        "rating": "novote",
+        "publishedDate": "2025-05-27T09:53:27Z",
+        "tags": [
+          "cs.CL",
+          "cs.CY"
+        ],
+        "doi": "",
+        "journalName": "Findings of the Association for Computational Linguistics: ACL\n  2025",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 391,
+        "object_id": "paper:arxiv.2505.20959",
+        "created_at": "2025-10-20T15:11:56+00:00",
+        "updated_at": "2025-10-20T15:12:25+00:00",
         "version": 1
       }
     }

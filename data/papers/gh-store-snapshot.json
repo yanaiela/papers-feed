@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-20T15:30:31.932383+00:00",
+  "snapshot_time": "2025-10-20T15:34:08.705472+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -10276,6 +10276,21 @@
               "idle_seconds": 2,
               "total_elapsed_seconds": 7
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-20T15:31:14.167Z",
+            "data": {
+              "session_id": "session_1760974274145_2x8toz6",
+              "source_id": "arxiv",
+              "paper_id": "2401.12631",
+              "start_time": "2025-10-20T15:30:53.417Z",
+              "end_time": "2025-10-20T15:31:14.145Z",
+              "heartbeat_count": 4,
+              "duration_seconds": 20,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 21
+            }
           }
         ]
       },
@@ -10283,7 +10298,7 @@
         "issue_number": 411,
         "object_id": "interactions:arxiv.2401.12631",
         "created_at": "2025-10-20T15:29:39+00:00",
-        "updated_at": "2025-10-20T15:30:02+00:00",
+        "updated_at": "2025-10-20T15:31:40+00:00",
         "version": 1
       }
     },
@@ -10334,6 +10349,21 @@
               "idle_seconds": 3,
               "total_elapsed_seconds": 8
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-20T15:30:53.360Z",
+            "data": {
+              "session_id": "session_1760974253353_vp959m7",
+              "source_id": "arxiv",
+              "paper_id": "2311.17030",
+              "start_time": "2025-10-20T15:30:35.994Z",
+              "end_time": "2025-10-20T15:30:53.353Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 17
+            }
           }
         ]
       },
@@ -10341,7 +10371,7 @@
         "issue_number": 409,
         "object_id": "interactions:arxiv.2311.17030",
         "created_at": "2025-10-20T15:29:29+00:00",
-        "updated_at": "2025-10-20T15:29:52+00:00",
+        "updated_at": "2025-10-20T15:31:00+00:00",
         "version": 1
       }
     },
@@ -10400,6 +10430,150 @@
         "object_id": "interactions:arxiv.2208.12852",
         "created_at": "2025-10-20T15:29:01+00:00",
         "updated_at": "2025-10-20T15:29:28+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2303.12712": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2303.12712",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-20T15:31:50.998Z",
+            "data": {
+              "session_id": "session_1760974310981_bqkbcog",
+              "source_id": "arxiv",
+              "paper_id": "2303.12712",
+              "start_time": "2025-10-20T15:31:40.513Z",
+              "end_time": "2025-10-20T15:31:50.981Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 10
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-20T15:33:02.257Z",
+            "data": {
+              "session_id": "session_1760974382099_0avbodu",
+              "source_id": "arxiv",
+              "paper_id": "2303.12712",
+              "start_time": "2025-10-20T15:32:45.659Z",
+              "end_time": "2025-10-20T15:33:02.099Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 16
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 415,
+        "object_id": "interactions:arxiv.2303.12712",
+        "created_at": "2025-10-20T15:31:51+00:00",
+        "updated_at": "2025-10-20T15:33:25+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2309.13638": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2309.13638",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-20T15:31:40.989Z",
+            "data": {
+              "session_id": "session_1760974300310_dvn0sey",
+              "source_id": "arxiv",
+              "paper_id": "2309.13638",
+              "start_time": "2025-10-20T15:31:25.798Z",
+              "end_time": "2025-10-20T15:31:40.310Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 5,
+              "total_elapsed_seconds": 15
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-20T15:32:39.369Z",
+            "data": {
+              "session_id": "session_1760974359357_f3jcbmc",
+              "source_id": "arxiv",
+              "paper_id": "2309.13638",
+              "start_time": "2025-10-20T15:32:19.071Z",
+              "end_time": "2025-10-20T15:32:39.357Z",
+              "heartbeat_count": 4,
+              "duration_seconds": 20,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 20
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 414,
+        "object_id": "interactions:arxiv.2309.13638",
+        "created_at": "2025-10-20T15:31:41+00:00",
+        "updated_at": "2025-10-20T15:33:00+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2309.13638": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2309.13638",
+        "url": "https://arxiv.org/pdf/2309.13638",
+        "title": "Embers of Autoregression: Understanding Large Language Models Through\n  the Problem They are Trained to Solve",
+        "authors": "R. Thomas McCoy, Shunyu Yao, Dan Friedman, Matthew Hardy, Thomas L. Griffiths",
+        "abstract": "The widespread adoption of large language models (LLMs) makes it important to\nrecognize their strengths and limitations. We argue that in order to develop a\nholistic understanding of these systems we need to consider the problem that\nthey were trained to solve: next-word prediction over Internet text. By\nrecognizing the pressures that this task exerts we can make predictions about\nthe strategies that LLMs will adopt, allowing us to reason about when they will\nsucceed or fail. This approach - which we call the teleological approach -\nleads us to identify three factors that we hypothesize will influence LLM\naccuracy: the probability of the task to be performed, the probability of the\ntarget output, and the probability of the provided input. We predict that LLMs\nwill achieve higher accuracy when these probabilities are high than when they\nare low - even in deterministic settings where probability should not matter.\nTo test our predictions, we evaluate two LLMs (GPT-3.5 and GPT-4) on eleven\ntasks, and we find robust evidence that LLMs are influenced by probability in\nthe ways that we have hypothesized. In many cases, the experiments reveal\nsurprising failure modes. For instance, GPT-4's accuracy at decoding a simple\ncipher is 51% when the output is a high-probability word sequence but only 13%\nwhen it is low-probability. These results show that AI practitioners should be\ncareful about using LLMs in low-probability situations. More broadly, we\nconclude that we should not evaluate LLMs as if they are humans but should\ninstead treat them as a distinct type of system - one that has been shaped by\nits own particular set of pressures.",
+        "timestamp": "2025-10-20T15:31:26.120Z",
+        "rating": "novote",
+        "publishedDate": "2023-09-24T13:35:28Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 413,
+        "object_id": "paper:arxiv.2309.13638",
+        "created_at": "2025-10-20T15:31:26+00:00",
+        "updated_at": "2025-10-20T15:31:49+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2303.12712": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2303.12712",
+        "url": "https://arxiv.org/abs/2303.12712",
+        "title": "Sparks of Artificial General Intelligence: Early experiments with GPT-4",
+        "authors": "S\u00e9bastien Bubeck, Varun Chandrasekaran, Ronen Eldan, Johannes Gehrke, Eric Horvitz, Ece Kamar, Peter Lee, Yin Tat Lee, Yuanzhi Li, Scott Lundberg, Harsha Nori, Hamid Palangi, Marco Tulio Ribeiro, Yi Zhang",
+        "abstract": "Artificial intelligence (AI) researchers have been developing and refining large language models (LLMs) that exhibit remarkable capabilities across a variety of domains and tasks, challenging our understanding of learning and cognition. The latest model developed by OpenAI, GPT-4, was trained using an unprecedented scale of compute and data. In this paper, we report on our investigation of an early version of GPT-4, when it was still in active development by OpenAI. We contend that (this early version of) GPT-4 is part of a new cohort of LLMs (along with ChatGPT and Google's PaLM for example) that exhibit more general intelligence than previous AI models. We discuss the rising capabilities and implications of these models. We demonstrate that, beyond its mastery of language, GPT-4 can solve novel and difficult tasks that span mathematics, coding, vision, medicine, law, psychology and more, without needing any special prompting. Moreover, in all of these tasks, GPT-4's performance is strikingly close to human-level performance, and often vastly surpasses prior models such as ChatGPT. Given the breadth and depth of GPT-4's capabilities, we believe that it could reasonably be viewed as an early (yet still incomplete) version of an artificial general intelligence (AGI) system. In our exploration of GPT-4, we put special emphasis on discovering its limitations, and we discuss the challenges ahead for advancing towards deeper and more comprehensive versions of AGI, including the possible need for pursuing a new paradigm that moves beyond next-word prediction. We conclude with reflections on societal influences of the recent technological leap and future research directions.",
+        "timestamp": "2025-10-20T15:31:22.097Z",
+        "rating": "novote",
+        "publishedDate": "2023/03/22",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 412,
+        "object_id": "paper:arxiv.2303.12712",
+        "created_at": "2025-10-20T15:31:22+00:00",
+        "updated_at": "2025-10-20T15:31:42+00:00",
         "version": 1
       }
     }

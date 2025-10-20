@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-19T17:19:27.449474+00:00",
+  "snapshot_time": "2025-10-20T05:04:00.092753+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -9828,6 +9828,32 @@
         "object_id": "interactions:arxiv.2509.06184",
         "created_at": "2025-10-18T15:05:28+00:00",
         "updated_at": "2025-10-18T15:05:50+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2509.21155": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.21155",
+        "url": "https://arxiv.org/pdf/2509.21155",
+        "title": "Learning the Wrong Lessons: Syntactic-Domain Spurious Correlations in\n  Language Models",
+        "authors": "Chantal Shaib, Vinith M. Suriyakumar, Levent Sagun, Byron C. Wallace, Marzyeh Ghassemi",
+        "abstract": "For an LLM to correctly respond to an instruction it must understand both the\nsemantics and the domain (i.e., subject area) of a given task-instruction pair.\nHowever, syntax can also convey implicit information Recent work shows that\nsyntactic templates -- frequent sequences of Part-of-Speech (PoS) tags -- are\nprevalent in training data and often appear in model outputs. In this work we\ncharacterize syntactic templates, domain, and semantics in task-instruction\npairs. We identify cases of spurious correlations between syntax and domain,\nwhere models learn to associate a domain with syntax during training; this can\nsometimes override prompt semantics. Using a synthetic training dataset, we\nfind that the syntactic-domain correlation can lower performance (mean 0.51 +/-\n0.06) on entity knowledge tasks in OLMo-2 models (1B-13B). We introduce an\nevaluation framework to detect this phenomenon in trained models, and show that\nit occurs on a subset of the FlanV2 dataset in open (OLMo-2-7B;\nLlama-4-Maverick), and closed (GPT-4o) models. Finally, we present a case study\non the implications for safety finetuning, showing that unintended\nsyntactic-domain correlations can be used to bypass refusals in OLMo-2-7B\nInstruct and GPT-4o. Our findings highlight two needs: (1) to explicitly test\nfor syntactic-domain correlations, and (2) to ensure syntactic diversity in\ntraining data, specifically within domains, to prevent such spurious\ncorrelations.",
+        "timestamp": "2025-10-20T05:03:07.353Z",
+        "rating": "novote",
+        "publishedDate": "2025-09-25T13:42:28Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 387,
+        "object_id": "paper:arxiv.2509.21155",
+        "created_at": "2025-10-20T05:03:07+00:00",
+        "updated_at": "2025-10-20T05:03:32+00:00",
         "version": 1
       }
     }

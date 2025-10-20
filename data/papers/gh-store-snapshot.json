@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-20T15:28:03.543159+00:00",
+  "snapshot_time": "2025-10-20T15:30:31.932383+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -10254,6 +10254,152 @@
         "object_id": "interactions:openreview.Ti67584b98",
         "created_at": "2025-10-20T15:26:46+00:00",
         "updated_at": "2025-10-20T15:27:10+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2401.12631": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2401.12631",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-20T15:29:45.521Z",
+            "data": {
+              "session_id": "session_1760974185507_cife153",
+              "source_id": "arxiv",
+              "paper_id": "2401.12631",
+              "start_time": "2025-10-20T15:29:38.581Z",
+              "end_time": "2025-10-20T15:29:45.507Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 7
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 411,
+        "object_id": "interactions:arxiv.2401.12631",
+        "created_at": "2025-10-20T15:29:39+00:00",
+        "updated_at": "2025-10-20T15:30:02+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2401.12631": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2401.12631",
+        "url": "https://arxiv.org/abs/2401.12631",
+        "title": "A Reply to Makelov et al. (2023)'s \"Interpretability Illusion\" Arguments",
+        "authors": "Zhengxuan Wu, Atticus Geiger, Jing Huang, Aryaman Arora, Thomas Icard, Christopher Potts, Noah D. Goodman",
+        "abstract": "We respond to the recent paper by Makelov et al. (2023), which reviews subspace interchange intervention methods like distributed alignment search (DAS; Geiger et al. 2023) and claims that these methods potentially cause \"interpretability illusions\". We first review Makelov et al. (2023)'s technical notion of what an \"interpretability illusion\" is, and then we show that even intuitive and desirable explanations can qualify as illusions in this sense. As a result, their method of discovering \"illusions\" can reject explanations they consider \"non-illusory\". We then argue that the illusions Makelov et al. (2023) see in practice are artifacts of their training and evaluation paradigms. We close by emphasizing that, though we disagree with their core characterization, Makelov et al. (2023)'s examples and discussion have undoubtedly pushed the field of interpretability forward.",
+        "timestamp": "2025-10-20T15:29:29.025Z",
+        "rating": "novote",
+        "publishedDate": "2024/01/23",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 410,
+        "object_id": "paper:arxiv.2401.12631",
+        "created_at": "2025-10-20T15:29:29+00:00",
+        "updated_at": "2025-10-20T15:29:55+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2311.17030": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2311.17030",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-20T15:29:28.291Z",
+            "data": {
+              "session_id": "session_1760974167524_votqyvy",
+              "source_id": "arxiv",
+              "paper_id": "2311.17030",
+              "start_time": "2025-10-20T15:29:19.993Z",
+              "end_time": "2025-10-20T15:29:27.524Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 409,
+        "object_id": "interactions:arxiv.2311.17030",
+        "created_at": "2025-10-20T15:29:29+00:00",
+        "updated_at": "2025-10-20T15:29:52+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2311.17030": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2311.17030",
+        "url": "https://arxiv.org/abs/2311.17030",
+        "title": "Is This the Subspace You Are Looking for? An Interpretability Illusion for Subspace Activation Patching",
+        "authors": "Aleksandar Makelov, Georg Lange, Neel Nanda",
+        "abstract": "Mechanistic interpretability aims to understand model behaviors in terms of specific, interpretable features, often hypothesized to manifest as low-dimensional subspaces of activations. Specifically, recent studies have explored subspace interventions (such as activation patching) as a way to simultaneously manipulate model behavior and attribute the features behind it to given subspaces.\nIn this work, we demonstrate that these two aims diverge, potentially leading to an illusory sense of interpretability. Counterintuitively, even if a subspace intervention makes the model's output behave as if the value of a feature was changed, this effect may be achieved by activating a dormant parallel pathway leveraging another subspace that is causally disconnected from model outputs. We demonstrate this phenomenon in a distilled mathematical example, in two real-world domains (the indirect object identification task and factual recall), and present evidence for its prevalence in practice. In the context of factual recall, we further show a link to rank-1 fact editing, providing a mechanistic explanation for previous work observing an inconsistency between fact editing performance and fact localization.\nHowever, this does not imply that activation patching of subspaces is intrinsically unfit for interpretability. To contextualize our findings, we also show what a success case looks like in a task (indirect object identification) where prior manual circuit analysis informs an understanding of the location of a feature. We explore the additional evidence needed to argue that a patched subspace is faithful.",
+        "timestamp": "2025-10-20T15:29:20.412Z",
+        "rating": "novote",
+        "publishedDate": "2023/11/28",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 408,
+        "object_id": "paper:arxiv.2311.17030",
+        "created_at": "2025-10-20T15:29:20+00:00",
+        "updated_at": "2025-10-20T15:29:43+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2208.12852": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2208.12852",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-20T15:29:19.485Z",
+            "data": {
+              "session_id": "session_1760974159462_btk1jto",
+              "source_id": "arxiv",
+              "paper_id": "2208.12852",
+              "start_time": "2025-10-20T15:29:02.062Z",
+              "end_time": "2025-10-20T15:29:19.462Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 17
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 407,
+        "object_id": "interactions:arxiv.2208.12852",
+        "created_at": "2025-10-20T15:29:01+00:00",
+        "updated_at": "2025-10-20T15:29:28+00:00",
         "version": 1
       }
     }

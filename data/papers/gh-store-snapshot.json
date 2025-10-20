@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-20T17:36:37.859149+00:00",
+  "snapshot_time": "2025-10-20T19:15:15.672443+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -10677,6 +10677,63 @@
         "object_id": "interactions:arxiv.2509.22641",
         "created_at": "2025-10-20T17:09:44+00:00",
         "updated_at": "2025-10-20T17:10:09+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2510.11977": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.11977",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-20T19:14:24.432Z",
+            "data": {
+              "session_id": "session_1760987663566_qxhc94v",
+              "source_id": "arxiv",
+              "paper_id": "2510.11977",
+              "start_time": "2025-10-20T19:14:15.496Z",
+              "end_time": "2025-10-20T19:14:23.566Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 419,
+        "object_id": "interactions:arxiv.2510.11977",
+        "created_at": "2025-10-20T19:14:25+00:00",
+        "updated_at": "2025-10-20T19:14:49+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.11977": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.11977",
+        "url": "https://arxiv.org/abs/2510.11977",
+        "title": "Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation",
+        "authors": "Sayash Kapoor, Benedikt Stroebl, Peter Kirgis, Nitya Nadgir, Zachary S Siegel, Boyi Wei, Tianci Xue, Ziru Chen, Felix Chen, Saiteja Utpala, Franck Ndzomga, Dheeraj Oruganty, Sophie Luskin, Kangheng Liu, Botao Yu, Amit Arora, Dongyoon Hahm, Harsh Trivedi, Huan Sun, Juyong Lee, Tengjun Jin, Yifan Mai, Yifei Zhou, Yuxuan Zhu, Rishi Bommasani, Daniel Kang, Dawn Song, Peter Henderson, Yu Su, Percy Liang, Arvind Narayanan",
+        "abstract": "AI agents have been developed for complex real-world tasks from coding to customer service. But AI agent evaluations suffer from many challenges that undermine our understanding of how well agents really work. We introduce the Holistic Agent Leaderboard (HAL) to address these challenges. We make three main contributions. First, we provide a standardized evaluation harness that orchestrates parallel evaluations across hundreds of VMs, reducing evaluation time from weeks to hours while eliminating common implementation bugs. Second, we conduct three-dimensional analysis spanning models, scaffolds, and benchmarks. We validate the harness by conducting 21,730 agent rollouts across 9 models and 9 benchmarks in coding, web navigation, science, and customer service with a total cost of about $40,000. Our analysis reveals surprising insights, such as higher reasoning effort reducing accuracy in the majority of runs. Third, we use LLM-aided log inspection to uncover previously unreported behaviors, such as searching for the benchmark on HuggingFace instead of solving a task, or misusing credit cards in flight booking tasks. We share all agent logs, comprising 2.5B tokens of language model calls, to incentivize further research into agent behavior. By standardizing how the field evaluates agents and addressing common pitfalls in agent evaluation, we hope to shift the focus from agents that ace benchmarks to agents that work reliably in the real world.",
+        "timestamp": "2025-10-20T19:14:15.864Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/13",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 418,
+        "object_id": "paper:arxiv.2510.11977",
+        "created_at": "2025-10-20T19:14:16+00:00",
+        "updated_at": "2025-10-20T19:14:43+00:00",
         "version": 1
       }
     }

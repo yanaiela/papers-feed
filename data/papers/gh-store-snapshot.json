@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-20T15:22:13.435261+00:00",
+  "snapshot_time": "2025-10-20T15:23:39.482481+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -10115,6 +10115,33 @@
         "object_id": "interactions:arxiv.2508.13180",
         "created_at": "2025-10-20T15:21:15+00:00",
         "updated_at": "2025-10-20T15:21:43+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2507.14417": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2507.14417",
+        "url": "https://arxiv.org/pdf/2507.14417?",
+        "title": "Inverse Scaling in Test-Time Compute",
+        "authors": "Aryo Pradipta Gema, Alexander H\u00e4gele, Runjin Chen, Andy Arditi, Jacob Goldman-Wetzler, Kit Fraser-Taliente, Henry Sleight, Linda Petrini, Julian Michael, Beatrice Alex, Pasquale Minervini, Yanda Chen, Joe Benton, Ethan Perez",
+        "abstract": "We construct evaluation tasks where extending the reasoning length of Large\nReasoning Models (LRMs) deteriorates performance, exhibiting an inverse scaling\nrelationship between test-time compute and accuracy. Our evaluation tasks span\nfour categories: simple counting tasks with distractors, regression tasks with\nspurious features, deduction tasks with constraint tracking, and advanced AI\nrisks. We identify five distinct failure modes when models reason for longer:\n1) Claude models become increasingly distracted by irrelevant information; 2)\nOpenAI o-series models resist distractors but overfit to problem framings; 3)\nmodels shift from reasonable priors to spurious correlations; 4) all models\nshow difficulties in maintaining focus on complex deductive tasks; and 5)\nextended reasoning may amplify concerning behaviors, with Claude Sonnet 4\nshowing increased expressions of self-preservation. These findings suggest that\nwhile test-time compute scaling remains promising for improving model\ncapabilities, it may inadvertently reinforce problematic reasoning patterns.\nOur results demonstrate the importance of evaluating models across diverse\nreasoning lengths to identify and address these failure modes in LRMs.",
+        "timestamp": "2025-10-20T15:22:54.027Z",
+        "rating": "novote",
+        "publishedDate": "2025-07-19T00:06:13Z",
+        "tags": [
+          "cs.AI",
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 401,
+        "object_id": "paper:arxiv.2507.14417",
+        "created_at": "2025-10-20T15:22:54+00:00",
+        "updated_at": "2025-10-20T15:23:18+00:00",
         "version": 1
       }
     }

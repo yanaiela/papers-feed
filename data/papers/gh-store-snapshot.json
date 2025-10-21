@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-21T13:22:35.146007+00:00",
+  "snapshot_time": "2025-10-21T13:44:24.449085+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -11465,6 +11465,117 @@
         "object_id": "paper:arxiv.2510.15020",
         "created_at": "2025-10-21T13:08:30+00:00",
         "updated_at": "2025-10-21T13:09:03+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.16096": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.16096",
+        "url": "https://arxiv.org/abs/2510.16096",
+        "title": "Facts in Stats: Impacts of Pretraining Diversity on Language Model Generalization",
+        "authors": "Tina Behnia, Puneesh Deora, Christos Thrampoulidis",
+        "abstract": "Language models are pretrained on sequences that blend statistical regularities (making text fluent) with factual associations between specific tokens (knowledge of facts). While recent work suggests that the variability of their interaction, such as paraphrases of factual associations, critically determines generalization ability, we lack a systematic analysis of these impacts. This paper introduces a flexible synthetic testbed that combines a statistical stream of generic tokens with an abstract factual stream of source-target token pairs, enabling fine-grained control over their interaction. The design enables the independent control of diversity nature by manipulating stream composition (contextual structure) and the diversity level by varying which statistical streams each fact appears in. Through controlled experiments, we find that while higher contextual diversity delays in-distribution (ID) factual accuracy, its impact on out-of-distribution (OOD) factual generalization depends critically on contextual structure. In some cases, OOD performance follows the same trend as ID, but in others, diversity becomes essential for non-trivial factual recall. Even when low diversity prohibits factual recall, optimal diversity levels depend on training duration. Beyond factual recall failures, we identify structures where statistical generalization fails independently, and others where both capabilities degrade. This shows how the interplay between contextual design and diversity level impacts different generalization aspects. Further, through a series of controlled interventions on the model components, we trace the OOD failures to distinct optimization bottlenecks, highlighting the importance of the embedding and unembedding layers. Our synthetic framework allows us to isolate effects that would be confounded in large-scale studies, offering a controlled testbed for future investigations.",
+        "timestamp": "2025-10-21T13:43:17.855Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/17",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 445,
+        "object_id": "paper:arxiv.2510.16096",
+        "created_at": "2025-10-21T13:43:18+00:00",
+        "updated_at": "2025-10-21T13:43:48+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2106.02736": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2106.02736",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-21T13:43:04.794Z",
+            "data": {
+              "session_id": "session_1761054184751_4d7s0cg",
+              "source_id": "arxiv",
+              "paper_id": "2106.02736",
+              "start_time": "2025-10-21T13:42:58.495Z",
+              "end_time": "2025-10-21T13:43:04.751Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 444,
+        "object_id": "interactions:arxiv.2106.02736",
+        "created_at": "2025-10-21T13:43:05+00:00",
+        "updated_at": "2025-10-21T13:43:33+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2106.02736": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2106.02736",
+        "url": "https://arxiv.org/abs/2106.02736",
+        "title": "Exposing the Implicit Energy Networks behind Masked Language Models via Metropolis--Hastings",
+        "authors": "Kartik Goyal, Chris Dyer, Taylor Berg-Kirkpatrick",
+        "abstract": "While recent work has shown that scores from models trained by the ubiquitous masked language modeling (MLM) objective effectively discriminate probable from improbable sequences, it is still an open question if these MLMs specify a principled probability distribution over the space of possible sequences. In this paper, we interpret MLMs as energy-based sequence models and propose two energy parametrizations derivable from the trained MLMs. In order to draw samples correctly from these models, we develop a tractable sampling scheme based on the Metropolis--Hastings Monte Carlo algorithm. In our approach, samples are proposed from the same masked conditionals used for training the masked language models, and they are accepted or rejected based on their energy values according to the target distribution. We validate the effectiveness of the proposed parametrizations by exploring the quality of samples drawn from these energy-based models for both open-ended unconditional generation and a conditional generation task of machine translation. We theoretically and empirically justify our sampling algorithm by showing that the masked conditionals on their own do not yield a Markov chain whose stationary distribution is that of our target distribution, and our approach generates higher quality samples than other recently proposed undirected generation approaches (Wang et al., 2019, Ghazvininejad et al., 2019).",
+        "timestamp": "2025-10-21T13:42:54.362Z",
+        "rating": "novote",
+        "publishedDate": "2021/06/04",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 443,
+        "object_id": "paper:arxiv.2106.02736",
+        "created_at": "2025-10-21T13:42:54+00:00",
+        "updated_at": "2025-10-21T13:43:21+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.1902.04094": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1902.04094",
+        "url": "https://arxiv.org/abs/1902.04094",
+        "title": "BERT has a Mouth, and It Must Speak: BERT as a Markov Random Field Language Model",
+        "authors": "Alex Wang, Kyunghyun Cho",
+        "abstract": "We show that BERT (Devlin et al., 2018) is a Markov random field language model. This formulation gives way to a natural procedure to sample sentences from BERT. We generate from BERT and find that it can produce high-quality, fluent generations. Compared to the generations of a traditional left-to-right language model, BERT generates sentences that are more diverse but of slightly worse quality.",
+        "timestamp": "2025-10-21T13:42:53.997Z",
+        "rating": "novote",
+        "publishedDate": "2019/02/11",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 442,
+        "object_id": "paper:arxiv.1902.04094",
+        "created_at": "2025-10-21T13:42:54+00:00",
+        "updated_at": "2025-10-21T13:43:25+00:00",
         "version": 1
       }
     }

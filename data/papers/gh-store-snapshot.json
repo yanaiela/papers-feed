@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-21T11:45:27.236613+00:00",
+  "snapshot_time": "2025-10-21T13:09:41.122605+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -11420,6 +11420,36 @@
         "object_id": "paper:arxiv.2502.20273",
         "created_at": "2025-10-21T11:35:05+00:00",
         "updated_at": "2025-10-21T11:35:33+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.15020": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.15020",
+        "url": "https://arxiv.org/abs/2510.15020",
+        "title": "The Coverage Principle: How Pre-training Enables Post-Training",
+        "authors": "Fan Chen, Audrey Huang, Noah Golowich, Sadhika Malladi, Adam Block, Jordan T. Ash, Akshay Krishnamurthy, Dylan J. Foster",
+        "abstract": "Language models demonstrate remarkable abilities when pre-trained on large text corpora and fine-tuned for specific tasks, but how and why pre-training shapes the success of the final model remains poorly understood. Notably, although pre-training success is often quantified by cross entropy loss, cross-entropy can be a poor predictor of downstream performance. Instead, we provide a theoretical perspective on this relationship through the lens of \\emph{coverage}, which quantifies the probability mass the pre-trained model places on high-quality responses and which is necessary and sufficient for post-training and test-time scaling methods such as Best-of-N to succeed. Our main results develop an understanding of \\emph{the coverage principle}, a phenomenon whereby next-token prediction implicitly optimizes toward a model with good coverage. In particular, we uncover a mechanism that explains the power of coverage in predicting downstream performance: \\emph{coverage generalizes faster than cross entropy}, avoiding spurious dependence on problem-dependent parameters such as the sequence length. We also study practical algorithmic interventions with provable benefits for improving coverage, including (i) model/checkpoint selection procedures, (ii) gradient normalization schemes, and (iii) test-time decoding strategies.",
+        "timestamp": "2025-10-21T13:08:29.781Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/16",
+        "tags": [
+          "Machine Learning (stat.ML)",
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)",
+          "Statistics Theory (math.ST)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 440,
+        "object_id": "paper:arxiv.2510.15020",
+        "created_at": "2025-10-21T13:08:30+00:00",
+        "updated_at": "2025-10-21T13:09:03+00:00",
         "version": 1
       }
     }

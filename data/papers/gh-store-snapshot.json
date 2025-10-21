@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-21T07:37:49.711090+00:00",
+  "snapshot_time": "2025-10-21T07:43:57.501849+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -11067,6 +11067,58 @@
         "object_id": "paper:openreview.Vh0Rh4GW33",
         "created_at": "2025-10-21T07:36:38+00:00",
         "updated_at": "2025-10-21T07:37:08+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.kKD9MTFU39": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "kKD9MTFU39",
+        "url": "https://openreview.net/forum?id=kKD9MTFU39&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "Test",
+        "authors": "Royi Rassin",
+        "abstract": "Abstract",
+        "timestamp": "2025-10-21T07:42:23.969Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Text"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 429,
+        "object_id": "paper:openreview.kKD9MTFU39",
+        "created_at": "2025-10-21T07:42:24+00:00",
+        "updated_at": "2025-10-21T07:42:51+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.2dl6upRXZj": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "2dl6upRXZj",
+        "url": "https://openreview.net/forum?id=2dl6upRXZj&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "IQ Test for LLMs: An Evaluation Framework for Uncovering Core Skills in LLMs",
+        "authors": "Aviya Maimon",
+        "abstract": "Current evaluations of large language models (LLMs) rely on benchmark scores, but it is difficult to interpret what these individual scores reveal about a model's overall skills. Specifically, as a community we lack understanding of how tasks relate to one another, what they measure in common, how they differ, or which ones are redundant. As a result, models are often assessed via a single score averaged across benchmarks, an approach that fails to capture the models' wholistic strengths and limitations. Here, we propose a new evaluation paradigm that uses factor analysis to identify latent skills driving performance across benchmarks. We apply this method to a comprehensive new leaderboard showcasing the performance of 60 LLMs on 44 tasks, and identify a small set of latent skills that largely explain performance. Finally, we turn these insights into practical tools that identify redundant tasks, aid in model selection, and profile models along each latent skill.",
+        "timestamp": "2025-10-21T07:42:12.031Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "evaluation"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 428,
+        "object_id": "paper:openreview.2dl6upRXZj",
+        "created_at": "2025-10-21T07:42:12+00:00",
+        "updated_at": "2025-10-21T07:42:39+00:00",
         "version": 1
       }
     }

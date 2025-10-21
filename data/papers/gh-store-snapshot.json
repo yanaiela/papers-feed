@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-21T07:22:42.253474+00:00",
+  "snapshot_time": "2025-10-21T07:31:09.653392+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -10903,6 +10903,21 @@
               "idle_seconds": 3,
               "total_elapsed_seconds": 113
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-21T07:29:46.154Z",
+            "data": {
+              "session_id": "session_1761031785263_di8c2lv",
+              "source_id": "arxiv",
+              "paper_id": "2505.01954",
+              "start_time": "2025-10-21T07:25:16.448Z",
+              "end_time": "2025-10-21T07:29:45.263Z",
+              "heartbeat_count": 53,
+              "duration_seconds": 265,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 269
+            }
           }
         ]
       },
@@ -10910,7 +10925,7 @@
         "issue_number": 423,
         "object_id": "interactions:arxiv.2505.01954",
         "created_at": "2025-10-21T06:34:07+00:00",
-        "updated_at": "2025-10-21T07:22:12+00:00",
+        "updated_at": "2025-10-21T07:30:14+00:00",
         "version": 1
       }
     },
@@ -10937,6 +10952,33 @@
         "object_id": "paper:arxiv.2505.01954",
         "created_at": "2025-10-21T06:33:31+00:00",
         "updated_at": "2025-10-21T06:34:10+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2408.08541": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2408.08541",
+        "url": "https://arxiv.org/pdf/2408.08541",
+        "title": "Where is the signal in tokenization space?",
+        "authors": "Renato Lui Geh, Honghua Zhang, Kareem Ahmed, Benjie Wang, Guy Van den Broeck",
+        "abstract": "Large Language Models (LLMs) are typically shipped with tokenizers that\ndeterministically encode text into so-called canonical token sequences, to\nwhich the LLMs assign probability values. One common assumption is that the\nprobability of a piece of text is the probability of its canonical token\nsequence. However, the tokenization of a string is not unique: e.g., the Llama2\ntokenizer encodes Tokens as [Tok,ens], but [Tok,en,s] also represents the same\ntext. In this paper, we study non-canonical tokenizations. We prove that, given\na string, it is computationally hard to find the most likely tokenization for\nan autoregressive LLM, as well as to compute the marginal probability over all\npossible tokenizations. We then show how the marginal is, in most cases,\nindistinguishable from the canonical probability. Surprisingly, we then\nempirically demonstrate the existence of a significant amount of signal hidden\nwithin tokenization space. Notably, by simply aggregating the probabilities of\nnon-canonical tokenizations, we achieve improvements across a range of LLM\nevaluation benchmarks for a variety of architectures, including transformers\nand state space models.",
+        "timestamp": "2025-10-21T07:30:06.809Z",
+        "rating": "novote",
+        "publishedDate": "2024-08-16T05:56:10Z",
+        "tags": [
+          "cs.CL",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 424,
+        "object_id": "paper:arxiv.2408.08541",
+        "created_at": "2025-10-21T07:30:07+00:00",
+        "updated_at": "2025-10-21T07:30:38+00:00",
         "version": 1
       }
     }

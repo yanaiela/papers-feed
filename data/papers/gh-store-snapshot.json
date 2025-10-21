@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-21T13:48:38.099730+00:00",
+  "snapshot_time": "2025-10-21T14:01:14.720002+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -6898,26 +6898,41 @@
         "interactions": [
           {
             "type": "reading_session",
-            "timestamp": "2025-10-15T14:02:16.193Z",
+            "timestamp": "2025-10-15T14:10:22.034Z",
             "data": {
-              "session_id": "session_1760536935539_nbomscy",
+              "session_id": "session_1760537422001_02xhyi9",
               "source_id": "openreview",
               "paper_id": "w7LU2s14kE",
-              "start_time": "2025-10-15T14:00:04.773Z",
-              "end_time": "2025-10-15T14:02:15.539Z",
-              "heartbeat_count": 26,
-              "duration_seconds": 130,
-              "idle_seconds": 1,
-              "total_elapsed_seconds": 131
+              "start_time": "2025-10-15T14:10:14.496Z",
+              "end_time": "2025-10-15T14:10:22.001Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-21T14:00:18.193Z",
+            "data": {
+              "session_id": "session_1761055218185_in8ahsu",
+              "source_id": "openreview",
+              "paper_id": "w7LU2s14kE",
+              "start_time": "2025-10-21T14:00:11.480Z",
+              "end_time": "2025-10-21T14:00:18.185Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 7
             }
           }
         ]
       },
       "meta": {
-        "issue_number": 275,
+        "issue_number": 279,
         "object_id": "interactions:openreview.w7LU2s14kE",
-        "created_at": "2025-10-15T13:59:50+00:00",
-        "updated_at": "2025-10-15T18:45:32+00:00",
+        "created_at": "2025-10-15T14:07:40+00:00",
+        "updated_at": "2025-10-21T14:00:33+00:00",
         "version": 1
       }
     },

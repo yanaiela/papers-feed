@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-21T07:34:43.722085+00:00",
+  "snapshot_time": "2025-10-21T07:37:49.711090+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -11009,6 +11009,64 @@
         "object_id": "interactions:arxiv.2408.08541",
         "created_at": "2025-10-21T07:33:10+00:00",
         "updated_at": "2025-10-21T07:34:10+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.Vh0Rh4GW33": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "Vh0Rh4GW33",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-21T07:36:48.143Z",
+            "data": {
+              "session_id": "session_1761032207561_9fb2pec",
+              "source_id": "openreview",
+              "paper_id": "Vh0Rh4GW33",
+              "start_time": "2025-10-21T07:36:37.412Z",
+              "end_time": "2025-10-21T07:36:47.561Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 10
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 427,
+        "object_id": "interactions:openreview.Vh0Rh4GW33",
+        "created_at": "2025-10-21T07:36:48+00:00",
+        "updated_at": "2025-10-21T07:37:18+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.Vh0Rh4GW33": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "Vh0Rh4GW33",
+        "url": "https://openreview.net/forum?id=Vh0Rh4GW33&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "Test",
+        "authors": "Yanai Elazar",
+        "abstract": "This is a test!",
+        "timestamp": "2025-10-21T07:36:37.778Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "test",
+          "nlp",
+          "ai"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 426,
+        "object_id": "paper:openreview.Vh0Rh4GW33",
+        "created_at": "2025-10-21T07:36:38+00:00",
+        "updated_at": "2025-10-21T07:37:08+00:00",
         "version": 1
       }
     }

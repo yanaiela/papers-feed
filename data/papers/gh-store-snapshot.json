@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-21T16:34:49.174079+00:00",
+  "snapshot_time": "2025-10-21T16:46:51.785457+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -11711,6 +11711,32 @@
         "object_id": "interactions:arxiv.2504.05228",
         "created_at": "2025-10-21T16:33:27+00:00",
         "updated_at": "2025-10-21T16:34:03+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2305.16938": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2305.16938",
+        "url": "https://arxiv.org/abs/2305.16938",
+        "title": "Few-shot Fine-tuning vs. In-context Learning: A Fair Comparison and Evaluation",
+        "authors": "Marius Mosbach, Tiago Pimentel, Shauli Ravfogel, Dietrich Klakow, Yanai Elazar",
+        "abstract": "Few-shot fine-tuning and in-context learning are two alternative strategies for task adaptation of pre-trained language models. Recently, in-context learning has gained popularity over fine-tuning due to its simplicity and improved out-of-domain generalization, and because extensive evidence shows that fine-tuned models pick up on spurious correlations. Unfortunately, previous comparisons of the two approaches were done using models of different sizes. This raises the question of whether the observed weaker out-of-domain generalization of fine-tuned models is an inherent property of fine-tuning or a limitation of the experimental setup. In this paper, we compare the generalization of few-shot fine-tuning and in-context learning to challenge datasets, while controlling for the models used, the number of examples, and the number of parameters, ranging from 125M to 30B. Our results show that fine-tuned language models can in fact generalize well out-of-domain. We find that both approaches generalize similarly; they exhibit large variation and depend on properties such as model size and the number of examples, highlighting that robust task adaptation remains a challenge.",
+        "timestamp": "2025-10-21T16:44:09.337Z",
+        "rating": "novote",
+        "publishedDate": "2023/05/26",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 448,
+        "object_id": "paper:arxiv.2305.16938",
+        "created_at": "2025-10-21T16:44:09+00:00",
+        "updated_at": "2025-10-21T16:44:36+00:00",
         "version": 1
       }
     }

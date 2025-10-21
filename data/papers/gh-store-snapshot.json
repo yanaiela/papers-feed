@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-21T11:07:17.351513+00:00",
+  "snapshot_time": "2025-10-21T11:45:27.236613+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -11361,6 +11361,65 @@
         "object_id": "paper:arxiv.1903.00161",
         "created_at": "2025-10-21T10:43:04+00:00",
         "updated_at": "2025-10-21T10:43:33+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2502.20273": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2502.20273",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-21T11:35:17.402Z",
+            "data": {
+              "session_id": "session_1761046516698_5nexi69",
+              "source_id": "arxiv",
+              "paper_id": "2502.20273",
+              "start_time": "2025-10-21T11:35:04.666Z",
+              "end_time": "2025-10-21T11:35:16.697Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 12
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 439,
+        "object_id": "interactions:arxiv.2502.20273",
+        "created_at": "2025-10-21T11:35:18+00:00",
+        "updated_at": "2025-10-21T11:35:49+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2502.20273": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2502.20273",
+        "url": "https://arxiv.org/abs/2502.20273",
+        "title": "How Much is Enough? The Diminishing Returns of Tokenization Training Data",
+        "authors": "Varshini Reddy, Craig W. Schmidt, Yuval Pinter, Chris Tanner",
+        "abstract": "Tokenization, a crucial initial step in natural language processing, is governed by several key parameters, such as the tokenization algorithm, vocabulary size, pre-tokenization strategy, inference strategy, and training data corpus. This paper investigates the impact of an often-overlooked hyperparameter, tokenizer training data size. We train BPE, UnigramLM, and WordPiece tokenizers across various vocabulary sizes using English training data ranging from 1GB to 900GB. Our findings reveal diminishing returns as training data size increases beyond roughly 150GB, suggesting a practical limit to the improvements in tokenization quality achievable through additional data. We analyze this phenomenon and attribute the saturation effect to constraints introduced by the pre-tokenization stage. We then demonstrate the extent to which these findings can generalize by experimenting on data in Russian, a language typologically distant from English. For Russian text, we observe diminishing returns after training a tokenizer from 200GB of data, which is approximately 33% more than when training on English. These results provide valuable insights for optimizing the tokenization process by reducing the compute required for training on large corpora and suggest promising directions for future research in tokenization algorithms.",
+        "timestamp": "2025-10-21T11:35:05.068Z",
+        "rating": "novote",
+        "publishedDate": "2025/02/27",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Computational Engineering",
+          "Finance",
+          "and Science (cs.CE)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 438,
+        "object_id": "paper:arxiv.2502.20273",
+        "created_at": "2025-10-21T11:35:05+00:00",
+        "updated_at": "2025-10-21T11:35:33+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-22T07:17:32.455817+00:00",
+  "snapshot_time": "2025-10-22T08:58:22.624017+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -11853,6 +11853,34 @@
         "object_id": "paper:arxiv.2308.09124",
         "created_at": "2025-10-22T07:16:23+00:00",
         "updated_at": "2025-10-22T07:16:55+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2310.11501": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.11501",
+        "url": "https://arxiv.org/pdf/2310.11501",
+        "title": "CoMPosT: Characterizing and Evaluating Caricature in LLM Simulations",
+        "authors": "Myra Cheng, Tiziano Piccardi, Diyi Yang",
+        "abstract": "Recent work has aimed to capture nuances of human behavior by using LLMs to\nsimulate responses from particular demographics in settings like social science\nexperiments and public opinion surveys. However, there are currently no\nestablished ways to discuss or evaluate the quality of such LLM simulations.\nMoreover, there is growing concern that these LLM simulations are flattened\ncaricatures of the personas that they aim to simulate, failing to capture the\nmultidimensionality of people and perpetuating stereotypes. To bridge these\ngaps, we present CoMPosT, a framework to characterize LLM simulations using\nfour dimensions: Context, Model, Persona, and Topic. We use this framework to\nmeasure open-ended LLM simulations' susceptibility to caricature, defined via\ntwo criteria: individuation and exaggeration. We evaluate the level of\ncaricature in scenarios from existing work on LLM simulations. We find that for\nGPT-4, simulations of certain demographics (political and marginalized groups)\nand topics (general, uncontroversial) are highly susceptible to caricature.",
+        "timestamp": "2025-10-22T08:57:11.460Z",
+        "rating": "novote",
+        "publishedDate": "2023-10-17T18:00:25Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CY"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 453,
+        "object_id": "paper:arxiv.2310.11501",
+        "created_at": "2025-10-22T08:57:11+00:00",
+        "updated_at": "2025-10-22T08:57:42+00:00",
         "version": 1
       }
     }

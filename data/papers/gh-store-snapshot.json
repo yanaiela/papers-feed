@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-22T06:24:56.984125+00:00",
+  "snapshot_time": "2025-10-22T07:17:32.455817+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -11797,6 +11797,62 @@
         "object_id": "paper:arxiv.2305.16938",
         "created_at": "2025-10-21T16:44:09+00:00",
         "updated_at": "2025-10-21T16:44:36+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2308.09124": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2308.09124",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-22T07:16:32.915Z",
+            "data": {
+              "session_id": "session_1761117392194_ckodd03",
+              "source_id": "arxiv",
+              "paper_id": "2308.09124",
+              "start_time": "2025-10-22T07:16:22.503Z",
+              "end_time": "2025-10-22T07:16:32.194Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 5,
+              "total_elapsed_seconds": 10
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 452,
+        "object_id": "interactions:arxiv.2308.09124",
+        "created_at": "2025-10-22T07:16:33+00:00",
+        "updated_at": "2025-10-22T07:17:04+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2308.09124": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2308.09124",
+        "url": "https://arxiv.org/pdf/2308.09124",
+        "title": "Linearity of Relation Decoding in Transformer Language Models",
+        "authors": "Evan Hernandez, Arnab Sen Sharma, Tal Haklay, Kevin Meng, Martin Wattenberg, Jacob Andreas, Yonatan Belinkov, David Bau",
+        "abstract": "Much of the knowledge encoded in transformer language models (LMs) may be\nexpressed in terms of relations: relations between words and their synonyms,\nentities and their attributes, etc. We show that, for a subset of relations,\nthis computation is well-approximated by a single linear transformation on the\nsubject representation. Linear relation representations may be obtained by\nconstructing a first-order approximation to the LM from a single prompt, and\nthey exist for a variety of factual, commonsense, and linguistic relations.\nHowever, we also identify many cases in which LM predictions capture relational\nknowledge accurately, but this knowledge is not linearly encoded in their\nrepresentations. Our results thus reveal a simple, interpretable, but\nheterogeneously deployed knowledge representation strategy in transformer LMs.",
+        "timestamp": "2025-10-22T07:16:23.050Z",
+        "rating": "novote",
+        "publishedDate": "2023-08-17T17:59:19Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 451,
+        "object_id": "paper:arxiv.2308.09124",
+        "created_at": "2025-10-22T07:16:23+00:00",
+        "updated_at": "2025-10-22T07:16:55+00:00",
         "version": 1
       }
     }

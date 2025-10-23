@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-22T20:57:28.785499+00:00",
+  "snapshot_time": "2025-10-23T06:20:46.487583+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -11778,6 +11778,21 @@
               "idle_seconds": 2,
               "total_elapsed_seconds": 7
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-23T06:19:09.866Z",
+            "data": {
+              "session_id": "session_1761200349862_0mmxb7m",
+              "source_id": "arxiv",
+              "paper_id": "2510.16096",
+              "start_time": "2025-10-23T06:19:04.853Z",
+              "end_time": "2025-10-23T06:19:09.862Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 5
+            }
           }
         ]
       },
@@ -11785,7 +11800,7 @@
         "issue_number": 446,
         "object_id": "interactions:arxiv.2510.16096",
         "created_at": "2025-10-21T13:47:17+00:00",
-        "updated_at": "2025-10-21T18:45:20+00:00",
+        "updated_at": "2025-10-23T06:19:44+00:00",
         "version": 1
       }
     },
@@ -11926,6 +11941,33 @@
         "object_id": "paper:arxiv.2310.11501",
         "created_at": "2025-10-22T08:57:11+00:00",
         "updated_at": "2025-10-22T08:57:42+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2210.09404": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2210.09404",
+        "url": "https://arxiv.org/abs/2210.09404",
+        "title": "Measures of Information Reflect Memorization Patterns",
+        "authors": "Rachit Bansal, Danish Pruthi, Yonatan Belinkov",
+        "abstract": "Neural networks are known to exploit spurious artifacts (or shortcuts) that co-occur with a target label, exhibiting heuristic memorization. On the other hand, networks have been shown to memorize training examples, resulting in example-level memorization. These kinds of memorization impede generalization of networks beyond their training distributions. Detecting such memorization could be challenging, often requiring researchers to curate tailored test sets. In this work, we hypothesize -- and subsequently show -- that the diversity in the activation patterns of different neurons is reflective of model generalization and memorization. We quantify the diversity in the neural activations through information-theoretic measures and find support for our hypothesis on experiments spanning several natural language and vision tasks. Importantly, we discover that information organization points to the two forms of memorization, even for neural activations computed on unlabelled in-distribution examples. Lastly, we demonstrate the utility of our findings for the problem of model selection. The associated code and other resources for this work are available at this https URL.",
+        "timestamp": "2025-10-23T06:19:44.914Z",
+        "rating": "novote",
+        "publishedDate": "2022/10/17",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Information Theory (cs.IT)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 454,
+        "object_id": "paper:arxiv.2210.09404",
+        "created_at": "2025-10-23T06:19:45+00:00",
+        "updated_at": "2025-10-23T06:20:17+00:00",
         "version": 1
       }
     }

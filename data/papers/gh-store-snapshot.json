@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-23T07:22:38.444795+00:00",
+  "snapshot_time": "2025-10-23T07:33:30.424270+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -12470,6 +12470,34 @@
         "object_id": "paper:arxiv.2304.03738",
         "created_at": "2025-10-23T07:20:52+00:00",
         "updated_at": "2025-10-23T07:21:25+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2402.01909": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2402.01909",
+        "url": "https://arxiv.org/pdf/2402.01909",
+        "title": "On Catastrophic Inheritance of Large Foundation Models",
+        "authors": "Hao Chen, Bhiksha Raj, Xing Xie, Jindong Wang",
+        "abstract": "Large foundation models (LFMs) are claiming incredible performances. Yet\ngreat concerns have been raised about their mythic and uninterpreted potentials\nnot only in machine learning, but also in various other disciplines. In this\nposition paper, we propose to identify a neglected issue deeply rooted in LFMs:\nCatastrophic Inheritance, describing the weaknesses and limitations inherited\nfrom biased large-scale pre-training data to behaviors of LFMs on the\ndownstream tasks, including samples that are corrupted, long-tailed, noisy,\nout-of-distributed, to name a few. Such inheritance can potentially cause\ncatastrophes to downstream applications, such as bias, lack of generalization,\ndeteriorated performance, security vulnerability, privacy leakage, and value\nmisalignment. We discuss the challenges behind this issue and propose UIM, a\nframework to Understand the catastrophic inheritance of LFMs from both\npre-training and downstream adaptation, Interpret the implications of\ncatastrophic inheritance on downstream tasks, and how to Mitigate it. UIM aims\nto unite both the machine learning and social sciences communities for more\nresponsible and promising AI development and deployment.",
+        "timestamp": "2025-10-23T07:32:24.524Z",
+        "rating": "novote",
+        "publishedDate": "2024-02-02T21:21:55Z",
+        "tags": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CY"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 475,
+        "object_id": "paper:arxiv.2402.01909",
+        "created_at": "2025-10-23T07:32:24+00:00",
+        "updated_at": "2025-10-23T07:32:53+00:00",
         "version": 1
       }
     }

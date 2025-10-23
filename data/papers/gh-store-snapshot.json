@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-23T07:34:41.981596+00:00",
+  "snapshot_time": "2025-10-23T07:55:39.167507+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -12528,6 +12528,60 @@
         "object_id": "interactions:arxiv.2402.01909",
         "created_at": "2025-10-23T07:33:28+00:00",
         "updated_at": "2025-10-23T07:34:01+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2212.08037": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2212.08037",
+        "url": "https://arxiv.org/abs/2212.08037",
+        "title": "Attributed Question Answering: Evaluation and Modeling for Attributed Large Language Models",
+        "authors": "Bernd Bohnet, Vinh Q. Tran, Pat Verga, Roee Aharoni, Daniel Andor, Livio Baldini Soares, Massimiliano Ciaramita, Jacob Eisenstein, Kuzman Ganchev, Jonathan Herzig, Kai Hui, Tom Kwiatkowski, Ji Ma, Jianmo Ni, Lierni Sestorain Saralegui, Tal Schuster, William W. Cohen, Michael Collins, Dipanjan Das, Donald Metzler, Slav Petrov, Kellie Webster",
+        "abstract": "Large language models (LLMs) have shown impressive results while requiring little or no direct supervision. Further, there is mounting evidence that LLMs may have potential in information-seeking scenarios. We believe the ability of an LLM to attribute the text that it generates is likely to be crucial in this setting. We formulate and study Attributed QA as a key first step in the development of attributed LLMs. We propose a reproducible evaluation framework for the task and benchmark a broad set of architectures. We take human annotations as a gold standard and show that a correlated automatic metric is suitable for development. Our experimental work gives concrete answers to two key questions (How to measure attribution?, and How well do current state-of-the-art methods perform on attribution?), and give some hints as to how to address a third (How to build LLMs with attribution?).",
+        "timestamp": "2025-10-23T07:54:38.526Z",
+        "rating": "novote",
+        "publishedDate": "2022/12/15",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 478,
+        "object_id": "paper:arxiv.2212.08037",
+        "created_at": "2025-10-23T07:54:38+00:00",
+        "updated_at": "2025-10-23T07:55:06+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2509.14223": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.14223",
+        "url": "https://arxiv.org/abs/2509.14223",
+        "title": "Fresh in memory: Training-order recency is linearly encoded in language model activations",
+        "authors": "Dmitrii Krasheninnikov, Richard E. Turner, David Krueger",
+        "abstract": "We show that language models' activations linearly encode when information was learned during training. Our setup involves creating a model with a known training order by sequentially fine-tuning Llama-3.2-1B on six disjoint but otherwise similar datasets about named entities. We find that the average activations of test samples corresponding to the six training datasets encode the training order: when projected into a 2D subspace, these centroids are arranged exactly in the order of training and lie on a straight line. Further, we show that linear probes can accurately (~90%) distinguish \"early\" vs. \"late\" entities, generalizing to entities unseen during the probes' own training. The model can also be fine-tuned to explicitly report an unseen entity's training stage (~80% accuracy). Interestingly, the training-order encoding does not seem attributable to simple differences in activation magnitudes, losses, or model confidence. Our paper demonstrates that models are capable of differentiating information by its acquisition time, and carries significant implications for how they might manage conflicting data and respond to knowledge modifications.",
+        "timestamp": "2025-10-23T07:53:58.717Z",
+        "rating": "novote",
+        "publishedDate": "2025/09/17",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 477,
+        "object_id": "paper:arxiv.2509.14223",
+        "created_at": "2025-10-23T07:53:59+00:00",
+        "updated_at": "2025-10-23T07:54:27+00:00",
         "version": 1
       }
     }

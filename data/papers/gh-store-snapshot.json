@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-23T07:14:54.411701+00:00",
+  "snapshot_time": "2025-10-23T07:17:10.966582+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -12356,6 +12356,63 @@
         "object_id": "paper:arxiv.2412.06966",
         "created_at": "2025-10-23T07:13:05+00:00",
         "updated_at": "2025-10-23T07:13:30+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2302.10870": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2302.10870",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-23T07:16:07.681Z",
+            "data": {
+              "session_id": "session_1761203767108_qcxbja3",
+              "source_id": "arxiv",
+              "paper_id": "2302.10870",
+              "start_time": "2025-10-23T07:15:34.189Z",
+              "end_time": "2025-10-23T07:16:07.108Z",
+              "heartbeat_count": 6,
+              "duration_seconds": 30,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 33
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 472,
+        "object_id": "interactions:arxiv.2302.10870",
+        "created_at": "2025-10-23T07:16:08+00:00",
+        "updated_at": "2025-10-23T07:16:38+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2302.10870": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2302.10870",
+        "url": "https://arxiv.org/pdf/2302.10870",
+        "title": "On Provable Copyright Protection for Generative Models",
+        "authors": "Nikhil Vyas, Sham Kakade, Boaz Barak",
+        "abstract": "There is a growing concern that learned conditional generative models may\noutput samples that are substantially similar to some copyrighted data $C$ that\nwas in their training set. We give a formal definition of $\\textit{near\naccess-freeness (NAF)}$ and prove bounds on the probability that a model\nsatisfying this definition outputs a sample similar to $C$, even if $C$ is\nincluded in its training set. Roughly speaking, a generative model $p$ is\n$\\textit{$k$-NAF}$ if for every potentially copyrighted data $C$, the output of\n$p$ diverges by at most $k$-bits from the output of a model $q$ that\n$\\textit{did not access $C$ at all}$. We also give generative model learning\nalgorithms, which efficiently modify the original generative model learning\nalgorithm in a black box manner, that output generative models with strong\nbounds on the probability of sampling protected content. Furthermore, we\nprovide promising experiments for both language (transformers) and image\n(diffusion) generative models, showing minimal degradation in output quality\nwhile ensuring strong protections against sampling protected content.",
+        "timestamp": "2025-10-23T07:15:34.427Z",
+        "rating": "novote",
+        "publishedDate": "2023-02-21T18:34:51Z",
+        "tags": [
+          "cs.LG",
+          "stat.ML"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 469,
+        "object_id": "paper:arxiv.2302.10870",
+        "created_at": "2025-10-23T07:15:34+00:00",
+        "updated_at": "2025-10-23T07:16:05+00:00",
         "version": 1
       }
     }

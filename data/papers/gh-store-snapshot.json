@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-23T08:32:20.048935+00:00",
+  "snapshot_time": "2025-10-23T08:43:21.203237+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -12756,6 +12756,62 @@
         "object_id": "paper:arxiv.2510.18019",
         "created_at": "2025-10-23T08:30:33+00:00",
         "updated_at": "2025-10-23T08:31:00+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2509.26544": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.26544",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-23T08:42:35.239Z",
+            "data": {
+              "session_id": "session_1761208955216_ovhb6pc",
+              "source_id": "arxiv",
+              "paper_id": "2509.26544",
+              "start_time": "2025-10-23T08:42:17.121Z",
+              "end_time": "2025-10-23T08:42:35.216Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 18
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 486,
+        "object_id": "interactions:arxiv.2509.26544",
+        "created_at": "2025-10-23T08:42:18+00:00",
+        "updated_at": "2025-10-23T08:42:45+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2509.26544": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.26544",
+        "url": "https://arxiv.org/pdf/2509.26544",
+        "title": "Bayesian Influence Functions for Hessian-Free Data Attribution",
+        "authors": "Philipp Alexander Kreer, Wilson Wu, Maxwell Adam, Zach Furman, Jesse Hoogland",
+        "abstract": "Classical influence functions face significant challenges when applied to\ndeep neural networks, primarily due to non-invertible Hessians and\nhigh-dimensional parameter spaces. We propose the local Bayesian influence\nfunction (BIF), an extension of classical influence functions that replaces\nHessian inversion with loss landscape statistics that can be estimated via\nstochastic-gradient MCMC sampling. This Hessian-free approach captures\nhigher-order interactions among parameters and scales efficiently to neural\nnetworks with billions of parameters. We demonstrate state-of-the-art results\non predicting retraining experiments.",
+        "timestamp": "2025-10-23T08:41:17.087Z",
+        "rating": "novote",
+        "publishedDate": "2025-09-30T17:17:37Z",
+        "tags": [
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 484,
+        "object_id": "paper:arxiv.2509.26544",
+        "created_at": "2025-10-23T08:41:17+00:00",
+        "updated_at": "2025-10-23T08:41:48+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-23T17:33:22.770722+00:00",
+  "snapshot_time": "2025-10-23T18:19:32.957150+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -12944,6 +12944,32 @@
         "object_id": "interactions:arxiv.2510.15020",
         "created_at": "2025-10-23T10:56:59+00:00",
         "updated_at": "2025-10-23T10:57:29+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.06182": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.06182",
+        "url": "https://arxiv.org/pdf/2510.06182",
+        "title": "Mixing Mechanisms: How Language Models Retrieve Bound Entities\n  In-Context",
+        "authors": "Yoav Gur-Arieh, Mor Geva, Atticus Geiger",
+        "abstract": "A key component of in-context reasoning is the ability of language models\n(LMs) to bind entities for later retrieval. For example, an LM might represent\n\"Ann loves pie\" by binding \"Ann\" to \"pie\", allowing it to later retrieve \"Ann\"\nwhen asked \"Who loves pie?\" Prior research on short lists of bound entities\nfound strong evidence that LMs implement such retrieval via a positional\nmechanism, where \"Ann\" is retrieved based on its position in context. In this\nwork, we find that this mechanism generalizes poorly to more complex settings;\nas the number of bound entities in context increases, the positional mechanism\nbecomes noisy and unreliable in middle positions. To compensate for this, we\nfind that LMs supplement the positional mechanism with a lexical mechanism\n(retrieving \"Ann\" using its bound counterpart \"pie\") and a reflexive mechanism\n(retrieving \"Ann\" through a direct pointer). Through extensive experiments on\nnine models and ten binding tasks, we uncover a consistent pattern in how LMs\nmix these mechanisms to drive model behavior. We leverage these insights to\ndevelop a causal model combining all three mechanisms that estimates next token\ndistributions with 95% agreement. Finally, we show that our model generalizes\nto substantially longer inputs of open-ended text interleaved with entity\ngroups, further demonstrating the robustness of our findings in more natural\nsettings. Overall, our study establishes a more complete picture of how LMs\nbind and retrieve entities in-context.",
+        "timestamp": "2025-10-23T18:18:30.529Z",
+        "rating": "novote",
+        "publishedDate": "2025-10-07T17:44:30Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 489,
+        "object_id": "paper:arxiv.2510.06182",
+        "created_at": "2025-10-23T18:18:31+00:00",
+        "updated_at": "2025-10-23T18:18:59+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-23T08:27:00.216560+00:00",
+  "snapshot_time": "2025-10-23T08:32:20.048935+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -12699,6 +12699,63 @@
         "object_id": "paper:arxiv.2510.18890",
         "created_at": "2025-10-23T08:25:11+00:00",
         "updated_at": "2025-10-23T08:25:37+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2510.18019": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.18019",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-23T08:31:10.145Z",
+            "data": {
+              "session_id": "session_1761208269167_qvjemgv",
+              "source_id": "arxiv",
+              "paper_id": "2510.18019",
+              "start_time": "2025-10-23T08:30:32.787Z",
+              "end_time": "2025-10-23T08:31:09.167Z",
+              "heartbeat_count": 7,
+              "duration_seconds": 35,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 36
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 483,
+        "object_id": "interactions:arxiv.2510.18019",
+        "created_at": "2025-10-23T08:31:10+00:00",
+        "updated_at": "2025-10-23T08:31:42+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.18019": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.18019",
+        "url": "https://arxiv.org/pdf/2510.18019",
+        "title": "Is Multilingual LLM Watermarking Truly Multilingual? A Simple\n  Back-Translation Solution",
+        "authors": "Asim Mohamed, Martin Gubri",
+        "abstract": "Multilingual watermarking aims to make large language model (LLM) outputs\ntraceable across languages, yet current methods still fall short. Despite\nclaims of cross-lingual robustness, they are evaluated only on high-resource\nlanguages. We show that existing multilingual watermarking methods are not\ntruly multilingual: they fail to remain robust under translation attacks in\nmedium- and low-resource languages. We trace this failure to semantic\nclustering, which fails when the tokenizer vocabulary contains too few\nfull-word tokens for a given language. To address this, we introduce STEAM, a\nback-translation-based detection method that restores watermark strength lost\nthrough translation. STEAM is compatible with any watermarking method, robust\nacross different tokenizers and languages, non-invasive, and easily extendable\nto new languages. With average gains of +0.19 AUC and +40%p TPR@1% on 17\nlanguages, STEAM provides a simple and robust path toward fairer watermarking\nacross diverse languages.",
+        "timestamp": "2025-10-23T08:30:33.391Z",
+        "rating": "novote",
+        "publishedDate": "2025-10-20T18:51:20Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 482,
+        "object_id": "paper:arxiv.2510.18019",
+        "created_at": "2025-10-23T08:30:33+00:00",
+        "updated_at": "2025-10-23T08:31:00+00:00",
         "version": 1
       }
     }

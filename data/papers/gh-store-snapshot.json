@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-23T06:45:36.065221+00:00",
+  "snapshot_time": "2025-10-23T06:52:42.239876+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -12013,6 +12013,62 @@
         "object_id": "interactions:arxiv.2210.09404",
         "created_at": "2025-10-23T06:21:22+00:00",
         "updated_at": "2025-10-23T06:44:52+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2507.14777": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2507.14777",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-23T06:51:52.783Z",
+            "data": {
+              "session_id": "session_1761202312760_ffr0wh4",
+              "source_id": "arxiv",
+              "paper_id": "2507.14777",
+              "start_time": "2025-10-23T06:51:24.230Z",
+              "end_time": "2025-10-23T06:51:52.760Z",
+              "heartbeat_count": 5,
+              "duration_seconds": 25,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 29
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 457,
+        "object_id": "interactions:arxiv.2507.14777",
+        "created_at": "2025-10-23T06:51:20+00:00",
+        "updated_at": "2025-10-23T06:52:04+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2507.14777": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2507.14777",
+        "url": "https://arxiv.org/abs/2507.14777",
+        "title": "Rethinking Memorization Measures and their Implications in Large Language Models",
+        "authors": "Bishwamittra Ghosh, Soumi Das, Qinyuan Wu, Mohammad Aflah Khan, Krishna P. Gummadi, Evimaria Terzi, Deepak Garg",
+        "abstract": "Concerned with privacy threats, memorization in LLMs is often seen as undesirable, specifically for learning. In this paper, we study whether memorization can be avoided when optimally learning a language, and whether the privacy threat posed by memorization is exaggerated or not. To this end, we re-examine existing privacy-focused measures of memorization, namely recollection-based and counterfactual memorization, along with a newly proposed contextual memorization.\nRelating memorization to local over-fitting during learning, contextual memorization aims to disentangle memorization from the contextual learning ability of LLMs. Informally, a string is contextually memorized if its recollection due to training exceeds the optimal contextual recollection, a learned threshold denoting the best contextual learning without training. Conceptually, contextual recollection avoids the fallacy of recollection-based memorization, where any form of high recollection is a sign of memorization. Theoretically, contextual memorization relates to counterfactual memorization, but imposes stronger conditions. Memorization measures differ in outcomes and information requirements.\nExperimenting on 18 LLMs from 6 families and multiple formal languages of different entropy, we show that (a) memorization measures disagree on memorization order of varying frequent strings, (b) optimal learning of a language cannot avoid partial memorization of training strings, and (c) improved learning decreases contextual and counterfactual memorization but increases recollection-based memorization. Finally, (d) we revisit existing reports of memorized strings by recollection that neither pose a privacy threat nor are contextually or counterfactually memorized.",
+        "timestamp": "2025-10-23T06:51:02.624Z",
+        "rating": "novote",
+        "publishedDate": "2025/07/20",
+        "tags": [
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 456,
+        "object_id": "paper:arxiv.2507.14777",
+        "created_at": "2025-10-23T06:51:03+00:00",
+        "updated_at": "2025-10-23T06:51:29+00:00",
         "version": 1
       }
     }

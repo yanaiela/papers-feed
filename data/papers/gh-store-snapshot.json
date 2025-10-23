@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-23T09:21:08.494427+00:00",
+  "snapshot_time": "2025-10-23T09:43:23.063100+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -12842,6 +12842,33 @@
         "object_id": "paper:arxiv.2509.26544",
         "created_at": "2025-10-23T08:41:17+00:00",
         "updated_at": "2025-10-23T08:41:48+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2508.10975": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2508.10975",
+        "url": "https://arxiv.org/pdf/2508.10975",
+        "title": "BeyondWeb: Lessons from Scaling Synthetic Data for Trillion-scale\n  Pretraining",
+        "authors": "DatologyAI, :, Pratyush Maini, Vineeth Dorna, Parth Doshi, Aldo Carranza, Fan Pan, Jack Urbanek, Paul Burstein, Alex Fang, Alvin Deng, Amro Abbas, Brett Larsen, Cody Blakeney, Charvi Bannur, Christina Baek, Darren Teh, David Schwab, Haakon Mongstad, Haoli Yin, Josh Wills, Kaleigh Mentzer, Luke Merrick, Ricardo Monti, Rishabh Adiga, Siddharth Joshi, Spandan Das, Zhengping Wang, Bogdan Gaza, Ari Morcos, Matthew Leavitt",
+        "abstract": "Recent advances in large language model (LLM) pretraining have shown that\nsimply scaling data quantity eventually leads to diminishing returns, hitting a\ndata wall. In response, the use of synthetic data for pretraining has emerged\nas a promising paradigm for pushing the frontier of performance. Despite this,\nthe factors affecting synthetic data quality remain poorly understood. In this\nwork, we introduce BeyondWeb, a synthetic data generation framework that\nproduces high-quality synthetic data for pretraining. BeyondWeb significantly\nextends the capabilities of traditional web-scale datasets, outperforming\nstate-of-the-art synthetic pretraining datasets such as Cosmopedia and\nNemotron-CC's high-quality synthetic subset (Nemotron-Synth) by up to 5.1\npercentage points (pp) and 2.6pp, respectively, when averaged across a suite of\n14 benchmark evaluations. It delivers up to 7.7x faster training than open web\ndata and 2.7x faster than Nemotron-Synth. Remarkably, a 3B model trained for\n180B tokens on BeyondWeb outperforms an 8B model trained for the same token\nbudget on Cosmopedia. We also present several insights from BeyondWeb on\nsynthetic data for pretraining: what drives its benefits, which data to\nrephrase and how, and the impact of model size and family on data quality.\nOverall, our work shows that there's no silver bullet for generating\nhigh-quality synthetic pretraining data. The best outcomes require jointly\noptimizing many factors, a challenging task that requires rigorous science and\npractical expertise. Naive approaches can yield modest improvements,\npotentially at great cost, while well-executed methods can yield transformative\nimprovements, as exemplified by BeyondWeb.",
+        "timestamp": "2025-10-23T09:42:11.410Z",
+        "rating": "novote",
+        "publishedDate": "2025-08-14T17:55:47Z",
+        "tags": [
+          "cs.LG",
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 487,
+        "object_id": "paper:arxiv.2508.10975",
+        "created_at": "2025-10-23T09:42:11+00:00",
+        "updated_at": "2025-10-23T09:42:44+00:00",
         "version": 1
       }
     }

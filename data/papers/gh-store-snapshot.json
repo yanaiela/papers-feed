@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-23T08:23:25.284602+00:00",
+  "snapshot_time": "2025-10-23T08:27:00.216560+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -12642,6 +12642,63 @@
         "object_id": "interactions:arxiv.2212.08037",
         "created_at": "2025-10-23T07:56:15+00:00",
         "updated_at": "2025-10-23T08:22:46+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2510.18890": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.18890",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-23T08:25:48.181Z",
+            "data": {
+              "session_id": "session_1761207947365_7dbdu74",
+              "source_id": "arxiv",
+              "paper_id": "2510.18890",
+              "start_time": "2025-10-23T08:25:13.648Z",
+              "end_time": "2025-10-23T08:25:47.365Z",
+              "heartbeat_count": 6,
+              "duration_seconds": 30,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 34
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 481,
+        "object_id": "interactions:arxiv.2510.18890",
+        "created_at": "2025-10-23T08:25:49+00:00",
+        "updated_at": "2025-10-23T08:26:22+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.18890": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.18890",
+        "url": "https://arxiv.org/abs/2510.18890",
+        "title": "Small Language Models Offer Significant Potential for Science Community",
+        "authors": "Jian Zhang",
+        "abstract": "Recent advancements in natural language processing, particularly with large language models (LLMs), are transforming how scientists engage with the literature. While the adoption of LLMs is increasing, concerns remain regarding potential information biases and computational costs. Rather than LLMs, I developed a framework to evaluate the feasibility of precise, rapid, and cost-effective information retrieval from extensive geoscience literature using freely available small language models (MiniLMs). A curated corpus of approximately 77 million high-quality sentences, extracted from 95 leading peer-reviewed geoscience journals such as Geophysical Research Letters and Earth and Planetary Science Letters published during years 2000 to 2024, was constructed. MiniLMs enable a computationally efficient approach for extracting relevant domain-specific information from these corpora through semantic search techniques and sentence-level indexing. This approach, unlike LLMs such as ChatGPT-4 that often produces generalized responses, excels at identifying substantial amounts of expert-verified information with established, multi-disciplinary sources, especially for information with quantitative findings. Furthermore, by analyzing emotional tone via sentiment analysis and topical clusters through unsupervised clustering within sentences, MiniLM provides a powerful tool for tracking the evolution of conclusions, research priorities, advancements, and emerging questions within geoscience communities. Overall, MiniLM holds significant potential within the geoscience community for applications such as fact and image retrievals, trend analyses, contradiction analyses, and educational purposes.",
+        "timestamp": "2025-10-23T08:25:11.200Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/18",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 480,
+        "object_id": "paper:arxiv.2510.18890",
+        "created_at": "2025-10-23T08:25:11+00:00",
+        "updated_at": "2025-10-23T08:25:37+00:00",
         "version": 1
       }
     }

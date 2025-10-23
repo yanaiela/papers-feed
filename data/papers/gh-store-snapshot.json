@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-23T06:57:59.735597+00:00",
+  "snapshot_time": "2025-10-23T07:08:36.201405+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -12200,6 +12200,48 @@
         "object_id": "paper:arxiv.1912.03817",
         "created_at": "2025-10-23T06:53:46+00:00",
         "updated_at": "2025-10-23T06:54:15+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2401.17377": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2401.17377",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 464,
+        "object_id": "interactions:arxiv.2401.17377",
+        "created_at": "2025-10-23T07:07:35+00:00",
+        "updated_at": "2025-10-23T07:07:37+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2401.17377": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2401.17377",
+        "url": "https://arxiv.org/abs/2401.17377",
+        "title": "Infini-gram: Scaling Unbounded n-gram Language Models to a Trillion Tokens",
+        "authors": "Jiacheng Liu, Sewon Min, Luke Zettlemoyer, Yejin Choi, Hannaneh Hajishirzi",
+        "abstract": "Are $n$-gram language models still relevant in this era of neural large language models (LLMs)? Our answer is yes, and we showcase their values in both text analysis and improving neural LLMs. This was done by modernizing $n$-gram LMs in two aspects. First, we train them at the same data scale as neural LLMs -- 5 trillion tokens. This is the largest $n$-gram LM ever built. Second, existing $n$-gram LMs use small $n$ which hinders their performance; we instead allow $n$ to be arbitrarily large, by introducing a new $\\infty$-gram LM with backoff. Instead of pre-computing $n$-gram count tables (which would be very expensive), we develop an engine named infini-gram -- powered by suffix arrays -- that can compute $\\infty$-gram (as well as $n$-gram with arbitrary $n$) probabilities with millisecond-level latency. The $\\infty$-gram framework and infini-gram engine enable us to conduct many novel and interesting analyses of human-written and machine-generated text: we find that the $\\infty$-gram LM has fairly high accuracy for next-token prediction (47%), and can complement neural LLMs to greatly reduce their perplexity. When analyzing machine-generated text, we also observe irregularities in the machine--$\\infty$-gram agreement level with respect to the suffix length, which indicates deficiencies in neural LLM pretraining and the positional embeddings of Transformers.",
+        "timestamp": "2025-10-23T07:07:10.479Z",
+        "rating": "novote",
+        "publishedDate": "2024/01/30",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Information Retrieval (cs.IR)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 462,
+        "object_id": "paper:arxiv.2401.17377",
+        "created_at": "2025-10-23T07:07:10+00:00",
+        "updated_at": "2025-10-23T07:07:40+00:00",
         "version": 1
       }
     }

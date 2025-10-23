@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-23T06:52:42.239876+00:00",
+  "snapshot_time": "2025-10-23T06:56:29.907616+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -12069,6 +12069,122 @@
         "object_id": "paper:arxiv.2507.14777",
         "created_at": "2025-10-23T06:51:03+00:00",
         "updated_at": "2025-10-23T06:51:29+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2310.10683": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.10683",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-23T06:55:23.866Z",
+            "data": {
+              "session_id": "session_1761202523842_a1ter1t",
+              "source_id": "arxiv",
+              "paper_id": "2310.10683",
+              "start_time": "2025-10-23T06:54:40.144Z",
+              "end_time": "2025-10-23T06:55:23.842Z",
+              "heartbeat_count": 8,
+              "duration_seconds": 40,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 44
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 461,
+        "object_id": "interactions:arxiv.2310.10683",
+        "created_at": "2025-10-23T06:54:41+00:00",
+        "updated_at": "2025-10-23T06:55:55+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2310.10683": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.10683",
+        "url": "https://arxiv.org/abs/2310.10683",
+        "title": "Large Language Model Unlearning",
+        "authors": "Yuanshun Yao, Xiaojun Xu, Yang Liu",
+        "abstract": "We study how to perform unlearning, i.e. forgetting undesirable misbehaviors, on large language models (LLMs). We show at least three scenarios of aligning LLMs with human preferences can benefit from unlearning: (1) removing harmful responses, (2) erasing copyright-protected content as requested, and (3) reducing hallucinations. Unlearning, as an alignment technique, has three advantages. (1) It only requires negative (e.g. harmful) examples, which are much easier and cheaper to collect (e.g. via red teaming or user reporting) than positive (e.g. helpful and often human-written) examples required in RLHF (RL from human feedback). (2) It is computationally efficient. (3) It is especially effective when we know which training samples cause the misbehavior. To the best of our knowledge, our work is among the first to explore LLM unlearning. We are also among the first to formulate the settings, goals, and evaluations in LLM unlearning. We show that if practitioners only have limited resources, and therefore the priority is to stop generating undesirable outputs rather than to try to generate desirable outputs, unlearning is particularly appealing. Despite only having negative samples, our ablation study shows that unlearning can still achieve better alignment performance than RLHF with just 2% of its computational time.",
+        "timestamp": "2025-10-23T06:54:33.369Z",
+        "rating": "novote",
+        "publishedDate": "2023/10/14",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 460,
+        "object_id": "paper:arxiv.2310.10683",
+        "created_at": "2025-10-23T06:54:33+00:00",
+        "updated_at": "2025-10-23T06:55:02+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.1912.03817": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1912.03817",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-23T06:54:20.104Z",
+            "data": {
+              "session_id": "session_1761202460044_x76o39c",
+              "source_id": "arxiv",
+              "paper_id": "1912.03817",
+              "start_time": "2025-10-23T06:54:04.864Z",
+              "end_time": "2025-10-23T06:54:20.044Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 15
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 459,
+        "object_id": "interactions:arxiv.1912.03817",
+        "created_at": "2025-10-23T06:54:21+00:00",
+        "updated_at": "2025-10-23T06:54:51+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.1912.03817": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1912.03817",
+        "url": "https://arxiv.org/abs/1912.03817",
+        "title": "Machine Unlearning",
+        "authors": "Lucas Bourtoule, Varun Chandrasekaran, Christopher A. Choquette-Choo, Hengrui Jia, Adelin Travers, Baiwu Zhang, David Lie, Nicolas Papernot",
+        "abstract": "Once users have shared their data online, it is generally difficult for them to revoke access and ask for the data to be deleted. Machine learning (ML) exacerbates this problem because any model trained with said data may have memorized it, putting users at risk of a successful privacy attack exposing their information. Yet, having models unlearn is notoriously difficult. We introduce SISA training, a framework that expedites the unlearning process by strategically limiting the influence of a data point in the training procedure. While our framework is applicable to any learning algorithm, it is designed to achieve the largest improvements for stateful algorithms like stochastic gradient descent for deep neural networks. SISA training reduces the computational overhead associated with unlearning, even in the worst-case setting where unlearning requests are made uniformly across the training set. In some cases, the service provider may have a prior on the distribution of unlearning requests that will be issued by users. We may take this prior into account to partition and order data accordingly, and further decrease overhead from unlearning. Our evaluation spans several datasets from different domains, with corresponding motivations for unlearning. Under no distributional assumptions, for simple learning tasks, we observe that SISA training improves time to unlearn points from the Purchase dataset by 4.63x, and 2.45x for the SVHN dataset, over retraining from scratch. SISA training also provides a speed-up of 1.36x in retraining for complex learning tasks such as ImageNet classification; aided by transfer learning, this results in a small degradation in accuracy. Our work contributes to practical data governance in machine unlearning.",
+        "timestamp": "2025-10-23T06:53:45.633Z",
+        "rating": "novote",
+        "publishedDate": "2019/12/09",
+        "tags": [
+          "Cryptography and Security (cs.CR)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 458,
+        "object_id": "paper:arxiv.1912.03817",
+        "created_at": "2025-10-23T06:53:46+00:00",
+        "updated_at": "2025-10-23T06:54:15+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-23T07:17:10.966582+00:00",
+  "snapshot_time": "2025-10-23T07:22:38.444795+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -12413,6 +12413,63 @@
         "object_id": "paper:arxiv.2302.10870",
         "created_at": "2025-10-23T07:15:34+00:00",
         "updated_at": "2025-10-23T07:16:05+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2304.03738": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2304.03738",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-23T07:21:29.884Z",
+            "data": {
+              "session_id": "session_1761204089876_58cof92",
+              "source_id": "arxiv",
+              "paper_id": "2304.03738",
+              "start_time": "2025-10-23T07:20:57.481Z",
+              "end_time": "2025-10-23T07:21:29.876Z",
+              "heartbeat_count": 6,
+              "duration_seconds": 30,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 32
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 474,
+        "object_id": "interactions:arxiv.2304.03738",
+        "created_at": "2025-10-23T07:21:30+00:00",
+        "updated_at": "2025-10-23T07:22:01+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2304.03738": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2304.03738",
+        "url": "https://arxiv.org/pdf/2304.03738",
+        "title": "Should ChatGPT be Biased? Challenges and Risks of Bias in Large Language\n  Models",
+        "authors": "Emilio Ferrara",
+        "abstract": "As the capabilities of generative language models continue to advance, the\nimplications of biases ingrained within these models have garnered increasing\nattention from researchers, practitioners, and the broader public. This article\ninvestigates the challenges and risks associated with biases in large-scale\nlanguage models like ChatGPT. We discuss the origins of biases, stemming from,\namong others, the nature of training data, model specifications, algorithmic\nconstraints, product design, and policy decisions. We explore the ethical\nconcerns arising from the unintended consequences of biased model outputs. We\nfurther analyze the potential opportunities to mitigate biases, the\ninevitability of some biases, and the implications of deploying these models in\nvarious applications, such as virtual assistants, content generation, and\nchatbots. Finally, we review the current approaches to identify, quantify, and\nmitigate biases in language models, emphasizing the need for a\nmulti-disciplinary, collaborative effort to develop more equitable,\ntransparent, and responsible AI systems. This article aims to stimulate a\nthoughtful dialogue within the artificial intelligence community, encouraging\nresearchers and developers to reflect on the role of biases in generative\nlanguage models and the ongoing pursuit of ethical AI.",
+        "timestamp": "2025-10-23T07:20:51.988Z",
+        "rating": "novote",
+        "publishedDate": "2023-04-07T17:14:00Z",
+        "tags": [
+          "cs.CY",
+          "cs.CL"
+        ],
+        "doi": "10.5210/fm.v28i11.13346",
+        "journalName": "First Monday, Volume 28, Number 11 - 6 November 2023",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 473,
+        "object_id": "paper:arxiv.2304.03738",
+        "created_at": "2025-10-23T07:20:52+00:00",
+        "updated_at": "2025-10-23T07:21:25+00:00",
         "version": 1
       }
     }

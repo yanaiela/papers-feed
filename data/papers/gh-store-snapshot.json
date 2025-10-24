@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-24T17:56:12.742937+00:00",
+  "snapshot_time": "2025-10-24T18:59:32.321974+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -13183,6 +13183,32 @@
         "object_id": "paper:arxiv.2408.11791",
         "created_at": "2025-10-24T17:54:38+00:00",
         "updated_at": "2025-10-24T17:55:05+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.15804": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.15804",
+        "url": "https://arxiv.org/pdf/2510.15804",
+        "title": "Emergence of Linear Truth Encodings in Language Models",
+        "authors": "Shauli Ravfogel, Gilad Yehudai, Tal Linzen, Joan Bruna, Alberto Bietti",
+        "abstract": "Recent probing studies reveal that large language models exhibit linear\nsubspaces that separate true from false statements, yet the mechanism behind\ntheir emergence is unclear. We introduce a transparent, one-layer transformer\ntoy model that reproduces such truth subspaces end-to-end and exposes one\nconcrete route by which they can arise. We study one simple setting in which\ntruth encoding can emerge: a data distribution where factual statements\nco-occur with other factual statements (and vice-versa), encouraging the model\nto learn this distinction in order to lower the LM loss on future tokens. We\ncorroborate this pattern with experiments in pretrained language models.\nFinally, in the toy setting we observe a two-phase learning dynamic: networks\nfirst memorize individual factual associations in a few steps, then -- over a\nlonger horizon -- learn to linearly separate true from false, which in turn\nlowers language-modeling loss. Together, these results provide both a\nmechanistic demonstration and an empirical motivation for how and why linear\ntruth representations can emerge in language models.",
+        "timestamp": "2025-10-24T18:58:28.958Z",
+        "rating": "novote",
+        "publishedDate": "2025-10-17T16:30:07Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 497,
+        "object_id": "paper:arxiv.2510.15804",
+        "created_at": "2025-10-24T18:58:29+00:00",
+        "updated_at": "2025-10-24T18:58:57+00:00",
         "version": 1
       }
     }

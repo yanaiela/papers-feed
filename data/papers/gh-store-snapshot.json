@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-24T17:30:17.688347+00:00",
+  "snapshot_time": "2025-10-24T17:56:12.742937+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -13127,6 +13127,62 @@
         "object_id": "interactions:arxiv.2510.19811",
         "created_at": "2025-10-24T17:22:06+00:00",
         "updated_at": "2025-10-24T17:29:41+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2408.11791": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2408.11791",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-24T17:55:14.995Z",
+            "data": {
+              "session_id": "session_1761328514924_82if8ue",
+              "source_id": "arxiv",
+              "paper_id": "2408.11791",
+              "start_time": "2025-10-24T17:54:43.162Z",
+              "end_time": "2025-10-24T17:55:14.924Z",
+              "heartbeat_count": 6,
+              "duration_seconds": 30,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 32
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 496,
+        "object_id": "interactions:arxiv.2408.11791",
+        "created_at": "2025-10-24T17:55:15+00:00",
+        "updated_at": "2025-10-24T17:55:41+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2408.11791": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2408.11791",
+        "url": "https://arxiv.org/abs/2408.11791",
+        "title": "Critique-out-Loud Reward Models",
+        "authors": "Zachary Ankner, Mansheej Paul, Brandon Cui, Jonathan D. Chang, Prithviraj Ammanabrolu",
+        "abstract": "Traditionally, reward models used for reinforcement learning from human feedback (RLHF) are trained to directly predict preference scores without leveraging the generation capabilities of the underlying large language model (LLM). This limits the capabilities of reward models as they must reason implicitly about the quality of a response, i.e., preference modeling must be performed in a single forward pass through the model. To enable reward models to reason explicitly about the quality of a response, we introduce Critique-out-Loud (CLoud) reward models. CLoud reward models operate by first generating a natural language critique of the assistant's response that is then used to predict a scalar reward for the quality of the response. We demonstrate the success of CLoud reward models for both Llama-3-8B and 70B base models: compared to classic reward models CLoud reward models improve pairwise preference classification accuracy on RewardBench by 4.65 and 5.84 percentage points for the 8B and 70B base models respectively. Furthermore, CLoud reward models lead to a Pareto improvement for win rate on ArenaHard when used as the scoring model for Best-of-N. Finally, we explore how to exploit the dynamic inference compute capabilities of CLoud reward models by performing self-consistency decoding for reward prediction.",
+        "timestamp": "2025-10-24T17:54:38.327Z",
+        "rating": "novote",
+        "publishedDate": "2024/08/21",
+        "tags": [
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 495,
+        "object_id": "paper:arxiv.2408.11791",
+        "created_at": "2025-10-24T17:54:38+00:00",
+        "updated_at": "2025-10-24T17:55:05+00:00",
         "version": 1
       }
     }

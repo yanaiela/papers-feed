@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-26T09:40:52.651044+00:00",
+  "snapshot_time": "2025-10-26T11:52:13.691621+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -13673,6 +13673,48 @@
         "object_id": "interactions:arxiv.2506.03149",
         "created_at": "2025-10-26T09:39:36+00:00",
         "updated_at": "2025-10-26T09:40:09+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.15015": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.15015",
+        "url": "https://arxiv.org/abs/2510.15015",
+        "title": "DeLeaker: Dynamic Inference-Time Reweighting For Semantic Leakage Mitigation in Text-to-Image Models",
+        "authors": "Mor Ventura, Michael Toker, Or Patashnik, Yonatan Belinkov, Roi Reichart",
+        "abstract": "Text-to-Image (T2I) models have advanced rapidly, yet they remain vulnerable to semantic leakage, the unintended transfer of semantically related features between distinct entities. Existing mitigation strategies are often optimization-based or dependent on external inputs. We introduce DeLeaker, a lightweight, optimization-free inference-time approach that mitigates leakage by directly intervening on the model's attention maps. Throughout the diffusion process, DeLeaker dynamically reweights attention maps to suppress excessive cross-entity interactions while strengthening the identity of each entity. To support systematic evaluation, we introduce SLIM (Semantic Leakage in IMages), the first dataset dedicated to semantic leakage, comprising 1,130 human-verified samples spanning diverse scenarios, together with a novel automatic evaluation framework. Experiments demonstrate that DeLeaker consistently outperforms all baselines, even when they are provided with external information, achieving effective leakage mitigation without compromising fidelity or quality. These results underscore the value of attention control and pave the way for more semantically precise T2I models.",
+        "timestamp": "2025-10-26T11:50:56.419Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/16",
+        "tags": [
+          "Computer Vision and Pattern Recognition (cs.CV)",
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 513,
+        "object_id": "paper:arxiv.2510.15015",
+        "created_at": "2025-10-26T11:50:56+00:00",
+        "updated_at": "2025-10-26T11:51:33+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2509.14223": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.14223",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 512,
+        "object_id": "interactions:arxiv.2509.14223",
+        "created_at": "2025-10-26T10:36:02+00:00",
+        "updated_at": "2025-10-26T10:36:04+00:00",
         "version": 1
       }
     }

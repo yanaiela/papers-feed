@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-26T09:36:51.119294+00:00",
+  "snapshot_time": "2025-10-26T09:38:07.057466+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -13615,6 +13615,34 @@
         "object_id": "paper:arxiv.2509.08827",
         "created_at": "2025-10-26T09:27:14+00:00",
         "updated_at": "2025-10-26T09:27:47+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.03149": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.03149",
+        "url": "https://arxiv.org/pdf/2506.03149",
+        "title": "Causal Estimation of Tokenisation Bias",
+        "authors": "Pietro Lesci, Clara Meister, Thomas Hofmann, Andreas Vlachos, Tiago Pimentel",
+        "abstract": "Modern language models are typically trained over subword sequences, but\nultimately define probabilities over character-strings. Ideally, the choice of\nthe tokeniser -- which maps character-strings to subwords -- should not affect\nthe probability assigned to the underlying character-string; in practice, it\ndoes. We define this mismatch as tokenisation bias. In this work, we quantify\none particular type of tokenisation bias: the effect of including or not a\nsubword (e.g., $\\langle hello \\rangle$) in a tokeniser's vocabulary on the\nprobability a trained model assigns to the corresponding characters (i.e.,\n\\textit{``hello''}). Estimating this effect is challenging because each model\nis trained with only one tokeniser. We address this by framing tokenisation\nbias as a causal effect and estimating it using the regression discontinuity\ndesign. Specifically, we exploit the fact that tokenisation algorithms rank\nsubwords and add the first $K$ to a tokeniser's vocabulary, where $K$ is an\narbitrary cutoff point. As such, we can estimate a causal effect by comparing\nsimilar subwords around this cutoff. Experimentally, we find that tokenisation\nconsistently affects models' outputs across scales, vocabularies, and\ntokenisers. Notably, a subword's presence in a small model's vocabulary may\nincrease its characters' probability by up to 17 times, highlighting\ntokenisation as a key design choice in language modelling.",
+        "timestamp": "2025-10-26T09:37:08.757Z",
+        "rating": "novote",
+        "publishedDate": "2025-06-03T17:59:47Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 510,
+        "object_id": "paper:arxiv.2506.03149",
+        "created_at": "2025-10-26T09:37:09+00:00",
+        "updated_at": "2025-10-26T09:37:32+00:00",
         "version": 1
       }
     }

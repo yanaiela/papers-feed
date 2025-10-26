@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-26T06:16:34.570909+00:00",
+  "snapshot_time": "2025-10-26T09:28:23.846403+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -13542,6 +13542,48 @@
         "object_id": "paper:arxiv.2504.20643",
         "created_at": "2025-10-26T06:14:47+00:00",
         "updated_at": "2025-10-26T06:15:17+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2509.08827": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.08827",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 509,
+        "object_id": "interactions:arxiv.2509.08827",
+        "created_at": "2025-10-26T09:28:20+00:00",
+        "updated_at": "2025-10-26T09:28:23+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2509.08827": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.08827",
+        "url": "https://arxiv.org/pdf/2509.08827",
+        "title": "A Survey of Reinforcement Learning for Large Reasoning Models",
+        "authors": "Kaiyan Zhang, Yuxin Zuo, Bingxiang He, Youbang Sun, Runze Liu, Che Jiang, Yuchen Fan, Kai Tian, Guoli Jia, Pengfei Li, Yu Fu, Xingtai Lv, Yuchen Zhang, Sihang Zeng, Shang Qu, Haozhan Li, Shijie Wang, Yuru Wang, Xinwei Long, Fangfu Liu, Xiang Xu, Jiaze Ma, Xuekai Zhu, Ermo Hua, Yihao Liu, Zonglin Li, Huayu Chen, Xiaoye Qu, Yafu Li, Weize Chen, Zhenzhao Yuan, Junqi Gao, Dong Li, Zhiyuan Ma, Ganqu Cui, Zhiyuan Liu, Biqing Qi, Ning Ding, Bowen Zhou",
+        "abstract": "In this paper, we survey recent advances in Reinforcement Learning (RL) for\nreasoning with Large Language Models (LLMs). RL has achieved remarkable success\nin advancing the frontier of LLM capabilities, particularly in addressing\ncomplex logical tasks such as mathematics and coding. As a result, RL has\nemerged as a foundational methodology for transforming LLMs into LRMs. With the\nrapid progress of the field, further scaling of RL for LRMs now faces\nfoundational challenges not only in computational resources but also in\nalgorithm design, training data, and infrastructure. To this end, it is timely\nto revisit the development of this domain, reassess its trajectory, and explore\nstrategies to enhance the scalability of RL toward Artificial SuperIntelligence\n(ASI). In particular, we examine research applying RL to LLMs and LRMs for\nreasoning abilities, especially since the release of DeepSeek-R1, including\nfoundational components, core problems, training resources, and downstream\napplications, to identify future opportunities and directions for this rapidly\nevolving area. We hope this review will promote future research on RL for\nbroader reasoning models. Github:\nhttps://github.com/TsinghuaC3I/Awesome-RL-for-LRMs",
+        "timestamp": "2025-10-26T09:27:14.061Z",
+        "rating": "novote",
+        "publishedDate": "2025-09-10T17:59:43Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 508,
+        "object_id": "paper:arxiv.2509.08827",
+        "created_at": "2025-10-26T09:27:14+00:00",
+        "updated_at": "2025-10-26T09:27:47+00:00",
         "version": 1
       }
     }

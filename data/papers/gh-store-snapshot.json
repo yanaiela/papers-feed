@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-26T13:41:06.094332+00:00",
+  "snapshot_time": "2025-10-26T14:51:23.944012+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -13820,6 +13820,32 @@
         "object_id": "interactions:arxiv.2510.15015",
         "created_at": "2025-10-26T11:55:07+00:00",
         "updated_at": "2025-10-26T11:55:37+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2102.01017": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2102.01017",
+        "url": "https://arxiv.org/abs/2102.01017",
+        "title": "Measuring and Improving Consistency in Pretrained Language Models",
+        "authors": "Yanai Elazar, Nora Kassner, Shauli Ravfogel, Abhilasha Ravichander, Eduard Hovy, Hinrich Sch\u00fctze, Yoav Goldberg",
+        "abstract": "Consistency of a model -- that is, the invariance of its behavior under meaning-preserving alternations in its input -- is a highly desirable property in natural language processing. In this paper we study the question: Are Pretrained Language Models (PLMs) consistent with respect to factual knowledge? To this end, we create ParaRel, a high-quality resource of cloze-style query English paraphrases. It contains a total of 328 paraphrases for 38 relations. Using ParaRel, we show that the consistency of all PLMs we experiment with is poor -- though with high variance between relations. Our analysis of the representational spaces of PLMs suggests that they have a poor structure and are currently not suitable for representing knowledge robustly. Finally, we propose a method for improving model consistency and experimentally demonstrate its effectiveness.",
+        "timestamp": "2025-10-26T14:50:18.437Z",
+        "rating": "novote",
+        "publishedDate": "2021/02/01",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 515,
+        "object_id": "paper:arxiv.2102.01017",
+        "created_at": "2025-10-26T14:50:18+00:00",
+        "updated_at": "2025-10-26T14:50:44+00:00",
         "version": 1
       }
     }

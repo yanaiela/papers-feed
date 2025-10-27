@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-27T13:25:27.447654+00:00",
+  "snapshot_time": "2025-10-27T13:27:49.456257+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -13955,6 +13955,21 @@
               "idle_seconds": 4,
               "total_elapsed_seconds": 14
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-27T13:26:17.753Z",
+            "data": {
+              "session_id": "session_1761571577011_4ml86dm",
+              "source_id": "arxiv",
+              "paper_id": "2105.01560",
+              "start_time": "2025-10-27T13:25:42.996Z",
+              "end_time": "2025-10-27T13:26:17.011Z",
+              "heartbeat_count": 6,
+              "duration_seconds": 30,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 34
+            }
           }
         ]
       },
@@ -13962,7 +13977,33 @@
         "issue_number": 519,
         "object_id": "interactions:arxiv.2105.01560",
         "created_at": "2025-10-27T13:23:51+00:00",
-        "updated_at": "2025-10-27T13:24:57+00:00",
+        "updated_at": "2025-10-27T13:26:46+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2105.01560": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2105.01560",
+        "url": "https://arxiv.org/pdf/2105.01560",
+        "title": "Broadly Applicable Targeted Data Sample Omission Attacks",
+        "authors": "Guy Barash, Eitan Farchi, Sarit Kraus, Onn Shehory",
+        "abstract": "We introduce a novel clean-label targeted poisoning attack on learning\nmechanisms. While classical poisoning attacks typically corrupt data via\naddition, modification and omission, our attack focuses on data omission only.\nOur attack misclassifies a single, targeted test sample of choice, without\nmanipulating that sample. We demonstrate the effectiveness of omission attacks\nagainst a large variety of learners including deep neural networks, SVM and\ndecision trees, using several datasets including MNIST, IMDB and CIFAR. The\nfocus of our attack on data omission only is beneficial as well, as it is\nsimpler to implement and analyze. We show that, with a low attack budget, our\nattack's success rate is above 80%, and in some cases 100%, for white-box\nlearning. It is systematically above the reference benchmark for black-box\nlearning. For both white-box and black-box cases, changes in model accuracy are\nnegligible, regardless of the specific learner and dataset. We also prove\ntheoretically in a simplified agnostic PAC learning framework that, subject to\ndataset size and distribution, our omission attack succeeds with high\nprobability against any successful simplified agnostic PAC learner.",
+        "timestamp": "2025-10-27T13:25:43.777Z",
+        "rating": "novote",
+        "publishedDate": "2021-05-04T15:20:54Z",
+        "tags": [
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 520,
+        "object_id": "paper:arxiv.2105.01560",
+        "created_at": "2025-10-27T13:25:44+00:00",
+        "updated_at": "2025-10-27T13:26:15+00:00",
         "version": 1
       }
     }

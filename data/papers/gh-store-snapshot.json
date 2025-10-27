@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-26T18:21:48.601899+00:00",
+  "snapshot_time": "2025-10-27T06:52:44.088960+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -13876,6 +13876,33 @@
         "object_id": "paper:arxiv.2102.01017",
         "created_at": "2025-10-26T14:50:18+00:00",
         "updated_at": "2025-10-26T14:50:44+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2303.14186": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2303.14186",
+        "url": "https://arxiv.org/pdf/2303.14186",
+        "title": "TRAK: Attributing Model Behavior at Scale",
+        "authors": "Sung Min Park, Kristian Georgiev, Andrew Ilyas, Guillaume Leclerc, Aleksander Madry",
+        "abstract": "The goal of data attribution is to trace model predictions back to training\ndata. Despite a long line of work towards this goal, existing approaches to\ndata attribution tend to force users to choose between computational\ntractability and efficacy. That is, computationally tractable methods can\nstruggle with accurately attributing model predictions in non-convex settings\n(e.g., in the context of deep neural networks), while methods that are\neffective in such regimes require training thousands of models, which makes\nthem impractical for large models or datasets.\n  In this work, we introduce TRAK (Tracing with the Randomly-projected After\nKernel), a data attribution method that is both effective and computationally\ntractable for large-scale, differentiable models. In particular, by leveraging\nonly a handful of trained models, TRAK can match the performance of attribution\nmethods that require training thousands of models. We demonstrate the utility\nof TRAK across various modalities and scales: image classifiers trained on\nImageNet, vision-language models (CLIP), and language models (BERT and mT5). We\nprovide code for using TRAK (and reproducing our work) at\nhttps://github.com/MadryLab/trak .",
+        "timestamp": "2025-10-27T06:51:30.030Z",
+        "rating": "novote",
+        "publishedDate": "2023-03-24T17:56:22Z",
+        "tags": [
+          "stat.ML",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 516,
+        "object_id": "paper:arxiv.2303.14186",
+        "created_at": "2025-10-27T06:51:30+00:00",
+        "updated_at": "2025-10-27T06:52:04+00:00",
         "version": 1
       }
     }

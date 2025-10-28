@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-28T13:26:42.798344+00:00",
+  "snapshot_time": "2025-10-28T13:36:10.332245+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -14418,6 +14418,63 @@
         "object_id": "interactions:arxiv.2509.08825",
         "created_at": "2025-10-28T13:11:41+00:00",
         "updated_at": "2025-10-28T13:12:02+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2510.16322": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.16322",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-28T13:35:13.782Z",
+            "data": {
+              "session_id": "session_1761658513762_rcejowb",
+              "source_id": "arxiv",
+              "paper_id": "2510.16322",
+              "start_time": "2025-10-28T13:34:52.033Z",
+              "end_time": "2025-10-28T13:35:13.762Z",
+              "heartbeat_count": 4,
+              "duration_seconds": 20,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 22
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 524,
+        "object_id": "interactions:arxiv.2510.16322",
+        "created_at": "2025-10-28T13:35:14+00:00",
+        "updated_at": "2025-10-28T13:35:35+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.16322": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.16322",
+        "url": "https://arxiv.org/abs/2510.16322",
+        "title": "Memorizing Long-tail Data Can Help Generalization Through Composition",
+        "authors": "Mo Zhou, Haoyang Ma, Rong Ge",
+        "abstract": "Deep learning has led researchers to rethink the relationship between memorization and generalization. In many settings, memorization does not hurt generalization due to implicit regularization and may help by memorizing long-tailed examples. In this paper, we consider the synergy between memorization and simple composition -- the ability to make correct prediction on a combination of long-tailed features. Theoretically, we show that for a linear setting, memorization together with composition can help the model make correct predictions on rare test examples that require a combination of long-tailed features, even if such combinations were never observed in the training data. Experiments on neural network architecture on simple data show that the theoretical insight extends beyond the linear setting, and we further observe that the composition capability of the model depends on its architecture.",
+        "timestamp": "2025-10-28T13:34:47.031Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/18",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 523,
+        "object_id": "paper:arxiv.2510.16322",
+        "created_at": "2025-10-28T13:34:47+00:00",
+        "updated_at": "2025-10-28T13:35:08+00:00",
         "version": 1
       }
     }

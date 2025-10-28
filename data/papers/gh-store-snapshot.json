@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-28T13:40:00.510358+00:00",
+  "snapshot_time": "2025-10-28T18:21:35.138824+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -14490,6 +14490,88 @@
         "object_id": "paper:arxiv.2510.16322",
         "created_at": "2025-10-28T13:34:47+00:00",
         "updated_at": "2025-10-28T13:35:08+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2507.05578": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2507.05578",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-28T18:20:43.660Z",
+            "data": {
+              "session_id": "session_1761675643001_mjv35k5",
+              "source_id": "arxiv",
+              "paper_id": "2507.05578",
+              "start_time": "2025-10-28T18:20:07.585Z",
+              "end_time": "2025-10-28T18:20:43.001Z",
+              "heartbeat_count": 7,
+              "duration_seconds": 35,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 35
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 527,
+        "object_id": "interactions:arxiv.2507.05578",
+        "created_at": "2025-10-28T18:20:44+00:00",
+        "updated_at": "2025-10-28T18:21:10+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.HVWODwbrFK": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "HVWODwbrFK",
+        "url": "https://openreview.net/pdf?id=HVWODwbrFK",
+        "title": "HVWODwbrFK",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-10-28T18:20:43.386Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "pdf"
+      },
+      "meta": {
+        "issue_number": 526,
+        "object_id": "paper:openreview.HVWODwbrFK",
+        "created_at": "2025-10-28T18:20:43+00:00",
+        "updated_at": "2025-10-28T18:21:02+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2507.05578": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2507.05578",
+        "url": "https://arxiv.org/pdf/2507.05578",
+        "title": "The Landscape of Memorization in LLMs: Mechanisms, Measurement, and\n  Mitigation",
+        "authors": "Alexander Xiong, Xuandong Zhao, Aneesh Pappu, Dawn Song",
+        "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities across\na wide range of tasks, yet they also exhibit memorization of their training\ndata. This phenomenon raises critical questions about model behavior, privacy\nrisks, and the boundary between learning and memorization. Addressing these\nconcerns, this paper synthesizes recent studies and investigates the landscape\nof memorization, the factors influencing it, and methods for its detection and\nmitigation. We explore key drivers, including training data duplication,\ntraining dynamics, and fine-tuning procedures that influence data memorization.\nIn addition, we examine methodologies such as prefix-based extraction,\nmembership inference, and adversarial prompting, assessing their effectiveness\nin detecting and measuring memorized content. Beyond technical analysis, we\nalso explore the broader implications of memorization, including the legal and\nethical implications. Finally, we discuss mitigation strategies, including data\ncleaning, differential privacy, and post-training unlearning, while\nhighlighting open challenges in balancing the minimization of harmful\nmemorization with utility. This paper provides a comprehensive overview of the\ncurrent state of research on LLM memorization across technical, privacy, and\nperformance dimensions, identifying critical directions for future work.",
+        "timestamp": "2025-10-28T18:20:07.944Z",
+        "rating": "novote",
+        "publishedDate": "2025-07-08T01:30:46Z",
+        "tags": [
+          "cs.LG",
+          "cs.CL",
+          "cs.CR"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 525,
+        "object_id": "paper:arxiv.2507.05578",
+        "created_at": "2025-10-28T18:20:08+00:00",
+        "updated_at": "2025-10-28T18:20:33+00:00",
         "version": 1
       }
     }

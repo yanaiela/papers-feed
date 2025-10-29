@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-29T16:20:23.577526+00:00",
+  "snapshot_time": "2025-10-29T16:41:50.160249+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -14938,6 +14938,37 @@
         "object_id": "paper:arxiv.2410.19133",
         "created_at": "2025-10-29T15:53:44+00:00",
         "updated_at": "2025-10-29T15:54:04+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.Vp3kPY8gKe": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "Vp3kPY8gKe",
+        "url": "https://openreview.net/forum?id=Vp3kPY8gKe&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "The Enemy from Within: A Study of Political Delegitimization Discourse in Israeli Political Speech",
+        "authors": "Naama Rivlin-Angert, Guy Mor-Lan",
+        "abstract": "We present the first large-scale computational study of political delegitimization discourse (PDD), defined as symbolic attacks on the normative validity of political entities. We curate and manually annotate a novel Hebrew-language corpus of 10,410 sentences drawn from Knesset speeches (1993-2023), Facebook posts (2018-2021), and leading news outlets, of which 1,812 instances (17.4%) exhibit PDD and 642 carry additional annotations for intensity, incivility, target type, and affective framing. We introduce a two-stage classification pipeline combining finetuned encoder models and decoder LLMs. Our best model (DictaLM 2.0) attains an F1 of 0.74 for binary PDD detection and a macro-F1 of 0.67 for classification of delegitimization characteristics. Applying this classifier to longitudinal and cross-platform data, we see a marked rise in PDD over three decades, higher prevalence on social media versus parliamentary debate, greater use by male than female politicians, and stronger tendencies among right-leaning actors - with pronounced spikes during election campaigns and major political events. Our findings demonstrate the feasibility and value of automated PDD analysis for understanding democratic discourse.\n\nIn Proceedings of the Empirical Methods in Natural Language Processing (EMNLP), 2025. Association for Computational Linguistics.",
+        "timestamp": "2025-10-29T16:40:46.437Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "rame detection and analysis",
+          "argument mining",
+          "discourse parsing",
+          "hate-speech detection",
+          "emotion detection and analysis",
+          "quantitative analyses of news and/or social media"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 533,
+        "object_id": "paper:openreview.Vp3kPY8gKe",
+        "created_at": "2025-10-29T16:40:47+00:00",
+        "updated_at": "2025-10-29T16:41:08+00:00",
         "version": 1
       }
     }

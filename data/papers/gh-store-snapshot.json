@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-29T12:28:15.591599+00:00",
+  "snapshot_time": "2025-10-29T12:51:15.983245+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -14780,6 +14780,33 @@
         "object_id": "interactions:arxiv.2510.21890",
         "created_at": "2025-10-29T10:26:06+00:00",
         "updated_at": "2025-10-29T10:26:38+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.19788": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.19788",
+        "url": "https://arxiv.org/abs/2510.19788",
+        "title": "Benchmarking World-Model Learning",
+        "authors": "Archana Warrier, Dat Nguyen, Michelangelo Naim, Moksh Jain, Yichao Liang, Karen Schroeder, Cambridge Yang, Joshua B. Tenenbaum, Sebastian Vollmer, Kevin Ellis, Zenna Tavares",
+        "abstract": "Model-learning agents should gather information to learn world models that support many downstream tasks and inferences, such as predicting unobserved states, estimating near- and far-term consequences of actions, planning action sequences, and detecting changes in dynamics. Current methods for learning and evaluating world models diverge from this goal: training and evaluation are anchored to next-frame prediction, and success is scored by reward maximization in the same environment. We propose WorldTest, a protocol to evaluate model-learning agents that separates reward-free interaction from a scored test phase in a different but related environment. WorldTest is open-ended$\\unicode{x2014}$models should support many different tasks unknown ahead of time$\\unicode{x2014}$and agnostic to model representation, allowing comparison across approaches. We instantiated WorldTest with AutumnBench, a suite of 43 interactive grid-world environments and 129 tasks across three families: masked-frame prediction, planning, and predicting changes to the causal dynamics. We compared 517 human participants and three frontier models on AutumnBench. We found that humans outperform the models, and scaling compute improves performance only in some environments but not others. WorldTest provides a novel template$\\unicode{x2014}$reward-free exploration, derived tests, and behavior-based scoring$\\unicode{x2014}$to evaluate what agents learn about environment dynamics, and AutumnBench exposes significant headroom in world-model learning.",
+        "timestamp": "2025-10-29T12:49:25.201Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/22",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 530,
+        "object_id": "paper:arxiv.2510.19788",
+        "created_at": "2025-10-29T12:49:25+00:00",
+        "updated_at": "2025-10-29T12:49:49+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-30T06:40:36.491388+00:00",
+  "snapshot_time": "2025-10-30T06:43:25.366104+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -15089,6 +15089,33 @@
         "object_id": "interactions:openreview.Vp3kPY8gKe",
         "created_at": "2025-10-29T16:40:55+00:00",
         "updated_at": "2025-10-29T16:42:03+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.14242": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.14242",
+        "url": "https://arxiv.org/pdf/2510.14242",
+        "title": "Flip-Flop Consistency: Unsupervised Training for Robustness to Prompt\n  Perturbations in LLMs",
+        "authors": "Parsa Hejabi, Elnaz Rahmati, Alireza S. Ziabari, Morteza Dehghani",
+        "abstract": "Large Language Models (LLMs) often produce inconsistent answers when faced\nwith different phrasings of the same prompt. In this paper, we propose\nFlip-Flop Consistency ($F^2C$), an unsupervised training method that improves\nrobustness to such perturbations. $F^2C$ is composed of two key components. The\nfirst, Consensus Cross-Entropy (CCE), uses a majority vote across prompt\nvariations to create a hard pseudo-label. The second is a representation\nalignment loss that pulls lower-confidence and non-majority predictors toward\nthe consensus established by high-confidence, majority-voting variations. We\nevaluate our method on 11 datasets spanning four NLP tasks, with 4-15 prompt\nvariations per dataset. On average, $F^2C$ raises observed agreement by 11.62%,\nimproves mean $F_1$ by 8.94%, and reduces performance variance across formats\nby 3.29%. In out-of-domain evaluations, $F^2C$ generalizes effectively,\nincreasing $\\overline{F_1}$ and agreement while decreasing variance across most\nsource-target pairs. Finally, when trained on only a subset of prompt\nperturbations and evaluated on held-out formats, $F^2C$ consistently improves\nboth performance and agreement while reducing variance. These findings\nhighlight $F^2C$ as an effective unsupervised method for enhancing LLM\nconsistency, performance, and generalization under prompt perturbations. Code\nis available at\nhttps://github.com/ParsaHejabi/Flip-Flop-Consistency-Unsupervised-Training-for-Robustness-to-Prompt-Perturbations-in-LLMs.",
+        "timestamp": "2025-10-30T06:42:32.746Z",
+        "rating": "novote",
+        "publishedDate": "2025-10-16T02:54:01Z",
+        "tags": [
+          "cs.CL",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 535,
+        "object_id": "paper:arxiv.2510.14242",
+        "created_at": "2025-10-30T06:42:33+00:00",
+        "updated_at": "2025-10-30T06:42:54+00:00",
         "version": 1
       }
     }

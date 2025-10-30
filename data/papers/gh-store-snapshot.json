@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-30T13:24:29.846187+00:00",
+  "snapshot_time": "2025-10-30T13:27:34.605900+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -15669,6 +15669,62 @@
         "object_id": "interactions:arxiv.2510.16022",
         "created_at": "2025-10-30T13:20:46+00:00",
         "updated_at": "2025-10-30T13:21:30+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.nTBS7T5qQR": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "nTBS7T5qQR",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-30T13:26:45.037Z",
+            "data": {
+              "session_id": "session_1761830804379_thsqtvc",
+              "source_id": "openreview",
+              "paper_id": "nTBS7T5qQR",
+              "start_time": "2025-10-30T13:26:29.053Z",
+              "end_time": "2025-10-30T13:26:44.379Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 15
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 543,
+        "object_id": "interactions:openreview.nTBS7T5qQR",
+        "created_at": "2025-10-30T13:26:45+00:00",
+        "updated_at": "2025-10-30T13:27:08+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.nTBS7T5qQR": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "nTBS7T5qQR",
+        "url": "https://openreview.net/forum?id=nTBS7T5qQR&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "CHIMERA: A Knowledge Base of Idea Recombination in Scientific Literature",
+        "authors": "Noy Sternlicht, Tom Hope",
+        "abstract": "A hallmark of human innovation is recombination---the creation of novel ideas by integrating elements from existing concepts and mechanisms. In this work, we introduce CHIMERA, a large-scale Knowledge Base (KB) of over 28K recombination examples automatically mined from the scientific literature. CHIMERA enables large-scale empirical analysis of how scientists recombine concepts and draw inspiration from different areas, and enables training models that propose novel, cross-disciplinary research directions. To construct this KB, we define a new information extraction task: identifying recombination instances in scientific abstracts. We curate a high-quality, expert-annotated dataset and use it to fine-tune a large language model, which we apply to a broad corpus of AI papers. We showcase the utility of CHIMERA through two applications. First, we analyze patterns of recombination across AI subfields. Second, we train a scientific hypothesis generation model using the KB, showing that it can propose novel research directions that researchers rate as inspiring. We release our data and code at https://github.com/noy-sternlicht/CHIMERA-KB.",
+        "timestamp": "2025-10-30T13:26:29.834Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "knowledge graphs"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 542,
+        "object_id": "paper:openreview.nTBS7T5qQR",
+        "created_at": "2025-10-30T13:26:30+00:00",
+        "updated_at": "2025-10-30T13:26:56+00:00",
         "version": 1
       }
     }

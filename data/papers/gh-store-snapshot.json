@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-30T13:16:56.576356+00:00",
+  "snapshot_time": "2025-10-30T13:22:22.347020+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -14796,6 +14796,21 @@
               "idle_seconds": 2,
               "total_elapsed_seconds": 452
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-30T13:21:17.626Z",
+            "data": {
+              "session_id": "session_1761830477122_usqesw2",
+              "source_id": "arxiv",
+              "paper_id": "2105.01560",
+              "start_time": "2025-10-30T13:20:45.973Z",
+              "end_time": "2025-10-30T13:21:17.122Z",
+              "heartbeat_count": 6,
+              "duration_seconds": 30,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 31
+            }
           }
         ]
       },
@@ -14803,7 +14818,7 @@
         "issue_number": 519,
         "object_id": "interactions:arxiv.2105.01560",
         "created_at": "2025-10-27T13:23:51+00:00",
-        "updated_at": "2025-10-30T07:16:59+00:00",
+        "updated_at": "2025-10-30T13:22:21+00:00",
         "version": 1
       }
     },
@@ -15609,6 +15624,36 @@
         "object_id": "paper:arxiv.2510.16022",
         "created_at": "2025-10-30T13:15:59+00:00",
         "updated_at": "2025-10-30T13:16:26+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2510.16022": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.16022",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-30T13:20:45.286Z",
+            "data": {
+              "session_id": "session_1761830444784_aqtbcrq",
+              "source_id": "arxiv",
+              "paper_id": "2510.16022",
+              "start_time": "2025-10-30T13:20:12.885Z",
+              "end_time": "2025-10-30T13:20:44.784Z",
+              "heartbeat_count": 6,
+              "duration_seconds": 30,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 32
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 541,
+        "object_id": "interactions:arxiv.2510.16022",
+        "created_at": "2025-10-30T13:20:46+00:00",
+        "updated_at": "2025-10-30T13:21:30+00:00",
         "version": 1
       }
     }

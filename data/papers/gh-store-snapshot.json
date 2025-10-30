@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-30T12:15:04.229671+00:00",
+  "snapshot_time": "2025-10-30T13:16:56.576356+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -15582,6 +15582,33 @@
         "object_id": "interactions:arxiv.2401.12973",
         "created_at": "2025-10-30T12:05:20+00:00",
         "updated_at": "2025-10-30T12:12:38+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.16022": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.16022",
+        "url": "https://arxiv.org/abs/2510.16022",
+        "title": "Breaking Memorization Barriers in LLM Code Fine-Tuning via Information Bottleneck for Improved Generalization",
+        "authors": "Changsheng Wang, Xin Chen, Sijia Liu, Ke Ding",
+        "abstract": "Adapting pretrained large language models (LLMs) to code domains via supervised fine-tuning (FT) has been commonly used for code generation. However, we identify a previously underappreciated failure mode, the memorization barrier, where strong memorization of downstream code data in the base model could trap optimization and prevent the standard FT from effectively acquiring new, generalizable code knowledge. To overcome this barrier, we propose the information bottleneck (IB)-guided fine-tuning, termed IB-FT, which applies an IB penalty on hidden representations of the code data to compress spurious, memorized features while preserving task-relevant information. Extensive experiments on two code benchmarks (OriGen and Evol-CodeAlpaca-V1) show that IB-FT substantially alleviates the memorization barrier, improves top-1 performance (Pass@11), and yields far more stable gains under the stricter multi-sample metric Pass@k(m)k^{(m)} (a problem counts as solved only if at least mm of kk samples pass unit tests) compared with conventional FT.",
+        "timestamp": "2025-10-30T13:15:59.075Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/15",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Software Engineering (cs.SE)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 540,
+        "object_id": "paper:arxiv.2510.16022",
+        "created_at": "2025-10-30T13:15:59+00:00",
+        "updated_at": "2025-10-30T13:16:26+00:00",
         "version": 1
       }
     }

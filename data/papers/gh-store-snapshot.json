@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-10-31T08:58:57.987147+00:00",
+  "snapshot_time": "2025-10-31T12:31:17.104355+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -15846,6 +15846,63 @@
         "object_id": "paper:openreview.nTBS7T5qQR",
         "created_at": "2025-10-30T13:26:30+00:00",
         "updated_at": "2025-10-30T13:26:56+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2510.25786": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.25786",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-10-31T12:30:30.681Z",
+            "data": {
+              "session_id": "session_1761913830634_ro00vem",
+              "source_id": "arxiv",
+              "paper_id": "2510.25786",
+              "start_time": "2025-10-31T12:29:57.814Z",
+              "end_time": "2025-10-31T12:30:30.634Z",
+              "heartbeat_count": 6,
+              "duration_seconds": 30,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 33
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 545,
+        "object_id": "interactions:arxiv.2510.25786",
+        "created_at": "2025-10-31T12:29:59+00:00",
+        "updated_at": "2025-10-31T12:30:49+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.25786": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.25786",
+        "url": "https://arxiv.org/abs/2510.25786",
+        "title": "BlackboxNLP-2025 MIB Shared Task: Improving Circuit Faithfulness via Better Edge Selection",
+        "authors": "Yaniv Nikankin, Dana Arad, Itay Itzhak, Anja Reusch, Adi Simhi, Gal Kesten-Pomeranz, Yonatan Belinkov",
+        "abstract": "One of the main challenges in mechanistic interpretability is circuit discovery, determining which parts of a model perform a given task. We build on the Mechanistic Interpretability Benchmark (MIB) and propose three key improvements to circuit discovery. First, we use bootstrapping to identify edges with consistent attribution scores. Second, we introduce a simple ratio-based selection strategy to prioritize strong positive-scoring edges, balancing performance and faithfulness. Third, we replace the standard greedy selection with an integer linear programming formulation. Our methods yield more faithful circuits and outperform prior approaches across multiple MIB tasks and models. Our code is available at: this https URL.",
+        "timestamp": "2025-10-31T12:29:50.322Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/28",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 544,
+        "object_id": "paper:arxiv.2510.25786",
+        "created_at": "2025-10-31T12:29:50+00:00",
+        "updated_at": "2025-10-31T12:30:14+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-01T07:24:39.291122+00:00",
+  "snapshot_time": "2025-11-01T07:56:19.900634+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -15948,6 +15948,92 @@
         "object_id": "paper:arxiv.2510.25786",
         "created_at": "2025-10-31T12:29:50+00:00",
         "updated_at": "2025-10-31T12:30:14+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2503.15299": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.15299",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-01T07:55:22.069Z",
+            "data": {
+              "session_id": "session_1761983721753_3frb8cs",
+              "source_id": "arxiv",
+              "paper_id": "2503.15299",
+              "start_time": "2025-11-01T07:55:12.687Z",
+              "end_time": "2025-11-01T07:55:21.753Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 9
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 548,
+        "object_id": "interactions:arxiv.2503.15299",
+        "created_at": "2025-11-01T07:55:22+00:00",
+        "updated_at": "2025-11-01T07:55:48+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.f7GG1MbsSM": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "f7GG1MbsSM",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-01T07:55:09.461Z",
+            "data": {
+              "session_id": "session_1761983708727_8hi5xm4",
+              "source_id": "openreview",
+              "paper_id": "f7GG1MbsSM",
+              "start_time": "2025-11-01T07:24:14.852Z",
+              "end_time": "2025-11-01T07:55:08.727Z",
+              "heartbeat_count": 370,
+              "duration_seconds": 1850,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 1854
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 547,
+        "object_id": "interactions:openreview.f7GG1MbsSM",
+        "created_at": "2025-11-01T07:55:10+00:00",
+        "updated_at": "2025-11-01T07:55:30+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2503.15299": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.15299",
+        "url": "https://arxiv.org/abs/2503.15299",
+        "title": "Inside-Out: Hidden Factual Knowledge in LLMs",
+        "authors": "Zorik Gekhman, Eyal Ben David, Hadas Orgad, Eran Ofek, Yonatan Belinkov, Idan Szpektor, Jonathan Herzig, Roi Reichart",
+        "abstract": "This work presents a framework for assessing whether large language models (LLMs) encode more factual knowledge in their parameters than what they express in their outputs. While a few studies hint at this possibility, none has clearly defined or demonstrated this phenomenon. We first propose a formal definition of knowledge, quantifying it for a given question as the fraction of correct-incorrect answer pairs where the correct one is ranked higher. This gives rise to external and internal knowledge, depending on the information used to score individual answer candidates: either the model's observable token-level probabilities or its intermediate computations. Hidden knowledge arises when internal knowledge exceeds external knowledge. We then present a case study, applying this framework to three popular open-weights LLMs in a closed-book QA setup. Our results indicate that: (1) LLMs consistently encode more factual knowledge internally than what they express externally, with an average relative gap of 40%. (2) Surprisingly, some knowledge is so deeply hidden that a model can internally know an answer perfectly, yet fail to generate it even once, despite large-scale repeated sampling of 1,000 answers. This reveals fundamental limitations in the generation capabilities of LLMs, which (3) put a practical constraint on scaling test-time compute via repeated answer sampling in closed-book QA: significant performance improvements remain inaccessible because some answers are practically never sampled, yet if they were, we would be guaranteed to rank them first.",
+        "timestamp": "2025-11-01T07:55:09.001Z",
+        "rating": "novote",
+        "publishedDate": "2025/03/19",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 546,
+        "object_id": "paper:arxiv.2503.15299",
+        "created_at": "2025-11-01T07:55:09+00:00",
+        "updated_at": "2025-11-01T07:55:30+00:00",
         "version": 1
       }
     }

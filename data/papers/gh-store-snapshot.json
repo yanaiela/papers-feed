@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-01T18:20:23.346797+00:00",
+  "snapshot_time": "2025-11-01T18:21:33.425542+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -16475,6 +16475,36 @@
               "idle_seconds": 4,
               "total_elapsed_seconds": 29
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-01T18:19:13.702Z",
+            "data": {
+              "session_id": "session_1762021153187_e4k0qk2",
+              "source_id": "arxiv",
+              "paper_id": "2404.06508",
+              "start_time": "2025-11-01T18:18:39.073Z",
+              "end_time": "2025-11-01T18:19:13.187Z",
+              "heartbeat_count": 6,
+              "duration_seconds": 30,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 34
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-01T18:20:38.050Z",
+            "data": {
+              "session_id": "session_1762021238040_tuqp2s8",
+              "source_id": "arxiv",
+              "paper_id": "2404.06508",
+              "start_time": "2025-11-01T18:20:22.440Z",
+              "end_time": "2025-11-01T18:20:38.040Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 16
+            }
           }
         ]
       },
@@ -16482,7 +16512,7 @@
         "issue_number": 557,
         "object_id": "interactions:arxiv.2404.06508",
         "created_at": "2025-11-01T18:17:10+00:00",
-        "updated_at": "2025-11-01T18:18:30+00:00",
+        "updated_at": "2025-11-01T18:21:02+00:00",
         "version": 1
       }
     },
@@ -16564,6 +16594,32 @@
         "object_id": "paper:arxiv.2305.20086",
         "created_at": "2025-11-01T18:18:52+00:00",
         "updated_at": "2025-11-01T18:19:13+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2101.00027": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2101.00027",
+        "url": "https://arxiv.org/pdf/2101.00027",
+        "title": "The Pile: An 800GB Dataset of Diverse Text for Language Modeling",
+        "authors": "Leo Gao, Stella Biderman, Sid Black, Laurence Golding, Travis Hoppe, Charles Foster, Jason Phang, Horace He, Anish Thite, Noa Nabeshima, Shawn Presser, Connor Leahy",
+        "abstract": "Recent work has demonstrated that increased training dataset diversity\nimproves general cross-domain knowledge and downstream generalization\ncapability for large-scale language models. With this in mind, we present\n\\textit{the Pile}: an 825 GiB English text corpus targeted at training\nlarge-scale language models. The Pile is constructed from 22 diverse\nhigh-quality subsets -- both existing and newly constructed -- many of which\nderive from academic or professional sources. Our evaluation of the untuned\nperformance of GPT-2 and GPT-3 on the Pile shows that these models struggle on\nmany of its components, such as academic writing. Conversely, models trained on\nthe Pile improve significantly over both Raw CC and CC-100 on all components of\nthe Pile, while improving performance on downstream evaluations. Through an\nin-depth exploratory analysis, we document potentially concerning aspects of\nthe data for prospective users. We make publicly available the code used in its\nconstruction.",
+        "timestamp": "2025-11-01T18:20:35.396Z",
+        "rating": "novote",
+        "publishedDate": "2020-12-31T19:00:10Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 561,
+        "object_id": "paper:arxiv.2101.00027",
+        "created_at": "2025-11-01T18:20:35+00:00",
+        "updated_at": "2025-11-01T18:20:55+00:00",
         "version": 1
       }
     }

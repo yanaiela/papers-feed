@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-02T14:27:10.392091+00:00",
+  "snapshot_time": "2025-11-02T17:13:15.420850+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -17046,6 +17046,243 @@
         "object_id": "interactions:arxiv.2401.16092",
         "created_at": "2025-11-02T14:23:17+00:00",
         "updated_at": "2025-11-02T14:23:42+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.G9uucwJUSi": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "G9uucwJUSi",
+        "url": "https://openreview.net/forum?id=G9uucwJUSi&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "ErrorMap and ErrorAtlas: Charting the Failure Landscape of Large Language Models",
+        "authors": "Shir Ashury-Tahan, Yifan Mai, Elron Bandel, Michal Shmueli-Scheuer, Leshem Choshen",
+        "abstract": "Large Language Models (LLM) benchmarks tell us when models fail, but not why they fail. A wrong answer on a reasoning dataset, for instance, may not reflect weak reasoning at all, but instead a formatting slip, a calculation error, or dataset noise. Without disentangling such causes, benchmarks give an incomplete picture and cannot reliably guide model improvement. We introduce ErrorMAp, the first method to systematically chart the sources of LLM failure. ErrorMAp provides tools to extract a model's unique ``failure signature'', uncover what benchmarks actually measure in practice, and broaden the scope of identified model errors to reduce blind spots. This enables developers to debug models more effectively and helps benchmark creators align dataset goals with actual outcomes. Additionally, it supports benchmark consumers in identifying which models best suit their specific needs. ErrorMAp is designed to work flexibly with any model and dataset, making it adaptable to evolving architectures and emerging data sources without requiring changes to its logic. We apply our method across 21 datasets and 73 models to automatically generate ErrorAtlas, a taxonomy of model errors, revealing recurring failure patterns in current language models. ErrorAtlas highlights error types that are currently underexplored in LLM research, such as omissions of required details in the output and question misinterpretation. By shifting focus from where models succeed to why they fail, ErrorMAp and ErrorAtlas lay the foundation for next-generation evaluation --- one that exposes hidden weaknesses and directs meaningful progress. Unlike success, which is typically measured using task- or dataset-level metrics, our approach introduces a deeper layer of evaluation that can be applied globally across models and tasks, offering richer insights into model behavior and limitations. We make the taxonomy and method code publicly available, with plans to update ErrorAtlas as new benchmarks emerge.",
+        "timestamp": "2025-11-02T17:12:31.884Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Error Analysis",
+          "Taxonomy"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 581,
+        "object_id": "paper:openreview.G9uucwJUSi",
+        "created_at": "2025-11-02T17:12:32+00:00",
+        "updated_at": "2025-11-02T17:12:54+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.QsBhmlagrv": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "QsBhmlagrv",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-02T17:12:21.874Z",
+            "data": {
+              "session_id": "session_1762103541312_j40wccz",
+              "source_id": "openreview",
+              "paper_id": "QsBhmlagrv",
+              "start_time": "2025-11-02T17:12:09.692Z",
+              "end_time": "2025-11-02T17:12:21.312Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 12
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 580,
+        "object_id": "interactions:openreview.QsBhmlagrv",
+        "created_at": "2025-11-02T17:12:22+00:00",
+        "updated_at": "2025-11-02T17:12:46+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.QsBhmlagrv": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "QsBhmlagrv",
+        "url": "https://openreview.net/forum?id=QsBhmlagrv&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "The Mighty ToRR: A Benchmark for Table Reasoning and Robustness in LLMs",
+        "authors": "Shir Ashury-Tahan, Yifan Mai, Rajmohan C, Ariel Gera, Yotam Perlitz, Asaf Yehudai, Elron Bandel, Leshem Choshen, Eyal Shnarch, Percy Liang, Michal Shmueli-Scheuer",
+        "abstract": "Despite its real-world significance, model performance on tabular data remains underexplored, leaving uncertainty about which model to rely on and which prompt configuration to adopt. To address this gap, we create ToRR, a benchmark for Table Reasoning and Robustness, measuring model performance and robustness on table-related tasks. The benchmark includes $10$ datasets that cover different types of table reasoning capabilities across varied domains. ToRR goes beyond model performance rankings, and is designed to reflect whether models can handle tabular data consistently and robustly, across a variety of common table representation formats. We present a leaderboard as well as comprehensive analyses of the results of leading models over ToRR. Our results reveal a striking pattern of brittle model behavior, where even strong models are unable to perform robustly on tabular data tasks. We further find that no single table format consistently yields superior performance. However, evaluating models across multiple formats is essential for a reliable assessment of their capabilities. Moreover, we show that the reliability boost from testing multiple prompts can be equivalent to adding more test examples. Overall, our findings show that reasoning over table tasks remains a significant challenge. The leaderboard, data and code are publicly available.",
+        "timestamp": "2025-11-02T17:12:09.946Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Structured Data",
+          "Benchmark",
+          "Evaluation"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 579,
+        "object_id": "paper:openreview.QsBhmlagrv",
+        "created_at": "2025-11-02T17:12:10+00:00",
+        "updated_at": "2025-11-02T17:12:35+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.94awfhTHjh": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "94awfhTHjh",
+        "url": "https://openreview.net/forum?id=94awfhTHjh&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "Can LLMs Help Encoder Models Maintain Both High Accuracy and Consistency in Temporal Relation Classification?",
+        "authors": "Adiel Meir, Kfir Bar",
+        "abstract": "Temporal relation classification (TRC) demands both accuracy and temporal consistency in event timeline extraction. Encoder-based models achieve high accuracy but introduce inconsistencies because they rely on pairwise classification, while LLMs leverage global context to generate temporal graphs, improving consistency at the cost of accuracy.\nWe assess LLM prompting strategies for TRC and their effectiveness in assisting encoder models with cycle resolution. Results show that while LLMs improve consistency, they struggle with accuracy and do not outperform a simple confidence-based cycle resolution approach.",
+        "timestamp": "2025-11-02T17:11:58.540Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "NLP",
+          "zero/few-shot extraction",
+          "TRC"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 578,
+        "object_id": "paper:openreview.94awfhTHjh",
+        "created_at": "2025-11-02T17:11:58+00:00",
+        "updated_at": "2025-11-02T17:12:21+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.dxR1hzsfUg": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "dxR1hzsfUg",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-02T17:11:43.926Z",
+            "data": {
+              "session_id": "session_1762103503436_2m9u4z6",
+              "source_id": "openreview",
+              "paper_id": "dxR1hzsfUg",
+              "start_time": "2025-11-02T17:11:37.152Z",
+              "end_time": "2025-11-02T17:11:43.436Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 577,
+        "object_id": "interactions:openreview.dxR1hzsfUg",
+        "created_at": "2025-11-02T17:11:44+00:00",
+        "updated_at": "2025-11-02T17:12:13+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.dxR1hzsfUg": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "dxR1hzsfUg",
+        "url": "https://openreview.net/forum?id=dxR1hzsfUg&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "Inferring Functionality of Attention Heads from their Parameters",
+        "authors": "Amit Elhelo, Mor Geva",
+        "abstract": "Attention heads are one of the building blocks of large language models (LLMs). Prior work on investigating their operation mostly focused on analyzing their behavior during inference for specific circuits or tasks. In this work, we seek a comprehensive mapping of the operations they implement in a model. We propose MAPS (Mapping Attention head ParameterS), an efficient framework that infers the functionality of attention heads from their parameters, without any model training or inference. We showcase the utility of MAPS for answering two types of questions: (a) given a predefined operation, mapping how strongly heads across the model implement it, and (b) given an attention head, inferring its salient functionality. Evaluating MAPS on 20 operations across 6 popular LLMs shows its estimations correlate with the head's outputs during inference and are causally linked to the model's predictions. Moreover, its mappings reveal attention heads of certain operations that were overlooked in previous studies, and valuable insights on function universality and architecture biases in LLMs. Next, we present an automatic pipeline and analysis that leverage MAPS to characterize the salient operations of a given head. Our pipeline produces plausible operation descriptions for most heads, as assessed by human judgment, while revealing diverse operations. ACL 2025 Main.",
+        "timestamp": "2025-11-02T17:11:37.398Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "feature attribution",
+          "free-text language explanations",
+          "natural language explanations",
+          "knowledge tracing",
+          "knowledge discovering",
+          "language resources"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 576,
+        "object_id": "paper:openreview.dxR1hzsfUg",
+        "created_at": "2025-11-02T17:11:37+00:00",
+        "updated_at": "2025-11-02T17:11:57+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.5L5OGV9yTz": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "5L5OGV9yTz",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-02T17:11:35.468Z",
+            "data": {
+              "session_id": "session_1762103494974_2upx41p",
+              "source_id": "openreview",
+              "paper_id": "5L5OGV9yTz",
+              "start_time": "2025-11-02T17:11:26.517Z",
+              "end_time": "2025-11-02T17:11:34.974Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 575,
+        "object_id": "interactions:openreview.5L5OGV9yTz",
+        "created_at": "2025-11-02T17:11:36+00:00",
+        "updated_at": "2025-11-02T17:11:58+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.5L5OGV9yTz": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "5L5OGV9yTz",
+        "url": "https://openreview.net/forum?id=5L5OGV9yTz&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "CRISP: Persistent Concept Unlearning via Sparse Autoencoders",
+        "authors": "Tomer Ashuach, Dana Arad, Aaron Mueller, Martin Tutek, Yonatan Belinkov",
+        "abstract": "As large language models (LLMs) are increasingly deployed in real-world applications, the need to selectively remove unwanted knowledge while preserving model utility has become paramount. Recent work has explored sparse autoencoders (SAEs) to perform precise interventions on monosemantic features. However, most SAE-based methods operate at inference time, failing to create persistent changes in the model's parameters. Such interventions can be bypassed or reversed by malicious actors with parameter access. We introduce CRISP, a parameter-efficient method for persistent concept unlearning using SAEs. CRISP automatically identifies salient SAE features across multiple layers and suppresses their activations. We experiment with two LLMs and show that our method outperforms prior approaches on safety-critical unlearning tasks from the WMDP benchmark, successfully removing harmful knowledge while preserving general and in-domain capabilities. Feature-level analysis reveals that CRISP achieves semantically coherent separation between target and benign concepts, allowing precise suppression of the target features.",
+        "timestamp": "2025-11-02T17:11:26.815Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Language Models",
+          "Concept Unlearning",
+          "Model Editing",
+          "Sparse Autoencoders",
+          "Unlearning",
+          "Knowledge Removal",
+          "Safety in NLP",
+          "Interpretability"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 574,
+        "object_id": "paper:openreview.5L5OGV9yTz",
+        "created_at": "2025-11-02T17:11:27+00:00",
+        "updated_at": "2025-11-02T17:11:49+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-02T13:09:51.708417+00:00",
+  "snapshot_time": "2025-11-02T14:15:53.440386+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -16897,6 +16897,65 @@
         "object_id": "paper:arxiv.2401.16092",
         "created_at": "2025-11-02T13:08:59+00:00",
         "updated_at": "2025-11-02T13:09:22+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2410.02707": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2410.02707",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-02T14:15:08.036Z",
+            "data": {
+              "session_id": "session_1762092907414_1nbnxox",
+              "source_id": "arxiv",
+              "paper_id": "2410.02707",
+              "start_time": "2025-11-02T14:14:50.844Z",
+              "end_time": "2025-11-02T14:15:07.414Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 17
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 572,
+        "object_id": "interactions:arxiv.2410.02707",
+        "created_at": "2025-11-02T14:15:08+00:00",
+        "updated_at": "2025-11-02T14:15:32+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2410.02707": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2410.02707",
+        "url": "https://arxiv.org/pdf/2410.02707",
+        "title": "LLMs Know More Than They Show: On the Intrinsic Representation of LLM\n  Hallucinations",
+        "authors": "Hadas Orgad, Michael Toker, Zorik Gekhman, Roi Reichart, Idan Szpektor, Hadas Kotek, Yonatan Belinkov",
+        "abstract": "Large language models (LLMs) often produce errors, including factual\ninaccuracies, biases, and reasoning failures, collectively referred to as\n\"hallucinations\". Recent studies have demonstrated that LLMs' internal states\nencode information regarding the truthfulness of their outputs, and that this\ninformation can be utilized to detect errors. In this work, we show that the\ninternal representations of LLMs encode much more information about\ntruthfulness than previously recognized. We first discover that the\ntruthfulness information is concentrated in specific tokens, and leveraging\nthis property significantly enhances error detection performance. Yet, we show\nthat such error detectors fail to generalize across datasets, implying that --\ncontrary to prior claims -- truthfulness encoding is not universal but rather\nmultifaceted. Next, we show that internal representations can also be used for\npredicting the types of errors the model is likely to make, facilitating the\ndevelopment of tailored mitigation strategies. Lastly, we reveal a discrepancy\nbetween LLMs' internal encoding and external behavior: they may encode the\ncorrect answer, yet consistently generate an incorrect one. Taken together,\nthese insights deepen our understanding of LLM errors from the model's internal\nperspective, which can guide future research on enhancing error analysis and\nmitigation.",
+        "timestamp": "2025-11-02T14:14:50.421Z",
+        "rating": "novote",
+        "publishedDate": "2024-10-03T17:31:31Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI",
+          "68T50",
+          "I.2.7"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 570,
+        "object_id": "paper:arxiv.2410.02707",
+        "created_at": "2025-11-02T14:14:50+00:00",
+        "updated_at": "2025-11-02T14:15:13+00:00",
         "version": 1
       }
     }

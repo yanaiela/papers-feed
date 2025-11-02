@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-02T13:08:35.531333+00:00",
+  "snapshot_time": "2025-11-02T13:09:51.708417+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -16869,6 +16869,34 @@
         "object_id": "paper:arxiv.2002.12327",
         "created_at": "2025-11-02T09:41:54+00:00",
         "updated_at": "2025-11-02T09:42:15+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2401.16092": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2401.16092",
+        "url": "https://arxiv.org/abs/2401.16092",
+        "title": "Multilingual Text-to-Image Generation Magnifies Gender Stereotypes and Prompt Engineering May Not Help You",
+        "authors": "Felix Friedrich, Katharina H\u00e4mmerl, Patrick Schramowski, Manuel Brack, Jindrich Libovicky, Kristian Kersting, Alexander Fraser",
+        "abstract": "Text-to-image generation models have recently achieved astonishing results in image quality, flexibility, and text alignment, and are consequently employed in a fast-growing number of applications. Through improvements in multilingual abilities, a larger community now has access to this technology. However, our results show that multilingual models suffer from significant gender biases just as monolingual models do. Furthermore, the natural expectation that multilingual models will provide similar results across languages does not hold up. Instead, there are important differences between languages. We propose a novel benchmark, MAGBIG, intended to foster research on gender bias in multilingual models. We use MAGBIG to investigate the effect of multilingualism on gender bias in T2I models. To this end, we construct multilingual prompts requesting portraits of people with a certain occupation or trait. Our results show that not only do models exhibit strong gender biases but they also behave differently across languages. Furthermore, we investigate prompt engineering strategies, such as indirect, neutral formulations, to mitigate these biases. Unfortunately, these approaches have limited success and result in worse text-to-image alignment. Consequently, we call for more research into diverse representations across languages in image generators, as well as into steerability to address biased model behavior.",
+        "timestamp": "2025-11-02T13:08:59.090Z",
+        "rating": "novote",
+        "publishedDate": "2024/01/29",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Computers and Society (cs.CY)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 568,
+        "object_id": "paper:arxiv.2401.16092",
+        "created_at": "2025-11-02T13:08:59+00:00",
+        "updated_at": "2025-11-02T13:09:22+00:00",
         "version": 1
       }
     }

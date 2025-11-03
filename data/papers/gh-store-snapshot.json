@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-03T09:44:50.877681+00:00",
+  "snapshot_time": "2025-11-03T09:45:40.972837+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -17681,6 +17681,58 @@
         "object_id": "paper:openreview.EKvqw9k3lC",
         "created_at": "2025-11-03T09:44:09+00:00",
         "updated_at": "2025-11-03T09:44:29+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2402.00838": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2402.00838",
+        "url": "https://arxiv.org/abs/2402.00838",
+        "title": "OLMo: Accelerating the Science of Language Models",
+        "authors": "Dirk Groeneveld, Iz Beltagy, Pete Walsh, Akshita Bhagia, Rodney Kinney, Oyvind Tafjord, Ananya Harsh Jha, Hamish Ivison, Ian Magnusson, Yizhong Wang, Shane Arora, David Atkinson, Russell Authur, Khyathi Raghavi Chandu, Arman Cohan, Jennifer Dumas, Yanai Elazar, Yuling Gu, Jack Hessel, Tushar Khot, William Merrill, Jacob Morrison, Niklas Muennighoff, Aakanksha Naik, Crystal Nam, Matthew E. Peters, Valentina Pyatkin, Abhilasha Ravichander, Dustin Schwenk, Saurabh Shah, Will Smith, Emma Strubell, Nishant Subramani, Mitchell Wortsman, Pradeep Dasigi, Nathan Lambert, Kyle Richardson, Luke Zettlemoyer, Jesse Dodge, Kyle Lo, Luca Soldaini, Noah A. Smith, Hannaneh Hajishirzi",
+        "abstract": "Language models (LMs) have become ubiquitous in both NLP research and in commercial product offerings. As their commercial importance has surged, the most powerful models have become closed off, gated behind proprietary interfaces, with important details of their training data, architectures, and development undisclosed. Given the importance of these details in scientifically studying these models, including their biases and potential risks, we believe it is essential for the research community to have access to powerful, truly open LMs. To this end, we have built OLMo, a competitive, truly Open Language Model, to enable the scientific study of language models. Unlike most prior efforts that have only released model weights and inference code, we release OLMo alongside open training data and training and evaluation code. We hope this release will empower the open research community and inspire a new wave of innovation.",
+        "timestamp": "2025-11-03T09:44:49.585Z",
+        "rating": "novote",
+        "publishedDate": "2024/02/01",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 594,
+        "object_id": "paper:arxiv.2402.00838",
+        "created_at": "2025-11-03T09:44:49+00:00",
+        "updated_at": "2025-11-03T09:45:14+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2402.00159": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2402.00159",
+        "url": "https://arxiv.org/abs/2402.00159",
+        "title": "Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research",
+        "authors": "Luca Soldaini, Rodney Kinney, Akshita Bhagia, Dustin Schwenk, David Atkinson, Russell Authur, Ben Bogin, Khyathi Chandu, Jennifer Dumas, Yanai Elazar, Valentin Hofmann, Ananya Harsh Jha, Sachin Kumar, Li Lucy, Xinxi Lyu, Nathan Lambert, Ian Magnusson, Jacob Morrison, Niklas Muennighoff, Aakanksha Naik, Crystal Nam, Matthew E. Peters, Abhilasha Ravichander, Kyle Richardson, Zejiang Shen, Emma Strubell, Nishant Subramani, Oyvind Tafjord, Pete Walsh, Luke Zettlemoyer, Noah A. Smith, Hannaneh Hajishirzi, Iz Beltagy, Dirk Groeneveld, Jesse Dodge, Kyle Lo",
+        "abstract": "Information about pretraining corpora used to train the current best-performing language models is seldom discussed: commercial models rarely detail their data, and even open models are often released without accompanying training data or recipes to reproduce them. As a result, it is challenging to conduct and advance scientific research on language modeling, such as understanding how training data impacts model capabilities and limitations. To facilitate scientific research on language model pretraining, we curate and release Dolma, a three-trillion-token English corpus, built from a diverse mixture of web content, scientific papers, code, public-domain books, social media, and encyclopedic materials. We extensively document Dolma, including its design principles, details about its construction, and a summary of its contents. We present analyses and experimental results on intermediate states of Dolma to share what we have learned about important data curation practices. Finally, we open-source our data curation toolkit to enable reproduction of our work as well as support further research in large-scale data curation.",
+        "timestamp": "2025-11-03T09:44:48.722Z",
+        "rating": "novote",
+        "publishedDate": "2024/01/31",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 593,
+        "object_id": "paper:arxiv.2402.00159",
+        "created_at": "2025-11-03T09:44:49+00:00",
+        "updated_at": "2025-11-03T09:45:09+00:00",
         "version": 1
       }
     }

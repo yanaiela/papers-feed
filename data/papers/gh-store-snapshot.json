@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-03T11:34:07.395105+00:00",
+  "snapshot_time": "2025-11-03T12:10:26.953975+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -17861,6 +17861,35 @@
         "object_id": "paper:openreview.rpegsGgoQb",
         "created_at": "2025-11-03T11:33:18+00:00",
         "updated_at": "2025-11-03T11:33:43+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.ujiCRwuqYg": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "ujiCRwuqYg",
+        "url": "https://openreview.net/forum?id=ujiCRwuqYg&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "CToT: Causal Tree of Thoughts for Inference-Time Compute",
+        "authors": "Zachary Elisha Bamberger, Till Raphael Saenger, Ofra Amir, Brandon M. Stewart, Amir Feder",
+        "abstract": "Building a persuasive argument involves constructing a sequence of claims that balance logical coherence, credibility, and emotional resonance. However, the space of possible arguments is both difficult to define and challenging to explore systematically. We present $\\textbf{Causal Tree of Thoughts (CToT)}$, an inference-time compute method that augments beam search with targeted interventions along dimensions of content, structure, and style. CToT is designed to support principled exploration of diverse reasoning trajectories while enabling causal analysis of how specific interventions shape outcomes. We evaluate CTOT along three axes: performance on measurable tasks (instruction following and argument generation), diversity induced by intervention-based branching (relative to temperature-based sampling), and causal attribution of outcome differences to specific interventions. Our approach instantiates patterns from the argumentation literature as explicit intervention templates and demonstrates their effectiveness when enforced through controlled generation. While we focus on persuasive argumentation as our primary application, we validate the generalizability of our framework across natural language generation tasks.",
+        "timestamp": "2025-11-03T12:09:31.545Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "reasoning",
+          "argumentation",
+          "inference time compute",
+          "tree-search"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 598,
+        "object_id": "paper:openreview.ujiCRwuqYg",
+        "created_at": "2025-11-03T12:09:31+00:00",
+        "updated_at": "2025-11-03T12:09:54+00:00",
         "version": 1
       }
     }

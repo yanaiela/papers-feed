@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-03T20:22:16.844725+00:00",
+  "snapshot_time": "2025-11-03T20:58:34.838409+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -18513,6 +18513,33 @@
         "object_id": "interactions:arxiv.2402.14873",
         "created_at": "2025-11-03T20:21:30+00:00",
         "updated_at": "2025-11-03T20:21:49+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2507.04782": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2507.04782",
+        "url": "https://arxiv.org/abs/2507.04782",
+        "title": "Reason to Rote: Rethinking Memorization in Reasoning",
+        "authors": "Yupei Du, Philipp Mondorf, Silvia Casola, Yuekun Yao, Robert Litschko, Barbara Plank",
+        "abstract": "Large language models readily memorize arbitrary training instances, such as label noise, yet they perform strikingly well on reasoning tasks. In this work, we investigate how language models memorize label noise, and why such memorization in many cases does not heavily affect generalizable reasoning capabilities. Using two controllable synthetic reasoning datasets with noisy labels, four-digit addition (FDA) and two-hop relational reasoning (THR), we discover a reliance of memorization on generalizable reasoning mechanisms: models continue to compute intermediate reasoning outputs even when retrieving memorized noisy labels, and intervening reasoning adversely affects memorization. We further show that memorization operates through distributed encoding, i.e., aggregating various inputs and intermediate results, rather than building a look-up mechanism from inputs to noisy labels. Moreover, our FDA case study reveals memorization occurs via outlier heuristics, where existing neuron activation patterns are slightly shifted to fit noisy labels. Together, our findings suggest that memorization of label noise in language models builds on, rather than overrides, the underlying reasoning mechanisms, shedding lights on the intriguing phenomenon of benign memorization.",
+        "timestamp": "2025-11-03T20:57:52.068Z",
+        "rating": "novote",
+        "publishedDate": "2025/07/07",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 612,
+        "object_id": "paper:arxiv.2507.04782",
+        "created_at": "2025-11-03T20:57:52+00:00",
+        "updated_at": "2025-11-03T20:58:15+00:00",
         "version": 1
       }
     }

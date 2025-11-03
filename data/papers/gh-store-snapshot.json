@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-03T05:13:40.807816+00:00",
+  "snapshot_time": "2025-11-03T05:14:24.750020+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -17583,6 +17583,32 @@
         "object_id": "interactions:arxiv.2406.13229",
         "created_at": "2025-11-03T04:50:55+00:00",
         "updated_at": "2025-11-03T04:50:57+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2408.10441": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2408.10441",
+        "url": "https://arxiv.org/abs/2408.10441",
+        "title": "Goldfish: Monolingual Language Models for 350 Languages",
+        "authors": "Tyler A. Chang, Catherine Arnett, Zhuowen Tu, Benjamin K. Bergen",
+        "abstract": "For many low-resource languages, the only available language models are large multilingual models trained on many languages simultaneously. However, using FLORES perplexity as a metric, we find that these models perform worse than bigrams for many languages (e.g. 24% of languages in XGLM 4.5B; 43% in BLOOM 7.1B). To facilitate research that focuses on low-resource languages, we pre-train and release Goldfish, a suite of monolingual autoregressive Transformer language models up to 125M parameters for 350 languages. The Goldfish reach lower FLORES perplexities than BLOOM, XGLM, and MaLA-500 on 98 of 204 FLORES languages, despite each Goldfish model being over 10x smaller. However, the Goldfish significantly underperform larger multilingual models on reasoning benchmarks, suggesting that for low-resource languages, multilinguality primarily improves general reasoning abilities rather than basic text generation. We release models trained on 5MB (350 languages), 10MB (288 languages), 100MB (166 languages), and 1GB (83 languages) of text data where available. The Goldfish models are available as baselines, fine-tuning sources, or augmentations to existing models in low-resource NLP research, and they are further useful for crosslinguistic studies requiring maximally comparable models across languages.",
+        "timestamp": "2025-11-03T05:13:40.040Z",
+        "rating": "novote",
+        "publishedDate": "2024/08/19",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 591,
+        "object_id": "paper:arxiv.2408.10441",
+        "created_at": "2025-11-03T05:13:40+00:00",
+        "updated_at": "2025-11-03T05:14:04+00:00",
         "version": 1
       }
     }

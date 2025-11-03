@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-02T21:29:18.642997+00:00",
+  "snapshot_time": "2025-11-03T04:49:14.177770+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -17388,6 +17388,102 @@
         "object_id": "interactions:openreview.G9uucwJUSi",
         "created_at": "2025-11-02T17:13:16+00:00",
         "updated_at": "2025-11-02T17:13:39+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2205.11758": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2205.11758",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 586,
+        "object_id": "interactions:arxiv.2205.11758",
+        "created_at": "2025-11-03T04:48:35+00:00",
+        "updated_at": "2025-11-03T04:48:36+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2205.11758": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2205.11758",
+        "url": "https://arxiv.org/abs/2205.11758",
+        "title": "Analyzing the Mono- and Cross-Lingual Pretraining Dynamics of Multilingual Language Models",
+        "authors": "Terra Blevins, Hila Gonen, Luke Zettlemoyer",
+        "abstract": "The emergent cross-lingual transfer seen in multilingual pretrained models has sparked significant interest in studying their behavior. However, because these analyses have focused on fully trained multilingual models, little is known about the dynamics of the multilingual pretraining process. We investigate when these models acquire their in-language and cross-lingual abilities by probing checkpoints taken from throughout XLM-R pretraining, using a suite of linguistic tasks. Our analysis shows that the model achieves high in-language performance early on, with lower-level linguistic skills acquired before more complex ones. In contrast, the point in pretraining when the model learns to transfer cross-lingually differs across language pairs. Interestingly, we also observe that, across many languages and tasks, the final model layer exhibits significant performance degradation over time, while linguistic knowledge propagates to lower layers of the network. Taken together, these insights highlight the complexity of multilingual pretraining and the resulting varied behavior for different languages over time.",
+        "timestamp": "2025-11-03T04:48:26.743Z",
+        "rating": "novote",
+        "publishedDate": "2022/05/24",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 585,
+        "object_id": "paper:arxiv.2205.11758",
+        "created_at": "2025-11-03T04:48:27+00:00",
+        "updated_at": "2025-11-03T04:48:49+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2504.02768": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.02768",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-03T04:48:01.132Z",
+            "data": {
+              "session_id": "session_1762145280644_wlcyxhe",
+              "source_id": "arxiv",
+              "paper_id": "2504.02768",
+              "start_time": "2025-11-03T04:47:52.051Z",
+              "end_time": "2025-11-03T04:48:00.644Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 9
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 584,
+        "object_id": "interactions:arxiv.2504.02768",
+        "created_at": "2025-11-03T04:48:01+00:00",
+        "updated_at": "2025-11-03T04:48:22+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2504.02768": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.02768",
+        "url": "https://arxiv.org/abs/2504.02768",
+        "title": "MultiBLiMP 1.0: A Massively Multilingual Benchmark of Linguistic Minimal Pairs",
+        "authors": "Jaap Jumelet, Leonie Weissweiler, Joakim Nivre, Arianna Bisazza",
+        "abstract": "We introduce MultiBLiMP 1.0, a massively multilingual benchmark of linguistic minimal pairs, covering 101 languages and 2 types of subject-verb agreement, containing more than 128,000 minimal pairs. Our minimal pairs are created using a fully automated pipeline, leveraging the large-scale linguistic resources of Universal Dependencies and UniMorph. MultiBLiMP 1.0 evaluates abilities of LLMs at an unprecedented multilingual scale, and highlights the shortcomings of the current state-of-the-art in modelling low-resource languages.",
+        "timestamp": "2025-11-03T04:47:52.371Z",
+        "rating": "novote",
+        "publishedDate": "2025/04/03",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 583,
+        "object_id": "paper:arxiv.2504.02768",
+        "created_at": "2025-11-03T04:47:52+00:00",
+        "updated_at": "2025-11-03T04:48:11+00:00",
         "version": 1
       }
     }

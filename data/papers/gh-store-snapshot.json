@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-03T15:51:32.860923+00:00",
+  "snapshot_time": "2025-11-03T15:52:41.891594+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -11342,6 +11342,21 @@
               "idle_seconds": 3,
               "total_elapsed_seconds": 18
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-03T15:51:24.818Z",
+            "data": {
+              "session_id": "session_1762185084814_ttw6375",
+              "source_id": "arxiv",
+              "paper_id": "2311.17030",
+              "start_time": "2025-11-03T15:50:32.314Z",
+              "end_time": "2025-11-03T15:51:24.814Z",
+              "heartbeat_count": 10,
+              "duration_seconds": 50,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 53
+            }
           }
         ]
       },
@@ -11349,7 +11364,7 @@
         "issue_number": 409,
         "object_id": "interactions:arxiv.2311.17030",
         "created_at": "2025-10-20T15:29:29+00:00",
-        "updated_at": "2025-10-23T10:56:34+00:00",
+        "updated_at": "2025-11-03T15:51:46+00:00",
         "version": 1
       }
     },
@@ -11565,6 +11580,21 @@
               "idle_seconds": 5,
               "total_elapsed_seconds": 15
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-03T15:51:50.579Z",
+            "data": {
+              "session_id": "session_1762185110460_cz458xr",
+              "source_id": "arxiv",
+              "paper_id": "2309.13638",
+              "start_time": "2025-11-03T15:51:26.822Z",
+              "end_time": "2025-11-03T15:51:50.460Z",
+              "heartbeat_count": 4,
+              "duration_seconds": 20,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 24
+            }
           }
         ]
       },
@@ -11572,7 +11602,7 @@
         "issue_number": 414,
         "object_id": "interactions:arxiv.2309.13638",
         "created_at": "2025-10-20T15:31:41+00:00",
-        "updated_at": "2025-11-03T15:50:36+00:00",
+        "updated_at": "2025-11-03T15:52:13+00:00",
         "version": 1
       }
     },

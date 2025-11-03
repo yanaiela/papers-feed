@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-03T20:07:01.686426+00:00",
+  "snapshot_time": "2025-11-03T20:08:24.147822+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -2104,17 +2104,17 @@
           },
           {
             "type": "reading_session",
-            "timestamp": "2025-11-03T20:05:58.781Z",
+            "timestamp": "2025-11-03T20:06:58.754Z",
             "data": {
-              "session_id": "session_1762200358773_cjt47xd",
+              "session_id": "session_1762200418113_pbbyhqi",
               "source_id": "arxiv",
               "paper_id": "2505.18128",
-              "start_time": "2025-11-03T20:05:53.312Z",
-              "end_time": "2025-11-03T20:05:58.773Z",
-              "heartbeat_count": 1,
-              "duration_seconds": 5,
-              "idle_seconds": 0,
-              "total_elapsed_seconds": 5
+              "start_time": "2025-11-03T20:06:01.975Z",
+              "end_time": "2025-11-03T20:06:58.113Z",
+              "heartbeat_count": 11,
+              "duration_seconds": 55,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 56
             }
           }
         ]
@@ -2123,7 +2123,7 @@
         "issue_number": 72,
         "object_id": "interactions:arxiv.2505.18128",
         "created_at": "2025-06-13T21:59:55+00:00",
-        "updated_at": "2025-11-03T20:06:59+00:00",
+        "updated_at": "2025-11-03T20:07:25+00:00",
         "version": 1
       }
     },
@@ -18310,6 +18310,32 @@
         "object_id": "paper:arxiv.2502.13028",
         "created_at": "2025-11-03T20:05:18+00:00",
         "updated_at": "2025-11-03T20:05:44+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.03154": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.03154",
+        "url": "https://arxiv.org/pdf/2510.03154",
+        "title": "EditLens: Quantifying the Extent of AI Editing in Text",
+        "authors": "Katherine Thai, Bradley Emi, Elyas Masrour, Mohit Iyyer",
+        "abstract": "A significant proportion of queries to large language models ask them to edit\nuser-provided text, rather than generate new text from scratch. While previous\nwork focuses on detecting fully AI-generated text, we demonstrate that\nAI-edited text is distinguishable from human-written and AI-generated text.\nFirst, we propose using lightweight similarity metrics to quantify the\nmagnitude of AI editing present in a text given the original human-written text\nand validate these metrics with human annotators. Using these similarity\nmetrics as intermediate supervision, we then train EditLens, a regression model\nthat predicts the amount of AI editing present within a text. Our model\nachieves state-of-the-art performance on both binary (F1=94.7%) and ternary\n(F1=90.4%) classification tasks in distinguishing human, AI, and mixed writing.\nNot only do we show that AI-edited text can be detected, but also that the\ndegree of change made by AI to human writing can be detected, which has\nimplications for authorship attribution, education, and policy. Finally, as a\ncase study, we use our model to analyze the effects of AI-edits applied by\nGrammarly, a popular writing assistance tool. To encourage further research, we\ncommit to publicly releasing our models and dataset.",
+        "timestamp": "2025-11-03T20:07:22.568Z",
+        "rating": "novote",
+        "publishedDate": "2025-10-03T16:27:48Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 608,
+        "object_id": "paper:arxiv.2510.03154",
+        "created_at": "2025-11-03T20:07:22+00:00",
+        "updated_at": "2025-11-03T20:07:42+00:00",
         "version": 1
       }
     }

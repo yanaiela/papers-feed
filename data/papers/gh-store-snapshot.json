@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-03T06:27:29.099394+00:00",
+  "snapshot_time": "2025-11-03T09:44:50.877681+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -17655,6 +17655,32 @@
         "object_id": "paper:arxiv.2408.10441",
         "created_at": "2025-11-03T05:13:40+00:00",
         "updated_at": "2025-11-03T05:14:04+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.EKvqw9k3lC": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "EKvqw9k3lC",
+        "url": "https://openreview.net/forum?id=EKvqw9k3lC",
+        "title": "Backtracking Mathematical Reasoning of Language Models to the Pretraining Data",
+        "authors": "Yasaman Razeghi, Hamish Ivison, Sameer Singh, Yanai Elazar",
+        "abstract": "In-context learning and chain-of-thought prompting have demonstrated surprising performance improvements on mathematical reasoning benchmarks.\nTherefore, understanding the underlying factors enabling these capabilities is crucial.\nHowever, the specific aspects of pretraining data that equip models with mathematical reasoning capabilities remain largely unexplored and are less studied systematically.\nIn this study, we identify subsets of model pretraining data that contribute to math reasoning ability of the model, and evaluate it on several mathematical operations (e.g. addition, multiplication) and tasks (e.g. the asdiv dataset).\nWe measure the importance of such subsets by continual training of the model on pretraining data subsets, and then we quantify the change in performance on the mathematical benchmark to assess their importance. \nIf a subset results in an improved performance, we conjecture that such subset contributes to a model's overall mathematical ability.\nOur results unveil that while training on math-only data contributes to simple arithmetic abilities, it does not solely explain performance on more complex reasoning abilities like chain-of-thought reasoning. \nWe also find that code data contributes to chain-of-thought reasoning while reducing the arithmetic performance.",
+        "timestamp": "2025-11-03T09:44:08.775Z",
+        "rating": "novote",
+        "publishedDate": "27 Oct 2023",
+        "tags": [
+          "pretraining data; math reasoning; data attribution"
+        ],
+        "doi": "",
+        "journalName": "ATTRIB Poster",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 592,
+        "object_id": "paper:openreview.EKvqw9k3lC",
+        "created_at": "2025-11-03T09:44:09+00:00",
+        "updated_at": "2025-11-03T09:44:29+00:00",
         "version": 1
       }
     }

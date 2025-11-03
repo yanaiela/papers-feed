@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-03T09:45:40.972837+00:00",
+  "snapshot_time": "2025-11-03T10:01:15.614213+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -17733,6 +17733,33 @@
         "object_id": "paper:arxiv.2402.00159",
         "created_at": "2025-11-03T09:44:49+00:00",
         "updated_at": "2025-11-03T09:45:09+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.15511": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.15511",
+        "url": "https://www.arxiv.org/pdf/2510.15511",
+        "title": "Language Models are Injective and Hence Invertible",
+        "authors": "Giorgos Nikolaou, Tommaso Mencattini, Donato Crisostomi, Andrea Santilli, Yannis Panagakis, Emanuele Rodol\u00e0",
+        "abstract": "Transformer components such as non-linear activations and normalization are\ninherently non-injective, suggesting that different inputs could map to the\nsame output and prevent exact recovery of the input from a model's\nrepresentations. In this paper, we challenge this view. First, we prove\nmathematically that transformer language models mapping discrete input\nsequences to their corresponding sequence of continuous representations are\ninjective and therefore lossless, a property established at initialization and\npreserved during training. Second, we confirm this result empirically through\nbillions of collision tests on six state-of-the-art language models, and\nobserve no collisions. Third, we operationalize injectivity: we introduce\nSipIt, the first algorithm that provably and efficiently reconstructs the exact\ninput text from hidden activations, establishing linear-time guarantees and\ndemonstrating exact invertibility in practice. Overall, our work establishes\ninjectivity as a fundamental and exploitable property of language models, with\ndirect implications for transparency, interpretability, and safe deployment.",
+        "timestamp": "2025-11-03T10:00:25.984Z",
+        "rating": "novote",
+        "publishedDate": "2025-10-17T10:25:30Z",
+        "tags": [
+          "cs.LG",
+          "cs.AI"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 595,
+        "object_id": "paper:arxiv.2510.15511",
+        "created_at": "2025-11-03T10:00:26+00:00",
+        "updated_at": "2025-11-03T10:00:46+00:00",
         "version": 1
       }
     }

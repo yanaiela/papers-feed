@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-03T11:08:39.539235+00:00",
+  "snapshot_time": "2025-11-03T11:34:07.395105+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -17835,6 +17835,32 @@
         "object_id": "interactions:arxiv.2510.15511",
         "created_at": "2025-11-03T10:01:53+00:00",
         "updated_at": "2025-11-03T11:06:12+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.rpegsGgoQb": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "rpegsGgoQb",
+        "url": "https://openreview.net/forum?id=rpegsGgoQb&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "TwoHillsLab: A Scalable Platform for  Quantitative Analysis of Biblical Hebrew",
+        "authors": "Guy Shaked",
+        "abstract": "TwoHillsLab: A Scalable Platform for \nQuantitative Analysis of Biblical Hebrew\nGuy Shaked, Bar-Ilan University\n1. Motivation\nLarge, digitized textual collections of the Bible invite methods from computational linguistics to revisit long-standing questions in biblical studies and historical philology. TwoHillsLab is a free, web-based platform that operationalizes such questions at scale, enabling reproducible, data-driven analysis across the Hebrew Bible and related corpora. The platform\u2019s first analytical release centers on a simple, interpretable signal\u2014average verse length (AVL) computed at chapter resolution. Despite its simplicity, AVL yields robust, cross-book patterns that align with (and at times challenge) traditional expectations.\n2. Key Findings\nGenre dominates authorship/period. Quantitatively, composition type (genre) exerts a stronger statistical signal than author/editor or historical period, suggesting stylistic regimes are better explained by genre than by source or time alone \nProse vs. poetry separation. Prose exhibits longer verses on average, while poetry trends shorter, yielding a clear, empirical distinction between the two at scale \nTwoHillsLabLecture19thCongress\nPoetry subtypes differentiate. The data distinguish EMET-style poetry (with its distinctive Masoretic accentuation) from other lyric poetry, and both from elegiac/laments \n3. Limitations\nNot all passages or books align cleanly with global patterns; such deviations are expected\u2014and indeed valuable\u2014as prompts for further inquiry. Average verse length is only one facet; a fuller account requires additional features and multi-parameter analyses.\n5. Ongoing & Future Work\nRicher feature sets: Moving beyond a single metric (e.g., AVL) to multi-feature, multi-parameter.\nGenAI/LLM integration: Leveraging modern generative models for large-scale text anlysis.\n6. Conclusion\nTwoHillsLab demonstrates that even minimalist, interpretable statistics can recover meaningful literary structure at scale in the Hebrew Bible. The platform positions computational linguistics not as a replacement for close reading, but as a complementary lens.",
+        "timestamp": "2025-11-03T11:33:17.962Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "TwoHillsLab; Biblical Hebrew; computational linguistics; digital humanities; stylometry; quantitative philology; LLM/GenAI for text analysis"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 597,
+        "object_id": "paper:openreview.rpegsGgoQb",
+        "created_at": "2025-11-03T11:33:18+00:00",
+        "updated_at": "2025-11-03T11:33:43+00:00",
         "version": 1
       }
     }

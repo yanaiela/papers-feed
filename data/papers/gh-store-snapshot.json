@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-03T20:12:45.913133+00:00",
+  "snapshot_time": "2025-11-03T20:19:37.253946+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -2116,6 +2116,21 @@
               "idle_seconds": 1,
               "total_elapsed_seconds": 56
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-03T20:17:39.684Z",
+            "data": {
+              "session_id": "session_1762201059679_zp2487a",
+              "source_id": "arxiv",
+              "paper_id": "2505.18128",
+              "start_time": "2025-11-03T20:17:30.358Z",
+              "end_time": "2025-11-03T20:17:39.679Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 9
+            }
           }
         ]
       },
@@ -2123,7 +2138,7 @@
         "issue_number": 72,
         "object_id": "interactions:arxiv.2505.18128",
         "created_at": "2025-06-13T21:59:55+00:00",
-        "updated_at": "2025-11-03T20:07:25+00:00",
+        "updated_at": "2025-11-03T20:18:21+00:00",
         "version": 1
       }
     },
@@ -18249,6 +18264,21 @@
               "idle_seconds": 2,
               "total_elapsed_seconds": 22
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-03T20:16:56.473Z",
+            "data": {
+              "session_id": "session_1762201016467_lrdj3ze",
+              "source_id": "arxiv",
+              "paper_id": "2501.15654",
+              "start_time": "2025-11-03T20:16:48.946Z",
+              "end_time": "2025-11-03T20:16:56.466Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
           }
         ]
       },
@@ -18256,7 +18286,7 @@
         "issue_number": 606,
         "object_id": "interactions:arxiv.2501.15654",
         "created_at": "2025-11-03T20:05:42+00:00",
-        "updated_at": "2025-11-03T20:06:09+00:00",
+        "updated_at": "2025-11-03T20:17:25+00:00",
         "version": 1
       }
     },
@@ -18388,6 +18418,36 @@
               "idle_seconds": 3,
               "total_elapsed_seconds": 13
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-03T20:17:19.783Z",
+            "data": {
+              "session_id": "session_1762201039489_ius876p",
+              "source_id": "arxiv",
+              "paper_id": "2510.03154",
+              "start_time": "2025-11-03T20:16:56.951Z",
+              "end_time": "2025-11-03T20:17:19.489Z",
+              "heartbeat_count": 4,
+              "duration_seconds": 20,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 23
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-03T20:18:43.425Z",
+            "data": {
+              "session_id": "session_1762201123414_infiu41",
+              "source_id": "arxiv",
+              "paper_id": "2510.03154",
+              "start_time": "2025-11-03T20:18:35.440Z",
+              "end_time": "2025-11-03T20:18:43.414Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
           }
         ]
       },
@@ -18395,7 +18455,34 @@
         "issue_number": 609,
         "object_id": "interactions:arxiv.2510.03154",
         "created_at": "2025-11-03T20:08:11+00:00",
-        "updated_at": "2025-11-03T20:12:22+00:00",
+        "updated_at": "2025-11-03T20:18:54+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2402.14873": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2402.14873",
+        "url": "https://arxiv.org/abs/2402.14873",
+        "title": "Technical Report on the Pangram AI-Generated Text Classifier",
+        "authors": "Bradley Emi, Max Spero",
+        "abstract": "We present Pangram Text, a transformer-based neural network trained to distinguish text written by large language models from text written by humans. Pangram Text outperforms zero-shot methods such as DetectGPT as well as leading commercial AI detection tools with over 38 times lower error rates on a comprehensive benchmark comprised of 10 text domains (student writing, creative writing, scientific writing, books, encyclopedias, news, email, scientific papers, short-form Q&A) and 8 open- and closed-source large language models. We propose a training algorithm, hard negative mining with synthetic mirrors, that enables our classifier to achieve orders of magnitude lower false positive rates on high-data domains such as reviews. Finally, we show that Pangram Text is not biased against nonnative English speakers and generalizes to domains and models unseen during training.",
+        "timestamp": "2025-11-03T20:18:53.697Z",
+        "rating": "novote",
+        "publishedDate": "2024/02/21",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 610,
+        "object_id": "paper:arxiv.2402.14873",
+        "created_at": "2025-11-03T20:18:54+00:00",
+        "updated_at": "2025-11-03T20:19:16+00:00",
         "version": 1
       }
     }

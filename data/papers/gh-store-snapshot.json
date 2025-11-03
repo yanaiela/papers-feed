@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-03T04:49:14.177770+00:00",
+  "snapshot_time": "2025-11-03T04:50:34.882990+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -17484,6 +17484,34 @@
         "object_id": "paper:arxiv.2504.02768",
         "created_at": "2025-11-03T04:47:52+00:00",
         "updated_at": "2025-11-03T04:48:11+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2406.13229": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2406.13229",
+        "url": "https://arxiv.org/abs/2406.13229",
+        "title": "Probing the Emergence of Cross-lingual Alignment during LLM Training",
+        "authors": "Hetong Wang, Pasquale Minervini, Edoardo M. Ponti",
+        "abstract": "Multilingual Large Language Models (LLMs) achieve remarkable levels of zero-shot cross-lingual transfer performance. We speculate that this is predicated on their ability to align languages without explicit supervision from parallel sentences. While representations of translationally equivalent sentences in different languages are known to be similar after convergence, however, it remains unclear how such cross-lingual alignment emerges during pre-training of LLMs. Our study leverages intrinsic probing techniques, which identify which subsets of neurons encode linguistic features, to correlate the degree of cross-lingual neuron overlap with the zero-shot cross-lingual transfer performance for a given model. In particular, we rely on checkpoints of BLOOM, a multilingual autoregressive LLM, across different training steps and model scales. We observe a high correlation between neuron overlap and downstream performance, which supports our hypothesis on the conditions leading to effective cross-lingual transfer. Interestingly, we also detect a degradation of both implicit alignment and multilingual abilities in certain phases of the pre-training process, providing new insights into the multilingual pretraining dynamics.",
+        "timestamp": "2025-11-03T04:49:19.221Z",
+        "rating": "novote",
+        "publishedDate": "2024/06/19",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 587,
+        "object_id": "paper:arxiv.2406.13229",
+        "created_at": "2025-11-03T04:49:19+00:00",
+        "updated_at": "2025-11-03T04:49:42+00:00",
         "version": 1
       }
     }

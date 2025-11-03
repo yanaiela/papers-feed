@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-03T15:05:01.551129+00:00",
+  "snapshot_time": "2025-11-03T15:11:10.629395+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -18019,6 +18019,34 @@
         "object_id": "interactions:arxiv.2206.09755",
         "created_at": "2025-11-03T14:52:06+00:00",
         "updated_at": "2025-11-03T15:04:33+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2507.07186": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2507.07186",
+        "url": "https://arxiv.org/abs/2507.07186",
+        "title": "Planted in Pretraining, Swayed by Finetuning: A Case Study on the Origins of Cognitive Biases in LLMs",
+        "authors": "Itay Itzhak, Yonatan Belinkov, Gabriel Stanovsky",
+        "abstract": "Large language models (LLMs) exhibit cognitive biases -- systematic tendencies of irrational decision-making, similar to those seen in humans. Prior work has found that these biases vary across models and can be amplified by instruction tuning. However, it remains unclear if these differences in biases stem from pretraining, finetuning, or even random noise due to training stochasticity. We propose a two-step causal experimental approach to disentangle these factors. First, we finetune models multiple times using different random seeds to study how training randomness affects over 3030 cognitive biases. Second, we introduce \\emph{cross-tuning} -- swapping instruction datasets between models to isolate bias sources. This swap uses datasets that led to different bias patterns, directly testing whether biases are dataset-dependent. Our findings reveal that while training randomness introduces some variability, biases are mainly shaped by pretraining: models with the same pretrained backbone exhibit more similar bias patterns than those sharing only finetuning data. These insights suggest that understanding biases in finetuned models requires considering their pretraining origins beyond finetuning effects. This perspective can guide future efforts to develop principled strategies for evaluating and mitigating bias in LLMs.",
+        "timestamp": "2025-11-03T15:10:21.345Z",
+        "rating": "novote",
+        "publishedDate": "2025/07/09",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 603,
+        "object_id": "paper:arxiv.2507.07186",
+        "created_at": "2025-11-03T15:10:21+00:00",
+        "updated_at": "2025-11-03T15:10:45+00:00",
         "version": 1
       }
     }

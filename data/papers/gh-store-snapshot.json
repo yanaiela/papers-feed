@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-03T15:49:55.178678+00:00",
+  "snapshot_time": "2025-11-03T15:51:32.860923+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -11475,6 +11475,21 @@
               "idle_seconds": 1,
               "total_elapsed_seconds": 11
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-03T15:50:26.046Z",
+            "data": {
+              "session_id": "session_1762185026029_b867i8w",
+              "source_id": "arxiv",
+              "paper_id": "2303.12712",
+              "start_time": "2025-11-03T15:50:10.748Z",
+              "end_time": "2025-11-03T15:50:26.029Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 15
+            }
           }
         ]
       },
@@ -11482,7 +11497,7 @@
         "issue_number": 415,
         "object_id": "interactions:arxiv.2303.12712",
         "created_at": "2025-10-20T15:31:51+00:00",
-        "updated_at": "2025-11-03T15:49:25+00:00",
+        "updated_at": "2025-11-03T15:50:45+00:00",
         "version": 1
       }
     },
@@ -11538,17 +11553,17 @@
           },
           {
             "type": "reading_session",
-            "timestamp": "2025-11-03T15:49:13.926Z",
+            "timestamp": "2025-11-03T15:50:09.577Z",
             "data": {
-              "session_id": "session_1762184953917_aow5t0i",
+              "session_id": "session_1762185008963_r0lldk9",
               "source_id": "arxiv",
               "paper_id": "2309.13638",
-              "start_time": "2025-11-03T15:49:06.291Z",
-              "end_time": "2025-11-03T15:49:13.917Z",
-              "heartbeat_count": 1,
-              "duration_seconds": 5,
-              "idle_seconds": 3,
-              "total_elapsed_seconds": 8
+              "start_time": "2025-11-03T15:49:54.034Z",
+              "end_time": "2025-11-03T15:50:08.963Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 5,
+              "total_elapsed_seconds": 15
             }
           }
         ]
@@ -11557,7 +11572,7 @@
         "issue_number": 414,
         "object_id": "interactions:arxiv.2309.13638",
         "created_at": "2025-10-20T15:31:41+00:00",
-        "updated_at": "2025-11-03T15:49:24+00:00",
+        "updated_at": "2025-11-03T15:50:36+00:00",
         "version": 1
       }
     },

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-03T12:10:26.953975+00:00",
+  "snapshot_time": "2025-11-03T14:52:19.967763+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -17890,6 +17890,90 @@
         "object_id": "paper:openreview.ujiCRwuqYg",
         "created_at": "2025-11-03T12:09:31+00:00",
         "updated_at": "2025-11-03T12:09:54+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2206.09755": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2206.09755",
+        "url": "https://arxiv.org/abs/2206.09755",
+        "title": "Square One Bias in NLP: Towards a Multi-Dimensional Exploration of the Research Manifold",
+        "authors": "Sebastian Ruder, Ivan Vuli\u0107, Anders S\u00f8gaard",
+        "abstract": "The prototypical NLP experiment trains a standard architecture on labeled English data and optimizes for accuracy, without accounting for other dimensions such as fairness, interpretability, or computational efficiency. We show through a manual classification of recent NLP research papers that this is indeed the case and refer to it as the square one experimental setup. We observe that NLP research often goes beyond the square one setup, e.g, focusing not only on accuracy, but also on fairness or interpretability, but typically only along a single dimension. Most work targeting multilinguality, for example, considers only accuracy; most work on fairness or interpretability considers only English; and so on. We show this through manual classification of recent NLP research papers and ACL Test-of-Time award recipients. Such one-dimensionality of most research means we are only exploring a fraction of the NLP research search space. We provide historical and recent examples of how the square one bias has led researchers to draw false conclusions or make unwise choices, point to promising yet unexplored directions on the research manifold, and make practical recommendations to enable more multi-dimensional research. We open-source the results of our annotations to enable further analysis at this https URL",
+        "timestamp": "2025-11-03T14:51:27.730Z",
+        "rating": "novote",
+        "publishedDate": "2022/06/20",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 601,
+        "object_id": "paper:arxiv.2206.09755",
+        "created_at": "2025-11-03T14:51:28+00:00",
+        "updated_at": "2025-11-03T14:51:54+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2504.16677": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.16677",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-03T14:51:17.093Z",
+            "data": {
+              "session_id": "session_1762181477082_k3x54np",
+              "source_id": "arxiv",
+              "paper_id": "2504.16677",
+              "start_time": "2025-11-03T14:51:11.183Z",
+              "end_time": "2025-11-03T14:51:17.082Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 600,
+        "object_id": "interactions:arxiv.2504.16677",
+        "created_at": "2025-11-03T14:51:18+00:00",
+        "updated_at": "2025-11-03T14:51:43+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2504.16677": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.16677",
+        "url": "https://arxiv.org/pdf/2504.16677",
+        "title": "A Post-trainer's Guide to Multilingual Training Data: Uncovering\n  Cross-lingual Transfer Dynamics",
+        "authors": "Luisa Shimabucoro, Ahmet Ustun, Marzieh Fadaee, Sebastian Ruder",
+        "abstract": "In order for large language models to be useful across the globe, they are\nfine-tuned to follow instructions on multilingual data. Despite the ubiquity of\nsuch post-training, a clear understanding of the dynamics that enable\ncross-lingual transfer remains elusive. This study examines cross-lingual\ntransfer (CLT) dynamics in realistic post-training settings. We study two model\nfamilies of up to 35B parameters in size trained on carefully controlled\nmixtures of multilingual data on three generative tasks with varying levels of\ncomplexity (summarization, instruction following, and mathematical reasoning)\nin both single-task and multi-task instruction tuning settings. Overall, we\nfind that the dynamics of cross-lingual transfer and multilingual performance\ncannot be explained by isolated variables, varying depending on the combination\nof post-training settings. Finally, we identify the conditions that lead to\neffective cross-lingual transfer in practice.",
+        "timestamp": "2025-11-03T14:51:07.542Z",
+        "rating": "novote",
+        "publishedDate": "2025-04-23T12:52:49Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 599,
+        "object_id": "paper:arxiv.2504.16677",
+        "created_at": "2025-11-03T14:51:07+00:00",
+        "updated_at": "2025-11-03T14:51:29+00:00",
         "version": 1
       }
     }

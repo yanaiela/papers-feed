@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-04T12:05:00.602937+00:00",
+  "snapshot_time": "2025-11-04T13:25:07.896455+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -18656,6 +18656,59 @@
         "object_id": "paper:arxiv.2509.03405",
         "created_at": "2025-11-04T07:45:54+00:00",
         "updated_at": "2025-11-04T07:46:18+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2505.14824": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.14824",
+        "url": "https://arxiv.org/pdf/2505.14824",
+        "title": "Tracing Multilingual Factual Knowledge Acquisition in Pretraining",
+        "authors": "Yihong Liu, Mingyang Wang, Amir Hossein Kargaran, Felicia K\u00f6rner, Ercong Nie, Barbara Plank, Fran\u00e7ois Yvon, Hinrich Sch\u00fctze",
+        "abstract": "Large Language Models (LLMs) are capable of recalling multilingual factual\nknowledge present in their pretraining data. However, most studies evaluate\nonly the final model, leaving the development of factual recall and\ncrosslingual consistency throughout pretraining largely unexplored. In this\nwork, we trace how factual recall and crosslingual consistency evolve during\npretraining, focusing on OLMo-7B as a case study. We find that both accuracy\nand consistency improve over time for most languages. We show that this\nimprovement is primarily driven by the fact frequency in the pretraining\ncorpus: more frequent facts are more likely to be recalled correctly,\nregardless of language. Yet, some low-frequency facts in non-English languages\ncan still be correctly recalled. Our analysis reveals that these instances\nlargely benefit from crosslingual transfer of their English counterparts -- an\neffect that emerges predominantly in the early stages of pretraining. We\npinpoint two distinct pathways through which multilingual factual knowledge\nacquisition occurs: (1) frequency-driven learning, which is dominant and\nlanguage-agnostic, and (2) crosslingual transfer, which is limited in scale and\ntypically constrained to relation types involving named entities. We release\nour code and data to facilitate further research at\nhttps://github.com/cisnlp/multilingual-fact-tracing.",
+        "timestamp": "2025-11-04T13:24:28.756Z",
+        "rating": "novote",
+        "publishedDate": "2025-05-20T18:39:56Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 617,
+        "object_id": "paper:arxiv.2505.14824",
+        "created_at": "2025-11-04T13:24:29+00:00",
+        "updated_at": "2025-11-04T13:24:48+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.24256": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.24256",
+        "url": "https://arxiv.org/pdf/2510.24256",
+        "title": "From Memorization to Reasoning in the Spectrum of Loss Curvature",
+        "authors": "Jack Merullo, Srihita Vatsavaya, Lucius Bushnaq, Owen Lewis",
+        "abstract": "We characterize how memorization is represented in transformer models and\nshow that it can be disentangled in the weights of both language models (LMs)\nand vision transformers (ViTs) using a decomposition based on the loss\nlandscape curvature. This insight is based on prior theoretical and empirical\nwork showing that the curvature for memorized training points is much sharper\nthan non memorized, meaning ordering weight components from high to low\ncurvature can reveal a distinction without explicit labels. This motivates a\nweight editing procedure that suppresses far more recitation of untargeted\nmemorized data more effectively than a recent unlearning method\n(BalancedSubnet), while maintaining lower perplexity. Since the basis of\ncurvature has a natural interpretation for shared structure in model weights,\nwe analyze the editing procedure extensively on its effect on downstream tasks\nin LMs, and find that fact retrieval and arithmetic are specifically and\nconsistently negatively affected, even though open book fact retrieval and\ngeneral logical reasoning is conserved. We posit these tasks rely heavily on\nspecialized directions in weight space rather than general purpose mechanisms,\nregardless of whether those individual datapoints are memorized. We support\nthis by showing a correspondence between task data's activation strength with\nlow curvature components that we edit out, and the drop in task performance\nafter the edit. Our work enhances the understanding of memorization in neural\nnetworks with practical applications towards removing it, and provides evidence\nfor idiosyncratic, narrowly-used structures involved in solving tasks like math\nand fact retrieval.",
+        "timestamp": "2025-11-04T13:24:16.117Z",
+        "rating": "novote",
+        "publishedDate": "2025-10-28T10:09:35Z",
+        "tags": [
+          "cs.CL",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 616,
+        "object_id": "paper:arxiv.2510.24256",
+        "created_at": "2025-11-04T13:24:16+00:00",
+        "updated_at": "2025-11-04T13:24:35+00:00",
         "version": 1
       }
     }

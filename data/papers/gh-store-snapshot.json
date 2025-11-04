@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-03T20:59:54.440660+00:00",
+  "snapshot_time": "2025-11-04T07:47:04.340789+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -18570,6 +18570,62 @@
         "object_id": "interactions:arxiv.2507.04782",
         "created_at": "2025-11-03T20:59:02+00:00",
         "updated_at": "2025-11-03T20:59:25+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2509.03405": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.03405",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-04T07:46:12.189Z",
+            "data": {
+              "session_id": "session_1762242371512_k17fg8f",
+              "source_id": "arxiv",
+              "paper_id": "2509.03405",
+              "start_time": "2025-11-04T07:45:54.153Z",
+              "end_time": "2025-11-04T07:46:11.512Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 17
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 615,
+        "object_id": "interactions:arxiv.2509.03405",
+        "created_at": "2025-11-04T07:46:12+00:00",
+        "updated_at": "2025-11-04T07:46:35+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2509.03405": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.03405",
+        "url": "https://arxiv.org/pdf/2509.03405",
+        "title": "LMEnt: A Suite for Analyzing Knowledge in Language Models from\n  Pretraining Data to Representations",
+        "authors": "Daniela Gottesman, Alon Gilae-Dotan, Ido Cohen, Yoav Gur-Arieh, Marius Mosbach, Ori Yoran, Mor Geva",
+        "abstract": "Language models (LMs) increasingly drive real-world applications that require\nworld knowledge. However, the internal processes through which models turn data\ninto representations of knowledge and beliefs about the world, are poorly\nunderstood. Insights into these processes could pave the way for developing LMs\nwith knowledge representations that are more consistent, robust, and complete.\nTo facilitate studying these questions, we present LMEnt, a suite for analyzing\nknowledge acquisition in LMs during pretraining. LMEnt introduces: (1) a\nknowledge-rich pretraining corpus, fully annotated with entity mentions, based\non Wikipedia, (2) an entity-based retrieval method over pretraining data that\noutperforms previous approaches by as much as 80.4%, and (3) 12 pretrained\nmodels with up to 1B parameters and 4K intermediate checkpoints, with\ncomparable performance to popular open-sourced models on knowledge benchmarks.\nTogether, these resources provide a controlled environment for analyzing\nconnections between entity mentions in pretraining and downstream performance,\nand the effects of causal interventions in pretraining data. We show the\nutility of LMEnt by studying knowledge acquisition across checkpoints, finding\nthat fact frequency is key, but does not fully explain learning trends. We\nrelease LMEnt to support studies of knowledge in LMs, including knowledge\nrepresentations, plasticity, editing, attribution, and learning dynamics.",
+        "timestamp": "2025-11-04T07:45:54.557Z",
+        "rating": "novote",
+        "publishedDate": "2025-09-03T15:31:18Z",
+        "tags": [
+          "cs.CL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 614,
+        "object_id": "paper:arxiv.2509.03405",
+        "created_at": "2025-11-04T07:45:54+00:00",
+        "updated_at": "2025-11-04T07:46:18+00:00",
         "version": 1
       }
     }

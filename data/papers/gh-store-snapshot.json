@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-04T14:53:53.406898+00:00",
+  "snapshot_time": "2025-11-04T14:57:09.266574+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -17977,6 +17977,21 @@
               "idle_seconds": 3,
               "total_elapsed_seconds": 68
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-04T14:55:49.327Z",
+            "data": {
+              "session_id": "session_1762268148670_pguf3i3",
+              "source_id": "arxiv",
+              "paper_id": "2510.15511",
+              "start_time": "2025-11-04T14:55:08.417Z",
+              "end_time": "2025-11-04T14:55:48.670Z",
+              "heartbeat_count": 8,
+              "duration_seconds": 40,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 40
+            }
           }
         ]
       },
@@ -17984,7 +17999,7 @@
         "issue_number": 596,
         "object_id": "interactions:arxiv.2510.15511",
         "created_at": "2025-11-03T10:01:53+00:00",
-        "updated_at": "2025-11-04T14:53:22+00:00",
+        "updated_at": "2025-11-04T14:56:19+00:00",
         "version": 1
       }
     },
@@ -18813,6 +18828,63 @@
         "object_id": "interactions:arxiv.2510.24256",
         "created_at": "2025-11-04T13:25:22+00:00",
         "updated_at": "2025-11-04T13:25:24+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2408.11721": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2408.11721",
+        "url": "https://arxiv.org/pdf/2408.11721?",
+        "title": "Detection-Driven Object Count Optimization for Text-to-Image Diffusion\n  Models",
+        "authors": "Oz Zafar, Yuval Cohen, Lior Wolf, Idan Schwartz",
+        "abstract": "Accurately controlling object count in text-to-image generation remains a key\nchallenge. Supervised methods often fail, as training data rarely covers all\ncount variations. Methods that manipulate the denoising process to add or\nremove objects can help; however, they still require labeled data, limit\nrobustness and image quality, and rely on a slow, iterative process.\n  Pre-trained differentiable counting models that rely on soft object density\nsummation exist and could steer generation, but employing them presents three\nmain challenges: (i) they are pre-trained on clean images, making them less\neffective during denoising steps that operate on noisy inputs; (ii) they are\nnot robust to viewpoint changes; and (iii) optimization is computationally\nexpensive, requiring repeated model evaluations per image.\n  We propose a new framework that uses pre-trained object counting techniques\nand object detectors to guide generation. First, we optimize a counting token\nusing an outer-loop loss computed on fully generated images. Second, we\nintroduce a detection-driven scaling term that corrects errors caused by\nviewpoint and proportion shifts, among other factors, without requiring\nbackpropagation through the detection model. Third, we show that the optimized\nparameters can be reused for new prompts, removing the need for repeated\noptimization. Our method provides efficiency through token reuse, flexibility\nvia compatibility with various detectors, and accuracy with improved counting\nacross diverse object categories.",
+        "timestamp": "2025-11-04T14:56:16.935Z",
+        "rating": "novote",
+        "publishedDate": "2024-08-21T15:51:46Z",
+        "tags": [
+          "cs.CV",
+          "cs.AI",
+          "cs.GR",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 621,
+        "object_id": "paper:arxiv.2408.11721",
+        "created_at": "2025-11-04T14:56:17+00:00",
+        "updated_at": "2025-11-04T14:56:38+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.02226": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.02226",
+        "url": "https://arxiv.org/abs/2510.02226",
+        "title": "TempoControl: Temporal Attention Guidance for Text-to-Video Models",
+        "authors": "Shira Schiber, Ofir Lindenbaum, Idan Schwartz",
+        "abstract": "Recent advances in generative video models have enabled the creation of high-quality videos based on natural language prompts. However, these models frequently lack fine-grained temporal control, meaning they do not allow users to specify when particular visual elements should appear within a generated sequence. In this work, we introduce TempoControl, a method that allows for temporal alignment of visual concepts during inference, without requiring retraining or additional supervision. TempoControl utilizes cross-attention maps, a key component of text-to-video diffusion models, to guide the timing of concepts through a novel optimization approach. Our method steers attention using three complementary principles: aligning its temporal shape with a control signal (via correlation), amplifying it where visibility is needed (via energy), and maintaining spatial focus (via entropy). TempoControl allows precise control over timing while ensuring high video quality and diversity. We demonstrate its effectiveness across various video generation applications, including temporal reordering for single and multiple objects, as well as action and audio-aligned generation.",
+        "timestamp": "2025-11-04T14:56:06.825Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/02",
+        "tags": [
+          "Computer Vision and Pattern Recognition (cs.CV)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 620,
+        "object_id": "paper:arxiv.2510.02226",
+        "created_at": "2025-11-04T14:56:07+00:00",
+        "updated_at": "2025-11-04T14:56:33+00:00",
         "version": 1
       }
     }

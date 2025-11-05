@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-05T10:03:06.232264+00:00",
+  "snapshot_time": "2025-11-05T19:02:15.197190+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -19331,6 +19331,51 @@
         "object_id": "interactions:arxiv.2406.09325",
         "created_at": "2025-11-05T09:45:52+00:00",
         "updated_at": "2025-11-05T09:49:39+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.oymuTd7MjZ": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "oymuTd7MjZ",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 629,
+        "object_id": "interactions:openreview.oymuTd7MjZ",
+        "created_at": "2025-11-05T19:01:40+00:00",
+        "updated_at": "2025-11-05T19:01:42+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.oymuTd7MjZ": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "oymuTd7MjZ",
+        "url": "https://openreview.net/forum?id=oymuTd7MjZ&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "Unveiling the spectrum of Arabic offensive  language: Taxonomy and insights",
+        "authors": "Chaya Liebeskind, Yossef Haim Shrem, Marina Litvak, Natalia Vanetik",
+        "abstract": "This paper presents a novel taxonomy designed to classify offensive language in Arabic, filling a notable void in existing literature primarily concentrated on Indo-European languages. Our taxonomy delineates offensive language into seven distinct levels, comprising six explicit levels and one implicit level. Drawing inspiration from the simplified offensive language (SOL) taxonomy outlined in prior work, we adapted it to accommodate the intricacies and linguistic richness of Arabic. In our study, we analyzed existing datasets containing offensive language in Arabic, examining the range of annotations employed within these datasets. This exploration allowed us to gain insights into the diversity of offensive language instances and the methodologies used for their annotation, thereby informing the development of our streamlined taxonomy for categorizing such expressions. Initial examination of datasets uncovers compelling trends and distributions, emphasizing the intricate and distinct nature of offensive expressions in Arabic. We have also analyzed the performance of pre-trained and fine-tuned Arabic transformer offensive language detection models on these datasets. Our results underscore the importance of acknowledging linguistic and cultural diversity in the study and mitigation of online abusive language. We posit that our refined taxonomy and accompanying dataset will be pivotal in advancing research across Semitic languages, including sociocultural studies, natural language processing, and linguistic analyses",
+        "timestamp": "2025-11-05T19:01:21.860Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Arabic offensive language",
+          "hate speech detection",
+          "abusive language taxonomy",
+          "transformer models",
+          "Arabic dialects",
+          "natural language processing"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 628,
+        "object_id": "paper:openreview.oymuTd7MjZ",
+        "created_at": "2025-11-05T19:01:22+00:00",
+        "updated_at": "2025-11-05T19:01:46+00:00",
         "version": 1
       }
     }

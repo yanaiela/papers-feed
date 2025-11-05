@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-05T20:12:25.307706+00:00",
+  "snapshot_time": "2025-11-05T20:13:38.205580+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -19405,6 +19405,65 @@
         "object_id": "paper:arxiv.2510.20810",
         "created_at": "2025-11-05T20:11:25+00:00",
         "updated_at": "2025-11-05T20:11:58+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.12014": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.12014",
+        "url": "https://arxiv.org/pdf/2506.12014",
+        "title": "code_transformed: The Influence of Large Language Models on Code",
+        "authors": "Yuliang Xu, Siming Huang, Mingmeng Geng, Yao Wan, Xuanhua Shi, Dongping Chen",
+        "abstract": "Coding remains one of the most fundamental modes of interaction between\nhumans and machines. With the rapid advancement of Large Language Models\n(LLMs), code generation capabilities have begun to significantly reshape\nprogramming practices. This development prompts a central question: Have LLMs\ntransformed code style, and how can such transformation be characterized? In\nthis paper, we present a pioneering study that investigates the impact of LLMs\non code style, with a focus on naming conventions, complexity, maintainability,\nand similarity. By analyzing code from over 19,000 GitHub repositories linked\nto arXiv papers published between 2020 and 2025, we identify measurable trends\nin the evolution of coding style that align with characteristics of\nLLM-generated code. For instance, the proportion of snake\\_case variable names\nin Python code increased from 47% in Q1 2023 to 51% in Q1 2025. Furthermore, we\ninvestigate how LLMs approach algorithmic problems by examining their reasoning\nprocesses. Given the diversity of LLMs and usage scenarios, among other\nfactors, it is difficult or even impossible to precisely estimate the\nproportion of code generated or assisted by LLMs. Our experimental results\nprovide the first large-scale empirical evidence that LLMs affect real-world\nprogramming style.",
+        "timestamp": "2025-11-05T20:12:59.697Z",
+        "rating": "novote",
+        "publishedDate": "2025-06-13T17:59:39Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG",
+          "cs.SE"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 632,
+        "object_id": "paper:arxiv.2506.12014",
+        "created_at": "2025-11-05T20:13:00+00:00",
+        "updated_at": "2025-11-05T20:13:21+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2510.20810": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.20810",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-05T20:12:47.920Z",
+            "data": {
+              "session_id": "session_1762373567225_r6yepno",
+              "source_id": "arxiv",
+              "paper_id": "2510.20810",
+              "start_time": "2025-11-05T20:11:24.796Z",
+              "end_time": "2025-11-05T20:12:47.225Z",
+              "heartbeat_count": 16,
+              "duration_seconds": 80,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 82
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 631,
+        "object_id": "interactions:arxiv.2510.20810",
+        "created_at": "2025-11-05T20:12:48+00:00",
+        "updated_at": "2025-11-05T20:13:13+00:00",
         "version": 1
       }
     }

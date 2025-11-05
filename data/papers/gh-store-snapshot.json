@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-05T20:15:06.450216+00:00",
+  "snapshot_time": "2025-11-05T20:15:50.291252+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -19494,6 +19494,154 @@
         "object_id": "interactions:arxiv.2506.12014",
         "created_at": "2025-11-05T20:14:18+00:00",
         "updated_at": "2025-11-05T20:14:43+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2502.09606": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2502.09606",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-05T20:15:04.083Z",
+            "data": {
+              "session_id": "session_1762373703545_cwh88rv",
+              "source_id": "arxiv",
+              "paper_id": "2502.09606",
+              "start_time": "2025-11-05T20:14:55.782Z",
+              "end_time": "2025-11-05T20:15:03.545Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 640,
+        "object_id": "interactions:arxiv.2502.09606",
+        "created_at": "2025-11-05T20:15:05+00:00",
+        "updated_at": "2025-11-05T20:15:27+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2409.13686": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2409.13686",
+        "url": "https://arxiv.org/pdf/2409.13686?",
+        "title": "The Impact of Large Language Models in Academia: from Writing to\n  Speaking",
+        "authors": "Mingmeng Geng, Caixi Chen, Yanru Wu, Dongping Chen, Yao Wan, Pan Zhou",
+        "abstract": "Large language models (LLMs) are increasingly impacting human society,\nparticularly in textual information. Based on more than 30,000 papers and 1,000\npresentations from machine learning conferences, we examined and compared the\nwords used in writing and speaking, representing the first large-scale study of\nhow LLMs influence the two main modes of verbal communication and expression\nwithin the same group of people. Our empirical results show that LLM-style\nwords such as \"significant\" have been used more frequently in abstracts and\noral presentations. The impact on speaking is beginning to emerge and is likely\nto grow in the future, calling attention to the implicit influence and ripple\neffect of LLMs on human society.",
+        "timestamp": "2025-11-05T20:14:56.864Z",
+        "rating": "novote",
+        "publishedDate": "2024-09-20T17:54:16Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CY",
+          "cs.DL",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 639,
+        "object_id": "paper:arxiv.2409.13686",
+        "created_at": "2025-11-05T20:14:57+00:00",
+        "updated_at": "2025-11-05T20:15:22+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2404.08627": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2404.08627",
+        "url": "https://arxiv.org/pdf/2404.08627?",
+        "title": "Is ChatGPT Transforming Academics' Writing Style?",
+        "authors": "Mingmeng Geng, Roberto Trotta",
+        "abstract": "Based on one million arXiv papers submitted from May 2018 to January 2024, we\nassess the textual density of ChatGPT's writing style in their abstracts\nthrough a statistical analysis of word frequency changes. Our model is\ncalibrated and validated on a mixture of real abstracts and ChatGPT-modified\nabstracts (simulated data) after a careful noise analysis. The words used for\nestimation are not fixed but adaptive, including those with decreasing\nfrequency. We find that large language models (LLMs), represented by ChatGPT,\nare having an increasing impact on arXiv abstracts, especially in the field of\ncomputer science, where the fraction of LLM-style abstracts is estimated to be\napproximately 35%, if we take the responses of GPT-3.5 to one simple prompt,\n\"revise the following sentences\", as a baseline. We conclude with an analysis\nof both positive and negative aspects of the penetration of LLMs into\nacademics' writing style.",
+        "timestamp": "2025-11-05T20:14:56.026Z",
+        "rating": "novote",
+        "publishedDate": "2024-04-12T17:41:05Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI",
+          "cs.DL",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 638,
+        "object_id": "paper:arxiv.2404.08627",
+        "created_at": "2025-11-05T20:14:56+00:00",
+        "updated_at": "2025-11-05T20:15:15+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2405.19323": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2405.19323",
+        "url": "https://arxiv.org/pdf/2405.19323?",
+        "title": "Are Large Language Models Chameleons? An Attempt to Simulate Social\n  Surveys",
+        "authors": "Mingmeng Geng, Sihong He, Roberto Trotta",
+        "abstract": "Can large language models (LLMs) simulate social surveys? To answer this\nquestion, we conducted millions of simulations in which LLMs were asked to\nanswer subjective questions. A comparison of different LLM responses with the\nEuropean Social Survey (ESS) data suggests that the effect of prompts on bias\nand variability is fundamental, highlighting major cultural, age, and gender\nbiases. We further discussed statistical methods for measuring the difference\nbetween LLM answers and survey data and proposed a novel measure inspired by\nJaccard similarity, as LLM-generated responses are likely to have a smaller\nvariance. Our experiments also reveal that it is important to analyze the\nrobustness and variability of prompts before using LLMs to simulate social\nsurveys, as their imitation abilities are approximate at best.",
+        "timestamp": "2025-11-05T20:14:55.676Z",
+        "rating": "novote",
+        "publishedDate": "2024-05-29T17:54:22Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CY",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 635,
+        "object_id": "paper:arxiv.2405.19323",
+        "created_at": "2025-11-05T20:14:56+00:00",
+        "updated_at": "2025-11-05T20:15:28+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2502.09606": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2502.09606",
+        "url": "https://arxiv.org/pdf/2502.09606?",
+        "title": "Human-LLM Coevolution: Evidence from Academic Writing",
+        "authors": "Mingmeng Geng, Roberto Trotta",
+        "abstract": "With a statistical analysis of arXiv paper abstracts, we report a marked drop\nin the frequency of several words previously identified as overused by ChatGPT,\nsuch as \"delve\", starting soon after they were pointed out in early 2024. The\nfrequency of certain other words favored by ChatGPT, such as \"significant\", has\ninstead kept increasing. These phenomena suggest that some authors of academic\npapers have adapted their use of large language models (LLMs), for example, by\nselecting outputs or applying modifications to the LLM-generated content. Such\ncoevolution and cooperation of humans and LLMs thus introduce additional\nchallenges to the detection of machine-generated text in real-world scenarios.\nEstimating the impact of LLMs on academic writing by examining word frequency\nremains feasible, and more attention should be paid to words that were already\nfrequently employed, including those that have decreased in frequency due to\nLLMs' disfavor.",
+        "timestamp": "2025-11-05T20:14:54.443Z",
+        "rating": "novote",
+        "publishedDate": "2025-02-13T18:55:56Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI",
+          "cs.CY",
+          "cs.DL",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 634,
+        "object_id": "paper:arxiv.2502.09606",
+        "created_at": "2025-11-05T20:14:55+00:00",
+        "updated_at": "2025-11-05T20:15:12+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-05T08:45:37.856898+00:00",
+  "snapshot_time": "2025-11-05T09:43:46.024530+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -19185,6 +19185,61 @@
         "object_id": "interactions:arxiv.2510.02226",
         "created_at": "2025-11-04T14:56:50+00:00",
         "updated_at": "2025-11-04T15:02:45+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2508.13650": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2508.13650",
+        "url": "https://arxiv.org/pdf/2508.13650",
+        "title": "CRISP: Persistent Concept Unlearning via Sparse Autoencoders",
+        "authors": "Tomer Ashuach, Dana Arad, Aaron Mueller, Martin Tutek, Yonatan Belinkov",
+        "abstract": "As large language models (LLMs) are increasingly deployed in real-world\napplications, the need to selectively remove unwanted knowledge while\npreserving model utility has become paramount. Recent work has explored sparse\nautoencoders (SAEs) to perform precise interventions on monosemantic features.\nHowever, most SAE-based methods operate at inference time, which does not\ncreate persistent changes in the model's parameters. Such interventions can be\nbypassed or reversed by malicious actors with parameter access. We introduce\nCRISP, a parameter-efficient method for persistent concept unlearning using\nSAEs. CRISP automatically identifies salient SAE features across multiple\nlayers and suppresses their activations. We experiment with two LLMs and show\nthat our method outperforms prior approaches on safety-critical unlearning\ntasks from the WMDP benchmark, successfully removing harmful knowledge while\npreserving general and in-domain capabilities. Feature-level analysis reveals\nthat CRISP achieves semantically coherent separation between target and benign\nconcepts, allowing precise suppression of the target features.",
+        "timestamp": "2025-11-05T09:42:47.874Z",
+        "rating": "novote",
+        "publishedDate": "2025-08-19T09:01:22Z",
+        "tags": [
+          "cs.CL",
+          "I.2.7",
+          "I.2.7"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 626,
+        "object_id": "paper:arxiv.2508.13650",
+        "created_at": "2025-11-05T09:42:48+00:00",
+        "updated_at": "2025-11-05T09:43:08+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2406.09325": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2406.09325",
+        "url": "https://arxiv.org/pdf/2406.09325v3",
+        "title": "REVS: Unlearning Sensitive Information in Language Models via Rank\n  Editing in the Vocabulary Space",
+        "authors": "Tomer Ashuach, Martin Tutek, Yonatan Belinkov",
+        "abstract": "Language models (LMs) risk inadvertently memorizing and divulging sensitive\nor personally identifiable information (PII) seen in training data, causing\nprivacy concerns. Current approaches to address this issue involve costly\ndataset scrubbing, or model filtering through unlearning and model editing,\nwhich can be bypassed through extraction attacks. We propose REVS, a novel\nnon-gradient-based method for unlearning sensitive information from LMs. REVS\nidentifies and modifies a small subset of neurons relevant for constituent\ntokens that form sensitive information. To adequately evaluate our method on\ntruly sensitive information, we curate three datasets: email and URL datasets\nnaturally memorized by the models, and a synthetic social security number\ndataset that we tune the models to memorize. Compared to other methods, REVS\ndemonstrates superior performance in unlearning sensitive information and\nrobustness to extraction attacks, while retaining underlying model integrity.",
+        "timestamp": "2025-11-05T09:42:44.072Z",
+        "rating": "novote",
+        "publishedDate": "2024-06-13T17:02:32Z",
+        "tags": [
+          "cs.CL",
+          "I.2.7"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 624,
+        "object_id": "paper:arxiv.2406.09325",
+        "created_at": "2025-11-05T09:42:44+00:00",
+        "updated_at": "2025-11-05T09:43:13+00:00",
         "version": 1
       }
     }

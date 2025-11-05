@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-05T20:17:02.558290+00:00",
+  "snapshot_time": "2025-11-05T20:25:57.239032+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -19531,6 +19531,51 @@
               "idle_seconds": 3,
               "total_elapsed_seconds": 63
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-05T20:23:48.315Z",
+            "data": {
+              "session_id": "session_1762374228308_mqrb8nd",
+              "source_id": "arxiv",
+              "paper_id": "2502.09606",
+              "start_time": "2025-11-05T20:23:42.811Z",
+              "end_time": "2025-11-05T20:23:48.308Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 5
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-05T20:24:38.428Z",
+            "data": {
+              "session_id": "session_1762374278399_5dscga3",
+              "source_id": "arxiv",
+              "paper_id": "2502.09606",
+              "start_time": "2025-11-05T20:24:31.184Z",
+              "end_time": "2025-11-05T20:24:38.399Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 7
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-05T20:25:12.247Z",
+            "data": {
+              "session_id": "session_1762374312220_306dmeb",
+              "source_id": "arxiv",
+              "paper_id": "2502.09606",
+              "start_time": "2025-11-05T20:25:01.234Z",
+              "end_time": "2025-11-05T20:25:12.220Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 11
+            }
           }
         ]
       },
@@ -19538,7 +19583,7 @@
         "issue_number": 640,
         "object_id": "interactions:arxiv.2502.09606",
         "created_at": "2025-11-05T20:15:05+00:00",
-        "updated_at": "2025-11-05T20:16:33+00:00",
+        "updated_at": "2025-11-05T20:25:33+00:00",
         "version": 1
       }
     },
@@ -19657,6 +19702,182 @@
         "object_id": "paper:arxiv.2502.09606",
         "created_at": "2025-11-05T20:14:55+00:00",
         "updated_at": "2025-11-05T20:15:12+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2403.16887": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2403.16887",
+        "url": "https://arxiv.org/pdf/2403.16887",
+        "title": "ChatGPT \"contamination\": estimating the prevalence of LLMs in the\n  scholarly literature",
+        "authors": "Andrew Gray",
+        "abstract": "The use of ChatGPT and similar Large Language Model (LLM) tools in scholarly\ncommunication and academic publishing has been widely discussed since they\nbecame easily accessible to a general audience in late 2022. This study uses\nkeywords known to be disproportionately present in LLM-generated text to\nprovide an overall estimate for the prevalence of LLM-assisted writing in the\nscholarly literature. For the publishing year 2023, it is found that several of\nthose keywords show a distinctive and disproportionate increase in their\nprevalence, individually and in combination. It is estimated that at least\n60,000 papers (slightly over 1% of all articles) were LLM-assisted, though this\nnumber could be extended and refined by analysis of other characteristics of\nthe papers or by identification of further indicative keywords.",
+        "timestamp": "2025-11-05T20:24:42.508Z",
+        "rating": "novote",
+        "publishedDate": "2024-03-25T15:56:37Z",
+        "tags": [
+          "cs.DL"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 646,
+        "object_id": "paper:arxiv.2403.16887",
+        "created_at": "2025-11-05T20:24:42+00:00",
+        "updated_at": "2025-11-05T20:25:03+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2404.01268": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2404.01268",
+        "url": "https://arxiv.org/pdf/2404.01268?",
+        "title": "Mapping the Increasing Use of LLMs in Scientific Papers",
+        "authors": "Weixin Liang, Yaohui Zhang, Zhengxuan Wu, Haley Lepp, Wenlong Ji, Xuandong Zhao, Hancheng Cao, Sheng Liu, Siyu He, Zhi Huang, Diyi Yang, Christopher Potts, Christopher D Manning, James Y. Zou",
+        "abstract": "Scientific publishing lays the foundation of science by disseminating\nresearch findings, fostering collaboration, encouraging reproducibility, and\nensuring that scientific knowledge is accessible, verifiable, and built upon\nover time. Recently, there has been immense speculation about how many people\nare using large language models (LLMs) like ChatGPT in their academic writing,\nand to what extent this tool might have an effect on global scientific\npractices. However, we lack a precise measure of the proportion of academic\nwriting substantially modified or produced by LLMs. To address this gap, we\nconduct the first systematic, large-scale analysis across 950,965 papers\npublished between January 2020 and February 2024 on the arXiv, bioRxiv, and\nNature portfolio journals, using a population-level statistical framework to\nmeasure the prevalence of LLM-modified content over time. Our statistical\nestimation operates on the corpus level and is more robust than inference on\nindividual instances. Our findings reveal a steady increase in LLM usage, with\nthe largest and fastest growth observed in Computer Science papers (up to\n17.5%). In comparison, Mathematics papers and the Nature portfolio showed the\nleast LLM modification (up to 6.3%). Moreover, at an aggregate level, our\nanalysis reveals that higher levels of LLM-modification are associated with\npapers whose first authors post preprints more frequently, papers in more\ncrowded research areas, and papers of shorter lengths. Our findings suggests\nthat LLMs are being broadly used in scientific writings.",
+        "timestamp": "2025-11-05T20:24:27.816Z",
+        "rating": "novote",
+        "publishedDate": "2024-04-01T17:45:15Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI",
+          "cs.DL",
+          "cs.LG",
+          "cs.SI"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 645,
+        "object_id": "paper:arxiv.2404.01268",
+        "created_at": "2025-11-05T20:24:28+00:00",
+        "updated_at": "2025-11-05T20:24:47+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2403.07183": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2403.07183",
+        "url": "https://arxiv.org/pdf/2403.07183?",
+        "title": "Monitoring AI-Modified Content at Scale: A Case Study on the Impact of\n  ChatGPT on AI Conference Peer Reviews",
+        "authors": "Weixin Liang, Zachary Izzo, Yaohui Zhang, Haley Lepp, Hancheng Cao, Xuandong Zhao, Lingjiao Chen, Haotian Ye, Sheng Liu, Zhi Huang, Daniel A. McFarland, James Y. Zou",
+        "abstract": "We present an approach for estimating the fraction of text in a large corpus\nwhich is likely to be substantially modified or produced by a large language\nmodel (LLM). Our maximum likelihood model leverages expert-written and\nAI-generated reference texts to accurately and efficiently examine real-world\nLLM-use at the corpus level. We apply this approach to a case study of\nscientific peer review in AI conferences that took place after the release of\nChatGPT: ICLR 2024, NeurIPS 2023, CoRL 2023 and EMNLP 2023. Our results suggest\nthat between 6.5% and 16.9% of text submitted as peer reviews to these\nconferences could have been substantially modified by LLMs, i.e. beyond\nspell-checking or minor writing updates. The circumstances in which generated\ntext occurs offer insight into user behavior: the estimated fraction of\nLLM-generated text is higher in reviews which report lower confidence, were\nsubmitted close to the deadline, and from reviewers who are less likely to\nrespond to author rebuttals. We also observe corpus-level trends in generated\ntext which may be too subtle to detect at the individual level, and discuss the\nimplications of such trends on peer review. We call for future\ninterdisciplinary work to examine how LLM use is changing our information and\nknowledge practices.",
+        "timestamp": "2025-11-05T20:24:09.387Z",
+        "rating": "novote",
+        "publishedDate": "2024-03-11T21:51:39Z",
+        "tags": [
+          "cs.CL",
+          "cs.AI",
+          "cs.LG",
+          "cs.SI",
+          "I.2.7"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 644,
+        "object_id": "paper:arxiv.2403.07183",
+        "created_at": "2025-11-05T20:24:09+00:00",
+        "updated_at": "2025-11-05T20:24:27+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2409.13686": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2409.13686",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-05T20:23:42.132Z",
+            "data": {
+              "session_id": "session_1762374221491_bdkqm7u",
+              "source_id": "arxiv",
+              "paper_id": "2409.13686",
+              "start_time": "2025-11-05T20:23:32.273Z",
+              "end_time": "2025-11-05T20:23:41.491Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 9
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 643,
+        "object_id": "interactions:arxiv.2409.13686",
+        "created_at": "2025-11-05T20:23:42+00:00",
+        "updated_at": "2025-11-05T20:24:11+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2404.08627": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2404.08627",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-05T20:23:32.408Z",
+            "data": {
+              "session_id": "session_1762374212086_gsyg7zr",
+              "source_id": "arxiv",
+              "paper_id": "2404.08627",
+              "start_time": "2025-11-05T20:23:19.419Z",
+              "end_time": "2025-11-05T20:23:32.086Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 13
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 642,
+        "object_id": "interactions:arxiv.2404.08627",
+        "created_at": "2025-11-05T20:23:33+00:00",
+        "updated_at": "2025-11-05T20:23:52+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2405.19323": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2405.19323",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-05T20:23:19.512Z",
+            "data": {
+              "session_id": "session_1762374199215_eul0raf",
+              "source_id": "arxiv",
+              "paper_id": "2405.19323",
+              "start_time": "2025-11-05T20:23:11.457Z",
+              "end_time": "2025-11-05T20:23:19.215Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 641,
+        "object_id": "interactions:arxiv.2405.19323",
+        "created_at": "2025-11-05T20:23:20+00:00",
+        "updated_at": "2025-11-05T20:23:45+00:00",
         "version": 1
       }
     }

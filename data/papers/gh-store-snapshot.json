@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-06T08:47:51.163969+00:00",
+  "snapshot_time": "2025-11-06T09:06:30.499935+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -7922,26 +7922,41 @@
         "interactions": [
           {
             "type": "reading_session",
-            "timestamp": "2025-10-15T08:37:08.669Z",
+            "timestamp": "2025-10-15T09:46:48.175Z",
             "data": {
-              "session_id": "session_1760517427715_wttmbza",
+              "session_id": "session_1760521608063_ukn1cfj",
               "source_id": "arxiv",
               "paper_id": "2404.01019",
-              "start_time": "2025-10-15T08:35:53.301Z",
-              "end_time": "2025-10-15T08:37:07.715Z",
-              "heartbeat_count": 14,
-              "duration_seconds": 70,
+              "start_time": "2025-10-15T09:46:38.814Z",
+              "end_time": "2025-10-15T09:46:48.063Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
               "idle_seconds": 4,
-              "total_elapsed_seconds": 74
+              "total_elapsed_seconds": 9
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-06T09:05:18.482Z",
+            "data": {
+              "session_id": "session_1762419902516_n92txg9",
+              "source_id": "arxiv",
+              "paper_id": "2404.01019",
+              "start_time": "2025-11-06T09:04:33.150Z",
+              "end_time": "2025-11-06T09:05:02.516Z",
+              "heartbeat_count": 5,
+              "duration_seconds": 25,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 29
             }
           }
         ]
       },
       "meta": {
-        "issue_number": 240,
+        "issue_number": 248,
         "object_id": "interactions:arxiv.2404.01019",
-        "created_at": "2025-10-15T08:37:09+00:00",
-        "updated_at": "2025-10-15T18:48:23+00:00",
+        "created_at": "2025-10-15T09:45:35+00:00",
+        "updated_at": "2025-11-06T09:05:42+00:00",
         "version": 1
       }
     },
@@ -20439,6 +20454,32 @@
         "object_id": "interactions:arxiv.10",
         "created_at": "2025-11-06T04:39:34+00:00",
         "updated_at": "2025-11-06T05:04:05+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.07192": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.07192",
+        "url": "https://arxiv.org/abs/2510.07192",
+        "title": "Poisoning Attacks on LLMs Require a Near-constant Number of Poison Samples",
+        "authors": "Alexandra Souly, Javier Rando, Ed Chapman, Xander Davies, Burak Hasircioglu, Ezzeldin Shereen, Carlos Mougan, Vasilios Mavroudis, Erik Jones, Chris Hicks, Nicholas Carlini, Yarin Gal, Robert Kirk",
+        "abstract": "Poisoning attacks can compromise the safety of large language models (LLMs) by injecting malicious documents into their training data. Existing work has studied pretraining poisoning assuming adversaries control a percentage of the training corpus. However, for large models, even small percentages translate to impractically large amounts of data. This work demonstrates for the first time that poisoning attacks instead require a near-constant number of documents regardless of dataset size. We conduct the largest pretraining poisoning experiments to date, pretraining models from 600M to 13B parameters on chinchilla-optimal datasets (6B to 260B tokens). We find that 250 poisoned documents similarly compromise models across all model and dataset sizes, despite the largest models training on more than 20 times more clean data. We also run smaller-scale experiments to ablate factors that could influence attack success, including broader ratios of poisoned to clean data and non-random distributions of poisoned samples. Finally, we demonstrate the same dynamics for poisoning during fine-tuning. Altogether, our results suggest that injecting backdoors through data poisoning may be easier for large models than previously believed as the number of poisons required does not scale up with model size, highlighting the need for more research on defences to mitigate this risk in future models.",
+        "timestamp": "2025-11-06T09:05:40.275Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/08",
+        "tags": [
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 654,
+        "object_id": "paper:arxiv.2510.07192",
+        "created_at": "2025-11-06T09:05:40+00:00",
+        "updated_at": "2025-11-06T09:06:08+00:00",
         "version": 1
       }
     }

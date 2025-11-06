@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-06T04:34:30.070214+00:00",
+  "snapshot_time": "2025-11-06T04:35:33.446636+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -20155,17 +20155,17 @@
           },
           {
             "type": "reading_session",
-            "timestamp": "2025-11-06T04:33:43.751Z",
+            "timestamp": "2025-11-06T04:34:28.289Z",
             "data": {
-              "session_id": "session_1762403623213_rurgpym",
+              "session_id": "session_1762403668271_roy6gwh",
               "source_id": "arxiv",
               "paper_id": "2404.01268",
-              "start_time": "2025-11-06T04:31:50.879Z",
-              "end_time": "2025-11-06T04:33:43.213Z",
-              "heartbeat_count": 22,
-              "duration_seconds": 110,
-              "idle_seconds": 2,
-              "total_elapsed_seconds": 112
+              "start_time": "2025-11-06T04:33:57.511Z",
+              "end_time": "2025-11-06T04:34:28.271Z",
+              "heartbeat_count": 6,
+              "duration_seconds": 30,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 31
             }
           }
         ]
@@ -20174,7 +20174,31 @@
         "issue_number": 651,
         "object_id": "interactions:arxiv.2404.01268",
         "created_at": "2025-11-06T04:27:12+00:00",
-        "updated_at": "2025-11-06T04:34:29+00:00",
+        "updated_at": "2025-11-06T04:34:49+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.10": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "10",
+        "url": "https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/?ref=404media.co",
+        "title": "Attention Authors: Updated Practice for Review Articles and Position Papers in arXiv CS Category \u2013 arXiv blog",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-11-06T04:34:47.703Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 652,
+        "object_id": "paper:arxiv.10",
+        "created_at": "2025-11-06T04:34:48+00:00",
+        "updated_at": "2025-11-06T04:35:08+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-06T16:32:27.570504+00:00",
+  "snapshot_time": "2025-11-06T17:21:17.359833+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -20596,6 +20596,32 @@
         "object_id": "paper:arxiv.2304.14530",
         "created_at": "2025-11-06T13:15:18+00:00",
         "updated_at": "2025-11-06T13:15:41+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.1906.01327": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1906.01327",
+        "url": "https://arxiv.org/abs/1906.01327",
+        "title": "How Large Are Lions? Inducing Distributions over Quantitative Attributes",
+        "authors": "Yanai Elazar, Abhijit Mahabal, Deepak Ramachandran, Tania Bedrax-Weiss, Dan Roth",
+        "abstract": "Most current NLP systems have little knowledge about quantitative attributes of objects and events. We propose an unsupervised method for collecting quantitative information from large amounts of web data, and use it to create a new, very large resource consisting of distributions over physical quantities associated with objects, adjectives, and verbs which we call Distributions over Quantitative (DoQ). This contrasts with recent work in this area which has focused on making only relative comparisons such as \"Is a lion bigger than a wolf?\". Our evaluation shows that DoQ compares favorably with state of the art results on existing datasets for relative comparisons of nouns and adjectives, and on a new dataset we introduce.",
+        "timestamp": "2025-11-06T17:20:29.999Z",
+        "rating": "novote",
+        "publishedDate": "2019/06/04",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 659,
+        "object_id": "paper:arxiv.1906.01327",
+        "created_at": "2025-11-06T17:20:30+00:00",
+        "updated_at": "2025-11-06T17:20:50+00:00",
         "version": 1
       }
     }

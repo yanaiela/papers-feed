@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-07T07:23:01.896109+00:00",
+  "snapshot_time": "2025-11-07T07:54:10.531801+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -20782,6 +20782,33 @@
         "object_id": "paper:openreview.qEDsgiA7gp",
         "created_at": "2025-11-07T07:22:20+00:00",
         "updated_at": "2025-11-07T07:22:39+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.26202": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.26202",
+        "url": "https://arxiv.org/abs/2510.26202",
+        "title": "What's In My Human Feedback? Learning Interpretable Descriptions of Preference Data",
+        "authors": "Rajiv Movva, Smitha Milli, Sewon Min, Emma Pierson",
+        "abstract": "Human feedback can alter language models in unpredictable and undesirable ways, as practitioners lack a clear understanding of what feedback data encodes. While prior work studies preferences over certain attributes (e.g., length or sycophancy), automatically extracting relevant features without pre-specifying hypotheses remains challenging. We introduce What's In My Human Feedback? (WIMHF), a method to explain feedback data using sparse autoencoders. WIMHF characterizes both (1) the preferences a dataset is capable of measuring and (2) the preferences that the annotators actually express. Across 7 datasets, WIMHF identifies a small number of human-interpretable features that account for the majority of the preference prediction signal achieved by black-box models. These features reveal a wide diversity in what humans prefer, and the role of dataset-level context: for example, users on Reddit prefer informality and jokes, while annotators in HH-RLHF and PRISM disprefer them. WIMHF also surfaces potentially unsafe preferences, such as that LMArena users tend to vote against refusals, often in favor of toxic content. The learned features enable effective data curation: re-labeling the harmful examples in Arena yields large safety gains (+37%) with no cost to general performance. They also allow fine-grained personalization: on the Community Alignment dataset, we learn annotator-specific weights over subjective features that improve preference prediction. WIMHF provides a human-centered analysis method for practitioners to better understand and use preference data.",
+        "timestamp": "2025-11-07T07:53:18.556Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/30",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 664,
+        "object_id": "paper:arxiv.2510.26202",
+        "created_at": "2025-11-07T07:53:19+00:00",
+        "updated_at": "2025-11-07T07:53:41+00:00",
         "version": 1
       }
     }

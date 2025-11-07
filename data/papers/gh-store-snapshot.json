@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-06T18:17:33.130471+00:00",
+  "snapshot_time": "2025-11-07T06:15:15.365620+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -19196,6 +19196,21 @@
               "idle_seconds": 3,
               "total_elapsed_seconds": 43
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-07T06:14:23.998Z",
+            "data": {
+              "session_id": "session_1762496063453_6l4rsng",
+              "source_id": "arxiv",
+              "paper_id": "2510.24256",
+              "start_time": "2025-11-07T06:11:51.053Z",
+              "end_time": "2025-11-07T06:14:23.453Z",
+              "heartbeat_count": 30,
+              "duration_seconds": 150,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 152
+            }
           }
         ]
       },
@@ -19203,7 +19218,7 @@
         "issue_number": 618,
         "object_id": "interactions:arxiv.2510.24256",
         "created_at": "2025-11-04T13:25:22+00:00",
-        "updated_at": "2025-11-05T10:02:41+00:00",
+        "updated_at": "2025-11-07T06:14:50+00:00",
         "version": 1
       }
     },
@@ -20697,6 +20712,48 @@
         "object_id": "interactions:arxiv.1906.01327",
         "created_at": "2025-11-06T17:29:56+00:00",
         "updated_at": "2025-11-06T17:30:25+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2310.18362": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.18362",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 662,
+        "object_id": "interactions:arxiv.2310.18362",
+        "created_at": "2025-11-07T06:15:09+00:00",
+        "updated_at": "2025-11-07T06:15:11+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2310.18362": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.18362",
+        "url": "https://arxiv.org/pdf/2310.18362",
+        "title": "SoK: Memorization in General-Purpose Large Language Models",
+        "authors": "Valentin Hartmann, Anshuman Suri, Vincent Bindschaedler, David Evans, Shruti Tople, Robert West",
+        "abstract": "Large Language Models (LLMs) are advancing at a remarkable pace, with myriad\napplications under development. Unlike most earlier machine learning models,\nthey are no longer built for one specific application but are designed to excel\nin a wide range of tasks. A major part of this success is due to their huge\ntraining datasets and the unprecedented number of model parameters, which allow\nthem to memorize large amounts of information contained in the training data.\nThis memorization goes beyond mere language, and encompasses information only\npresent in a few documents. This is often desirable since it is necessary for\nperforming tasks such as question answering, and therefore an important part of\nlearning, but also brings a whole array of issues, from privacy and security to\ncopyright and beyond. LLMs can memorize short secrets in the training data, but\ncan also memorize concepts like facts or writing styles that can be expressed\nin text in many different ways. We propose a taxonomy for memorization in LLMs\nthat covers verbatim text, facts, ideas and algorithms, writing styles,\ndistributional properties, and alignment goals. We describe the implications of\neach type of memorization - both positive and negative - for model performance,\nprivacy, security and confidentiality, copyright, and auditing, and ways to\ndetect and prevent memorization. We further highlight the challenges that arise\nfrom the predominant way of defining memorization with respect to model\nbehavior instead of model weights, due to LLM-specific phenomena such as\nreasoning capabilities or differences between decoding algorithms. Throughout\nthe paper, we describe potential risks and opportunities arising from\nmemorization in LLMs that we hope will motivate new research directions.",
+        "timestamp": "2025-11-07T06:14:28.170Z",
+        "rating": "novote",
+        "publishedDate": "2023-10-24T14:25:53Z",
+        "tags": [
+          "cs.CL",
+          "cs.CR",
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 661,
+        "object_id": "paper:arxiv.2310.18362",
+        "created_at": "2025-11-07T06:14:28+00:00",
+        "updated_at": "2025-11-07T06:14:49+00:00",
         "version": 1
       }
     }

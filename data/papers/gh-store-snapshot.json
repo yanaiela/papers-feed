@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-07T10:35:22.486203+00:00",
+  "snapshot_time": "2025-11-07T14:11:16.530701+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -20910,6 +20910,34 @@
         "object_id": "paper:arxiv.2511.01836",
         "created_at": "2025-11-07T10:32:54+00:00",
         "updated_at": "2025-11-07T10:33:18+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.wsFMgZr1wG": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "wsFMgZr1wG",
+        "url": "https://openreview.net/forum?id=wsFMgZr1wG&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "User-Centric Evidence Ranking for Attribution and Fact Verification",
+        "authors": "Guy Alt, Eran Hirsch, Oren Glickman, Serwar Basch, Ido Dagan",
+        "abstract": "Attribution and fact verification are critical challenges in natural language processing for assessing information reliability. While automated systems and Large Language Models (LLMs) aim to retrieve and select concise evidence to support or refute claims, current inaccuracies present users with an overwhelming volume of text, leading to inefficient and error-prone verification. To address this, we propose the User-Centric Evidence Ranking, a novel task that prioritizes presenting sufficient information as early as possible in a ranked list. This minimizes user reading effort while still making all available evidence accessible for sequential verification. We introduce a novel evaluation framework, inspired by information retrieval metrics, and construct a unified benchmark by aggregating existing fact verification datasets. Our extensive experiments with diverse models reveal that incremental ranking strategies more effectively capture complementary evidence. Additionally, LLM-based methods outperform shallower baselines, but they still face challenges in optimally balancing sufficiency with redundancy avoidance. This work establishes a foundational step toward developing more interpretable, efficient, and user aligned information verification systems",
+        "timestamp": "2025-11-07T14:10:30.211Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Fact Checking",
+          "Attribution",
+          "Information Retrieval and Text Mining"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 668,
+        "object_id": "paper:openreview.wsFMgZr1wG",
+        "created_at": "2025-11-07T14:10:30+00:00",
+        "updated_at": "2025-11-07T14:10:53+00:00",
         "version": 1
       }
     }

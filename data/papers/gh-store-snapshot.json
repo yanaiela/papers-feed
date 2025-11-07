@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-07T08:02:43.236922+00:00",
+  "snapshot_time": "2025-11-07T10:34:05.921659+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -20854,6 +20854,62 @@
         "object_id": "interactions:arxiv.2510.26202",
         "created_at": "2025-11-07T07:55:19+00:00",
         "updated_at": "2025-11-07T08:02:14+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2511.01836": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2511.01836",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-07T10:33:12.992Z",
+            "data": {
+              "session_id": "session_1762511592441_xx9fpnk",
+              "source_id": "arxiv",
+              "paper_id": "2511.01836",
+              "start_time": "2025-11-07T10:32:54.018Z",
+              "end_time": "2025-11-07T10:33:12.441Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 18
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 667,
+        "object_id": "interactions:arxiv.2511.01836",
+        "created_at": "2025-11-07T10:33:13+00:00",
+        "updated_at": "2025-11-07T10:33:39+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2511.01836": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2511.01836",
+        "url": "https://arxiv.org/pdf/2511.01836",
+        "title": "Priors in Time: Missing Inductive Biases for Language Model\n  Interpretability",
+        "authors": "Ekdeep Singh Lubana, Can Rager, Sai Sumedh R. Hindupur, Valerie Costa, Greta Tuckute, Oam Patel, Sonia Krishna Murthy, Thomas Fel, Daniel Wurgaft, Eric J. Bigelow, Johnny Lin, Demba Ba, Martin Wattenberg, Fernanda Viegas, Melanie Weber, Aaron Mueller",
+        "abstract": "Recovering meaningful concepts from language model activations is a central\naim of interpretability. While existing feature extraction methods aim to\nidentify concepts that are independent directions, it is unclear if this\nassumption can capture the rich temporal structure of language. Specifically,\nvia a Bayesian lens, we demonstrate that Sparse Autoencoders (SAEs) impose\npriors that assume independence of concepts across time, implying stationarity.\nMeanwhile, language model representations exhibit rich temporal dynamics,\nincluding systematic growth in conceptual dimensionality, context-dependent\ncorrelations, and pronounced non-stationarity, in direct conflict with the\npriors of SAEs. Taking inspiration from computational neuroscience, we\nintroduce a new interpretability objective -- Temporal Feature Analysis --\nwhich possesses a temporal inductive bias to decompose representations at a\ngiven time into two parts: a predictable component, which can be inferred from\nthe context, and a residual component, which captures novel information\nunexplained by the context. Temporal Feature Analyzers correctly parse garden\npath sentences, identify event boundaries, and more broadly delineate abstract,\nslow-moving information from novel, fast-moving information, while existing\nSAEs show significant pitfalls in all the above tasks. Overall, our results\nunderscore the need for inductive biases that match the data in designing\nrobust interpretability tools.",
+        "timestamp": "2025-11-07T10:32:54.369Z",
+        "rating": "novote",
+        "publishedDate": "2025-11-03T18:43:48Z",
+        "tags": [
+          "cs.LG"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 666,
+        "object_id": "paper:arxiv.2511.01836",
+        "created_at": "2025-11-07T10:32:54+00:00",
+        "updated_at": "2025-11-07T10:33:18+00:00",
         "version": 1
       }
     }

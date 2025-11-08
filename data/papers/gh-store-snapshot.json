@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-07T14:11:16.530701+00:00",
+  "snapshot_time": "2025-11-08T09:13:02.712587+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -20938,6 +20938,30 @@
         "object_id": "paper:openreview.wsFMgZr1wG",
         "created_at": "2025-11-07T14:10:30+00:00",
         "updated_at": "2025-11-07T14:10:53+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.BReW": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "BReW",
+        "url": "https://openreview.net/forum?id=BReW_Yxq_kWe&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2F2026%2FWorkshop%2FBigPicture%2FProgram_Chairs)",
+        "title": "The Big Picture v2: Crafting a Research Narrative",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-11-08T09:12:13.013Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 669,
+        "object_id": "paper:openreview.BReW",
+        "created_at": "2025-11-08T09:12:13+00:00",
+        "updated_at": "2025-11-08T09:12:38+00:00",
         "version": 1
       }
     }

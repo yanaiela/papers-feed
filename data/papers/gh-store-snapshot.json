@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-09T12:27:25.063063+00:00",
+  "snapshot_time": "2025-11-09T12:32:18.810294+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -20929,6 +20929,36 @@
               "idle_seconds": 3,
               "total_elapsed_seconds": 18
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-09T12:30:23.849Z",
+            "data": {
+              "session_id": "session_1762691423180_163nisi",
+              "source_id": "arxiv",
+              "paper_id": "2310.18362",
+              "start_time": "2025-11-09T12:29:08.800Z",
+              "end_time": "2025-11-09T12:30:23.180Z",
+              "heartbeat_count": 14,
+              "duration_seconds": 70,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 74
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-09T12:31:09.624Z",
+            "data": {
+              "session_id": "session_1762691469607_zh8vxry",
+              "source_id": "arxiv",
+              "paper_id": "2310.18362",
+              "start_time": "2025-11-09T12:30:59.222Z",
+              "end_time": "2025-11-09T12:31:09.607Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 10
+            }
           }
         ]
       },
@@ -20936,7 +20966,7 @@
         "issue_number": 662,
         "object_id": "interactions:arxiv.2310.18362",
         "created_at": "2025-11-07T06:15:09+00:00",
-        "updated_at": "2025-11-09T12:27:00+00:00",
+        "updated_at": "2025-11-09T12:31:47+00:00",
         "version": 1
       }
     },
@@ -21308,6 +21338,92 @@
         "object_id": "interactions:openreview.BReW",
         "created_at": "2025-11-08T09:13:21+00:00",
         "updated_at": "2025-11-08T09:26:16+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2109.06024": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2109.06024",
+        "url": "https://arxiv.org/pdf/2109.06024",
+        "title": "Formalizing and Estimating Distribution Inference Risks",
+        "authors": "Anshuman Suri, David Evans",
+        "abstract": "Distribution inference, sometimes called property inference, infers\nstatistical properties about a training set from access to a model trained on\nthat data. Distribution inference attacks can pose serious risks when models\nare trained on private data, but are difficult to distinguish from the\nintrinsic purpose of statistical machine learning -- namely, to produce models\nthat capture statistical properties about a distribution. Motivated by Yeom et\nal.'s membership inference framework, we propose a formal definition of\ndistribution inference attacks that is general enough to describe a broad class\nof attacks distinguishing between possible training distributions. We show how\nour definition captures previous ratio-based property inference attacks as well\nas new kinds of attack including revealing the average node degree or\nclustering coefficient of a training graph. To understand distribution\ninference risks, we introduce a metric that quantifies observed leakage by\nrelating it to the leakage that would occur if samples from the training\ndistribution were provided directly to the adversary. We report on a series of\nexperiments across a range of different distributions using both novel\nblack-box attacks and improved versions of the state-of-the-art white-box\nattacks. Our results show that inexpensive attacks are often as effective as\nexpensive meta-classifier attacks, and that there are surprising asymmetries in\nthe effectiveness of attacks. Code is available at\nhttps://github.com/iamgroot42/FormEstDistRisks",
+        "timestamp": "2025-11-09T12:31:13.436Z",
+        "rating": "novote",
+        "publishedDate": "2021-09-13T14:54:39Z",
+        "tags": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CR"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 673,
+        "object_id": "paper:arxiv.2109.06024",
+        "created_at": "2025-11-09T12:31:13+00:00",
+        "updated_at": "2025-11-09T12:31:35+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.1306.4447": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1306.4447",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-09T12:30:42.460Z",
+            "data": {
+              "session_id": "session_1762691441878_y14qxz1",
+              "source_id": "arxiv",
+              "paper_id": "1306.4447",
+              "start_time": "2025-11-09T12:30:27.736Z",
+              "end_time": "2025-11-09T12:30:41.878Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 14
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 672,
+        "object_id": "interactions:arxiv.1306.4447",
+        "created_at": "2025-11-09T12:30:43+00:00",
+        "updated_at": "2025-11-09T12:31:16+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.1306.4447": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1306.4447",
+        "url": "https://arxiv.org/pdf/1306.4447",
+        "title": "Hacking Smart Machines with Smarter Ones: How to Extract Meaningful Data\n  from Machine Learning Classifiers",
+        "authors": "Giuseppe Ateniese, Giovanni Felici, Luigi V. Mancini, Angelo Spognardi, Antonio Villani, Domenico Vitali",
+        "abstract": "Machine Learning (ML) algorithms are used to train computers to perform a\nvariety of complex tasks and improve with experience. Computers learn how to\nrecognize patterns, make unintended decisions, or react to a dynamic\nenvironment. Certain trained machines may be more effective than others because\nthey are based on more suitable ML algorithms or because they were trained\nthrough superior training sets. Although ML algorithms are known and publicly\nreleased, training sets may not be reasonably ascertainable and, indeed, may be\nguarded as trade secrets. While much research has been performed about the\nprivacy of the elements of training sets, in this paper we focus our attention\non ML classifiers and on the statistical information that can be unconsciously\nor maliciously revealed from them. We show that it is possible to infer\nunexpected but useful information from ML classifiers. In particular, we build\na novel meta-classifier and train it to hack other classifiers, obtaining\nmeaningful information about their training sets. This kind of information\nleakage can be exploited, for example, by a vendor to build more effective\nclassifiers or to simply acquire trade secrets from a competitor's apparatus,\npotentially violating its intellectual property rights.",
+        "timestamp": "2025-11-09T12:30:27.989Z",
+        "rating": "novote",
+        "publishedDate": "2013-06-19T07:51:49Z",
+        "tags": [
+          "cs.CR",
+          "cs.LG",
+          "stat.ML"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 671,
+        "object_id": "paper:arxiv.1306.4447",
+        "created_at": "2025-11-09T12:30:28+00:00",
+        "updated_at": "2025-11-09T12:30:54+00:00",
         "version": 1
       }
     }

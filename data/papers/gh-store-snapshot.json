@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-09T12:45:17.437475+00:00",
+  "snapshot_time": "2025-11-09T12:46:37.288928+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -21022,17 +21022,32 @@
           },
           {
             "type": "reading_session",
-            "timestamp": "2025-11-09T12:44:17.932Z",
+            "timestamp": "2025-11-09T12:43:55.625Z",
             "data": {
-              "session_id": "session_1762692257924_t18re64",
+              "session_id": "session_1762692235618_cweh5dn",
               "source_id": "arxiv",
               "paper_id": "2310.18362",
-              "start_time": "2025-11-09T12:43:57.795Z",
-              "end_time": "2025-11-09T12:44:17.924Z",
-              "heartbeat_count": 4,
-              "duration_seconds": 20,
-              "idle_seconds": 0,
-              "total_elapsed_seconds": 20
+              "start_time": "2025-11-09T12:43:47.741Z",
+              "end_time": "2025-11-09T12:43:55.618Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-09T12:45:17.395Z",
+            "data": {
+              "session_id": "session_1762692316390_fh707ft",
+              "source_id": "arxiv",
+              "paper_id": "2310.18362",
+              "start_time": "2025-11-09T12:44:19.906Z",
+              "end_time": "2025-11-09T12:45:16.390Z",
+              "heartbeat_count": 11,
+              "duration_seconds": 55,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 56
             }
           }
         ]
@@ -21041,7 +21056,7 @@
         "issue_number": 662,
         "object_id": "interactions:arxiv.2310.18362",
         "created_at": "2025-11-07T06:15:09+00:00",
-        "updated_at": "2025-11-09T12:44:48+00:00",
+        "updated_at": "2025-11-09T12:45:47+00:00",
         "version": 1
       }
     },

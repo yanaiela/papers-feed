@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-11T05:56:59.385038+00:00",
+  "snapshot_time": "2025-11-11T12:30:51.630011+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -22157,6 +22157,68 @@
         "object_id": "paper:openreview.FGTDe6EA0B",
         "created_at": "2025-11-11T05:56:06+00:00",
         "updated_at": "2025-11-11T05:56:27+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.ejaY9KJZuG": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "ejaY9KJZuG",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-11T12:29:56.305Z",
+            "data": {
+              "session_id": "session_1762864195739_cunbe1s",
+              "source_id": "openreview",
+              "paper_id": "ejaY9KJZuG",
+              "start_time": "2025-11-11T12:29:48.109Z",
+              "end_time": "2025-11-11T12:29:55.739Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 677,
+        "object_id": "interactions:openreview.ejaY9KJZuG",
+        "created_at": "2025-11-11T12:29:57+00:00",
+        "updated_at": "2025-11-11T12:30:22+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.ejaY9KJZuG": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "ejaY9KJZuG",
+        "url": "https://openreview.net/forum?id=ejaY9KJZuG&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "Are LLMs Better than Reported? Detecting Label Errors and Mitigating Their Effect on Model Performance",
+        "authors": "Omer Nahum, Nitay Calderon, Orgad Keller, Idan Szpektor, Roi Reichart",
+        "abstract": "NLP benchmarks rely on standardized datasets for training and evaluating models and are crucial for advancing the field. Traditionally, expert annotations ensure high-quality labels; however, the cost of expert annotation does not scale well with the growing demand for larger datasets required by modern models. While crowd-sourcing provides a more scalable solution, it often comes at the expense of annotation precision and consistency. Recent advancements in large language models (LLMs) offer new opportunities to enhance the annotation process, particularly for detecting label errors in existing datasets. In this work, we consider the recent approach of LLM-as-a-judge, leveraging an ensemble of LLMs to flag potentially mislabeled examples. We conduct a case study on four factual consistency datasets from the TRUE benchmark, spanning diverse NLP tasks, and on SummEval, which uses Likert-scale ratings of summary quality across multiple dimensions. We empirically analyze the labeling quality of existing datasets and compare expert, crowd-sourced, and LLM-based annotations in terms of the agreement, label quality, and efficiency, demonstrating the strengths and limitations of each annotation method. Our findings reveal a substantial number of label errors, which, when corrected, induce a significant upward shift in reported model performance. This suggests that many of the LLMs' so-called mistakes are due to label errors rather than genuine model failures. Additionally, we discuss the implications of mislabeled data and propose methods to mitigate them in training to improve performance.\n\n(Accepted to EMNLP 2025)",
+        "timestamp": "2025-11-11T12:29:49.023Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "LLMs",
+          "label errors detection",
+          "label errors handling",
+          "data annotation",
+          "NLP datasets",
+          "automatic evaluation of datasets",
+          "factuality"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 676,
+        "object_id": "paper:openreview.ejaY9KJZuG",
+        "created_at": "2025-11-11T12:29:49+00:00",
+        "updated_at": "2025-11-11T12:30:14+00:00",
         "version": 1
       }
     }

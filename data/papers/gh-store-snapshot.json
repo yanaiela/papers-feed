@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-10T20:22:14.048495+00:00",
+  "snapshot_time": "2025-11-11T05:56:59.385038+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -22129,6 +22129,34 @@
         "object_id": "interactions:arxiv.2109.06024",
         "created_at": "2025-11-09T12:31:59+00:00",
         "updated_at": "2025-11-09T12:32:24+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.FGTDe6EA0B": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "FGTDe6EA0B",
+        "url": "https://openreview.net/forum?id=FGTDe6EA0B",
+        "title": "Language Generation in the Limit",
+        "authors": "Jon Kleinberg, Sendhil Mullainathan",
+        "abstract": "Although current large language models are complex, the most basic specifications of the underlying language generation problem itself are simple to state: given a finite set of training samples from an unknown language, produce valid new strings from the language that don't already appear in the training data. Here we ask what we can conclude about language generation using only this specification, without further assumptions. In particular, suppose that an adversary enumerates the strings of an unknown target language L that is known only to come from one of a possibly infinite list of candidates. A computational agent is trying to learn to generate from this language; we say that the agent generates from $L$ in the limit if after some finite point in the enumeration of $L$, the agent is able to produce new elements that come exclusively from $L$ and that have not yet been presented by the adversary. Our main result is that there is an agent that is able to generate in the limit for every countable list of candidate languages. This contrasts dramatically with negative results due to Gold and Angluin in a well-studied model of language learning where the goal is to identify an unknown language from samples; the difference between these results suggests that identifying a language is a fundamentally different problem than generating from it.",
+        "timestamp": "2025-11-11T05:56:06.160Z",
+        "rating": "novote",
+        "publishedDate": "25 Sept 2024",
+        "tags": [
+          "language generation",
+          "large language models",
+          "enumeration"
+        ],
+        "doi": "",
+        "journalName": "NeurIPS 2024 spotlight",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 675,
+        "object_id": "paper:openreview.FGTDe6EA0B",
+        "created_at": "2025-11-11T05:56:06+00:00",
+        "updated_at": "2025-11-11T05:56:27+00:00",
         "version": 1
       }
     }

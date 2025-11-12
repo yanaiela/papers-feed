@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-12T14:37:31.656976+00:00",
+  "snapshot_time": "2025-11-12T14:48:36.327656+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -22819,6 +22819,32 @@
         "object_id": "paper:arxiv.2207.07051",
         "created_at": "2025-11-12T14:36:17+00:00",
         "updated_at": "2025-11-12T14:36:39+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2502.02737": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2502.02737",
+        "url": "https://arxiv.org/abs/2502.02737",
+        "title": "SmolLM2: When Smol Goes Big -- Data-Centric Training of a Small Language Model",
+        "authors": "Loubna Ben Allal, Anton Lozhkov, Elie Bakouch, Gabriel Mart\u00edn Bl\u00e1zquez, Guilherme Penedo, Lewis Tunstall, Andr\u00e9s Marafioti, Hynek Kydl\u00ed\u010dek, Agust\u00edn Piqueres Lajar\u00edn, Vaibhav Srivastav, Joshua Lochner, Caleb Fahlgren, Xuan-Son Nguyen, Cl\u00e9mentine Fourrier, Ben Burtenshaw, Hugo Larcher, Haojun Zhao, Cyril Zakka, Mathieu Morlon, Colin Raffel, Leandro von Werra, Thomas Wolf",
+        "abstract": "While large language models have facilitated breakthroughs in many applications of artificial intelligence, their inherent largeness makes them computationally expensive and challenging to deploy in resource-constrained settings. In this paper, we document the development of SmolLM2, a state-of-the-art \"small\" (1.7 billion parameter) language model (LM). To attain strong performance, we overtrain SmolLM2 on ~11 trillion tokens of data using a multi-stage training process that mixes web text with specialized math, code, and instruction-following data. We additionally introduce new specialized datasets (FineMath, Stack-Edu, and SmolTalk) at stages where we found existing datasets to be problematically small or low-quality. To inform our design decisions, we perform both small-scale ablations as well as a manual refinement process that updates the dataset mixing rates at each stage based on the performance at the previous stage. Ultimately, we demonstrate that SmolLM2 outperforms other recent small LMs including Qwen2.5-1.5B and Llama3.2-1B. To facilitate future research on LM development as well as applications of small LMs, we release both SmolLM2 as well as all of the datasets we prepared in the course of this project.",
+        "timestamp": "2025-11-12T14:47:46.209Z",
+        "rating": "novote",
+        "publishedDate": "2025/02/04",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 692,
+        "object_id": "paper:arxiv.2502.02737",
+        "created_at": "2025-11-12T14:47:46+00:00",
+        "updated_at": "2025-11-12T14:48:09+00:00",
         "version": 1
       }
     }

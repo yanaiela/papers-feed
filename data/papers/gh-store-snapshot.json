@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-11T21:25:24.201562+00:00",
+  "snapshot_time": "2025-11-12T07:02:52.572734+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -22432,6 +22432,63 @@
         "object_id": "paper:arxiv.2509.11106",
         "created_at": "2025-11-11T16:33:10+00:00",
         "updated_at": "2025-11-11T16:33:35+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2510.16227": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.16227",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-12T07:02:02.250Z",
+            "data": {
+              "session_id": "session_1762930921951_my87fnu",
+              "source_id": "arxiv",
+              "paper_id": "2510.16227",
+              "start_time": "2025-11-12T07:01:47.094Z",
+              "end_time": "2025-11-12T07:02:01.951Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 5,
+              "total_elapsed_seconds": 15
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 683,
+        "object_id": "interactions:arxiv.2510.16227",
+        "created_at": "2025-11-12T07:02:02+00:00",
+        "updated_at": "2025-11-12T07:02:27+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.16227": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.16227",
+        "url": "https://arxiv.org/abs/2510.16227",
+        "title": "What Can String Probability Tell Us About Grammaticality?",
+        "authors": "Jennifer Hu, Ethan Gotlieb Wilcox, Siyuan Song, Kyle Mahowald, Roger P. Levy",
+        "abstract": "What have language models (LMs) learned about grammar? This question remains hotly debated, with major ramifications for linguistic theory. However, since probability and grammaticality are distinct notions in linguistics, it is not obvious what string probabilities can reveal about an LM's underlying grammatical knowledge. We present a theoretical analysis of the relationship between grammar, meaning, and string probability, based on simple assumptions about the generative process of corpus data. Our framework makes three predictions, which we validate empirically using 280K sentence pairs in English and Chinese: (1) correlation between the probability of strings within minimal pairs, i.e., string pairs with minimal semantic differences; (2) correlation between models' and humans' deltas within minimal pairs; and (3) poor separation in probability space between unpaired grammatical and ungrammatical strings. Our analyses give theoretical grounding for using probability to learn about LMs' structural knowledge, and suggest directions for future work in LM grammatical evaluation.",
+        "timestamp": "2025-11-12T07:01:43.834Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/17",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 682,
+        "object_id": "paper:arxiv.2510.16227",
+        "created_at": "2025-11-12T07:01:44+00:00",
+        "updated_at": "2025-11-12T07:02:06+00:00",
         "version": 1
       }
     }

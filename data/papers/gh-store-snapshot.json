@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-12T17:28:48.946569+00:00",
+  "snapshot_time": "2025-11-12T20:44:24.868291+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -22959,6 +22959,34 @@
         "object_id": "interactions:openreview.D9bLUj7wUW",
         "created_at": "2025-11-12T16:17:48+00:00",
         "updated_at": "2025-11-12T16:18:55+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2511.07689": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2511.07689",
+        "url": "https://arxiv.org/abs/2511.07689",
+        "title": "Stress Testing Factual Consistency Metrics for Long-Document Summarization",
+        "authors": "Zain Muhammad Mujahid, Dustin Wright, Isabelle Augenstein",
+        "abstract": "Evaluating the factual consistency of abstractive text summarization remains a significant challenge, particularly for long documents, where conventional metrics struggle with input length limitations and long-range dependencies. In this work, we systematically evaluate the reliability of six widely used reference-free factuality metrics, originally proposed for short-form summarization, in the long-document setting. We probe metric robustness through seven factuality-preserving perturbations applied to summaries, namely paraphrasing, simplification, synonym replacement, logically equivalent negations, vocabulary reduction, compression, and source text insertion, and further analyze their sensitivity to retrieval context and claim information density. Across three long-form benchmark datasets spanning science fiction, legal, and scientific domains, our results reveal that existing short-form metrics produce inconsistent scores for semantically equivalent summaries and exhibit declining reliability for information-dense claims whose content is semantically similar to many parts of the source document. While expanding the retrieval context improves stability in some domains, no metric consistently maintains factual alignment under long-context conditions. Finally, our results highlight concrete directions for improving factuality evaluation, including multi-span reasoning, context-aware calibration, and training on meaning-preserving variations to enhance robustness in long-form summarization. We release all code, perturbed data, and scripts required to reproduce our results at this https URL.",
+        "timestamp": "2025-11-12T20:43:42.094Z",
+        "rating": "novote",
+        "publishedDate": "2025/11/10",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 696,
+        "object_id": "paper:arxiv.2511.07689",
+        "created_at": "2025-11-12T20:43:42+00:00",
+        "updated_at": "2025-11-12T20:44:05+00:00",
         "version": 1
       }
     }

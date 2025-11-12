@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-12T09:56:25.616742+00:00",
+  "snapshot_time": "2025-11-12T14:37:31.656976+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -22765,6 +22765,60 @@
         "object_id": "paper:arxiv.2309.07606",
         "created_at": "2025-11-12T07:26:45+00:00",
         "updated_at": "2025-11-12T07:27:07+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2207.07051": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2207.07051",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-12T14:36:44.190Z",
+            "data": {
+              "session_id": "session_1762958203613_5jrahad",
+              "source_id": "arxiv",
+              "paper_id": "2207.07051",
+              "start_time": "2025-11-12T14:36:16.497Z",
+              "end_time": "2025-11-12T14:36:43.613Z",
+              "heartbeat_count": 5,
+              "duration_seconds": 25,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 27
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 691,
+        "object_id": "interactions:arxiv.2207.07051",
+        "created_at": "2025-11-12T14:36:45+00:00",
+        "updated_at": "2025-11-12T14:37:09+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2207.07051": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2207.07051",
+        "url": "https://arxiv.org/pdf/2207.07051",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-11-12T14:36:17.077Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 690,
+        "object_id": "paper:arxiv.2207.07051",
+        "created_at": "2025-11-12T14:36:17+00:00",
+        "updated_at": "2025-11-12T14:36:39+00:00",
         "version": 1
       }
     }

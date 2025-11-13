@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-13T15:36:54.338834+00:00",
+  "snapshot_time": "2025-11-13T15:48:41.309862+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -23386,6 +23386,33 @@
         "object_id": "interactions:arxiv.2507.14805",
         "created_at": "2025-11-13T14:43:38+00:00",
         "updated_at": "2025-11-13T15:35:57+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.G4dmISzqIC": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "G4dmISzqIC",
+        "url": "https://openreview.net/forum?id=G4dmISzqIC&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "LEVELA",
+        "authors": "Orian Dabod, Amir David Nissan Cohen, Gabriel Stanovsky",
+        "abstract": "Vocabulary expansion in Large Language Models (LLMs) is crucial for improving computational performance via token efficiency, especially for domains or languages like Hebrew that are underrepresented in the original tokenizer. We propose a lightweight and efficient methodology to extend an LLM's vocabulary without requiring full retraining, thus preserving most of the original model performance. Our approach involves three core enhancements, addressing distinct challenges in the expansion process\n\nFirst, we introduced Extend Tokenizer algorithm to intelligently select new tokens and expand the existing vocabulary. Second, we introduce Parent Logic a novel algorithm governing a patchscopes based initialization method to effectively initialize the new token parameters. Finally, we implement PLGZ (part layered grad zeroing) Training, a new adaptation technique specifically designed to significantly reduce the required training time for vocabulary integration.\n\nTested extensively across multiple languages, including Hebrew, Amharic, German, Chinese, Arabic, and Korean, our findings demonstrate that poor expansion methodology can severely degrade performance. We show that our three step enhancement is crucial for maximizing token efficiency while maintaining high model performance.",
+        "timestamp": "2025-11-13T15:47:50.917Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "language adaptation",
+          "vocab expansion"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 706,
+        "object_id": "paper:openreview.G4dmISzqIC",
+        "created_at": "2025-11-13T15:47:51+00:00",
+        "updated_at": "2025-11-13T15:48:15+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-13T13:40:37.314812+00:00",
+  "snapshot_time": "2025-11-13T14:23:31.442564+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -23317,6 +23317,30 @@
         "object_id": "paper:arxiv.2511.09493",
         "created_at": "2025-11-13T13:34:44+00:00",
         "updated_at": "2025-11-13T13:35:06+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2507.14805": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2507.14805",
+        "url": "https://arxiv.org/html/2507.14805v1",
+        "title": "Subliminal Learning: language models transmit behavioral traits via hidden signals in data",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-11-13T14:22:33.319Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 704,
+        "object_id": "paper:arxiv.2507.14805",
+        "created_at": "2025-11-13T14:22:33+00:00",
+        "updated_at": "2025-11-13T14:22:58+00:00",
         "version": 1
       }
     }

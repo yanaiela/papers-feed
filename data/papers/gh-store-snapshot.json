@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-13T16:58:52.665979+00:00",
+  "snapshot_time": "2025-11-13T20:54:23.837812+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -23527,6 +23527,53 @@
         "object_id": "paper:arxiv.2511.07722",
         "created_at": "2025-11-13T16:21:01+00:00",
         "updated_at": "2025-11-13T16:21:24+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.yfXYMxURxF": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "yfXYMxURxF",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 710,
+        "object_id": "interactions:openreview.yfXYMxURxF",
+        "created_at": "2025-11-13T20:53:44+00:00",
+        "updated_at": "2025-11-13T20:53:46+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.yfXYMxURxF": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "yfXYMxURxF",
+        "url": "https://openreview.net/forum?id=yfXYMxURxF&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "Uncovering Measurement Biases in LLM Embedding Spaces: The Anna Karenina Principle and Its Implications for Automated Feedback",
+        "authors": "Abigail Gurin Schleifer, Beata Beigman Klebanov, Giora Alexandron",
+        "abstract": "Large Language Models (LLMs) are becoming\nincreasingly popular in assessment systems for\nanalyzing and providing personalized feedback\non student responses to open-ended questions.\nHowever, the quality of diagnosis provided by\nsuch systems depends heavily on the ability of\nthe LLMs to accurately capture the subtle differences\nbetween responses that represent the\nkey types of student reasoning, also referred to\nas Knowledge Profiles (KPs). In this study, we\ncompared expert-defined KPs with data-driven\nclusters generated from LLM embeddings of\nstudent responses in biology. We aimed to determine\nwhether LLM-based clusters align with\nthe theory-driven KPs that classify responses by\ntheir level of conceptual accuracy. Our findings\nrevealed a \u2018discoverability bias\u2019 where LLMderived\nclusters captured reasonably well the\nhigh-quality responses, but failed to distinguish\nbetween the different ways student responses\ncan be incorrect. We then traced this \u2018discoverability\nbias\u2019 to the representations of the KPs\nin the pre-trained LLM embedding space and\nshowed that as student responses become more\nwrong, they become less similar in the embedding\nspace to other responses that reveal the\nsame type of conceptual error. Furthermore, we\nfound a strong relationship between the quality\nof the KP responses (correct or various degrees\nof incorrect) and the shape and density of their\nembeddings-based representation. Specifically,\nwe found that the lower the quality of the KP,\nthe less similar its responses are to each other in\nthe embedding space. This phenomenon, which\nwe call the \u2018Anna Karenina Principle\u2019 and study\nin the context of automated short answer scoring,\nsuggests that LLM embeddings may not\nbe sufficiently sensitive out-of-the-box to the\nnuances that distinguish between key profiles\nof conceptual understanding. This limitation\nposes challenges for developing fair and effective\nLLM-based formative assessment systems.\nThe paper have been published at the International\nJournal of Artificial Intelligence in Education\n(Gurin Schleifer et al., 2025).",
+        "timestamp": "2025-11-13T20:53:36.127Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "NLP \u00b7 Large language models (LLMs)",
+          "Fairness",
+          "Personalised feedback",
+          "Automated assessment",
+          "Bias",
+          "Automated",
+          "Short Answer Scoring",
+          "Embeddings"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 709,
+        "object_id": "paper:openreview.yfXYMxURxF",
+        "created_at": "2025-11-13T20:53:36+00:00",
+        "updated_at": "2025-11-13T20:53:57+00:00",
         "version": 1
       }
     }

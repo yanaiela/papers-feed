@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-13T10:37:00.718894+00:00",
+  "snapshot_time": "2025-11-13T13:35:41.129417+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -23245,6 +23245,47 @@
         "object_id": "paper:openreview.qUtxOc1Akd",
         "created_at": "2025-11-13T10:14:43+00:00",
         "updated_at": "2025-11-13T10:15:07+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2511.09493": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2511.09493",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 703,
+        "object_id": "interactions:arxiv.2511.09493",
+        "created_at": "2025-11-13T13:34:57+00:00",
+        "updated_at": "2025-11-13T13:34:59+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2511.09493": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2511.09493",
+        "url": "https://arxiv.org/abs/2511.09493",
+        "title": "Consensus Sampling for Safer Generative AI",
+        "authors": "Adam Tauman Kalai, Yael Tauman Kalai, Or Zamir",
+        "abstract": "Many approaches to AI safety rely on inspecting model outputs or activations, yet certain risks are inherently undetectable by inspection alone. We propose a complementary, architecture-agnostic approach that enhances safety through the aggregation of multiple generative models, with the aggregated model inheriting its safety from the safest subset of a given size among them. Specifically, we present a consensus sampling algorithm that, given kk models and a prompt, achieves risk competitive with the average risk of the safest ss of the kk models, where ss is a chosen parameter, while abstaining when there is insufficient agreement between them. The approach leverages the models' ability to compute output probabilities, and we bound the probability of abstention when sufficiently many models are safe and exhibit adequate agreement. The algorithm is inspired by the provable copyright protection algorithm of Vyas et al. (2023). It requires some overlap among safe models, offers no protection when all models are unsafe, and may accumulate risk over repeated use. Nonetheless, our results provide a new, model-agnostic approach for AI safety by amplifying safety guarantees from an unknown subset of models within a collection to that of a single reliable model.",
+        "timestamp": "2025-11-13T13:34:44.208Z",
+        "rating": "novote",
+        "publishedDate": "2025/11/12",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 702,
+        "object_id": "paper:arxiv.2511.09493",
+        "created_at": "2025-11-13T13:34:44+00:00",
+        "updated_at": "2025-11-13T13:35:06+00:00",
         "version": 1
       }
     }

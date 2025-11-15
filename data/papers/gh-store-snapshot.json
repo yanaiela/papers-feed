@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-15T16:17:21.817875+00:00",
+  "snapshot_time": "2025-11-15T19:50:02.941532+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -23733,6 +23733,70 @@
         "object_id": "interactions:arxiv.2507.07186",
         "created_at": "2025-11-15T11:58:50+00:00",
         "updated_at": "2025-11-15T12:06:45+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2406.12027": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2406.12027",
+        "url": "https://arxiv.org/abs/2406.12027",
+        "title": "Adversarial Perturbations Cannot Reliably Protect Artists From Generative AI",
+        "authors": "Robert H\u00f6nig, Javier Rando, Nicholas Carlini, Florian Tram\u00e8r",
+        "abstract": "Artists are increasingly concerned about advancements in image generation models that can closely replicate their unique artistic styles. In response, several protection tools against style mimicry have been developed that incorporate small adversarial perturbations into artworks published online. In this work, we evaluate the effectiveness of popular protections -- with millions of downloads -- and show they only provide a false sense of security. We find that low-effort and \"off-the-shelf\" techniques, such as image upscaling, are sufficient to create robust mimicry methods that significantly degrade existing protections. Through a user study, we demonstrate that all existing protections can be easily bypassed, leaving artists vulnerable to style mimicry. We caution that tools based on adversarial perturbations cannot reliably protect artists from the misuse of generative AI, and urge the development of alternative non-technological solutions.",
+        "timestamp": "2025-11-15T19:49:22.310Z",
+        "rating": "novote",
+        "publishedDate": "2024/06/17",
+        "tags": [
+          "Cryptography and Security (cs.CR)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 716,
+        "object_id": "paper:arxiv.2406.12027",
+        "created_at": "2025-11-15T19:49:22+00:00",
+        "updated_at": "2025-11-15T19:49:42+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2302.04222": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2302.04222",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 715,
+        "object_id": "interactions:arxiv.2302.04222",
+        "created_at": "2025-11-15T19:49:14+00:00",
+        "updated_at": "2025-11-15T19:49:16+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2302.04222": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2302.04222",
+        "url": "https://arxiv.org/pdf/2302.04222",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-11-15T19:49:04.418Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 714,
+        "object_id": "paper:arxiv.2302.04222",
+        "created_at": "2025-11-15T19:49:04+00:00",
+        "updated_at": "2025-11-15T19:49:27+00:00",
         "version": 1
       }
     }

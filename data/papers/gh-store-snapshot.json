@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-16T18:12:18.553778+00:00",
+  "snapshot_time": "2025-11-16T18:14:45.130685+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -24003,6 +24003,34 @@
         "object_id": "paper:openreview.Moc28dU6le",
         "created_at": "2025-11-16T12:01:17+00:00",
         "updated_at": "2025-11-16T12:01:36+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.1912.13283": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1912.13283",
+        "url": "https://arxiv.org/abs/1912.13283",
+        "title": "oLMpics -- On what Language Model Pre-training Captures",
+        "authors": "Alon Talmor, Yanai Elazar, Yoav Goldberg, Jonathan Berant",
+        "abstract": "Recent success of pre-trained language models (LMs) has spurred widespread interest in the language capabilities that they possess. However, efforts to understand whether LM representations are useful for symbolic reasoning tasks have been limited and scattered. In this work, we propose eight reasoning tasks, which conceptually require operations such as comparison, conjunction, and composition. A fundamental challenge is to understand whether the performance of a LM on a task should be attributed to the pre-trained representations or to the process of fine-tuning on the task data. To address this, we propose an evaluation protocol that includes both zero-shot evaluation (no fine-tuning), as well as comparing the learning curve of a fine-tuned LM to the learning curve of multiple controls, which paints a rich picture of the LM capabilities. Our main findings are that: (a) different LMs exhibit qualitatively different reasoning abilities, e.g., RoBERTa succeeds in reasoning tasks where BERT fails completely; (b) LMs do not reason in an abstract manner and are context-dependent, e.g., while RoBERTa can compare ages, it can do so only when the ages are in the typical range of human ages; (c) On half of our reasoning tasks all models fail completely. Our findings and infrastructure can help future work on designing new datasets, models and objective functions for pre-training.",
+        "timestamp": "2025-11-16T18:13:56.286Z",
+        "rating": "novote",
+        "publishedDate": "2019/12/31",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 720,
+        "object_id": "paper:arxiv.1912.13283",
+        "created_at": "2025-11-16T18:13:56+00:00",
+        "updated_at": "2025-11-16T18:14:18+00:00",
         "version": 1
       }
     }

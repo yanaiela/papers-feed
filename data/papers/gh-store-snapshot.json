@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-16T18:15:56.167624+00:00",
+  "snapshot_time": "2025-11-16T18:21:27.767089+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -8179,6 +8179,21 @@
               "idle_seconds": 1,
               "total_elapsed_seconds": 26
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-16T18:20:21.315Z",
+            "data": {
+              "session_id": "session_1763317221047_2k4m4sb",
+              "source_id": "arxiv",
+              "paper_id": "2411.16679",
+              "start_time": "2025-11-16T18:20:10.222Z",
+              "end_time": "2025-11-16T18:20:21.047Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 11
+            }
           }
         ]
       },
@@ -8186,7 +8201,7 @@
         "issue_number": 260,
         "object_id": "interactions:arxiv.2411.16679",
         "created_at": "2025-10-15T13:01:13+00:00",
-        "updated_at": "2025-11-16T18:11:53+00:00",
+        "updated_at": "2025-11-16T18:21:00+00:00",
         "version": 1
       }
     },
@@ -24053,6 +24068,21 @@
               "idle_seconds": 2,
               "total_elapsed_seconds": 72
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-16T18:20:04.021Z",
+            "data": {
+              "session_id": "session_1763317203415_2ir1edv",
+              "source_id": "arxiv",
+              "paper_id": "1912.13283",
+              "start_time": "2025-11-16T18:15:12.096Z",
+              "end_time": "2025-11-16T18:20:03.414Z",
+              "heartbeat_count": 58,
+              "duration_seconds": 290,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 291
+            }
           }
         ]
       },
@@ -24060,7 +24090,7 @@
         "issue_number": 721,
         "object_id": "interactions:arxiv.1912.13283",
         "created_at": "2025-11-16T18:15:11+00:00",
-        "updated_at": "2025-11-16T18:15:30+00:00",
+        "updated_at": "2025-11-16T18:20:25+00:00",
         "version": 1
       }
     }

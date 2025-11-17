@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-16T18:44:42.460706+00:00",
+  "snapshot_time": "2025-11-17T10:54:40.439229+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -24106,6 +24106,37 @@
         "object_id": "interactions:arxiv.1912.13283",
         "created_at": "2025-11-16T18:15:11+00:00",
         "updated_at": "2025-11-16T18:20:25+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.vxyYhY6chZ": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "vxyYhY6chZ",
+        "url": "https://openreview.net/forum?id=vxyYhY6chZ&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "Building an Accurate Open-Source Hebrew ASR System through Crowdsourcing",
+        "authors": "Yanir Marmor, Yair Lifshitz, Yoad Snapir, Kinneret Misgav",
+        "abstract": "Automatic Speech Recognition (ASR) for Hebrew faces significant challenges due to limited resources and rich morphology.\nWhile recent advances have improved high-resource languages ASR, Hebrew still lacks robust open-source solutions. Through\ncrowdsourcing efforts, we created a dataset of 314 hours of transcribed speech, which we used to train a new Hebrew ASR\nmodel based on the Whisper architecture. Our model demonstrates up to 29% reduction in error rates compared to existing\nWhisper solutions, particularly excelling in producing verbatim transcriptions. Additionally, we introduce a new evaluation\ndataset designed specifically for Hebrew ASR assessment. By making both the model and methodology freely available, we\nprovide a framework that can be adapted for developing ASR systems in other under-resourced languages. This work represents a step toward making speech technology more accessible in different languages",
+        "timestamp": "2025-11-17T10:53:46.794Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "speech recognition",
+          "Hebrew ASR",
+          "crowdsourcing",
+          "under-resourced languages",
+          "open-source models",
+          "Whisper architecture"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 722,
+        "object_id": "paper:openreview.vxyYhY6chZ",
+        "created_at": "2025-11-17T10:53:47+00:00",
+        "updated_at": "2025-11-17T10:54:11+00:00",
         "version": 1
       }
     }

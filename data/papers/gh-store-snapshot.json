@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-17T11:00:01.097486+00:00",
+  "snapshot_time": "2025-11-17T11:00:44.509611+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -24305,6 +24305,37 @@
         "object_id": "paper:openreview.QDeQxSwLzT",
         "created_at": "2025-11-17T10:59:06+00:00",
         "updated_at": "2025-11-17T10:59:32+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.K8cmGgth4O": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "K8cmGgth4O",
+        "url": "https://openreview.net/forum?id=K8cmGgth4O&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "Differences in Input and Output Quality of LLMs Across Age Groups",
+        "authors": "Shira Darchi, Yuval Pinter",
+        "abstract": "This work-in-progress examines how younger and older adults create prompts for large language models (LLMs) and whether variations in input quality affect the quality of the generated outputs. Building on evidence that aging influences linguistic style and digital communication habits, the study investigates differences in prompt length, linguistic complexity, and structural clarity across age groups. Using a mixed within- and between-subject design, participants complete two prompting tasks\u2014trip planning and greeting writing\u2014and provide self-assessments of the corresponding model responses. Output quality is evaluated through subjective ratings, error coding, and external assessments from both human raters and other LLMs. The ongoing analysis aims to determine whether age-related differences in prompt construction are associated with systematic variations in the quality of LLM responses. This research aims to enhance our understanding of how demographic factors and linguistic patterns shape interactions with AI systems and the resulting user experience.",
+        "timestamp": "2025-11-17T10:59:55.120Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "LLMs",
+          "NLP",
+          "prompting",
+          "aging",
+          "input quality",
+          "output quality"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 732,
+        "object_id": "paper:openreview.K8cmGgth4O",
+        "created_at": "2025-11-17T10:59:55+00:00",
+        "updated_at": "2025-11-17T11:00:14+00:00",
         "version": 1
       }
     }

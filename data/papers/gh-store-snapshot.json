@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-17T11:02:18.014065+00:00",
+  "snapshot_time": "2025-11-17T11:04:18.553775+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -24347,7 +24347,7 @@
         "title": "Pixels at BAREC Shared Task 2025: Visual Arabic Readability Assessment",
         "authors": "Ben Sapirstein",
         "abstract": "We present a visual-language approach to Arabic readability assessment using the PIXEL Vision Transformer, which processes rendered text as images to bypass tokenization challenges. Our system participated in the BAREC 2025 Shared Task (Sentence-level Strict track). We evaluate orthographic variants (normalization, diacritization, transliteration) and morphological segmentation with different visual boundary markers. Results show that diacritization provides useful visual cues for disambiguation, morphological segmentation improves over word-level processing, and transliterated scripts outperform native Arabic script. Our approach demonstrates the potential of visual processing for readability assessment in complex languages and writing systems.",
-        "timestamp": "2025-11-17T11:01:34.171Z",
+        "timestamp": "2025-11-17T11:02:12.152Z",
         "rating": "novote",
         "publishedDate": "",
         "tags": [
@@ -24362,10 +24362,10 @@
         "sourceType": "url"
       },
       "meta": {
-        "issue_number": 738,
+        "issue_number": 739,
         "object_id": "paper:openreview.VAWMM8oG9x",
-        "created_at": "2025-11-17T11:01:34+00:00",
-        "updated_at": "2025-11-17T11:01:56+00:00",
+        "created_at": "2025-11-17T11:02:13+00:00",
+        "updated_at": "2025-11-17T11:02:34+00:00",
         "version": 1
       }
     },
@@ -24456,6 +24456,98 @@
         "object_id": "interactions:openreview.qUtxOc1Akd",
         "created_at": "2025-11-17T11:00:34+00:00",
         "updated_at": "2025-11-17T11:00:55+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.46zUH6zQWS": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "46zUH6zQWS",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-17T11:02:56.564Z",
+            "data": {
+              "session_id": "session_1763377376507_dkjq381",
+              "source_id": "openreview",
+              "paper_id": "46zUH6zQWS",
+              "start_time": "2025-11-17T11:02:48.675Z",
+              "end_time": "2025-11-17T11:02:56.507Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 742,
+        "object_id": "interactions:openreview.46zUH6zQWS",
+        "created_at": "2025-11-17T11:02:57+00:00",
+        "updated_at": "2025-11-17T11:03:22+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.46zUH6zQWS": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "46zUH6zQWS",
+        "url": "https://openreview.net/forum?id=46zUH6zQWS&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "MRLEval: A Benchmark for LLM Evaluation in Hebrew, Modern Standard Arabic and Levantine Arabic",
+        "authors": "Guy Mor-Lan, Reut Tsarfaty",
+        "abstract": "The rapid advancement of Large Language Models (LLMs) has created a significant need for robust evaluation benchmarks, particularly for languages beyond English. Morphologically rich and diglossic languages like Hebrew and Arabic present unique challenges that are often overlooked by global benchmarks. We introduce MRLEval, an open-source, model-agnostic evaluation framework. MRLEval is a comprehensive suite of evaluation tasks for Hebrew, Modern Standard Arabic (MSA and Levantine Arabic. The framework includes data downloading, processing, fine-tuning scripts (for Huggingface and T5X), and evaluation for over 20 distinct tasks across these three languages, covering question answering, summarization, NER, sentiment analysis, and more.",
+        "timestamp": "2025-11-17T11:02:45.688Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Evaluation",
+          "LLMs",
+          "MRLs",
+          "Hebrew",
+          "Arabic",
+          "Levantine Arabic"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 741,
+        "object_id": "paper:openreview.46zUH6zQWS",
+        "created_at": "2025-11-17T11:02:46+00:00",
+        "updated_at": "2025-11-17T11:03:09+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.S2sXLNNbXx": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "S2sXLNNbXx",
+        "url": "https://openreview.net/forum?id=S2sXLNNbXx&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "Detecting Conspiracies in Hebrew Twitter with LLM-GNN Fusion",
+        "authors": "Lior Biton, Oren Tsur",
+        "abstract": "Detecting online conspiracy narratives presents a significant challenge due to the short, implicit, and context-dependent nature of social media content. This challenge is further amplified in low-resource, morphologically rich languages such as Hebrew. This study proposes and evaluates multimodal fusion models that combine textual and structural information to improve conspiracy detection. We compare three approaches: a text-only (TO) baseline leveraging Large Language Model (LLM) embeddings, a naive fusion (NF) model that combines tweet embeddings with user-level representations, and a trainable multi-task GNN (TF-GNN) that jointly models tweet- and user-level signals over the retweet network. Experiments on a labeled dataset of 3,720 Hebrew-language tweets show that incorporating network structure enhances performance: the naive fusion model outperforms the text-only baseline with an F1 score of 0.539 compared to 0.518, while the TF-GNN achieves the highest score (F1 = 0.557), demonstrating the value of deep fusion.",
+        "timestamp": "2025-11-17T11:02:26.289Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "conspiracy detection",
+          "Hebrew Twitter",
+          "social network analysis",
+          "LLM",
+          "GNN",
+          "multimodal fusion"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 740,
+        "object_id": "paper:openreview.S2sXLNNbXx",
+        "created_at": "2025-11-17T11:02:26+00:00",
+        "updated_at": "2025-11-17T11:02:47+00:00",
         "version": 1
       }
     }

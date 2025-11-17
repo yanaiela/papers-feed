@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-17T10:57:09.554102+00:00",
+  "snapshot_time": "2025-11-17T10:57:51.290074+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -24253,6 +24253,34 @@
         "object_id": "interactions:openreview.vxyYhY6chZ",
         "created_at": "2025-11-17T10:54:49+00:00",
         "updated_at": "2025-11-17T10:55:13+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.S4fteIdF0h": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "S4fteIdF0h",
+        "url": "https://openreview.net/forum?id=S4fteIdF0h&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "Out-of-Context Reasoning in Large Language Models",
+        "authors": "Jonathan Shaki, Emanuele La Malfa, Michael J. Wooldridge, Sarit Kraus",
+        "abstract": "We study how large language models (LLMs) reason about memorized knowledge through simple binary relations such as equality ($=$), inequality ($<$), and inclusion ($\\subset$). Unlike in-context reasoning, the axioms (e.g., $a < b, b < c$) are only seen during training and not provided in the task prompt (e.g., evaluating $a < c$). The tasks require one or more reasoning steps, and data aggregation from one or more sources, showing performance change with task complexity. We introduce a lightweight technique, out-of-context representation learning, which trains only new token embeddings on axioms and evaluates them on unseen tasks. Across reflexivity, symmetry, and transitivity tests, LLMs mostly perform statistically significant better than chance, making the correct answer extractable when testing multiple phrasing variations, but still fall short of consistent reasoning on every single query. Analysis shows that the learned embeddings are organized in structured ways, suggesting real relational understanding. Surprisingly, it also indicates that the core reasoning happens during the training, not inference.\n\nAccepted to EMNLP 2025 findings",
+        "timestamp": "2025-11-17T10:57:01.936Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "LLMs",
+          "interpretability",
+          "reasoning"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 729,
+        "object_id": "paper:openreview.S4fteIdF0h",
+        "created_at": "2025-11-17T10:57:02+00:00",
+        "updated_at": "2025-11-17T10:57:24+00:00",
         "version": 1
       }
     }

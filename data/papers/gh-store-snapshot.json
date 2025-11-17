@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-17T11:10:50.494301+00:00",
+  "snapshot_time": "2025-11-17T16:52:08.672874+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -24572,6 +24572,36 @@
         "object_id": "paper:openreview.z8pUJASaP0",
         "created_at": "2025-11-17T11:10:00+00:00",
         "updated_at": "2025-11-17T11:10:20+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.8NQPcdw7ja": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "8NQPcdw7ja",
+        "url": "https://openreview.net/forum?id=8NQPcdw7ja",
+        "title": "Do Language Models Robustly Acquire New Knowledge?",
+        "authors": "Harshay Shah, Badih Ghazi, Yangsibo Huang, Ravi Kumar, Da Yu, Chiyuan Zhang",
+        "abstract": "Language models acquire vast knowledge during pretraining, but adding new knowledge to pre-trained models often lacks robustness\u2014models can retrieve individual facts but struggle with multi-hop reasoning over newly acquired knowledge and its implications. To systematically study this robustness gap, we introduce RANK (Robust Acquisition of New Knowledge), a testbed using synthetic knowledge graphs to evaluate knowledge acquisition via $k$-hop reasoning tasks of increasing complexity. Our evaluation of supervised fine-tuning (SFT) and in-context learning (ICL) using RANK reveals that ICL performance degrades with reasoning complexity and knowledge scale, while SFT trained on simple facts fails completely at multi-hop reasoning. However, we find that increasing training data diversity induces a sharp phase transition of fine-tuned models from memorization to out-of-distribution generalization. More generally, RANK enables controlled experiments that reveal insights into knowledge acquisition robustness.",
+        "timestamp": "2025-11-17T16:51:16.078Z",
+        "rating": "novote",
+        "publishedDate": "23 Sept 2025",
+        "tags": [
+          "robustness",
+          "knowledge acquisition",
+          "knowledge graphs",
+          "factual retrieval",
+          "multi-hop reasoning"
+        ],
+        "doi": "",
+        "journalName": "CCFM Oral",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 744,
+        "object_id": "paper:openreview.8NQPcdw7ja",
+        "created_at": "2025-11-17T16:51:16+00:00",
+        "updated_at": "2025-11-17T16:51:39+00:00",
         "version": 1
       }
     }

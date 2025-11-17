@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-17T11:00:44.509611+00:00",
+  "snapshot_time": "2025-11-17T11:02:18.014065+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -24336,6 +24336,126 @@
         "object_id": "paper:openreview.K8cmGgth4O",
         "created_at": "2025-11-17T10:59:55+00:00",
         "updated_at": "2025-11-17T11:00:14+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.VAWMM8oG9x": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "VAWMM8oG9x",
+        "url": "https://openreview.net/forum?id=VAWMM8oG9x&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "Pixels at BAREC Shared Task 2025: Visual Arabic Readability Assessment",
+        "authors": "Ben Sapirstein",
+        "abstract": "We present a visual-language approach to Arabic readability assessment using the PIXEL Vision Transformer, which processes rendered text as images to bypass tokenization challenges. Our system participated in the BAREC 2025 Shared Task (Sentence-level Strict track). We evaluate orthographic variants (normalization, diacritization, transliteration) and morphological segmentation with different visual boundary markers. Results show that diacritization provides useful visual cues for disambiguation, morphological segmentation improves over word-level processing, and transliterated scripts outperform native Arabic script. Our approach demonstrates the potential of visual processing for readability assessment in complex languages and writing systems.",
+        "timestamp": "2025-11-17T11:01:34.171Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Arabic readability",
+          "BAREC shared task",
+          "Visual language models",
+          "Orthographic variation",
+          "Morphological segmentation"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 738,
+        "object_id": "paper:openreview.VAWMM8oG9x",
+        "created_at": "2025-11-17T11:01:34+00:00",
+        "updated_at": "2025-11-17T11:01:56+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.RO9sAL6RWp": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "RO9sAL6RWp",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-17T11:01:20.107Z",
+            "data": {
+              "session_id": "session_1763377280068_1uevt54",
+              "source_id": "openreview",
+              "paper_id": "RO9sAL6RWp",
+              "start_time": "2025-11-17T11:01:08.104Z",
+              "end_time": "2025-11-17T11:01:20.068Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 12
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 737,
+        "object_id": "interactions:openreview.RO9sAL6RWp",
+        "created_at": "2025-11-17T11:01:20+00:00",
+        "updated_at": "2025-11-17T11:01:44+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.RO9sAL6RWp": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "RO9sAL6RWp",
+        "url": "https://openreview.net/forum?id=RO9sAL6RWp&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "Semi-synthetic parallel data for translation quality estimation: A case study of English\u2013Hebrew",
+        "authors": "Assaf Siani, Ilan Kernerman, Anna Kernerman",
+        "abstract": "Quality Estimation (QE) constitutes a vital component of machine translation (MT) workflows, enabling the automatic assessment of translation quality without reliance on human reference translations (Specia et al. 2018, Kepler et al. 2019). Nevertheless, developing accurate and adaptable QE models for under-resourced and morphologically rich languages remains a big challenge, primarily due to the scarcity of high-quality parallel data and the intricate linguistic phenomena involved (More & Tsarfaty 2016). This study introduces a semi-synthetic English\u2013Hebrew dataset designed for training neural QE models, while outlining its transition from research to real-world implementation within Lexicala\u2019s AI-driven translation infrastructure.\n\nUnder-resourced languages are particularly affected by the Anglo-centric bias pervasive in most MT training data, which limits both linguistic diversity and cultural representation. Recognizing this imbalance, we sought to develop a QE framework that unites human linguistic validation with scalable AI-based modeling, an approach encapsulated in our vision of achieving human quality at AI scale. The objective was to establish a system capable of accurately evaluating machine-generated translations and adapting dynamically to specific language pairs, client domains, and stylistic conventions.\n\nFollowing established methodologies in semi-synthetic data creation (Edunov et al. 2018, Fadaee et al. 2017), we compiled an English\u2013Hebrew parallel corpus by prompting ChatGPT to generate English sentences modeled on usage examples illustrating typical linguistic patterns extracted from learner\u2019s dictionaries. These sentences were translated into Hebrew using multiple MT engines (Google, Microsoft,  Yandex), after which an algorithmic selection process attempted to identify the optimal translation for each source sentence. Each English\u2013Hebrew pair was subsequently evaluated and ranked by an expert using a 5-point scale assessing accuracy, fluency, style, and completeness, resulting in a curated set of approximately 12,000 manually scored segments.\n\nTo enlarge and balance the corpus, we applied a series of controlled perturbations simulating recurrent morphosyntactic challenges in Hebrew, notably gender and number agreement mismatches and word-order variations (Belinkov & Bisk 2018, Habash & Roth 2009). Each intentional error reduced the corresponding quality score by one or two points, thereby generating 200K labeled segments encompassing a continuous range of translation quality. Additional adversarial augmentation, pairing unrelated English and Hebrew sentences and assigning them a score of zero, produced a comprehensive dataset of roughly 300K bilingual instances. Through further scaling and automation, the dataset was later expanded to 10M semi-synthetic segments for large-scale model training.\n\nFor QE modeling, we fine-tuned pre-trained BERT architectures (Devlin et al. 2019) using low-rank adaptation (LoRA; Hu et al. 2022). Experiments across multiple data sampling strategies showed a strong link between corpus characteristics and model performance. Training on a 500K normally distributed sample yielded a Pearson correlation of 0.65, which rose to 0.88 with a uniformly distributed 430K dataset. Scaling to 1M and 4M segments achieved 0.92, illustrating both the gains and the diminishing returns of increased data volume. These findings underscore that, beyond size, balanced score distribution and linguistic diversity are essential for effective and generalizable QE learning.\n\nBeyond research, these insights were operationalized within Lexicala\u2019s commercial localization pipelines. Our industry deployment experience revealed that universal QE models are inherently limited: optimal results require per-client customization. By integrating client-specific content subsets into the fine-tuning process, we ensure that models internalize domain-relevant terminology, stylistic nuances, and contextual expectations. This workflow, comprising data sampling from client materials, MT engines or LLMs, expert ranking, and subsequent fine-tuning, proved most effective in achieving reliable, domain-tailored predictions. The approach exemplifies Lexicala\u2019s broader strategy of harmonizing linguistic expertise with GenAI efficiency to produce outputs that are not only quantitatively robust but also qualitatively meaningful.\n\n[References included only in the PDF file.",
+        "timestamp": "2025-11-17T11:01:03.807Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Quality Estimation",
+          "Machine Translation",
+          "English-Hebrew",
+          "Under-Resourced Languages",
+          "Neural Models"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 734,
+        "object_id": "paper:openreview.RO9sAL6RWp",
+        "created_at": "2025-11-17T11:01:04+00:00",
+        "updated_at": "2025-11-17T11:01:23+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.qUtxOc1Akd": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "qUtxOc1Akd",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-17T11:00:34.244Z",
+            "data": {
+              "session_id": "session_1763377234185_r10ithi",
+              "source_id": "openreview",
+              "paper_id": "qUtxOc1Akd",
+              "start_time": "2025-11-17T11:00:19.463Z",
+              "end_time": "2025-11-17T11:00:34.185Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 5,
+              "total_elapsed_seconds": 15
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 733,
+        "object_id": "interactions:openreview.qUtxOc1Akd",
+        "created_at": "2025-11-17T11:00:34+00:00",
+        "updated_at": "2025-11-17T11:00:55+00:00",
         "version": 1
       }
     }

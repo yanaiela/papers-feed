@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-17T10:54:40.439229+00:00",
+  "snapshot_time": "2025-11-17T10:57:09.554102+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -24137,6 +24137,122 @@
         "object_id": "paper:openreview.vxyYhY6chZ",
         "created_at": "2025-11-17T10:53:47+00:00",
         "updated_at": "2025-11-17T10:54:11+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.JTayo79NT3": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "JTayo79NT3",
+        "url": "https://openreview.net/forum?id=JTayo79NT3&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "Decoding Reading Goals from Eye Movements",
+        "authors": "Omer Shubi, Cfir Avraham Hadar, Yevgeni Berzak",
+        "abstract": "Readers can have different goals with respect to the text that they are reading. Can these goals be decoded from their eye movements over the text? In this work, we examine for the first time whether it is possible to distinguish between two types of common reading goals: information seeking and ordinary reading for comprehension. Using large-scale eye tracking data, we address this task with a wide range of models that cover different architectural and data representation strategies, and further introduce a new model ensemble. We find that transformer-based models with scanpath representations coupled with language modeling solve it most successfully, and that accurate predictions can be made in \\emph{real time}, shortly after the participant started reading the text. We further introduce a new method for model performance analysis based on mixed effect modeling. Combining this method with rich textual annotations reveals key properties of textual items and participants that contribute to the difficulty of the task, and improves our understanding of the variability in eye movement patterns across the two reading regimes.",
+        "timestamp": "2025-11-17T10:55:59.899Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "cognitive modeling",
+          "computational psycholinguistics"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 727,
+        "object_id": "paper:openreview.JTayo79NT3",
+        "created_at": "2025-11-17T10:56:00+00:00",
+        "updated_at": "2025-11-17T10:56:23+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.MFlx7Tt6Dk": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "MFlx7Tt6Dk",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-17T10:55:39.013Z",
+            "data": {
+              "session_id": "session_1763376938958_iik3uko",
+              "source_id": "openreview",
+              "paper_id": "MFlx7Tt6Dk",
+              "start_time": "2025-11-17T10:55:26.206Z",
+              "end_time": "2025-11-17T10:55:38.958Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 13
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 726,
+        "object_id": "interactions:openreview.MFlx7Tt6Dk",
+        "created_at": "2025-11-17T10:55:39+00:00",
+        "updated_at": "2025-11-17T10:55:58+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.MFlx7Tt6Dk": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "MFlx7Tt6Dk",
+        "url": "https://openreview.net/forum?id=MFlx7Tt6Dk&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2025%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "Automatic biblical authorship attribution",
+        "authors": "Shira Faigenbaum-Golovin, Alon Kipnis, Axel B\u00fchler, Eliezer Piasetzky, Thomas R\u00f6mer, Israel Finkelstein",
+        "abstract": "This study employs computational linguistic techniques to analyze the authorship of biblical texts, providing a data-driven perspective on one of the most extensively studied corpora in human history. We develop a statistical model that is sensitive to deviations in word and n-gram frequencies to differentiate among three major scribal traditions traditionally identified by biblical scholars: the Deuteronomic (D), Deuteronomistic History (DtrH), and Priestly (P) corpora. Using entire chapters from the first nine books of the Hebrew Bible, we show that linguistic signals alone can effectively cluster these corpora, with D and DtrH exhibiting greater similarity to each other than to P, a finding consistent with long-standing philological hypotheses. We further use these corpora as ground truth to evaluate authorship in additional, disputed texts. For instance, when we compared the authorship of the two Ark narratives, a surprising pattern emerged. Our results demonstrate that interpretable, statistically robust linguistic features can capture stylistic and compositional distinctions across ancient textual traditions, highlighting the potential of such methodologies for authorship attribution and historical text analysis in low-resource.",
+        "timestamp": "2025-11-17T10:55:20.108Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "authorship attribution",
+          "word frequency",
+          "statistical analysis",
+          "bible"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 725,
+        "object_id": "paper:openreview.MFlx7Tt6Dk",
+        "created_at": "2025-11-17T10:55:20+00:00",
+        "updated_at": "2025-11-17T10:55:47+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.vxyYhY6chZ": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "vxyYhY6chZ",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-17T10:54:48.643Z",
+            "data": {
+              "session_id": "session_1763376887460_urw4epv",
+              "source_id": "openreview",
+              "paper_id": "vxyYhY6chZ",
+              "start_time": "2025-11-17T10:53:48.310Z",
+              "end_time": "2025-11-17T10:54:47.460Z",
+              "heartbeat_count": 11,
+              "duration_seconds": 55,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 59
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 724,
+        "object_id": "interactions:openreview.vxyYhY6chZ",
+        "created_at": "2025-11-17T10:54:49+00:00",
+        "updated_at": "2025-11-17T10:55:13+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-18T13:52:41.089687+00:00",
+  "snapshot_time": "2025-11-18T14:29:09.123294+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -25199,6 +25199,33 @@
         "object_id": "paper:openreview.9piEl9fU9Y",
         "created_at": "2025-11-18T13:51:46+00:00",
         "updated_at": "2025-11-18T13:52:07+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.9lLZy0YNrN": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "9lLZy0YNrN",
+        "url": "https://openreview.net/forum?id=9lLZy0YNrN&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2FARR%2F2025%2FOctober%2FAuthors%23your-submissions)",
+        "title": "GRADE: Quantifying Sample Diversity in Text-to-Image Models",
+        "authors": "Royi Rassin, Aviv Slobodkin, Shauli Ravfogel, Yanai Elazar, Yoav Goldberg",
+        "abstract": "Text-to-image models are mainly judged by prompt adherence and realism. Yet, prompts are inherently underspecified, leaving ample room to realize them in diverse ways. For instance, ``a princess at a children's birthday party'' does not detail the princess' outfit, or demographic traits like skin color, age, etc. Yet, models consistently depict her as the birthday girl with similar skin tone and a pink dress. In those common, underspecified cases, we would expect models to cover the full spectrum of the concept. Measuring and quantifying this ability has been mostly unexplored. In this work, we present GRADE, a natural-language driven method to quantify sample diversity across concept-specific attributes. We use GRADE to measure diversity in 12 models and reveal all models collapse to default behaviors, a phenomenon where a model consistently generates concepts with the same attributes (e.g., 98% of dresses are pink). Notably, we find that diversity often worsens with stronger prompt adherence and larger models. Lastly, we attribute underspecified captions in the training data for models' low diversity, where omitted attributes correlate with default behaviors.",
+        "timestamp": "2025-11-18T14:28:17.324Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "text-to-image",
+          "diversity"
+        ],
+        "doi": "",
+        "journalName": "ACL ARR 2025 October Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 763,
+        "object_id": "paper:openreview.9lLZy0YNrN",
+        "created_at": "2025-11-18T14:28:17+00:00",
+        "updated_at": "2025-11-18T14:28:41+00:00",
         "version": 1
       }
     }

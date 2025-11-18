@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-18T06:17:34.642436+00:00",
+  "snapshot_time": "2025-11-18T06:25:40.940702+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -24791,6 +24791,145 @@
         "object_id": "interactions:arxiv.2402.17010",
         "created_at": "2025-11-17T20:14:21+00:00",
         "updated_at": "2025-11-17T20:14:42+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2406.13121": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2406.13121",
+        "url": "https://arxiv.org/abs/2406.13121",
+        "title": "Can Long-Context Language Models Subsume Retrieval, RAG, SQL, and More?",
+        "authors": "Jinhyuk Lee, Anthony Chen, Zhuyun Dai, Dheeru Dua, Devendra Singh Sachan, Michael Boratko, Yi Luan, S\u00e9bastien M. R. Arnold, Vincent Perot, Siddharth Dalmia, Hexiang Hu, Xudong Lin, Panupong Pasupat, Aida Amini, Jeremy R. Cole, Sebastian Riedel, Iftekhar Naim, Ming-Wei Chang, Kelvin Guu",
+        "abstract": "Long-context language models (LCLMs) have the potential to revolutionize our approach to tasks traditionally reliant on external tools like retrieval systems or databases. Leveraging LCLMs' ability to natively ingest and process entire corpora of information offers numerous advantages. It enhances user-friendliness by eliminating the need for specialized knowledge of tools, provides robust end-to-end modeling that minimizes cascading errors in complex pipelines, and allows for the application of sophisticated prompting techniques across the entire system. To assess this paradigm shift, we introduce LOFT, a benchmark of real-world tasks requiring context up to millions of tokens designed to evaluate LCLMs' performance on in-context retrieval and reasoning. Our findings reveal LCLMs' surprising ability to rival state-of-the-art retrieval and RAG systems, despite never having been explicitly trained for these tasks. However, LCLMs still face challenges in areas like compositional reasoning that are required in SQL-like tasks. Notably, prompting strategies significantly influence performance, emphasizing the need for continued research as context lengths grow. Overall, LOFT provides a rigorous testing ground for LCLMs, showcasing their potential to supplant existing paradigms and tackle novel tasks as model capabilities scale.",
+        "timestamp": "2025-11-18T06:24:50.278Z",
+        "rating": "novote",
+        "publishedDate": "2024/06/19",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Information Retrieval (cs.IR)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 752,
+        "object_id": "paper:arxiv.2406.13121",
+        "created_at": "2025-11-18T06:24:50+00:00",
+        "updated_at": "2025-11-18T06:25:15+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2404.11018": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2404.11018",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-18T06:24:42.196Z",
+            "data": {
+              "session_id": "session_1763447082113_qwga4bl",
+              "source_id": "arxiv",
+              "paper_id": "2404.11018",
+              "start_time": "2025-11-18T06:24:33.223Z",
+              "end_time": "2025-11-18T06:24:42.113Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 9
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 751,
+        "object_id": "interactions:arxiv.2404.11018",
+        "created_at": "2025-11-18T06:24:43+00:00",
+        "updated_at": "2025-11-18T06:25:05+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2404.11018": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2404.11018",
+        "url": "https://arxiv.org/abs/2404.11018",
+        "title": "Many-Shot In-Context Learning",
+        "authors": "Rishabh Agarwal, Avi Singh, Lei M. Zhang, Bernd Bohnet, Luis Rosias, Stephanie Chan, Biao Zhang, Ankesh Anand, Zaheer Abbas, Azade Nova, John D. Co-Reyes, Eric Chu, Feryal Behbahani, Aleksandra Faust, Hugo Larochelle",
+        "abstract": "Large language models (LLMs) excel at few-shot in-context learning (ICL) -- learning from a few examples provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples -- the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated examples. To mitigate this limitation, we explore two new settings: Reinforced and Unsupervised ICL. Reinforced ICL uses model-generated chain-of-thought rationales in place of human examples. Unsupervised ICL removes rationales from the prompt altogether, and prompts the model only with domain-specific questions. We find that both Reinforced and Unsupervised ICL can be quite effective in the many-shot regime, particularly on complex reasoning tasks. Finally, we demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning. We also find that inference cost increases linearly in the many-shot regime, and frontier LLMs benefit from many-shot ICL to varying degrees. Our analysis also reveals the limitations of next-token prediction loss as an indicator of downstream ICL performance.",
+        "timestamp": "2025-11-18T06:24:28.749Z",
+        "rating": "novote",
+        "publishedDate": "2024/04/17",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 750,
+        "object_id": "paper:arxiv.2404.11018",
+        "created_at": "2025-11-18T06:24:29+00:00",
+        "updated_at": "2025-11-18T06:24:52+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2406.01574": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2406.01574",
+        "url": "https://arxiv.org/abs/2406.01574",
+        "title": "MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark",
+        "authors": "Yubo Wang, Xueguang Ma, Ge Zhang, Yuansheng Ni, Abhranil Chandra, Shiguang Guo, Weiming Ren, Aaran Arulraj, Xuan He, Ziyan Jiang, Tianle Li, Max Ku, Kai Wang, Alex Zhuang, Rongqi Fan, Xiang Yue, Wenhu Chen",
+        "abstract": "In the age of large-scale language models, benchmarks like the Massive Multitask Language Understanding (MMLU) have been pivotal in pushing the boundaries of what AI can achieve in language comprehension and reasoning across diverse domains. However, as models continue to improve, their performance on these benchmarks has begun to plateau, making it increasingly difficult to discern differences in model capabilities. This paper introduces MMLU-Pro, an enhanced dataset designed to extend the mostly knowledge-driven MMLU benchmark by integrating more challenging, reasoning-focused questions and expanding the choice set from four to ten options. Additionally, MMLU-Pro eliminates the trivial and noisy questions in MMLU. Our experimental results show that MMLU-Pro not only raises the challenge, causing a significant drop in accuracy by 16% to 33% compared to MMLU but also demonstrates greater stability under varying prompts. With 24 different prompt styles tested, the sensitivity of model scores to prompt variations decreased from 4-5% in MMLU to just 2% in MMLU-Pro. Additionally, we found that models utilizing Chain of Thought (CoT) reasoning achieved better performance on MMLU-Pro compared to direct answering, which is in stark contrast to the findings on the original MMLU, indicating that MMLU-Pro includes more complex reasoning questions. Our assessments confirm that MMLU-Pro is a more discriminative benchmark to better track progress in the field.",
+        "timestamp": "2025-11-18T06:24:00.821Z",
+        "rating": "novote",
+        "publishedDate": "2024/06/03",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 749,
+        "object_id": "paper:arxiv.2406.01574",
+        "created_at": "2025-11-18T06:24:01+00:00",
+        "updated_at": "2025-11-18T06:24:25+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2507.05195": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2507.05195",
+        "url": "https://arxiv.org/abs/2507.05195",
+        "title": "Train-before-Test Harmonizes Language Model Rankings",
+        "authors": "Guanhua Zhang, Ricardo Dominguez-Olmedo, Moritz Hardt",
+        "abstract": "Existing language model benchmarks provide contradictory model rankings, even for benchmarks that aim to capture similar skills. This dilemma of conflicting rankings hampers model selection, clouds model comparisons, and adds confusion to a growing ecosystem of competing models. In this paper, we take a different perspective on model comparison: instead of relying on out-of-the-box performance via direct evaluation, we compare model potential by providing each model with identical benchmark-specific fine-tuning before evaluation. We call this approach train-before-test. Our primary contribution is a comprehensive empirical evaluation of model potential across 24 benchmarks and 61 models. First, we demonstrate that model potential rankings obtained through train-before-test exhibit remarkable consistency across all benchmarks. Whereas traditional rankings demonstrate little external validity under direct evaluation, they enjoy a significant degree of external validity when applying train-before-test: model potential rankings transfer gracefully from one benchmark to another. Second, train-before-test restores the connection between perplexity and downstream task performance, lost under direct evaluation. Remarkably, even pre-finetuning perplexity of a base model predicts post-finetuning downstream performance, suggesting that ranking consistency reflects inherent model potential rather than fine-tuning artifacts. Finally, train-before-test reduces the model-score matrix to essentially rank one, indicating that model potential is dominated by one latent factor, uncovered by train-before-test. Our work supports the recommendation to make train-before-test a default component of LLM benchmarking.",
+        "timestamp": "2025-11-18T06:23:52.810Z",
+        "rating": "novote",
+        "publishedDate": "2025/07/07",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 748,
+        "object_id": "paper:arxiv.2507.05195",
+        "created_at": "2025-11-18T06:23:53+00:00",
+        "updated_at": "2025-11-18T06:24:13+00:00",
         "version": 1
       }
     }

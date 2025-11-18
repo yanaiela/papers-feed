@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-18T06:25:40.940702+00:00",
+  "snapshot_time": "2025-11-18T06:57:12.764205+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -24930,6 +24930,47 @@
         "object_id": "paper:arxiv.2507.05195",
         "created_at": "2025-11-18T06:23:53+00:00",
         "updated_at": "2025-11-18T06:24:13+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2511.11810": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2511.11810",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 754,
+        "object_id": "interactions:arxiv.2511.11810",
+        "created_at": "2025-11-18T06:56:26+00:00",
+        "updated_at": "2025-11-18T06:56:28+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2511.11810": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2511.11810",
+        "url": "https://arxiv.org/abs/2511.11810",
+        "title": "On the Notion that Language Models Reason",
+        "authors": "Bertram H\u00f8jer",
+        "abstract": "Language models (LMs) are said to be exhibiting reasoning, but what does this entail? We assess definitions of reasoning and how key papers in the field of natural language processing (NLP) use the notion and argue that the definitions provided are not consistent with how LMs are trained, process information, and generate new tokens. To illustrate this incommensurability we assume the view that transformer-based LMs implement an \\textit{implicit} finite-order Markov kernel mapping contexts to conditional token distributions. In this view, reasoning-like outputs correspond to statistical regularities and approximate statistical invariances in the learned kernel rather than the implementation of explicit logical mechanisms. This view is illustrative of the claim that LMs are \"statistical pattern matchers\"\" and not genuine reasoners and provides a perspective that clarifies why reasoning-like outputs arise in LMs without any guarantees of logical consistency. This distinction is fundamental to how epistemic uncertainty is evaluated in LMs. We invite a discussion on the importance of how the computational processes of the systems we build and analyze in NLP research are described.",
+        "timestamp": "2025-11-18T06:56:19.575Z",
+        "rating": "novote",
+        "publishedDate": "2025/11/14",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 753,
+        "object_id": "paper:arxiv.2511.11810",
+        "created_at": "2025-11-18T06:56:20+00:00",
+        "updated_at": "2025-11-18T06:56:45+00:00",
         "version": 1
       }
     }

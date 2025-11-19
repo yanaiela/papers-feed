@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-18T20:02:59.722067+00:00",
+  "snapshot_time": "2025-11-19T06:36:45.229713+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -25368,6 +25368,102 @@
         "object_id": "interactions:arxiv.2305.10601",
         "created_at": "2025-11-18T20:01:57+00:00",
         "updated_at": "2025-11-18T20:02:19+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.ev3kv63UZC": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "ev3kv63UZC",
+        "url": "https://openreview.net/pdf?id=ev3kv63UZC",
+        "title": "ev3kv63UZC",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-11-19T06:36:01.647Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "pdf"
+      },
+      "meta": {
+        "issue_number": 791,
+        "object_id": "paper:openreview.ev3kv63UZC",
+        "created_at": "2025-11-19T06:36:02+00:00",
+        "updated_at": "2025-11-19T06:36:20+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.Pvgpz0Ydbl": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "Pvgpz0Ydbl",
+        "url": "https://openreview.net/pdf?id=Pvgpz0Ydbl",
+        "title": "Pvgpz0Ydbl",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-11-19T06:35:59.348Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "pdf"
+      },
+      "meta": {
+        "issue_number": 790,
+        "object_id": "paper:openreview.Pvgpz0Ydbl",
+        "created_at": "2025-11-19T06:35:59+00:00",
+        "updated_at": "2025-11-19T06:36:22+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.zsfsP6zm2r": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "zsfsP6zm2r",
+        "url": "https://openreview.net/pdf?id=zsfsP6zm2r",
+        "title": "zsfsP6zm2r",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-11-19T06:35:59.029Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "pdf"
+      },
+      "meta": {
+        "issue_number": 789,
+        "object_id": "paper:openreview.zsfsP6zm2r",
+        "created_at": "2025-11-19T06:35:59+00:00",
+        "updated_at": "2025-11-19T06:36:22+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.SVIz8zbZtw": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "SVIz8zbZtw",
+        "url": "https://openreview.net/pdf?id=SVIz8zbZtw",
+        "title": "SVIz8zbZtw",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-11-19T06:35:58.447Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "pdf"
+      },
+      "meta": {
+        "issue_number": 788,
+        "object_id": "paper:openreview.SVIz8zbZtw",
+        "created_at": "2025-11-19T06:35:59+00:00",
+        "updated_at": "2025-11-19T06:36:20+00:00",
         "version": 1
       }
     }

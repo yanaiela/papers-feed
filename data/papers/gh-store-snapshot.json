@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-20T19:02:22.149687+00:00",
+  "snapshot_time": "2025-11-20T20:48:01.062385+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -25854,6 +25854,32 @@
         "object_id": "paper:arxiv.1701.07795",
         "created_at": "2025-11-20T16:46:19+00:00",
         "updated_at": "2025-11-20T16:46:40+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2504.07096": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.07096",
+        "url": "https://arxiv.org/abs/2504.07096",
+        "title": "OLMoTrace: Tracing Language Model Outputs Back to Trillions of Training Tokens",
+        "authors": "Jiacheng Liu, Taylor Blanton, Yanai Elazar, Sewon Min, YenSung Chen, Arnavi Chheda-Kothary, Huy Tran, Byron Bischoff, Eric Marsh, Michael Schmitz, Cassidy Trier, Aaron Sarnat, Jenna James, Jon Borchardt, Bailey Kuehl, Evie Cheng, Karen Farley, Sruthi Sreeram, Taira Anderson, David Albright, Carissa Schoenick, Luca Soldaini, Dirk Groeneveld, Rock Yuren Pang, Pang Wei Koh, Noah A. Smith, Sophie Lebrecht, Yejin Choi, Hannaneh Hajishirzi, Ali Farhadi, Jesse Dodge",
+        "abstract": "We present OLMoTrace, the first system that traces the outputs of language models back to their full, multi-trillion-token training data in real time. OLMoTrace finds and shows verbatim matches between segments of language model output and documents in the training text corpora. Powered by an extended version of infini-gram (Liu et al., 2024), our system returns tracing results within a few seconds. OLMoTrace can help users understand the behavior of language models through the lens of their training data. We showcase how it can be used to explore fact checking, hallucination, and the creativity of language models. OLMoTrace is publicly available and fully open-source.",
+        "timestamp": "2025-11-20T20:47:12.735Z",
+        "rating": "novote",
+        "publishedDate": "2025/04/09",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 801,
+        "object_id": "paper:arxiv.2504.07096",
+        "created_at": "2025-11-20T20:47:13+00:00",
+        "updated_at": "2025-11-20T20:47:36+00:00",
         "version": 1
       }
     }

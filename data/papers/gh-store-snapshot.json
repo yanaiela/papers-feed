@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-22T07:18:09.214584+00:00",
+  "snapshot_time": "2025-11-22T07:22:30.917353+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -26236,6 +26236,44 @@
         "object_id": "interactions:arxiv.1806.10869",
         "created_at": "2025-11-22T07:16:55+00:00",
         "updated_at": "2025-11-22T07:16:57+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.XfHWcNTSHp": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "XfHWcNTSHp",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 810,
+        "object_id": "interactions:openreview.XfHWcNTSHp",
+        "created_at": "2025-11-22T07:22:05+00:00",
+        "updated_at": "2025-11-22T07:22:07+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.XfHWcNTSHp": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "XfHWcNTSHp",
+        "url": "https://openreview.net/forum?id=XfHWcNTSHp&noteId=rqfpI8oy7d",
+        "title": "A Survey on Data Selection for Language Models",
+        "authors": "Alon Albalak, Yanai Elazar, Sang Michael Xie, Shayne Longpre, Nathan Lambert, Xinyi Wang, Niklas Muennighoff, Bairu Hou, Liangming Pan, Haewon Jeong, Colin Raffel, Shiyu Chang, Tatsunori Hashimoto, William Yang Wang",
+        "abstract": "A major factor in the recent success of large language models is the use of enormous and ever-growing text datasets for unsupervised pre-training. However, naively training a model on all available data may not be optimal (or feasible), as the quality of available text data can vary. Filtering out data can also decrease the carbon footprint and financial costs of training models by reducing the amount of training required.\n\nData selection methods aim to determine which candidate data points to include in the training dataset and how to appropriately sample from the selected data points. The promise of improved data selection methods has caused the volume of research in the area to rapidly expand. However, because deep learning is mostly driven by empirical evidence and experimentation on large-scale data is expensive, few organizations have the resources for extensive data selection research. Consequently, knowledge of effective data selection practices has become concentrated within a few organizations, many of which do not openly share their findings and methodologies.\n\nTo narrow this gap in knowledge, we present a comprehensive review of existing literature on data selection methods and related research areas, providing a taxonomy of existing approaches. By describing the current landscape of research, this work aims to accelerate progress in data selection by establishing an entry point for new and established researchers. Additionally, throughout this review we draw attention to noticeable holes in the literature and conclude the paper by proposing promising avenues for future research.",
+        "timestamp": "2025-11-22T07:21:46.993Z",
+        "rating": "novote",
+        "publishedDate": "12 Jul 2024",
+        "tags": [],
+        "doi": "",
+        "journalName": "Accepted by TMLR",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 809,
+        "object_id": "paper:openreview.XfHWcNTSHp",
+        "created_at": "2025-11-22T07:21:47+00:00",
+        "updated_at": "2025-11-22T07:22:05+00:00",
         "version": 1
       }
     }

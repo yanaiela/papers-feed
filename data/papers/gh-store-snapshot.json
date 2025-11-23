@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-23T08:25:23.956322+00:00",
+  "snapshot_time": "2025-11-23T08:59:24.402836+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -26533,6 +26533,34 @@
         "object_id": "interactions:arxiv.2104.10706",
         "created_at": "2025-11-23T08:24:31+00:00",
         "updated_at": "2025-11-23T08:24:57+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2305.03350": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2305.03350",
+        "url": "https://arxiv.org/abs/2305.03350",
+        "title": "Reconstructing Training Data from Multiclass Neural Networks",
+        "authors": "Gon Buzaglo, Niv Haim, Gilad Yehudai, Gal Vardi, Michal Irani",
+        "abstract": "Reconstructing samples from the training set of trained neural networks is a major privacy concern. Haim et al. (2022) recently showed that it is possible to reconstruct training samples from neural network binary classifiers, based on theoretical results about the implicit bias of gradient methods. In this work, we present several improvements and new insights over this previous work. As our main improvement, we show that training-data reconstruction is possible in the multi-class setting and that the reconstruction quality is even higher than in the case of binary classification. Moreover, we show that using weight-decay during training increases the vulnerability to sample reconstruction. Finally, while in the previous work the training set was of size at most $1000$ from $10$ classes, we show preliminary evidence of the ability to reconstruct from a model trained on $5000$ samples from $100$ classes.",
+        "timestamp": "2025-11-23T08:58:34.217Z",
+        "rating": "novote",
+        "publishedDate": "2023/05/05",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Cryptography and Security (cs.CR)",
+          "Computer Vision and Pattern Recognition (cs.CV)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 816,
+        "object_id": "paper:arxiv.2305.03350",
+        "created_at": "2025-11-23T08:58:34+00:00",
+        "updated_at": "2025-11-23T08:58:56+00:00",
         "version": 1
       }
     }

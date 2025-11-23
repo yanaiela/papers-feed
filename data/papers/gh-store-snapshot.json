@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-23T08:59:24.402836+00:00",
+  "snapshot_time": "2025-11-23T08:59:54.943053+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -26561,6 +26561,30 @@
         "object_id": "paper:arxiv.2305.03350",
         "created_at": "2025-11-23T08:58:34+00:00",
         "updated_at": "2025-11-23T08:58:56+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.oUOg50iFL1": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "oUOg50iFL1",
+        "url": "https://openreview.net/pdf?id=oUOg50iFL1",
+        "title": "oUOg50iFL1",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-11-23T08:59:09.701Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "pdf"
+      },
+      "meta": {
+        "issue_number": 817,
+        "object_id": "paper:openreview.oUOg50iFL1",
+        "created_at": "2025-11-23T08:59:10+00:00",
+        "updated_at": "2025-11-23T08:59:30+00:00",
         "version": 1
       }
     }

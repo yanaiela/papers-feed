@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-24T06:24:43.737044+00:00",
+  "snapshot_time": "2025-11-24T12:55:01.286078+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -26890,6 +26890,33 @@
         "object_id": "paper:arxiv.1703.04730",
         "created_at": "2025-11-24T06:23:43+00:00",
         "updated_at": "2025-11-24T06:24:21+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2002.08484": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2002.08484",
+        "url": "https://arxiv.org/abs/2002.08484",
+        "title": "Estimating Training Data Influence by Tracing Gradient Descent",
+        "authors": "Garima Pruthi, Frederick Liu, Mukund Sundararajan, Satyen Kale",
+        "abstract": "We introduce a method called TracIn that computes the influence of a training example on a prediction made by the model. The idea is to trace how the loss on the test point changes during the training process whenever the training example of interest was utilized. We provide a scalable implementation of TracIn via: (a) a first-order gradient approximation to the exact computation, (b) saved checkpoints of standard training procedures, and (c) cherry-picking layers of a deep neural network. In contrast with previously proposed methods, TracIn is simple to implement; all it needs is the ability to work with gradients, checkpoints, and loss functions. The method is general. It applies to any machine learning model trained using stochastic gradient descent or a variant of it, agnostic of architecture, domain and task. We expect the method to be widely useful within processes that study and improve training data.",
+        "timestamp": "2025-11-24T12:54:07.690Z",
+        "rating": "novote",
+        "publishedDate": "2020/02/19",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 826,
+        "object_id": "paper:arxiv.2002.08484",
+        "created_at": "2025-11-24T12:54:08+00:00",
+        "updated_at": "2025-11-24T12:54:31+00:00",
         "version": 1
       }
     }

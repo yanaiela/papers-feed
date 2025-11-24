@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-24T12:55:01.286078+00:00",
+  "snapshot_time": "2025-11-24T17:34:06.854048+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -26917,6 +26917,32 @@
         "object_id": "paper:arxiv.2002.08484",
         "created_at": "2025-11-24T12:54:08+00:00",
         "updated_at": "2025-11-24T12:54:31+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2502.10341": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2502.10341",
+        "url": "https://arxiv.org/abs/2502.10341",
+        "title": "Organize the Web: Constructing Domains Enhances Pre-Training Data Curation",
+        "authors": "Alexander Wettig, Kyle Lo, Sewon Min, Hannaneh Hajishirzi, Danqi Chen, Luca Soldaini",
+        "abstract": "Modern language models are trained on large, unstructured datasets consisting of trillions of tokens and obtained by crawling the web. The unstructured nature makes it difficult to reason about their contents and develop systematic approaches to data curation. In this paper, we unpack monolithic web corpora by developing taxonomies of their contents and organizing them into domains. We introduce WebOrganizer, a framework for organizing web pages in terms of both their topic and format. Using these two complementary notions of domains, we automatically annotate pre-training data by distilling annotations from a large language model into efficient classifiers. This allows us to study how data from different domains should be mixed to improve models on downstream tasks, and we show that we can combine insights about effective topics and formats to further boost performance. We demonstrate that our domain mixing also improves existing methods that select data based on quality. Furthermore, we study and compare how quality-based methods will implicitly change the domain mixture. Overall, our work demonstrates that constructing and mixing domains provides a valuable complement to quality-based data curation methods, opening new avenues for effective and insightful pre-training data curation.",
+        "timestamp": "2025-11-24T17:33:20.006Z",
+        "rating": "novote",
+        "publishedDate": "2025/02/14",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 827,
+        "object_id": "paper:arxiv.2502.10341",
+        "created_at": "2025-11-24T17:33:20+00:00",
+        "updated_at": "2025-11-24T17:33:41+00:00",
         "version": 1
       }
     }

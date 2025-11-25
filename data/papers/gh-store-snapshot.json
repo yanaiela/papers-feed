@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-25T11:48:42.057767+00:00",
+  "snapshot_time": "2025-11-25T11:50:52.546492+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -27235,6 +27235,68 @@
         "object_id": "paper:arxiv.2504.16948",
         "created_at": "2025-11-25T11:47:55+00:00",
         "updated_at": "2025-11-25T11:48:17+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2403.08946": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2403.08946",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 836,
+        "object_id": "interactions:arxiv.2403.08946",
+        "created_at": "2025-11-25T11:49:58+00:00",
+        "updated_at": "2025-11-25T11:50:00+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2403.08946": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2403.08946",
+        "url": "https://arxiv.org/pdf/2403.08946",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-11-25T11:49:51.882Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 833,
+        "object_id": "paper:arxiv.2403.08946",
+        "created_at": "2025-11-25T11:49:52+00:00",
+        "updated_at": "2025-11-25T11:50:16+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2411.15287": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2411.15287",
+        "url": "https://arxiv.org/pdf/2411.15287",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-11-25T11:49:45.328Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 831,
+        "object_id": "paper:arxiv.2411.15287",
+        "created_at": "2025-11-25T11:49:45+00:00",
+        "updated_at": "2025-11-25T11:50:07+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-25T11:18:56.209049+00:00",
+  "snapshot_time": "2025-11-25T11:25:32.343940+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -27138,6 +27138,34 @@
         "object_id": "interactions:arxiv.2502.10341",
         "created_at": "2025-11-24T17:50:30+00:00",
         "updated_at": "2025-11-24T17:50:54+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2509.23383": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.23383",
+        "url": "https://arxiv.org/abs/2509.23383",
+        "title": "Train Once, Answer All: Many Pretraining Experiments for the Cost of One",
+        "authors": "Sebastian Bordt, Martin Pawelczyk",
+        "abstract": "Recent work has demonstrated that controlled pretraining experiments are a powerful tool for understanding learning, reasoning, and memorization in large language models (LLMs). However, the computational cost of pretraining presents a significant constraint. To overcome this constraint, we propose to conduct multiple pretraining experiments simultaneously during a single training run. We demonstrate the feasibility of this approach by conducting ten experiments during the training of a 1.5B parameter model on 210B tokens. Although we only train a single model, we can replicate the results from multiple previous works on data contamination, poisoning, and memorization. We also conduct novel investigations into knowledge acquisition, mathematical reasoning, and watermarking. For example, we dynamically update the training data until the model acquires a particular piece of knowledge. Remarkably, the influence of the ten experiments on the model's training dynamics and overall performance is minimal. However, interactions between different experiments may act as a potential confounder in our approach. We propose to test for interactions with continual pretraining experiments, finding them to be negligible in our setup. Overall, our findings suggest that performing multiple pretraining experiments in a single training run can enable rigorous scientific experimentation with large models on a compute budget.",
+        "timestamp": "2025-11-25T11:24:52.098Z",
+        "rating": "novote",
+        "publishedDate": "2025/09/27",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 829,
+        "object_id": "paper:arxiv.2509.23383",
+        "created_at": "2025-11-25T11:24:52+00:00",
+        "updated_at": "2025-11-25T11:25:10+00:00",
         "version": 1
       }
     }

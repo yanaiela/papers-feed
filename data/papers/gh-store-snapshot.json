@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-25T16:25:49.846837+00:00",
+  "snapshot_time": "2025-11-25T16:29:19.670942+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -27358,6 +27358,30 @@
         "object_id": "paper:arxiv.2411.15287",
         "created_at": "2025-11-25T11:49:45+00:00",
         "updated_at": "2025-11-25T11:50:07+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.02279": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.02279",
+        "url": "https://arxiv.org/html/2506.02279v1",
+        "title": "Instructions for *ACL Proceedings",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-11-25T16:28:30.446Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 837,
+        "object_id": "paper:arxiv.2506.02279",
+        "created_at": "2025-11-25T16:28:30+00:00",
+        "updated_at": "2025-11-25T16:28:51+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-26T16:33:53.959356+00:00",
+  "snapshot_time": "2025-11-26T16:34:59.152153+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -22044,6 +22044,21 @@
               "idle_seconds": 3,
               "total_elapsed_seconds": 8
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-11-26T16:34:11.250Z",
+            "data": {
+              "session_id": "session_1764174851245_bxeavn6",
+              "source_id": "arxiv",
+              "paper_id": "2404.01268",
+              "start_time": "2025-11-26T16:34:01.079Z",
+              "end_time": "2025-11-26T16:34:11.245Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 10
+            }
           }
         ]
       },
@@ -22051,7 +22066,7 @@
         "issue_number": 651,
         "object_id": "interactions:arxiv.2404.01268",
         "created_at": "2025-11-06T04:27:12+00:00",
-        "updated_at": "2025-11-23T12:11:31+00:00",
+        "updated_at": "2025-11-26T16:34:36+00:00",
         "version": 1
       }
     },
@@ -22281,17 +22296,17 @@
           },
           {
             "type": "reading_session",
-            "timestamp": "2025-11-26T16:33:01.764Z",
+            "timestamp": "2025-11-26T16:33:56.405Z",
             "data": {
-              "session_id": "session_1764174780838_4xxvpho",
+              "session_id": "session_1764174836395_bccotai",
               "source_id": "arxiv",
               "paper_id": "10",
-              "start_time": "2025-11-26T16:28:23.507Z",
-              "end_time": "2025-11-26T16:33:00.838Z",
-              "heartbeat_count": 55,
-              "duration_seconds": 275,
-              "idle_seconds": 2,
-              "total_elapsed_seconds": 277
+              "start_time": "2025-11-26T16:33:50.098Z",
+              "end_time": "2025-11-26T16:33:56.395Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
             }
           }
         ]
@@ -22300,7 +22315,7 @@
         "issue_number": 653,
         "object_id": "interactions:arxiv.10",
         "created_at": "2025-11-06T04:39:34+00:00",
-        "updated_at": "2025-11-26T16:33:31+00:00",
+        "updated_at": "2025-11-26T16:34:18+00:00",
         "version": 1
       }
     },

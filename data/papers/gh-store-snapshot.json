@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-26T12:29:03.144696+00:00",
+  "snapshot_time": "2025-11-26T13:13:48.841101+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -27548,6 +27548,46 @@
         "object_id": "interactions:arxiv.2411.15287",
         "created_at": "2025-11-26T07:49:37+00:00",
         "updated_at": "2025-11-26T12:28:36+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2306.17844": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2306.17844",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 840,
+        "object_id": "interactions:arxiv.2306.17844",
+        "created_at": "2025-11-26T13:13:30+00:00",
+        "updated_at": "2025-11-26T13:13:33+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2306.17844": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2306.17844",
+        "url": "https://arxiv.org/abs/2306.17844",
+        "title": "The Clock and the Pizza: Two Stories in Mechanistic Explanation of Neural Networks",
+        "authors": "Ziqian Zhong, Ziming Liu, Max Tegmark, Jacob Andreas",
+        "abstract": "Do neural networks, trained on well-understood algorithmic tasks, reliably rediscover known algorithms for solving those tasks? Several recent studies, on tasks ranging from group arithmetic to in-context linear regression, have suggested that the answer is yes. Using modular addition as a prototypical problem, we show that algorithm discovery in neural networks is sometimes more complex. Small changes to model hyperparameters and initializations can induce the discovery of qualitatively different algorithms from a fixed training set, and even parallel implementations of multiple such algorithms. Some networks trained to perform modular addition implement a familiar Clock algorithm; others implement a previously undescribed, less intuitive, but comprehensible procedure which we term the Pizza algorithm, or a variety of even more complex procedures. Our results show that even simple learning problems can admit a surprising diversity of solutions, motivating the development of new tools for characterizing the behavior of neural networks across their algorithmic phase space.",
+        "timestamp": "2025-11-26T13:12:58.137Z",
+        "rating": "novote",
+        "publishedDate": "2023/06/30",
+        "tags": [
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 839,
+        "object_id": "paper:arxiv.2306.17844",
+        "created_at": "2025-11-26T13:12:58+00:00",
+        "updated_at": "2025-11-26T13:13:18+00:00",
         "version": 1
       }
     }

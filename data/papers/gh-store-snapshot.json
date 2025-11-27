@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-26T22:39:54.874591+00:00",
+  "snapshot_time": "2025-11-27T14:27:33.502002+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -28038,6 +28038,34 @@
         "object_id": "paper:arxiv.2306.17844",
         "created_at": "2025-11-26T13:12:58+00:00",
         "updated_at": "2025-11-26T13:13:18+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2505.21524": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.21524",
+        "url": "https://arxiv.org/abs/2505.21524v2?fbclid=IwY2xjawOVPvRleHRuA2FlbQIxMABicmlkETFwYTVnVG5YWmZ5Z0xxVXNxc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHke9t_9PkbaN5am1MbM87PmlBlNVyZkYB7AUfE4TstYnx5HJOiaZ2trTF5_o_aem_I7JRfBiXElCsM6ztC4y6TQ",
+        "title": "Learning Shared Representations from Unpaired Data",
+        "authors": "Amitai Yacobi, Nir Ben-Ari, Ronen Talmon, Uri Shaham",
+        "abstract": "Learning shared representations is a primary area of multimodal representation learning. The current approaches to achieve a shared embedding space rely heavily on paired samples from each modality, which are significantly harder to obtain than unpaired ones. In this work, we demonstrate that shared representations can be learned almost exclusively from unpaired data. Our arguments are grounded in the spectral embeddings of the random walk matrices constructed independently from each unimodal representation. Empirical results in computer vision and natural language processing domains support its potential, revealing the effectiveness of unpaired data in capturing meaningful cross-modal relations, demonstrating high capabilities in retrieval tasks, generation, arithmetics, zero-shot, and cross-domain classification. This work, to the best of our knowledge, is the first to demonstrate these capabilities almost exclusively from unpaired samples, giving rise to a cross-modal embedding that could be viewed as universal, i.e., independent of the specific modalities of the data. Our project page: this https URL.",
+        "timestamp": "2025-11-27T14:26:45.531Z",
+        "rating": "novote",
+        "publishedDate": "2025/05/23",
+        "tags": [
+          "Computer Vision and Pattern Recognition (cs.CV)",
+          "Machine Learning (cs.LG)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 841,
+        "object_id": "paper:arxiv.2505.21524",
+        "created_at": "2025-11-27T14:26:45+00:00",
+        "updated_at": "2025-11-27T14:27:09+00:00",
         "version": 1
       }
     }

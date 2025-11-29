@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-11-28T21:22:48.240247+00:00",
+  "snapshot_time": "2025-11-29T09:34:20.083625+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -28420,6 +28420,33 @@
         "object_id": "interactions:arxiv.2002.05867",
         "created_at": "2025-11-28T07:09:14+00:00",
         "updated_at": "2025-11-28T07:09:38+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2505.24195": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.24195",
+        "url": "https://arxiv.org/abs/2505.24195",
+        "title": "WikiGap: Promoting Epistemic Equity by Surfacing Knowledge Gaps Between English Wikipedia and other Language Editions",
+        "authors": "Zining Wang, Yuxuan Zhang, Dongwook Yoon, Nicholas Vincent, Farhan Samir, Vered Shwartz",
+        "abstract": "With more than 11 times as many pageviews as the next largest edition, English Wikipedia dominates global knowledge access relative to other language editions. Readers are prone to assuming English Wikipedia as a superset of all language editions, leading many to prefer it even when their primary language is not English. Other language editions, however, comprise complementary facts rooted in their respective cultures and media environments, which are marginalized in English Wikipedia. While Wikipedia's user interface enables switching between language editions through its Interlanguage Link (ILL) system, it does not reveal to readers that other language editions contain valuable, complementary information. We present WikiGap, a system that surfaces complementary facts sourced from other Wikipedias within the English Wikipedia interface. Specifically, by combining a recent multilingual information-gap discovery method with a user-centered design, WikiGap enables access to complementary information from French, Russian, and Chinese Wikipedia. In a mixed-methods study (n=21), WikiGap significantly improved fact-finding accuracy, reduced task time, and received a 32-point higher usability score relative to Wikipedia's current ILL-based navigation system. Participants reported increased awareness of the availability of complementary information in non-English editions and reconsidered the completeness of English Wikipedia. WikiGap thus paves the way for improved epistemic equity across language editions.",
+        "timestamp": "2025-11-29T09:33:31.087Z",
+        "rating": "novote",
+        "publishedDate": "2025/05/30",
+        "tags": [
+          "Human-Computer Interaction (cs.HC)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 846,
+        "object_id": "paper:arxiv.2505.24195",
+        "created_at": "2025-11-29T09:33:31+00:00",
+        "updated_at": "2025-11-29T09:33:55+00:00",
         "version": 1
       }
     }

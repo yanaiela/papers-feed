@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-01T09:48:42.069696+00:00",
+  "snapshot_time": "2025-12-01T13:38:17.966826+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -28597,6 +28597,47 @@
         "object_id": "interactions:arxiv.2505.24195",
         "created_at": "2025-11-29T09:34:41+00:00",
         "updated_at": "2025-11-29T17:49:38+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2305.12524": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2305.12524",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 849,
+        "object_id": "interactions:arxiv.2305.12524",
+        "created_at": "2025-12-01T13:37:47+00:00",
+        "updated_at": "2025-12-01T13:37:50+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2305.12524": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2305.12524",
+        "url": "https://arxiv.org/abs/2305.12524",
+        "title": "TheoremQA: A Theorem-driven Question Answering dataset",
+        "authors": "Wenhu Chen, Ming Yin, Max Ku, Pan Lu, Yixin Wan, Xueguang Ma, Jianyu Xu, Xinyi Wang, Tony Xia",
+        "abstract": "The recent LLMs like GPT-4 and PaLM-2 have made tremendous progress in solving fundamental math problems like GSM8K by achieving over 90% accuracy. However, their capabilities to solve more challenging math problems which require domain-specific knowledge (i.e. theorem) have yet to be investigated. In this paper, we introduce TheoremQA, the first theorem-driven question-answering dataset designed to evaluate AI models' capabilities to apply theorems to solve challenging science problems. TheoremQA is curated by domain experts containing 800 high-quality questions covering 350 theorems (e.g. Taylor's theorem, Lagrange's theorem, Huffman coding, Quantum Theorem, Elasticity Theorem, etc) from Math, Physics, EE&CS, and Finance. We evaluate a wide spectrum of 16 large language and code models with different prompting strategies like Chain-of-Thoughts and Program-of-Thoughts. We found that GPT-4's capabilities to solve these problems are unparalleled, achieving an accuracy of 51% with Program-of-Thoughts Prompting. All the existing open-sourced models are below 15%, barely surpassing the random-guess baseline. Given the diversity and broad coverage of TheoremQA, we believe it can be used as a better benchmark to evaluate LLMs' capabilities to solve challenging science problems. The data and code are released in this https URL.",
+        "timestamp": "2025-12-01T13:37:24.503Z",
+        "rating": "novote",
+        "publishedDate": "2023/05/21",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 848,
+        "object_id": "paper:arxiv.2305.12524",
+        "created_at": "2025-12-01T13:37:25+00:00",
+        "updated_at": "2025-12-01T13:37:52+00:00",
         "version": 1
       }
     }

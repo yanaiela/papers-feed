@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-01T13:54:28.757577+00:00",
+  "snapshot_time": "2025-12-01T15:48:41.743687+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -28684,6 +28684,49 @@
         "object_id": "paper:arxiv.2305.12524",
         "created_at": "2025-12-01T13:37:25+00:00",
         "updated_at": "2025-12-01T13:37:52+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.CBnrMCbFgh": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "CBnrMCbFgh",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 851,
+        "object_id": "interactions:openreview.CBnrMCbFgh",
+        "created_at": "2025-12-01T15:47:55+00:00",
+        "updated_at": "2025-12-01T15:47:57+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.CBnrMCbFgh": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "CBnrMCbFgh",
+        "url": "https://openreview.net/forum?id=CBnrMCbFgh&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2026%2FWorkshop_Proposals%2FAuthors%23your-submissions)",
+        "title": "Model Forensics",
+        "authors": "Yanai Elazar, Matthew Finlayson, Alisa Liu, John Xavier Morris",
+        "abstract": "The rise of industrial-scale generative models and inference-as-a-service has reduced transparency around the entire life cycle of models, from data curation and training to alignment and inference. This loss of transparency has increased demand for tools and methods of extracting information about black-box language models in a post-hoc manner. In this workshop proposal, we introduce the term \"*model forensics*\" to refer to a wide range of methods that reveal information about different aspects of a model's lifecycle, such as training data, model architecture, training procedure, etc.",
+        "timestamp": "2025-12-01T15:47:47.717Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "model forensics",
+          "data reconstruction",
+          "watermarking",
+          "membership inference"
+        ],
+        "doi": "",
+        "journalName": "ICLR 2026 Workshop Proposals Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 850,
+        "object_id": "paper:openreview.CBnrMCbFgh",
+        "created_at": "2025-12-01T15:47:48+00:00",
+        "updated_at": "2025-12-01T15:48:10+00:00",
         "version": 1
       }
     }

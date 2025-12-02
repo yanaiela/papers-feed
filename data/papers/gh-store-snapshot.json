@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-02T14:52:32.747392+00:00",
+  "snapshot_time": "2025-12-02T15:00:23.926902+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -29241,6 +29241,44 @@
         "object_id": "interactions:arxiv.2502.17384",
         "created_at": "2025-12-02T14:26:21+00:00",
         "updated_at": "2025-12-02T14:26:23+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2509.24253": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.24253",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 857,
+        "object_id": "interactions:arxiv.2509.24253",
+        "created_at": "2025-12-02T14:59:54+00:00",
+        "updated_at": "2025-12-02T14:59:56+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2509.24253": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.24253",
+        "url": "https://arxiv.org/html/2509.24253v1",
+        "title": "MRAG-Suite: A Diagnostic Evaluation Platform for Visual Retrieval-Augmented Generation",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-12-02T14:59:35.981Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 856,
+        "object_id": "paper:arxiv.2509.24253",
+        "created_at": "2025-12-02T14:59:36+00:00",
+        "updated_at": "2025-12-02T14:59:56+00:00",
         "version": 1
       }
     }

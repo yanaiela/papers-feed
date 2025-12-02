@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-02T15:16:32.337963+00:00",
+  "snapshot_time": "2025-12-02T15:21:39.657690+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -11776,6 +11776,51 @@
               "idle_seconds": 2,
               "total_elapsed_seconds": 7
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-02T15:17:19.501Z",
+            "data": {
+              "session_id": "session_1764688638726_yqgqk9c",
+              "source_id": "openreview",
+              "paper_id": "RyEe7oZgz9",
+              "start_time": "2025-12-02T15:16:27.793Z",
+              "end_time": "2025-12-02T15:17:18.726Z",
+              "heartbeat_count": 10,
+              "duration_seconds": 50,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 51
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-02T15:19:25.753Z",
+            "data": {
+              "session_id": "session_1764688765010_0qfifrk",
+              "source_id": "openreview",
+              "paper_id": "RyEe7oZgz9",
+              "start_time": "2025-12-02T15:18:45.065Z",
+              "end_time": "2025-12-02T15:19:25.010Z",
+              "heartbeat_count": 7,
+              "duration_seconds": 35,
+              "idle_seconds": 5,
+              "total_elapsed_seconds": 40
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-02T15:20:28.916Z",
+            "data": {
+              "session_id": "session_1764688827894_2o5gucr",
+              "source_id": "openreview",
+              "paper_id": "RyEe7oZgz9",
+              "start_time": "2025-12-02T15:19:37.068Z",
+              "end_time": "2025-12-02T15:20:27.894Z",
+              "heartbeat_count": 10,
+              "duration_seconds": 50,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 51
+            }
           }
         ]
       },
@@ -11783,7 +11828,7 @@
         "issue_number": 374,
         "object_id": "interactions:openreview.RyEe7oZgz9",
         "created_at": "2025-10-18T07:07:47+00:00",
-        "updated_at": "2025-12-02T15:16:28+00:00",
+        "updated_at": "2025-12-02T15:21:11+00:00",
         "version": 1
       }
     },

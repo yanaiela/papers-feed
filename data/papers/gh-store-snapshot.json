@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-02T14:25:13.159011+00:00",
+  "snapshot_time": "2025-12-02T14:26:21.455347+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -29096,6 +29096,32 @@
         "object_id": "interactions:arxiv.2510.21652",
         "created_at": "2025-12-02T09:54:40+00:00",
         "updated_at": "2025-12-02T09:54:42+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2502.17384": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2502.17384",
+        "url": "https://arxiv.org/abs/2502.17384",
+        "title": "On Traceability in $\\ell_p$ Stochastic Convex Optimization",
+        "authors": "Sasha Voitovych, Mahdi Haghifam, Idan Attias, Gintare Karolina Dziugaite, Roi Livni, Daniel M. Roy",
+        "abstract": "In this paper, we investigate the necessity of traceability for accurate learning in stochastic convex optimization (SCO) under $\\ell_p$ geometries. Informally, we say a learning algorithm is $m$-traceable if, by analyzing its output, it is possible to identify at least $m$ of its training samples. Our main results uncover a fundamental tradeoff between traceability and excess risk in SCO. For every $p\\in [1,\\infty)$, we establish the existence of an excess risk threshold below which every sample-efficient learner is traceable with the number of samples which is a constant fraction of its training sample. For $p\\in [1,2]$, this threshold coincides with the best excess risk of differentially private (DP) algorithms, i.e., above this threshold, there exist algorithms that are not traceable, which corresponds to a sharp phase transition. For $p \\in (2,\\infty)$, this threshold instead gives novel lower bounds for DP learning, partially closing an open problem in this setup. En route to establishing these results, we prove a sparse variant of the fingerprinting lemma, which is of independent interest to the community.",
+        "timestamp": "2025-12-02T14:25:31.900Z",
+        "rating": "novote",
+        "publishedDate": "2025/02/24",
+        "tags": [
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 854,
+        "object_id": "paper:arxiv.2502.17384",
+        "created_at": "2025-12-02T14:25:32+00:00",
+        "updated_at": "2025-12-02T14:25:56+00:00",
         "version": 1
       }
     }

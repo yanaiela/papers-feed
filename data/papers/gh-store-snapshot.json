@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-04T17:43:58.055136+00:00",
+  "snapshot_time": "2025-12-04T17:46:09.216584+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -30899,6 +30899,60 @@
         "object_id": "paper:arxiv.2303.11156",
         "created_at": "2025-12-04T17:43:10+00:00",
         "updated_at": "2025-12-04T17:43:30+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.1YYpg9tdVb": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "1YYpg9tdVb",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-04T17:45:24.171Z",
+            "data": {
+              "session_id": "session_1764870324155_uxci5xn",
+              "source_id": "openreview",
+              "paper_id": "1YYpg9tdVb",
+              "start_time": "2025-12-04T17:45:18.824Z",
+              "end_time": "2025-12-04T17:45:24.155Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 5
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 894,
+        "object_id": "interactions:openreview.1YYpg9tdVb",
+        "created_at": "2025-12-04T17:45:17+00:00",
+        "updated_at": "2025-12-04T17:45:43+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.1YYpg9tdVb": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "1YYpg9tdVb",
+        "url": "https://openreview.net/forum?id=1YYpg9tdVb",
+        "title": "Can AI-Generated Text be Reliably Detected?",
+        "authors": "",
+        "abstract": "The rapid progress of Large Language Models (LLMs) has made them capable of performing astonishingly well on various tasks, including document completion and question answering. The unregulated use of these models, however, can potentially lead to malicious consequences such as plagiarism, generating fake news, spamming, etc. Therefore, reliable detection of AI-generated text can be critical to ensure the responsible use of LLMs. Recent works attempt to tackle this problem either using certain model signatures present in the generated text outputs or by applying watermarking techniques that imprint specific patterns onto them. In this paper, we show that these detectors are not reliable in several practical scenarios. In particular, we develop a recursive paraphrasing attack to apply on AI text, which can break a whole range of detectors, including the ones using the watermarking schemes as well as neural network-based detectors, zero-shot classifiers, and retrieval-based detectors. Our experiments include passages around 300 tokens in length, showing the sensitivity of the detectors even in the case of relatively long passages. We also observe that our recursive paraphrasing only degrades text quality slightly, measured via human studies, and metrics such as perplexity scores and accuracy on text benchmarks. Additionally, we show that even LLMs protected by watermarking schemes can be vulnerable against spoofing attacks aimed to mislead detectors to classify human-written text as AI-generated, potentially causing reputational damages to the developers. In particular, we show that an adversary can infer hidden AI text signatures of the LLM outputs without having white-box access to the detection method. Finally, we provide a theoretical connection between the AUROC of the best possible detector and the Total Variation distance between human and AI text distributions that can be used to study the fundamental hardness of the reliable detection problem for advanced language models.",
+        "timestamp": "2025-12-04T17:45:09.323Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "Rejected by TMLR",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 893,
+        "object_id": "paper:openreview.1YYpg9tdVb",
+        "created_at": "2025-12-04T17:45:09+00:00",
+        "updated_at": "2025-12-04T17:45:35+00:00",
         "version": 1
       }
     }

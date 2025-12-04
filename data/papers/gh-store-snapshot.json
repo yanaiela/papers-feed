@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-04T15:21:02.801665+00:00",
+  "snapshot_time": "2025-12-04T17:36:08.703786+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -30751,6 +30751,63 @@
         "object_id": "interactions:arxiv.2206.04266",
         "created_at": "2025-12-04T15:19:27+00:00",
         "updated_at": "2025-12-04T15:19:54+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2310.15264": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.15264",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-04T17:35:13.805Z",
+            "data": {
+              "session_id": "session_1764869713223_00n2ly1",
+              "source_id": "arxiv",
+              "paper_id": "2310.15264",
+              "start_time": "2025-12-04T17:35:07.028Z",
+              "end_time": "2025-12-04T17:35:13.223Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 887,
+        "object_id": "interactions:arxiv.2310.15264",
+        "created_at": "2025-12-04T17:35:14+00:00",
+        "updated_at": "2025-12-04T17:35:37+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2310.15264": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.15264",
+        "url": "https://arxiv.org/abs/2310.15264",
+        "title": "Towards Possibilities & Impossibilities of AI-generated Text Detection: A Survey",
+        "authors": "Soumya Suvra Ghosal, Souradip Chakraborty, Jonas Geiping, Furong Huang, Dinesh Manocha, Amrit Singh Bedi",
+        "abstract": "Large Language Models (LLMs) have revolutionized the domain of natural language processing (NLP) with remarkable capabilities of generating human-like text responses. However, despite these advancements, several works in the existing literature have raised serious concerns about the potential misuse of LLMs such as spreading misinformation, generating fake news, plagiarism in academia, and contaminating the web. To address these concerns, a consensus among the research community is to develop algorithmic solutions to detect AI-generated text. The basic idea is that whenever we can tell if the given text is either written by a human or an AI, we can utilize this information to address the above-mentioned concerns. To that end, a plethora of detection frameworks have been proposed, highlighting the possibilities of AI-generated text detection. But in parallel to the development of detection frameworks, researchers have also concentrated on designing strategies to elude detection, i.e., focusing on the impossibilities of AI-generated text detection. This is a crucial step in order to make sure the detection frameworks are robust enough and it is not too easy to fool a detector. Despite the huge interest and the flurry of research in this domain, the community currently lacks a comprehensive analysis of recent developments. In this survey, we aim to provide a concise categorization and overview of current work encompassing both the prospects and the limitations of AI-generated text detection. To enrich the collective knowledge, we engage in an exhaustive discussion on critical and challenging open questions related to ongoing research on AI-generated text detection.",
+        "timestamp": "2025-12-04T17:35:07.485Z",
+        "rating": "novote",
+        "publishedDate": "2023/10/23",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 886,
+        "object_id": "paper:arxiv.2310.15264",
+        "created_at": "2025-12-04T17:35:08+00:00",
+        "updated_at": "2025-12-04T17:35:29+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-04T10:37:41.733690+00:00",
+  "snapshot_time": "2025-12-04T10:39:04.005281+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -12115,6 +12115,21 @@
               "idle_seconds": 5,
               "total_elapsed_seconds": 235
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-04T10:37:58.183Z",
+            "data": {
+              "session_id": "session_1764844677606_dozmzs1",
+              "source_id": "openreview",
+              "paper_id": "8T5fcnGlP1",
+              "start_time": "2025-12-04T10:36:51.394Z",
+              "end_time": "2025-12-04T10:37:57.606Z",
+              "heartbeat_count": 13,
+              "duration_seconds": 65,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 66
+            }
           }
         ]
       },
@@ -12122,7 +12137,7 @@
         "issue_number": 377,
         "object_id": "interactions:openreview.8T5fcnGlP1",
         "created_at": "2025-10-18T07:10:26+00:00",
-        "updated_at": "2025-12-04T10:37:19+00:00",
+        "updated_at": "2025-12-04T10:38:27+00:00",
         "version": 1
       }
     },
@@ -30354,6 +30369,33 @@
         "object_id": "paper:arxiv.2505.15501",
         "created_at": "2025-12-04T09:34:53+00:00",
         "updated_at": "2025-12-04T09:35:15+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2512.03214": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2512.03214",
+        "url": "https://arxiv.org/abs/2512.03214",
+        "title": "Identifying attributions of causality in political text",
+        "authors": "Paulina Garcia-Corral",
+        "abstract": "Explanations are a fundamental element of how people make sense of the political world. Citizens routinely ask and answer questions about why events happen, who is responsible, and what could or should be done differently. Yet despite their importance, explanations remain an underdeveloped object of systematic analysis in political science, and existing approaches are fragmented and often issue-specific. I introduce a framework for detecting and parsing explanations in political text. To do this, I train a lightweight causal language model that returns a structured data set of causal claims in the form of cause-effect pairs for downstream analysis. I demonstrate how causal explanations can be studied at scale, and show the method's modest annotation requirements, generalizability, and accuracy relative to human coding.",
+        "timestamp": "2025-12-04T10:38:17.385Z",
+        "rating": "novote",
+        "publishedDate": "2025/12/02",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Computers and Society (cs.CY)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 875,
+        "object_id": "paper:arxiv.2512.03214",
+        "created_at": "2025-12-04T10:38:17+00:00",
+        "updated_at": "2025-12-04T10:38:37+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-04T14:39:57.795672+00:00",
+  "snapshot_time": "2025-12-04T15:19:41.961976+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -30614,6 +30614,46 @@
         "object_id": "paper:arxiv.2511.20849",
         "created_at": "2025-12-04T14:39:08+00:00",
         "updated_at": "2025-12-04T14:39:33+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2206.04266": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2206.04266",
+        "url": "https://arxiv.org/abs/2206.04266",
+        "title": "There is no Accuracy-Interpretability Tradeoff in Reinforcement Learning for Mazes",
+        "authors": "Yishay Mansour, Michal Moshkovitz, Cynthia Rudin",
+        "abstract": "Interpretability is an essential building block for trustworthiness in reinforcement learning systems. However, interpretability might come at the cost of deteriorated performance, leading many researchers to build complex models. Our goal is to analyze the cost of interpretability. We show that in certain cases, one can achieve policy interpretability while maintaining its optimality. We focus on a classical problem from reinforcement learning: mazes with $k$ obstacles in $\\mathbb{R}^d$. We prove the existence of a small decision tree with a linear function at each inner node and depth $O(\\log k + 2^d)$ that represents an optimal policy. Note that for the interesting case of a constant $d$, we have $O(\\log k)$ depth. Thus, in this setting, there is no accuracy-interpretability tradeoff. To prove this result, we use a new \"compressing\" technique that might be useful in additional settings.",
+        "timestamp": "2025-12-04T15:18:46.537Z",
+        "rating": "novote",
+        "publishedDate": "2022/06/09",
+        "tags": [
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 881,
+        "object_id": "paper:arxiv.2206.04266",
+        "created_at": "2025-12-04T15:18:46+00:00",
+        "updated_at": "2025-12-04T15:19:10+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2511.20849": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2511.20849",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 880,
+        "object_id": "interactions:arxiv.2511.20849",
+        "created_at": "2025-12-04T14:45:28+00:00",
+        "updated_at": "2025-12-04T14:45:30+00:00",
         "version": 1
       }
     }

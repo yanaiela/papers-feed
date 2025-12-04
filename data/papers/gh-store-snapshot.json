@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-04T15:19:41.961976+00:00",
+  "snapshot_time": "2025-12-04T15:21:02.801665+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -30654,6 +30654,103 @@
         "object_id": "interactions:arxiv.2511.20849",
         "created_at": "2025-12-04T14:45:28+00:00",
         "updated_at": "2025-12-04T14:45:30+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.1703.00729": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1703.00729",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 885,
+        "object_id": "interactions:arxiv.1703.00729",
+        "created_at": "2025-12-04T15:20:35+00:00",
+        "updated_at": "2025-12-04T15:20:38+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.1703.00729": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1703.00729",
+        "url": "https://arxiv.org/pdf/1703.00729",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-12-04T15:20:16.365Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 884,
+        "object_id": "paper:arxiv.1703.00729",
+        "created_at": "2025-12-04T15:20:16+00:00",
+        "updated_at": "2025-12-04T15:20:43+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2202.11593": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2202.11593",
+        "url": "https://arxiv.org/abs/2202.11593",
+        "title": "Finding Safe Zones of policies Markov Decision Processes",
+        "authors": "Lee Cohen, Yishay Mansour, Michal Moshkovitz",
+        "abstract": "Given a policy of a Markov Decision Process, we define a SafeZone as a subset of states, such that most of the policy's trajectories are confined to this subset. The quality of a SafeZone is parameterized by the number of states and the escape probability, i.e., the probability that a random trajectory will leave the subset. SafeZones are especially interesting when they have a small number of states and low escape probability. We study the complexity of finding optimal SafeZones, and show that in general, the problem is computationally hard. Our main result is a bi-criteria approximation learning algorithm with a factor of almost $2$ approximation for both the escape probability and SafeZone size, using a polynomial size sample complexity.",
+        "timestamp": "2025-12-04T15:19:40.185Z",
+        "rating": "novote",
+        "publishedDate": "2022/02/23",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)",
+          "Data Structures and Algorithms (cs.DS)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 883,
+        "object_id": "paper:arxiv.2202.11593",
+        "created_at": "2025-12-04T15:19:40+00:00",
+        "updated_at": "2025-12-04T15:20:04+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2206.04266": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2206.04266",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-04T15:19:26.695Z",
+            "data": {
+              "session_id": "session_1764861566632_w4y3kd3",
+              "source_id": "arxiv",
+              "paper_id": "2206.04266",
+              "start_time": "2025-12-04T15:18:51.325Z",
+              "end_time": "2025-12-04T15:19:26.632Z",
+              "heartbeat_count": 7,
+              "duration_seconds": 35,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 35
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 882,
+        "object_id": "interactions:arxiv.2206.04266",
+        "created_at": "2025-12-04T15:19:27+00:00",
+        "updated_at": "2025-12-04T15:19:54+00:00",
         "version": 1
       }
     }

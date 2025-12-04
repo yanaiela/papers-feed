@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-04T17:36:08.703786+00:00",
+  "snapshot_time": "2025-12-04T17:39:16.668815+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -30773,6 +30773,21 @@
               "idle_seconds": 1,
               "total_elapsed_seconds": 6
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-04T17:38:01.532Z",
+            "data": {
+              "session_id": "session_1764869879990_oz5xdht",
+              "source_id": "arxiv",
+              "paper_id": "2310.15264",
+              "start_time": "2025-12-04T17:35:20.266Z",
+              "end_time": "2025-12-04T17:37:59.990Z",
+              "heartbeat_count": 31,
+              "duration_seconds": 155,
+              "idle_seconds": 5,
+              "total_elapsed_seconds": 160
+            }
           }
         ]
       },
@@ -30780,7 +30795,7 @@
         "issue_number": 887,
         "object_id": "interactions:arxiv.2310.15264",
         "created_at": "2025-12-04T17:35:14+00:00",
-        "updated_at": "2025-12-04T17:35:37+00:00",
+        "updated_at": "2025-12-04T17:38:23+00:00",
         "version": 1
       }
     },
@@ -30808,6 +30823,44 @@
         "object_id": "paper:arxiv.2310.15264",
         "created_at": "2025-12-04T17:35:08+00:00",
         "updated_at": "2025-12-04T17:35:29+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2304.04736": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2304.04736",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 890,
+        "object_id": "interactions:arxiv.2304.04736",
+        "created_at": "2025-12-04T17:38:43+00:00",
+        "updated_at": "2025-12-04T17:38:45+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2304.04736": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2304.04736",
+        "url": "https://arxiv.org/pdf/2304.04736",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-12-04T17:38:14.479Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 888,
+        "object_id": "paper:arxiv.2304.04736",
+        "created_at": "2025-12-04T17:38:15+00:00",
+        "updated_at": "2025-12-04T17:38:42+00:00",
         "version": 1
       }
     }

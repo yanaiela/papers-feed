@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-05T09:52:28.610760+00:00",
+  "snapshot_time": "2025-12-05T10:10:14.150773+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -30861,13 +30861,29 @@
       "data": {
         "sourceId": "arxiv",
         "paperId": "2304.04736",
-        "interactions": []
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-05T10:09:28.354Z",
+            "data": {
+              "session_id": "session_1764929368337_90b5kum",
+              "source_id": "arxiv",
+              "paper_id": "2304.04736",
+              "start_time": "2025-12-05T10:09:13.136Z",
+              "end_time": "2025-12-05T10:09:28.337Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 15
+            }
+          }
+        ]
       },
       "meta": {
         "issue_number": 890,
         "object_id": "interactions:arxiv.2304.04736",
         "created_at": "2025-12-04T17:38:43+00:00",
-        "updated_at": "2025-12-04T17:38:45+00:00",
+        "updated_at": "2025-12-05T10:09:50+00:00",
         "version": 1
       }
     },
@@ -31058,6 +31074,47 @@
         "object_id": "paper:arxiv.2512.03771",
         "created_at": "2025-12-05T08:54:43+00:00",
         "updated_at": "2025-12-05T08:55:06+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2506.23517": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.23517",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 898,
+        "object_id": "interactions:arxiv.2506.23517",
+        "created_at": "2025-12-05T10:09:05+00:00",
+        "updated_at": "2025-12-05T10:09:08+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.23517": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.23517",
+        "url": "https://arxiv.org/abs/2506.23517",
+        "title": "Assessing GPTZero's Accuracy in Identifying AI vs. Human-Written Essays",
+        "authors": "Selin Dik, Osman Erdem, Mehmet Dik",
+        "abstract": "As the use of AI tools by students has become more prevalent, instructors have started using AI detection tools like GPTZero and QuillBot to detect AI written text. However, the reliability of these detectors remains uncertain. In our study, we focused mostly on the success rate of GPTZero, the most-used AI detector, in identifying AI-generated texts based on different lengths of randomly submitted essays: short (40-100 word count), medium (100-350 word count), and long (350-800 word count). We gathered a data set consisting of twenty-eight AI-generated papers and fifty human-written papers. With this randomized essay data, papers were individually plugged into GPTZero and measured for percentage of AI generation and confidence. A vast majority of the AI-generated papers were detected accurately (ranging from 91-100% AI believed generation), while the human generated essays fluctuated; there were a handful of false positives. These findings suggest that although GPTZero is effective at detecting purely AI-generated content, its reliability in distinguishing human-authored texts is limited. Educators should therefore exercise caution when relying solely on AI detection tools.",
+        "timestamp": "2025-12-05T10:08:52.454Z",
+        "rating": "novote",
+        "publishedDate": "2025/06/30",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 897,
+        "object_id": "paper:arxiv.2506.23517",
+        "created_at": "2025-12-05T10:08:52+00:00",
+        "updated_at": "2025-12-05T10:09:18+00:00",
         "version": 1
       }
     }

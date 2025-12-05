@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-05T08:49:36.681565+00:00",
+  "snapshot_time": "2025-12-05T08:56:04.523179+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -30984,6 +30984,65 @@
         "object_id": "paper:openreview.1YYpg9tdVb",
         "created_at": "2025-12-04T17:45:09+00:00",
         "updated_at": "2025-12-04T17:45:35+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2512.03771": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2512.03771",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-05T08:55:10.544Z",
+            "data": {
+              "session_id": "session_1764924910046_mb4tjda",
+              "source_id": "arxiv",
+              "paper_id": "2512.03771",
+              "start_time": "2025-12-05T08:54:45.054Z",
+              "end_time": "2025-12-05T08:55:10.046Z",
+              "heartbeat_count": 4,
+              "duration_seconds": 20,
+              "idle_seconds": 5,
+              "total_elapsed_seconds": 25
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 896,
+        "object_id": "interactions:arxiv.2512.03771",
+        "created_at": "2025-12-05T08:55:11+00:00",
+        "updated_at": "2025-12-05T08:55:43+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2512.03771": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2512.03771",
+        "url": "https://arxiv.org/abs/2512.03771",
+        "title": "In-Context Representation Hijacking",
+        "authors": "Itay Yona, Amir Sarid, Michael Karasik, Yossi Gandelsman",
+        "abstract": "We introduce Doublespeak\\textbf{Doublespeak}, a simple in-context representation hijacking attack against large language models (LLMs). The attack works by systematically replacing a harmful keyword (e.g., bomb) with a benign token (e.g., carrot) across multiple in-context examples, provided a prefix to a harmful request. We demonstrate that this substitution leads to the internal representation of the benign token converging toward that of the harmful one, effectively embedding the harmful semantics under a euphemism. As a result, superficially innocuous prompts (e.g., \"How to build a carrot?\") are internally interpreted as disallowed instructions (e.g., \"How to build a bomb?\"), thereby bypassing the model's safety alignment. We use interpretability tools to show that this semantic overwrite emerges layer by layer, with benign meanings in early layers converging into harmful semantics in later ones. Doublespeak is optimization-free, broadly transferable across model families, and achieves strong success rates on closed-source and open-source systems, reaching 74% ASR on Llama-3.3-70B-Instruct with a single-sentence context override. Our findings highlight a new attack surface in the latent space of LLMs, revealing that current alignment strategies are insufficient and should instead operate at the representation level.",
+        "timestamp": "2025-12-05T08:54:42.626Z",
+        "rating": "novote",
+        "publishedDate": "2025/12/03",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Cryptography and Security (cs.CR)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 895,
+        "object_id": "paper:arxiv.2512.03771",
+        "created_at": "2025-12-05T08:54:43+00:00",
+        "updated_at": "2025-12-05T08:55:06+00:00",
         "version": 1
       }
     }

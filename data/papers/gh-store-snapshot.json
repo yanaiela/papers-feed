@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-08T13:01:05.189011+00:00",
+  "snapshot_time": "2025-12-08T14:28:28.212926+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -31558,6 +31558,32 @@
         "object_id": "paper:arxiv.2506.18880",
         "created_at": "2025-12-05T15:36:04+00:00",
         "updated_at": "2025-12-05T15:36:29+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2511.09529": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2511.09529",
+        "url": "https://arxiv.org/abs/2511.09529",
+        "title": "SiDGen: Structure-informed Diffusion for Generative modeling of Ligands for Proteins",
+        "authors": "Samyak Sanghvi, Nishant Ranjan, Tarak Karmakar",
+        "abstract": "Designing ligands that are both chemically valid and structurally compatible with protein binding pockets is a key bottleneck in computational drug discovery. Existing approaches either ignore structural context or rely on expensive, memory-intensive encoding that limits throughput and scalability. We present SiDGen (Structure-informed Diffusion Generator), a protein-conditioned diffusion framework that integrates masked SMILES generation with lightweight folding-derived features for pocket awareness. To balance expressivity with efficiency, SiDGen supports two conditioning pathways: a streamlined mode that pools coarse structural signals from protein embeddings and a full mode that injects localized pairwise biases for stronger coupling. A coarse-stride folding mechanism with nearest-neighbor upsampling alleviates the quadratic memory costs of pair tensors, enabling training on realistic sequence lengths. Learning stability is maintained through in-loop chemical validity checks and an invalidity penalty, while large-scale training efficiency is restored \\textit{via} selective compilation, dataloader tuning, and gradient accumulation. In automated benchmarks, SiDGen generates ligands with high validity, uniqueness, and novelty, while achieving competitive performance in docking-based evaluations and maintaining reasonable molecular properties. These results demonstrate that SiDGen can deliver scalable, pocket-aware molecular design, providing a practical route to conditional generation for high-throughput drug discovery.",
+        "timestamp": "2025-12-08T14:27:36.381Z",
+        "rating": "novote",
+        "publishedDate": "2025/11/12",
+        "tags": [
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 906,
+        "object_id": "paper:arxiv.2511.09529",
+        "created_at": "2025-12-08T14:27:36+00:00",
+        "updated_at": "2025-12-08T14:27:58+00:00",
         "version": 1
       }
     }

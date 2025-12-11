@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-11T14:49:21.611750+00:00",
+  "snapshot_time": "2025-12-11T18:01:28.551353+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -31854,6 +31854,32 @@
         "object_id": "paper:arxiv.2512.08945",
         "created_at": "2025-12-11T06:59:27+00:00",
         "updated_at": "2025-12-11T06:59:50+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2403.12958": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2403.12958",
+        "url": "https://arxiv.org/abs/2403.12958",
+        "title": "Dated Data: Tracing Knowledge Cutoffs in Large Language Models",
+        "authors": "Jeffrey Cheng, Marc Marone, Orion Weller, Dawn Lawrie, Daniel Khashabi, Benjamin Van Durme",
+        "abstract": "Released Large Language Models (LLMs) are often paired with a claimed knowledge cutoff date, or the dates at which training data was gathered. Such information is crucial for applications where the LLM must provide up to date information. However, this statement only scratches the surface: do all resources in the training data share the same knowledge cutoff date? Does the model's demonstrated knowledge for these subsets closely align to their cutoff dates? In this work, we define the notion of an effective cutoff. This is distinct from the LLM designer reported cutoff and applies separately to sub-resources and topics. We propose a simple approach to estimate effective cutoffs on the resource-level temporal alignment of an LLM by probing across versions of the data. Using this analysis, we find that effective cutoffs often differ from reported cutoffs. To understand the root cause of this observation, we conduct a direct large-scale analysis on open pre-training datasets. Our analysis reveals two reasons for these inconsistencies: (1) temporal biases of CommonCrawl data due to non-trivial amounts of old data in new dumps and (2) complications in LLM deduplication schemes involving semantic duplicates and lexical near-duplicates. Overall, our results show that knowledge cutoffs are not as simple as they have seemed and that care must be taken both by LLM dataset curators as well as practitioners who seek to use information from these models.",
+        "timestamp": "2025-12-11T18:00:37.910Z",
+        "rating": "novote",
+        "publishedDate": "2024/03/19",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 913,
+        "object_id": "paper:arxiv.2403.12958",
+        "created_at": "2025-12-11T18:00:38+00:00",
+        "updated_at": "2025-12-11T18:00:58+00:00",
         "version": 1
       }
     }

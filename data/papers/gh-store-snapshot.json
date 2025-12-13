@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-13T08:57:52.689275+00:00",
+  "snapshot_time": "2025-12-13T09:03:38.520146+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -32108,6 +32108,35 @@
         "object_id": "interactions:arxiv.2512.09292",
         "created_at": "2025-12-11T20:51:14+00:00",
         "updated_at": "2025-12-11T20:51:39+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2310.16410": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.16410",
+        "url": "https://arxiv.org/abs/2310.16410",
+        "title": "Bridging the Human-AI Knowledge Gap: Concept Discovery and Transfer in AlphaZero",
+        "authors": "Lisa Schut, Nenad Tomasev, Tom McGrath, Demis Hassabis, Ulrich Paquet, Been Kim",
+        "abstract": "Artificial Intelligence (AI) systems have made remarkable progress, attaining super-human performance across various domains. This presents us with an opportunity to further human knowledge and improve human expert performance by leveraging the hidden knowledge encoded within these highly performant AI systems. Yet, this knowledge is often hard to extract, and may be hard to understand or learn from. Here, we show that this is possible by proposing a new method that allows us to extract new chess concepts in AlphaZero, an AI system that mastered the game of chess via self-play without human supervision. Our analysis indicates that AlphaZero may encode knowledge that extends beyond the existing human knowledge, but knowledge that is ultimately not beyond human grasp, and can be successfully learned from. In a human study, we show that these concepts are learnable by top human experts, as four top chess grandmasters show improvements in solving the presented concept prototype positions. This marks an important first milestone in advancing the frontier of human knowledge by leveraging AI; a development that could bear profound implications and help us shape how we interact with AI systems across many AI applications.",
+        "timestamp": "2025-12-13T09:02:58.329Z",
+        "rating": "novote",
+        "publishedDate": "2023/10/25",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Human-Computer Interaction (cs.HC)",
+          "Machine Learning (cs.LG)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 918,
+        "object_id": "paper:arxiv.2310.16410",
+        "created_at": "2025-12-13T09:02:58+00:00",
+        "updated_at": "2025-12-13T09:03:17+00:00",
         "version": 1
       }
     }

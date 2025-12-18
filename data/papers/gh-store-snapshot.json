@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-17T20:42:58.231969+00:00",
+  "snapshot_time": "2025-12-18T05:06:10.243859+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -32598,6 +32598,46 @@
         "object_id": "paper:arxiv.2304.13007",
         "created_at": "2025-12-17T20:41:40+00:00",
         "updated_at": "2025-12-17T20:42:09+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2512.07783": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2512.07783",
+        "url": "https://arxiv.org/abs/2512.07783",
+        "title": "On the Interplay of Pre-Training, Mid-Training, and RL on Reasoning Language Models",
+        "authors": "Charlie Zhang, Graham Neubig, Xiang Yue",
+        "abstract": "Recent reinforcement learning (RL) techniques have yielded impressive reasoning improvements in language models, yet it remains unclear whether post-training truly extends a model's reasoning ability beyond what it acquires during pre-training. A central challenge is the lack of control in modern training pipelines: large-scale pre-training corpora are opaque, mid-training is often underexamined, and RL objectives interact with unknown prior knowledge in complex ways. To resolve this ambiguity, we develop a fully controlled experimental framework that isolates the causal contributions of pre-training, mid-training, and RL-based post-training. Our approach employs synthetic reasoning tasks with explicit atomic operations, parseable step-by-step reasoning traces, and systematic manipulation of training distributions. We evaluate models along two axes: extrapolative generalization to more complex compositions and contextual generalization across surface contexts. Using this framework, we reconcile competing views on RL's effectiveness. We show that: 1) RL produces true capability gains (pass@128) only when pre-training leaves sufficient headroom and when RL data target the model's edge of competence, tasks at the boundary that are difficult but not yet out of reach. 2) Contextual generalization requires minimal yet sufficient pre-training exposure, after which RL can reliably transfer. 3) Mid-training significantly enhances performance under fixed compute compared with RL only, demonstrating its central but underexplored role in training pipelines. 4) Process-level rewards reduce reward hacking and improve reasoning fidelity. Together, these results clarify the interplay between pre-training, mid-training, and RL, offering a foundation for understanding and improving reasoning LM training strategies.",
+        "timestamp": "2025-12-18T05:05:16.726Z",
+        "rating": "novote",
+        "publishedDate": "2025/12/08",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 926,
+        "object_id": "paper:arxiv.2512.07783",
+        "created_at": "2025-12-18T05:05:17+00:00",
+        "updated_at": "2025-12-18T05:05:45+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2407.15711": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2407.15711",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 925,
+        "object_id": "interactions:arxiv.2407.15711",
+        "created_at": "2025-12-17T20:47:07+00:00",
+        "updated_at": "2025-12-17T20:47:09+00:00",
         "version": 1
       }
     }

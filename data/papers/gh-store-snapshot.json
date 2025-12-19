@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-19T07:53:07.928749+00:00",
+  "snapshot_time": "2025-12-19T07:53:51.060973+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -32855,23 +32855,28 @@
       "data": {
         "sourceId": "openreview",
         "paperId": "7lokVFMvIq",
-        "url": "https://openreview.net/pdf?id=7lokVFMvIq",
-        "title": "7lokVFMvIq",
-        "authors": "",
-        "abstract": "",
-        "timestamp": "2025-12-19T07:52:20.074Z",
+        "url": "https://openreview.net/forum?id=7lokVFMvIq",
+        "title": "Connections Between The Pre-Training Data To Model Representations",
+        "authors": "Omer Ben Shahar, Guy Kaplan, Roy Schwartz",
+        "abstract": "Large Language Models perform a wide range of NLP tasks with high success rates. But their inner workings remain opaque. Interpreting how models produce outputs from inputs is a major challenge in modern NLP. One difficulty in interpreting models is that for SOTA models often, pretraining data remains unreleased or vaguely described. Making it difficult to reason about what they know or how pre-training data shapes their internal representations. \n\nMost transformer LLMs today use Byte-Pair Encoding (BPE) or similar subword tokenizers. While these allow efficient processing of diverse text, they also obscure the relationship between model units and \u201ctrue\u201d words. Tokenizer vocabularies, defined before training, may split words in surprising ways and do not necessarily align with meaningful lexical units or their frequencies in pre-training data.\nThe capabilities of the models to work with such fragmented data raised a hypothesis that some layers of the model use the attention mechanism to build meaningful representations. This process is called detokenization. \n\nEmerging evidence suggests that models use this particular process for words, testing fragmentation of single-token words and even building representations for multi-token words \\cite{feucht-etal-2024-token}\\cite{kaplan2025from}. Yet, the mechanisms by which this inner lexicon forms, and especially their dependence on pre-training data statistics, are not well understood. Do statistics in the pre-training data affect which word gets represented and which does not?  \n\nIn this work, we bridge that gap. We empirically show that the pre-training data not only seeds but also strongly shapes the model\u2019s inner lexicon. By patching residual activations in OLMo and Pythia models, we systematically measure when word-level representations emerge for multi-token words.\n\nAs illustrated in Figure \\ref{fig:olmo-prob}, the relationship between a word's frequency in pre-training data and its probability of inclusion in the model's inner lexicon has a clear sigmoidal-like shape. This reveals two critical thresholds: a lower bound beneath which words fail to achieve representation, and an upper saturation point beyond which additional frequency provides diminishing returns\n.\n\\begin{figure}\n        \\centering\n        \\includegraphics[width=1\\linewidth]{olmo-prob.png}\n        \\caption{the probability of a word being included in the inner lexicon by log frequency,  OLMo-7B in orange, OLMO2-7B in blue}\n        \\label{fig:olmo-prob}\n\\end{figure}\n\nIn addition, we examine the number of layers it takes to detokenize words, and the number of layers this representation is coherent, and find that these are also directly linked to pre-training data word appearances. This suggests that the pre-training data not just influence it is in the inner lexicon but also the speed and robustness of representation.\n\nWe find a tight, quantitative link: the more often a word appears in the pre-training data, the more likely it is to be represented in the inner lexicon. \n\nOur analysis further shows that pre-training data word counts can be predicted from patching analysis data. \n\nOur results provide new evidence connecting the opaque \u201cguts\u201d of LLMs with the concrete, measurable properties of their training data. We hope this enables more robust interpretability tools and yields insight into the true impact of massive, mostly unseen datasets on model behavior.",
+        "timestamp": "2025-12-19T07:53:01.838Z",
         "rating": "novote",
         "publishedDate": "",
-        "tags": [],
+        "tags": [
+          "LLMs",
+          "Interpretability",
+          "Detokenization",
+          "Pre-training Data Statistics"
+        ],
         "doi": "",
-        "journalName": "",
-        "sourceType": "pdf"
+        "journalName": "ISCOL 2025 Seminar Submission",
+        "sourceType": "url"
       },
       "meta": {
-        "issue_number": 934,
+        "issue_number": 935,
         "object_id": "paper:openreview.7lokVFMvIq",
-        "created_at": "2025-12-19T07:52:20+00:00",
-        "updated_at": "2025-12-19T07:52:42+00:00",
+        "created_at": "2025-12-19T07:53:02+00:00",
+        "updated_at": "2025-12-19T07:53:23+00:00",
         "version": 1
       }
     }

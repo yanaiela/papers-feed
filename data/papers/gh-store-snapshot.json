@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-20T06:24:16.416384+00:00",
+  "snapshot_time": "2025-12-20T06:25:44.441479+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -33142,6 +33142,21 @@
               "idle_seconds": 1,
               "total_elapsed_seconds": 11
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-20T06:24:37.755Z",
+            "data": {
+              "session_id": "session_1766211877236_s7yuxgi",
+              "source_id": "arxiv",
+              "paper_id": "2310.06452",
+              "start_time": "2025-12-20T06:23:46.492Z",
+              "end_time": "2025-12-20T06:24:37.236Z",
+              "heartbeat_count": 10,
+              "duration_seconds": 50,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 51
+            }
           }
         ]
       },
@@ -33149,7 +33164,7 @@
         "issue_number": 941,
         "object_id": "interactions:arxiv.2310.06452",
         "created_at": "2025-12-20T06:16:14+00:00",
-        "updated_at": "2025-12-20T06:23:55+00:00",
+        "updated_at": "2025-12-20T06:24:58+00:00",
         "version": 1
       }
     },
@@ -33340,6 +33355,120 @@
         "object_id": "paper:arxiv.2410.09300",
         "created_at": "2025-12-20T06:22:24+00:00",
         "updated_at": "2025-12-20T06:22:43+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.8sKcAWOf2D": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "8sKcAWOf2D",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-20T06:24:55.814Z",
+            "data": {
+              "session_id": "session_1766211895303_sdyxydd",
+              "source_id": "openreview",
+              "paper_id": "8sKcAWOf2D",
+              "start_time": "2025-12-20T06:24:46.524Z",
+              "end_time": "2025-12-20T06:24:55.303Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 9
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 950,
+        "object_id": "interactions:openreview.8sKcAWOf2D",
+        "created_at": "2025-12-20T06:24:56+00:00",
+        "updated_at": "2025-12-20T06:25:15+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.8sKcAWOf2D": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "8sKcAWOf2D",
+        "url": "https://openreview.net/forum?id=8sKcAWOf2D",
+        "title": "Fine-Tuning Enhances Existing Mechanisms: A Case Study on Entity Tracking",
+        "authors": "Nikhil Prakash, Tamar Rott Shaham, Tal Haklay, Yonatan Belinkov, David Bau",
+        "abstract": "Fine-tuning on generalized tasks such as instruction following, code generation, and mathematics has been shown to enhance language models' performance on a range of tasks. Nevertheless, explanations of how such fine-tuning influences the internal computations in these models remain elusive. We study how fine-tuning affects the internal mechanisms implemented in language models. As a case study, we explore the property of entity tracking, a crucial facet of language comprehension, where models fine-tuned on mathematics have substantial performance gains. We identify a mechanism that enables entity tracking and show that (i) both the original model and its fine-tuned version implement entity tracking with the same circuit. In fact, the entity tracking circuit of the fine-tuned version performs better than the full original model. (ii) The circuits of all the models implement roughly the same functionality, that is entity tracking is performed by tracking the position of the correct entity in both the original model and its fine-tuned version. (iii) Performance boost in the fine-tuned model is primarily attributed to its improved ability to handle positional information. To uncover these findings, we employ two methods: DCM, which automatically detects model components responsible for specific semantics, and CMAP, a new approach for patching activations across models to reveal improved mechanisms. Our findings suggest that fine-tuning enhances, rather than fundamentally alters, the mechanistic operation of the model.",
+        "timestamp": "2025-12-20T06:24:46.780Z",
+        "rating": "novote",
+        "publishedDate": "16 Jan 2024",
+        "tags": [
+          "Mechanistic Interpretability",
+          "Fine-Tuning",
+          "Entity Tracking",
+          "Mechanisms"
+        ],
+        "doi": "",
+        "journalName": "ICLR 2024 poster",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 949,
+        "object_id": "paper:openreview.8sKcAWOf2D",
+        "created_at": "2025-12-20T06:24:47+00:00",
+        "updated_at": "2025-12-20T06:25:06+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2504.02904": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.02904",
+        "url": "https://arxiv.org/abs/2504.02904",
+        "title": "How Post-Training Reshapes LLMs: A Mechanistic View on Knowledge, Truthfulness, Refusal, and Confidence",
+        "authors": "Hongzhe Du, Weikai Li, Min Cai, Karim Saraipour, Zimin Zhang, Himabindu Lakkaraju, Yizhou Sun, Shichang Zhang",
+        "abstract": "Post-training is essential for the success of large language models (LLMs), transforming pre-trained base models into more useful and aligned post-trained models. While plenty of works have studied post-training algorithms and evaluated post-training models by their outputs, it remains understudied how post-training reshapes LLMs internally. In this paper, we compare base and post-trained LLMs mechanistically from four perspectives to better understand post-training effects. Our findings across model families and datasets reveal that: (1) Post-training does not change the factual knowledge storage locations, and it adapts knowledge representations from the base model while developing new knowledge representations; (2) Both truthfulness and refusal can be represented by vectors in the hidden representation space. The truthfulness direction is highly similar between the base and post-trained model, and it is effectively transferable for interventions; (3) The refusal direction is different between the base and post-trained models, and it shows limited forward transferability; (4) Differences in confidence between the base and post-trained models cannot be attributed to entropy neurons. Our study provides insights into the fundamental mechanisms preserved and altered during post-training, facilitates downstream tasks like model steering, and could potentially benefit future research in interpretability and LLM post-training. Our code is publicly available at this https URL.",
+        "timestamp": "2025-12-20T06:24:40.644Z",
+        "rating": "novote",
+        "publishedDate": "2025/04/03",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 948,
+        "object_id": "paper:arxiv.2504.02904",
+        "created_at": "2025-12-20T06:24:41+00:00",
+        "updated_at": "2025-12-20T06:25:04+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2408.06663": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2408.06663",
+        "url": "https://arxiv.org/abs/2408.06663",
+        "title": "Amuro and Char: Analyzing the Relationship between Pre-Training and Fine-Tuning of Large Language Models",
+        "authors": "Kaiser Sun, Mark Dredze",
+        "abstract": "The development of large language models leads to the formation of a pre-train-then-align paradigm, in which the model is typically pre-trained on a large text corpus and undergoes a tuning stage to align the model with human preference or downstream tasks. In this work, we investigate the relationship between pre-training and fine-tuning by fine-tuning multiple intermediate pre-trained model checkpoints. Our results on 18 datasets suggest that i) continual pre-training improves the model in a latent way that unveils after fine-tuning; ii) with extra fine-tuning, the datasets that the model does not demonstrate capability gain much more than those that the model performs well during the pre-training stage; iii) although model benefits significantly through supervised fine-tuning, it may forget previously known domain knowledge and the tasks that are not seen during fine-tuning; iv) the model resembles high sensitivity to evaluation prompts after supervised fine-tuning, but this sensitivity can be alleviated by more pre-training.",
+        "timestamp": "2025-12-20T06:24:37.675Z",
+        "rating": "novote",
+        "publishedDate": "2024/08/13",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 947,
+        "object_id": "paper:arxiv.2408.06663",
+        "created_at": "2025-12-20T06:24:38+00:00",
+        "updated_at": "2025-12-20T06:25:00+00:00",
         "version": 1
       }
     }

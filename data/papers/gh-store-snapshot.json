@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-20T06:25:44.441479+00:00",
+  "snapshot_time": "2025-12-20T06:28:36.900850+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -33157,6 +33157,36 @@
               "idle_seconds": 1,
               "total_elapsed_seconds": 51
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-20T06:25:55.368Z",
+            "data": {
+              "session_id": "session_1766211955354_f6x9biu",
+              "source_id": "arxiv",
+              "paper_id": "2310.06452",
+              "start_time": "2025-12-20T06:25:39.432Z",
+              "end_time": "2025-12-20T06:25:55.354Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 16
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-20T06:27:00.104Z",
+            "data": {
+              "session_id": "session_1766212020085_5a7udle",
+              "source_id": "arxiv",
+              "paper_id": "2310.06452",
+              "start_time": "2025-12-20T06:26:49.487Z",
+              "end_time": "2025-12-20T06:27:00.085Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 11
+            }
           }
         ]
       },
@@ -33164,7 +33194,7 @@
         "issue_number": 941,
         "object_id": "interactions:arxiv.2310.06452",
         "created_at": "2025-12-20T06:16:14+00:00",
-        "updated_at": "2025-12-20T06:24:58+00:00",
+        "updated_at": "2025-12-20T06:27:21+00:00",
         "version": 1
       }
     },
@@ -33377,6 +33407,36 @@
               "idle_seconds": 4,
               "total_elapsed_seconds": 9
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-20T06:26:21.366Z",
+            "data": {
+              "session_id": "session_1766211981353_0hls6pr",
+              "source_id": "openreview",
+              "paper_id": "8sKcAWOf2D",
+              "start_time": "2025-12-20T06:26:15.453Z",
+              "end_time": "2025-12-20T06:26:21.353Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-20T06:27:27.010Z",
+            "data": {
+              "session_id": "session_1766212047004_d2sloeu",
+              "source_id": "openreview",
+              "paper_id": "8sKcAWOf2D",
+              "start_time": "2025-12-20T06:27:17.657Z",
+              "end_time": "2025-12-20T06:27:27.004Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 9
+            }
           }
         ]
       },
@@ -33384,7 +33444,7 @@
         "issue_number": 950,
         "object_id": "interactions:openreview.8sKcAWOf2D",
         "created_at": "2025-12-20T06:24:56+00:00",
-        "updated_at": "2025-12-20T06:25:15+00:00",
+        "updated_at": "2025-12-20T06:27:44+00:00",
         "version": 1
       }
     },
@@ -33469,6 +33529,107 @@
         "object_id": "paper:arxiv.2408.06663",
         "created_at": "2025-12-20T06:24:38+00:00",
         "updated_at": "2025-12-20T06:25:00+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2402.14811": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2402.14811",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 954,
+        "object_id": "interactions:arxiv.2402.14811",
+        "created_at": "2025-12-20T06:27:43+00:00",
+        "updated_at": "2025-12-20T06:27:44+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2402.14811": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2402.14811",
+        "url": "https://arxiv.org/abs/2402.14811",
+        "title": "Fine-Tuning Enhances Existing Mechanisms: A Case Study on Entity Tracking",
+        "authors": "Nikhil Prakash, Tamar Rott Shaham, Tal Haklay, Yonatan Belinkov, David Bau",
+        "abstract": "Fine-tuning on generalized tasks such as instruction following, code generation, and mathematics has been shown to enhance language models' performance on a range of tasks. Nevertheless, explanations of how such fine-tuning influences the internal computations in these models remain elusive. We study how fine-tuning affects the internal mechanisms implemented in language models. As a case study, we explore the property of entity tracking, a crucial facet of language comprehension, where models fine-tuned on mathematics have substantial performance gains. We identify the mechanism that enables entity tracking and show that (i) in both the original model and its fine-tuned versions primarily the same circuit implements entity tracking. In fact, the entity tracking circuit of the original model on the fine-tuned versions performs better than the full original model. (ii) The circuits of all the models implement roughly the same functionality: Entity tracking is performed by tracking the position of the correct entity in both the original model and its fine-tuned versions. (iii) Performance boost in the fine-tuned models is primarily attributed to its improved ability to handle the augmented positional information. To uncover these findings, we employ: Patch Patching, DCM, which automatically detects model components responsible for specific semantics, and CMAP, a new approach for patching activations across models to reveal improved mechanisms. Our findings suggest that fine-tuning enhances, rather than fundamentally alters, the mechanistic operation of the model.",
+        "timestamp": "2025-12-20T06:27:32.713Z",
+        "rating": "novote",
+        "publishedDate": "2024/02/22",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 953,
+        "object_id": "paper:arxiv.2402.14811",
+        "created_at": "2025-12-20T06:27:33+00:00",
+        "updated_at": "2025-12-20T06:27:53+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2408.06663": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2408.06663",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-20T06:26:42.221Z",
+            "data": {
+              "session_id": "session_1766212001942_r1hpmpj",
+              "source_id": "arxiv",
+              "paper_id": "2408.06663",
+              "start_time": "2025-12-20T06:26:34.019Z",
+              "end_time": "2025-12-20T06:26:41.942Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 952,
+        "object_id": "interactions:arxiv.2408.06663",
+        "created_at": "2025-12-20T06:26:42+00:00",
+        "updated_at": "2025-12-20T06:27:04+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2504.02904": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.02904",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-20T06:26:32.219Z",
+            "data": {
+              "session_id": "session_1766211992202_r5odzjn",
+              "source_id": "arxiv",
+              "paper_id": "2504.02904",
+              "start_time": "2025-12-20T06:26:24.184Z",
+              "end_time": "2025-12-20T06:26:32.202Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 951,
+        "object_id": "interactions:arxiv.2504.02904",
+        "created_at": "2025-12-20T06:26:32+00:00",
+        "updated_at": "2025-12-20T06:26:56+00:00",
         "version": 1
       }
     }

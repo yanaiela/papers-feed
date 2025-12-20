@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-20T06:19:53.293767+00:00",
+  "snapshot_time": "2025-12-20T06:24:16.416384+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -5124,6 +5124,21 @@
               "idle_seconds": 2,
               "total_elapsed_seconds": 12
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-20T06:23:18.574Z",
+            "data": {
+              "session_id": "session_1766211798528_hymnj2c",
+              "source_id": "arxiv",
+              "paper_id": "2410.04265",
+              "start_time": "2025-12-20T06:23:07.447Z",
+              "end_time": "2025-12-20T06:23:18.528Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 11
+            }
           }
         ]
       },
@@ -5131,7 +5146,7 @@
         "issue_number": 155,
         "object_id": "interactions:arxiv.2410.04265",
         "created_at": "2025-07-03T21:01:41+00:00",
-        "updated_at": "2025-10-20T17:07:43+00:00",
+        "updated_at": "2025-12-20T06:23:42+00:00",
         "version": 1
       }
     },
@@ -5259,6 +5274,21 @@
               "idle_seconds": 2,
               "total_elapsed_seconds": 7
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-20T06:22:15.656Z",
+            "data": {
+              "session_id": "session_1766211735139_0o2t300",
+              "source_id": "arxiv",
+              "paper_id": "2312.01552",
+              "start_time": "2025-12-20T06:19:08.333Z",
+              "end_time": "2025-12-20T06:22:15.139Z",
+              "heartbeat_count": 37,
+              "duration_seconds": 185,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 187
+            }
           }
         ]
       },
@@ -5266,7 +5296,7 @@
         "issue_number": 157,
         "object_id": "interactions:arxiv.2312.01552",
         "created_at": "2025-07-03T21:15:21+00:00",
-        "updated_at": "2025-12-20T06:19:28+00:00",
+        "updated_at": "2025-12-20T06:22:40+00:00",
         "version": 1
       }
     },
@@ -33097,6 +33127,21 @@
               "idle_seconds": 1,
               "total_elapsed_seconds": 6
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-20T06:23:30.547Z",
+            "data": {
+              "session_id": "session_1766211810524_rcz5kbp",
+              "source_id": "arxiv",
+              "paper_id": "2310.06452",
+              "start_time": "2025-12-20T06:23:19.363Z",
+              "end_time": "2025-12-20T06:23:30.524Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 11
+            }
           }
         ]
       },
@@ -33104,7 +33149,7 @@
         "issue_number": 941,
         "object_id": "interactions:arxiv.2310.06452",
         "created_at": "2025-12-20T06:16:14+00:00",
-        "updated_at": "2025-12-20T06:16:36+00:00",
+        "updated_at": "2025-12-20T06:23:55+00:00",
         "version": 1
       }
     },
@@ -33213,6 +33258,88 @@
         "object_id": "paper:arxiv.2308.01263",
         "created_at": "2025-12-20T06:18:40+00:00",
         "updated_at": "2025-12-20T06:18:59+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2504.09389": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.09389",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-20T06:22:50.700Z",
+            "data": {
+              "session_id": "session_1766211769957_gc12l75",
+              "source_id": "arxiv",
+              "paper_id": "2504.09389",
+              "start_time": "2025-12-20T06:22:35.003Z",
+              "end_time": "2025-12-20T06:22:49.957Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 5,
+              "total_elapsed_seconds": 15
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 946,
+        "object_id": "interactions:arxiv.2504.09389",
+        "created_at": "2025-12-20T06:22:51+00:00",
+        "updated_at": "2025-12-20T06:23:12+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2504.09389": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.09389",
+        "url": "https://arxiv.org/pdf/2504.09389",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-12-20T06:22:35.300Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 945,
+        "object_id": "paper:arxiv.2504.09389",
+        "created_at": "2025-12-20T06:22:35+00:00",
+        "updated_at": "2025-12-20T06:22:55+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2410.09300": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2410.09300",
+        "url": "https://arxiv.org/abs/2410.09300",
+        "title": "Nudging: Inference-time Alignment of LLMs via Guided Decoding",
+        "authors": "Yu Fei, Yasaman Razeghi, Sameer Singh",
+        "abstract": "Large language models (LLMs) require alignment to effectively and safely follow user instructions. This process necessitates training an aligned version for every base model, resulting in significant computational overhead. In this work, we propose NUDGING, a simple, training-free algorithm that aligns any base model at inference time using a small aligned model. NUDGING is motivated by recent findings that alignment primarily alters the model's behavior on a small subset of stylistic tokens (e.g., discourse markers). We find that base models are significantly more uncertain when generating these tokens. Building on this insight, NUDGING employs a small aligned model to generate nudging tokens to guide the base model's output during decoding when the base model's uncertainty is high, with only a minor additional inference overhead. We evaluate NUDGING across 3 model families on a diverse range of open-instruction tasks. Without any training, nudging a large base model with a 7x-14x smaller aligned model achieves zero-shot performance comparable to, and sometimes surpassing, that of large aligned models. By operating at the token level, NUDGING enables off-the-shelf collaboration between model families. For instance, nudging Gemma-2-27b with Llama-27b-chat outperforms Llama-2-70b-chat on various tasks. Overall, our work offers a modular and cost-efficient solution to LLM alignment. Our code and demo are available at: this https URL .",
+        "timestamp": "2025-12-20T06:22:24.456Z",
+        "rating": "novote",
+        "publishedDate": "2024/10/11",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 944,
+        "object_id": "paper:arxiv.2410.09300",
+        "created_at": "2025-12-20T06:22:24+00:00",
+        "updated_at": "2025-12-20T06:22:43+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-20T12:45:30.498056+00:00",
+  "snapshot_time": "2025-12-20T12:48:54.223046+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -21990,6 +21990,21 @@
               "idle_seconds": 1,
               "total_elapsed_seconds": 51
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-20T12:48:05.273Z",
+            "data": {
+              "session_id": "session_1766234885229_xon4oio",
+              "source_id": "arxiv",
+              "paper_id": "2510.03154",
+              "start_time": "2025-12-20T12:47:48.409Z",
+              "end_time": "2025-12-20T12:48:05.229Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 17
+            }
           }
         ]
       },
@@ -21997,7 +22012,7 @@
         "issue_number": 609,
         "object_id": "interactions:arxiv.2510.03154",
         "created_at": "2025-11-03T20:08:11+00:00",
-        "updated_at": "2025-12-20T12:43:59+00:00",
+        "updated_at": "2025-12-20T12:48:54+00:00",
         "version": 1
       }
     },
@@ -34243,6 +34258,32 @@
         "object_id": "paper:arxiv.2509.15350",
         "created_at": "2025-12-20T12:42:13+00:00",
         "updated_at": "2025-12-20T12:42:34+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2310.08903": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.08903",
+        "url": "https://arxiv.org/abs/2310.08903",
+        "title": "SeqXGPT: Sentence-Level AI-Generated Text Detection",
+        "authors": "Pengyu Wang, Linyang Li, Ke Ren, Botian Jiang, Dong Zhang, Xipeng Qiu",
+        "abstract": "Widely applied large language models (LLMs) can generate human-like content, raising concerns about the abuse of LLMs. Therefore, it is important to build strong AI-generated text (AIGT) detectors. Current works only consider document-level AIGT detection, therefore, in this paper, we first introduce a sentence-level detection challenge by synthesizing a dataset that contains documents that are polished with LLMs, that is, the documents contain sentences written by humans and sentences modified by LLMs. Then we propose \\textbf{Seq}uence \\textbf{X} (Check) \\textbf{GPT}, a novel method that utilizes log probability lists from white-box LLMs as features for sentence-level AIGT detection. These features are composed like \\textit{waves} in speech processing and cannot be studied by LLMs. Therefore, we build SeqXGPT based on convolution and self-attention networks. We test it in both sentence and document-level detection challenges. Experimental results show that previous methods struggle in solving sentence-level AIGT detection, while our method not only significantly surpasses baseline methods in both sentence and document-level detection challenges but also exhibits strong generalization capabilities.",
+        "timestamp": "2025-12-20T12:48:12.833Z",
+        "rating": "novote",
+        "publishedDate": "2023/10/13",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 978,
+        "object_id": "paper:arxiv.2310.08903",
+        "created_at": "2025-12-20T12:48:13+00:00",
+        "updated_at": "2025-12-20T12:48:31+00:00",
         "version": 1
       }
     }

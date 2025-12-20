@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-20T09:50:43.412629+00:00",
+  "snapshot_time": "2025-12-20T09:59:16.888643+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -33993,6 +33993,21 @@
               "idle_seconds": 4,
               "total_elapsed_seconds": 29
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-20T09:57:49.647Z",
+            "data": {
+              "session_id": "session_1766224669344_u9kt5km",
+              "source_id": "arxiv",
+              "paper_id": "2504.08066",
+              "start_time": "2025-12-20T09:57:43.071Z",
+              "end_time": "2025-12-20T09:57:49.344Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
           }
         ]
       },
@@ -34000,7 +34015,7 @@
         "issue_number": 971,
         "object_id": "interactions:arxiv.2504.08066",
         "created_at": "2025-12-20T09:49:23+00:00",
-        "updated_at": "2025-12-20T09:50:20+00:00",
+        "updated_at": "2025-12-20T09:58:10+00:00",
         "version": 1
       }
     },
@@ -34055,6 +34070,63 @@
         "object_id": "interactions:arxiv.2408.06292",
         "created_at": "2025-12-20T09:48:19+00:00",
         "updated_at": "2025-12-20T09:49:16+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2506.19923": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.19923",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-20T09:58:30.039Z",
+            "data": {
+              "session_id": "session_1766224709993_icf4m8g",
+              "source_id": "arxiv",
+              "paper_id": "2506.19923",
+              "start_time": "2025-12-20T09:58:20.741Z",
+              "end_time": "2025-12-20T09:58:29.993Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 9
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 974,
+        "object_id": "interactions:arxiv.2506.19923",
+        "created_at": "2025-12-20T09:58:30+00:00",
+        "updated_at": "2025-12-20T09:58:53+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.19923": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.19923",
+        "url": "https://arxiv.org/abs/2506.19923",
+        "title": "Prover Agent: An Agent-Based Framework for Formal Mathematical Proofs",
+        "authors": "Kaito Baba, Chaoran Liu, Shuhei Kurita, Akiyoshi Sannai",
+        "abstract": "We present Prover Agent, a novel AI agent for automated theorem proving that integrates large language models (LLMs) with a formal proof assistant, Lean. Prover Agent coordinates an informal reasoning LLM, a formal prover model, and feedback from Lean while also generating auxiliary lemmas. These auxiliary lemmas are not limited to subgoals in the formal proof but can also include special cases or potentially useful facts derived from the assumptions, which help in discovering a viable proof strategy. It achieves an 88.1% success rate on the MiniF2F benchmark, establishing a new state-of-the-art among methods using small language models (SLMs) with a much lower sample budget than previous approaches. We also present theoretical analyses and case studies that illustrate how these generated lemmas contribute to solving challenging problems. Our code is publicly available at: this https URL.",
+        "timestamp": "2025-12-20T09:58:18.089Z",
+        "rating": "novote",
+        "publishedDate": "2025/06/24",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 972,
+        "object_id": "paper:arxiv.2506.19923",
+        "created_at": "2025-12-20T09:58:18+00:00",
+        "updated_at": "2025-12-20T09:58:41+00:00",
         "version": 1
       }
     }

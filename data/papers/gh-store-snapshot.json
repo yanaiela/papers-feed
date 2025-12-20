@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-20T12:48:54.223046+00:00",
+  "snapshot_time": "2025-12-20T12:50:02.532075+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -21993,17 +21993,17 @@
           },
           {
             "type": "reading_session",
-            "timestamp": "2025-12-20T12:48:05.273Z",
+            "timestamp": "2025-12-20T12:48:53.031Z",
             "data": {
-              "session_id": "session_1766234885229_xon4oio",
+              "session_id": "session_1766234932698_ooaashp",
               "source_id": "arxiv",
               "paper_id": "2510.03154",
-              "start_time": "2025-12-20T12:47:48.409Z",
-              "end_time": "2025-12-20T12:48:05.229Z",
-              "heartbeat_count": 3,
-              "duration_seconds": 15,
+              "start_time": "2025-12-20T12:48:45.636Z",
+              "end_time": "2025-12-20T12:48:52.698Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
               "idle_seconds": 2,
-              "total_elapsed_seconds": 17
+              "total_elapsed_seconds": 7
             }
           }
         ]
@@ -22012,7 +22012,7 @@
         "issue_number": 609,
         "object_id": "interactions:arxiv.2510.03154",
         "created_at": "2025-11-03T20:08:11+00:00",
-        "updated_at": "2025-12-20T12:48:54+00:00",
+        "updated_at": "2025-12-20T12:49:14+00:00",
         "version": 1
       }
     },
@@ -34284,6 +34284,36 @@
         "object_id": "paper:arxiv.2310.08903",
         "created_at": "2025-12-20T12:48:13+00:00",
         "updated_at": "2025-12-20T12:48:31+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2310.08903": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.08903",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-20T12:48:43.398Z",
+            "data": {
+              "session_id": "session_1766234923384_5q1fbia",
+              "source_id": "arxiv",
+              "paper_id": "2310.08903",
+              "start_time": "2025-12-20T12:48:23.349Z",
+              "end_time": "2025-12-20T12:48:43.384Z",
+              "heartbeat_count": 4,
+              "duration_seconds": 20,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 20
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 979,
+        "object_id": "interactions:arxiv.2310.08903",
+        "created_at": "2025-12-20T12:48:44+00:00",
+        "updated_at": "2025-12-20T12:49:04+00:00",
         "version": 1
       }
     }

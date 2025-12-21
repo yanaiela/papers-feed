@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-21T06:38:56.710628+00:00",
+  "snapshot_time": "2025-12-21T06:39:48.799736+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -34367,6 +34367,84 @@
         "object_id": "paper:openreview.0OGW9xhZBZ",
         "created_at": "2025-12-21T06:38:11+00:00",
         "updated_at": "2025-12-21T06:38:33+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.9UV5tMl1Cn": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "9UV5tMl1Cn",
+        "url": "https://openreview.net/forum?id=9UV5tMl1Cn&noteId=9UV5tMl1Cn&invitationId=aclweb.org/ACL/ARR/2026/January/Area_Chairs/-/Metareview_License_Agreement&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2FARR%2F2026%2FJanuary%2FArea_Chairs%23area-chair-tasks)",
+        "title": "Area Chair Association for Computational Linguistics - Meta-reviewer Content License Agreement",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-12-21T06:39:01.450Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "ACL ARR 2026 January Area Chairs Metareview License Agreement Form",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 984,
+        "object_id": "paper:openreview.9UV5tMl1Cn",
+        "created_at": "2025-12-21T06:39:01+00:00",
+        "updated_at": "2025-12-21T06:39:22+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.bVn35uBDjp": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "bVn35uBDjp",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-21T06:38:58.653Z",
+            "data": {
+              "session_id": "session_1766299138140_d8zvcrl",
+              "source_id": "openreview",
+              "paper_id": "bVn35uBDjp",
+              "start_time": "2025-12-21T06:38:47.670Z",
+              "end_time": "2025-12-21T06:38:58.140Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 10
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 983,
+        "object_id": "interactions:openreview.bVn35uBDjp",
+        "created_at": "2025-12-21T06:38:59+00:00",
+        "updated_at": "2025-12-21T06:39:23+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.bVn35uBDjp": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "bVn35uBDjp",
+        "url": "https://openreview.net/forum?id=bVn35uBDjp&noteId=bVn35uBDjp&invitationId=aclweb.org/ACL/ARR/2026/January/Area_Chairs/-/Recognition_Request&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2FARR%2F2026%2FJanuary%2FArea_Chairs%23area-chair-tasks)",
+        "title": "Area Chair Requesting a Letter of Recognition",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-12-21T06:38:47.959Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "ACL ARR 2026 January Area Chairs Recognition Request Form",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 982,
+        "object_id": "paper:openreview.bVn35uBDjp",
+        "created_at": "2025-12-21T06:38:48+00:00",
+        "updated_at": "2025-12-21T06:39:11+00:00",
         "version": 1
       }
     }

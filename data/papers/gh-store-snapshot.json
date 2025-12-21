@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-20T14:59:11.131149+00:00",
+  "snapshot_time": "2025-12-21T06:38:56.710628+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -34329,6 +34329,44 @@
         "object_id": "interactions:arxiv.2310.08903",
         "created_at": "2025-12-20T12:48:44+00:00",
         "updated_at": "2025-12-20T12:49:04+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.0OGW9xhZBZ": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "0OGW9xhZBZ",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 981,
+        "object_id": "interactions:openreview.0OGW9xhZBZ",
+        "created_at": "2025-12-21T06:38:45+00:00",
+        "updated_at": "2025-12-21T06:38:47+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.0OGW9xhZBZ": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "0OGW9xhZBZ",
+        "url": "https://openreview.net/forum?id=0OGW9xhZBZ&noteId=0OGW9xhZBZ&invitationId=aclweb.org/ACL/ARR/2026/January/Area_Chairs/-/Max_Load_And_Unavailability_Request&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2FARR%2F2026%2FJanuary%2FArea_Chairs%23area-chair-tasks)",
+        "title": "Area Chair Unavailability and Maximum Load Request",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-12-21T06:38:11.457Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "ACL ARR 2026 January Area Chairs Max Load And Unavailability Request Form",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 980,
+        "object_id": "paper:openreview.0OGW9xhZBZ",
+        "created_at": "2025-12-21T06:38:11+00:00",
+        "updated_at": "2025-12-21T06:38:33+00:00",
         "version": 1
       }
     }

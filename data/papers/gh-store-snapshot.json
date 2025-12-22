@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-22T14:39:07.766430+00:00",
+  "snapshot_time": "2025-12-22T15:02:47.824318+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -34536,6 +34536,84 @@
         "object_id": "interactions:openreview.9UV5tMl1Cn",
         "created_at": "2025-12-21T06:40:14+00:00",
         "updated_at": "2025-12-21T06:40:36+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2504.13837": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.13837",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-22T15:01:59.762Z",
+            "data": {
+              "session_id": "session_1766415719753_qpplp98",
+              "source_id": "arxiv",
+              "paper_id": "2504.13837",
+              "start_time": "2025-12-22T15:01:43.648Z",
+              "end_time": "2025-12-22T15:01:59.753Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 16
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 988,
+        "object_id": "interactions:arxiv.2504.13837",
+        "created_at": "2025-12-22T15:01:36+00:00",
+        "updated_at": "2025-12-22T15:02:21+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2504.13837": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.13837",
+        "url": "https://arxiv.org/pdf/2504.13837",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-12-22T15:01:13.357Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 987,
+        "object_id": "paper:arxiv.2504.13837",
+        "created_at": "2025-12-22T15:01:13+00:00",
+        "updated_at": "2025-12-22T15:01:33+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.04723": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.04723",
+        "url": "https://arxiv.org/html/2506.04723v2",
+        "title": "Beyond Accuracy: Dissecting Mathematical Reasoning for LLMs Under Reinforcement Learning",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2025-12-22T15:01:00.078Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 986,
+        "object_id": "paper:arxiv.2506.04723",
+        "created_at": "2025-12-22T15:01:00+00:00",
+        "updated_at": "2025-12-22T15:01:21+00:00",
         "version": 1
       }
     }

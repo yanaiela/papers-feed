@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-24T20:03:54.464875+00:00",
+  "snapshot_time": "2025-12-24T20:09:29.410213+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -34871,6 +34871,62 @@
         "object_id": "interactions:arxiv.2510.04162",
         "created_at": "2025-12-24T20:03:06+00:00",
         "updated_at": "2025-12-24T20:03:28+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2507.01234": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2507.01234",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-24T20:08:44.290Z",
+            "data": {
+              "session_id": "session_1766606923800_p75ukju",
+              "source_id": "arxiv",
+              "paper_id": "2507.01234",
+              "start_time": "2025-12-24T20:08:29.701Z",
+              "end_time": "2025-12-24T20:08:43.799Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 14
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 997,
+        "object_id": "interactions:arxiv.2507.01234",
+        "created_at": "2025-12-24T20:08:44+00:00",
+        "updated_at": "2025-12-24T20:09:06+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2507.01234": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2507.01234",
+        "url": "https://arxiv.org/abs/2507.01234",
+        "title": "The Medium Is Not the Message: Deconfounding Document Embeddings via Linear Concept Erasure",
+        "authors": "Yu Fan, Yang Tian, Shauli Ravfogel, Mrinmaya Sachan, Elliott Ash, Alexander Hoyle",
+        "abstract": "Embedding-based similarity metrics between text sequences can be influenced not just by the content dimensions we most care about, but can also be biased by spurious attributes like the text's source or language. These document confounders cause problems for many applications, but especially those that need to pool texts from different corpora. This paper shows that a debiasing algorithm that removes information about observed confounders from the encoder representations substantially reduces these biases at a minimal computational cost. Document similarity and clustering metrics improve across every embedding variant and task we evaluate -- often dramatically. Interestingly, performance on out-of-distribution benchmarks is not impacted, indicating that the embeddings are not otherwise degraded.",
+        "timestamp": "2025-12-24T20:08:29.988Z",
+        "rating": "novote",
+        "publishedDate": "2025/07/01",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 996,
+        "object_id": "paper:arxiv.2507.01234",
+        "created_at": "2025-12-24T20:08:30+00:00",
+        "updated_at": "2025-12-24T20:08:53+00:00",
         "version": 1
       }
     }

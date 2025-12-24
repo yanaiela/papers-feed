@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-24T20:01:52.539789+00:00",
+  "snapshot_time": "2025-12-24T20:03:13.739398+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -34813,6 +34813,34 @@
         "object_id": "paper:arxiv.2402.04333",
         "created_at": "2025-12-24T13:13:37+00:00",
         "updated_at": "2025-12-24T13:13:58+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.04162": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.04162",
+        "url": "https://arxiv.org/abs/2510.04162",
+        "title": "Drax: Speech Recognition with Discrete Flow Matching",
+        "authors": "Aviv Navon, Aviv Shamsian, Neta Glazer, Yael Segal-Feldman, Gill Hetz, Joseph Keshet, Ethan Fetaya",
+        "abstract": "Diffusion and flow-based non-autoregressive (NAR) models have shown strong promise in large language modeling, however, their potential for automatic speech recognition (ASR) remains largely unexplored. We propose Drax, a discrete flow matching framework for ASR that enables efficient parallel decoding. To better align training with inference, we construct an audio-conditioned probability path that guides the model through trajectories resembling likely intermediate inference errors, rather than direct random noise to target transitions. Our theoretical analysis links the generalization gap to divergences between training and inference occupancies, controlled by cumulative velocity errors, thereby motivating our design choice. Empirical evaluation demonstrates that our approach attains recognition accuracy on par with state-of-the-art speech models while offering improved accuracy-efficiency trade-offs, highlighting discrete flow matching as a promising direction for advancing NAR ASR.",
+        "timestamp": "2025-12-24T20:02:24.603Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/05",
+        "tags": [
+          "Audio and Speech Processing (eess.AS)",
+          "Machine Learning (cs.LG)",
+          "Sound (cs.SD)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 994,
+        "object_id": "paper:arxiv.2510.04162",
+        "created_at": "2025-12-24T20:02:25+00:00",
+        "updated_at": "2025-12-24T20:02:47+00:00",
         "version": 1
       }
     }

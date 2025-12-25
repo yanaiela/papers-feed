@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-25T14:27:32.444789+00:00",
+  "snapshot_time": "2025-12-25T15:05:07.025690+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -35041,6 +35041,63 @@
         "object_id": "interactions:arxiv.2406.12775",
         "created_at": "2025-12-25T09:56:14+00:00",
         "updated_at": "2025-12-25T13:24:02+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2309.12356": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2309.12356",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-25T15:04:38.433Z",
+            "data": {
+              "session_id": "session_1766675078391_5s7n2xt",
+              "source_id": "arxiv",
+              "paper_id": "2309.12356",
+              "start_time": "2025-12-25T15:04:23.676Z",
+              "end_time": "2025-12-25T15:04:38.391Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 5,
+              "total_elapsed_seconds": 15
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1001,
+        "object_id": "interactions:arxiv.2309.12356",
+        "created_at": "2025-12-25T15:04:24+00:00",
+        "updated_at": "2025-12-25T15:04:42+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2309.12356": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2309.12356",
+        "url": "https://arxiv.org/abs/2309.12356",
+        "title": "A Critical Examination of the Ethics of AI-Mediated Peer Review",
+        "authors": "Laurie A. Schintler, Connie L. McNeely, James Witte",
+        "abstract": "Recent advancements in artificial intelligence (AI) systems, including large language models like ChatGPT, offer promise and peril for scholarly peer review. On the one hand, AI can enhance efficiency by addressing issues like long publication delays. On the other hand, it brings ethical and social concerns that could compromise the integrity of the peer review process and outcomes. However, human peer review systems are also fraught with related problems, such as biases, abuses, and a lack of transparency, which already diminish credibility. While there is increasing attention to the use of AI in peer review, discussions revolve mainly around plagiarism and authorship in academic journal publishing, ignoring the broader epistemic, social, cultural, and societal epistemic in which peer review is positioned. The legitimacy of AI-driven peer review hinges on the alignment with the scientific ethos, encompassing moral and epistemic norms that define appropriate conduct in the scholarly community. In this regard, there is a \"norm-counternorm continuum,\" where the acceptability of AI in peer review is shaped by institutional logics, ethical practices, and internal regulatory mechanisms. The discussion here emphasizes the need to critically assess the legitimacy of AI-driven peer review, addressing the benefits and downsides relative to the broader epistemic, social, ethical, and regulatory factors that sculpt its implementation and impact.",
+        "timestamp": "2025-12-25T15:04:10.069Z",
+        "rating": "novote",
+        "publishedDate": "2023/09/02",
+        "tags": [
+          "Computers and Society (cs.CY)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1000,
+        "object_id": "paper:arxiv.2309.12356",
+        "created_at": "2025-12-25T15:04:10+00:00",
+        "updated_at": "2025-12-25T15:04:30+00:00",
         "version": 1
       }
     }

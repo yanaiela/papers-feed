@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2025-12-27T08:58:40.527446+00:00",
+  "snapshot_time": "2025-12-27T09:22:19.763468+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -35356,6 +35356,64 @@
         "object_id": "paper:arxiv.2412.07727",
         "created_at": "2025-12-27T08:57:37+00:00",
         "updated_at": "2025-12-27T08:57:56+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2511.15080": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2511.15080",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2025-12-27T09:21:32.651Z",
+            "data": {
+              "session_id": "session_1766827292361_d8w1jhr",
+              "source_id": "arxiv",
+              "paper_id": "2511.15080",
+              "start_time": "2025-12-27T09:20:59.558Z",
+              "end_time": "2025-12-27T09:21:32.361Z",
+              "heartbeat_count": 6,
+              "duration_seconds": 30,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 33
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1015,
+        "object_id": "interactions:arxiv.2511.15080",
+        "created_at": "2025-12-27T09:21:33+00:00",
+        "updated_at": "2025-12-27T09:21:57+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2510.17882": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.17882",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1014,
+        "object_id": "interactions:arxiv.2510.17882",
+        "created_at": "2025-12-27T09:05:40+00:00",
+        "updated_at": "2025-12-27T09:05:42+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2412.07727": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2412.07727",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1013,
+        "object_id": "interactions:arxiv.2412.07727",
+        "created_at": "2025-12-27T09:01:24+00:00",
+        "updated_at": "2025-12-27T09:01:25+00:00",
         "version": 1
       }
     }

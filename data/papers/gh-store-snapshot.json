@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-01T07:10:00.251942+00:00",
+  "snapshot_time": "2026-01-01T08:01:54.651842+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -36321,6 +36321,65 @@
         "object_id": "interactions:arxiv.2411.05025",
         "created_at": "2026-01-01T07:09:13+00:00",
         "updated_at": "2026-01-01T07:09:35+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.p0BwJk3R1p": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "p0BwJk3R1p",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-01T08:01:19.894Z",
+            "data": {
+              "session_id": "session_1767254479887_mhgtzp8",
+              "source_id": "openreview",
+              "paper_id": "p0BwJk3R1p",
+              "start_time": "2026-01-01T08:01:08.260Z",
+              "end_time": "2026-01-01T08:01:19.887Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 12
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1025,
+        "object_id": "interactions:openreview.p0BwJk3R1p",
+        "created_at": "2026-01-01T08:01:08+00:00",
+        "updated_at": "2026-01-01T08:01:32+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.p0BwJk3R1p": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "p0BwJk3R1p",
+        "url": "https://openreview.net/forum?id=p0BwJk3R1p",
+        "title": "LLMs as Research Tools: A Large Scale Survey of Researchers\u2019 Usage and Perceptions",
+        "authors": "Zhehui Liao, Maria Antoniak, Inyoung Cheong, Evie Yu-Yen Cheng, Ai-Heng Lee, Kyle Lo, Joseph Chee Chang, Amy X Zhang",
+        "abstract": "The rise of large language models (LLMs) has led many researchers to consider their usage for scientific work. Some have found benefits using LLMs to augment or automate aspects of their research pipeline, while others have urged caution due to risks and ethical concerns. Yet little work has sought to quantify and characterize how researchers actually use LLMs and why or why not. We present the first large-scale survey of 816 verified research article authors to understand how the research community leverages and perceives LLMs as research tools. We examine participants' self-reported LLM usage, finding that 81% of researchers have already incorporated LLMs into aspects of their research workflow. We also find that some traditionally disadvantaged groups in academia (non-white, junior, and non-native English speaking researchers) report higher LLM usage and perceived benefits, suggesting potential for improved research equity. However, women, non-binary, and senior researchers have greater ethical concerns. Our study provides much-needed evidence, rather than speculation, about how LLMs are currently being used as research tools.",
+        "timestamp": "2026-01-01T08:00:56.846Z",
+        "rating": "novote",
+        "publishedDate": "08 Jul 2025",
+        "tags": [
+          "survey",
+          "large language model",
+          "research",
+          "societal impact"
+        ],
+        "doi": "",
+        "journalName": "COLM 2025",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1023,
+        "object_id": "paper:openreview.p0BwJk3R1p",
+        "created_at": "2026-01-01T08:00:57+00:00",
+        "updated_at": "2026-01-01T08:01:19+00:00",
         "version": 1
       }
     }

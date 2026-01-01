@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-01T09:03:29.674459+00:00",
+  "snapshot_time": "2026-01-01T15:00:33.711250+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -36418,6 +36418,60 @@
         "object_id": "paper:arxiv.2503.02589",
         "created_at": "2026-01-01T09:02:44+00:00",
         "updated_at": "2026-01-01T09:03:06+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2307.06483": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2307.06483",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-01T14:59:41.679Z",
+            "data": {
+              "session_id": "session_1767279581039_tf5v2wg",
+              "source_id": "arxiv",
+              "paper_id": "2307.06483",
+              "start_time": "2026-01-01T14:59:35.131Z",
+              "end_time": "2026-01-01T14:59:41.039Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1032,
+        "object_id": "interactions:arxiv.2307.06483",
+        "created_at": "2026-01-01T14:59:42+00:00",
+        "updated_at": "2026-01-01T15:00:06+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2307.06483": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2307.06483",
+        "url": "https://arxiv.org/html/2307.06483v2",
+        "title": "Misclassification in Automated Content Analysis Causes Bias in Regression. Can We Fix It? Yes We Can!",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-01-01T14:59:35.431Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1028,
+        "object_id": "paper:arxiv.2307.06483",
+        "created_at": "2026-01-01T14:59:35+00:00",
+        "updated_at": "2026-01-01T14:59:59+00:00",
         "version": 1
       }
     }

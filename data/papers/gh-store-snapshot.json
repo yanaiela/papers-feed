@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-04T11:08:28.605700+00:00",
+  "snapshot_time": "2026-01-04T11:25:32.179650+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -36670,6 +36670,47 @@
         "object_id": "interactions:openreview.q8T06elUdQ",
         "created_at": "2026-01-04T08:00:24+00:00",
         "updated_at": "2026-01-04T11:08:00+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2512.24601": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2512.24601",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1038,
+        "object_id": "interactions:arxiv.2512.24601",
+        "created_at": "2026-01-04T11:25:04+00:00",
+        "updated_at": "2026-01-04T11:25:06+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2512.24601": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2512.24601",
+        "url": "https://arxiv.org/abs/2512.24601v1",
+        "title": "Recursive Language Models",
+        "authors": "Alex L. Zhang, Tim Kraska, Omar Khattab",
+        "abstract": "We study allowing large language models (LLMs) to process arbitrarily long prompts through the lens of inference-time scaling. We propose Recursive Language Models (RLMs), a general inference strategy that treats long prompts as part of an external environment and allows the LLM to programmatically examine, decompose, and recursively call itself over snippets of the prompt. We find that RLMs successfully handle inputs up to two orders of magnitude beyond model context windows and, even for shorter prompts, dramatically outperform the quality of base LLMs and common long-context scaffolds across four diverse long-context tasks, while having comparable (or cheaper) cost per query.",
+        "timestamp": "2026-01-04T11:24:45.391Z",
+        "rating": "novote",
+        "publishedDate": "2025/12/31",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1037,
+        "object_id": "paper:arxiv.2512.24601",
+        "created_at": "2026-01-04T11:24:45+00:00",
+        "updated_at": "2026-01-04T11:25:07+00:00",
         "version": 1
       }
     }

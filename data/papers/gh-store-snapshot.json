@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-05T22:40:44.056866+00:00",
+  "snapshot_time": "2026-01-06T06:04:17.340293+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -37057,6 +37057,67 @@
         "object_id": "paper:arxiv.2505.08069",
         "created_at": "2026-01-05T22:39:56+00:00",
         "updated_at": "2026-01-05T22:40:20+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.5mppwSYOM0": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "5mppwSYOM0",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-06T06:03:26.246Z",
+            "data": {
+              "session_id": "session_1767679405622_rykiv6r",
+              "source_id": "openreview",
+              "paper_id": "5mppwSYOM0",
+              "start_time": "2026-01-06T06:03:10.915Z",
+              "end_time": "2026-01-06T06:03:25.622Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 5,
+              "total_elapsed_seconds": 15
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1052,
+        "object_id": "interactions:openreview.5mppwSYOM0",
+        "created_at": "2026-01-06T06:03:27+00:00",
+        "updated_at": "2026-01-06T06:03:49+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.5mppwSYOM0": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "5mppwSYOM0",
+        "url": "https://openreview.net/forum?id=5mppwSYOM0&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2FARR%2F2026%2FJanuary%2FAuthors%23your-submissions)",
+        "title": "Comparing AI-Generated Content in Review vs. Non-Review ArXiv Papers",
+        "authors": "Yanai Elazar, Maria Antoniak",
+        "abstract": "ArXiv recently prohibited the upload of unpublished opinion and survey papers to its servers in the computer science domain, citing a high prevalence of LLM-generated content in these categories. However, this decision was not accompanied by quantitative evidence. In this work, we investigate this claim by measuring the proportion of LLM-generated content in opinion and survey papers compared to regular research papers in recent years.\nUsing two high-quality detection methods, we find a substantial increase in LLM-generated content across both review and non-review papers in recent years, with a higher prevalence in review papers. However, when considering the number of papers published in each category, together with the estimates of LLM-generated papers, the estimates of non-review LLM-generated papers prevail substantially, questioning the reasoning behind the decision.\nWe provide an evidence-based framework for evaluating such policy decisions and release our code to facilitate future investigations.",
+        "timestamp": "2026-01-06T06:03:11.400Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "science-of-science",
+          "arxiv",
+          "llm-generated-papers",
+          "ai-slop",
+          "review-papers",
+          "ai-papers"
+        ],
+        "doi": "",
+        "journalName": "ACL ARR 2026 January Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1051,
+        "object_id": "paper:openreview.5mppwSYOM0",
+        "created_at": "2026-01-06T06:03:11+00:00",
+        "updated_at": "2026-01-06T06:03:32+00:00",
         "version": 1
       }
     }

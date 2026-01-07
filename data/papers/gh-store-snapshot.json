@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-07T08:59:25.376250+00:00",
+  "snapshot_time": "2026-01-07T09:02:13.447201+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -37293,6 +37293,32 @@
         "object_id": "interactions:arxiv.1808.06640",
         "created_at": "2026-01-07T08:58:29+00:00",
         "updated_at": "2026-01-07T08:58:50+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2502.18282": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2502.18282",
+        "url": "https://arxiv.org/abs/2502.18282",
+        "title": "Better Aligned with Survey Respondents or Training Data? Unveiling Political Leanings of LLMs on U.S. Supreme Court Cases",
+        "authors": "Shanshan Xu, T.Y.S.S Santosh, Yanai Elazar, Quirin Vogel, Barbara Plank, Matthias Grabmair",
+        "abstract": "Recent works have shown that Large Language Models (LLMs) have a tendency to memorize patterns and biases present in their training data, raising important questions about how such memorized content influences model behavior. One such concern is the emergence of political bias in LLM outputs. In this paper, we investigate the extent to which LLMs' political leanings reflect memorized patterns from their pretraining corpora. We propose a method to quantitatively evaluate political leanings embedded in the large pretraining corpora. Subsequently we investigate to whom are the LLMs' political leanings more aligned with, their pretrainig corpora or the surveyed human opinions. As a case study, we focus on probing the political leanings of LLMs in 32 US Supreme Court cases, addressing contentious topics such as abortion and voting rights. Our findings reveal that LLMs strongly reflect the political leanings in their training data, and no strong correlation is observed with their alignment to human opinions as expressed in surveys. These results underscore the importance of responsible curation of training data, and the methodology for auditing the memorization in LLMs to ensure human-AI alignment.",
+        "timestamp": "2026-01-07T09:01:19.314Z",
+        "rating": "novote",
+        "publishedDate": "2025/02/25",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1058,
+        "object_id": "paper:arxiv.2502.18282",
+        "created_at": "2026-01-07T09:01:19+00:00",
+        "updated_at": "2026-01-07T09:01:40+00:00",
         "version": 1
       }
     }

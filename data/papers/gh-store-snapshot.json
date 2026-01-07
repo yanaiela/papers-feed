@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-06T11:57:53.562400+00:00",
+  "snapshot_time": "2026-01-07T08:57:09.695678+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -37208,6 +37208,34 @@
         "object_id": "paper:openreview.5mppwSYOM0",
         "created_at": "2026-01-06T06:03:11+00:00",
         "updated_at": "2026-01-06T06:03:32+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.1808.06640": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1808.06640",
+        "url": "https://arxiv.org/abs/1808.06640",
+        "title": "Adversarial Removal of Demographic Attributes from Text Data",
+        "authors": "Yanai Elazar, Yoav Goldberg",
+        "abstract": "Recent advances in Representation Learning and Adversarial Training seem to succeed in removing unwanted features from the learned representation. We show that demographic information of authors is encoded in -- and can be recovered from -- the intermediate representations learned by text-based neural classifiers. The implication is that decisions of classifiers trained on textual data are not agnostic to -- and likely condition on -- demographic attributes. When attempting to remove such demographic information using adversarial training, we find that while the adversarial component achieves chance-level development-set accuracy during training, a post-hoc classifier, trained on the encoded sentences from the first part, still manages to reach substantially higher classification accuracies on the same data. This behavior is consistent across several tasks, demographic properties and datasets. We explore several techniques to improve the effectiveness of the adversarial component. Our main conclusion is a cautionary one: do not rely on the adversarial training to achieve invariant representation to sensitive features.",
+        "timestamp": "2026-01-07T08:56:22.817Z",
+        "rating": "novote",
+        "publishedDate": "2018/08/20",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1053,
+        "object_id": "paper:arxiv.1808.06640",
+        "created_at": "2026-01-07T08:56:23+00:00",
+        "updated_at": "2026-01-07T08:56:46+00:00",
         "version": 1
       }
     }

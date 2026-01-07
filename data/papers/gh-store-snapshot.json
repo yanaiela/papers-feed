@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-07T09:29:33.162960+00:00",
+  "snapshot_time": "2026-01-07T10:04:00.706778+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -37408,6 +37408,33 @@
         "object_id": "interactions:arxiv.2004.07667",
         "created_at": "2026-01-07T09:28:49+00:00",
         "updated_at": "2026-01-07T09:28:51+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2001.08361": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2001.08361",
+        "url": "https://arxiv.org/abs/2001.08361",
+        "title": "Scaling Laws for Neural Language Models",
+        "authors": "Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B. Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, Dario Amodei",
+        "abstract": "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the amount of compute used for training, with some trends spanning more than seven orders of magnitude. Other architectural details such as network width or depth have minimal effects within a wide range. Simple equations govern the dependence of overfitting on model/dataset size and the dependence of training speed on model size. These relationships allow us to determine the optimal allocation of a fixed compute budget. Larger models are significantly more sample-efficient, such that optimally compute-efficient training involves training very large models on a relatively modest amount of data and stopping significantly before convergence.",
+        "timestamp": "2026-01-07T10:03:16.896Z",
+        "rating": "novote",
+        "publishedDate": "2020/01/23",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1060,
+        "object_id": "paper:arxiv.2001.08361",
+        "created_at": "2026-01-07T10:03:17+00:00",
+        "updated_at": "2026-01-07T10:03:37+00:00",
         "version": 1
       }
     }

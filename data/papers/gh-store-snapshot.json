@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-07T08:57:09.695678+00:00",
+  "snapshot_time": "2026-01-07T08:59:25.376250+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -37236,6 +37236,63 @@
         "object_id": "paper:arxiv.1808.06640",
         "created_at": "2026-01-07T08:56:23+00:00",
         "updated_at": "2026-01-07T08:56:46+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2004.07667": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2004.07667",
+        "url": "https://arxiv.org/abs/2004.07667",
+        "title": "Null It Out: Guarding Protected Attributes by Iterative Nullspace Projection",
+        "authors": "Shauli Ravfogel, Yanai Elazar, Hila Gonen, Michael Twiton, Yoav Goldberg",
+        "abstract": "The ability to control for the kinds of information encoded in neural representation has a variety of use cases, especially in light of the challenge of interpreting these models. We present Iterative Null-space Projection (INLP), a novel method for removing information from neural representations. Our method is based on repeated training of linear classifiers that predict a certain property we aim to remove, followed by projection of the representations on their null-space. By doing so, the classifiers become oblivious to that target property, making it hard to linearly separate the data according to it. While applicable for multiple uses, we evaluate our method on bias and fairness use-cases, and show that our method is able to mitigate bias in word embeddings, as well as to increase fairness in a setting of multi-class classification.",
+        "timestamp": "2026-01-07T08:58:41.772Z",
+        "rating": "novote",
+        "publishedDate": "2020/04/16",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1056,
+        "object_id": "paper:arxiv.2004.07667",
+        "created_at": "2026-01-07T08:58:42+00:00",
+        "updated_at": "2026-01-07T08:59:05+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.1808.06640": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1808.06640",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-07T08:58:28.918Z",
+            "data": {
+              "session_id": "session_1767776306705_pvpo2or",
+              "source_id": "arxiv",
+              "paper_id": "1808.06640",
+              "start_time": "2026-01-07T08:56:25.989Z",
+              "end_time": "2026-01-07T08:58:26.705Z",
+              "heartbeat_count": 24,
+              "duration_seconds": 120,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 121
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1055,
+        "object_id": "interactions:arxiv.1808.06640",
+        "created_at": "2026-01-07T08:58:29+00:00",
+        "updated_at": "2026-01-07T08:58:50+00:00",
         "version": 1
       }
     }

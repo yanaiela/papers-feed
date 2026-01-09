@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-08T18:59:48.621454+00:00",
+  "snapshot_time": "2026-01-09T07:04:44.995987+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -37677,6 +37677,64 @@
         "object_id": "interactions:arxiv.2402.00838",
         "created_at": "2026-01-08T18:58:58+00:00",
         "updated_at": "2026-01-08T18:59:20+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2601.02671": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2601.02671",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-09T07:03:45.605Z",
+            "data": {
+              "session_id": "session_1767942225587_dj6rkdb",
+              "source_id": "arxiv",
+              "paper_id": "2601.02671",
+              "start_time": "2026-01-09T07:03:39.437Z",
+              "end_time": "2026-01-09T07:03:45.587Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1069,
+        "object_id": "interactions:arxiv.2601.02671",
+        "created_at": "2026-01-09T07:03:46+00:00",
+        "updated_at": "2026-01-09T07:04:09+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2601.02671": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2601.02671",
+        "url": "https://arxiv.org/abs/2601.02671",
+        "title": "Extracting books from production language models",
+        "authors": "Ahmed Ahmed, A. Feder Cooper, Sanmi Koyejo, Percy Liang",
+        "abstract": "Many unresolved legal questions over LLMs and copyright center on memorization: whether specific training data have been encoded in the model's weights during training, and whether those memorized data can be extracted in the model's outputs. While many believe that LLMs do not memorize much of their training data, recent work shows that substantial amounts of copyrighted text can be extracted from open-weight models. However, it remains an open question if similar extraction is feasible for production LLMs, given the safety measures these systems implement. We investigate this question using a two-phase procedure: (1) an initial probe to test for extraction feasibility, which sometimes uses a Best-of-N (BoN) jailbreak, followed by (2) iterative continuation prompts to attempt to extract the book. We evaluate our procedure on four production LLMs -- Claude 3.7 Sonnet, GPT-4.1, Gemini 2.5 Pro, and Grok 3 -- and we measure extraction success with a score computed from a block-based approximation of longest common substring (nv-recall). With different per-LLM experimental configurations, we were able to extract varying amounts of text. For the Phase 1 probe, it was unnecessary to jailbreak Gemini 2.5 Pro and Grok 3 to extract text (e.g, nv-recall of 76.8% and 70.3%, respectively, for Harry Potter and the Sorcerer's Stone), while it was necessary for Claude 3.7 Sonnet and GPT-4.1. In some cases, jailbroken Claude 3.7 Sonnet outputs entire books near-verbatim (e.g., nv-recall=95.8%). GPT-4.1 requires significantly more BoN attempts (e.g., 20X), and eventually refuses to continue (e.g., nv-recall=4.0%). Taken together, our work highlights that, even with model- and system-level safeguards, extraction of (in-copyright) training data remains a risk for production LLMs.",
+        "timestamp": "2026-01-09T07:03:34.945Z",
+        "rating": "novote",
+        "publishedDate": "2026/01/06",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1068,
+        "object_id": "paper:arxiv.2601.02671",
+        "created_at": "2026-01-09T07:03:35+00:00",
+        "updated_at": "2026-01-09T07:03:55+00:00",
         "version": 1
       }
     }

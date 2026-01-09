@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-09T20:30:16.482625+00:00",
+  "snapshot_time": "2026-01-09T20:31:20.495065+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -34952,13 +34952,29 @@
       "data": {
         "sourceId": "openreview",
         "paperId": "0OGW9xhZBZ",
-        "interactions": []
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-09T20:30:24.310Z",
+            "data": {
+              "session_id": "session_1767990624003_yxhe6fv",
+              "source_id": "openreview",
+              "paper_id": "0OGW9xhZBZ",
+              "start_time": "2026-01-09T20:30:20.408Z",
+              "end_time": "2026-01-09T20:30:24.003Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 4
+            }
+          }
+        ]
       },
       "meta": {
         "issue_number": 981,
         "object_id": "interactions:openreview.0OGW9xhZBZ",
         "created_at": "2025-12-21T06:38:45+00:00",
-        "updated_at": "2025-12-21T06:38:47+00:00",
+        "updated_at": "2026-01-09T20:30:46+00:00",
         "version": 1
       }
     },
@@ -38025,6 +38041,60 @@
         "object_id": "paper:openreview.saWZJwKv6k",
         "created_at": "2026-01-09T20:29:26+00:00",
         "updated_at": "2026-01-09T20:29:51+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.larOX9gtBk": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "larOX9gtBk",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-09T20:30:32.589Z",
+            "data": {
+              "session_id": "session_1767990632065_0rgtwfy",
+              "source_id": "openreview",
+              "paper_id": "larOX9gtBk",
+              "start_time": "2026-01-09T20:30:26.973Z",
+              "end_time": "2026-01-09T20:30:32.065Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 5
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1076,
+        "object_id": "interactions:openreview.larOX9gtBk",
+        "created_at": "2026-01-09T20:30:33+00:00",
+        "updated_at": "2026-01-09T20:30:54+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.larOX9gtBk": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "larOX9gtBk",
+        "url": "https://openreview.net/forum?id=larOX9gtBk&noteId=kaz0mRpTut&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2FARR%2F2026%2FJanuary%2FArea_Chairs%23area-chair-tasks)",
+        "title": "Area Chair Registration",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-01-09T20:30:27.251Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "ACL ARR 2026 January Area Chairs Registration Form",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1075,
+        "object_id": "paper:openreview.larOX9gtBk",
+        "created_at": "2026-01-09T20:30:27+00:00",
+        "updated_at": "2026-01-09T20:30:46+00:00",
         "version": 1
       }
     }

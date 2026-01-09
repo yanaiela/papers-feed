@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-09T15:19:58.445100+00:00",
+  "snapshot_time": "2026-01-09T18:04:18.010988+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -37883,6 +37883,64 @@
         "object_id": "paper:arxiv.2511.12529",
         "created_at": "2026-01-09T15:12:54+00:00",
         "updated_at": "2026-01-09T15:13:14+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2601.05242": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2601.05242",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-09T18:03:24.169Z",
+            "data": {
+              "session_id": "session_1767981804161_pgzfks2",
+              "source_id": "arxiv",
+              "paper_id": "2601.05242",
+              "start_time": "2026-01-09T18:03:16.583Z",
+              "end_time": "2026-01-09T18:03:24.161Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 8
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1073,
+        "object_id": "interactions:arxiv.2601.05242",
+        "created_at": "2026-01-09T18:03:17+00:00",
+        "updated_at": "2026-01-09T18:03:43+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2601.05242": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2601.05242",
+        "url": "https://arxiv.org/abs/2601.05242",
+        "title": "GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization",
+        "authors": "Shih-Yang Liu, Xin Dong, Ximing Lu, Shizhe Diao, Peter Belcak, Mingjie Liu, Min-Hung Chen, Hongxu Yin, Yu-Chiang Frank Wang, Kwang-Ting Cheng, Yejin Choi, Jan Kautz, Pavlo Molchanov",
+        "abstract": "As language models become increasingly capable, users expect them to provide not only accurate responses but also behaviors aligned with diverse human preferences across a variety of scenarios. To achieve this, Reinforcement learning (RL) pipelines have begun incorporating multiple rewards, each capturing a distinct preference, to guide models toward these desired behaviors. However, recent work has defaulted to apply Group Relative Policy Optimization (GRPO) under multi-reward setting without examining its suitability. In this paper, we demonstrate that directly applying GRPO to normalize distinct rollout reward combinations causes them to collapse into identical advantage values, reducing the resolution of the training signal and resulting in suboptimal convergence and, in some cases, early training failure. We then introduce Group reward-Decoupled Normalization Policy Optimization (GDPO), a new policy optimization method to resolve these issues by decoupling the normalization of individual rewards, more faithfully preserving their relative differences and enabling more accurate multi-reward optimization, along with substantially improved training stability. We compare GDPO with GRPO across three tasks: tool calling, math reasoning, and coding reasoning, evaluating both correctness metrics (accuracy, bug ratio) and constraint adherence metrics (format, length). Across all settings, GDPO consistently outperforms GRPO, demonstrating its effectiveness and generalizability for multi-reward reinforcement learning optimization.",
+        "timestamp": "2026-01-09T18:03:09.893Z",
+        "rating": "novote",
+        "publishedDate": "2026/01/08",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1072,
+        "object_id": "paper:arxiv.2601.05242",
+        "created_at": "2026-01-09T18:03:10+00:00",
+        "updated_at": "2026-01-09T18:03:31+00:00",
         "version": 1
       }
     }

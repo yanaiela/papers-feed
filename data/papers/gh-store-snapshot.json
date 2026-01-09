@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-09T12:49:38.452572+00:00",
+  "snapshot_time": "2026-01-09T13:09:08.416700+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -37013,6 +37013,21 @@
               "idle_seconds": 4,
               "total_elapsed_seconds": 14
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-09T13:08:22.551Z",
+            "data": {
+              "session_id": "session_1767964102227_ikn38y2",
+              "source_id": "arxiv",
+              "paper_id": "2512.20233",
+              "start_time": "2026-01-09T13:08:21.504Z",
+              "end_time": "2026-01-09T13:08:22.227Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 1
+            }
           }
         ]
       },
@@ -37020,7 +37035,7 @@
         "issue_number": 1043,
         "object_id": "interactions:arxiv.2512.20233",
         "created_at": "2026-01-05T07:54:38+00:00",
-        "updated_at": "2026-01-05T07:55:02+00:00",
+        "updated_at": "2026-01-09T13:08:42+00:00",
         "version": 1
       }
     },
@@ -37654,6 +37669,21 @@
               "idle_seconds": 0,
               "total_elapsed_seconds": 60
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-09T13:08:22.033Z",
+            "data": {
+              "session_id": "session_1767964101342_m0pggzf",
+              "source_id": "arxiv",
+              "paper_id": "2101.00027",
+              "start_time": "2026-01-09T12:48:57.002Z",
+              "end_time": "2026-01-09T13:08:21.342Z",
+              "heartbeat_count": 232,
+              "duration_seconds": 1160,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 1164
+            }
           }
         ]
       },
@@ -37661,7 +37691,7 @@
         "issue_number": 1066,
         "object_id": "interactions:arxiv.2101.00027",
         "created_at": "2026-01-08T12:48:41+00:00",
-        "updated_at": "2026-01-09T12:49:16+00:00",
+        "updated_at": "2026-01-09T13:08:45+00:00",
         "version": 1
       }
     },

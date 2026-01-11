@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-10T11:37:12.627307+00:00",
+  "snapshot_time": "2026-01-11T07:12:12.121600+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -38423,6 +38423,63 @@
         "object_id": "interactions:arxiv.2411.10915",
         "created_at": "2026-01-10T08:46:05+00:00",
         "updated_at": "2026-01-10T11:36:46+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2601.03220": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2601.03220",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-11T07:11:25.830Z",
+            "data": {
+              "session_id": "session_1768115485345_tpklzeb",
+              "source_id": "arxiv",
+              "paper_id": "2601.03220",
+              "start_time": "2026-01-11T07:11:19.271Z",
+              "end_time": "2026-01-11T07:11:25.345Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1087,
+        "object_id": "interactions:arxiv.2601.03220",
+        "created_at": "2026-01-11T07:11:26+00:00",
+        "updated_at": "2026-01-11T07:11:47+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2601.03220": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2601.03220",
+        "url": "https://arxiv.org/abs/2601.03220",
+        "title": "From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence",
+        "authors": "Marc Finzi, Shikai Qiu, Yiding Jiang, Pavel Izmailov, J. Zico Kolter, Andrew Gordon Wilson",
+        "abstract": "Can we learn more from data than existed in the generating process itself? Can new and useful information be constructed from merely applying deterministic transformations to existing data? Can the learnable content in data be evaluated without considering a downstream task? On these questions, Shannon information and Kolmogorov complexity come up nearly empty-handed, in part because they assume observers with unlimited computational capacity and fail to target the useful information content. In this work, we identify and exemplify three seeming paradoxes in information theory: (1) information cannot be increased by deterministic transformations; (2) information is independent of the order of data; (3) likelihood modeling is merely distribution matching. To shed light on the tension between these results and modern practice, and to quantify the value of data, we introduce epiplexity, a formalization of information capturing what computationally bounded observers can learn from data. Epiplexity captures the structural content in data while excluding time-bounded entropy, the random unpredictable content exemplified by pseudorandom number generators and chaotic dynamical systems. With these concepts, we demonstrate how information can be created with computation, how it depends on the ordering of the data, and how likelihood modeling can produce more complex programs than present in the data generating process itself. We also present practical procedures to estimate epiplexity which we show capture differences across data sources, track with downstream performance, and highlight dataset interventions that improve out-of-distribution generalization. In contrast to principles of model selection, epiplexity provides a theoretical foundation for data selection, guiding how to select, generate, or transform data for learning systems.",
+        "timestamp": "2026-01-11T07:11:19.603Z",
+        "rating": "novote",
+        "publishedDate": "2026/01/06",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1086,
+        "object_id": "paper:arxiv.2601.03220",
+        "created_at": "2026-01-11T07:11:20+00:00",
+        "updated_at": "2026-01-11T07:11:37+00:00",
         "version": 1
       }
     }

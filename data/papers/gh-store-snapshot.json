@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-12T07:55:59.657656+00:00",
+  "snapshot_time": "2026-01-12T12:23:00.199056+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -38714,6 +38714,63 @@
         "object_id": "interactions:arxiv.2110.01963",
         "created_at": "2026-01-11T10:38:37+00:00",
         "updated_at": "2026-01-11T10:38:57+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2412.18626": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2412.18626",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-12T12:22:06.440Z",
+            "data": {
+              "session_id": "session_1768220526296_015xhaa",
+              "source_id": "arxiv",
+              "paper_id": "2412.18626",
+              "start_time": "2026-01-12T12:21:48.547Z",
+              "end_time": "2026-01-12T12:22:06.296Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 18
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1094,
+        "object_id": "interactions:arxiv.2412.18626",
+        "created_at": "2026-01-12T12:22:07+00:00",
+        "updated_at": "2026-01-12T12:22:29+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2412.18626": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2412.18626",
+        "url": "https://arxiv.org/html/2412.18626v1",
+        "title": "Why Do Large Language Models (LLMs) Struggle to Count Letters?",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-01-12T12:21:43.065Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "LLM",
+          "Evaluation"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1091,
+        "object_id": "paper:arxiv.2412.18626",
+        "created_at": "2026-01-12T12:21:43+00:00",
+        "updated_at": "2026-01-12T12:22:06+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-13T11:47:03.139878+00:00",
+  "snapshot_time": "2026-01-13T15:41:54.786408+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -38986,6 +38986,33 @@
         "object_id": "paper:openreview.90tmmXyaaV",
         "created_at": "2026-01-13T08:05:12+00:00",
         "updated_at": "2026-01-13T08:05:31+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.01171": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.01171",
+        "url": "https://arxiv.org/abs/2510.01171",
+        "title": "Verbalized Sampling: How to Mitigate Mode Collapse and Unlock LLM Diversity",
+        "authors": "Jiayi Zhang, Simon Yu, Derek Chong, Anthony Sicilia, Michael R. Tomz, Christopher D. Manning, Weiyan Shi",
+        "abstract": "Post-training alignment often reduces LLM diversity, leading to a phenomenon known as mode collapse. Unlike prior work that attributes this effect to algorithmic limitations, we identify a fundamental, pervasive data-level driver: typicality bias in preference data, whereby annotators systematically favor familiar text as a result of well-established findings in cognitive psychology. We formalize this bias theoretically, verify it on preference datasets empirically, and show that it plays a central role in mode collapse. Motivated by this analysis, we introduce Verbalized Sampling, a simple, training-free prompting strategy to circumvent mode collapse. VS prompts the model to verbalize a probability distribution over a set of responses (e.g., \"Generate 5 jokes about coffee and their corresponding probabilities\"). Comprehensive experiments show that VS significantly improves performance across creative writing (poems, stories, jokes), dialogue simulation, open-ended QA, and synthetic data generation, without sacrificing factual accuracy and safety. For instance, in creative writing, VS increases diversity by 1.6-2.1x over direct prompting. We further observe an emergent trend that more capable models benefit more from VS. In sum, our work provides a new data-centric perspective on mode collapse and a practical inference-time remedy that helps unlock pre-trained generative diversity.",
+        "timestamp": "2026-01-13T15:41:06.120Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/01",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1100,
+        "object_id": "paper:arxiv.2510.01171",
+        "created_at": "2026-01-13T15:41:06+00:00",
+        "updated_at": "2026-01-13T15:41:28+00:00",
         "version": 1
       }
     }

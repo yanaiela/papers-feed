@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-13T17:01:56.307221+00:00",
+  "snapshot_time": "2026-01-13T20:11:28.758304+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -39058,6 +39058,63 @@
         "object_id": "interactions:arxiv.2510.01171",
         "created_at": "2026-01-13T15:42:20+00:00",
         "updated_at": "2026-01-13T15:43:19+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2509.11208": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.11208",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-13T20:10:36.350Z",
+            "data": {
+              "session_id": "session_1768335036262_dfenwrk",
+              "source_id": "arxiv",
+              "paper_id": "2509.11208",
+              "start_time": "2026-01-13T20:10:08.157Z",
+              "end_time": "2026-01-13T20:10:36.262Z",
+              "heartbeat_count": 5,
+              "duration_seconds": 25,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 28
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1103,
+        "object_id": "interactions:arxiv.2509.11208",
+        "created_at": "2026-01-13T20:10:37+00:00",
+        "updated_at": "2026-01-13T20:10:58+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2509.11208": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.11208",
+        "url": "https://arxiv.org/abs/2509.11208",
+        "title": "Predictable Compression Failures: Why Language Models Actually Hallucinate",
+        "authors": "Leon Chlon, Ahmed Karim, Maggie Chlon",
+        "abstract": "Large language models perform near-Bayesian inference yet violate permutation invariance on exchangeable data. We resolve this by showing transformers minimize expected conditional description length (cross-entropy) over orderings, \ud835\udd3c\u03c0[\u2113(Y\u2223\u0393\u03c0(X))]\\mathbb{E}_\\pi[\\ell(Y \\mid \\Gamma_\\pi(X))], which admits a Kolmogorov-complexity interpretation up to additive constants, rather than the permutation-invariant description length \u2113(Y\u2223X)\\ell(Y \\mid X). This makes them Bayesian in expectation, not in realization. We derive (i) a Quantified Martingale Violation bound showing order-induced deviations scale as O(logn)O(\\log n) with constants; (ii) the Expectation-level Decompression Law linking information budgets to reliability for Bernoulli predicates; and (iii) deployable planners (B2T/RoH/ISR) for answer/abstain decisions. Empirically, permutation dispersion follows a+blnna+b\\ln n (Qwen2-7B b\u22480.377b \\approx 0.377, Llama-3.1-8B b\u22480.147b \\approx 0.147); permutation mixtures improve ground-truth likelihood/accuracy; and randomized dose-response shows hallucinations drop by \u223c0.13\\sim 0.13 per additional nat. A pre-specified audit with a fixed ISR=1.0 achieves near-0\\% hallucinations via calibrated refusal at 24\\% abstention. The framework turns hallucinations into predictable compression failures and enables principled information budgeting.",
+        "timestamp": "2026-01-13T20:10:04.915Z",
+        "rating": "novote",
+        "publishedDate": "2025/09/14",
+        "tags": [
+          "Machine Learning (stat.ML)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1102,
+        "object_id": "paper:arxiv.2509.11208",
+        "created_at": "2026-01-13T20:10:05+00:00",
+        "updated_at": "2026-01-13T20:10:27+00:00",
         "version": 1
       }
     }

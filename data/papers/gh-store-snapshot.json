@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-15T13:27:08.689985+00:00",
+  "snapshot_time": "2026-01-15T18:08:17.633660+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -39498,6 +39498,64 @@
         "object_id": "interactions:arxiv.1702.08608",
         "created_at": "2026-01-15T12:23:07+00:00",
         "updated_at": "2026-01-15T13:26:38+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2210.02410": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2210.02410",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-15T18:07:21.001Z",
+            "data": {
+              "session_id": "session_1768500440394_e8mrypk",
+              "source_id": "arxiv",
+              "paper_id": "2210.02410",
+              "start_time": "2026-01-15T18:07:15.049Z",
+              "end_time": "2026-01-15T18:07:20.394Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 5
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1116,
+        "object_id": "interactions:arxiv.2210.02410",
+        "created_at": "2026-01-15T18:07:21+00:00",
+        "updated_at": "2026-01-15T18:07:52+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2210.02410": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2210.02410",
+        "url": "https://arxiv.org/abs/2210.02410",
+        "title": "The Vendi Score: A Diversity Evaluation Metric for Machine Learning",
+        "authors": "Dan Friedman, Adji Bousso Dieng",
+        "abstract": "Diversity is an important criterion for many areas of machine learning (ML), including generative modeling and dataset curation. However, existing metrics for measuring diversity are often domain-specific and limited in flexibility. In this paper, we address the diversity evaluation problem by proposing the Vendi Score, which connects and extends ideas from ecology and quantum statistical mechanics to ML. The Vendi Score is defined as the exponential of the Shannon entropy of the eigenvalues of a similarity matrix. This matrix is induced by a user-defined similarity function applied to the sample to be evaluated for diversity. In taking a similarity function as input, the Vendi Score enables its user to specify any desired form of diversity. Importantly, unlike many existing metrics in ML, the Vendi Score does not require a reference dataset or distribution over samples or labels, it is therefore general and applicable to any generative model, decoding algorithm, and dataset from any domain where similarity can be defined. We showcase the Vendi Score on molecular generative modeling where we found it addresses shortcomings of the current diversity metric of choice in that domain. We also applied the Vendi Score to generative models of images and decoding algorithms of text where we found it confirms known results about diversity in those domains. Furthermore, we used the Vendi Score to measure mode collapse, a known shortcoming of generative adversarial networks (GANs). In particular, the Vendi Score revealed that even GANs that capture all the modes of a labeled dataset can be less diverse than the original dataset. Finally, the interpretability of the Vendi Score allowed us to diagnose several benchmark ML datasets for diversity, opening the door for diversity-informed data augmentation.",
+        "timestamp": "2026-01-15T18:07:15.408Z",
+        "rating": "novote",
+        "publishedDate": "2022/10/05",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Materials Science (cond-mat.mtrl-sci)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1115,
+        "object_id": "paper:arxiv.2210.02410",
+        "created_at": "2026-01-15T18:07:16+00:00",
+        "updated_at": "2026-01-15T18:07:42+00:00",
         "version": 1
       }
     }

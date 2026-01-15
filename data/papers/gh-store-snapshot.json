@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-15T11:30:39.437205+00:00",
+  "snapshot_time": "2026-01-15T12:07:39.103300+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -39425,6 +39425,34 @@
         "object_id": "paper:arxiv.2506.17090",
         "created_at": "2026-01-15T10:54:53+00:00",
         "updated_at": "2026-01-15T10:55:17+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.1702.08608": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1702.08608",
+        "url": "https://arxiv.org/abs/1702.08608",
+        "title": "Towards A Rigorous Science of Interpretable Machine Learning",
+        "authors": "Finale Doshi-Velez, Been Kim",
+        "abstract": "As machine learning systems become ubiquitous, there has been a surge of interest in interpretable machine learning: systems that provide explanation for their outputs. These explanations are often used to qualitatively assess other criteria such as safety or non-discrimination. However, despite the interest in interpretability, there is very little consensus on what interpretable machine learning is and how it should be measured. In this position paper, we first define interpretability and describe when interpretability is needed (and when it is not). Next, we suggest a taxonomy for rigorous evaluation and expose open questions towards a more rigorous science of interpretable machine learning.",
+        "timestamp": "2026-01-15T12:06:56.576Z",
+        "rating": "novote",
+        "publishedDate": "2017/02/28",
+        "tags": [
+          "Machine Learning (stat.ML)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1113,
+        "object_id": "paper:arxiv.1702.08608",
+        "created_at": "2026-01-15T12:06:57+00:00",
+        "updated_at": "2026-01-15T12:07:15+00:00",
         "version": 1
       }
     }

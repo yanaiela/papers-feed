@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-16T10:16:44.065970+00:00",
+  "snapshot_time": "2026-01-16T11:57:51.199099+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -39783,6 +39783,34 @@
         "object_id": "interactions:openreview.g97OHbQyk1",
         "created_at": "2026-01-16T10:08:53+00:00",
         "updated_at": "2026-01-16T10:08:55+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.AKGxOpG4hs": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "AKGxOpG4hs",
+        "url": "https://openreview.net/forum?id=AKGxOpG4hs&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2FARR%2F2026%2FJanuary%2FArea_Chairs%23assigned-submissions)",
+        "title": "Benchmarking the Fine-Grained Discriminability in Image-Text Retrieval via Controlled Contrastive Differences",
+        "authors": "",
+        "abstract": "Existing cross-modal image-text retrieval models often retrieve samples with inconsistent details. To evaluate fine-grained discriminability, we introduce MSCOCO-CCD and Flickr30k-CCD, with three key features: (1) a two-level image content taxonomy for contrastive sample generation and fine-grained evaluation; (2) annotation of numerous contrastive samples, where each sample differs from the anchor by a controlled contrastive difference (CCD), with the specific type of difference labeled; (3) a fine-grained contrastive discrimination metric to assess the ability to distinguish fine-grained nuances. Extensive experiments demonstrate that contrastive samples can significantly degrade retrieval performance. Furthermore, fine-grained evaluation reveals that current models still struggle to effectively produce  discriminative representations on certain feature types, such as entity emotion and scene attribute. Our datasets will be publicly released.",
+        "timestamp": "2026-01-16T11:57:08.845Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "benchmark",
+          "image-text retrieval",
+          "fine-grained discriminability"
+        ],
+        "doi": "",
+        "journalName": "ACL ARR 2026 January Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1124,
+        "object_id": "paper:openreview.AKGxOpG4hs",
+        "created_at": "2026-01-16T11:57:09+00:00",
+        "updated_at": "2026-01-16T11:57:29+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-16T12:10:18.864437+00:00",
+  "snapshot_time": "2026-01-16T12:12:48.658669+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -12580,6 +12580,21 @@
               "idle_seconds": 1,
               "total_elapsed_seconds": 46
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-16T12:11:03.982Z",
+            "data": {
+              "session_id": "session_1768565463391_092qabo",
+              "source_id": "openreview",
+              "paper_id": "8T5fcnGlP1",
+              "start_time": "2026-01-16T12:09:52.678Z",
+              "end_time": "2026-01-16T12:11:03.391Z",
+              "heartbeat_count": 14,
+              "duration_seconds": 70,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 71
+            }
           }
         ]
       },
@@ -12587,7 +12602,7 @@
         "issue_number": 377,
         "object_id": "interactions:openreview.8T5fcnGlP1",
         "created_at": "2025-10-18T07:10:26+00:00",
-        "updated_at": "2025-12-04T11:06:20+00:00",
+        "updated_at": "2026-01-16T12:11:38+00:00",
         "version": 1
       }
     },
@@ -40290,6 +40305,63 @@
         "object_id": "paper:openreview.dR8zmjZLDK",
         "created_at": "2026-01-16T12:07:40+00:00",
         "updated_at": "2026-01-16T12:08:00+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.Sd8KyYtzwd": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "Sd8KyYtzwd",
+        "url": "https://openreview.net/forum?id=Sd8KyYtzwd",
+        "title": "When Robustness is Not Enough: Challenging LLMs with Structural Variants to Expose Reasoning-Pathway Overfitting",
+        "authors": "",
+        "abstract": "The reliability of reasoning benchmarks for Large Language Models (LLMs) is threatened by overfitting, which leads to inflated scores that misrepresent true capability. While existing benchmarks focus on surface-level perturbations, they fail to detect a more profound form of overfitting where models memorize problem-specific reasoning paradigms rather than developing adaptive and dynamic reasoning skills. To address this, we introduce ReasonDiag, a novel benchmark designed to systematically assess this limitation. ReasonDiag introduces variants that force a shift in the core reasoning paradigm including simplification, introducing Unsolvability and changing the fundamental solution approach, alongside conventional transformations. The evaluation of state-of-the-art LLMs on ReasonDiag reveals significant reasoning paradigm overfitting: while models achieve an average accuracy of 79.5\\% on original problems, their performance drops substantially to 58.1\\% on the reasoning-pathway variants, with a relatively good performance of 76.1\\% on the pattern-matching type. These results expose a critical gap between benchmark proficiency and genuine, flexible reasoning, and provide a novel and effective paradigm for detecting profound reasoning overfitting beyond surface-level pattern matching.",
+        "timestamp": "2026-01-16T12:12:07.037Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Large Language Models",
+          "Benchmark Evaluation"
+        ],
+        "doi": "",
+        "journalName": "ACL ARR 2026 January Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1142,
+        "object_id": "paper:openreview.Sd8KyYtzwd",
+        "created_at": "2026-01-16T12:12:07+00:00",
+        "updated_at": "2026-01-16T12:12:26+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.yRoFZnjOvm": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "yRoFZnjOvm",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-16T12:12:02.617Z",
+            "data": {
+              "session_id": "session_1768565522573_jclawbv",
+              "source_id": "openreview",
+              "paper_id": "yRoFZnjOvm",
+              "start_time": "2026-01-16T12:11:50.282Z",
+              "end_time": "2026-01-16T12:12:02.573Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 12
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1141,
+        "object_id": "interactions:openreview.yRoFZnjOvm",
+        "created_at": "2026-01-16T12:11:30+00:00",
+        "updated_at": "2026-01-16T12:12:21+00:00",
         "version": 1
       }
     }

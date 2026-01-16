@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-16T12:02:41.273521+00:00",
+  "snapshot_time": "2026-01-16T12:04:06.103559+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -39927,6 +39927,93 @@
         "object_id": "paper:openreview.1S9Mpae92X",
         "created_at": "2026-01-16T12:01:50+00:00",
         "updated_at": "2026-01-16T12:02:13+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.hP95Mk69KO": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "hP95Mk69KO",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1131,
+        "object_id": "interactions:openreview.hP95Mk69KO",
+        "created_at": "2026-01-16T12:03:40+00:00",
+        "updated_at": "2026-01-16T12:03:42+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.hP95Mk69KO": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "hP95Mk69KO",
+        "url": "https://openreview.net/forum?id=hP95Mk69KO",
+        "title": "SMART: Evaluating LLMs' Mathematical Reasoning via a Human Cognitive Process-Inspired Benchmark",
+        "authors": "",
+        "abstract": "Large Language Models (LLMs) have achieved remarkable performance across a wide range of mathematical benchmarks. However, concerns remain as to whether these successes reflect genuine reasoning or superficial pattern recognition. Existing evaluation methods, which typically focus either on the final answer or on the intermediate reasoning steps, reduce mathematical reasoning to a shallow input\u2013output mapping, overlooking its inherently multi-stage and multi-dimensional cognitive nature. Inspired by P\\'olya\u2019s problem-solving theory, we propose SMART, a benchmark that decomposes mathematical problem-solving into four cognitive dimensions: \\textbf{S}emantic Understanding, \\textbf{M}athematical Reasoning, \\textbf{A}rithmetic Computation, and \\textbf{R}eflection \\& Refinemen\\textbf{t}, and introduces dimension-specific tasks to measure the corresponding cognitive processes of LLMs. We apply SMART to 22 state-of-the-art open- and closed-source LLMs and uncover substantial discrepancies in their capabilities across dimensions. Our findings reveal genuine weaknesses in current models and motivate a new metric, the All-Pass Score, designed to better capture true problem-solving capability.",
+        "timestamp": "2026-01-16T12:03:24.016Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Evaluation",
+          "benchmark",
+          "mathmetical reasoning"
+        ],
+        "doi": "",
+        "journalName": "ACL ARR 2026 January Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1130,
+        "object_id": "paper:openreview.hP95Mk69KO",
+        "created_at": "2026-01-16T12:03:24+00:00",
+        "updated_at": "2026-01-16T12:03:45+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.1S9Mpae92X": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "1S9Mpae92X",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-16T12:01:56.301Z",
+            "data": {
+              "session_id": "session_1768564915631_prd5do7",
+              "source_id": "openreview",
+              "paper_id": "1S9Mpae92X",
+              "start_time": "2026-01-16T12:01:49.635Z",
+              "end_time": "2026-01-16T12:01:55.631Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-16T12:03:08.971Z",
+            "data": {
+              "session_id": "session_1768564988960_f3lsptb",
+              "source_id": "openreview",
+              "paper_id": "1S9Mpae92X",
+              "start_time": "2026-01-16T12:03:02.380Z",
+              "end_time": "2026-01-16T12:03:08.960Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 7
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1129,
+        "object_id": "interactions:openreview.1S9Mpae92X",
+        "created_at": "2026-01-16T12:01:56+00:00",
+        "updated_at": "2026-01-16T12:03:31+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-16T12:06:13.211187+00:00",
+  "snapshot_time": "2026-01-16T12:10:18.864437+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -40037,13 +40037,44 @@
       "data": {
         "sourceId": "openreview",
         "paperId": "Hse2YloOjQ",
-        "interactions": []
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-16T12:06:08.031Z",
+            "data": {
+              "session_id": "session_1768565168023_apvvz4b",
+              "source_id": "openreview",
+              "paper_id": "Hse2YloOjQ",
+              "start_time": "2026-01-16T12:05:57.179Z",
+              "end_time": "2026-01-16T12:06:08.023Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 11
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-16T12:07:25.002Z",
+            "data": {
+              "session_id": "session_1768565244996_28b9h9r",
+              "source_id": "openreview",
+              "paper_id": "Hse2YloOjQ",
+              "start_time": "2026-01-16T12:07:16.705Z",
+              "end_time": "2026-01-16T12:07:24.996Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
+          }
+        ]
       },
       "meta": {
         "issue_number": 1135,
         "object_id": "interactions:openreview.Hse2YloOjQ",
         "created_at": "2026-01-16T12:06:08+00:00",
-        "updated_at": "2026-01-16T12:06:12+00:00",
+        "updated_at": "2026-01-16T12:07:44+00:00",
         "version": 1
       }
     },
@@ -40100,6 +40131,165 @@
         "object_id": "paper:openreview.mtnnEXPRho",
         "created_at": "2026-01-16T12:04:06+00:00",
         "updated_at": "2026-01-16T12:04:26+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.yRoFZnjOvm": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "yRoFZnjOvm",
+        "url": "https://openreview.net/forum?id=yRoFZnjOvm",
+        "title": "Revisiting Non-Verbatim Memorization in Large Language Models: The Role of Entity Surface Forms",
+        "authors": "",
+        "abstract": "Understanding what kinds of knowledge large language models (LLMs) memorize is essential for evaluating their reliability and limitations. \nPrevious studies have analyzed such non-verbatim memorization using entity-based question answering (QA) datasets, \nbut these datasets typically assume a single canonical surface form per entity, making it unclear whether LLMs memorize entities as conceptual units or only through specific surface expressions. \nTo bridge this gap, we introduce RedirectQA, an entity-based QA dataset constructed from Wikipedia redirect information that provides multiple surface forms for each entity, categorized into some types.\nUsing this dataset, we systematically examine how LLM memorization differs across surface types, frequencies, and entity\u2013surface linkages. \nOur experiments reveal that model outputs are often inconsistent across different surface forms of the same entity, \nand that memorization is more robust for minor variations, e.g., spelling, than for aliases or major rephrasings. \nFurther analysis of entity- and surface-level frequencies suggests that entity frequency contributes more strongly to memorization than surface frequency, \nimplying that LLMs may not memorize surface forms independently but rather link them through an underlying entity-level representation.\nThese findings highlight the necessity of considering surface-form diversity when evaluating non-verbatim memorization in LLMs.",
+        "timestamp": "2026-01-16T12:09:30.736Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Large Language Models",
+          "Factual Knowledge",
+          "Memorization"
+        ],
+        "doi": "",
+        "journalName": "ACL ARR 2026 January Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1140,
+        "object_id": "paper:openreview.yRoFZnjOvm",
+        "created_at": "2026-01-16T12:09:31+00:00",
+        "updated_at": "2026-01-16T12:09:51+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.dR8zmjZLDK": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "dR8zmjZLDK",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-16T12:08:34.709Z",
+            "data": {
+              "session_id": "session_1768565314701_qrtinq2",
+              "source_id": "openreview",
+              "paper_id": "dR8zmjZLDK",
+              "start_time": "2026-01-16T12:08:23.866Z",
+              "end_time": "2026-01-16T12:08:34.701Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 11
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-16T12:09:22.928Z",
+            "data": {
+              "session_id": "session_1768565362919_ek03hwk",
+              "source_id": "openreview",
+              "paper_id": "dR8zmjZLDK",
+              "start_time": "2026-01-16T12:09:12.674Z",
+              "end_time": "2026-01-16T12:09:22.919Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 10
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1139,
+        "object_id": "interactions:openreview.dR8zmjZLDK",
+        "created_at": "2026-01-16T12:08:23+00:00",
+        "updated_at": "2026-01-16T12:09:42+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.7YDNaYWfS6": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "7YDNaYWfS6",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-16T12:08:10.197Z",
+            "data": {
+              "session_id": "session_1768565290149_3pb4id8",
+              "source_id": "openreview",
+              "paper_id": "7YDNaYWfS6",
+              "start_time": "2026-01-16T12:07:59.908Z",
+              "end_time": "2026-01-16T12:08:10.149Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 10
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1138,
+        "object_id": "interactions:openreview.7YDNaYWfS6",
+        "created_at": "2026-01-16T12:08:10+00:00",
+        "updated_at": "2026-01-16T12:08:36+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.7YDNaYWfS6": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "7YDNaYWfS6",
+        "url": "https://openreview.net/forum?id=7YDNaYWfS6",
+        "title": "LongBench-T2I: A Holistic Benchmark and Agent Framework for Complex Instruction-based Image Generation",
+        "authors": "",
+        "abstract": "Recent advancements in text-to-image (T2I) generation have enabled models to produce high-quality images from textual descriptions. However, these models often struggle with complex instructions involving multiple objects, attributes, and spatial relationships. Existing benchmarks for evaluating T2I models primarily focus on general text-image alignment and fail to capture the nuanced requirements of complex, multi-faceted prompts. Given this gap, we introduce LongBench-T2I, a comprehensive benchmark specifically designed to evaluate T2I models under complex instructions. LongBench-T2I consists of 500 intricately designed prompts spanning nine diverse visual evaluation dimensions, enabling a thorough assessment of a model's ability to follow complex instructions. Beyond benchmarking, we propose an agent framework (Plan2Gen) that facilitates complex instruction-driven image generation without requiring additional model training. This framework integrates seamlessly with existing T2I models, using large language models to interpret and decompose complex prompts, thereby guiding the generation process more effectively. As existing evaluation metrics, such as CLIPScore, fail to adequately capture the nuances of complex instructions, we introduce an evaluation toolkit that automates the quality assessment of generated images using a set of multi-dimensional metrics. The data and code are released at URL.",
+        "timestamp": "2026-01-16T12:07:48.270Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Agent",
+          "Benchmark",
+          "Image Generation"
+        ],
+        "doi": "",
+        "journalName": "ACL ARR 2025 October Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1137,
+        "object_id": "paper:openreview.7YDNaYWfS6",
+        "created_at": "2026-01-16T12:07:48+00:00",
+        "updated_at": "2026-01-16T12:08:07+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.dR8zmjZLDK": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "dR8zmjZLDK",
+        "url": "https://openreview.net/forum?id=dR8zmjZLDK",
+        "title": "Draw ALL Your Imagine: A Holistic Benchmark and Agent Framework for Complex Instruction-based Image Generation",
+        "authors": "",
+        "abstract": "Recent advancements in text-to-image (T2I) generation have enabled models to produce high-quality images from textual descriptions. However, these models often struggle with complex instructions involving multiple objects, attributes, and spatial relationships. Existing benchmarks for evaluating T2I models primarily focus on general text-image alignment and fail to capture the nuanced requirements of complex, multi-faceted prompts. Given this gap, we introduce LongBench-T2I, a comprehensive benchmark specifically designed to evaluate T2I models under complex instructions. LongBench-T2I consists of 500 intricately designed prompts spanning nine diverse visual evaluation dimensions, enabling a thorough assessment of a model's ability to follow complex instructions. Beyond benchmarking, we propose an agent framework (Plan2Gen) that facilitates complex instruction-driven image generation without requiring additional model training. This framework integrates seamlessly with existing T2I models, using large language models to interpret and decompose complex prompts, thereby guiding the generation process more effectively. As existing evaluation metrics, such as CLIPScore, fail to adequately capture the nuances of complex instructions, we introduce an evaluation toolkit that automates the quality assessment of generated images using a set of multi-dimensional metrics. The data and code are released at URL.",
+        "timestamp": "2026-01-16T12:07:40.107Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Image Generation",
+          "Complex Instruction",
+          "Benchmark"
+        ],
+        "doi": "",
+        "journalName": "ACL ARR 2026 January Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1136,
+        "object_id": "paper:openreview.dR8zmjZLDK",
+        "created_at": "2026-01-16T12:07:40+00:00",
+        "updated_at": "2026-01-16T12:08:00+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-16T12:01:16.612073+00:00",
+  "snapshot_time": "2026-01-16T12:02:41.273521+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -39878,6 +39878,21 @@
               "idle_seconds": 2,
               "total_elapsed_seconds": 7
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-16T12:01:42.886Z",
+            "data": {
+              "session_id": "session_1768564902264_5x8s5dp",
+              "source_id": "openreview",
+              "paper_id": "AKGxOpG4hs",
+              "start_time": "2026-01-16T12:01:32.392Z",
+              "end_time": "2026-01-16T12:01:42.264Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 5,
+              "total_elapsed_seconds": 10
+            }
           }
         ]
       },
@@ -39885,7 +39900,33 @@
         "issue_number": 1127,
         "object_id": "interactions:openreview.AKGxOpG4hs",
         "created_at": "2026-01-16T11:58:49+00:00",
-        "updated_at": "2026-01-16T12:01:14+00:00",
+        "updated_at": "2026-01-16T12:02:06+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.1S9Mpae92X": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "1S9Mpae92X",
+        "url": "https://openreview.net/forum?id=1S9Mpae92X&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2FARR%2F2026%2FJanuary%2FArea_Chairs%23assigned-submissions)",
+        "title": "IGenBench: Benchmarking the Reliability of Text-to-Infographic Generation",
+        "authors": "",
+        "abstract": "Infographics are composite visual artifacts that combine data visualizations with textual and illustrative elements to communicate information. While recent text-to-image (T2I) models can generate aesthetically appealing images, their reliability in generating infographics remains unclear. Generated infographics may appear correct at first glance but contain easily overlooked issues, such as distorted data encoding or incorrect textual content. We present IGenBench, the first benchmark for evaluating the reliability of text-to-infographic generation, comprising 600 curated test cases spanning 30 infographic types. We design an automated evaluation framework that decomposes reliability verification into atomic yes/no questions based on a taxonomy of 10 question types. We employ multimodal large language models (MLLMs) to verify each question, yielding question-level accuracy (Q-ACC) and infographic-level accuracy (I-ACC). We comprehensively evaluate 10 state-of-the-art T2I models on IGenBench. Our systematic analysis reveals key insights for future model development: (i) a three-tier performance hierarchy with the top model achieving Q-ACC of 0.90 but I-ACC of only 0.49; (ii) data-related dimensions emerging as universal bottlenecks (e.g., Data Completeness: 0.21); and (iii) the challenge of achieving end-to-end correctness across all models.",
+        "timestamp": "2026-01-16T12:01:49.895Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "infographic; text-to-image; multimodality"
+        ],
+        "doi": "",
+        "journalName": "ACL ARR 2026 January Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1128,
+        "object_id": "paper:openreview.1S9Mpae92X",
+        "created_at": "2026-01-16T12:01:50+00:00",
+        "updated_at": "2026-01-16T12:02:13+00:00",
         "version": 1
       }
     }

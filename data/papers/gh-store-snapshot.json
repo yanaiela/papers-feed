@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-16T12:12:48.658669+00:00",
+  "snapshot_time": "2026-01-16T12:14:02.138171+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -40362,6 +40362,79 @@
         "object_id": "interactions:openreview.yRoFZnjOvm",
         "created_at": "2026-01-16T12:11:30+00:00",
         "updated_at": "2026-01-16T12:12:21+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.MF1fusOiIz": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "MF1fusOiIz",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1145,
+        "object_id": "interactions:openreview.MF1fusOiIz",
+        "created_at": "2026-01-16T12:13:24+00:00",
+        "updated_at": "2026-01-16T12:13:26+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.MF1fusOiIz": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "MF1fusOiIz",
+        "url": "https://openreview.net/forum?id=MF1fusOiIz",
+        "title": "Prototypicality Bias Reveals Blindspots in Multimodal Evaluation Metrics",
+        "authors": "",
+        "abstract": "Automatic metrics are central to evaluating text-to-image models, increasingly replacing human judgment in benchmarking, model selection, and large-scale data filtering. However, it remains unclear whether these metrics truly prioritize semantic correctness or instead favor visually and socially prototypical images learned from biased data distributions. We identify and study prototypicality bias as a systematic failure mode in multimodal evaluation. We introduce a controlled contrastive benchmark, ProtoBias (Prototypical Bias), spanning Animals, Objects, and Demography, in which semantically correct but non-prototypical images are paired with subtly incorrect yet prototypical adversarial counterparts. This design enables a directional test of whether evaluation metrics follow textual semantics or default to learned prototypes. Our results show that widely used metrics, including CLIPScore, PickScore, and VQA-based scores, frequently misrank these pairs, while even LLM-as-Judge systems exhibit uneven robustness, particularly in socially grounded scenarios. Human evaluators, in contrast, consistently prefer semantically correct images with larger decision margins. Motivated by these findings, we introduce ProtoScore, a lightweight 7B-parameter metric that substantially reduces prototypicality-driven failures and approaches the robustness of much larger closed-source judges.",
+        "timestamp": "2026-01-16T12:12:58.564Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Multimodal Evaluation",
+          "T2I Generation",
+          "Prototypicality Bias",
+          "Blind Spots"
+        ],
+        "doi": "",
+        "journalName": "ACL ARR 2026 January Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1144,
+        "object_id": "paper:openreview.MF1fusOiIz",
+        "created_at": "2026-01-16T12:12:58+00:00",
+        "updated_at": "2026-01-16T12:13:19+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.Sd8KyYtzwd": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "Sd8KyYtzwd",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-16T12:12:47.950Z",
+            "data": {
+              "session_id": "session_1768565567942_0ywig1p",
+              "source_id": "openreview",
+              "paper_id": "Sd8KyYtzwd",
+              "start_time": "2026-01-16T12:12:19.621Z",
+              "end_time": "2026-01-16T12:12:47.942Z",
+              "heartbeat_count": 5,
+              "duration_seconds": 25,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 28
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1143,
+        "object_id": "interactions:openreview.Sd8KyYtzwd",
+        "created_at": "2026-01-16T12:12:48+00:00",
+        "updated_at": "2026-01-16T12:13:12+00:00",
         "version": 1
       }
     }

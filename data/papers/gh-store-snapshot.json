@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-16T12:04:06.103559+00:00",
+  "snapshot_time": "2026-01-16T12:06:13.211187+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -39934,13 +39934,29 @@
       "data": {
         "sourceId": "openreview",
         "paperId": "hP95Mk69KO",
-        "interactions": []
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-16T12:05:19.569Z",
+            "data": {
+              "session_id": "session_1768565119523_7k7st4d",
+              "source_id": "openreview",
+              "paper_id": "hP95Mk69KO",
+              "start_time": "2026-01-16T12:05:10.915Z",
+              "end_time": "2026-01-16T12:05:19.523Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 9
+            }
+          }
+        ]
       },
       "meta": {
         "issue_number": 1131,
         "object_id": "interactions:openreview.hP95Mk69KO",
         "created_at": "2026-01-16T12:03:40+00:00",
-        "updated_at": "2026-01-16T12:03:42+00:00",
+        "updated_at": "2026-01-16T12:05:24+00:00",
         "version": 1
       }
     },
@@ -40014,6 +40030,76 @@
         "object_id": "interactions:openreview.1S9Mpae92X",
         "created_at": "2026-01-16T12:01:56+00:00",
         "updated_at": "2026-01-16T12:03:31+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.Hse2YloOjQ": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "Hse2YloOjQ",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1135,
+        "object_id": "interactions:openreview.Hse2YloOjQ",
+        "created_at": "2026-01-16T12:06:08+00:00",
+        "updated_at": "2026-01-16T12:06:12+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.mtnnEXPRho": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "mtnnEXPRho",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-16T12:04:43.827Z",
+            "data": {
+              "session_id": "session_1768565083817_yca2mhu",
+              "source_id": "openreview",
+              "paper_id": "mtnnEXPRho",
+              "start_time": "2026-01-16T12:04:29.097Z",
+              "end_time": "2026-01-16T12:04:43.817Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 5,
+              "total_elapsed_seconds": 15
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1134,
+        "object_id": "interactions:openreview.mtnnEXPRho",
+        "created_at": "2026-01-16T12:04:13+00:00",
+        "updated_at": "2026-01-16T12:05:05+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.mtnnEXPRho": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "mtnnEXPRho",
+        "url": "https://openreview.net/forum?id=mtnnEXPRho",
+        "title": "SMART: Evaluating LLMs' Mathematical Reasoning via a Human Cognitive Process-Inspired Benchmark",
+        "authors": "",
+        "abstract": "Large Language Models (LLMs) have achieved remarkable performance across a wide range of mathematical benchmarks. However, concerns remain as to whether these successes reflect genuine reasoning or superficial pattern recognition. Existing evaluation methods, which typically focus either on the final answer or on the intermediate reasoning steps, reduce mathematical reasoning to a shallow input\u2013output mapping, overlooking its inherently multi-stage and multi-dimensional cognitive nature. Inspired by P\\'olya\u2019s problem-solving theory, we propose SMART, a benchmark that decomposes mathematical problem-solving into four cognitive dimensions: Semantic Understanding, Mathematical Reasoning, Arithmetic Computation, and Reflection \\& Refinement, and introduces dimension-specific tasks to measure the corresponding cognitive processes of LLMs. We apply SMART to 22 state-of-the-art open- and closed-source LLMs and uncover substantial discrepancies in their capabilities across dimensions. Our findings reveal genuine weaknesses in current models and motivate a new metric, the All-Pass Score, designed to better capture true problem-solving capability.",
+        "timestamp": "2026-01-16T12:04:06.283Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "benchmarking; evaluation methodologies;  metrics; NLP datasets"
+        ],
+        "doi": "",
+        "journalName": "ACL ARR 2025 October Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1132,
+        "object_id": "paper:openreview.mtnnEXPRho",
+        "created_at": "2026-01-16T12:04:06+00:00",
+        "updated_at": "2026-01-16T12:04:26+00:00",
         "version": 1
       }
     }

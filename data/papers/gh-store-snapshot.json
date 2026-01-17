@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-17T16:40:28.089366+00:00",
+  "snapshot_time": "2026-01-17T16:42:51.614273+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -40704,6 +40704,46 @@
         "object_id": "paper:arxiv.2601.08620",
         "created_at": "2026-01-17T16:39:46+00:00",
         "updated_at": "2026-01-17T16:40:03+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.14880": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.14880",
+        "url": "https://arxiv.org/abs/2510.14880",
+        "title": "Fantastic (small) Retrievers and How to Train Them: mxbai-edge-colbert-v0 Tech Report",
+        "authors": "Rikiya Takehi, Benjamin Clavi\u00e9, Sean Lee, Aamir Shakir",
+        "abstract": "In this work, we introduce mxbai-edge-colbert-v0 models, at two different parameter counts: 17M and 32M. As part of our research, we conduct numerous experiments to improve retrieval and late-interaction models, which we intend to distill into smaller models as proof-of-concepts. Our ultimate aim is to support retrieval at all scales, from large-scale retrieval which lives in the cloud to models that can run locally, on any device. mxbai-edge-colbert-v0 is a model that we hope will serve as a solid foundation backbone for all future experiments, representing the first version of a long series of small proof-of-concepts. As part of the development of mxbai-edge-colbert-v0, we conducted multiple ablation studies, of which we report the results. In terms of downstream performance, mxbai-edge-colbert-v0 is a particularly capable small model, outperforming ColBERTv2 on common short-text benchmarks (BEIR) and representing a large step forward in long-context tasks, with unprecedented efficiency.",
+        "timestamp": "2026-01-17T16:42:08.935Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/16",
+        "tags": [
+          "Information Retrieval (cs.IR)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1152,
+        "object_id": "paper:arxiv.2510.14880",
+        "created_at": "2026-01-17T16:42:09+00:00",
+        "updated_at": "2026-01-17T16:42:29+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2601.08620": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2601.08620",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1151,
+        "object_id": "interactions:arxiv.2601.08620",
+        "created_at": "2026-01-17T16:41:26+00:00",
+        "updated_at": "2026-01-17T16:41:28+00:00",
         "version": 1
       }
     }

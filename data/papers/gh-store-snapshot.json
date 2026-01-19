@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-19T14:11:57.611137+00:00",
+  "snapshot_time": "2026-01-19T14:37:39.849312+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -41217,6 +41217,60 @@
         "object_id": "paper:arxiv.2402.08787",
         "created_at": "2026-01-19T10:09:37+00:00",
         "updated_at": "2026-01-19T10:09:55+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.kJfpS7lCVT": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "kJfpS7lCVT",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-19T14:36:50.046Z",
+            "data": {
+              "session_id": "session_1768833410035_ug34tk8",
+              "source_id": "openreview",
+              "paper_id": "kJfpS7lCVT",
+              "start_time": "2026-01-19T14:36:44.960Z",
+              "end_time": "2026-01-19T14:36:50.035Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 5
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1159,
+        "object_id": "interactions:openreview.kJfpS7lCVT",
+        "created_at": "2026-01-19T14:36:51+00:00",
+        "updated_at": "2026-01-19T14:37:14+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.kJfpS7lCVT": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "kJfpS7lCVT",
+        "url": "https://openreview.net/pdf?id=kJfpS7lCVT",
+        "title": "kJfpS7lCVT",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-01-19T14:36:38.366Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "pdf"
+      },
+      "meta": {
+        "issue_number": 1158,
+        "object_id": "paper:openreview.kJfpS7lCVT",
+        "created_at": "2026-01-19T14:36:38+00:00",
+        "updated_at": "2026-01-19T14:37:02+00:00",
         "version": 1
       }
     }

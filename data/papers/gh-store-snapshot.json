@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-19T10:09:02.777608+00:00",
+  "snapshot_time": "2026-01-19T10:10:20.234904+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -41161,6 +41161,47 @@
         "object_id": "paper:arxiv.2501.18914",
         "created_at": "2026-01-18T11:33:06+00:00",
         "updated_at": "2026-01-18T11:33:27+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2402.08787": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2402.08787",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1157,
+        "object_id": "interactions:arxiv.2402.08787",
+        "created_at": "2026-01-19T10:09:57+00:00",
+        "updated_at": "2026-01-19T10:09:59+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2402.08787": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2402.08787",
+        "url": "https://arxiv.org/abs/2402.08787",
+        "title": "Rethinking Machine Unlearning for Large Language Models",
+        "authors": "Sijia Liu, Yuanshun Yao, Jinghan Jia, Stephen Casper, Nathalie Baracaldo, Peter Hase, Yuguang Yao, Chris Yuhao Liu, Xiaojun Xu, Hang Li, Kush R. Varshney, Mohit Bansal, Sanmi Koyejo, Yang Liu",
+        "abstract": "We explore machine unlearning (MU) in the domain of large language models (LLMs), referred to as LLM unlearning. This initiative aims to eliminate undesirable data influence (e.g., sensitive or illegal information) and the associated model capabilities, while maintaining the integrity of essential knowledge generation and not affecting causally unrelated information. We envision LLM unlearning becoming a pivotal element in the life-cycle management of LLMs, potentially standing as an essential foundation for developing generative AI that is not only safe, secure, and trustworthy, but also resource-efficient without the need of full retraining. We navigate the unlearning landscape in LLMs from conceptual formulation, methodologies, metrics, and applications. In particular, we highlight the often-overlooked aspects of existing LLM unlearning research, e.g., unlearning scope, data-model interaction, and multifaceted efficacy assessment. We also draw connections between LLM unlearning and related areas such as model editing, influence functions, model explanation, adversarial training, and reinforcement learning. Furthermore, we outline an effective assessment framework for LLM unlearning and explore its applications in copyright and privacy safeguards and sociotechnical harm reduction.",
+        "timestamp": "2026-01-19T10:09:37.301Z",
+        "rating": "novote",
+        "publishedDate": "2024/02/13",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1156,
+        "object_id": "paper:arxiv.2402.08787",
+        "created_at": "2026-01-19T10:09:37+00:00",
+        "updated_at": "2026-01-19T10:09:55+00:00",
         "version": 1
       }
     }

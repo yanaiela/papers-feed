@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-21T09:10:08.888965+00:00",
+  "snapshot_time": "2026-01-21T12:41:35.726082+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -41922,6 +41922,34 @@
         "object_id": "interactions:arxiv.2403.05530",
         "created_at": "2026-01-21T09:09:18+00:00",
         "updated_at": "2026-01-21T09:09:40+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2310.16787": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.16787",
+        "url": "https://arxiv.org/abs/2310.16787",
+        "title": "The Data Provenance Initiative: A Large Scale Audit of Dataset Licensing & Attribution in AI",
+        "authors": "Shayne Longpre, Robert Mahari, Anthony Chen, Naana Obeng-Marnu, Damien Sileo, William Brannon, Niklas Muennighoff, Nathan Khazam, Jad Kabbara, Kartik Perisetla, Xinyi Wu, Enrico Shippole, Kurt Bollacker, Tongshuang Wu, Luis Villa, Sandy Pentland, Sara Hooker",
+        "abstract": "The race to train language models on vast, diverse, and inconsistently documented datasets has raised pressing concerns about the legal and ethical risks for practitioners. To remedy these practices threatening data transparency and understanding, we convene a multi-disciplinary effort between legal and machine learning experts to systematically audit and trace 1800+ text datasets. We develop tools and standards to trace the lineage of these datasets, from their source, creators, series of license conditions, properties, and subsequent use. Our landscape analysis highlights the sharp divides in composition and focus of commercially open vs closed datasets, with closed datasets monopolizing important categories: lower resource languages, more creative tasks, richer topic variety, newer and more synthetic training data. This points to a deepening divide in the types of data that are made available under different license conditions, and heightened implications for jurisdictional legal interpretations of copyright and fair use. We also observe frequent miscategorization of licenses on widely used dataset hosting sites, with license omission of 70%+ and error rates of 50%+. This points to a crisis in misattribution and informed use of the most popular datasets driving many recent breakthroughs. As a contribution to ongoing improvements in dataset transparency and responsible use, we release our entire audit, with an interactive UI, the Data Provenance Explorer, which allows practitioners to trace and filter on data provenance for the most popular open source finetuning data collections: this http URL.",
+        "timestamp": "2026-01-21T12:40:49.180Z",
+        "rating": "novote",
+        "publishedDate": "2023/10/25",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1175,
+        "object_id": "paper:arxiv.2310.16787",
+        "created_at": "2026-01-21T12:40:49+00:00",
+        "updated_at": "2026-01-21T12:41:11+00:00",
         "version": 1
       }
     }

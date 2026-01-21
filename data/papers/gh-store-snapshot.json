@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-21T13:10:00.538490+00:00",
+  "snapshot_time": "2026-01-21T13:17:12.939096+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -26588,6 +26588,21 @@
               "idle_seconds": 2,
               "total_elapsed_seconds": 7
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-21T13:16:01.835Z",
+            "data": {
+              "session_id": "session_1769001361520_tfzmxej",
+              "source_id": "arxiv",
+              "paper_id": "2310.18362",
+              "start_time": "2026-01-21T13:15:41.879Z",
+              "end_time": "2026-01-21T13:16:01.520Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 5,
+              "total_elapsed_seconds": 20
+            }
           }
         ]
       },
@@ -26595,7 +26610,7 @@
         "issue_number": 662,
         "object_id": "interactions:arxiv.2310.18362",
         "created_at": "2025-11-07T06:15:09+00:00",
-        "updated_at": "2025-11-25T11:27:35+00:00",
+        "updated_at": "2026-01-21T13:16:44+00:00",
         "version": 1
       }
     },
@@ -42017,6 +42032,21 @@
               "idle_seconds": 2,
               "total_elapsed_seconds": 7
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-21T13:15:25.707Z",
+            "data": {
+              "session_id": "session_1769001325061_lb93caj",
+              "source_id": "arxiv",
+              "paper_id": "2402.07841",
+              "start_time": "2026-01-21T13:09:14.042Z",
+              "end_time": "2026-01-21T13:15:25.061Z",
+              "heartbeat_count": 74,
+              "duration_seconds": 370,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 371
+            }
           }
         ]
       },
@@ -42024,7 +42054,7 @@
         "issue_number": 1179,
         "object_id": "interactions:arxiv.2402.07841",
         "created_at": "2026-01-21T13:09:11+00:00",
-        "updated_at": "2026-01-21T13:09:33+00:00",
+        "updated_at": "2026-01-21T13:15:47+00:00",
         "version": 1
       }
     },

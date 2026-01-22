@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-21T20:47:35.610445+00:00",
+  "snapshot_time": "2026-01-22T06:53:10.216355+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -42103,6 +42103,52 @@
         "object_id": "paper:arxiv.2512.20796",
         "created_at": "2026-01-21T20:46:16+00:00",
         "updated_at": "2026-01-21T20:46:56+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.2DAvXR77xh": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "2DAvXR77xh",
+        "url": "https://openreview.net/forum?id=2DAvXR77xh",
+        "title": "Self-supervised Learning of Echocardiographic Video Representations via Online Cluster Distillation",
+        "authors": "Divyanshu Mishra, Mohammadreza Salehi, Pramit Saha, Olga Patey, Aris T Papageorghiou, Yuki M Asano, Alison Noble",
+        "abstract": "Self-supervised learning (SSL) has achieved major advances in natural images and video understanding, but challenges remain in domains like echocardiography (heart ultrasound) due to subtle anatomical structures, complex temporal dynamics, and the current lack of domain-specific pre-trained models. Existing SSL approaches such as contrastive, masked modeling, and clustering-based methods struggle with high intersample similarity, sensitivity to low PSNR inputs common in ultrasound, or aggressive augmentations that distort clinically relevant features. \n\nWe present DISCOVR (Distilled Image Supervision for Cross Modal Video Representation), a self-supervised dual-branch framework for cardiac ultrasound video representation learning. DISCOVR combines a clustering-based video encoder that models temporal dynamics with an online image encoder that extracts fine-grained spatial semantics. These branches are connected through a semantic cluster distillation loss that transfers anatomical knowledge from the evolving image encoder to the video encoder, enabling temporally coherent representations enriched with fine-grained semantic understanding. \n\nEvaluated on six echocardiography datasets spanning fetal, pediatric, and adult populations, DISCOVR outperforms both specialized video anomaly detection methods and state-of-the-art video-SSL baselines in zero-shot and linear probing setups, achieving superior segmentation transfer and strong downstream performance on clinically relevant tasks such as LVEF prediction.\n\n**Code available at:** [https://github.com/mdivyanshu97/DISCOVR](https://github.com/mdivyanshu97/DISCOVR)",
+        "timestamp": "2026-01-22T06:52:27.246Z",
+        "rating": "novote",
+        "publishedDate": "18 Sept 2025",
+        "tags": [
+          "Medical Imaging",
+          "Ultrasound",
+          "Self-Supervised Video Represenational Learning",
+          "Self Supervised Learning",
+          "Echocardiography",
+          "Fetal",
+          "Video Understanding"
+        ],
+        "doi": "",
+        "journalName": "NeurIPS 2025 poster",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1185,
+        "object_id": "paper:openreview.2DAvXR77xh",
+        "created_at": "2026-01-22T06:52:27+00:00",
+        "updated_at": "2026-01-22T06:52:47+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2512.20796": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2512.20796",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1184,
+        "object_id": "interactions:arxiv.2512.20796",
+        "created_at": "2026-01-21T20:47:43+00:00",
+        "updated_at": "2026-01-21T20:47:45+00:00",
         "version": 1
       }
     }

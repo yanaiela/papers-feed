@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-22T14:59:42.162849+00:00",
+  "snapshot_time": "2026-01-22T18:39:42.554338+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -42164,6 +42164,63 @@
         "object_id": "interactions:arxiv.2512.20796",
         "created_at": "2026-01-21T20:47:43+00:00",
         "updated_at": "2026-01-21T20:47:45+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2212.08073": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2212.08073",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-22T18:38:49.276Z",
+            "data": {
+              "session_id": "session_1769107128534_dn03w03",
+              "source_id": "arxiv",
+              "paper_id": "2212.08073",
+              "start_time": "2026-01-22T18:38:42.961Z",
+              "end_time": "2026-01-22T18:38:48.534Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1187,
+        "object_id": "interactions:arxiv.2212.08073",
+        "created_at": "2026-01-22T18:38:50+00:00",
+        "updated_at": "2026-01-22T18:39:12+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2212.08073": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2212.08073",
+        "url": "https://arxiv.org/abs/2212.08073",
+        "title": "Constitutional AI: Harmlessness from AI Feedback",
+        "authors": "Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion, Andy Jones, Anna Chen, Anna Goldie, Azalia Mirhoseini, Cameron McKinnon, Carol Chen, Catherine Olsson, Christopher Olah, Danny Hernandez, Dawn Drain, Deep Ganguli, Dustin Li, Eli Tran-Johnson, Ethan Perez, Jamie Kerr, Jared Mueller, Jeffrey Ladish, Joshua Landau, Kamal Ndousse, Kamile Lukosuite, Liane Lovitt, Michael Sellitto, Nelson Elhage, Nicholas Schiefer, Noemi Mercado, Nova DasSarma, Robert Lasenby, Robin Larson, Sam Ringer, Scott Johnston, Shauna Kravec, Sheer El Showk, Stanislav Fort, Tamera Lanham, Timothy Telleen-Lawton, Tom Conerly, Tom Henighan, Tristan Hume, Samuel R. Bowman, Zac Hatfield-Dodds, Ben Mann, Dario Amodei, Nicholas Joseph, Sam McCandlish, Tom Brown, Jared Kaplan",
+        "abstract": "As AI systems become more capable, we would like to enlist their help to supervise other AIs. We experiment with methods for training a harmless AI assistant through self-improvement, without any human labels identifying harmful outputs. The only human oversight is provided through a list of rules or principles, and so we refer to the method as 'Constitutional AI'. The process involves both a supervised learning and a reinforcement learning phase. In the supervised phase we sample from an initial model, then generate self-critiques and revisions, and then finetune the original model on revised responses. In the RL phase, we sample from the finetuned model, use a model to evaluate which of the two samples is better, and then train a preference model from this dataset of AI preferences. We then train with RL using the preference model as the reward signal, i.e. we use 'RL from AI Feedback' (RLAIF). As a result we are able to train a harmless but non-evasive AI assistant that engages with harmful queries by explaining its objections to them. Both the SL and RL methods can leverage chain-of-thought style reasoning to improve the human-judged performance and transparency of AI decision making. These methods make it possible to control AI behavior more precisely and with far fewer human labels.",
+        "timestamp": "2026-01-22T18:38:43.407Z",
+        "rating": "novote",
+        "publishedDate": "2022/12/15",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1186,
+        "object_id": "paper:arxiv.2212.08073",
+        "created_at": "2026-01-22T18:38:43+00:00",
+        "updated_at": "2026-01-22T18:39:05+00:00",
         "version": 1
       }
     }

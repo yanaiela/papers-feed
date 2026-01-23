@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-23T08:39:34.040078+00:00",
+  "snapshot_time": "2026-01-23T10:30:11.153480+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -42344,6 +42344,51 @@
         "object_id": "interactions:arxiv.2601.11429",
         "created_at": "2026-01-23T08:38:52+00:00",
         "updated_at": "2026-01-23T08:39:12+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.MpAsBKbhpJ": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "MpAsBKbhpJ",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1193,
+        "object_id": "interactions:openreview.MpAsBKbhpJ",
+        "created_at": "2026-01-23T10:29:59+00:00",
+        "updated_at": "2026-01-23T10:30:01+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.MpAsBKbhpJ": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "MpAsBKbhpJ",
+        "url": "https://openreview.net/forum?id=MpAsBKbhpJ",
+        "title": "The Geometry of Causal Counting: How NoPE Transformers Recover Absolute Position",
+        "authors": "Matan Avitan, Ido Nachum, Yanai Elazar, Yoav Goldberg",
+        "abstract": "How do causal Transformers without positional embeddings (NoPE) recover absolute position? While causal prefix mixing explains why position-dependent signals can exist, it does not explain how training transforms these weak, distributed statistics into stable, linearly readable coordinates that generalize to unseen contexts. We study a two-block, pre-norm NoPE Transformer and decompose the mechanism into availability and extraction.Availability: We prove that under standard initialization, near-orthogonality of token embeddings ensures that prefix aggregates contain a robust length statistic. We introduce counting-by-projections as a theoretical foundation, showing that simple linear functionals ($w_{\\mathrm{all}}, w_{\\mathrm{seen}}$) can recover position from these aggregates even after LayerNorm removes variance-based cues.Extraction: We show that trained models do not merely implement these theoretical baselines but instead develop specialized circuits. Circuit A (R0) utilizes BOS-attending heads to broadcast a shared sequence reference; by comparing local features to this reference, the model cancels sequence-specific \"noise\" to isolate absolute position. Strikingly, this BOS-based circuit enables the model to extrapolate absolute position to sequences $32\\times$ longer than those seen during training with zero loss in fidelity. Circuit B (R2), discovered in frozen-representation settings, extracts position via non-local prefix denoising.Finally, we identify a shared write bottleneck: in both circuits, the high-fidelity positional signal is delivered through a low-dimensional \"write subspace\" ($B = W_O W_V$). Together, our results provide a complete mechanistic account of how NoPE models move from geometric availability to robust, length-agnostic positional extraction.",
+        "timestamp": "2026-01-23T10:29:23.160Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Mechanistic Interpretability",
+          "Causal Attention",
+          "Position Encoding",
+          "NoPE",
+          "Length Generalization",
+          "Representational Geometry"
+        ],
+        "doi": "",
+        "journalName": "ICML 2026 Conference Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1192,
+        "object_id": "paper:openreview.MpAsBKbhpJ",
+        "created_at": "2026-01-23T10:29:23+00:00",
+        "updated_at": "2026-01-23T10:29:44+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-23T10:58:18.965733+00:00",
+  "snapshot_time": "2026-01-23T15:34:27.646364+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -42501,6 +42501,30 @@
         "object_id": "interactions:arxiv.2601.07372",
         "created_at": "2026-01-23T10:57:27+00:00",
         "updated_at": "2026-01-23T10:57:49+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2408.08946": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2408.08946",
+        "url": "https://arxiv.org/html/2408.08946v2",
+        "title": "Authorship Attribution in the Era of LLMs: Problems, Methodologies, and Challenges",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-01-23T15:33:37.396Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1198,
+        "object_id": "paper:arxiv.2408.08946",
+        "created_at": "2026-01-23T15:33:37+00:00",
+        "updated_at": "2026-01-23T15:34:01+00:00",
         "version": 1
       }
     }

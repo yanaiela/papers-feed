@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-24T11:14:22.983318+00:00",
+  "snapshot_time": "2026-01-24T11:22:16.703527+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -42694,6 +42694,65 @@
         "object_id": "paper:openreview.9XFSbDPmdW",
         "created_at": "2026-01-24T11:07:30+00:00",
         "updated_at": "2026-01-24T11:07:50+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.TnIUaq2d5y": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "TnIUaq2d5y",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-24T11:21:24.620Z",
+            "data": {
+              "session_id": "session_1769253684334_v4yghq0",
+              "source_id": "openreview",
+              "paper_id": "TnIUaq2d5y",
+              "start_time": "2026-01-24T11:21:01.552Z",
+              "end_time": "2026-01-24T11:21:24.334Z",
+              "heartbeat_count": 4,
+              "duration_seconds": 20,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 23
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1209,
+        "object_id": "interactions:openreview.TnIUaq2d5y",
+        "created_at": "2026-01-24T11:21:25+00:00",
+        "updated_at": "2026-01-24T11:21:48+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.TnIUaq2d5y": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "TnIUaq2d5y",
+        "url": "https://openreview.net/forum?id=TnIUaq2d5y",
+        "title": "The Association Between Training Data and Success Ratios in Text-to-Image Generation",
+        "authors": "Preethi Seshadri, Yasaman Razeghi, Sameer Singh, Yanai Elazar",
+        "abstract": "Text-to-image (T2I) models are often touted for their supposed ability to create compositional images with many components. However, these models can fail to generate all entities when presented with prompts containing just two or three entities. In this work, we seek an explanation of such failures with respect to the training data. We introduce the training appearance ratio, which compares the number of training images depicting specific entities vs. the number of training captions mentioning those same entities, and examine how well this measure correlates with generation success rates. We then examine whether prompts consisting of various entities will result in successful generations (i.e., images that depict all specified entities) based on the training appearance ratio. We find positive and significant correlations between these ratios and successful image generations. Furthermore, our proposed measure yields stronger correlations with model success rates than existing training data frequency measures. These associations suggest that our measure (training appearance ratio) better captures the relationship between training data and generation success.",
+        "timestamp": "2026-01-24T11:21:00.721Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Multimodal Models",
+          "Text-to-Image Models",
+          "Model Analysis",
+          "Training Data Analysis"
+        ],
+        "doi": "",
+        "journalName": "ACL ARR 2024 June Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1207,
+        "object_id": "paper:openreview.TnIUaq2d5y",
+        "created_at": "2026-01-24T11:21:00+00:00",
+        "updated_at": "2026-01-24T11:21:20+00:00",
         "version": 1
       }
     }

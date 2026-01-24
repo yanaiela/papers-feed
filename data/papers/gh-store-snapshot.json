@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-24T11:22:16.703527+00:00",
+  "snapshot_time": "2026-01-24T11:23:07.545828+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -42753,6 +42753,73 @@
         "object_id": "paper:openreview.TnIUaq2d5y",
         "created_at": "2026-01-24T11:21:00+00:00",
         "updated_at": "2026-01-24T11:21:20+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.vqynf5OzVf": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "vqynf5OzVf",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1212,
+        "object_id": "interactions:openreview.vqynf5OzVf",
+        "created_at": "2026-01-24T11:22:28+00:00",
+        "updated_at": "2026-01-24T11:22:30+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.vqynf5OzVf": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "vqynf5OzVf",
+        "url": "https://openreview.net/forum?id=vqynf5OzVf&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2024%2FWorkshop%2FATTRIB%2FAuthors%23your-submissions)",
+        "title": "The Association Between Training Data and Text-to-Image Generation Capabilities",
+        "authors": "Preethi Seshadri, Yasaman Razeghi, Sameer Singh, Yanai Elazar",
+        "abstract": "Text-to-image (T2I) models are often touted for their supposed ability to create compositional images with many components. However, these models can fail to faithfully generate images when presented with prompts containing just two or three entities. In this work, we seek an explanation for such failures with respect to the training data. We introduce the *training appearance ratio*, which compares the number of training images depicting specific entities vs. the number of training captions mentioning those same entities, and examine how well this measure correlates with generation success rates. We find positive and significant correlations between these ratios and successful image generations. Furthermore, our proposed measure yields stronger correlations with model success rates than existing training data frequency measures. These associations suggest that our proposed measure (*training appearance ratio*) better captures the relationship between training data statistics and generation success.",
+        "timestamp": "2026-01-24T11:22:21.116Z",
+        "rating": "novote",
+        "publishedDate": "30 Oct 2024",
+        "tags": [
+          "text-to-image models",
+          "training data",
+          "failure modes",
+          "model analysis"
+        ],
+        "doi": "",
+        "journalName": "ATTRIB 2024",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1211,
+        "object_id": "paper:openreview.vqynf5OzVf",
+        "created_at": "2026-01-24T11:22:21+00:00",
+        "updated_at": "2026-01-24T11:22:44+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.uattvI24Zb": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "uattvI24Zb",
+        "url": "https://openreview.net/forum?id=uattvI24Zb",
+        "title": "OpenReview",
+        "authors": "",
+        "abstract": "Promoting openness in scientific communication and the peer-review process",
+        "timestamp": "2026-01-24T11:22:01.990Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1210,
+        "object_id": "paper:openreview.uattvI24Zb",
+        "created_at": "2026-01-24T11:22:02+00:00",
+        "updated_at": "2026-01-24T11:22:20+00:00",
         "version": 1
       }
     }

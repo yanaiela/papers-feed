@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-24T14:04:07.034836+00:00",
+  "snapshot_time": "2026-01-24T14:05:20.596405+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -42943,6 +42943,30 @@
         "object_id": "paper:openreview.hzbguA9zMJ",
         "created_at": "2026-01-24T14:03:20+00:00",
         "updated_at": "2026-01-24T14:03:41+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2508.07297": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2508.07297",
+        "url": "https://arxiv.org/html/2508.07297v1",
+        "title": "Revisiting Data Attribution for Influence Functions",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-01-24T14:04:37.306Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1216,
+        "object_id": "paper:arxiv.2508.07297",
+        "created_at": "2026-01-24T14:04:37+00:00",
+        "updated_at": "2026-01-24T14:04:56+00:00",
         "version": 1
       }
     }

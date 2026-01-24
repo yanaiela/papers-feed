@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-24T11:01:45.555785+00:00",
+  "snapshot_time": "2026-01-24T11:08:16.372967+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -42649,6 +42649,36 @@
         "object_id": "paper:arxiv.2301.05217",
         "created_at": "2026-01-24T11:00:54+00:00",
         "updated_at": "2026-01-24T11:01:19+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.9XFSbDPmdW": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "9XFSbDPmdW",
+        "url": "https://openreview.net/forum?id=9XFSbDPmdW",
+        "title": "Progress measures for grokking via mechanistic interpretability\ud83d\udcdd",
+        "authors": "Neel Nanda, Lawrence Chan, Tom Lieberum, Jess Smith, Jacob Steinhardt",
+        "abstract": "Neural networks often exhibit emergent behavior in which qualitatively new capabilities that arise from scaling up the number of parameters, training data, or even the number of steps. One approach to understanding emergence is to find the continuous \\textit{progress measures} that underlie the seemingly discontinuous qualitative changes. In this work, we argue that progress measures can be found via mechanistic interpretability---that is, by reverse engineering learned models into components and measuring the progress of each component over the course of training. As a case study, we study small transformers trained on a modular arithmetic tasks with emergent grokking behavior. We fully reverse engineer the algorithm learned by these networks, which uses discrete fourier transforms and trigonometric identities to convert addition to rotation about a circle. After confirming the algorithm via ablation, we then use our understanding of the algorithm to define progress measures that precede the grokking phase transition on this task. We see our result as demonstrating both that it is possible to fully reverse engineer trained networks, and that doing so can be invaluable to understanding their training dynamics. ",
+        "timestamp": "2026-01-24T11:07:29.842Z",
+        "rating": "novote",
+        "publishedDate": "01 Feb 2023",
+        "tags": [
+          "interpretability",
+          "grokking",
+          "progress measures",
+          "mechanistic interpretability",
+          "circuits"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1206,
+        "object_id": "paper:openreview.9XFSbDPmdW",
+        "created_at": "2026-01-24T11:07:30+00:00",
+        "updated_at": "2026-01-24T11:07:50+00:00",
         "version": 1
       }
     }

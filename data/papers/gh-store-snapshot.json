@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-24T15:06:07.751046+00:00",
+  "snapshot_time": "2026-01-24T18:43:10.215730+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -43060,6 +43060,33 @@
         "object_id": "paper:arxiv.1603.02754",
         "created_at": "2026-01-24T15:05:25+00:00",
         "updated_at": "2026-01-24T15:05:46+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2512.16902": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2512.16902",
+        "url": "https://arxiv.org/abs/2512.16902",
+        "title": "In-Context Algebra",
+        "authors": "Eric Todd, Jannik Brinkmann, Rohit Gandikota, David Bau",
+        "abstract": "We investigate the mechanisms that arise when transformers are trained to solve arithmetic on sequences where tokens are variables whose meaning is determined only through their interactions. While prior work has found that transformers develop geometric embeddings that mirror algebraic structure, those previous findings emerge from settings where arithmetic-valued tokens have fixed meanings. We devise a new task in which the assignment of symbols to specific algebraic group elements varies from one sequence to another. Despite this challenging setup, transformers achieve near-perfect accuracy on the task and even generalize to unseen algebraic groups. We develop targeted data distributions to create causal tests of a set of hypothesized mechanisms, and we isolate three mechanisms models consistently learn: commutative copying where a dedicated head copies answers, identity element recognition that distinguishes identity-containing facts, and closure-based cancellation that tracks group membership to constrain valid answers. Complementary to the geometric representations found in fixed-symbol settings, our findings show that models develop symbolic reasoning mechanisms when trained to reason in-context with variables whose meanings are not fixed.",
+        "timestamp": "2026-01-24T18:42:27.595Z",
+        "rating": "novote",
+        "publishedDate": "2025/12/18",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1221,
+        "object_id": "paper:arxiv.2512.16902",
+        "created_at": "2026-01-24T18:42:27+00:00",
+        "updated_at": "2026-01-24T18:42:48+00:00",
         "version": 1
       }
     }

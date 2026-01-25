@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-25T16:36:04.099167+00:00",
+  "snapshot_time": "2026-01-25T16:59:01.512022+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -43309,6 +43309,62 @@
         "object_id": "paper:arxiv.1707.09457",
         "created_at": "2026-01-25T13:38:32+00:00",
         "updated_at": "2026-01-25T13:38:51+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2510.08191": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.08191",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-25T16:58:10.765Z",
+            "data": {
+              "session_id": "session_1769360290492_xj4s3tp",
+              "source_id": "arxiv",
+              "paper_id": "2510.08191",
+              "start_time": "2026-01-25T16:57:54.882Z",
+              "end_time": "2026-01-25T16:58:10.492Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 16
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1227,
+        "object_id": "interactions:arxiv.2510.08191",
+        "created_at": "2026-01-25T16:58:11+00:00",
+        "updated_at": "2026-01-25T16:58:34+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.08191": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.08191",
+        "url": "https://arxiv.org/abs/2510.08191",
+        "title": "Training-Free Group Relative Policy Optimization",
+        "authors": "Yuzheng Cai, Siqi Cai, Yuchen Shi, Zihan Xu, Lichao Chen, Yulei Qin, Xiaoyu Tan, Gang Li, Zongyi Li, Haojia Lin, Yong Mao, Ke Li, Xing Sun",
+        "abstract": "Recent advances in Large Language Model (LLM) agents have demonstrated their promising general capabilities. However, their performance in specialized real-world domains often degrades due to challenges in effectively integrating external tools and specific prompting strategies. While methods like agentic reinforcement learning have been proposed to address this, they typically rely on costly parameter updates, for example, through a process that uses Supervised Fine-Tuning (SFT) followed by a Reinforcement Learning (RL) phase with Group Relative Policy Optimization (GRPO) to alter the output distribution. However, we argue that LLMs can achieve a similar effect on the output distribution by learning experiential knowledge as a token prior, which is a far more lightweight approach that not only addresses practical data scarcity but also avoids the common issue of overfitting. To this end, we propose Training-Free Group Relative Policy Optimization (Training-Free GRPO), a cost-effective solution that enhances LLM agent performance without any parameter updates. Our method leverages the group relative semantic advantage instead of numerical ones within each group of rollouts, iteratively distilling high-quality experiential knowledge during multi-epoch learning on a minimal ground-truth data. Such knowledge serves as the learned token prior, which is seamlessly integrated during LLM API calls to guide model behavior. Experiments on mathematical reasoning and web searching tasks demonstrate that Training-Free GRPO, when applied to DeepSeek-V3.1-Terminus, significantly improves out-of-domain performance. With just a few dozen training samples, Training-Free GRPO outperforms fine-tuned small LLMs with marginal training data and cost.",
+        "timestamp": "2026-01-25T16:57:52.243Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/09",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1226,
+        "object_id": "paper:arxiv.2510.08191",
+        "created_at": "2026-01-25T16:57:52+00:00",
+        "updated_at": "2026-01-25T16:58:13+00:00",
         "version": 1
       }
     }

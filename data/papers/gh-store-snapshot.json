@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-25T06:49:35.117588+00:00",
+  "snapshot_time": "2026-01-25T07:02:34.741331+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -43132,6 +43132,34 @@
         "object_id": "interactions:arxiv.2512.16902",
         "created_at": "2026-01-24T18:42:57+00:00",
         "updated_at": "2026-01-24T18:43:18+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2601.15468": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2601.15468",
+        "url": "https://arxiv.org/abs/2601.15468",
+        "title": "Learning from Synthetic Data: Limitations of ERM",
+        "authors": "Kareem Amin, Alex Bie, Weiwei Kong, Umar Syed, Sergei Vassilvitskii",
+        "abstract": "The prevalence and low cost of LLMs have led to a rise of synthetic content. From review sites to court documents, ``natural'' content has been contaminated by data points that appear similar to natural data, but are in fact LLM-generated. In this work we revisit fundamental learning theory questions in this, now ubiquitous, setting. We model this scenario as a sequence of learning tasks where the input is a mix of natural and synthetic data, and the learning algorithms are oblivious to the origin of any individual example.\nWe study the possibilities and limitations of ERM in this setting. For the problem of estimating the mean of an arbitrary $d$-dimensional distribution, we find that while ERM converges to the true mean, it is outperformed by an algorithm that assigns non-uniform weights to examples from different generations of data. For the PAC learning setting, the disparity is even more stark. We find that ERM does not always converge to the true concept, echoing the model collapse literature. However, we show there are algorithms capable of learning the correct hypothesis for arbitrary VC classes and arbitrary amounts of contamination.",
+        "timestamp": "2026-01-25T07:01:50.191Z",
+        "rating": "novote",
+        "publishedDate": "2026/01/21",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Data Structures and Algorithms (cs.DS)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1223,
+        "object_id": "paper:arxiv.2601.15468",
+        "created_at": "2026-01-25T07:01:50+00:00",
+        "updated_at": "2026-01-25T07:02:11+00:00",
         "version": 1
       }
     }

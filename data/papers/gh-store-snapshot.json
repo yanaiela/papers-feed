@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-27T09:13:01.475583+00:00",
+  "snapshot_time": "2026-01-27T09:30:29.868042+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -44236,6 +44236,122 @@
         "object_id": "interactions:arxiv.2405.09673",
         "created_at": "2026-01-27T09:11:44+00:00",
         "updated_at": "2026-01-27T09:12:37+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.6t0Kwf8": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "6t0Kwf8",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-27T09:29:46.038Z",
+            "data": {
+              "session_id": "session_1769506185331_h9dhbre",
+              "source_id": "openreview",
+              "paper_id": "6t0Kwf8",
+              "start_time": "2026-01-27T09:29:34.816Z",
+              "end_time": "2026-01-27T09:29:45.331Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 11
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1259,
+        "object_id": "interactions:openreview.6t0Kwf8",
+        "created_at": "2026-01-27T09:29:46+00:00",
+        "updated_at": "2026-01-27T09:30:08+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.6t0Kwf8": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "6t0Kwf8",
+        "url": "https://openreview.net/forum?id=6t0Kwf8-jrj",
+        "title": "Editing models with task arithmetic\ud83d\udcdd",
+        "authors": "Gabriel Ilharco, Marco Tulio Ribeiro, Mitchell Wortsman, Ludwig Schmidt, Hannaneh Hajishirzi, Ali Farhadi",
+        "abstract": "Changing how pre-trained models behave---e.g., improving their performance on a downstream task or mitigating biases learned during pre-training---is a common practice when developing machine learning systems. In this work, we propose a new paradigm for steering the behavior of neural networks, centered around task vectors. A task vector specifies a direction in the weight space of a pre-trained model, such that movement in that direction improves performance on the task. We build task vectors by subtracting the weights of a pre-trained model from the weights of the same model after fine-tuning on a task. We show that these task vectors can be modified and combined together through arithmetic operations such as negation and addition, and the behavior of the resulting model is steered accordingly. Moreover, task vectors can be added together to improve performance on multiple tasks at once. Finally, when tasks are linked by an analogy relationship of the form ``A is to B as C is to D\", combining task vectors from three of the tasks can improve performance on the fourth, even when no data from the fourth task is used for training.",
+        "timestamp": "2026-01-27T09:29:35.113Z",
+        "rating": "novote",
+        "publishedDate": "01 Feb 2023",
+        "tags": [
+          "pre-trained models",
+          "model editing",
+          "model patching",
+          "fine-tuning",
+          "transfer learning",
+          "weight interpolation",
+          "merging models"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1258,
+        "object_id": "paper:openreview.6t0Kwf8",
+        "created_at": "2026-01-27T09:29:35+00:00",
+        "updated_at": "2026-01-27T09:29:57+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2310.15916": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.15916",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-27T09:29:34.285Z",
+            "data": {
+              "session_id": "session_1769506173623_hhhhylm",
+              "source_id": "arxiv",
+              "paper_id": "2310.15916",
+              "start_time": "2026-01-27T09:29:12.089Z",
+              "end_time": "2026-01-27T09:29:33.623Z",
+              "heartbeat_count": 4,
+              "duration_seconds": 20,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 22
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1257,
+        "object_id": "interactions:arxiv.2310.15916",
+        "created_at": "2026-01-27T09:29:34+00:00",
+        "updated_at": "2026-01-27T09:29:57+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2310.15916": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.15916",
+        "url": "https://arxiv.org/pdf/2310.15916",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-01-27T09:29:12.536Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1256,
+        "object_id": "paper:arxiv.2310.15916",
+        "created_at": "2026-01-27T09:29:12+00:00",
+        "updated_at": "2026-01-27T09:29:34+00:00",
         "version": 1
       }
     }

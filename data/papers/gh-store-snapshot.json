@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-27T07:26:01.370097+00:00",
+  "snapshot_time": "2026-01-27T08:55:31.980695+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -19197,6 +19197,21 @@
               "idle_seconds": 5,
               "total_elapsed_seconds": 60
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-27T08:54:40.785Z",
+            "data": {
+              "session_id": "session_1769504080780_fcse9d8",
+              "source_id": "arxiv",
+              "paper_id": "2303.14186",
+              "start_time": "2026-01-27T08:54:28.661Z",
+              "end_time": "2026-01-27T08:54:40.780Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 12
+            }
           }
         ]
       },
@@ -19204,7 +19219,7 @@
         "issue_number": 517,
         "object_id": "interactions:arxiv.2303.14186",
         "created_at": "2025-10-27T06:52:34+00:00",
-        "updated_at": "2025-10-27T06:53:03+00:00",
+        "updated_at": "2026-01-27T08:55:02+00:00",
         "version": 1
       }
     },
@@ -43719,6 +43734,102 @@
         "object_id": "paper:arxiv.2601.17036",
         "created_at": "2026-01-27T06:56:28+00:00",
         "updated_at": "2026-01-27T06:56:52+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2501.18887": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2501.18887",
+        "url": "https://arxiv.org/pdf/2501.18887",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-01-27T08:54:28.384Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1239,
+        "object_id": "paper:arxiv.2501.18887",
+        "created_at": "2026-01-27T08:54:28+00:00",
+        "updated_at": "2026-01-27T08:54:49+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2410.18639": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2410.18639",
+        "url": "https://arxiv.org/pdf/2410.18639",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-01-27T08:54:25.926Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1238,
+        "object_id": "paper:arxiv.2410.18639",
+        "created_at": "2026-01-27T08:54:26+00:00",
+        "updated_at": "2026-01-27T08:54:49+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2405.06331": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2405.06331",
+        "url": "https://arxiv.org/pdf/2405.06331",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-01-27T08:54:23.757Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1237,
+        "object_id": "paper:arxiv.2405.06331",
+        "created_at": "2026-01-27T08:54:24+00:00",
+        "updated_at": "2026-01-27T08:54:45+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2507.09424": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2507.09424",
+        "url": "https://arxiv.org/pdf/2507.09424",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-01-27T08:54:19.365Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1236,
+        "object_id": "paper:arxiv.2507.09424",
+        "created_at": "2026-01-27T08:54:19+00:00",
+        "updated_at": "2026-01-27T08:54:44+00:00",
         "version": 1
       }
     }

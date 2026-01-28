@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-28T14:09:52.324613+00:00",
+  "snapshot_time": "2026-01-28T19:25:39.042623+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -44714,6 +44714,34 @@
         "object_id": "interactions:arxiv.2203.11171",
         "created_at": "2026-01-28T14:09:04+00:00",
         "updated_at": "2026-01-28T14:09:27+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.Timsb74vIY": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "Timsb74vIY",
+        "url": "https://openreview.net/forum?id=Timsb74vIY",
+        "title": "Provable Guarantees for Automated Circuit Discovery in Mechanistic Interpretability",
+        "authors": "",
+        "abstract": "*Automated circuit discovery* is a central tool in mechanistic interpretability for identifying the internal components of neural networks responsible for specific behaviors. While prior methods have made significant progress, they typically depend on heuristics or approximations and do not offer provable guarantees over continuous input domains for the resulting circuits. In this work, we leverage recent advances in neural network verification to propose a suite of automated algorithms that yield circuits with *provable guarantees*. We focus on three types of guarantees: (1) *input domain robustness*, ensuring the circuit agrees with the model across a continuous input region; (2) *robust patching*, certifying circuit alignment under continuous patching perturbations; and (3) *minimality*, formalizing and capturing a wide array of various notions of succinctness. Interestingly, we uncover a diverse set of novel theoretical connections among these three families of guarantees, with critical implications for the convergence of our algorithms. Finally, we conduct experiments with state-of-the-art verifiers on various vision models, showing that our algorithms yield circuits with substantially stronger robustness guarantees than standard circuit discovery methods, establishing a principled foundation for provable circuit discovery.",
+        "timestamp": "2026-01-28T19:24:45.760Z",
+        "rating": "novote",
+        "publishedDate": "26 Jan 2026",
+        "tags": [
+          "interpretability",
+          "mechanistic interpretability",
+          "circuit discovery"
+        ],
+        "doi": "",
+        "journalName": "ICLR 2026",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1270,
+        "object_id": "paper:openreview.Timsb74vIY",
+        "created_at": "2026-01-28T19:24:46+00:00",
+        "updated_at": "2026-01-28T19:25:11+00:00",
         "version": 1
       }
     }

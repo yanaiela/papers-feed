@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-29T13:49:38.646050+00:00",
+  "snapshot_time": "2026-01-29T15:44:06.941894+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -44984,6 +44984,34 @@
         "object_id": "paper:openreview.BJLa",
         "created_at": "2026-01-29T08:01:09+00:00",
         "updated_at": "2026-01-29T08:01:38+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.qoVTNydfa7": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "qoVTNydfa7",
+        "url": "https://openreview.net/forum?id=qoVTNydfa7&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICML.cc%2F2026%2FConference%2FAuthors%23your-submissions)",
+        "title": "Category Learning in Language Models from Pretraining Data",
+        "authors": "Jimin Mun, Yanai Elazar, Maarten Sap",
+        "abstract": "Humans easily reason about and learn categories, i.e., groups of entities with common features (e.g., _airplanes are fast_), and apply this knowledge in various contexts (e.g., _red airplanes are still fast_ but _broken airplanes are not fast_). \nDo language models (LMs) exhibit similar patterns of knowledge and reasoning about categories? In this work, we aim to answer this question, by training several 68M parameters LMs from scratch on 2.1M stories, while controlling the categorical data they are trained on.\nOur key results show that (a) models most reliably learn the specific associations in format repeated during training (e.g., \"The pezzdens are fast\") compared to less frequently seen format; (b) generalization to less frequent variations (e.g., \"Red pezzdens are fast\") emerges only after multiple epochs; and  (c) over-generalization (e.g., \"Broken pezzdens are fast\") occurs readily with sufficient repetition, highlighting the importance of training data diversity. Despite the small model scale, we also find that (d) models can simultaneously learn both general associations and their exceptions, suggesting that careful dataset curation can enable more robust category learning.",
+        "timestamp": "2026-01-29T15:43:15.580Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "category learning",
+          "pretraining",
+          "LLMs"
+        ],
+        "doi": "",
+        "journalName": "ICML 2026 Conference Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1281,
+        "object_id": "paper:openreview.qoVTNydfa7",
+        "created_at": "2026-01-29T15:43:16+00:00",
+        "updated_at": "2026-01-29T15:43:40+00:00",
         "version": 1
       }
     }

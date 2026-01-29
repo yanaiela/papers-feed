@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-29T06:07:47.836572+00:00",
+  "snapshot_time": "2026-01-29T08:02:05.158323+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -44854,6 +44854,60 @@
         "object_id": "paper:arxiv.2512.23032",
         "created_at": "2026-01-29T06:06:49+00:00",
         "updated_at": "2026-01-29T06:07:13+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.BJLa": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "BJLa",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-29T08:01:17.862Z",
+            "data": {
+              "session_id": "session_1769673677503_8wvhi8j",
+              "source_id": "openreview",
+              "paper_id": "BJLa",
+              "start_time": "2026-01-29T08:01:10.517Z",
+              "end_time": "2026-01-29T08:01:17.503Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 7
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1280,
+        "object_id": "interactions:openreview.BJLa",
+        "created_at": "2026-01-29T08:01:18+00:00",
+        "updated_at": "2026-01-29T08:01:41+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.BJLa": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "BJLa",
+        "url": "https://openreview.net/forum?id=BJLa_ZC9",
+        "title": "Layer Normalization\ud83d\udcdd",
+        "authors": "Jimmy Lei Ba, Jamie Ryan Kiros, Geoffrey E. Hinton",
+        "abstract": "Training state-of-the-art, deep neural networks is computationally expensive. One way to reduce the training time is to normalize the activities of the neurons. A recently introduced technique called batch normalization uses the distribution of the summed input to a neuron over a mini-batch of training cases to compute a mean and variance which are then used to normalize the summed input to that neuron on each training case. This significantly reduces the training time in feed-forward neural networks. However, the effect of batch normalization is dependent on the mini-batch size and it is not obvious how to apply it to recurrent neural networks. In this paper, we transpose batch normalization into layer normalization by computing the mean and variance used for normalization from all of the summed inputs to the neurons in a layer on a single training case. Like batch normalization, we also give each neuron its own adaptive bias and gain which are applied after the normalization but before the non-linearity. Unlike batch normalization, layer normalization performs exactly the same computation at training and test times. It is also straightforward to apply to recurrent neural networks by computing the normalization statistics separately at each time step. Layer normalization is very effective at stabilizing the hidden state dynamics in recurrent networks. Empirically, we show that layer normalization can substantially reduce the training time compared with previously published techniques.",
+        "timestamp": "2026-01-29T08:01:09.057Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1279,
+        "object_id": "paper:openreview.BJLa",
+        "created_at": "2026-01-29T08:01:09+00:00",
+        "updated_at": "2026-01-29T08:01:38+00:00",
         "version": 1
       }
     }

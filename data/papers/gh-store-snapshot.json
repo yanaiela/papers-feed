@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-28T19:30:36.535892+00:00",
+  "snapshot_time": "2026-01-29T06:07:47.836572+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -44796,6 +44796,64 @@
         "object_id": "paper:arxiv.2502.03391",
         "created_at": "2026-01-28T19:29:12+00:00",
         "updated_at": "2026-01-28T19:29:37+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2512.23032": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2512.23032",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-29T06:06:58.155Z",
+            "data": {
+              "session_id": "session_1769666817613_qgtmrxj",
+              "source_id": "arxiv",
+              "paper_id": "2512.23032",
+              "start_time": "2026-01-29T06:06:49.035Z",
+              "end_time": "2026-01-29T06:06:57.613Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 9
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1278,
+        "object_id": "interactions:arxiv.2512.23032",
+        "created_at": "2026-01-29T06:06:58+00:00",
+        "updated_at": "2026-01-29T06:07:21+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2512.23032": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2512.23032",
+        "url": "https://www.arxiv.org/abs/2512.23032",
+        "title": "Is Chain-of-Thought Really Not Explainability? Chain-of-Thought Can Be Faithful without Hint Verbalization",
+        "authors": "Kerem Zaman, Shashank Srivastava",
+        "abstract": "Recent work, using the Biasing Features metric, labels a CoT as unfaithful if it omits a prompt-injected hint that affected the prediction. We argue this metric confuses unfaithfulness with incompleteness, the lossy compression needed to turn distributed transformer computation into a linear natural language narrative. On multi-hop reasoning tasks with Llama-3 and Gemma-3, many CoTs flagged as unfaithful by Biasing Features are judged faithful by other metrics, exceeding 50% in some models. With a new faithful@k metric, we show that larger inference-time token budgets greatly increase hint verbalization (up to 90% in some settings), suggesting much apparent unfaithfulness is due to tight token limits. Using Causal Mediation Analysis, we further show that even non-verbalized hints can causally mediate prediction changes through the CoT. We therefore caution against relying solely on hint-based evaluations and advocate a broader interpretability toolkit, including causal mediation and corruption-based metrics.",
+        "timestamp": "2026-01-29T06:06:49.336Z",
+        "rating": "novote",
+        "publishedDate": "2025/12/28",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1277,
+        "object_id": "paper:arxiv.2512.23032",
+        "created_at": "2026-01-29T06:06:49+00:00",
+        "updated_at": "2026-01-29T06:07:13+00:00",
         "version": 1
       }
     }

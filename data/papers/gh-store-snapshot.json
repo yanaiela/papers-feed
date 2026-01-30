@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-30T10:32:53.425038+00:00",
+  "snapshot_time": "2026-01-30T10:35:44.998573+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -45982,6 +45982,33 @@
         "object_id": "interactions:arxiv.2304.14997",
         "created_at": "2026-01-30T10:30:45+00:00",
         "updated_at": "2026-01-30T10:31:07+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2202.07646": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2202.07646",
+        "url": "https://arxiv.org/abs/2202.07646",
+        "title": "Quantifying Memorization Across Neural Language Models",
+        "authors": "Nicholas Carlini, Daphne Ippolito, Matthew Jagielski, Katherine Lee, Florian Tramer, Chiyuan Zhang",
+        "abstract": "Large language models (LMs) have been shown to memorize parts of their training data, and when prompted appropriately, they will emit the memorized training data verbatim. This is undesirable because memorization violates privacy (exposing user data), degrades utility (repeated easy-to-memorize text is often low quality), and hurts fairness (some texts are memorized over others).\nWe describe three log-linear relationships that quantify the degree to which LMs emit memorized training data. Memorization significantly grows as we increase (1) the capacity of a model, (2) the number of times an example has been duplicated, and (3) the number of tokens of context used to prompt the model. Surprisingly, we find the situation becomes more complicated when generalizing these results across model families. On the whole, we find that memorization in LMs is more prevalent than previously believed and will likely get worse as models continues to scale, at least without active mitigations.",
+        "timestamp": "2026-01-30T10:34:56.144Z",
+        "rating": "novote",
+        "publishedDate": "2022/02/15",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1316,
+        "object_id": "paper:arxiv.2202.07646",
+        "created_at": "2026-01-30T10:34:56+00:00",
+        "updated_at": "2026-01-30T10:35:17+00:00",
         "version": 1
       }
     }

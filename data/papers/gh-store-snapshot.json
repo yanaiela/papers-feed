@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-30T10:18:19.916596+00:00",
+  "snapshot_time": "2026-01-30T10:20:00.634166+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -45293,13 +45293,29 @@
       "data": {
         "sourceId": "arxiv",
         "paperId": "1909.12434",
-        "interactions": []
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-30T10:18:53.107Z",
+            "data": {
+              "session_id": "session_1769768332530_k8d8dj0",
+              "source_id": "arxiv",
+              "paper_id": "1909.12434",
+              "start_time": "2026-01-30T10:18:00.414Z",
+              "end_time": "2026-01-30T10:18:52.530Z",
+              "heartbeat_count": 10,
+              "duration_seconds": 50,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 52
+            }
+          }
+        ]
       },
       "meta": {
         "issue_number": 1304,
         "object_id": "interactions:arxiv.1909.12434",
         "created_at": "2026-01-30T10:13:53+00:00",
-        "updated_at": "2026-01-30T10:13:55+00:00",
+        "updated_at": "2026-01-30T10:19:11+00:00",
         "version": 1
       }
     },
@@ -45675,6 +45691,32 @@
         "object_id": "paper:arxiv.1805.01070",
         "created_at": "2026-01-30T10:16:26+00:00",
         "updated_at": "2026-01-30T10:16:47+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2004.02709": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2004.02709",
+        "url": "https://arxiv.org/abs/2004.02709",
+        "title": "Evaluating Models' Local Decision Boundaries via Contrast Sets",
+        "authors": "Matt Gardner, Yoav Artzi, Victoria Basmova, Jonathan Berant, Ben Bogin, Sihao Chen, Pradeep Dasigi, Dheeru Dua, Yanai Elazar, Ananth Gottumukkala, Nitish Gupta, Hanna Hajishirzi, Gabriel Ilharco, Daniel Khashabi, Kevin Lin, Jiangming Liu, Nelson F. Liu, Phoebe Mulcaire, Qiang Ning, Sameer Singh, Noah A. Smith, Sanjay Subramanian, Reut Tsarfaty, Eric Wallace, Ally Zhang, Ben Zhou",
+        "abstract": "Standard test sets for supervised learning evaluate in-distribution generalization. Unfortunately, when a dataset has systematic gaps (e.g., annotation artifacts), these evaluations are misleading: a model can learn simple decision rules that perform well on the test set but do not capture a dataset's intended capabilities. We propose a new annotation paradigm for NLP that helps to close systematic gaps in the test data. In particular, after a dataset is constructed, we recommend that the dataset authors manually perturb the test instances in small but meaningful ways that (typically) change the gold label, creating contrast sets. Contrast sets provide a local view of a model's decision boundary, which can be used to more accurately evaluate a model's true linguistic capabilities. We demonstrate the efficacy of contrast sets by creating them for 10 diverse NLP datasets (e.g., DROP reading comprehension, UD parsing, IMDb sentiment analysis). Although our contrast sets are not explicitly adversarial, model performance is significantly lower on them than on the original test sets---up to 25\\% in some cases. We release our contrast sets as new evaluation benchmarks and encourage future dataset construction efforts to follow similar annotation processes.",
+        "timestamp": "2026-01-30T10:19:06.708Z",
+        "rating": "novote",
+        "publishedDate": "2020/04/06",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1306,
+        "object_id": "paper:arxiv.2004.02709",
+        "created_at": "2026-01-30T10:19:07+00:00",
+        "updated_at": "2026-01-30T10:19:30+00:00",
         "version": 1
       }
     }

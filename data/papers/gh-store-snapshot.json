@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-30T10:00:49.551093+00:00",
+  "snapshot_time": "2026-01-30T10:08:06.500164+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -45149,6 +45149,21 @@
               "idle_seconds": 3,
               "total_elapsed_seconds": 18
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-30T10:06:55.667Z",
+            "data": {
+              "session_id": "session_1769767614815_awaitfn",
+              "source_id": "arxiv",
+              "paper_id": "2006.00995",
+              "start_time": "2026-01-30T10:05:22.127Z",
+              "end_time": "2026-01-30T10:06:54.815Z",
+              "heartbeat_count": 18,
+              "duration_seconds": 90,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 93
+            }
           }
         ]
       },
@@ -45156,7 +45171,7 @@
         "issue_number": 1286,
         "object_id": "interactions:arxiv.2006.00995",
         "created_at": "2026-01-29T21:15:01+00:00",
-        "updated_at": "2026-01-29T21:15:25+00:00",
+        "updated_at": "2026-01-30T10:07:17+00:00",
         "version": 1
       }
     },
@@ -45215,6 +45230,34 @@
         "object_id": "interactions:arxiv.2310.02207",
         "created_at": "2026-01-30T09:59:41+00:00",
         "updated_at": "2026-01-30T10:00:04+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.1602.04938": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1602.04938",
+        "url": "https://arxiv.org/abs/1602.04938",
+        "title": "\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier",
+        "authors": "Marco Tulio Ribeiro, Sameer Singh, Carlos Guestrin",
+        "abstract": "Despite widespread adoption, machine learning models remain mostly black boxes. Understanding the reasons behind predictions is, however, quite important in assessing trust, which is fundamental if one plans to take action based on a prediction, or when choosing whether to deploy a new model. Such understanding also provides insights into the model, which can be used to transform an untrustworthy model or prediction into a trustworthy one. In this work, we propose LIME, a novel explanation technique that explains the predictions of any classifier in an interpretable and faithful manner, by learning an interpretable model locally around the prediction. We also propose a method to explain models by presenting representative individual predictions and their explanations in a non-redundant way, framing the task as a submodular optimization problem. We demonstrate the flexibility of these methods by explaining different models for text (e.g. random forests) and image classification (e.g. neural networks). We show the utility of explanations via novel experiments, both simulated and with human subjects, on various scenarios that require trust: deciding if one should trust a prediction, choosing between models, improving an untrustworthy classifier, and identifying why a classifier should not be trusted.",
+        "timestamp": "2026-01-30T10:07:23.845Z",
+        "rating": "novote",
+        "publishedDate": "2016/02/16",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1290,
+        "object_id": "paper:arxiv.1602.04938",
+        "created_at": "2026-01-30T10:07:24+00:00",
+        "updated_at": "2026-01-30T10:07:43+00:00",
         "version": 1
       }
     }

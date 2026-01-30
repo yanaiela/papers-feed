@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-30T10:50:50.605494+00:00",
+  "snapshot_time": "2026-01-30T11:24:43.031687+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -46359,6 +46359,44 @@
         "object_id": "interactions:arxiv.2407.10827",
         "created_at": "2026-01-30T10:49:22+00:00",
         "updated_at": "2026-01-30T10:49:46+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.ap71o6yXUQ": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "ap71o6yXUQ",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1330,
+        "object_id": "interactions:openreview.ap71o6yXUQ",
+        "created_at": "2026-01-30T11:24:17+00:00",
+        "updated_at": "2026-01-30T11:24:19+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.ap71o6yXUQ": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "ap71o6yXUQ",
+        "url": "https://openreview.net/forum?id=ap71o6yXUQ",
+        "title": "How to visualize training dynamics in neural networks",
+        "authors": "Michael Y. Hu, Shreyans Jain, Sangam Chaulagain, Naomi Saphra",
+        "abstract": "Deep learning practitioners typically rely on training and validation loss curves to understand neural network training dynamics. This blog post demonstrates how classical data analysis tools like PCA and hidden Markov models can reveal how neural networks learn different data subsets and identify distinct training phases. We show that traditional statistical methods remain valuable for understanding the training dynamics of modern deep learning systems.",
+        "timestamp": "2026-01-30T11:23:54.036Z",
+        "rating": "novote",
+        "publishedDate": "23 Jan 2025",
+        "tags": [],
+        "doi": "",
+        "journalName": "ICLR 2025 Blogpost Track",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1329,
+        "object_id": "paper:openreview.ap71o6yXUQ",
+        "created_at": "2026-01-30T11:23:54+00:00",
+        "updated_at": "2026-01-30T11:24:17+00:00",
         "version": 1
       }
     }

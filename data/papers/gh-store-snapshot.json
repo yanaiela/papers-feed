@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-30T10:08:06.500164+00:00",
+  "snapshot_time": "2026-01-30T10:10:47.869626+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -45258,6 +45258,34 @@
         "object_id": "paper:arxiv.1602.04938",
         "created_at": "2026-01-30T10:07:24+00:00",
         "updated_at": "2026-01-30T10:07:43+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.1706.03825": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1706.03825",
+        "url": "https://arxiv.org/abs/1706.03825",
+        "title": "SmoothGrad: removing noise by adding noise",
+        "authors": "Daniel Smilkov, Nikhil Thorat, Been Kim, Fernanda Vi\u00e9gas, Martin Wattenberg",
+        "abstract": "Explaining the output of a deep network remains a challenge. In the case of an image classifier, one type of explanation is to identify pixels that strongly influence the final decision. A starting point for this strategy is the gradient of the class score function with respect to the input image. This gradient can be interpreted as a sensitivity map, and there are several techniques that elaborate on this basic idea. This paper makes two contributions: it introduces SmoothGrad, a simple method that can help visually sharpen gradient-based sensitivity maps, and it discusses lessons in the visualization of these maps. We publish the code for our experiments and a website with our results.",
+        "timestamp": "2026-01-30T10:10:00.143Z",
+        "rating": "novote",
+        "publishedDate": "2017/06/12",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Computer Vision and Pattern Recognition (cs.CV)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1291,
+        "object_id": "paper:arxiv.1706.03825",
+        "created_at": "2026-01-30T10:10:00+00:00",
+        "updated_at": "2026-01-30T10:10:24+00:00",
         "version": 1
       }
     }

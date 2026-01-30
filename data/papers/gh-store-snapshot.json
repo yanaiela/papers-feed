@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-30T12:17:14.698677+00:00",
+  "snapshot_time": "2026-01-30T12:18:03.185222+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -46641,6 +46641,32 @@
         "object_id": "paper:arxiv.1705.07874",
         "created_at": "2026-01-30T12:16:30+00:00",
         "updated_at": "2026-01-30T12:16:52+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.1909.01066": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1909.01066",
+        "url": "https://arxiv.org/abs/1909.01066",
+        "title": "Language Models as Knowledge Bases?",
+        "authors": "Fabio Petroni, Tim Rockt\u00e4schel, Patrick Lewis, Anton Bakhtin, Yuxiang Wu, Alexander H. Miller, Sebastian Riedel",
+        "abstract": "Recent progress in pretraining language models on large textual corpora led to a surge of improvements for downstream NLP tasks. Whilst learning linguistic knowledge, these models may also be storing relational knowledge present in the training data, and may be able to answer queries structured as \"fill-in-the-blank\" cloze statements. Language models have many advantages over structured knowledge bases: they require no schema engineering, allow practitioners to query about an open class of relations, are easy to extend to more data, and require no human supervision to train. We present an in-depth analysis of the relational knowledge already present (without fine-tuning) in a wide range of state-of-the-art pretrained language models. We find that (i) without fine-tuning, BERT contains relational knowledge competitive with traditional NLP methods that have some access to oracle knowledge, (ii) BERT also does remarkably well on open-domain question answering against a supervised baseline, and (iii) certain types of factual knowledge are learned much more readily than others by standard language model pretraining approaches. The surprisingly strong ability of these models to recall factual knowledge without any fine-tuning demonstrates their potential as unsupervised open-domain QA systems. The code to reproduce our analysis is available at this https URL.",
+        "timestamp": "2026-01-30T12:17:13.674Z",
+        "rating": "novote",
+        "publishedDate": "2019/09/03",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1340,
+        "object_id": "paper:arxiv.1909.01066",
+        "created_at": "2026-01-30T12:17:14+00:00",
+        "updated_at": "2026-01-30T12:17:37+00:00",
         "version": 1
       }
     }

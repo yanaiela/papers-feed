@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-29T21:16:00.237444+00:00",
+  "snapshot_time": "2026-01-30T09:59:42.997052+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -45157,6 +45157,34 @@
         "object_id": "interactions:arxiv.2006.00995",
         "created_at": "2026-01-29T21:15:01+00:00",
         "updated_at": "2026-01-29T21:15:25+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2310.02207": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.02207",
+        "url": "https://arxiv.org/abs/2310.02207",
+        "title": "Language Models Represent Space and Time",
+        "authors": "Wes Gurnee, Max Tegmark",
+        "abstract": "The capabilities of large language models (LLMs) have sparked debate over whether such systems just learn an enormous collection of superficial statistics or a set of more coherent and grounded representations that reflect the real world. We find evidence for the latter by analyzing the learned representations of three spatial datasets (world, US, NYC places) and three temporal datasets (historical figures, artworks, news headlines) in the Llama-2 family of models. We discover that LLMs learn linear representations of space and time across multiple scales. These representations are robust to prompting variations and unified across different entity types (e.g. cities and landmarks). In addition, we identify individual \"space neurons\" and \"time neurons\" that reliably encode spatial and temporal coordinates. While further investigation is needed, our results suggest modern LLMs learn rich spatiotemporal representations of the real world and possess basic ingredients of a world model.",
+        "timestamp": "2026-01-30T09:58:57.292Z",
+        "rating": "novote",
+        "publishedDate": "2023/10/03",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1287,
+        "object_id": "paper:arxiv.2310.02207",
+        "created_at": "2026-01-30T09:58:57+00:00",
+        "updated_at": "2026-01-30T09:59:17+00:00",
         "version": 1
       }
     }

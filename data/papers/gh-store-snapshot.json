@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-30T11:24:43.031687+00:00",
+  "snapshot_time": "2026-01-30T11:26:13.172420+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -46397,6 +46397,30 @@
         "object_id": "paper:openreview.ap71o6yXUQ",
         "created_at": "2026-01-30T11:23:54+00:00",
         "updated_at": "2026-01-30T11:24:17+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.NE2xXWo0LF": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "NE2xXWo0LF",
+        "url": "https://openreview.net/forum?id=NE2xXWo0LF",
+        "title": "Latent State Models of Training Dynamics",
+        "authors": "Michael Y. Hu, Angelica Chen, Naomi Saphra, Kyunghyun Cho",
+        "abstract": "The impact of randomness on model training is poorly understood. How do differences in data order and initialization actually manifest in the model, such that some training runs outperform others or converge faster? Furthermore, how can we interpret the resulting training dynamics and the phase transitions that characterize different trajectories? To understand the effect of randomness on the dynamics and outcomes of neural network training, we train models multiple times with different random seeds and compute a variety of metrics throughout training, such as the $L_2$ norm, mean, and variance of the neural network's weights. We then fit a hidden Markov model (HMM) over the resulting sequences of metrics. The HMM represents training as a stochastic process of transitions between latent states, providing an intuitive overview of significant changes during training. Using our method, we produce a low-dimensional, discrete representation of training dynamics on grokking tasks, image classification, and masked language modeling. We use the HMM representation to study phase transitions and identify latent \"detour\" states that slow down convergence.",
+        "timestamp": "2026-01-30T11:25:26.832Z",
+        "rating": "novote",
+        "publishedDate": "21 Nov 2023",
+        "tags": [],
+        "doi": "",
+        "journalName": "Accepted by TMLR",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1331,
+        "object_id": "paper:openreview.NE2xXWo0LF",
+        "created_at": "2026-01-30T11:25:27+00:00",
+        "updated_at": "2026-01-30T11:25:46+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-30T11:34:22.641338+00:00",
+  "snapshot_time": "2026-01-30T12:17:14.698677+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -46613,6 +46613,34 @@
         "object_id": "paper:arxiv.1902.01007",
         "created_at": "2026-01-30T11:33:26+00:00",
         "updated_at": "2026-01-30T11:33:47+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.1705.07874": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1705.07874",
+        "url": "https://arxiv.org/abs/1705.07874",
+        "title": "A Unified Approach to Interpreting Model Predictions",
+        "authors": "Scott Lundberg, Su-In Lee",
+        "abstract": "Understanding why a model makes a certain prediction can be as crucial as the prediction's accuracy in many applications. However, the highest accuracy for large modern datasets is often achieved by complex models that even experts struggle to interpret, such as ensemble or deep learning models, creating a tension between accuracy and interpretability. In response, various methods have recently been proposed to help users interpret the predictions of complex models, but it is often unclear how these methods are related and when one method is preferable over another. To address this problem, we present a unified framework for interpreting predictions, SHAP (SHapley Additive exPlanations). SHAP assigns each feature an importance value for a particular prediction. Its novel components include: (1) the identification of a new class of additive feature importance measures, and (2) theoretical results showing there is a unique solution in this class with a set of desirable properties. The new class unifies six existing methods, notable because several recent methods in the class lack the proposed desirable properties. Based on insights from this unification, we present new methods that show improved computational performance and/or better consistency with human intuition than previous approaches.",
+        "timestamp": "2026-01-30T12:16:29.874Z",
+        "rating": "novote",
+        "publishedDate": "2017/05/22",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1339,
+        "object_id": "paper:arxiv.1705.07874",
+        "created_at": "2026-01-30T12:16:30+00:00",
+        "updated_at": "2026-01-30T12:16:52+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-31T17:23:25.374469+00:00",
+  "snapshot_time": "2026-01-31T18:32:30.354928+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -46821,6 +46821,47 @@
         "object_id": "paper:arxiv.2601.17958",
         "created_at": "2026-01-31T17:17:53+00:00",
         "updated_at": "2026-01-31T17:18:13+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2305.18793": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2305.18793",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1348,
+        "object_id": "interactions:arxiv.2305.18793",
+        "created_at": "2026-01-31T18:31:46+00:00",
+        "updated_at": "2026-01-31T18:31:48+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2305.18793": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2305.18793",
+        "url": "https://arxiv.org/abs/2305.18793",
+        "title": "A First Course in Causal Inference",
+        "authors": "Peng Ding",
+        "abstract": "I developed the lecture notes based on my ``Causal Inference'' course at the University of California Berkeley over the past seven years. Since half of the students were undergraduates, my lecture notes only required basic knowledge of probability theory, statistical inference, and linear and logistic regressions.",
+        "timestamp": "2026-01-31T18:31:38.476Z",
+        "rating": "novote",
+        "publishedDate": "2023/05/30",
+        "tags": [
+          "Methodology (stat.ME)",
+          "Applications (stat.AP)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1346,
+        "object_id": "paper:arxiv.2305.18793",
+        "created_at": "2026-01-31T18:31:38+00:00",
+        "updated_at": "2026-01-31T18:32:00+00:00",
         "version": 1
       }
     }

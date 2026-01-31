@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-31T18:33:33.391619+00:00",
+  "snapshot_time": "2026-01-31T18:44:35.949000+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -46878,6 +46878,60 @@
         "object_id": "paper:arxiv.2305.18793",
         "created_at": "2026-01-31T18:31:38+00:00",
         "updated_at": "2026-01-31T18:32:00+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2405.08793": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2405.08793",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-31T18:43:41.752Z",
+            "data": {
+              "session_id": "session_1769885021180_7zrmsm4",
+              "source_id": "arxiv",
+              "paper_id": "2405.08793",
+              "start_time": "2026-01-31T18:43:33.241Z",
+              "end_time": "2026-01-31T18:43:41.180Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1350,
+        "object_id": "interactions:arxiv.2405.08793",
+        "created_at": "2026-01-31T18:43:42+00:00",
+        "updated_at": "2026-01-31T18:44:06+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2405.08793": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2405.08793",
+        "url": "https://arxiv.org/html/2405.08793v1",
+        "title": "A Brief Introduction to Causal Inference in Machine Learning",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-01-31T18:43:33.599Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1349,
+        "object_id": "paper:arxiv.2405.08793",
+        "created_at": "2026-01-31T18:43:33+00:00",
+        "updated_at": "2026-01-31T18:43:56+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-31T19:11:28.763412+00:00",
+  "snapshot_time": "2026-01-31T19:31:44.133940+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -46977,6 +46977,63 @@
         "object_id": "paper:arxiv.2405.08793",
         "created_at": "2026-01-31T18:43:33+00:00",
         "updated_at": "2026-01-31T18:43:56+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2102.11107": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2102.11107",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-01-31T19:31:00.597Z",
+            "data": {
+              "session_id": "session_1769887860586_btpyucc",
+              "source_id": "arxiv",
+              "paper_id": "2102.11107",
+              "start_time": "2026-01-31T19:30:49.835Z",
+              "end_time": "2026-01-31T19:31:00.586Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 11
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1352,
+        "object_id": "interactions:arxiv.2102.11107",
+        "created_at": "2026-01-31T19:31:01+00:00",
+        "updated_at": "2026-01-31T19:31:23+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2102.11107": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2102.11107",
+        "url": "https://arxiv.org/abs/2102.11107",
+        "title": "Towards Causal Representation Learning",
+        "authors": "Bernhard Sch\u00f6lkopf, Francesco Locatello, Stefan Bauer, Nan Rosemary Ke, Nal Kalchbrenner, Anirudh Goyal, Yoshua Bengio",
+        "abstract": "The two fields of machine learning and graphical causality arose and developed separately. However, there is now cross-pollination and increasing interest in both fields to benefit from the advances of the other. In the present paper, we review fundamental concepts of causal inference and relate them to crucial open problems of machine learning, including transfer and generalization, thereby assaying how causality can contribute to modern machine learning research. This also applies in the opposite direction: we note that most work in causality starts from the premise that the causal variables are given. A central problem for AI and causality is, thus, causal representation learning, the discovery of high-level causal variables from low-level observations. Finally, we delineate some implications of causality for machine learning and propose key research areas at the intersection of both communities.",
+        "timestamp": "2026-01-31T19:30:45.911Z",
+        "rating": "novote",
+        "publishedDate": "2021/02/22",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1351,
+        "object_id": "paper:arxiv.2102.11107",
+        "created_at": "2026-01-31T19:30:46+00:00",
+        "updated_at": "2026-01-31T19:31:03+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-01T13:18:44.960190+00:00",
+  "snapshot_time": "2026-02-01T14:15:32.074088+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -47316,6 +47316,33 @@
         "object_id": "interactions:arxiv.2601.22047",
         "created_at": "2026-02-01T12:41:47+00:00",
         "updated_at": "2026-02-01T12:42:08+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2601.20834": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2601.20834",
+        "url": "https://arxiv.org/abs/2601.20834",
+        "title": "Linear representations in language models can change dramatically over a conversation",
+        "authors": "Andrew Kyle Lampinen, Yuxuan Li, Eghbal Hosseini, Sangnie Bhardwaj, Murray Shanahan",
+        "abstract": "Language model representations often contain linear directions that correspond to high-level concepts. Here, we study the dynamics of these representations: how representations evolve along these dimensions within the context of (simulated) conversations. We find that linear representations can change dramatically over a conversation; for example, information that is represented as factual at the beginning of a conversation can be represented as non-factual at the end and vice versa. These changes are content-dependent; while representations of conversation-relevant information may change, generic information is generally preserved. These changes are robust even for dimensions that disentangle factuality from more superficial response patterns, and occur across different model families and layers of the model. These representation changes do not require on-policy conversations; even replaying a conversation script written by an entirely different model can produce similar changes. However, adaptation is much weaker from simply having a sci-fi story in context that is framed more explicitly as such. We also show that steering along a representational direction can have dramatically different effects at different points in a conversation. These results are consistent with the idea that representations may evolve in response to the model playing a particular role that is cued by a conversation. Our findings may pose challenges for interpretability and steering -- in particular, they imply that it may be misleading to use static interpretations of features or directions, or probes that assume a particular range of features consistently corresponds to a particular ground-truth value. However, these types of representational dynamics also point to exciting new research directions for understanding how models adapt to context.",
+        "timestamp": "2026-02-01T14:14:47.270Z",
+        "rating": "novote",
+        "publishedDate": "2026/01/28",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1361,
+        "object_id": "paper:arxiv.2601.20834",
+        "created_at": "2026-02-01T14:14:47+00:00",
+        "updated_at": "2026-02-01T14:15:09+00:00",
         "version": 1
       }
     }

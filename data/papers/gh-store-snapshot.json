@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-01-31T19:31:44.133940+00:00",
+  "snapshot_time": "2026-02-01T06:45:49.509043+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -47034,6 +47034,34 @@
         "object_id": "paper:arxiv.2102.11107",
         "created_at": "2026-01-31T19:30:46+00:00",
         "updated_at": "2026-01-31T19:31:03+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2501.09223": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2501.09223",
+        "url": "https://arxiv.org/abs/2501.09223",
+        "title": "Foundations of Large Language Models",
+        "authors": "Tong Xiao, Jingbo Zhu",
+        "abstract": "This is a book about large language models. As indicated by the title, it primarily focuses on foundational concepts rather than comprehensive coverage of all cutting-edge technologies. The book is structured into five main chapters, each exploring a key area: pre-training, generative models, prompting, alignment, and inference. It is intended for college students, professionals, and practitioners in natural language processing and related fields, and can serve as a reference for anyone interested in large language models.",
+        "timestamp": "2026-02-01T06:45:02.310Z",
+        "rating": "novote",
+        "publishedDate": "2025/01/16",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1353,
+        "object_id": "paper:arxiv.2501.09223",
+        "created_at": "2026-02-01T06:45:02+00:00",
+        "updated_at": "2026-02-01T06:45:26+00:00",
         "version": 1
       }
     }

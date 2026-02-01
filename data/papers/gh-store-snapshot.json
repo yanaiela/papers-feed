@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-01T18:38:19.092682+00:00",
+  "snapshot_time": "2026-02-01T18:41:33.002832+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -47712,6 +47712,21 @@
               "idle_seconds": 3,
               "total_elapsed_seconds": 13
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-01T18:40:39.717Z",
+            "data": {
+              "session_id": "session_1769971239707_kgc378h",
+              "source_id": "arxiv",
+              "paper_id": "2409.10594",
+              "start_time": "2026-02-01T18:40:19.753Z",
+              "end_time": "2026-02-01T18:40:39.707Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 5,
+              "total_elapsed_seconds": 20
+            }
           }
         ]
       },
@@ -47719,7 +47734,7 @@
         "issue_number": 1382,
         "object_id": "interactions:arxiv.2409.10594",
         "created_at": "2026-02-01T18:37:15+00:00",
-        "updated_at": "2026-02-01T18:37:36+00:00",
+        "updated_at": "2026-02-01T18:40:57+00:00",
         "version": 1
       }
     },
@@ -47750,6 +47765,35 @@
         "object_id": "interactions:arxiv.2103.03404",
         "created_at": "2026-02-01T18:37:02+00:00",
         "updated_at": "2026-02-01T18:37:26+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2404.19756": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2404.19756",
+        "url": "https://arxiv.org/abs/2404.19756",
+        "title": "KAN: Kolmogorov-Arnold Networks",
+        "authors": "Ziming Liu, Yixuan Wang, Sachin Vaidya, Fabian Ruehle, James Halverson, Marin Solja\u010di\u0107, Thomas Y. Hou, Max Tegmark",
+        "abstract": "Inspired by the Kolmogorov-Arnold representation theorem, we propose Kolmogorov-Arnold Networks (KANs) as promising alternatives to Multi-Layer Perceptrons (MLPs). While MLPs have fixed activation functions on nodes (\"neurons\"), KANs have learnable activation functions on edges (\"weights\"). KANs have no linear weights at all -- every weight parameter is replaced by a univariate function parametrized as a spline. We show that this seemingly simple change makes KANs outperform MLPs in terms of accuracy and interpretability. For accuracy, much smaller KANs can achieve comparable or better accuracy than much larger MLPs in data fitting and PDE solving. Theoretically and empirically, KANs possess faster neural scaling laws than MLPs. For interpretability, KANs can be intuitively visualized and can easily interact with human users. Through two examples in mathematics and physics, KANs are shown to be useful collaborators helping scientists (re)discover mathematical and physical laws. In summary, KANs are promising alternatives for MLPs, opening opportunities for further improving today's deep learning models which rely heavily on MLPs.",
+        "timestamp": "2026-02-01T18:40:42.290Z",
+        "rating": "novote",
+        "publishedDate": "2024/04/30",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1383,
+        "object_id": "paper:arxiv.2404.19756",
+        "created_at": "2026-02-01T18:40:42+00:00",
+        "updated_at": "2026-02-01T18:41:01+00:00",
         "version": 1
       }
     }

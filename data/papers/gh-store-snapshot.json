@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-01T11:22:03.166557+00:00",
+  "snapshot_time": "2026-02-01T11:38:55.867052+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -47146,6 +47146,32 @@
         "object_id": "interactions:arxiv.2407.11438",
         "created_at": "2026-02-01T11:21:18+00:00",
         "updated_at": "2026-02-01T11:21:39+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2407.12404": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2407.12404",
+        "url": "https://arxiv.org/abs/2407.12404",
+        "title": "Analyzing the Generalization and Reliability of Steering Vectors",
+        "authors": "Daniel Tan, David Chanin, Aengus Lynch, Dimitrios Kanoulas, Brooks Paige, Adria Garriga-Alonso, Robert Kirk",
+        "abstract": "Steering vectors (SVs) have been proposed as an effective approach to adjust language model behaviour at inference time by intervening on intermediate model activations. They have shown promise in terms of improving both capabilities and model alignment. However, the reliability and generalisation properties of this approach are unknown. In this work, we rigorously investigate these properties, and show that steering vectors have substantial limitations both in- and out-of-distribution. In-distribution, steerability is highly variable across different inputs. Depending on the concept, spurious biases can substantially contribute to how effective steering is for each input, presenting a challenge for the widespread use of steering vectors. Out-of-distribution, while steering vectors often generalise well, for several concepts they are brittle to reasonable changes in the prompt, resulting in them failing to generalise well. Overall, our findings show that while steering can work well in the right circumstances, there remain technical difficulties of applying steering vectors to guide models' behaviour at scale. Our code is available at this https URL",
+        "timestamp": "2026-02-01T11:38:13.911Z",
+        "rating": "novote",
+        "publishedDate": "2024/07/17",
+        "tags": [
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1357,
+        "object_id": "paper:arxiv.2407.12404",
+        "created_at": "2026-02-01T11:38:14+00:00",
+        "updated_at": "2026-02-01T11:38:31+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-02T15:21:03.705447+00:00",
+  "snapshot_time": "2026-02-02T17:53:24.989422+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -48336,6 +48336,33 @@
         "object_id": "paper:arxiv.2308.08155",
         "created_at": "2026-02-02T14:32:16+00:00",
         "updated_at": "2026-02-02T14:32:36+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2505.04870": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.04870",
+        "url": "https://arxiv.org/abs/2505.04870",
+        "title": "Being polite is not enough (and other limits of theory combination)",
+        "authors": "Guilherme V. Toledo, Benjamin Przybocki, Yoni Zohar",
+        "abstract": "In the Nelson-Oppen combination method for satisfiability modulo theories, the combined theories must be stably infinite; in gentle combination, one theory has to be gentle, and the other has to satisfy a similar yet weaker property; in shiny combination, only one has to be shiny (smooth, with a computable minimal model function and the finite model property); and for polite combination, only one has to be strongly polite (smooth and strongly finitely witnessable). For each combination method, we prove that if any of its assumptions are removed, then there is no general method to combine an arbitrary pair of theories satisfying the remaining assumptions. We also prove new theory combination results that weaken the assumptions of gentle and shiny combination.",
+        "timestamp": "2026-02-02T17:52:32.584Z",
+        "rating": "novote",
+        "publishedDate": "2025/05/08",
+        "tags": [
+          "Logic in Computer Science (cs.LO)",
+          "Logic (math.LO)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1397,
+        "object_id": "paper:arxiv.2505.04870",
+        "created_at": "2026-02-02T17:52:33+00:00",
+        "updated_at": "2026-02-02T17:52:54+00:00",
         "version": 1
       }
     }

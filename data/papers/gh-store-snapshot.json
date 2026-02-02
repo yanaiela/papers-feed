@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-02T18:04:58.823217+00:00",
+  "snapshot_time": "2026-02-02T18:47:31.389170+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -48501,6 +48501,33 @@
         "object_id": "paper:arxiv.1810.01989",
         "created_at": "2026-02-02T18:03:47+00:00",
         "updated_at": "2026-02-02T18:04:11+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2208.07669": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2208.07669",
+        "url": "https://arxiv.org/abs/2208.07669",
+        "title": "On Optimizing Back-Substitution Methods for Neural Network Verification",
+        "authors": "Tom Zelazny, Haoze Wu, Clark Barrett, Guy Katz",
+        "abstract": "With the increasing application of deep learning in mission-critical systems, there is a growing need to obtain formal guarantees about the behaviors of neural networks. Indeed, many approaches for verifying neural networks have been recently proposed, but these generally struggle with limited scalability or insufficient accuracy. A key component in many state-of-the-art verification schemes is computing lower and upper bounds on the values that neurons in the network can obtain for a specific input domain -- and the tighter these bounds, the more likely the verification is to succeed. Many common algorithms for computing these bounds are variations of the symbolic-bound propagation method; and among these, approaches that utilize a process called back-substitution are particularly successful. In this paper, we present an approach for making back-substitution produce tighter bounds. To achieve this, we formulate and then minimize the imprecision errors incurred during back-substitution. Our technique is general, in the sense that it can be integrated into numerous existing symbolic-bound propagation techniques, with only minor modifications. We implement our approach as a proof-of-concept tool, and present favorable results compared to state-of-the-art verifiers that perform back-substitution.",
+        "timestamp": "2026-02-02T18:46:43.274Z",
+        "rating": "novote",
+        "publishedDate": "2022/08/16",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Logic in Computer Science (cs.LO)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1405,
+        "object_id": "paper:arxiv.2208.07669",
+        "created_at": "2026-02-02T18:46:43+00:00",
+        "updated_at": "2026-02-02T18:47:06+00:00",
         "version": 1
       }
     }

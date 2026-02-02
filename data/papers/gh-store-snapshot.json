@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-01T19:19:35.600882+00:00",
+  "snapshot_time": "2026-02-02T07:21:21.880444+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -47899,6 +47899,63 @@
         "object_id": "interactions:arxiv.2404.19756",
         "created_at": "2026-02-01T18:42:14+00:00",
         "updated_at": "2026-02-01T18:46:29+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2511.21235": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2511.21235",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-02T07:20:35.825Z",
+            "data": {
+              "session_id": "session_1770016835720_w7r5zi4",
+              "source_id": "arxiv",
+              "paper_id": "2511.21235",
+              "start_time": "2026-02-02T07:19:57.403Z",
+              "end_time": "2026-02-02T07:20:35.720Z",
+              "heartbeat_count": 7,
+              "duration_seconds": 35,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 38
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1386,
+        "object_id": "interactions:arxiv.2511.21235",
+        "created_at": "2026-02-02T07:19:57+00:00",
+        "updated_at": "2026-02-02T07:20:54+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2511.21235": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2511.21235",
+        "url": "https://arxiv.org/abs/2511.21235",
+        "title": "DynamicAdaptiveClimb: Adaptive Cache Replacement with Dynamic Resizing",
+        "authors": "Daniel Berend, Shlomi Dolev, Sweta Kumari, Dhruv Mishra, Marina Kogan-Sadetsky, Archit Somani",
+        "abstract": "Efficient cache management is critical for optimizing the system performance, and numerous caching mechanisms have been proposed, each exploring various insertion and eviction strategies. In this paper, we present AdaptiveClimb and its extension, DynamicAdaptiveClimb, two novel cache replacement policies that leverage lightweight, cache adaptation to outperform traditional approaches. Unlike classic Least Recently Used (LRU) and Incremental Rank Progress (CLIMB) policies, AdaptiveClimb dynamically adjusts the promotion distance (jump) of the cached objects based on recent hit and miss patterns, requiring only a single tunable parameter and no per-item statistics. This enables rapid adaptation to changing access distributions while maintaining low overhead. Building on this foundation, DynamicAdaptiveClimb further enhances adaptability by automatically tuning the cache size in response to workload demands. Our comprehensive evaluation across a diverse set of real-world traces, including 1067 traces from 6 different datasets, demonstrates that DynamicAdaptiveClimb consistently achieves substantial speedups and higher hit ratios compared to other state-of-the-art algorithms. In particular, our approach achieves up to a 29% improvement in hit ratio and a substantial reduction in miss penalties compared to the FIFO baseline. Furthermore, it outperforms the next-best contenders, AdaptiveClimb and SIEVE [43], by approximately 10% to 15%, especially in environments characterized by fluctuating working set sizes. These results highlight the effectiveness of our approach in delivering efficient performance, making it well-suited for modern, dynamic caching environments.",
+        "timestamp": "2026-02-02T07:19:41.683Z",
+        "rating": "novote",
+        "publishedDate": "2025/11/26",
+        "tags": [
+          "Operating Systems (cs.OS)",
+          "Systems and Control (eess.SY)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1385,
+        "object_id": "paper:arxiv.2511.21235",
+        "created_at": "2026-02-02T07:19:42+00:00",
+        "updated_at": "2026-02-02T07:20:02+00:00",
         "version": 1
       }
     }

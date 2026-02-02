@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-02T14:20:10.332633+00:00",
+  "snapshot_time": "2026-02-02T14:33:36.390597+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -48249,6 +48249,63 @@
         "object_id": "paper:arxiv.2310.17623",
         "created_at": "2026-02-02T11:56:10+00:00",
         "updated_at": "2026-02-02T11:56:29+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2308.08155": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2308.08155",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-02T14:32:35.868Z",
+            "data": {
+              "session_id": "session_1770042755465_o1om8x8",
+              "source_id": "arxiv",
+              "paper_id": "2308.08155",
+              "start_time": "2026-02-02T14:32:17.812Z",
+              "end_time": "2026-02-02T14:32:35.464Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 18
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1396,
+        "object_id": "interactions:arxiv.2308.08155",
+        "created_at": "2026-02-02T14:32:36+00:00",
+        "updated_at": "2026-02-02T14:33:02+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2308.08155": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2308.08155",
+        "url": "https://arxiv.org/abs/2308.08155",
+        "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+        "authors": "Qingyun Wu, Gagan Bansal, Jieyu Zhang, Yiran Wu, Beibin Li, Erkang Zhu, Li Jiang, Xiaoyun Zhang, Shaokun Zhang, Jiale Liu, Ahmed Hassan Awadallah, Ryen W White, Doug Burger, Chi Wang",
+        "abstract": "AutoGen is an open-source framework that allows developers to build LLM applications via multiple agents that can converse with each other to accomplish tasks. AutoGen agents are customizable, conversable, and can operate in various modes that employ combinations of LLMs, human inputs, and tools. Using AutoGen, developers can also flexibly define agent interaction behaviors. Both natural language and computer code can be used to program flexible conversation patterns for different applications. AutoGen serves as a generic infrastructure to build diverse applications of various complexities and LLM capacities. Empirical studies demonstrate the effectiveness of the framework in many example applications, with domains ranging from mathematics, coding, question answering, operations research, online decision-making, entertainment, etc.",
+        "timestamp": "2026-02-02T14:32:15.546Z",
+        "rating": "novote",
+        "publishedDate": "2023/08/16",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1395,
+        "object_id": "paper:arxiv.2308.08155",
+        "created_at": "2026-02-02T14:32:16+00:00",
+        "updated_at": "2026-02-02T14:32:36+00:00",
         "version": 1
       }
     }

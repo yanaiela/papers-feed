@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-02T11:54:52.114474+00:00",
+  "snapshot_time": "2026-02-02T11:56:27.021560+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -48152,6 +48152,34 @@
         "object_id": "paper:arxiv.2203.08242",
         "created_at": "2026-02-02T11:53:49+00:00",
         "updated_at": "2026-02-02T11:54:10+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2311.06233": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2311.06233",
+        "url": "https://arxiv.org/abs/2311.06233",
+        "title": "Data Contamination Quiz: A Tool to Detect and Estimate Contamination in Large Language Models",
+        "authors": "Shahriar Golchin, Mihai Surdeanu",
+        "abstract": "We propose the Data Contamination Quiz (DCQ), a simple and effective approach to detect data contamination in large language models (LLMs) and estimate the amount of it. Specifically, we frame data contamination detection as a series of multiple-choice questions, devising a quiz format wherein three perturbed versions of each instance, subsampled from a specific dataset partition, are created. These changes only include word-level perturbations. The generated perturbations, along with the original dataset instance, form the options in the DCQ, with an extra option accommodating the selection of none of the provided options. Given that the only distinguishing signal among the options is the exact wording with respect to the original dataset instance, an LLM, when tasked with identifying the original dataset instance, gravitates towards selecting the original one if it has been exposed to it. While accounting for positional biases in LLMs, the quiz performance reveals the contamination level for the tested model with the dataset partition to which the quiz pertains. Applied to various datasets and LLMs, under controlled and uncontrolled contamination, our findings, while fully lacking access to training data and model parameters, suggest that DCQ achieves state-of-the-art results and uncovers greater contamination levels through memorization compared to existing methods. Also, it proficiently bypasses more safety filters, especially those set to avoid generating copyrighted content.",
+        "timestamp": "2026-02-02T11:55:39.509Z",
+        "rating": "novote",
+        "publishedDate": "2023/11/10",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1392,
+        "object_id": "paper:arxiv.2311.06233",
+        "created_at": "2026-02-02T11:55:39+00:00",
+        "updated_at": "2026-02-02T11:55:58+00:00",
         "version": 1
       }
     }

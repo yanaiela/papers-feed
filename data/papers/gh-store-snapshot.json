@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-03T12:06:32.095157+00:00",
+  "snapshot_time": "2026-02-03T12:10:42.039857+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -49187,6 +49187,66 @@
         "object_id": "paper:arxiv.2308.10248",
         "created_at": "2026-02-03T12:04:14+00:00",
         "updated_at": "2026-02-03T12:04:37+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.2XBPdPIcFK": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "2XBPdPIcFK",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-03T12:09:57.591Z",
+            "data": {
+              "session_id": "session_1770120596963_iqkaxkp",
+              "source_id": "openreview",
+              "paper_id": "2XBPdPIcFK",
+              "start_time": "2026-02-03T12:09:38.959Z",
+              "end_time": "2026-02-03T12:09:56.963Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 18
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1433,
+        "object_id": "interactions:openreview.2XBPdPIcFK",
+        "created_at": "2026-02-03T12:09:58+00:00",
+        "updated_at": "2026-02-03T12:10:18+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.2XBPdPIcFK": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "2XBPdPIcFK",
+        "url": "https://openreview.net/forum?id=2XBPdPIcFK",
+        "title": "Steering Language Models with Activation Engineering",
+        "authors": "Alexander Matt Turner, Lisa Thiergart, Gavin Leech, David Udell, Juan J Vazquez, Ulisse Mini, Monte MacDiarmid",
+        "abstract": "Prompt engineering and finetuning aim to maximize language model performance on a given metric (like toxicity reduction). However, these methods do not optimally elicit a model's capabilities.  To reduce this gap, we introduce a form of _activation engineering_: the inference-time modification of activations in order to control (or _steer_) model outputs. Specifically, we introduce the Activation Addition (ActAdd) technique, which contrasts the intermediate activations on prompt pairs (such as \u201cLove\u201d versus \u201cHate\u201d) to compute a _steering vector_. By tactically adding in e.g. the \u201cLove\u201d$-$\u201cHate\u201d steering vector during the forward pass, ActAdd can perform many tasks like topic steering, sentiment steering, and detoxification. ActAdd yields inference-time control over high-level output properties (like topic and sentiment) while preserving performance on off-target tasks. ActAdd is lightweight: it does not require any machine optimization and works with a single pair of data points, which enables rapid iteration over steering.",
+        "timestamp": "2026-02-03T12:09:39.542Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "interpretability",
+          "steering",
+          "alignment",
+          "safety",
+          "sentiment"
+        ],
+        "doi": "",
+        "journalName": "Submitted to ICLR 2025",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1432,
+        "object_id": "paper:openreview.2XBPdPIcFK",
+        "created_at": "2026-02-03T12:09:39+00:00",
+        "updated_at": "2026-02-03T12:10:03+00:00",
         "version": 1
       }
     }

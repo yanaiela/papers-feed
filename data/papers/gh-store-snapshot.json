@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-03T12:10:42.039857+00:00",
+  "snapshot_time": "2026-02-03T12:18:51.098400+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -49247,6 +49247,66 @@
         "object_id": "paper:openreview.2XBPdPIcFK",
         "created_at": "2026-02-03T12:09:39+00:00",
         "updated_at": "2026-02-03T12:10:03+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.8g4XgC8HPF": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "8g4XgC8HPF",
+        "url": "https://openreview.net/forum?id=8g4XgC8HPF",
+        "title": "Controllable Generation via Locally Constrained Resampling",
+        "authors": "Kareem Ahmed, Kai-Wei Chang, Guy Van den Broeck",
+        "abstract": "Autoregressive models have demonstrated an unprecedented ability at modeling the intricacies\nof natural language. However, they continue to struggle with generating complex outputs that adhere to\nlogical constraints. Sampling from a fully-independent distribution subject to a constraint is hard. Sampling from an autoregressive distribution subject to a constraint is doubly hard: We have to contend not only with the hardness of the constraint but also the  distribution's lack of structure. We propose a tractable probabilistic approach that performs Bayesian conditioning to draw samples subject to a constraint. By factoring in information about the entire sequence, our approach offers better contextual awareness during constrained generation compared to current greedy approaches. Starting from a model sample, we induce a local, factorized distribution which we can\ntractably condition on the constraint. To generate samples that satisfy the constraint, we sample from the conditional distribution,\ncorrect for biases in the sample weights, and resample. The resulting samples closely approximate the target distribution and are guaranteed to satisfy the constraints. We evaluate our approach on several tasks, including LLM detoxification and solving Sudoku puzzles. We show that by disallowing a list of toxic expressions our approach is able to steer the model's outputs away from toxic generations, outperforming similar approaches to detoxification. We also show that our approach achieves a perfect accuracy on Sudoku, compared to less than $50\\%$ for GPT4-o and Gemini 1.5.",
+        "timestamp": "2026-02-03T12:18:08.932Z",
+        "rating": "novote",
+        "publishedDate": "22 Jan 2025",
+        "tags": [
+          "Neuro-symbolic",
+          "LLMs",
+          "Controllable Generation",
+          "Constraints",
+          "Probabilistic Methods"
+        ],
+        "doi": "",
+        "journalName": "ICLR 2025 Poster",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1435,
+        "object_id": "paper:openreview.8g4XgC8HPF",
+        "created_at": "2026-02-03T12:18:09+00:00",
+        "updated_at": "2026-02-03T12:18:32+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.v091fzXTu0": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "v091fzXTu0",
+        "url": "https://openreview.net/forum?id=v091fzXTu0",
+        "title": "Controllable Generation via Locally Constrained Resampling",
+        "authors": "Kareem Ahmed, Kai-Wei Chang, Guy Van den Broeck",
+        "abstract": "Autoregressive models have demonstrated an unprecedented ability at modeling the intricacies of natural language. However, they continue to struggle with generating complex outputs that adhere to logical constraints. Sampling from a fully-independent distribution subject to a constraint is hard. Sampling from an autoregressive distribution subject to a constraint is doubly hard: We have to contend not only with the hardness of the constraint but also the distribution's lack of structure. We propose a tractable probabilistic approach that performs Bayesian conditioning to draw samples subject to a constraint. By factoring in information about the entire sequence, our approach offers better contextual awareness during constrained generation compared to current greedy approaches. Starting from a model sample, we induce a local, factorized distribution which we can tractably condition on the constraint. To generate samples that satisfy the constraint, we sample from the conditional distribution, correct for biases in the sample weights, and resample. The resulting samples closely approximate the target distribution and are guaranteed to satisfy the constraints. We evaluate our approach on several tasks, including LLM detoxification and solving Sudoku puzzles. We show that by disallowing a list of toxic expressions our approach is able to steer the model's outputs away from toxic generations, outperforming similar approaches to detoxification. We also show that our approach achieves a perfect accuracy on Sudoku, compared to less than 50% for GPT4-o and Gemini 1.5.",
+        "timestamp": "2026-02-03T12:17:43.105Z",
+        "rating": "novote",
+        "publishedDate": "12 Oct 2024",
+        "tags": [
+          "Neuro-symbolic",
+          "LLMs",
+          "Controllable Generation",
+          "Constraints",
+          "Probabilistic Methods"
+        ],
+        "doi": "",
+        "journalName": "SafeGenAi Oral",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1434,
+        "object_id": "paper:openreview.v091fzXTu0",
+        "created_at": "2026-02-03T12:17:43+00:00",
+        "updated_at": "2026-02-03T12:18:05+00:00",
         "version": 1
       }
     }

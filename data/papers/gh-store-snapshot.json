@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-03T08:47:11.015363+00:00",
+  "snapshot_time": "2026-02-03T08:48:58.551721+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -48624,6 +48624,63 @@
         "object_id": "interactions:arxiv.2407.01639",
         "created_at": "2026-02-02T19:34:13+00:00",
         "updated_at": "2026-02-02T19:34:15+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2403.10144": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2403.10144",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-03T08:48:08.700Z",
+            "data": {
+              "session_id": "session_1770108488035_6ti0efk",
+              "source_id": "arxiv",
+              "paper_id": "2403.10144",
+              "start_time": "2026-02-03T08:46:17.419Z",
+              "end_time": "2026-02-03T08:48:08.035Z",
+              "heartbeat_count": 22,
+              "duration_seconds": 110,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 111
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1417,
+        "object_id": "interactions:arxiv.2403.10144",
+        "created_at": "2026-02-03T08:48:09+00:00",
+        "updated_at": "2026-02-03T08:48:35+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2601.20251": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2601.20251",
+        "url": "https://arxiv.org/abs/2601.20251",
+        "title": "Efficient Evaluation of LLM Performance with Statistical Guarantees",
+        "authors": "Skyler Wu, Yash Nair, Emmanuel J. Cand\u00e8s",
+        "abstract": "Exhaustively evaluating many large language models (LLMs) on a large suite of benchmarks is expensive. We cast benchmarking as finite-population inference and, under a fixed query budget, seek tight confidence intervals (CIs) for model accuracy with valid frequentist coverage. We propose Factorized Active Querying (FAQ), which (a) leverages historical information through a Bayesian factor model; (b) adaptively selects questions using a hybrid variance-reduction/active-learning sampling policy; and (c) maintains validity through Proactive Active Inference -- a finite-population extension of active inference (Zrnic & Cand\u00e8s, 2024) that enables direct question selection while preserving coverage. With negligible overhead cost, FAQ delivers up to $5\\times$ effective sample size gains over strong baselines on two benchmark suites, across varying historical-data missingness levels: this means that it matches the CI width of uniform sampling while using up to $5\\times$ fewer queries. We release our source code and our curated datasets to support reproducible evaluation and future research.",
+        "timestamp": "2026-02-03T08:48:08.694Z",
+        "rating": "novote",
+        "publishedDate": "2026/01/28",
+        "tags": [
+          "Machine Learning (stat.ML)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1416,
+        "object_id": "paper:arxiv.2601.20251",
+        "created_at": "2026-02-03T08:48:09+00:00",
+        "updated_at": "2026-02-03T08:48:32+00:00",
         "version": 1
       }
     }

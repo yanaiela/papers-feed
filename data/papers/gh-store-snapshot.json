@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-03T15:21:01.593494+00:00",
+  "snapshot_time": "2026-02-03T15:25:03.729160+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -49442,6 +49442,72 @@
         "object_id": "paper:openreview.v091fzXTu0",
         "created_at": "2026-02-03T12:17:43+00:00",
         "updated_at": "2026-02-03T12:18:05+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2301.04709": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2301.04709",
+        "url": "https://arxiv.org/abs/2301.04709",
+        "title": "Causal Abstraction: A Theoretical Foundation for Mechanistic Interpretability",
+        "authors": "Atticus Geiger, Duligur Ibeling, Amir Zur, Maheep Chaudhary, Sonakshi Chauhan, Jing Huang, Aryaman Arora, Zhengxuan Wu, Noah Goodman, Christopher Potts, Thomas Icard",
+        "abstract": "Causal abstraction provides a theoretical foundation for mechanistic interpretability, the field concerned with providing intelligible algorithms that are faithful simplifications of the known, but opaque low-level details of black box AI models. Our contributions are (1) generalizing the theory of causal abstraction from mechanism replacement (i.e., hard and soft interventions) to arbitrary mechanism transformation (i.e., functionals from old mechanisms to new mechanisms), (2) providing a flexible, yet precise formalization for the core concepts of polysemantic neurons, the linear representation hypothesis, modular features, and graded faithfulness, and (3) unifying a variety of mechanistic interpretability methods in the common language of causal abstraction, namely, activation and path patching, causal mediation analysis, causal scrubbing, causal tracing, circuit analysis, concept erasure, sparse autoencoders, differential binary masking, distributed alignment search, and steering.",
+        "timestamp": "2026-02-03T15:23:09.990Z",
+        "rating": "novote",
+        "publishedDate": "2023/01/11",
+        "tags": [
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1438,
+        "object_id": "paper:arxiv.2301.04709",
+        "created_at": "2026-02-03T15:23:10+00:00",
+        "updated_at": "2026-02-03T15:23:41+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2507.08802": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2507.08802",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1437,
+        "object_id": "interactions:arxiv.2507.08802",
+        "created_at": "2026-02-03T15:22:11+00:00",
+        "updated_at": "2026-02-03T15:22:14+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2507.08802": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2507.08802",
+        "url": "https://arxiv.org/abs/2507.08802",
+        "title": "The Non-Linear Representation Dilemma: Is Causal Abstraction Enough for Mechanistic Interpretability?",
+        "authors": "Denis Sutter, Julian Minder, Thomas Hofmann, Tiago Pimentel",
+        "abstract": "The concept of causal abstraction got recently popularised to demystify the opaque decision-making processes of machine learning models; in short, a neural network can be abstracted as a higher-level algorithm if there exists a function which allows us to map between them. Notably, most interpretability papers implement these maps as linear functions, motivated by the linear representation hypothesis: the idea that features are encoded linearly in a model's representations. However, this linearity constraint is not required by the definition of causal abstraction. In this work, we critically examine the concept of causal abstraction by considering arbitrarily powerful alignment maps. In particular, we prove that under reasonable assumptions, any neural network can be mapped to any algorithm, rendering this unrestricted notion of causal abstraction trivial and uninformative. We complement these theoretical findings with empirical evidence, demonstrating that it is possible to perfectly map models to algorithms even when these models are incapable of solving the actual task; e.g., on an experiment using randomly initialised language models, our alignment maps reach 100\\% interchange-intervention accuracy on the indirect object identification task. This raises the non-linear representation dilemma: if we lift the linearity constraint imposed to alignment maps in causal abstraction analyses, we are left with no principled way to balance the inherent trade-off between these maps' complexity and accuracy. Together, these results suggest an answer to our title's question: causal abstraction is not enough for mechanistic interpretability, as it becomes vacuous without assumptions about how models encode information. Studying the connection between this information-encoding assumption and causal abstraction should lead to exciting future work.",
+        "timestamp": "2026-02-03T15:21:40.420Z",
+        "rating": "novote",
+        "publishedDate": "2025/07/11",
+        "tags": [
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1436,
+        "object_id": "paper:arxiv.2507.08802",
+        "created_at": "2026-02-03T15:21:41+00:00",
+        "updated_at": "2026-02-03T15:22:12+00:00",
         "version": 1
       }
     }

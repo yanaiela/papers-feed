@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-03T11:37:46.000770+00:00",
+  "snapshot_time": "2026-02-03T11:46:02.011062+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -48875,6 +48875,32 @@
         "object_id": "paper:arxiv.2506.11035",
         "created_at": "2026-02-03T10:01:26+00:00",
         "updated_at": "2026-02-03T10:01:48+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2601.21262": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2601.21262",
+        "url": "https://arxiv.org/abs/2601.21262",
+        "title": "CausalEmbed: Auto-Regressive Multi-Vector Generation in Latent Space for Visual Document Embedding",
+        "authors": "Jiahao Huo, Yu Huang, Yibo Yan, Ye Pan, Yi Cao, Mingdong Ou, Philip S. Yu, Xuming Hu",
+        "abstract": "Although Multimodal Large Language Models (MLLMs) have shown remarkable potential in Visual Document Retrieval (VDR) through generating high-quality multi-vector embeddings, the substantial storage overhead caused by representing a page with thousands of visual tokens limits their practicality in real-world applications. To address this challenge, we propose an auto-regressive generation approach, CausalEmbed, for constructing multi-vector embeddings. By incorporating iterative margin loss during contrastive training, CausalEmbed encourages the embedding models to learn compact and well-structured representations. Our method enables efficient VDR tasks using only dozens of visual tokens, achieving a 30-155x reduction in token count while maintaining highly competitive performance across various backbones and benchmarks. Theoretical analysis and empirical results demonstrate the unique advantages of auto-regressive embedding generation in terms of training efficiency and scalability at test time. As a result, CausalEmbed introduces a flexible test-time scaling strategy for multi-vector VDR representations and sheds light on the generative paradigm within multimodal document retrieval.",
+        "timestamp": "2026-02-03T11:45:16.805Z",
+        "rating": "novote",
+        "publishedDate": "2026/01/29",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1421,
+        "object_id": "paper:arxiv.2601.21262",
+        "created_at": "2026-02-03T11:45:17+00:00",
+        "updated_at": "2026-02-03T11:45:39+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-03T16:06:48.206043+00:00",
+  "snapshot_time": "2026-02-03T20:52:54.643998+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -49745,6 +49745,158 @@
         "object_id": "paper:arxiv.2601.18987",
         "created_at": "2026-02-03T16:04:24+00:00",
         "updated_at": "2026-02-03T16:04:55+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2007.04728": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2007.04728",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1451,
+        "object_id": "interactions:arxiv.2007.04728",
+        "created_at": "2026-02-03T20:52:39+00:00",
+        "updated_at": "2026-02-03T20:52:41+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2010.05620": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2010.05620",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-03T20:52:11.309Z",
+            "data": {
+              "session_id": "session_1770151931261_oc8bb0p",
+              "source_id": "arxiv",
+              "paper_id": "2010.05620",
+              "start_time": "2026-02-03T20:51:52.243Z",
+              "end_time": "2026-02-03T20:52:11.261Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 19
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1450,
+        "object_id": "interactions:arxiv.2010.05620",
+        "created_at": "2026-02-03T20:52:11+00:00",
+        "updated_at": "2026-02-03T20:52:32+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2007.04728": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2007.04728",
+        "url": "https://arxiv.org/pdf/2007.04728",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-02-03T20:51:45.126Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1449,
+        "object_id": "paper:arxiv.2007.04728",
+        "created_at": "2026-02-03T20:51:45+00:00",
+        "updated_at": "2026-02-03T20:52:24+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2010.05620": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2010.05620",
+        "url": "https://arxiv.org/abs/2010.05620",
+        "title": "$\\ell_0$-based Sparse Canonical Correlation Analysis",
+        "authors": "Ofir Lindenbaum, Moshe Salhov, Amir Averbuch, Yuval Kluger",
+        "abstract": "Canonical Correlation Analysis (CCA) models are powerful for studying the associations between two sets of variables. The canonically correlated representations, termed \\textit{canonical variates} are widely used in unsupervised learning to analyze unlabeled multi-modal registered datasets. Despite their success, CCA models may break (or overfit) if the number of variables in either of the modalities exceeds the number of samples. Moreover, often a significant fraction of the variables measures modality-specific information, and thus removing them is beneficial for identifying the \\textit{canonically correlated variates}. Here, we propose $\\ell_0$-CCA, a method for learning correlated representations based on sparse subsets of variables from two observed modalities. Sparsity is obtained by multiplying the input variables by stochastic gates, whose parameters are learned together with the CCA weights via an $\\ell_0$-regularized correlation loss. We further propose $\\ell_0$-Deep CCA for solving the problem of non-linear sparse CCA by modeling the correlated representations using deep nets. We demonstrate the efficacy of the method using several synthetic and real examples. Most notably, by gating nuisance input variables, our approach improves the extracted representations compared to other linear, non-linear and sparse CCA-based models.",
+        "timestamp": "2026-02-03T20:51:43.641Z",
+        "rating": "novote",
+        "publishedDate": "2020/10/12",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1448,
+        "object_id": "paper:arxiv.2010.05620",
+        "created_at": "2026-02-03T20:51:43+00:00",
+        "updated_at": "2026-02-03T20:52:05+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2106.06468": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2106.06468",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-03T20:51:41.883Z",
+            "data": {
+              "session_id": "session_1770151901818_xfam7l1",
+              "source_id": "arxiv",
+              "paper_id": "2106.06468",
+              "start_time": "2026-02-03T20:51:35.186Z",
+              "end_time": "2026-02-03T20:51:41.818Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 7
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1447,
+        "object_id": "interactions:arxiv.2106.06468",
+        "created_at": "2026-02-03T20:51:35+00:00",
+        "updated_at": "2026-02-03T20:52:15+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2106.06468": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2106.06468",
+        "url": "https://arxiv.org/abs/2106.06468",
+        "title": "Locally Sparse Neural Networks for Tabular Biomedical Data",
+        "authors": "Junchen Yang, Ofir Lindenbaum, Yuval Kluger",
+        "abstract": "Tabular datasets with low-sample-size or many variables are prevalent in biomedicine. Practitioners in this domain prefer linear or tree-based models over neural networks since the latter are harder to interpret and tend to overfit when applied to tabular datasets. To address these neural networks' shortcomings, we propose an intrinsically interpretable network for heterogeneous biomedical data. We design a locally sparse neural network where the local sparsity is learned to identify the subset of most relevant features for each sample. This sample-specific sparsity is predicted via a \\textit{gating} network, which is trained in tandem with the \\textit{prediction} network. By forcing the model to select a subset of the most informative features for each sample, we reduce model overfitting in low-sample-size data and obtain an interpretable model. We demonstrate that our method outperforms state-of-the-art models when applied to synthetic or real-world biomedical datasets using extensive experiments. Furthermore, the proposed framework dramatically outperforms existing schemes when evaluating its interpretability capabilities. Finally, we demonstrate the applicability of our model to two important biomedical tasks: survival analysis and marker gene identification.",
+        "timestamp": "2026-02-03T20:51:28.903Z",
+        "rating": "novote",
+        "publishedDate": "2021/06/11",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1446,
+        "object_id": "paper:arxiv.2106.06468",
+        "created_at": "2026-02-03T20:51:29+00:00",
+        "updated_at": "2026-02-03T20:51:55+00:00",
         "version": 1
       }
     }

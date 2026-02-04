@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-04T20:49:22.351553+00:00",
+  "snapshot_time": "2026-02-04T20:50:44.037594+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -50938,6 +50938,33 @@
         "object_id": "paper:openreview.bZBP06zw5w",
         "created_at": "2026-02-04T20:47:20+00:00",
         "updated_at": "2026-02-04T20:47:39+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.e2cD5xuHix": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "e2cD5xuHix",
+        "url": "https://openreview.net/forum?id=e2cD5xuHix",
+        "title": "DATE-LM: Benchmarking Data Attribution Evaluation for Large Language Models",
+        "authors": "Cathy Jiao, Yijun Pan, Emily Xiao, Daisy Sheng, Niket Jain, Hanzhang Zhao, Ishita Dasgupta, Jiaqi W. Ma, Chenyan Xiong",
+        "abstract": "Data attribution methods quantify the influence of training data on model outputs and are becoming increasingly relevant for a wide range of LLM research and applications, including dataset curation, model interpretability, data valuation. However, there remain critical gaps in systematic LLM-centric evaluation of data attribution methods. To this end, we introduce DATE-LM (Data Attribution Evaluation in Language Models), a unified benchmark for evaluating data attribution methods through real-world LLM applications. DATE-LM measures attribution quality through three key tasks \u2014 training data selection, toxicity/bias filtering, and factual attribution. Our benchmark is designed for ease of use, enabling researchers to configure and run large-scale evaluations across diverse tasks and LLM architectures. Furthermore, we use DATE-LM to conduct a large-scale evaluation of existing data attribution methods. Our findings show that no single method dominates across all tasks, data attribution methods have trade-offs with simpler baselines, and method performance is sensitive to task-specific evaluation design. Finally, we release a public leaderboard for quick comparison of methods and to facilitate community engagement. We hope DATE-LM serves as a foundation for future data attribution research in LLMs.",
+        "timestamp": "2026-02-04T20:49:13.852Z",
+        "rating": "novote",
+        "publishedDate": "18 Sept 2025",
+        "tags": [
+          "data attribution",
+          "evaluation"
+        ],
+        "doi": "",
+        "journalName": "NeurIPS 2025 Datasets and Benchmarks Track poster",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1476,
+        "object_id": "paper:openreview.e2cD5xuHix",
+        "created_at": "2026-02-04T20:49:14+00:00",
+        "updated_at": "2026-02-04T20:49:36+00:00",
         "version": 1
       }
     }

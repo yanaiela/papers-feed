@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-04T09:33:06.796106+00:00",
+  "snapshot_time": "2026-02-04T09:36:50.502239+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -49154,6 +49154,21 @@
               "idle_seconds": 4,
               "total_elapsed_seconds": 14
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-04T09:35:51.725Z",
+            "data": {
+              "session_id": "session_1770197751718_3492zaq",
+              "source_id": "arxiv",
+              "paper_id": "2601.20251",
+              "start_time": "2026-02-04T09:35:46.672Z",
+              "end_time": "2026-02-04T09:35:51.718Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 5
+            }
           }
         ]
       },
@@ -49161,7 +49176,7 @@
         "issue_number": 1418,
         "object_id": "interactions:arxiv.2601.20251",
         "created_at": "2026-02-03T08:49:55+00:00",
-        "updated_at": "2026-02-04T09:32:39+00:00",
+        "updated_at": "2026-02-04T09:36:25+00:00",
         "version": 1
       }
     },
@@ -50177,6 +50192,34 @@
         "object_id": "paper:arxiv.2602.03183",
         "created_at": "2026-02-04T08:57:27+00:00",
         "updated_at": "2026-02-04T08:57:48+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2601.22401": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2601.22401",
+        "url": "https://arxiv.org/abs/2601.22401",
+        "title": "Semi-Autonomous Mathematics Discovery with Gemini: A Case Study on the Erd\\H{o}s Problems",
+        "authors": "Tony Feng, Trieu Trinh, Garrett Bingham, Jiwon Kang, Shengtong Zhang, Sang-hyun Kim, Kevin Barreto, Carl Schildkraut, Junehyuk Jung, Jaehyeon Seo, Carlo Pagano, Yuri Chervonyi, Dawsen Hwang, Kaiying Hou, Sergei Gukov, Cheng-Chiang Tsai, Hyunwoo Choi, Youngbeom Jin, Wei-Yuan Li, Hao-An Wu, Ruey-An Shiu, Yu-Sheng Shih, Quoc V. Le, Thang Luong",
+        "abstract": "We present a case study in semi-autonomous mathematics discovery, using Gemini to systematically evaluate 700 conjectures labeled 'Open' in Bloom's Erd\u0151s Problems database. We employ a hybrid methodology: AI-driven natural language verification to narrow the search space, followed by human expert evaluation to gauge correctness and novelty. We address 13 problems that were marked 'Open' in the database: 5 through seemingly novel autonomous solutions, and 8 through identification of previous solutions in the existing literature. Our findings suggest that the 'Open' status of the problems was through obscurity rather than difficulty. We also identify and discuss issues arising in applying AI to math conjectures at scale, highlighting the difficulty of literature identification and the risk of ''subconscious plagiarism'' by AI. We reflect on the takeaways from AI-assisted efforts on the Erd\u0151s Problems.",
+        "timestamp": "2026-02-04T09:35:16.946Z",
+        "rating": "novote",
+        "publishedDate": "2026/01/29",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Combinatorics (math.CO)",
+          "Number Theory (math.NT)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1456,
+        "object_id": "paper:arxiv.2601.22401",
+        "created_at": "2026-02-04T09:35:17+00:00",
+        "updated_at": "2026-02-04T09:35:39+00:00",
         "version": 1
       }
     }

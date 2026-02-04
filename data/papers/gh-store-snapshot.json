@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-04T09:54:58.794282+00:00",
+  "snapshot_time": "2026-02-04T09:57:01.495713+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -50287,6 +50287,36 @@
               "idle_seconds": 5,
               "total_elapsed_seconds": 270
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-04T09:54:00.314Z",
+            "data": {
+              "session_id": "session_1770198839751_00jjtlh",
+              "source_id": "arxiv",
+              "paper_id": "2601.18724",
+              "start_time": "2026-02-04T09:53:38.072Z",
+              "end_time": "2026-02-04T09:53:59.751Z",
+              "heartbeat_count": 4,
+              "duration_seconds": 20,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 22
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-04T09:55:44.302Z",
+            "data": {
+              "session_id": "session_1770198944278_2jq5wah",
+              "source_id": "arxiv",
+              "paper_id": "2601.18724",
+              "start_time": "2026-02-04T09:55:32.480Z",
+              "end_time": "2026-02-04T09:55:44.278Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 12
+            }
           }
         ]
       },
@@ -50294,7 +50324,7 @@
         "issue_number": 1458,
         "object_id": "interactions:arxiv.2601.18724",
         "created_at": "2026-02-04T09:37:03+00:00",
-        "updated_at": "2026-02-04T09:42:05+00:00",
+        "updated_at": "2026-02-04T09:56:09+00:00",
         "version": 1
       }
     },
@@ -50345,6 +50375,33 @@
         "object_id": "paper:arxiv.1907.10641",
         "created_at": "2026-02-04T09:53:32+00:00",
         "updated_at": "2026-02-04T09:53:54+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2305.06300": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2305.06300",
+        "url": "https://arxiv.org/abs/2305.06300",
+        "title": "Evaluating Embedding APIs for Information Retrieval",
+        "authors": "Ehsan Kamalloo, Xinyu Zhang, Odunayo Ogundepo, Nandan Thakur, David Alfonso-Hermelo, Mehdi Rezagholizadeh, Jimmy Lin",
+        "abstract": "The ever-increasing size of language models curtails their widespread availability to the community, thereby galvanizing many companies into offering access to large language models through APIs. One particular type, suitable for dense retrieval, is a semantic embedding service that builds vector representations of input text. With a growing number of publicly available APIs, our goal in this paper is to analyze existing offerings in realistic retrieval scenarios, to assist practitioners and researchers in finding suitable services according to their needs. Specifically, we investigate the capabilities of existing semantic embedding APIs on domain generalization and multilingual retrieval. For this purpose, we evaluate these services on two standard benchmarks, BEIR and MIRACL. We find that re-ranking BM25 results using the APIs is a budget-friendly approach and is most effective in English, in contrast to the standard practice of employing them as first-stage retrievers. For non-English retrieval, re-ranking still improves the results, but a hybrid model with BM25 works best, albeit at a higher cost. We hope our work lays the groundwork for evaluating semantic embedding APIs that are critical in search and more broadly, for information access.",
+        "timestamp": "2026-02-04T09:55:09.651Z",
+        "rating": "novote",
+        "publishedDate": "2023/05/10",
+        "tags": [
+          "Information Retrieval (cs.IR)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1460,
+        "object_id": "paper:arxiv.2305.06300",
+        "created_at": "2026-02-04T09:55:10+00:00",
+        "updated_at": "2026-02-04T09:55:28+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-04T20:47:17.447794+00:00",
+  "snapshot_time": "2026-02-04T20:49:22.351553+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -50803,6 +50803,141 @@
         "object_id": "interactions:arxiv.2410.18639",
         "created_at": "2026-02-04T20:45:49+00:00",
         "updated_at": "2026-02-04T20:46:48+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.av0D19pSkU": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "av0D19pSkU",
+        "url": "https://openreview.net/forum?id=av0D19pSkU",
+        "title": "Do Membership Inference Attacks Work on Large Language Models?",
+        "authors": "Michael Duan, Anshuman Suri, Niloofar Mireshghallah, Sewon Min, Weijia Shi, Luke Zettlemoyer, Yulia Tsvetkov, Yejin Choi, David Evans, Hannaneh Hajishirzi",
+        "abstract": "Membership inference attacks (MIAs) attempt to predict whether a particular datapoint is a member of a target model's training data. Despite extensive research on traditional machine learning models, there has been limited work studying MIA on the pre-training data of large language models (LLMs). We perform a large-scale evaluation of MIAs over a suite of language models (LMs) trained on the Pile, ranging from 160M to 12B parameters. We find that MIAs barely outperform random guessing for most settings across varying LLM sizes and domains. Further analyses reveal that this poor performance can be attributed to (1) the combination of a large dataset and few training iterations, and (2) an inherently fuzzy boundary between members and non-members. We also find that, when LLMs have been shown to be vulnerable to MIAs, this apparent success can be attributed to a distribution shift, e.g., members and non-members are seemingly drawn from identical domain but with different temporal ranges. Finally, we observe that existing MIAs are highly sensitive to even small changes in a sample. Such changes may cause samples that are lexically or semantically similar to members to be classified as non-members, which may be at odds with leakage that privacy auditors care about. We release our code and data as a unified benchmark package that includes all existing MIAs, supporting future work.",
+        "timestamp": "2026-02-04T20:48:37.179Z",
+        "rating": "novote",
+        "publishedDate": "10 Jul 2024",
+        "tags": [
+          "privacy",
+          "membership inference"
+        ],
+        "doi": "",
+        "journalName": "COLM",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1475,
+        "object_id": "paper:openreview.av0D19pSkU",
+        "created_at": "2026-02-04T20:48:37+00:00",
+        "updated_at": "2026-02-04T20:49:01+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.aloEru2qCG": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "aloEru2qCG",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-04T20:47:51.422Z",
+            "data": {
+              "session_id": "session_1770238070830_ydcb0zm",
+              "source_id": "openreview",
+              "paper_id": "aloEru2qCG",
+              "start_time": "2026-02-04T20:47:44.018Z",
+              "end_time": "2026-02-04T20:47:50.830Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 7
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1474,
+        "object_id": "interactions:openreview.aloEru2qCG",
+        "created_at": "2026-02-04T20:47:52+00:00",
+        "updated_at": "2026-02-04T20:48:17+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.aloEru2qCG": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "aloEru2qCG",
+        "url": "https://openreview.net/forum?id=aloEru2qCG",
+        "title": "LoRA Learns Less and Forgets Less",
+        "authors": "Dan Biderman, Jacob Portes, Jose Javier Gonzalez Ortiz, Mansheej Paul, Philip Greengard, Connor Jennings, Daniel King, Sam Havens, Vitaliy Chiley, Jonathan Frankle, Cody Blakeney, John Patrick Cunningham",
+        "abstract": "Low-Rank Adaptation (LoRA) is a widely-used parameter-efficient finetuning method for large language models. LoRA saves memory by training only low rank perturbations to selected weight matrices. In this work, we compare the performance of LoRA and full finetuning on two target domains, programming and mathematics. We consider both the instruction finetuning ($\\approx$100K prompt-response pairs) and continued pretraining ($\\approx$20B unstructured tokens) data regimes. Our results show that, in the standard low-rank settings, LoRA substantially underperforms full finetuning. Nevertheless, LoRA better maintains the base model's performance on tasks outside the target domain. We show that LoRA mitigates forgetting more than common regularization techniques such as weight decay and dropout; it also helps maintain more diverse generations. Finally, we show that full finetuning learns perturbations with a rank that is 10-100$\\times$ greater than typical LoRA configurations, possibly explaining some of the reported gaps. We conclude by proposing best practices for finetuning with LoRA.",
+        "timestamp": "2026-02-04T20:47:44.303Z",
+        "rating": "novote",
+        "publishedDate": "13 Aug 2024",
+        "tags": [],
+        "doi": "",
+        "journalName": "Accepted by TMLR",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1473,
+        "object_id": "paper:openreview.aloEru2qCG",
+        "created_at": "2026-02-04T20:47:44+00:00",
+        "updated_at": "2026-02-04T20:48:08+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.bZBP06zw5w": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "bZBP06zw5w",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-04T20:47:30.296Z",
+            "data": {
+              "session_id": "session_1770238049679_h5lk2l6",
+              "source_id": "openreview",
+              "paper_id": "bZBP06zw5w",
+              "start_time": "2026-02-04T20:47:19.769Z",
+              "end_time": "2026-02-04T20:47:29.679Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 5,
+              "total_elapsed_seconds": 10
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1472,
+        "object_id": "interactions:openreview.bZBP06zw5w",
+        "created_at": "2026-02-04T20:47:31+00:00",
+        "updated_at": "2026-02-04T20:47:54+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.bZBP06zw5w": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "bZBP06zw5w",
+        "url": "https://openreview.net/forum?id=bZBP06zw5w",
+        "title": "LoRA Learns Less and Forgets Less",
+        "authors": "Dan Biderman, Jose Javier Gonzalez Ortiz, Jacob Portes, Mansheej Paul, Philip Greengard, Connor Jennings, Daniel King, Sam Havens, Vitaliy Chiley, Jonathan Frankle, Cody Blakeney, John P. Cunningham",
+        "abstract": "Low-Rank Adaptation (LoRA) is a widely-used parameter-efficient finetuning method for large language models. LoRA saves memory by training only low rank perturbations to selected weight matrices. In this work, we compare the performance of LoRA and full finetuning on two target domains, programming and mathematics. We consider both the instruction finetuning (approximately 100K prompt-response pairs) and continued pretraining (20B unstructured tokens) data regimes. Our results show that, in the standard low-rank settings, LoRA substantially underperforms full finetuning. Nevertheless, LoRA better maintains the base model's performance on tasks outside the target domain. We show that LoRA mitigates forgetting more than common regularization techniques such as weight decay and dropout; it also helps maintain more diverse generations. Finally, we show that full finetuning learns perturbations with a rank that is 10-100X greater than typical LoRA configurations, possibly explaining some of the reported gaps. We conclude by proposing best practices for finetuning with LoRA.",
+        "timestamp": "2026-02-04T20:47:20.134Z",
+        "rating": "novote",
+        "publishedDate": "2024",
+        "tags": [],
+        "doi": "",
+        "journalName": "CoRR 2024",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1471,
+        "object_id": "paper:openreview.bZBP06zw5w",
+        "created_at": "2026-02-04T20:47:20+00:00",
+        "updated_at": "2026-02-04T20:47:39+00:00",
         "version": 1
       }
     }

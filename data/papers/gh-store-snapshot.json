@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-04T08:48:41.575961+00:00",
+  "snapshot_time": "2026-02-04T08:58:12.367865+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -50090,6 +50090,47 @@
         "object_id": "paper:arxiv.2602.03837",
         "created_at": "2026-02-04T08:36:23+00:00",
         "updated_at": "2026-02-04T08:36:43+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2602.03183": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2602.03183",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1455,
+        "object_id": "interactions:arxiv.2602.03183",
+        "created_at": "2026-02-04T08:57:41+00:00",
+        "updated_at": "2026-02-04T08:57:43+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2602.03183": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2602.03183",
+        "url": "https://arxiv.org/abs/2602.03183v1",
+        "title": "Privasis: Synthesizing the Largest \"Public\" Private Dataset from Scratch",
+        "authors": "Hyunwoo Kim, Niloofar Mireshghallah, Michael Duan, Rui Xin, Shuyue Stella Li, Jaehun Jung, David Acuna, Qi Pang, Hanshen Xiao, G. Edward Suh, Sewoong Oh, Yulia Tsvetkov, Pang Wei Koh, Yejin Choi",
+        "abstract": "Research involving privacy-sensitive data has always been constrained by data scarcity, standing in sharp contrast to other areas that have benefited from data scaling. This challenge is becoming increasingly urgent as modern AI agents--such as OpenClaw and Gemini Agent--are granted persistent access to highly sensitive personal information. To tackle this longstanding bottleneck and the rising risks, we present Privasis (i.e., privacy oasis), the first million-scale fully synthetic dataset entirely built from scratch--an expansive reservoir of texts with rich and diverse private information--designed to broaden and accelerate research in areas where processing sensitive social data is inevitable. Compared to existing datasets, Privasis, comprising 1.4 million records, offers orders-of-magnitude larger scale with quality, and far greater diversity across various document types, including medical history, legal documents, financial records, calendars, and text messages with a total of 55.1 million annotated attributes such as ethnicity, date of birth, workplace, etc. We leverage Privasis to construct a parallel corpus for text sanitization with our pipeline that decomposes texts and applies targeted sanitization. Our compact sanitization models (<=4B) trained on this dataset outperform state-of-the-art large language models, such as GPT-5 and Qwen-3 235B. We plan to release data, models, and code to accelerate future research on privacy-sensitive domains and agents.",
+        "timestamp": "2026-02-04T08:57:27.034Z",
+        "rating": "novote",
+        "publishedDate": "2026/02/03",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1454,
+        "object_id": "paper:arxiv.2602.03183",
+        "created_at": "2026-02-04T08:57:27+00:00",
+        "updated_at": "2026-02-04T08:57:48+00:00",
         "version": 1
       }
     }

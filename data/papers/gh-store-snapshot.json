@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-04T19:58:47.868479+00:00",
+  "snapshot_time": "2026-02-04T20:42:48.972461+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -50722,6 +50722,21 @@
               "idle_seconds": 4,
               "total_elapsed_seconds": 14
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-04T20:42:03.672Z",
+            "data": {
+              "session_id": "session_1770237723092_2xjdtye",
+              "source_id": "arxiv",
+              "paper_id": "2510.10020",
+              "start_time": "2026-02-04T20:30:59.932Z",
+              "end_time": "2026-02-04T20:42:03.092Z",
+              "heartbeat_count": 132,
+              "duration_seconds": 660,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 663
+            }
           }
         ]
       },
@@ -50729,7 +50744,35 @@
         "issue_number": 1468,
         "object_id": "interactions:arxiv.2510.10020",
         "created_at": "2026-02-04T19:41:08+00:00",
-        "updated_at": "2026-02-04T19:58:17+00:00",
+        "updated_at": "2026-02-04T20:42:25+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2112.03052": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2112.03052",
+        "url": "https://arxiv.org/abs/2112.03052",
+        "title": "Scaling Up Influence Functions",
+        "authors": "Andrea Schioppa, Polina Zablotskaia, David Vilar, Artem Sokolov",
+        "abstract": "We address efficient calculation of influence functions for tracking predictions back to the training data. We propose and analyze a new approach to speeding up the inverse Hessian calculation based on Arnoldi iteration. With this improvement, we achieve, to the best of our knowledge, the first successful implementation of influence functions that scales to full-size (language and vision) Transformer models with several hundreds of millions of parameters. We evaluate our approach on image classification and sequence-to-sequence tasks with tens to a hundred of millions of training examples. Our code will be available at this https URL.",
+        "timestamp": "2026-02-04T20:42:03.408Z",
+        "rating": "novote",
+        "publishedDate": "2021/12/06",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Computation and Language (cs.CL)",
+          "Computer Vision and Pattern Recognition (cs.CV)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1469,
+        "object_id": "paper:arxiv.2112.03052",
+        "created_at": "2026-02-04T20:42:03+00:00",
+        "updated_at": "2026-02-04T20:42:23+00:00",
         "version": 1
       }
     }

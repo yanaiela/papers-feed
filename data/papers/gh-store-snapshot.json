@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-04T20:54:21.378224+00:00",
+  "snapshot_time": "2026-02-04T20:55:01.005920+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -51166,6 +51166,36 @@
         "object_id": "interactions:openreview.xcf0QcTcGS",
         "created_at": "2026-02-04T20:52:32+00:00",
         "updated_at": "2026-02-04T20:53:31+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.eGCw1UVOhk": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "eGCw1UVOhk",
+        "url": "https://openreview.net/forum?id=eGCw1UVOhk",
+        "title": "LMD3: Language Model Data Density Dependence",
+        "authors": "John Kirchenbauer, Garrett Honke, Gowthami Somepalli, Jonas Geiping, Katherine Lee, Daphne Ippolito, Tom Goldstein, David Andre",
+        "abstract": "We develop a methodology for analyzing language model task performance at the individual example level based on training data density estimation. Experiments with paraphrasing as a controlled intervention on finetuning data demonstrate that increasing the support in the training distribution for specific test queries results in a measurable increase in density, which is also a significant predictor of the performance increase caused by the intervention. Experiments with pretraining data demonstrate that we can explain a significant fraction of the variance in model perplexity via density measurements. We conclude that our framework can provide statistical evidence of the dependence of a target model\u2019s predictions on subsets of its training data, and can more generally be used to characterize the support (or lack thereof) in the training data for a given test task.",
+        "timestamp": "2026-02-04T20:54:14.890Z",
+        "rating": "novote",
+        "publishedDate": "10 Jul 2024",
+        "tags": [
+          "data attribution",
+          "retrieval",
+          "embeddings",
+          "training data",
+          "density estimation"
+        ],
+        "doi": "",
+        "journalName": "COLM",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1483,
+        "object_id": "paper:openreview.eGCw1UVOhk",
+        "created_at": "2026-02-04T20:54:15+00:00",
+        "updated_at": "2026-02-04T20:54:36+00:00",
         "version": 1
       }
     }

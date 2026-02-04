@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-04T20:50:44.037594+00:00",
+  "snapshot_time": "2026-02-04T20:52:44.642422+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -50965,6 +50965,177 @@
         "object_id": "paper:openreview.e2cD5xuHix",
         "created_at": "2026-02-04T20:49:14+00:00",
         "updated_at": "2026-02-04T20:49:36+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.xcf0QcTcGS": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "xcf0QcTcGS",
+        "url": "https://openreview.net/forum?id=xcf0QcTcGS",
+        "title": "Deep Ignorance: Filtering Pretraining Data Builds Tamper-Resistant Safeguards into Open-Weight LLMs",
+        "authors": "",
+        "abstract": "Open-weight AI systems offer unique benefits, including enhanced transparency, open research, and decentralized access. However, they are vulnerable to tampering attacks which can efficiently elicit harmful behaviors by modifying weights or activations. Currently, there is not yet a robust science of open-weight model risk management. Existing safety fine-tuning methods and other post-training techniques have struggled to make LLMs resistant to more than a few dozen steps of adversarial fine-tuning. In this paper, we investigate whether filtering text about dual-use topics from training data can prevent unwanted capabilities and serve as a more tamper-resistant safeguard. We introduce a multi-stage pipeline for scalable data filtering and show that it offers a tractable and effective method for minimizing biothreat proxy knowledge in LLMs. We pretrain multiple 6.9B-parameter models from scratch and find that they exhibit substantial resistance to adversarial fine-tuning attacks on up to 10,000 steps and 300M tokens of biothreat-related text -- outperforming existing post-training baselines by over an order of magnitude -- with no observed degradation to unrelated capabilities. However, while filtered models lack internalized dangerous knowledge, we find that they can still leverage such information when it is provided in context (e.g., via search tool augmentation), demonstrating a need for a defense-in-depth approach. Overall, these findings help to establish pretraining data curation as a promising layer of defense for open-weight AI systems.",
+        "timestamp": "2026-02-04T20:52:01.499Z",
+        "rating": "novote",
+        "publishedDate": "26 Jan 2026",
+        "tags": [
+          "data filtering",
+          "model tampering",
+          "unlearning",
+          "robustness",
+          "open-weight",
+          "open-source",
+          "safety",
+          "biorisk"
+        ],
+        "doi": "",
+        "journalName": "ICLR 2026",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1481,
+        "object_id": "paper:openreview.xcf0QcTcGS",
+        "created_at": "2026-02-04T20:52:01+00:00",
+        "updated_at": "2026-02-04T20:52:22+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.K0E": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "K0E",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-04T20:51:27.753Z",
+            "data": {
+              "session_id": "session_1770238287127_blhc5ji",
+              "source_id": "openreview",
+              "paper_id": "K0E",
+              "start_time": "2026-02-04T20:51:21.217Z",
+              "end_time": "2026-02-04T20:51:27.127Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1480,
+        "object_id": "interactions:openreview.K0E",
+        "created_at": "2026-02-04T20:51:28+00:00",
+        "updated_at": "2026-02-04T20:51:53+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.K0E": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "K0E",
+        "url": "https://openreview.net/forum?id=K0E_F0gFDgA",
+        "title": "The MultiBERTs: BERT Reproductions for Robustness Analysis\ud83d\udcdd",
+        "authors": "Thibault Sellam, Steve Yadlowsky, Ian Tenney, Jason Wei, Naomi Saphra, Alexander D'Amour, Tal Linzen, Jasmijn Bastings, Iulia Raluca Turc, Jacob Eisenstein, Dipanjan Das, Ellie Pavlick",
+        "abstract": "Experiments with pre-trained models such as BERT are often based on a single checkpoint. While the conclusions drawn apply to the artifact tested in the experiment (i.e., the particular instance of the model), it is not always clear whether they hold for the more general procedure which includes the architecture, training data, initialization scheme, and loss function. Recent work has shown that repeating the pre-training process can lead to substantially different performance, suggesting that an alternative strategy is needed to make principled statements about procedures. To enable researchers to draw more robust conclusions, we introduce MultiBERTs, a set of 25 BERT-Base checkpoints, trained with similar hyper-parameters as the original BERT model but differing in random weight initialization and shuffling of training data. We also define the Multi-Bootstrap, a non-parametric bootstrap method for statistical inference designed for settings where there are multiple pre-trained models and limited test data. To illustrate our approach, we present a case study of gender bias in coreference resolution, in which the Multi-Bootstrap lets us measure effects that may not be detected with a single checkpoint. The models and statistical library are available online, along with an additional set of 140 intermediate checkpoints captured during pre-training to facilitate research on learning dynamics.",
+        "timestamp": "2026-02-04T20:51:21.493Z",
+        "rating": "novote",
+        "publishedDate": "28 Jan 2022",
+        "tags": [
+          "Pre-trained models",
+          "BERT",
+          "bootstrapping",
+          "hypothesis testing",
+          "robustness"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1479,
+        "object_id": "paper:openreview.K0E",
+        "created_at": "2026-02-04T20:51:21+00:00",
+        "updated_at": "2026-02-04T20:51:44+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.hY6M0JHl3uL": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "hY6M0JHl3uL",
+        "url": "https://openreview.net/forum?id=hY6M0JHl3uL",
+        "title": "Linear Connectivity Reveals Generalization Strategies\ud83d\udcdd",
+        "authors": "Jeevesh Juneja, Rachit Bansal, Kyunghyun Cho, Jo\u00e3o Sedoc, Naomi Saphra",
+        "abstract": "In the mode connectivity literature, it is widely accepted that there are common circumstances in which two neural networks, trained similarly on the same data, will maintain loss when interpolated in the weight space. In particular, transfer learning is presumed to ensure the necessary conditions for linear mode connectivity across training runs. In contrast to existing results from image classification, we find that among text classifiers (trained on MNLI, QQP, and CoLA), some pairs of finetuned models have large barriers of increasing loss on the linear paths between them. On each task, we find distinct clusters of models which are linearly connected on the test loss surface, but are disconnected from models outside the cluster---models that occupy separate basins on the surface. By measuring performance on specially-crafted diagnostic datasets, we find that these clusters correspond to different generalization strategies. For example, on MNLI, one cluster behaves like a bag of words model under domain shift, while another cluster uses syntactic heuristics. Our work demonstrates how the geometry of the loss surface can guide models towards different heuristic functions in standard finetuning settings.",
+        "timestamp": "2026-02-04T20:50:58.379Z",
+        "rating": "novote",
+        "publishedDate": "01 Feb 2023",
+        "tags": [
+          "loss landscapes",
+          "OOD generalization",
+          "NLI",
+          "text classification",
+          "loss surfaces",
+          "transfer learning",
+          "challenge sets",
+          "NLP"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1478,
+        "object_id": "paper:openreview.hY6M0JHl3uL",
+        "created_at": "2026-02-04T20:50:58+00:00",
+        "updated_at": "2026-02-04T20:51:20+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.e2cD5xuHix": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "e2cD5xuHix",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-04T20:49:29.242Z",
+            "data": {
+              "session_id": "session_1770238169236_eaz8tf0",
+              "source_id": "openreview",
+              "paper_id": "e2cD5xuHix",
+              "start_time": "2026-02-04T20:49:23.162Z",
+              "end_time": "2026-02-04T20:49:29.236Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-04T20:50:32.736Z",
+            "data": {
+              "session_id": "session_1770238232452_sctrc3c",
+              "source_id": "openreview",
+              "paper_id": "e2cD5xuHix",
+              "start_time": "2026-02-04T20:50:24.936Z",
+              "end_time": "2026-02-04T20:50:32.452Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1477,
+        "object_id": "interactions:openreview.e2cD5xuHix",
+        "created_at": "2026-02-04T20:49:29+00:00",
+        "updated_at": "2026-02-04T20:50:52+00:00",
         "version": 1
       }
     }

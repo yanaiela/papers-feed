@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-05T12:51:45.450290+00:00",
+  "snapshot_time": "2026-02-05T13:02:20.058135+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -51431,6 +51431,33 @@
         "object_id": "paper:openreview.d24zTCznJu",
         "created_at": "2026-02-05T08:17:53+00:00",
         "updated_at": "2026-02-05T08:18:15+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2307.09702": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2307.09702",
+        "url": "https://arxiv.org/abs/2307.09702",
+        "title": "Efficient Guided Generation for Large Language Models",
+        "authors": "Brandon T. Willard, R\u00e9mi Louf",
+        "abstract": "In this article we show how the problem of neural text generation can be constructively reformulated in terms of transitions between the states of a finite-state machine. This framework leads to an efficient approach to guiding text generation with regular expressions and context-free grammars by allowing the construction of an index over a language model's vocabulary. The approach is model agnostic, allows one to enforce domain-specific knowledge and constraints, and enables the construction of reliable interfaces by guaranteeing the structure of the generated text. It adds little overhead to the token sequence generation process and significantly outperforms existing solutions. An implementation is provided in the open source Python library Outlines",
+        "timestamp": "2026-02-05T13:01:33.067Z",
+        "rating": "novote",
+        "publishedDate": "2023/07/19",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1488,
+        "object_id": "paper:arxiv.2307.09702",
+        "created_at": "2026-02-05T13:01:33+00:00",
+        "updated_at": "2026-02-05T13:01:54+00:00",
         "version": 1
       }
     }

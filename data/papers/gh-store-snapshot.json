@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-05T06:01:00.842298+00:00",
+  "snapshot_time": "2026-02-05T08:17:06.590894+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -32015,6 +32015,21 @@
               "idle_seconds": 1,
               "total_elapsed_seconds": 21
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-05T08:16:29.188Z",
+            "data": {
+              "session_id": "session_1770279389179_9nonzr7",
+              "source_id": "arxiv",
+              "paper_id": "2411.15287",
+              "start_time": "2026-02-05T08:16:21.917Z",
+              "end_time": "2026-02-05T08:16:29.179Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 7
+            }
           }
         ]
       },
@@ -32022,7 +32037,7 @@
         "issue_number": 838,
         "object_id": "interactions:arxiv.2411.15287",
         "created_at": "2025-11-26T07:49:37+00:00",
-        "updated_at": "2025-11-28T06:37:38+00:00",
+        "updated_at": "2026-02-05T08:16:45+00:00",
         "version": 1
       }
     },
@@ -50679,6 +50694,21 @@
               "idle_seconds": 25858,
               "total_elapsed_seconds": 31068
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-05T08:16:13.245Z",
+            "data": {
+              "session_id": "session_1770279372581_6s0axt7",
+              "source_id": "arxiv",
+              "paper_id": "1703.00810",
+              "start_time": "2026-02-05T08:12:59.184Z",
+              "end_time": "2026-02-05T08:16:12.581Z",
+              "heartbeat_count": 38,
+              "duration_seconds": 190,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 193
+            }
           }
         ]
       },
@@ -50686,7 +50716,7 @@
         "issue_number": 1466,
         "object_id": "interactions:arxiv.1703.00810",
         "created_at": "2026-02-04T16:54:46+00:00",
-        "updated_at": "2026-02-05T06:00:30+00:00",
+        "updated_at": "2026-02-05T08:16:35+00:00",
         "version": 1
       }
     },
@@ -51226,6 +51256,32 @@
         "object_id": "paper:openreview.eGCw1UVOhk",
         "created_at": "2026-02-04T20:54:15+00:00",
         "updated_at": "2026-02-04T20:54:36+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2502.08177": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2502.08177",
+        "url": "https://arxiv.org/abs/2502.08177",
+        "title": "SycEval: Evaluating LLM Sycophancy",
+        "authors": "Aaron Fanous, Jacob Goldberg, Ank A. Agarwal, Joanna Lin, Anson Zhou, Roxana Daneshjou, Sanmi Koyejo",
+        "abstract": "Large language models (LLMs) are increasingly applied in educational, clinical, and professional settings, but their tendency for sycophancy -- prioritizing user agreement over independent reasoning -- poses risks to reliability. This study introduces a framework to evaluate sycophantic behavior in ChatGPT-4o, Claude-Sonnet, and Gemini-1.5-Pro across AMPS (mathematics) and MedQuad (medical advice) datasets. Sycophantic behavior was observed in 58.19% of cases, with Gemini exhibiting the highest rate (62.47%) and ChatGPT the lowest (56.71%). Progressive sycophancy, leading to correct answers, occurred in 43.52% of cases, while regressive sycophancy, leading to incorrect answers, was observed in 14.66%. Preemptive rebuttals demonstrated significantly higher sycophancy rates than in-context rebuttals (61.75% vs. 56.52%, $Z=5.87$, $p<0.001$), particularly in computational tasks, where regressive sycophancy increased significantly (preemptive: 8.13%, in-context: 3.54%, $p<0.001$). Simple rebuttals maximized progressive sycophancy ($Z=6.59$, $p<0.001$), while citation-based rebuttals exhibited the highest regressive rates ($Z=6.59$, $p<0.001$). Sycophantic behavior showed high persistence (78.5%, 95% CI: [77.2%, 79.8%]) regardless of context or model. These findings emphasize the risks and opportunities of deploying LLMs in structured and dynamic domains, offering insights into prompt programming and model optimization for safer AI applications.",
+        "timestamp": "2026-02-05T08:16:10.081Z",
+        "rating": "novote",
+        "publishedDate": "2025/02/12",
+        "tags": [
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1484,
+        "object_id": "paper:arxiv.2502.08177",
+        "created_at": "2026-02-05T08:16:10+00:00",
+        "updated_at": "2026-02-05T08:16:31+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-05T08:17:54.869641+00:00",
+  "snapshot_time": "2026-02-05T08:19:14.170918+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -51304,6 +51304,21 @@
               "idle_seconds": 0,
               "total_elapsed_seconds": 28
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-05T08:18:19.722Z",
+            "data": {
+              "session_id": "session_1770279499711_rs3276y",
+              "source_id": "arxiv",
+              "paper_id": "2502.08177",
+              "start_time": "2026-02-05T08:18:16.227Z",
+              "end_time": "2026-02-05T08:18:19.711Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 3
+            }
           }
         ]
       },
@@ -51311,7 +51326,66 @@
         "issue_number": 1485,
         "object_id": "interactions:arxiv.2502.08177",
         "created_at": "2026-02-05T08:16:19+00:00",
-        "updated_at": "2026-02-05T08:17:16+00:00",
+        "updated_at": "2026-02-05T08:18:44+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.d24zTCznJu": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "d24zTCznJu",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-05T08:18:25.555Z",
+            "data": {
+              "session_id": "session_1770279505494_25ga2t6",
+              "source_id": "openreview",
+              "paper_id": "d24zTCznJu",
+              "start_time": "2026-02-05T08:18:19.712Z",
+              "end_time": "2026-02-05T08:18:25.494Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 6
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1487,
+        "object_id": "interactions:openreview.d24zTCznJu",
+        "created_at": "2026-02-05T08:18:00+00:00",
+        "updated_at": "2026-02-05T08:18:44+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.d24zTCznJu": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "d24zTCznJu",
+        "url": "https://openreview.net/forum?id=d24zTCznJu",
+        "title": "Sycophancy Is Not One Thing: Causal Separation of Sycophantic Behaviors in LLMs",
+        "authors": "",
+        "abstract": "Large language models (LLMs) often exhibit sycophantic behaviors---such as excessive agreement with or flattery of the user---but it is unclear whether these behaviors arise from a single mechanism or multiple distinct processes. We decompose sycophancy into \\emph{sycophantic agreement} and \\emph{sycophantic praise}, contrasting both with \\emph{genuine agreement}. Using difference-in-means directions, activation additions, and subspace geometry across multiple models and datasets, we show that: (1) the three behaviors are encoded along distinct linear directions in latent space; (2) each behavior can be independently amplified or suppressed without affecting the others; and (3) their representational structure is consistent across model families and scales. These results suggest that sycophantic behaviors correspond to distinct, independently steerable representations.",
+        "timestamp": "2026-02-05T08:17:52.769Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Sycophancy",
+          "interpretability",
+          "alignment",
+          "llm behavior analysis"
+        ],
+        "doi": "",
+        "journalName": "Submitted to ICLR 2026",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1486,
+        "object_id": "paper:openreview.d24zTCznJu",
+        "created_at": "2026-02-05T08:17:53+00:00",
+        "updated_at": "2026-02-05T08:18:15+00:00",
         "version": 1
       }
     }

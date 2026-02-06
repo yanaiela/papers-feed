@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-06T10:31:36.202570+00:00",
+  "snapshot_time": "2026-02-06T10:32:50.962654+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -51663,6 +51663,33 @@
         "object_id": "paper:arxiv.2602.04863",
         "created_at": "2026-02-06T10:29:42+00:00",
         "updated_at": "2026-02-06T10:30:05+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.14073": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.14073",
+        "url": "https://arxiv.org/abs/2510.14073",
+        "title": "Exploratory Causal Inference in SAEnce",
+        "authors": "Tommaso Mencattini, Riccardo Cadei, Francesco Locatello",
+        "abstract": "Randomized Controlled Trials are one of the pillars of science; nevertheless, they rely on hand-crafted hypotheses and expensive analysis. Such constraints prevent causal effect estimation at scale, potentially anchoring on popular yet incomplete hypotheses. We propose to discover the unknown effects of a treatment directly from data. For this, we turn unstructured data from a trial into meaningful representations via pretrained foundation models and interpret them via a sparse autoencoder. However, discovering significant causal effects at the neural level is not trivial due to multiple-testing issues and effects entanglement. To address these challenges, we introduce Neural Effect Search, a novel recursive procedure solving both issues by progressive stratification. After assessing the robustness of our algorithm on semi-synthetic experiments, we showcase, in the context of experimental ecology, the first successful unsupervised causal effect identification on a real-world scientific trial.",
+        "timestamp": "2026-02-06T10:31:59.867Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/15",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1496,
+        "object_id": "paper:arxiv.2510.14073",
+        "created_at": "2026-02-06T10:32:00+00:00",
+        "updated_at": "2026-02-06T10:32:20+00:00",
         "version": 1
       }
     }

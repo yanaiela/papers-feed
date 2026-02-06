@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-05T21:32:22.519509+00:00",
+  "snapshot_time": "2026-02-06T10:31:36.202570+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -51604,6 +51604,65 @@
         "object_id": "paper:arxiv.2501.14945",
         "created_at": "2026-02-05T18:20:59+00:00",
         "updated_at": "2026-02-05T18:21:23+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2602.04863": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2602.04863",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-06T10:30:43.802Z",
+            "data": {
+              "session_id": "session_1770373843786_gury6xv",
+              "source_id": "arxiv",
+              "paper_id": "2602.04863",
+              "start_time": "2026-02-06T10:30:12.998Z",
+              "end_time": "2026-02-06T10:30:43.786Z",
+              "heartbeat_count": 6,
+              "duration_seconds": 30,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 31
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1495,
+        "object_id": "interactions:arxiv.2602.04863",
+        "created_at": "2026-02-06T10:30:13+00:00",
+        "updated_at": "2026-02-06T10:31:06+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2602.04863": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2602.04863",
+        "url": "https://www.arxiv.org/abs/2602.04863",
+        "title": "Subliminal Effects in Your Data: A General Mechanism via Log-Linearity",
+        "authors": "Ishaq Aden-Ali, Noah Golowich, Allen Liu, Abhishek Shetty, Ankur Moitra, Nika Haghtalab",
+        "abstract": "Training modern large language models (LLMs) has become a veritable smorgasbord of algorithms and datasets designed to elicit particular behaviors, making it critical to develop techniques to understand the effects of datasets on the model's properties. This is exacerbated by recent experiments that show datasets can transmit signals that are not directly observable from individual datapoints, posing a conceptual challenge for dataset-centric understandings of LLM training and suggesting a missing fundamental account of such phenomena. Towards understanding such effects, inspired by recent work on the linear structure of LLMs, we uncover a general mechanism through which hidden subtexts can arise in generic datasets.\nWe introduce Logit-Linear-Selection (LLS), a method that prescribes how to select subsets of a generic preference dataset to elicit a wide range of hidden effects. We apply LLS to discover subsets of real-world datasets so that models trained on them exhibit behaviors ranging from having specific preferences, to responding to prompts in a different language not present in the dataset, to taking on a different persona. Crucially, the effect persists for the selected subset, across models with varying architectures, supporting its generality and universality.",
+        "timestamp": "2026-02-06T10:29:41.635Z",
+        "rating": "novote",
+        "publishedDate": "2026/02/04",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1494,
+        "object_id": "paper:arxiv.2602.04863",
+        "created_at": "2026-02-06T10:29:42+00:00",
+        "updated_at": "2026-02-06T10:30:05+00:00",
         "version": 1
       }
     }

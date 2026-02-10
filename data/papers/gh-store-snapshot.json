@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-10T09:47:04.676003+00:00",
+  "snapshot_time": "2026-02-10T13:16:15.664819+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -52376,6 +52376,56 @@
         "object_id": "interactions:arxiv.2601.06238",
         "created_at": "2026-02-10T07:23:00+00:00",
         "updated_at": "2026-02-10T07:23:23+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.UmUXPXHtdl": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "UmUXPXHtdl",
+        "url": "https://openreview.net/forum?id=UmUXPXHtdl#discussion",
+        "title": "Scaling Laws of Synthetic Data for Language Model",
+        "authors": "Zeyu Qin, Qingxiu Dong, Xingxing Zhang, Li Dong, Xiaolong Huang, Ziyi Yang, MAHMOUD KHADEMI, Dongdong Zhang, Hany Hassan Awadalla, Yi R. Fung, Weizhu Chen, Minhao Cheng, Furu Wei",
+        "abstract": "Large language models (LLMs) achieve strong performance across diverse tasks, driven by high-quality web data used in pre-training. However, recent studies indicate web data is rapidly depleting. Synthetic data emerges as a promising alternative, but it remains unclear whether synthetic datasets exhibit predictable scalability comparable to raw pre-training data. In this work, we systematically investigate scaling laws of synthetic data by introducing SynthLLM, a scalable framework that transforms pre-training corpora into diverse, high-quality synthetic datasets. Our approach achieves this by automatically extracting and recombining high-level concepts across multiple documents using a graph algorithm. Key findings from our experiments with SynthLLM on math domain include: (1) SynthLLM generates synthetic data that reliably adheres to rectified scaling law across various model sizes; (2) Performance gains gradually diminish near 300B tokens; and (3) Larger models approach optimal performance with fewer training tokens. For instance, an 8B model peaks at 1T tokens, while a 3B model requires 4T. Moreover, comparisons with existing synthetic data generation and augmentation methods demonstrate that SynthLLM achieves superior performance and scalability. Our findings highlight synthetic data as a scalable and reliable alternative to raw pre-training data, offering a viable path toward continued improvement in model performance.",
+        "timestamp": "2026-02-10T13:15:26.211Z",
+        "rating": "novote",
+        "publishedDate": "08 Jul 2025",
+        "tags": [
+          "Synthetic Data; Scaling Laws"
+        ],
+        "doi": "",
+        "journalName": "COLM 2025",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1508,
+        "object_id": "paper:openreview.UmUXPXHtdl",
+        "created_at": "2026-02-10T13:15:26+00:00",
+        "updated_at": "2026-02-10T13:15:50+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2501.18493": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2501.18493",
+        "url": "https://arxiv.org/html/2501.18493v2",
+        "title": "Examining the Expanding Role of Synthetic Data Throughout the AI Development Pipeline",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-02-10T13:15:14.249Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1507,
+        "object_id": "paper:arxiv.2501.18493",
+        "created_at": "2026-02-10T13:15:14+00:00",
+        "updated_at": "2026-02-10T13:15:35+00:00",
         "version": 1
       }
     }

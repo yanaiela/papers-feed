@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-10T20:14:14.027433+00:00",
+  "snapshot_time": "2026-02-10T20:38:49.030054+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -52721,6 +52721,62 @@
         "object_id": "interactions:arxiv.2602.06964",
         "created_at": "2026-02-10T19:56:20+00:00",
         "updated_at": "2026-02-10T19:56:44+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2411.13966": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2411.13966",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-10T20:37:39.213Z",
+            "data": {
+              "session_id": "session_1770755858833_vfs8axb",
+              "source_id": "arxiv",
+              "paper_id": "2411.13966",
+              "start_time": "2026-02-10T20:37:16.409Z",
+              "end_time": "2026-02-10T20:37:38.833Z",
+              "heartbeat_count": 4,
+              "duration_seconds": 20,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 22
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1521,
+        "object_id": "interactions:arxiv.2411.13966",
+        "created_at": "2026-02-10T20:37:39+00:00",
+        "updated_at": "2026-02-10T20:38:19+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2411.13966": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2411.13966",
+        "url": "https://arxiv.org/abs/2411.13966",
+        "title": "On comass and stable systolic inequalities",
+        "authors": "James J. Hebda, Mikhail G. Katz",
+        "abstract": "We study the maximum ratio of the Euclidean norm to the comass norm of p-covectors in Euclidean n-space and improve the known upper bound found in the standard references by Whitney and Federer. We go on to prove stable systolic inequalities when the fundamental cohomology class of the manifold is a cup product of forms of lower degree.",
+        "timestamp": "2026-02-10T20:37:13.500Z",
+        "rating": "novote",
+        "publishedDate": "2024/11/21",
+        "tags": [
+          "Differential Geometry (math.DG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1519,
+        "object_id": "paper:arxiv.2411.13966",
+        "created_at": "2026-02-10T20:37:13+00:00",
+        "updated_at": "2026-02-10T20:37:36+00:00",
         "version": 1
       }
     }

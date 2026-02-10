@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-10T13:17:48.513494+00:00",
+  "snapshot_time": "2026-02-10T13:26:58.768191+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -52486,6 +52486,54 @@
         "object_id": "interactions:openreview.UmUXPXHtdl",
         "created_at": "2026-02-10T13:16:22+00:00",
         "updated_at": "2026-02-10T13:16:49+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.01631": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.01631",
+        "url": "https://arxiv.org/html/2510.01631v1",
+        "title": "Demystifying Synthetic Data in LLM Pre-training: A Systematic Study of Scaling Laws, Benefits, and Pitfalls",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-02-10T13:26:02.117Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1512,
+        "object_id": "paper:arxiv.2510.01631",
+        "created_at": "2026-02-10T13:26:02+00:00",
+        "updated_at": "2026-02-10T13:26:29+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2503.14023": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.14023",
+        "url": "https://arxiv.org/html/2503.14023v1",
+        "title": "Synthetic Data Generation Using Large Language Models: Advances in Text and Code",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-02-10T13:26:02.121Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1511,
+        "object_id": "paper:arxiv.2503.14023",
+        "created_at": "2026-02-10T13:26:02+00:00",
+        "updated_at": "2026-02-10T13:26:25+00:00",
         "version": 1
       }
     }

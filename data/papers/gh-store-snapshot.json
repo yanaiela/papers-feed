@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-10T16:46:13.593934+00:00",
+  "snapshot_time": "2026-02-10T19:56:23.504839+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -52618,6 +52618,34 @@
         "object_id": "paper:arxiv.2412.08905",
         "created_at": "2026-02-10T13:28:04+00:00",
         "updated_at": "2026-02-10T13:28:29+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2602.06964": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2602.06964",
+        "url": "https://arxiv.org/abs/2602.06964",
+        "title": "Learning a Generative Meta-Model of LLM Activations",
+        "authors": "Grace Luo, Jiahai Feng, Trevor Darrell, Alec Radford, Jacob Steinhardt",
+        "abstract": "Existing approaches for analyzing neural network activations, such as PCA and sparse autoencoders, rely on strong structural assumptions. Generative models offer an alternative: they can uncover structure without such assumptions and act as priors that improve intervention fidelity. We explore this direction by training diffusion models on one billion residual stream activations, creating \"meta-models\" that learn the distribution of a network's internal states. We find that diffusion loss decreases smoothly with compute and reliably predicts downstream utility. In particular, applying the meta-model's learned prior to steering interventions improves fluency, with larger gains as loss decreases. Moreover, the meta-model's neurons increasingly isolate concepts into individual units, with sparse probing scores that scale as loss decreases. These results suggest generative meta-models offer a scalable path toward interpretability without restrictive structural assumptions. Project page: this https URL.",
+        "timestamp": "2026-02-10T19:55:22.549Z",
+        "rating": "novote",
+        "publishedDate": "2026/02/06",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1517,
+        "object_id": "paper:arxiv.2602.06964",
+        "created_at": "2026-02-10T19:55:23+00:00",
+        "updated_at": "2026-02-10T19:55:53+00:00",
         "version": 1
       }
     }

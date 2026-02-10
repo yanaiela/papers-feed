@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-09T15:42:39.875302+00:00",
+  "snapshot_time": "2026-02-10T07:21:49.355558+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -52243,6 +52243,34 @@
         "object_id": "paper:arxiv.2210.02943",
         "created_at": "2026-02-09T14:03:39+00:00",
         "updated_at": "2026-02-09T14:04:02+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2601.06238": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2601.06238",
+        "url": "https://arxiv.org/abs/2601.06238",
+        "title": "SPINAL -- Scaling-law and Preference Integration in Neural Alignment Layers",
+        "authors": "Arion Das, Partha Pratim Saha, Amit Dhanda, Vinija Jain, Aman Chadha, Amitava Das",
+        "abstract": "Direct Preference Optimization (DPO) is a principled, scalable alternative to RLHF for aligning large language models from pairwise preferences, but its internal geometric footprint remains undercharacterized, limiting audits, checkpoint comparisons, and failure prediction. We introduce SPINAL (Scaling-law and Preference Integration in Neural Alignment Layers), a diagnostic that measures how alignment reshapes representations across depth by tracing localized structural change layer by layer. Across model families, DPO produces a layerwise calibration effect concentrated in the final decoder blocks (often layers 21-30), where preference gradients most directly affect the next-token distribution. SPINAL encodes each checkpoint as a depth trace over (layer index, contraction score, transport score). The contraction score summarizes how quickly the tail of a layer's spectrum decays (how fast small modes vanish); higher values indicate stronger contraction into fewer effective directions. The transport score summarizes how much the token distribution shifts between adjacent layers using a bounded overlap measure; lower values indicate shorter, smoother steps through representation space. Aligned checkpoints show a late-layer ramp-up in contraction and a smooth reduction in transport, consistent with tightened and stabilized policy mass, while unaligned models trace higher-curvature, more entropic, and geometrically incoherent depth paths. Overall, alignment is geometrically localized: the final layers encode the dominant preference-induced corrections. SPINAL turns this localization into a practical audit signal, quantifying where alignment concentrates, how strongly it manifests, and when it begins to destabilize during training.",
+        "timestamp": "2026-02-10T07:21:03.616Z",
+        "rating": "novote",
+        "publishedDate": "2026/01/08",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1505,
+        "object_id": "paper:arxiv.2601.06238",
+        "created_at": "2026-02-10T07:21:04+00:00",
+        "updated_at": "2026-02-10T07:21:22+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-10T13:26:58.768191+00:00",
+  "snapshot_time": "2026-02-10T13:29:01.958815+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -52534,6 +52534,30 @@
         "object_id": "paper:arxiv.2503.14023",
         "created_at": "2026-02-10T13:26:02+00:00",
         "updated_at": "2026-02-10T13:26:25+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2412.08905": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2412.08905",
+        "url": "https://arxiv.org/html/2412.08905v1",
+        "title": "Phi-4 Technical Report",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-02-10T13:28:03.722Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1513,
+        "object_id": "paper:arxiv.2412.08905",
+        "created_at": "2026-02-10T13:28:04+00:00",
+        "updated_at": "2026-02-10T13:28:29+00:00",
         "version": 1
       }
     }

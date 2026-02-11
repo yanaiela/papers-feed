@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-11T15:52:36.694603+00:00",
+  "snapshot_time": "2026-02-11T15:55:41.813914+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -52906,6 +52906,78 @@
         "object_id": "paper:arxiv.2602.08336",
         "created_at": "2026-02-11T02:51:02+00:00",
         "updated_at": "2026-02-11T02:51:23+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.20800": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.20800",
+        "url": "https://arxiv.org/pdf/2510.20800",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-02-11T15:54:49.465Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1528,
+        "object_id": "paper:arxiv.2510.20800",
+        "created_at": "2026-02-11T15:54:49+00:00",
+        "updated_at": "2026-02-11T15:55:11+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2511.20273": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2511.20273",
+        "url": "https://arxiv.org/pdf/2511.20273",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-02-11T15:54:47.462Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1526,
+        "object_id": "paper:arxiv.2511.20273",
+        "created_at": "2026-02-11T15:54:47+00:00",
+        "updated_at": "2026-02-11T15:55:12+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2312.13558": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2312.13558",
+        "url": "https://arxiv.org/pdf/2312.13558",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-02-11T15:54:44.109Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1524,
+        "object_id": "paper:arxiv.2312.13558",
+        "created_at": "2026-02-11T15:54:44+00:00",
+        "updated_at": "2026-02-11T15:55:06+00:00",
         "version": 1
       }
     }

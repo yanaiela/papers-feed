@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-11T18:09:30.975494+00:00",
+  "snapshot_time": "2026-02-12T06:36:13.238670+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -53143,6 +53143,33 @@
         "object_id": "interactions:arxiv.2511.20273",
         "created_at": "2026-02-11T15:57:47+00:00",
         "updated_at": "2026-02-11T15:58:10+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2112.00059": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2112.00059",
+        "url": "https://arxiv.org/abs/2112.00059",
+        "title": "Evaluating Gradient Inversion Attacks and Defenses in Federated Learning",
+        "authors": "Yangsibo Huang, Samyak Gupta, Zhao Song, Kai Li, Sanjeev Arora",
+        "abstract": "Gradient inversion attack (or input recovery from gradient) is an emerging threat to the security and privacy preservation of Federated learning, whereby malicious eavesdroppers or participants in the protocol can recover (partially) the clients' private data. This paper evaluates existing attacks and defenses. We find that some attacks make strong assumptions about the setup. Relaxing such assumptions can substantially weaken these attacks. We then evaluate the benefits of three proposed defense mechanisms against gradient inversion attacks. We show the trade-offs of privacy leakage and data utility of these defense methods, and find that combining them in an appropriate manner makes the attack less effective, even under the original strong assumptions. We also estimate the computation cost of end-to-end recovery of a single image under each evaluated defense. Our findings suggest that the state-of-the-art attacks can currently be defended against with minor data utility loss, as summarized in a list of potential strategies. Our code is available at: this https URL.",
+        "timestamp": "2026-02-12T06:35:30.055Z",
+        "rating": "novote",
+        "publishedDate": "2021/11/30",
+        "tags": [
+          "Cryptography and Security (cs.CR)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1534,
+        "object_id": "paper:arxiv.2112.00059",
+        "created_at": "2026-02-12T06:35:30+00:00",
+        "updated_at": "2026-02-12T06:35:51+00:00",
         "version": 1
       }
     }

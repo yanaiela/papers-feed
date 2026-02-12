@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-12T09:27:03.459432+00:00",
+  "snapshot_time": "2026-02-12T09:31:21.781667+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -53573,6 +53573,34 @@
         "object_id": "paper:arxiv.2311.07911",
         "created_at": "2026-02-12T09:24:27+00:00",
         "updated_at": "2026-02-12T09:24:47+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2406.19314": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2406.19314",
+        "url": "https://arxiv.org/abs/2406.19314",
+        "title": "LiveBench: A Challenging, Contamination-Limited LLM Benchmark",
+        "authors": "Colin White, Samuel Dooley, Manley Roberts, Arka Pal, Ben Feuer, Siddhartha Jain, Ravid Shwartz-Ziv, Neel Jain, Khalid Saifullah, Sreemanti Dey, Shubh-Agrawal, Sandeep Singh Sandha, Siddartha Naidu, Chinmay Hegde, Yann LeCun, Tom Goldstein, Willie Neiswanger, Micah Goldblum",
+        "abstract": "Test set contamination, wherein test data from a benchmark ends up in a newer model's training set, is a well-documented obstacle for fair LLM evaluation and can quickly render benchmarks obsolete. To mitigate this, many recent benchmarks crowdsource new prompts and evaluations from human or LLM judges; however, these can introduce significant biases, and break down when scoring hard questions. In this work, we introduce a new benchmark for LLMs designed to be resistant to both test set contamination and the pitfalls of LLM judging and human crowdsourcing. We release LiveBench, the first benchmark that (1) contains frequently-updated questions from recent information sources, (2) scores answers automatically according to objective ground-truth values, and (3) contains a wide variety of challenging tasks, spanning math, coding, reasoning, language, instruction following, and data analysis. To achieve this, LiveBench contains questions that are based on recently-released math competitions, arXiv papers, news articles, and datasets, and it contains harder, contamination-limited versions of tasks from previous benchmarks such as Big-Bench Hard, AMPS, and IFEval. We evaluate many prominent closed-source models, as well as dozens of open-source models ranging from 0.5B to 405B in size. LiveBench is difficult, with top models achieving below 70% accuracy. We release all questions, code, and model answers. Questions are added and updated on a monthly basis, and we release new tasks and harder versions of tasks over time so that LiveBench can distinguish between the capabilities of LLMs as they improve in the future. We welcome community engagement and collaboration for expanding the benchmark tasks and models.",
+        "timestamp": "2026-02-12T09:30:36.603Z",
+        "rating": "novote",
+        "publishedDate": "2024/06/27",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1549,
+        "object_id": "paper:arxiv.2406.19314",
+        "created_at": "2026-02-12T09:30:37+00:00",
+        "updated_at": "2026-02-12T09:30:57+00:00",
         "version": 1
       }
     }

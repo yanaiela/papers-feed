@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-12T18:41:58.054133+00:00",
+  "snapshot_time": "2026-02-12T18:54:30.556962+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -53755,6 +53755,34 @@
         "object_id": "paper:arxiv.2602.02395",
         "created_at": "2026-02-12T18:38:58+00:00",
         "updated_at": "2026-02-12T18:39:48+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2602.10908": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2602.10908",
+        "url": "https://arxiv.org/abs/2602.10908",
+        "title": "SoftMatcha 2: A Fast and Soft Pattern Matcher for Trillion-Scale Corpora",
+        "authors": "Masataka Yoneda, Yusuke Matsushita, Go Kamoda, Kohei Suenaga, Takuya Akiba, Masaki Waga, Sho Yokoi",
+        "abstract": "We present an ultra-fast and flexible search algorithm that enables search over trillion-scale natural language corpora in under 0.3 seconds while handling semantic variations (substitution, insertion, and deletion). Our approach employs string matching based on suffix arrays that scales well with corpus size. To mitigate the combinatorial explosion induced by the semantic relaxation of queries, our method is built on two key algorithmic ideas: fast exact lookup enabled by a disk-aware design, and dynamic corpus-aware pruning. We theoretically show that the proposed method suppresses exponential growth in the search space with respect to query length by leveraging statistical properties of natural language. In experiments on FineWeb-Edu (Lozhkov et al., 2024) (1.4T tokens), we show that our method achieves significantly lower search latency than existing methods: infini-gram (Liu et al., 2024), infini-gram mini (Xu et al., 2025), and SoftMatcha (Deguchi et al., 2025). As a practical application, we demonstrate that our method identifies benchmark contamination in training corpora, unidentified by existing approaches. We also provide an online demo of fast, soft search across corpora in seven languages.",
+        "timestamp": "2026-02-12T18:53:20.361Z",
+        "rating": "novote",
+        "publishedDate": "2026/02/11",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1555,
+        "object_id": "paper:arxiv.2602.10908",
+        "created_at": "2026-02-12T18:53:20+00:00",
+        "updated_at": "2026-02-12T18:53:48+00:00",
         "version": 1
       }
     }

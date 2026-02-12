@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-12T09:31:21.781667+00:00",
+  "snapshot_time": "2026-02-12T09:32:13.936832+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -53601,6 +53601,32 @@
         "object_id": "paper:arxiv.2406.19314",
         "created_at": "2026-02-12T09:30:37+00:00",
         "updated_at": "2026-02-12T09:30:57+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2509.19163": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.19163",
+        "url": "https://arxiv.org/abs/2509.19163",
+        "title": "Measuring AI \"Slop\" in Text",
+        "authors": "Chantal Shaib, Tuhin Chakrabarty, Diego Garcia-Olano, Byron C. Wallace",
+        "abstract": "AI \"slop\" is an increasingly popular term used to describe low-quality AI-generated text, but there is currently no agreed upon definition of this term nor a means to measure its occurrence. In this work, we develop a taxonomy of \"slop\" through interviews with experts in NLP, writing, and philosophy, and propose a set of interpretable dimensions for its assessment in text. Through span-level annotation, we find that binary \"slop\" judgments are (somewhat) subjective, but such determinations nonetheless correlate with latent dimensions such as coherence and relevance. Our framework can be used to evaluate AI-generated text in both detection and binary preference tasks, potentially offering new insights into the linguistic and stylistic factors that contribute to quality judgments.",
+        "timestamp": "2026-02-12T09:31:19.151Z",
+        "rating": "novote",
+        "publishedDate": "2025/09/23",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1550,
+        "object_id": "paper:arxiv.2509.19163",
+        "created_at": "2026-02-12T09:31:19+00:00",
+        "updated_at": "2026-02-12T09:31:47+00:00",
         "version": 1
       }
     }

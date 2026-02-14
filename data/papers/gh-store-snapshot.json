@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-14T21:05:13.253468+00:00",
+  "snapshot_time": "2026-02-14T21:05:50.993015+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -54261,6 +54261,34 @@
         "object_id": "paper:openreview.QdWhj0QZFw",
         "created_at": "2026-02-14T21:04:26+00:00",
         "updated_at": "2026-02-14T21:04:47+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2509.14233": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.14233",
+        "url": "https://arxiv.org/abs/2509.14233",
+        "title": "Apertus: Democratizing Open and Compliant LLMs for Global Language Environments",
+        "authors": "Project Apertus, Alejandro Hern\u00e1ndez-Cano, Alexander H\u00e4gele, Allen Hao Huang, Angelika Romanou, Antoni-Joan Solergibert, Barna Pasztor, Bettina Messmer, Dhia Garbaya, Eduard Frank \u010eurech, Ido Hakimi, Juan Garc\u00eda Giraldo, Mete Ismayilzada, Negar Foroutan, Skander Moalla, Tiancheng Chen, Vinko Sabol\u010dec, Yixuan Xu, Michael Aerni, Badr AlKhamissi, In\u00e9s Altemir Mari\u00f1as, Mohammad Hossein Amani, Matin Ansaripour, Ilia Badanin, Harold Benoit, Emanuela Boros, Nicholas Browning, Fabian B\u00f6sch, Maximilian B\u00f6ther, Niklas Canova, Camille Challier, Clement Charmillot, Jonathan Coles, Jan Deriu, Arnout Devos, Lukas Drescher, Daniil Dzenhaliou, Maud Ehrmann, Dongyang Fan, Simin Fan, Silin Gao, Miguel Gila, Mar\u00eda Grandury, Diba Hashemi, Alexander Hoyle, Jiaming Jiang, Mark Klein, Andrei Kucharavy, Anastasiia Kucherenko, Frederike L\u00fcbeck, Roman Machacek, Theofilos Manitaras, Andreas Marfurt, Kyle Matoba, Simon Matrenok, Henrique Mendon\u00e7a, Fawzi Roberto Mohamed, Syrielle Montariol, Luca Mouchel, Sven Najem-Meyer, Jingwei Ni, Gennaro Oliva, Matteo Pagliardini, Elia Palme, Andrei Panferov, L\u00e9o Paoletti, Marco Passerini, Ivan Pavlov, Auguste Poiroux, Kaustubh Ponkshe, Nathan Ranchin, Javi Rando, Mathieu Sauser, Jakhongir Saydaliev, Muhammad Ali Sayfiddinov, Marian Schneider, Stefano Schuppli, Marco Scialanga, Andrei Semenov, Kumar Shridhar, Raghav Singhal, Anna Sotnikova, Alexander Sternfeld, Ayush Kumar Tarun, Paul Teiletche, Jannis Vamvas, Xiaozhe Yao, Hao Zhao, Alexander Ilic, Ana Klimovic, Andreas Krause, Caglar Gulcehre, David Rosenthal, Elliott Ash, Florian Tram\u00e8r, Joost VandeVondele, Livio Veraldi, Martin Rajman, Thomas Schulthess, Torsten Hoefler, Antoine Bosselut, Martin Jaggi, Imanol Schlag, et al. (3 additional authors not shown)",
+        "abstract": "We present Apertus, a fully open suite of large language models (LLMs) designed to address two systemic shortcomings in today's open model ecosystem: data compliance and multilingual representation. Unlike many prior models that release weights without reproducible data pipelines or regard for content-owner rights, Apertus models are pretrained exclusively on openly available data, retroactively respecting `this http URL` exclusions and filtering for non-permissive, toxic, and personally identifiable content. To mitigate risks of memorization, we adopt the Goldfish objective during pretraining, strongly suppressing verbatim recall of data while retaining downstream task performance. The Apertus models also expand multilingual coverage, training on 15T tokens from over 1800 languages, with ~40% of pretraining data allocated to non-English content. Released at 8B and 70B scales, Apertus approaches state-of-the-art results among fully open models on multilingual benchmarks, rivalling or surpassing open-weight counterparts. Beyond model weights, we release all scientific artifacts from our development cycle with a permissive license, including data preparation scripts, checkpoints, evaluation suites, and training code, enabling transparent audit and extension.",
+        "timestamp": "2026-02-14T21:05:08.051Z",
+        "rating": "novote",
+        "publishedDate": "2025/09/17",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1559,
+        "object_id": "paper:arxiv.2509.14233",
+        "created_at": "2026-02-14T21:05:08+00:00",
+        "updated_at": "2026-02-14T21:05:26+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-15T09:34:17.986510+00:00",
+  "snapshot_time": "2026-02-15T09:38:17.854893+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -54576,6 +54576,38 @@
         "object_id": "paper:arxiv.2406.12158",
         "created_at": "2026-02-15T09:33:30+00:00",
         "updated_at": "2026-02-15T09:33:51+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.GPKTIktA0k": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "GPKTIktA0k",
+        "url": "https://openreview.net/forum?id=GPKTIktA0k",
+        "title": "The Reversal Curse: LLMs trained on \u201cA is B\u201d fail to learn \u201cB is A\u201d",
+        "authors": "Lukas Berglund, Meg Tong, Maximilian Kaufmann, Mikita Balesni, Asa Cooper Stickland, Tomasz Korbak, Owain Evans",
+        "abstract": "We expose a surprising failure of generalization in auto-regressive large language models (LLMs). If a model is trained on a sentence of the form ''_A_ is _B_'', it will not automatically generalize to the reverse direction ''_B_ is _A_''. This is the **Reversal Curse**. For instance, if a model is trained on ''Valentina Tereshkova was the first woman to travel to space'', it will not automatically be able to answer the question, ''Who was the first woman to travel to space?''. Moreover, the likelihood of the correct answer (''Valentina Tershkova'') will not be higher than for a random name. Thus, models do not generalize a prevalent pattern in their training set: if ''_A_ is _B_'' occurs, ''_B_ is _A_'' is more likely to occur. It is worth noting, however, that if ''_A_ is _B_'' appears _in-context_, models can deduce the reverse relationship. \n\nWe provide evidence for the Reversal Curse by finetuning GPT-3 and Llama-1 on fictitious statements such as ''Uriah Hawthorne is the composer of _Abyssal Melodies_'' and showing that they fail to correctly answer ''Who composed _Abyssal Melodies?_''. The Reversal Curse is robust across model sizes and model families and is not alleviated by data augmentation.\n\nWe also evaluate ChatGPT (GPT-3.5 and GPT-4) on questions about real-world celebrities, such as ''Who is Tom Cruise's mother? [A: Mary Lee Pfeiffer]'' and the reverse ''Who is Mary Lee Pfeiffer's son?''. GPT-4 correctly answers questions like the former 79\\% of the time, compared to 33\\% for the latter.\n\n Code available at: https://github.com/lukasberglund/reversal_curse.",
+        "timestamp": "2026-02-15T09:37:30.987Z",
+        "rating": "novote",
+        "publishedDate": "16 Jan 2024",
+        "tags": [
+          "LLMs",
+          "Large Language Models",
+          "Question Answering",
+          "Generalization",
+          "Knowledge Representation",
+          "Logical Inference",
+          "Relations"
+        ],
+        "doi": "",
+        "journalName": "ICLR 2024 poster",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1572,
+        "object_id": "paper:openreview.GPKTIktA0k",
+        "created_at": "2026-02-15T09:37:31+00:00",
+        "updated_at": "2026-02-15T09:37:54+00:00",
         "version": 1
       }
     }

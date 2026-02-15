@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-15T12:03:50.569689+00:00",
+  "snapshot_time": "2026-02-15T12:50:18.715303+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -54742,6 +54742,34 @@
         "object_id": "paper:arxiv.2508.10925",
         "created_at": "2026-02-15T12:03:04+00:00",
         "updated_at": "2026-02-15T12:03:24+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.gmg7t8b4s0": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "gmg7t8b4s0",
+        "url": "https://openreview.net/forum?id=gmg7t8b4s0",
+        "title": "Can LLMs Keep a Secret? Testing  Privacy  Implications of Language Models  via Contextual Integrity Theory",
+        "authors": "Niloofar Mireshghallah, Hyunwoo Kim, Xuhui Zhou, Yulia Tsvetkov, Maarten Sap, Reza Shokri, Yejin Choi",
+        "abstract": "Existing efforts on quantifying privacy implications for large language models (LLMs) solely focus on measuring leakage of training data. In this work, we shed light on the often-overlooked interactive settings where an LLM receives information from multiple sources and generates an output to be shared with other entities, creating the potential of exposing sensitive input data in inappropriate contexts. In these scenarios, humans nat- urally uphold privacy by choosing whether or not to disclose information depending on the context. We ask the question \u201cCan LLMs demonstrate an equivalent discernment and reasoning capability when considering privacy in context?\u201d We propose CONFAIDE, a benchmark grounded in the theory of contextual integrity and designed to identify critical weaknesses in the privacy reasoning capabilities of instruction-tuned LLMs. CONFAIDE consists of four tiers, gradually increasing in complexity, with the final tier evaluating contextual privacy reasoning and theory of mind capabilities. Our experiments show that even commercial models such as GPT-4 and ChatGPT reveal private information in contexts that humans would not, 39% and 57% of the time, respectively, highlighting the urgent need for a new direction of privacy-preserving approaches as we demonstrate a larger underlying problem stemmed in the models\u2019 lack of reasoning capabilities.",
+        "timestamp": "2026-02-15T12:49:38.039Z",
+        "rating": "novote",
+        "publishedDate": "16 Jan 2024",
+        "tags": [
+          "Contextual Integrity",
+          "Privacy",
+          "Theory of Mind"
+        ],
+        "doi": "",
+        "journalName": "ICLR 2024 spotlight",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1576,
+        "object_id": "paper:openreview.gmg7t8b4s0",
+        "created_at": "2026-02-15T12:49:38+00:00",
+        "updated_at": "2026-02-15T12:49:58+00:00",
         "version": 1
       }
     }

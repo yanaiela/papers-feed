@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-15T09:38:17.854893+00:00",
+  "snapshot_time": "2026-02-15T09:40:52.107501+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -54608,6 +54608,53 @@
         "object_id": "paper:openreview.GPKTIktA0k",
         "created_at": "2026-02-15T09:37:31+00:00",
         "updated_at": "2026-02-15T09:37:54+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.sX4OoLKSW2": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "sX4OoLKSW2",
+        "url": "https://openreview.net/forum?id=sX4OoLKSW2",
+        "title": "Supposedly Equivalent Facts That Aren\u2019t? Entity Frequency in Pre-training Induces Asymmetry in LLMs",
+        "authors": "Yuan He, Bailan He, Zifeng Ding, Alisia Maria Lupidi, Yuqicheng Zhu, Shuo Chen, Caiqi Zhang, Jiaoyan Chen, Yunpu Ma, Volker Tresp, Ian Horrocks",
+        "abstract": "Understanding and mitigating hallucinations in Large Language Models (LLMs) is crucial for ensuring reliable content generation. While previous research has primarily focused on \"when\" LLMs hallucinate, our work explains \"why\" and directly links model behaviour to the pre-training data that forms their prior knowledge. Specifically, we demonstrate that an asymmetry exists in the recognition of logically equivalent facts, which can be attributed to frequency discrepancies of entities appearing as subjects versus objects. Given that most pre-training datasets are inaccessible, we leverage the fully open-source $\\texttt{OLMo}$ series by indexing its $\\texttt{Dolma}$ dataset to estimate entity frequencies. Using relational facts (represented as triples) from $\\texttt{Wikidata5M}$, we construct probing datasets to isolate this effect. Our experiments reveal that facts with a high-frequency subject and a low-frequency object are better recognised than their inverse, despite their logical equivalence. The pattern reverses in low-to-high frequency settings, and no statistically significant asymmetry emerges when both entities are high-frequency. These findings highlight the influential role of pre-training data in shaping model predictions and provide insights for inferring the characteristics of pre-training data in closed or partially closed LLMs.",
+        "timestamp": "2026-02-15T09:40:04.697Z",
+        "rating": "novote",
+        "publishedDate": "08 Jul 2025",
+        "tags": [
+          "Large Language Models",
+          "Asymmetry",
+          "Equivalent Facts",
+          "Entity Frequency",
+          "Pre-training Bias",
+          "Knowledge Probing",
+          "Hallucinations",
+          "Knowledge Graphs"
+        ],
+        "doi": "",
+        "journalName": "COLM 2025",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1574,
+        "object_id": "paper:openreview.sX4OoLKSW2",
+        "created_at": "2026-02-15T09:40:05+00:00",
+        "updated_at": "2026-02-15T09:40:27+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.GPKTIktA0k": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "GPKTIktA0k",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1573,
+        "object_id": "interactions:openreview.GPKTIktA0k",
+        "created_at": "2026-02-15T09:38:19+00:00",
+        "updated_at": "2026-02-15T09:38:21+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-15T09:28:33.124170+00:00",
+  "snapshot_time": "2026-02-15T09:34:17.986510+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -54538,6 +54538,44 @@
         "object_id": "interactions:arxiv.2505.24832",
         "created_at": "2026-02-15T09:27:26+00:00",
         "updated_at": "2026-02-15T09:27:46+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2406.12158": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2406.12158",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1571,
+        "object_id": "interactions:arxiv.2406.12158",
+        "created_at": "2026-02-15T09:33:44+00:00",
+        "updated_at": "2026-02-15T09:33:46+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2406.12158": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2406.12158",
+        "url": "https://arxiv.org/html/2406.12158v1",
+        "title": "LLMs Are Prone to Fallacies in Causal Inference",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-02-15T09:33:30.580Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1570,
+        "object_id": "paper:arxiv.2406.12158",
+        "created_at": "2026-02-15T09:33:30+00:00",
+        "updated_at": "2026-02-15T09:33:51+00:00",
         "version": 1
       }
     }

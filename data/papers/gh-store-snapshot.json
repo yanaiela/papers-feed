@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-17T14:35:34.430326+00:00",
+  "snapshot_time": "2026-02-17T14:37:05.483455+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -55562,6 +55562,21 @@
               "idle_seconds": 1,
               "total_elapsed_seconds": 6
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-17T14:35:39.367Z",
+            "data": {
+              "session_id": "session_1771338939357_h6mkbad",
+              "source_id": "arxiv",
+              "paper_id": "2401.12461",
+              "start_time": "2026-02-17T14:35:30.778Z",
+              "end_time": "2026-02-17T14:35:39.357Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 9
+            }
           }
         ]
       },
@@ -55569,7 +55584,7 @@
         "issue_number": 1595,
         "object_id": "interactions:arxiv.2401.12461",
         "created_at": "2026-02-17T14:32:57+00:00",
-        "updated_at": "2026-02-17T14:33:20+00:00",
+        "updated_at": "2026-02-17T14:36:03+00:00",
         "version": 1
       }
     },
@@ -55726,6 +55741,36 @@
         "object_id": "interactions:arxiv.2202.13817",
         "created_at": "2026-02-17T14:34:24+00:00",
         "updated_at": "2026-02-17T14:34:45+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2403.11082": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2403.11082",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-17T14:35:30.674Z",
+            "data": {
+              "session_id": "session_1771338930093_7na2f1h",
+              "source_id": "arxiv",
+              "paper_id": "2403.11082",
+              "start_time": "2026-02-17T14:35:21.568Z",
+              "end_time": "2026-02-17T14:35:30.093Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 9
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1600,
+        "object_id": "interactions:arxiv.2403.11082",
+        "created_at": "2026-02-17T14:35:31+00:00",
+        "updated_at": "2026-02-17T14:35:55+00:00",
         "version": 1
       }
     }

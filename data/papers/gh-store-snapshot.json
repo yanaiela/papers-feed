@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-17T16:11:07.683762+00:00",
+  "snapshot_time": "2026-02-17T17:00:17.285862+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -15362,6 +15362,36 @@
               "idle_seconds": 4,
               "total_elapsed_seconds": 124
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-17T16:49:52.433Z",
+            "data": {
+              "session_id": "session_1771346992075_wbfky17",
+              "source_id": "arxiv",
+              "paper_id": "2505.01954",
+              "start_time": "2026-02-17T16:49:13.404Z",
+              "end_time": "2026-02-17T16:49:52.075Z",
+              "heartbeat_count": 7,
+              "duration_seconds": 35,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 39
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-17T16:51:40.077Z",
+            "data": {
+              "session_id": "session_1771347099790_ua8914b",
+              "source_id": "arxiv",
+              "paper_id": "2505.01954",
+              "start_time": "2026-02-17T16:50:52.043Z",
+              "end_time": "2026-02-17T16:51:39.790Z",
+              "heartbeat_count": 9,
+              "duration_seconds": 45,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 48
+            }
           }
         ]
       },
@@ -15369,7 +15399,7 @@
         "issue_number": 423,
         "object_id": "interactions:arxiv.2505.01954",
         "created_at": "2025-10-21T06:34:07+00:00",
-        "updated_at": "2026-01-24T11:32:13+00:00",
+        "updated_at": "2026-02-17T16:52:10+00:00",
         "version": 1
       }
     },
@@ -55852,6 +55882,60 @@
         "object_id": "paper:arxiv.2407.12813",
         "created_at": "2026-02-17T16:09:41+00:00",
         "updated_at": "2026-02-17T16:10:09+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2412.11536": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2412.11536",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-17T16:59:35.634Z",
+            "data": {
+              "session_id": "session_1771347575555_5r24upn",
+              "source_id": "arxiv",
+              "paper_id": "2412.11536",
+              "start_time": "2026-02-17T16:59:24.694Z",
+              "end_time": "2026-02-17T16:59:35.555Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 11
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1607,
+        "object_id": "interactions:arxiv.2412.11536",
+        "created_at": "2026-02-17T16:59:25+00:00",
+        "updated_at": "2026-02-17T16:59:50+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2412.11536": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2412.11536",
+        "url": "https://arxiv.org/html/2412.11536v1",
+        "title": "Let your LLM generate a few tokens and you will reduce the need for retrieval",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-02-17T16:59:16.043Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1606,
+        "object_id": "paper:arxiv.2412.11536",
+        "created_at": "2026-02-17T16:59:16+00:00",
+        "updated_at": "2026-02-17T16:59:39+00:00",
         "version": 1
       }
     }

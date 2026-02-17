@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-17T15:08:25.304161+00:00",
+  "snapshot_time": "2026-02-17T16:11:07.683762+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -55825,6 +55825,33 @@
         "object_id": "paper:openreview.X9MMGZdqmc",
         "created_at": "2026-02-17T15:07:35+00:00",
         "updated_at": "2026-02-17T15:07:56+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2407.12813": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2407.12813",
+        "url": "https://arxiv.org/abs/2407.12813",
+        "title": "Data Generation Using Large Language Models for Text Classification: An Empirical Case Study",
+        "authors": "Yinheng Li, Rogerio Bonatti, Sara Abdali, Justin Wagle, Kazuhito Koishida",
+        "abstract": "Using Large Language Models (LLMs) to generate synthetic data for model training has become increasingly popular in recent years. While LLMs are capable of producing realistic training data, the effectiveness of data generation is influenced by various factors, including the choice of prompt, task complexity, and the quality, quantity, and diversity of the generated data. In this work, we focus exclusively on using synthetic data for text classification tasks. Specifically, we use natural language understanding (NLU) models trained on synthetic data to assess the quality of synthetic data from different generation approaches. This work provides an empirical analysis of the impact of these factors and offers recommendations for better data generation practices.",
+        "timestamp": "2026-02-17T16:09:41.023Z",
+        "rating": "novote",
+        "publishedDate": "2024/06/27",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1602,
+        "object_id": "paper:arxiv.2407.12813",
+        "created_at": "2026-02-17T16:09:41+00:00",
+        "updated_at": "2026-02-17T16:10:09+00:00",
         "version": 1
       }
     }

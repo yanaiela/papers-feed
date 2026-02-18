@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-18T09:02:44.629780+00:00",
+  "snapshot_time": "2026-02-18T09:05:38.025529+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -56237,6 +56237,36 @@
               "idle_seconds": 1,
               "total_elapsed_seconds": 36
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-18T09:03:48.119Z",
+            "data": {
+              "session_id": "session_1771405428107_vdx8djf",
+              "source_id": "arxiv",
+              "paper_id": "2602.15029",
+              "start_time": "2026-02-18T09:03:23.648Z",
+              "end_time": "2026-02-18T09:03:48.107Z",
+              "heartbeat_count": 4,
+              "duration_seconds": 20,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 24
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-18T09:04:53.923Z",
+            "data": {
+              "session_id": "session_1771405493913_9jzg2cs",
+              "source_id": "arxiv",
+              "paper_id": "2602.15029",
+              "start_time": "2026-02-18T09:04:46.831Z",
+              "end_time": "2026-02-18T09:04:53.913Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 7
+            }
           }
         ]
       },
@@ -56244,7 +56274,7 @@
         "issue_number": 1616,
         "object_id": "interactions:arxiv.2602.15029",
         "created_at": "2026-02-18T09:01:16+00:00",
-        "updated_at": "2026-02-18T09:02:17+00:00",
+        "updated_at": "2026-02-18T09:05:12+00:00",
         "version": 1
       }
     },
@@ -56273,6 +56303,65 @@
         "object_id": "paper:arxiv.2602.15029",
         "created_at": "2026-02-18T09:00:56+00:00",
         "updated_at": "2026-02-18T09:01:16+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2602.13194": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2602.13194",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-18T09:04:39.643Z",
+            "data": {
+              "session_id": "session_1771405479614_g60m1ny",
+              "source_id": "arxiv",
+              "paper_id": "2602.13194",
+              "start_time": "2026-02-18T09:04:22.551Z",
+              "end_time": "2026-02-18T09:04:39.614Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 17
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1619,
+        "object_id": "interactions:arxiv.2602.13194",
+        "created_at": "2026-02-18T09:04:23+00:00",
+        "updated_at": "2026-02-18T09:04:51+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2602.13194": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2602.13194",
+        "url": "https://www.arxiv.org/abs/2602.13194",
+        "title": "Semantic Chunking and the Entropy of Natural Language",
+        "authors": "Weishun Zhong, Doron Sivan, Tankut Can, Mikhail Katkov, Misha Tsodyks",
+        "abstract": "The entropy rate of printed English is famously estimated to be about one bit per character, a benchmark that modern large language models (LLMs) have only recently approached. This entropy rate implies that English contains nearly 80 percent redundancy relative to the five bits per character expected for random text. We introduce a statistical model that attempts to capture the intricate multi-scale structure of natural language, providing a first-principles account of this redundancy level. Our model describes a procedure of self-similarly segmenting text into semantically coherent chunks down to the single-word level. The semantic structure of the text can then be hierarchically decomposed, allowing for analytical treatment. Numerical experiments with modern LLMs and open datasets suggest that our model quantitatively captures the structure of real texts at different levels of the semantic hierarchy. The entropy rate predicted by our model agrees with the estimated entropy rate of printed English. Moreover, our theory further reveals that the entropy rate of natural language is not fixed but should increase systematically with the semantic complexity of corpora, which are captured by the only free parameter in our model.",
+        "timestamp": "2026-02-18T09:04:14.653Z",
+        "rating": "novote",
+        "publishedDate": "2026/02/13",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+          "Statistical Mechanics (cond-mat.stat-mech)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1617,
+        "object_id": "paper:arxiv.2602.13194",
+        "created_at": "2026-02-18T09:04:15+00:00",
+        "updated_at": "2026-02-18T09:04:37+00:00",
         "version": 1
       }
     }

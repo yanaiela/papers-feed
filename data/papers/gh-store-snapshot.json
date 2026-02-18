@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-18T07:27:59.586511+00:00",
+  "snapshot_time": "2026-02-18T08:49:45.927569+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -55997,6 +55997,63 @@
         "object_id": "paper:arxiv.2412.11536",
         "created_at": "2026-02-17T16:59:16+00:00",
         "updated_at": "2026-02-17T16:59:39+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2407.15160": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2407.15160",
+        "url": "https://arxiv.org/abs/2407.15160",
+        "title": "When Can Transformers Count to n?",
+        "authors": "Gilad Yehudai, Haim Kaplan, Asma Ghandeharioun, Mor Geva, Amir Globerson",
+        "abstract": "Large language models based on the transformer architectures can solve highly complex tasks. But are there simple tasks that such models cannot solve? Here we focus on very simple counting tasks, that involve counting how many times a token in the vocabulary have appeared in a string. We show that if the dimension of the transformer state is linear in the context length, this task can be solved. However, the solution we propose does not scale beyond this limit, and we provide theoretical arguments for why it is likely impossible for a size limited transformer to implement this task. Our empirical results demonstrate the same phase-transition in performance, as anticipated by the theoretical argument. Our results demonstrate the importance of understanding how transformers can solve simple tasks.",
+        "timestamp": "2026-02-18T08:48:58.988Z",
+        "rating": "novote",
+        "publishedDate": "2024/07/21",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1609,
+        "object_id": "paper:arxiv.2407.15160",
+        "created_at": "2026-02-18T08:48:59+00:00",
+        "updated_at": "2026-02-18T08:49:17+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2407.02240": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2407.02240",
+        "url": "https://arxiv.org/abs/2407.02240",
+        "title": "MALT Powers Up Adversarial Attacks",
+        "authors": "Odelia Melamed, Gilad Yehudai, Adi Shamir",
+        "abstract": "Current adversarial attacks for multi-class classifiers choose the target class for a given input naively, based on the classifier's confidence levels for various target classes. We present a novel adversarial targeting method, \\textit{MALT - Mesoscopic Almost Linearity Targeting}, based on medium-scale almost linearity assumptions. Our attack wins over the current state of the art AutoAttack on the standard benchmark datasets CIFAR-100 and ImageNet and for a variety of robust models. In particular, our attack is \\emph{five times faster} than AutoAttack, while successfully matching all of AutoAttack's successes and attacking additional samples that were previously out of reach. We then prove formally and demonstrate empirically that our targeting method, although inspired by linear predictors, also applies to standard non-linear models.",
+        "timestamp": "2026-02-18T08:48:48.636Z",
+        "rating": "novote",
+        "publishedDate": "2024/07/02",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Cryptography and Security (cs.CR)",
+          "Neural and Evolutionary Computing (cs.NE)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1608,
+        "object_id": "paper:arxiv.2407.02240",
+        "created_at": "2026-02-18T08:48:49+00:00",
+        "updated_at": "2026-02-18T08:49:11+00:00",
         "version": 1
       }
     }

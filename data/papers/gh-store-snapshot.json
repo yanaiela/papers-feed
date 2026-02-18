@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-18T08:51:01.746620+00:00",
+  "snapshot_time": "2026-02-18T08:53:34.180999+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -56084,6 +56084,66 @@
         "object_id": "interactions:arxiv.2407.15160",
         "created_at": "2026-02-18T08:49:49+00:00",
         "updated_at": "2026-02-18T08:50:14+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2602.11246": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2602.11246",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-18T08:52:44.967Z",
+            "data": {
+              "session_id": "session_1771404764653_8ey79gy",
+              "source_id": "arxiv",
+              "paper_id": "2602.11246",
+              "start_time": "2026-02-18T08:52:22.838Z",
+              "end_time": "2026-02-18T08:52:44.653Z",
+              "heartbeat_count": 4,
+              "duration_seconds": 20,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 22
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1612,
+        "object_id": "interactions:arxiv.2602.11246",
+        "created_at": "2026-02-18T08:52:45+00:00",
+        "updated_at": "2026-02-18T08:53:05+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2602.11246": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2602.11246",
+        "url": "https://arxiv.org/abs/2602.11246",
+        "title": "How Many Features Can a Language Model Store Under the Linear Representation Hypothesis?",
+        "authors": "Nikhil Garg, Jon Kleinberg, Kenny Peng",
+        "abstract": "We introduce a mathematical framework for the linear representation hypothesis (LRH), which asserts that intermediate layers of language models store features linearly. We separate the hypothesis into two claims: linear representation (features are linearly embedded in neuron activations) and linear accessibility (features can be linearly decoded). We then ask: How many neurons $d$ suffice to both linearly represent and linearly access $m$ features? Classical results in compressed sensing imply that for $k$-sparse inputs, $d = O(k\\log (m/k))$ suffices if we allow non-linear decoding algorithms (Candes and Tao, 2006; Candes et al., 2006; Donoho, 2006). However, the additional requirement of linear decoding takes the problem out of the classical compressed sensing, into linear compressed sensing.\nOur main theoretical result establishes nearly-matching upper and lower bounds for linear compressed sensing. We prove that $d = \\Omega_\\epsilon(\\frac{k^2}{\\log k}\\log (m/k))$ is required while $d = O_\\epsilon(k^2\\log m)$ suffices. The lower bound establishes a quantitative gap between classical and linear compressed setting, illustrating how linear accessibility is a meaningfully stronger hypothesis than linear representation alone. The upper bound confirms that neurons can store an exponential number of features under the LRH, giving theoretical evidence for the \"superposition hypothesis\" (Elhage et al., 2022).\nThe upper bound proof uses standard random constructions of matrices with approximately orthogonal columns. The lower bound proof uses rank bounds for near-identity matrices (Alon, 2003) together with Tur\u00e1n's theorem (bounding the number of edges in clique-free graphs). We also show how our results do and do not constrain the geometry of feature representations and extend our results to allow decoders with an activation function and bias.",
+        "timestamp": "2026-02-18T08:52:21.511Z",
+        "rating": "novote",
+        "publishedDate": "2026/02/11",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)",
+          "Information Theory (cs.IT)",
+          "Combinatorics (math.CO)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1611,
+        "object_id": "paper:arxiv.2602.11246",
+        "created_at": "2026-02-18T08:52:21+00:00",
+        "updated_at": "2026-02-18T08:52:43+00:00",
         "version": 1
       }
     }

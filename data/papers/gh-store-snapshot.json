@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-19T08:33:10.034165+00:00",
+  "snapshot_time": "2026-02-19T13:49:34.565509+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -56905,6 +56905,44 @@
         "object_id": "paper:arxiv.2602.03344",
         "created_at": "2026-02-19T08:32:11+00:00",
         "updated_at": "2026-02-19T08:32:30+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2106.14490": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2106.14490",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1639,
+        "object_id": "interactions:arxiv.2106.14490",
+        "created_at": "2026-02-19T13:48:58+00:00",
+        "updated_at": "2026-02-19T13:49:00+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2106.14490": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2106.14490",
+        "url": "https://arxiv.org/html/2106.14490v4",
+        "title": "Making Images Real Again: A Comprehensive Survey on Deep Image Composition",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-02-19T13:48:34.232Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1638,
+        "object_id": "paper:arxiv.2106.14490",
+        "created_at": "2026-02-19T13:48:34+00:00",
+        "updated_at": "2026-02-19T13:49:09+00:00",
         "version": 1
       }
     }

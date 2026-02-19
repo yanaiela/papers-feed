@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-19T05:15:49.595189+00:00",
+  "snapshot_time": "2026-02-19T07:53:51.013723+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -56506,6 +56506,32 @@
         "object_id": "paper:arxiv.2510.26024",
         "created_at": "2026-02-18T11:04:38+00:00",
         "updated_at": "2026-02-18T11:04:57+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2201.02177": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2201.02177",
+        "url": "https://arxiv.org/abs/2201.02177",
+        "title": "Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets",
+        "authors": "Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, Vedant Misra",
+        "abstract": "In this paper we propose to study generalization of neural networks on small algorithmically generated datasets. In this setting, questions about data efficiency, memorization, generalization, and speed of learning can be studied in great detail. In some situations we show that neural networks learn through a process of \"grokking\" a pattern in the data, improving generalization performance from random chance level to perfect generalization, and that this improvement in generalization can happen well past the point of overfitting. We also study generalization as a function of dataset size and find that smaller datasets require increasing amounts of optimization for generalization. We argue that these datasets provide a fertile ground for studying a poorly understood aspect of deep learning: generalization of overparametrized neural networks beyond memorization of the finite training dataset.",
+        "timestamp": "2026-02-19T07:53:06.614Z",
+        "rating": "novote",
+        "publishedDate": "2022/01/06",
+        "tags": [
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1622,
+        "object_id": "paper:arxiv.2201.02177",
+        "created_at": "2026-02-19T07:53:07+00:00",
+        "updated_at": "2026-02-19T07:53:29+00:00",
         "version": 1
       }
     }

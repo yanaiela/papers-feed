@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-20T14:01:31.810622+00:00",
+  "snapshot_time": "2026-02-20T14:33:22.944254+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -57243,6 +57243,60 @@
         "object_id": "paper:arxiv.2106.14490",
         "created_at": "2026-02-19T13:48:34+00:00",
         "updated_at": "2026-02-19T13:49:09+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2408.12787": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2408.12787",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-20T14:32:30.967Z",
+            "data": {
+              "session_id": "session_1771597950355_jfvt3rm",
+              "source_id": "arxiv",
+              "paper_id": "2408.12787",
+              "start_time": "2026-02-20T14:32:02.660Z",
+              "end_time": "2026-02-20T14:32:30.355Z",
+              "heartbeat_count": 5,
+              "duration_seconds": 25,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 28
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1642,
+        "object_id": "interactions:arxiv.2408.12787",
+        "created_at": "2026-02-20T14:32:31+00:00",
+        "updated_at": "2026-02-20T14:32:55+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2408.12787": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2408.12787",
+        "url": "https://arxiv.org/pdf/2408.12787",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-02-20T14:32:02.918Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1640,
+        "object_id": "paper:arxiv.2408.12787",
+        "created_at": "2026-02-20T14:32:03+00:00",
+        "updated_at": "2026-02-20T14:32:25+00:00",
         "version": 1
       }
     }

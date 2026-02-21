@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-21T14:18:26.843351+00:00",
+  "snapshot_time": "2026-02-21T14:53:05.315637+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -57452,6 +57452,48 @@
         "object_id": "paper:arxiv.2602.02464",
         "created_at": "2026-02-21T14:17:43+00:00",
         "updated_at": "2026-02-21T14:18:02+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.1503.02531": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1503.02531",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1651,
+        "object_id": "interactions:arxiv.1503.02531",
+        "created_at": "2026-02-21T14:52:34+00:00",
+        "updated_at": "2026-02-21T14:52:36+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.1503.02531": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1503.02531",
+        "url": "https://arxiv.org/abs/1503.02531",
+        "title": "Distilling the Knowledge in a Neural Network",
+        "authors": "Geoffrey Hinton, Oriol Vinyals, Jeff Dean",
+        "abstract": "A very simple way to improve the performance of almost any machine learning algorithm is to train many different models on the same data and then to average their predictions. Unfortunately, making predictions using a whole ensemble of models is cumbersome and may be too computationally expensive to allow deployment to a large number of users, especially if the individual models are large neural nets. Caruana and his collaborators have shown that it is possible to compress the knowledge in an ensemble into a single model which is much easier to deploy and we develop this approach further using a different compression technique. We achieve some surprising results on MNIST and we show that we can significantly improve the acoustic model of a heavily used commercial system by distilling the knowledge in an ensemble of models into a single model. We also introduce a new type of ensemble composed of one or more full models and many specialist models which learn to distinguish fine-grained classes that the full models confuse. Unlike a mixture of experts, these specialist models can be trained rapidly and in parallel.",
+        "timestamp": "2026-02-21T14:52:21.644Z",
+        "rating": "novote",
+        "publishedDate": "2015/03/09",
+        "tags": [
+          "Machine Learning (stat.ML)",
+          "Machine Learning (cs.LG)",
+          "Neural and Evolutionary Computing (cs.NE)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1650,
+        "object_id": "paper:arxiv.1503.02531",
+        "created_at": "2026-02-21T14:52:21+00:00",
+        "updated_at": "2026-02-21T14:52:43+00:00",
         "version": 1
       }
     }

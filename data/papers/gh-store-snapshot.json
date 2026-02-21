@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-21T12:06:44.467214+00:00",
+  "snapshot_time": "2026-02-21T14:18:26.843351+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -57412,6 +57412,46 @@
         "object_id": "interactions:arxiv.2505.18773",
         "created_at": "2026-02-21T12:06:00+00:00",
         "updated_at": "2026-02-21T12:06:21+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2602.02464": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2602.02464",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1649,
+        "object_id": "interactions:arxiv.2602.02464",
+        "created_at": "2026-02-21T14:18:09+00:00",
+        "updated_at": "2026-02-21T14:18:10+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2602.02464": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2602.02464",
+        "url": "https://arxiv.org/abs/2602.02464",
+        "title": "From Directions to Regions: Decomposing Activations in Language Models via Local Geometry",
+        "authors": "Or Shafran, Shaked Ronen, Omri Fahn, Shauli Ravfogel, Atticus Geiger, Mor Geva",
+        "abstract": "Activation decomposition methods in language models are tightly coupled to geometric assumptions on how concepts are realized in activation space. Existing approaches search for individual global directions, implicitly assuming linear separability, which overlooks concepts with nonlinear or multi-dimensional structure. In this work, we leverage Mixture of Factor Analyzers (MFA) as a scalable, unsupervised alternative that models the activation space as a collection of Gaussian regions with their local covariance structure. MFA decomposes activations into two compositional geometric objects: the region's centroid in activation space, and the local variation from the centroid. We train large-scale MFAs for Llama-3.1-8B and Gemma-2-2B, and show they capture complex, nonlinear structures in activation space. Moreover, evaluations on localization and steering benchmarks show that MFA outperforms unsupervised baselines, is competitive with supervised localization methods, and often achieves stronger steering performance than sparse autoencoders. Together, our findings position local geometry, expressed through subspaces, as a promising unit of analysis for scalable concept discovery and model control, accounting for complex structures that isolated directions fail to capture.",
+        "timestamp": "2026-02-21T14:17:43.431Z",
+        "rating": "novote",
+        "publishedDate": "2026/02/02",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1648,
+        "object_id": "paper:arxiv.2602.02464",
+        "created_at": "2026-02-21T14:17:43+00:00",
+        "updated_at": "2026-02-21T14:18:02+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-20T14:33:22.944254+00:00",
+  "snapshot_time": "2026-02-21T08:26:23.518516+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -57297,6 +57297,33 @@
         "object_id": "paper:arxiv.2408.12787",
         "created_at": "2026-02-20T14:32:03+00:00",
         "updated_at": "2026-02-20T14:32:25+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2505.24787": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.24787",
+        "url": "https://arxiv.org/abs/2505.24787",
+        "title": "Draw ALL Your Imagine: A Holistic Benchmark and Agent Framework for Complex Instruction-based Image Generation",
+        "authors": "Yucheng Zhou, Jiahao Yuan, Qianning Wang",
+        "abstract": "Recent advancements in text-to-image (T2I) generation have enabled models to produce high-quality images from textual descriptions. However, these models often struggle with complex instructions involving multiple objects, attributes, and spatial relationships. Existing benchmarks for evaluating T2I models primarily focus on general text-image alignment and fail to capture the nuanced requirements of complex, multi-faceted prompts. Given this gap, we introduce LongBench-T2I, a comprehensive benchmark specifically designed to evaluate T2I models under complex instructions. LongBench-T2I consists of 500 intricately designed prompts spanning nine diverse visual evaluation dimensions, enabling a thorough assessment of a model's ability to follow complex instructions. Beyond benchmarking, we propose an agent framework (Plan2Gen) that facilitates complex instruction-driven image generation without requiring additional model training. This framework integrates seamlessly with existing T2I models, using large language models to interpret and decompose complex prompts, thereby guiding the generation process more effectively. As existing evaluation metrics, such as CLIPScore, fail to adequately capture the nuances of complex instructions, we introduce an evaluation toolkit that automates the quality assessment of generated images using a set of multi-dimensional metrics. The data and code are released at this https URL.",
+        "timestamp": "2026-02-21T08:25:39.970Z",
+        "rating": "novote",
+        "publishedDate": "2025/05/30",
+        "tags": [
+          "Computer Vision and Pattern Recognition (cs.CV)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1643,
+        "object_id": "paper:arxiv.2505.24787",
+        "created_at": "2026-02-21T08:25:40+00:00",
+        "updated_at": "2026-02-21T08:25:59+00:00",
         "version": 1
       }
     }

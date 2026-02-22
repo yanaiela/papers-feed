@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-22T09:30:52.636241+00:00",
+  "snapshot_time": "2026-02-22T09:52:07.799416+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -53117,6 +53117,36 @@
               "idle_seconds": 2,
               "total_elapsed_seconds": 7
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-22T09:50:11.487Z",
+            "data": {
+              "session_id": "session_1771753811203_ad2mhy2",
+              "source_id": "arxiv",
+              "paper_id": "2501.14945",
+              "start_time": "2026-02-22T09:50:06.054Z",
+              "end_time": "2026-02-22T09:50:11.203Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 5
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-22T09:51:08.606Z",
+            "data": {
+              "session_id": "session_1771753868078_t15gcbx",
+              "source_id": "arxiv",
+              "paper_id": "2501.14945",
+              "start_time": "2026-02-22T09:51:01.998Z",
+              "end_time": "2026-02-22T09:51:08.078Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
           }
         ]
       },
@@ -53124,7 +53154,7 @@
         "issue_number": 1490,
         "object_id": "interactions:arxiv.2501.14945",
         "created_at": "2026-02-05T18:21:05+00:00",
-        "updated_at": "2026-02-05T18:21:30+00:00",
+        "updated_at": "2026-02-22T09:51:29+00:00",
         "version": 1
       }
     },
@@ -57524,6 +57554,32 @@
         "object_id": "paper:arxiv.1503.02531",
         "created_at": "2026-02-21T14:52:21+00:00",
         "updated_at": "2026-02-21T14:52:43+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.14586": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.14586",
+        "url": "https://arxiv.org/abs/2510.14586",
+        "title": "Matcha: Multi-Stage Riemannian Flow Matching for Accurate and Physically Valid Molecular Docking",
+        "authors": "Daria Frolova, Talgat Daulbaev, Egor Sevriugov, Sergei A. Nikolenko, Dmitry N. Ivankov, Ivan Oseledets, Marina A. Pak",
+        "abstract": "Accurate prediction of protein-ligand binding poses is crucial for structure-based drug design, yet existing methods struggle to balance speed, accuracy, and physical plausibility. We introduce Matcha, a novel molecular docking pipeline that combines multi-stage flow matching with physically-aware post-processing. Our approach consists of three sequential stages applied consecutively to progressively refine docking predictions, each implemented as a flow matching model operating on appropriate geometric spaces ($\\mathbb{R}^3$, $\\mathrm{SO}(3)$, and $\\mathrm{SO}(2)$). We enhance the prediction quality through GNINA energy minimization and apply unsupervised physical validity filters to eliminate unrealistic poses. Compared to various approaches, Matcha demonstrates superior physical plausibility across all considered benchmarks. Moreover, our method works approximately 31 times faster than modern large-scale co-folding models. The model weights and inference code to reproduce our results are available at this https URL.",
+        "timestamp": "2026-02-22T09:50:02.549Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/16",
+        "tags": [
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1652,
+        "object_id": "paper:arxiv.2510.14586",
+        "created_at": "2026-02-22T09:50:03+00:00",
+        "updated_at": "2026-02-22T09:50:23+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-22T18:10:12.929474+00:00",
+  "snapshot_time": "2026-02-22T18:13:16.975461+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -42573,6 +42573,21 @@
               "idle_seconds": 0,
               "total_elapsed_seconds": 5
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-22T18:10:06.714Z",
+            "data": {
+              "session_id": "session_1771783806671_rzp4oop",
+              "source_id": "openreview",
+              "paper_id": "Hse2YloOjQ",
+              "start_time": "2026-02-22T18:09:43.743Z",
+              "end_time": "2026-02-22T18:10:06.671Z",
+              "heartbeat_count": 4,
+              "duration_seconds": 20,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 23
+            }
           }
         ]
       },
@@ -42580,7 +42595,7 @@
         "issue_number": 1135,
         "object_id": "interactions:openreview.Hse2YloOjQ",
         "created_at": "2026-01-16T12:06:08+00:00",
-        "updated_at": "2026-02-20T11:18:52+00:00",
+        "updated_at": "2026-02-22T18:10:30+00:00",
         "version": 1
       }
     },
@@ -42860,6 +42875,21 @@
               "idle_seconds": 2,
               "total_elapsed_seconds": 7
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-22T18:10:39.278Z",
+            "data": {
+              "session_id": "session_1771783838853_894079k",
+              "source_id": "openreview",
+              "paper_id": "yRoFZnjOvm",
+              "start_time": "2026-02-22T18:10:07.996Z",
+              "end_time": "2026-02-22T18:10:38.853Z",
+              "heartbeat_count": 6,
+              "duration_seconds": 30,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 31
+            }
           }
         ]
       },
@@ -42867,7 +42897,7 @@
         "issue_number": 1141,
         "object_id": "interactions:openreview.yRoFZnjOvm",
         "created_at": "2026-01-16T12:11:30+00:00",
-        "updated_at": "2026-02-20T11:19:06+00:00",
+        "updated_at": "2026-02-22T18:10:59+00:00",
         "version": 1
       }
     },
@@ -42875,13 +42905,29 @@
       "data": {
         "sourceId": "openreview",
         "paperId": "MF1fusOiIz",
-        "interactions": []
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-22T18:12:30.038Z",
+            "data": {
+              "session_id": "session_1771783949970_l8sr4sf",
+              "source_id": "openreview",
+              "paper_id": "MF1fusOiIz",
+              "start_time": "2026-02-22T18:11:54.221Z",
+              "end_time": "2026-02-22T18:12:29.970Z",
+              "heartbeat_count": 7,
+              "duration_seconds": 35,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 36
+            }
+          }
+        ]
       },
       "meta": {
         "issue_number": 1145,
         "object_id": "interactions:openreview.MF1fusOiIz",
         "created_at": "2026-01-16T12:13:24+00:00",
-        "updated_at": "2026-01-16T12:13:26+00:00",
+        "updated_at": "2026-02-22T18:12:48+00:00",
         "version": 1
       }
     },
@@ -42963,6 +43009,21 @@
               "idle_seconds": 1,
               "total_elapsed_seconds": 6
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-22T18:11:52.364Z",
+            "data": {
+              "session_id": "session_1771783911634_0vmgxxi",
+              "source_id": "openreview",
+              "paper_id": "Sd8KyYtzwd",
+              "start_time": "2026-02-22T18:11:26.771Z",
+              "end_time": "2026-02-22T18:11:51.634Z",
+              "heartbeat_count": 4,
+              "duration_seconds": 20,
+              "idle_seconds": 5,
+              "total_elapsed_seconds": 25
+            }
           }
         ]
       },
@@ -42970,7 +43031,7 @@
         "issue_number": 1143,
         "object_id": "interactions:openreview.Sd8KyYtzwd",
         "created_at": "2026-01-16T12:12:48+00:00",
-        "updated_at": "2026-02-20T11:19:16+00:00",
+        "updated_at": "2026-02-22T18:12:13+00:00",
         "version": 1
       }
     },

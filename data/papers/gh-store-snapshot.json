@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-22T12:19:25.890480+00:00",
+  "snapshot_time": "2026-02-22T13:12:29.585963+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -57640,6 +57640,34 @@
         "object_id": "paper:arxiv.2510.14586",
         "created_at": "2026-02-22T09:50:03+00:00",
         "updated_at": "2026-02-22T09:50:23+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2511.09030": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2511.09030",
+        "url": "https://arxiv.org/abs/2511.09030",
+        "title": "Solving a Million-Step LLM Task with Zero Errors",
+        "authors": "Elliot Meyerson, Giuseppe Paolo, Roberto Dailey, Hormoz Shahrzad, Olivier Francon, Conor F. Hayes, Xin Qiu, Babak Hodjat, Risto Miikkulainen",
+        "abstract": "LLMs have achieved remarkable breakthroughs in reasoning, insights, and tool use, but chaining these abilities into extended processes at the scale of those routinely executed by humans, organizations, and societies has remained out of reach. The models have a persistent error rate that prevents scale-up: for instance, recent experiments in the Towers of Hanoi benchmark domain showed that the process inevitably becomes derailed after at most a few hundred steps. Thus, although LLM research is often still benchmarked on tasks with relatively few dependent logical steps, there is increasing attention on the ability (or inability) of LLMs to perform long range tasks. This paper describes MAKER, the first system that successfully solves a task with over one million LLM steps with zero errors, and, in principle, scales far beyond this level. The approach relies on an extreme decomposition of a task into subtasks, each of which can be tackled by focused microagents. The high level of modularity resulting from the decomposition allows error correction to be applied at each step through an efficient multi-agent voting scheme. This combination of extreme decomposition and error correction makes scaling possible. Thus, the results suggest that instead of relying on continual improvement of current LLMs, massively decomposed agentic processes (MDAPs) may provide a way to efficiently solve problems at the level of organizations and societies.",
+        "timestamp": "2026-02-22T13:11:47.710Z",
+        "rating": "novote",
+        "publishedDate": "2025/11/12",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)",
+          "Multiagent Systems (cs.MA)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1653,
+        "object_id": "paper:arxiv.2511.09030",
+        "created_at": "2026-02-22T13:11:48+00:00",
+        "updated_at": "2026-02-22T13:12:07+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-22T09:52:07.799416+00:00",
+  "snapshot_time": "2026-02-22T12:12:17.194287+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -7002,6 +7002,21 @@
               "idle_seconds": 3,
               "total_elapsed_seconds": 8
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-22T12:11:26.011Z",
+            "data": {
+              "session_id": "session_1771762285710_rtz6ptp",
+              "source_id": "openreview",
+              "paper_id": "EDoD3DgivF",
+              "start_time": "2026-02-22T12:11:20.525Z",
+              "end_time": "2026-02-22T12:11:25.710Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 5
+            }
           }
         ]
       },
@@ -7009,7 +7024,7 @@
         "issue_number": 276,
         "object_id": "interactions:openreview.EDoD3DgivF",
         "created_at": "2025-10-15T14:00:09+00:00",
-        "updated_at": "2025-11-23T09:06:05+00:00",
+        "updated_at": "2026-02-22T12:11:49+00:00",
         "version": 1
       }
     },

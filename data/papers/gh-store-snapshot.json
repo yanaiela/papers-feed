@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-23T14:05:09.070504+00:00",
+  "snapshot_time": "2026-02-23T14:06:55.271530+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -57987,6 +57987,77 @@
         "object_id": "paper:arxiv.2302.02169",
         "created_at": "2026-02-23T14:04:12+00:00",
         "updated_at": "2026-02-23T14:04:33+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2408.14339": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2408.14339",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-23T14:05:49.219Z",
+            "data": {
+              "session_id": "session_1771855549198_favd46u",
+              "source_id": "arxiv",
+              "paper_id": "2408.14339",
+              "start_time": "2026-02-23T14:05:34.703Z",
+              "end_time": "2026-02-23T14:05:49.198Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 14
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-23T14:06:20.843Z",
+            "data": {
+              "session_id": "session_1771855580832_umpbv08",
+              "source_id": "arxiv",
+              "paper_id": "2408.14339",
+              "start_time": "2026-02-23T14:06:12.804Z",
+              "end_time": "2026-02-23T14:06:20.832Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1660,
+        "object_id": "interactions:arxiv.2408.14339",
+        "created_at": "2026-02-23T14:05:49+00:00",
+        "updated_at": "2026-02-23T14:06:29+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2408.14339": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2408.14339",
+        "url": "https://arxiv.org/abs/2408.14339",
+        "title": "ConceptMix: A Compositional Image Generation Benchmark with Controllable Difficulty",
+        "authors": "Xindi Wu, Dingli Yu, Yangsibo Huang, Olga Russakovsky, Sanjeev Arora",
+        "abstract": "Compositionality is a critical capability in Text-to-Image (T2I) models, as it reflects their ability to understand and combine multiple concepts from text descriptions. Existing evaluations of compositional capability rely heavily on human-designed text prompts or fixed templates, limiting their diversity and complexity, and yielding low discriminative power. We propose ConceptMix, a scalable, controllable, and customizable benchmark which automatically evaluates compositional generation ability of T2I models. This is done in two stages. First, ConceptMix generates the text prompts: concretely, using categories of visual concepts (e.g., objects, colors, shapes, spatial relationships), it randomly samples an object and k-tuples of visual concepts, then uses GPT4-o to generate text prompts for image generation based on these sampled concepts. Second, ConceptMix evaluates the images generated in response to these prompts: concretely, it checks how many of the k concepts actually appeared in the image by generating one question per visual concept and using a strong VLM to answer them. Through administering ConceptMix to a diverse set of T2I models (proprietary as well as open ones) using increasing values of k, we show that our ConceptMix has higher discrimination power than earlier benchmarks. Specifically, ConceptMix reveals that the performance of several models, especially open models, drops dramatically with increased k. Importantly, it also provides insight into the lack of prompt diversity in widely-used training datasets. Additionally, we conduct extensive human studies to validate the design of ConceptMix and compare our automatic grading with human judgement. We hope it will guide future T2I model development.",
+        "timestamp": "2026-02-23T14:05:07.135Z",
+        "rating": "novote",
+        "publishedDate": "2024/08/26",
+        "tags": [
+          "Computer Vision and Pattern Recognition (cs.CV)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1658,
+        "object_id": "paper:arxiv.2408.14339",
+        "created_at": "2026-02-23T14:05:07+00:00",
+        "updated_at": "2026-02-23T14:05:30+00:00",
         "version": 1
       }
     }

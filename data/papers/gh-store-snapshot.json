@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-24T06:24:57.602571+00:00",
+  "snapshot_time": "2026-02-24T06:48:23.004693+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -58420,6 +58420,33 @@
         "object_id": "interactions:arxiv.2510.03847",
         "created_at": "2026-02-24T06:24:09+00:00",
         "updated_at": "2026-02-24T06:24:31+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2602.04899": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2602.04899",
+        "url": "https://arxiv.org/abs/2602.04899",
+        "title": "Phantom Transfer: Data-level Defences are Insufficient Against Data Poisoning",
+        "authors": "Andrew Draganov, Tolga H. Dur, Anandmayi Bhongade, Mary Phuong",
+        "abstract": "We present a data poisoning attack -- Phantom Transfer -- with the property that, even if you know precisely how the poison was placed into an otherwise benign dataset, you cannot filter it out. We achieve this by modifying subliminal learning to work in real-world contexts and demonstrate that the attack works across models, including GPT-4.1. Indeed, even fully paraphrasing every sample in the dataset using a different model does not stop the attack. We also discuss connections to steering vectors and show that one can plant password-triggered behaviours into models while still beating defences.\nThis suggests that data-level defences are insufficient for stopping sophisticated data poisoning attacks. We suggest that future work should focus on model audits and white-box security methods.",
+        "timestamp": "2026-02-24T06:47:36.874Z",
+        "rating": "novote",
+        "publishedDate": "2026/02/03",
+        "tags": [
+          "Cryptography and Security (cs.CR)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1679,
+        "object_id": "paper:arxiv.2602.04899",
+        "created_at": "2026-02-24T06:47:37+00:00",
+        "updated_at": "2026-02-24T06:47:55+00:00",
         "version": 1
       }
     }

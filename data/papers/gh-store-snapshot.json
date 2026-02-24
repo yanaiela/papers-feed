@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-24T13:46:31.834343+00:00",
+  "snapshot_time": "2026-02-24T13:47:49.819798+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -58554,10 +58554,10 @@
         "sourceId": "openreview",
         "paperId": "VY9Dgun4WF",
         "url": "https://openreview.net/pdf?id=VY9Dgun4WF",
-        "title": "OpenReview",
+        "title": "VY9Dgun4WF",
         "authors": "",
-        "abstract": "Promoting openness in scientific communication and the peer-review process",
-        "timestamp": "2026-02-24T13:45:48.130Z",
+        "abstract": "",
+        "timestamp": "2026-02-24T13:46:39.980Z",
         "rating": "novote",
         "publishedDate": "",
         "tags": [],
@@ -58566,10 +58566,10 @@
         "sourceType": "pdf"
       },
       "meta": {
-        "issue_number": 1683,
+        "issue_number": 1684,
         "object_id": "paper:openreview.VY9Dgun4WF",
-        "created_at": "2026-02-24T13:45:48+00:00",
-        "updated_at": "2026-02-24T13:46:08+00:00",
+        "created_at": "2026-02-24T13:46:40+00:00",
+        "updated_at": "2026-02-24T13:47:03+00:00",
         "version": 1
       }
     },
@@ -58584,6 +58584,63 @@
         "object_id": "interactions:arxiv.2310.09336",
         "created_at": "2026-02-24T13:45:34+00:00",
         "updated_at": "2026-02-24T13:45:37+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2410.08309": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2410.08309",
+        "url": "https://arxiv.org/abs/2410.08309",
+        "title": "Swing-by Dynamics in Concept Learning and Compositional Generalization",
+        "authors": "Yongyi Yang, Core Francisco Park, Ekdeep Singh Lubana, Maya Okawa, Wei Hu, Hidenori Tanaka",
+        "abstract": "Prior work has shown that text-conditioned diffusion models can learn to identify and manipulate primitive concepts underlying a compositional data-generating process, enabling generalization to entirely novel, out-of-distribution compositions. Beyond performance evaluations, these studies develop a rich empirical phenomenology of learning dynamics, showing that models generalize sequentially, respecting the compositional hierarchy of the data-generating process. Moreover, concept-centric structures within the data significantly influence a model's speed of learning the ability to manipulate a concept. In this paper, we aim to better characterize these empirical results from a theoretical standpoint. Specifically, we propose an abstraction of prior work's compositional generalization problem by introducing a structured identity mapping (SIM) task, where a model is trained to learn the identity mapping on a Gaussian mixture with structurally organized centroids. We mathematically analyze the learning dynamics of neural networks trained on this SIM task and show that, despite its simplicity, SIM's learning dynamics capture and help explain key empirical observations on compositional generalization with diffusion models identified in prior work. Our theory also offers several new insights -- e.g., we find a novel mechanism for non-monotonic learning dynamics of test loss in early phases of training. We validate our new predictions by training a text-conditioned diffusion model, bridging our simplified framework and complex generative models. Overall, this work establishes the SIM task as a meaningful theoretical abstraction of concept learning dynamics in modern generative models.",
+        "timestamp": "2026-02-24T13:47:07.552Z",
+        "rating": "novote",
+        "publishedDate": "2024/10/10",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1686,
+        "object_id": "paper:arxiv.2410.08309",
+        "created_at": "2026-02-24T13:47:08+00:00",
+        "updated_at": "2026-02-24T13:47:32+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.VY9Dgun4WF": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "VY9Dgun4WF",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-02-24T13:46:58.348Z",
+            "data": {
+              "session_id": "session_1771940817734_gy7a35j",
+              "source_id": "openreview",
+              "paper_id": "VY9Dgun4WF",
+              "start_time": "2026-02-24T13:46:39.970Z",
+              "end_time": "2026-02-24T13:46:57.734Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 18
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1685,
+        "object_id": "interactions:openreview.VY9Dgun4WF",
+        "created_at": "2026-02-24T13:46:58+00:00",
+        "updated_at": "2026-02-24T13:47:21+00:00",
         "version": 1
       }
     }

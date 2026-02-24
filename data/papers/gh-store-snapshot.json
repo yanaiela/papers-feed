@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-24T13:45:07.997518+00:00",
+  "snapshot_time": "2026-02-24T13:46:31.834343+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -58546,6 +58546,44 @@
         "object_id": "paper:arxiv.2310.09336",
         "created_at": "2026-02-24T13:44:16+00:00",
         "updated_at": "2026-02-24T13:44:39+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.VY9Dgun4WF": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "VY9Dgun4WF",
+        "url": "https://openreview.net/pdf?id=VY9Dgun4WF",
+        "title": "OpenReview",
+        "authors": "",
+        "abstract": "Promoting openness in scientific communication and the peer-review process",
+        "timestamp": "2026-02-24T13:45:48.130Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "pdf"
+      },
+      "meta": {
+        "issue_number": 1683,
+        "object_id": "paper:openreview.VY9Dgun4WF",
+        "created_at": "2026-02-24T13:45:48+00:00",
+        "updated_at": "2026-02-24T13:46:08+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2310.09336": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.09336",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1682,
+        "object_id": "interactions:arxiv.2310.09336",
+        "created_at": "2026-02-24T13:45:34+00:00",
+        "updated_at": "2026-02-24T13:45:37+00:00",
         "version": 1
       }
     }

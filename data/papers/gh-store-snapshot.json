@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-01T11:18:08.721635+00:00",
+  "snapshot_time": "2026-03-01T11:24:39.592106+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -59392,6 +59392,122 @@
         "object_id": "paper:arxiv.2202.00622",
         "created_at": "2026-03-01T11:17:25+00:00",
         "updated_at": "2026-03-01T11:17:45+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.4WnqRR915j": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "4WnqRR915j",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-03-01T11:23:44.938Z",
+            "data": {
+              "session_id": "session_1772364224342_t2epnv2",
+              "source_id": "openreview",
+              "paper_id": "4WnqRR915j",
+              "start_time": "2026-03-01T11:23:36.017Z",
+              "end_time": "2026-03-01T11:23:44.342Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1706,
+        "object_id": "interactions:openreview.4WnqRR915j",
+        "created_at": "2026-03-01T11:23:45+00:00",
+        "updated_at": "2026-03-01T11:24:06+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.4WnqRR915j": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "4WnqRR915j",
+        "url": "https://openreview.net/forum?id=4WnqRR915j",
+        "title": "Llemma: An Open Language Model for Mathematics",
+        "authors": "Zhangir Azerbayev, Hailey Schoelkopf, Keiran Paster, Marco Dos Santos, Stephen Marcus McAleer, Albert Q. Jiang, Jia Deng, Stella Biderman, Sean Welleck",
+        "abstract": "We present Llemma, a large language model for mathematics. We continue pretraining Code Llama on the Proof-Pile-2, a mixture of scientific papers, web data containing mathematics, and mathematical code, yielding Llemma. On the MATH benchmark Llemma outperforms all known openly released models, as well as the unreleased Minerva model suite on an equi-parameter basis. Moreover, Llemma is capable of tool use and formal theorem proving without any finetuning. We openly release all artifacts, including 7 billion and 34 billion parameter models, the Proof-Pile-2, and code to replicate our experiments.",
+        "timestamp": "2026-03-01T11:23:36.287Z",
+        "rating": "novote",
+        "publishedDate": "16 Jan 2024",
+        "tags": [
+          "reasoning",
+          "language models",
+          "pretraining"
+        ],
+        "doi": "",
+        "journalName": "ICLR 2024 poster",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1705,
+        "object_id": "paper:openreview.4WnqRR915j",
+        "created_at": "2026-03-01T11:23:36+00:00",
+        "updated_at": "2026-03-01T11:23:58+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2310.10631": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.10631",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-03-01T11:23:22.678Z",
+            "data": {
+              "session_id": "session_1772364202139_xj1tgqp",
+              "source_id": "arxiv",
+              "paper_id": "2310.10631",
+              "start_time": "2026-03-01T11:23:16.700Z",
+              "end_time": "2026-03-01T11:23:22.139Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 5
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1704,
+        "object_id": "interactions:arxiv.2310.10631",
+        "created_at": "2026-03-01T11:23:23+00:00",
+        "updated_at": "2026-03-01T11:23:44+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2310.10631": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.10631",
+        "url": "https://arxiv.org/abs/2310.10631",
+        "title": "Llemma: An Open Language Model For Mathematics",
+        "authors": "Zhangir Azerbayev, Hailey Schoelkopf, Keiran Paster, Marco Dos Santos, Stephen McAleer, Albert Q. Jiang, Jia Deng, Stella Biderman, Sean Welleck",
+        "abstract": "We present Llemma, a large language model for mathematics. We continue pretraining Code Llama on the Proof-Pile-2, a mixture of scientific papers, web data containing mathematics, and mathematical code, yielding Llemma. On the MATH benchmark Llemma outperforms all known open base models, as well as the unreleased Minerva model suite on an equi-parameter basis. Moreover, Llemma is capable of tool use and formal theorem proving without any further finetuning. We openly release all artifacts, including 7 billion and 34 billion parameter models, the Proof-Pile-2, and code to replicate our experiments.",
+        "timestamp": "2026-03-01T11:23:17.225Z",
+        "rating": "novote",
+        "publishedDate": "2023/10/16",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Logic in Computer Science (cs.LO)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1703,
+        "object_id": "paper:arxiv.2310.10631",
+        "created_at": "2026-03-01T11:23:17+00:00",
+        "updated_at": "2026-03-01T11:23:39+00:00",
         "version": 1
       }
     }

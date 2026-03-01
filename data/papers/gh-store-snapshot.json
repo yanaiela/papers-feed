@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-01T11:25:27.846497+00:00",
+  "snapshot_time": "2026-03-01T11:26:18.383613+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -59508,6 +59508,64 @@
         "object_id": "paper:arxiv.2310.10631",
         "created_at": "2026-03-01T11:23:17+00:00",
         "updated_at": "2026-03-01T11:23:39+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2402.03300": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2402.03300",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-03-01T11:25:27.685Z",
+            "data": {
+              "session_id": "session_1772364327134_g98ptxf",
+              "source_id": "arxiv",
+              "paper_id": "2402.03300",
+              "start_time": "2026-03-01T11:25:21.611Z",
+              "end_time": "2026-03-01T11:25:27.134Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1709,
+        "object_id": "interactions:arxiv.2402.03300",
+        "created_at": "2026-03-01T11:25:28+00:00",
+        "updated_at": "2026-03-01T11:25:50+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2402.03300": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2402.03300",
+        "url": "https://arxiv.org/abs/2402.03300",
+        "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+        "authors": "Zhihong Shao, Peiyi Wang, Qihao Zhu, Runxin Xu, Junxiao Song, Xiao Bi, Haowei Zhang, Mingchuan Zhang, Y.K. Li, Y. Wu, Daya Guo",
+        "abstract": "Mathematical reasoning poses a significant challenge for language models due to its complex and structured nature. In this paper, we introduce DeepSeekMath 7B, which continues pre-training DeepSeek-Coder-Base-v1.5 7B with 120B math-related tokens sourced from Common Crawl, together with natural language and code data. DeepSeekMath 7B has achieved an impressive score of 51.7% on the competition-level MATH benchmark without relying on external toolkits and voting techniques, approaching the performance level of Gemini-Ultra and GPT-4. Self-consistency over 64 samples from DeepSeekMath 7B achieves 60.9% on MATH. The mathematical reasoning capability of DeepSeekMath is attributed to two key factors: First, we harness the significant potential of publicly available web data through a meticulously engineered data selection pipeline. Second, we introduce Group Relative Policy Optimization (GRPO), a variant of Proximal Policy Optimization (PPO), that enhances mathematical reasoning abilities while concurrently optimizing the memory usage of PPO.",
+        "timestamp": "2026-03-01T11:25:22.156Z",
+        "rating": "novote",
+        "publishedDate": "2024/02/05",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1708,
+        "object_id": "paper:arxiv.2402.03300",
+        "created_at": "2026-03-01T11:25:22+00:00",
+        "updated_at": "2026-03-01T11:25:43+00:00",
         "version": 1
       }
     }

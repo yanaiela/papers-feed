@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-01T11:24:39.592106+00:00",
+  "snapshot_time": "2026-03-01T11:25:27.846497+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -59433,7 +59433,7 @@
         "title": "Llemma: An Open Language Model for Mathematics",
         "authors": "Zhangir Azerbayev, Hailey Schoelkopf, Keiran Paster, Marco Dos Santos, Stephen Marcus McAleer, Albert Q. Jiang, Jia Deng, Stella Biderman, Sean Welleck",
         "abstract": "We present Llemma, a large language model for mathematics. We continue pretraining Code Llama on the Proof-Pile-2, a mixture of scientific papers, web data containing mathematics, and mathematical code, yielding Llemma. On the MATH benchmark Llemma outperforms all known openly released models, as well as the unreleased Minerva model suite on an equi-parameter basis. Moreover, Llemma is capable of tool use and formal theorem proving without any finetuning. We openly release all artifacts, including 7 billion and 34 billion parameter models, the Proof-Pile-2, and code to replicate our experiments.",
-        "timestamp": "2026-03-01T11:23:36.287Z",
+        "timestamp": "2026-03-01T11:24:25.218Z",
         "rating": "novote",
         "publishedDate": "16 Jan 2024",
         "tags": [
@@ -59446,10 +59446,10 @@
         "sourceType": "url"
       },
       "meta": {
-        "issue_number": 1705,
+        "issue_number": 1707,
         "object_id": "paper:openreview.4WnqRR915j",
-        "created_at": "2026-03-01T11:23:36+00:00",
-        "updated_at": "2026-03-01T11:23:58+00:00",
+        "created_at": "2026-03-01T11:24:25+00:00",
+        "updated_at": "2026-03-01T11:24:49+00:00",
         "version": 1
       }
     },

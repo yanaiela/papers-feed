@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-01T11:26:18.383613+00:00",
+  "snapshot_time": "2026-03-01T11:37:17.711549+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -59566,6 +59566,32 @@
         "object_id": "paper:arxiv.2402.03300",
         "created_at": "2026-03-01T11:25:22+00:00",
         "updated_at": "2026-03-01T11:25:43+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.ruk0nyQPec": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "ruk0nyQPec",
+        "url": "https://openreview.net/forum?id=ruk0nyQPec",
+        "title": "SILO Language Models: Isolating Legal Risk In a Nonparametric Datastore",
+        "authors": "Sewon Min, Suchin Gururangan, Eric Wallace, Weijia Shi, Hannaneh Hajishirzi, Noah A. Smith, Luke Zettlemoyer",
+        "abstract": "The legality of training language models (LMs) on copyrighted or otherwise restricted data is under intense debate. However, as we show, model performance significantly degrades if trained only on low-risk text (e.g., out-of-copyright books or government documents), due to its limited size and domain coverage. We present SILO, a new language model that manages this risk-performance tradeoff during inference. SILO is built by (1) training a parametric LM on the Open License Corpus (OLC), a new corpus we curate with 228B tokens of public domain and permissively licensed text and (2) augmenting it with a more general and easily modifiable nonparametric datastore (e.g., containing copyrighted books or news) that is only queried during inference. The datastore allows use of high-risk data without training on it, supports sentence-level data attribution, and enables data producers to opt out from the model by removing content from the store. These capabilities can foster compliance with data-use regulations such as the fair use doctrine in the United States and the GDPR in the European Union. Our experiments show that the parametric LM struggles on its own with domains not covered by OLC. However, access to the datastore greatly improves out of domain performance, closing 90% of the performance gap with an LM trained on the Pile, a more diverse corpus with mostly high-risk text. We also analyze which nonparametric approach works best, where the remaining errors lie, and how performance scales with datastore size. Our results suggest that it is possible to build high quality language models while mitigating legal risk.",
+        "timestamp": "2026-03-01T11:36:34.723Z",
+        "rating": "novote",
+        "publishedDate": "16 Jan 2024",
+        "tags": [
+          "language modeling; retrieval; legality of language modeling"
+        ],
+        "doi": "",
+        "journalName": "ICLR 2024 spotlight",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1710,
+        "object_id": "paper:openreview.ruk0nyQPec",
+        "created_at": "2026-03-01T11:36:35+00:00",
+        "updated_at": "2026-03-01T11:36:58+00:00",
         "version": 1
       }
     }

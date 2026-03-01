@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-02-28T18:40:09.657509+00:00",
+  "snapshot_time": "2026-03-01T07:32:03.134162+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -58799,6 +58799,21 @@
               "idle_seconds": 2,
               "total_elapsed_seconds": 7
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-03-01T07:30:59.978Z",
+            "data": {
+              "session_id": "session_1772350259089_49f33cv",
+              "source_id": "arxiv",
+              "paper_id": "2602.04899",
+              "start_time": "2026-02-28T19:51:05.828Z",
+              "end_time": "2026-03-01T07:30:59.089Z",
+              "heartbeat_count": 8398,
+              "duration_seconds": 41990,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 41993
+            }
           }
         ]
       },
@@ -58806,7 +58821,7 @@
         "issue_number": 1680,
         "object_id": "interactions:arxiv.2602.04899",
         "created_at": "2026-02-24T06:49:06+00:00",
-        "updated_at": "2026-02-28T18:39:40+00:00",
+        "updated_at": "2026-03-01T07:31:24+00:00",
         "version": 1
       }
     },
@@ -59179,6 +59194,33 @@
         "object_id": "interactions:arxiv.2602.17655",
         "created_at": "2026-02-28T10:11:14+00:00",
         "updated_at": "2026-02-28T10:11:35+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2601.03315": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2601.03315",
+        "url": "https://arxiv.org/abs/2601.03315",
+        "title": "Why LLMs Aren't Scientists Yet: Lessons from Four Autonomous Research Attempts",
+        "authors": "Dhruv Trehan, Paras Chopra",
+        "abstract": "We report a case study of four end-to-end attempts to autonomously generate ML research papers using a pipeline of six LLM agents mapped to stages of the scientific workflow. Of these four, three attempts failed during implementation or evaluation. One completed the pipeline and was accepted to Agents4Science 2025, an experimental inaugural venue that required AI systems as first authors, passing both human and multi-AI review. From these attempts, we document six recurring failure modes: bias toward training data defaults, implementation drift under execution pressure, memory and context degradation across long-horizon tasks, overexcitement that declares success despite obvious failures, insufficient domain intelligence, and weak scientific taste in experimental design. We conclude by discussing four design principles for more robust AI-scientist systems, implications for autonomous scientific discovery, and we release all prompts, artifacts, and outputs at this https URL",
+        "timestamp": "2026-03-01T07:31:13.632Z",
+        "rating": "novote",
+        "publishedDate": "2026/01/06",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1696,
+        "object_id": "paper:arxiv.2601.03315",
+        "created_at": "2026-03-01T07:31:14+00:00",
+        "updated_at": "2026-03-01T07:31:33+00:00",
         "version": 1
       }
     }

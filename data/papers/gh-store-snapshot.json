@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-01T11:58:43.939855+00:00",
+  "snapshot_time": "2026-03-01T15:40:50.198158+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -59637,6 +59637,49 @@
         "object_id": "interactions:arxiv.2310.16787",
         "created_at": "2026-03-01T11:55:07+00:00",
         "updated_at": "2026-03-01T11:58:16+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.EoBmdFujak": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "EoBmdFujak",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1713,
+        "object_id": "interactions:openreview.EoBmdFujak",
+        "created_at": "2026-03-01T15:40:03+00:00",
+        "updated_at": "2026-03-01T15:40:05+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.EoBmdFujak": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "EoBmdFujak",
+        "url": "https://openreview.net/forum?id=EoBmdFujak",
+        "title": "Train Once, Answer All: Many Pretraining Experiments for the Cost of One",
+        "authors": "Sebastian Bordt, Martin Pawelczyk",
+        "abstract": "Recent work has demonstrated that controlled pretraining experiments are a powerful tool for studying\nthe relationship between training data and large language model (LLM) behavior. \nHowever, the computational cost of pretraining presents a significant constraint. To overcome this constraint, we propose a new approach where multiple experiments are conducted simultaneously during a *single* training run. We validate our approach by performing ten experiments while training on 210B tokens, with models of up to 2.7B parameters. Although models are trained only once, we can replicate the results of multiple previous works on data contamination, poisoning, and memorization. We also conduct novel investigations into knowledge acquisition, mathematical reasoning, and watermarking. For example, we dynamically update the training data until a model acquires a particular piece of knowledge. Remarkably, the influence of the experiments on the model's training dynamics and overall performance is minimal. However, interactions between experiments may act as a confounder in our approach. We propose continual pretraining dependence testing (CPDT), a novel technique to test for interactions with continual pretraining experiments, finding them to be negligible in our setup. Overall, our results suggest that performing multiple pretraining experiments within a single training run can enable rigorous scientific experimentation with large models on a compute budget.",
+        "timestamp": "2026-03-01T15:39:57.612Z",
+        "rating": "novote",
+        "publishedDate": "26 Jan 2026",
+        "tags": [
+          "large language models (LLMs)",
+          "pretraining",
+          "experiments",
+          "memorization"
+        ],
+        "doi": "",
+        "journalName": "ICLR 2026 Poster",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1712,
+        "object_id": "paper:openreview.EoBmdFujak",
+        "created_at": "2026-03-01T15:39:57+00:00",
+        "updated_at": "2026-03-01T15:40:18+00:00",
         "version": 1
       }
     }

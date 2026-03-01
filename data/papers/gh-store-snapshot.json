@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-01T08:32:50.474650+00:00",
+  "snapshot_time": "2026-03-01T09:13:41.719751+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -59281,6 +59281,49 @@
         "object_id": "interactions:arxiv.2601.03315",
         "created_at": "2026-03-01T07:32:48+00:00",
         "updated_at": "2026-03-01T08:32:26+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2501.07927": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2501.07927",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1699,
+        "object_id": "interactions:arxiv.2501.07927",
+        "created_at": "2026-03-01T09:13:36+00:00",
+        "updated_at": "2026-03-01T09:13:38+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2501.07927": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2501.07927",
+        "url": "https://arxiv.org/abs/2501.07927",
+        "title": "Gandalf the Red: Adaptive Security for LLMs",
+        "authors": "Niklas Pfister, V\u00e1clav Volhejn, Manuel Knott, Santiago Arias, Julia Bazi\u0144ska, Mykhailo Bichurin, Alan Commike, Janet Darling, Peter Dienes, Matthew Fiedler, David Haber, Matthias Kraft, Marco Lancini, Max Mathys, Dami\u00e1n Pascual-Ortiz, Jakub Podolak, Adri\u00e0 Romero-L\u00f3pez, Kyriacos Shiarlis, Andreas Signer, Zsolt Terek, Athanasios Theocharis, Daniel Timbrell, Samuel Trautwein, Samuel Watts, Yun-Han Wu, Mateo Rojas-Carulla",
+        "abstract": "Current evaluations of defenses against prompt attacks in large language model (LLM) applications often overlook two critical factors: the dynamic nature of adversarial behavior and the usability penalties imposed on legitimate users by restrictive defenses. We propose D-SEC (Dynamic Security Utility Threat Model), which explicitly separates attackers from legitimate users, models multi-step interactions, and expresses the security-utility in an optimizable form. We further address the shortcomings in existing evaluations by introducing Gandalf, a crowd-sourced, gamified red-teaming platform designed to generate realistic, adaptive attack. Using Gandalf, we collect and release a dataset of 279k prompt attacks. Complemented by benign user data, our analysis reveals the interplay between security and utility, showing that defenses integrated in the LLM (e.g., system prompts) can degrade usability even without blocking requests. We demonstrate that restricted application domains, defense-in-depth, and adaptive defenses are effective strategies for building secure and useful LLM applications.",
+        "timestamp": "2026-03-01T09:12:51.686Z",
+        "rating": "novote",
+        "publishedDate": "2025/01/14",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)",
+          "Cryptography and Security (cs.CR)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1698,
+        "object_id": "paper:arxiv.2501.07927",
+        "created_at": "2026-03-01T09:12:52+00:00",
+        "updated_at": "2026-03-01T09:13:16+00:00",
         "version": 1
       }
     }

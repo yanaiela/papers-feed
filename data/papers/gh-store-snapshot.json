@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-04T13:42:14.004895+00:00",
+  "snapshot_time": "2026-03-04T13:45:07.346625+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -60449,6 +60449,60 @@
         "object_id": "paper:arxiv.2407.01557",
         "created_at": "2026-03-04T13:41:22+00:00",
         "updated_at": "2026-03-04T13:41:48+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2404.10102": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2404.10102",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-03-04T13:44:12.671Z",
+            "data": {
+              "session_id": "session_1772631852023_6lgrf2m",
+              "source_id": "arxiv",
+              "paper_id": "2404.10102",
+              "start_time": "2026-03-04T13:44:00.059Z",
+              "end_time": "2026-03-04T13:44:12.023Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 12
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1744,
+        "object_id": "interactions:arxiv.2404.10102",
+        "created_at": "2026-03-04T13:44:13+00:00",
+        "updated_at": "2026-03-04T13:44:38+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2404.10102": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2404.10102",
+        "url": "https://arxiv.org/html/2404.10102v1",
+        "title": "Chinchilla Scaling: A replication attempt",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-03-04T13:44:00.362Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1743,
+        "object_id": "paper:arxiv.2404.10102",
+        "created_at": "2026-03-04T13:44:00+00:00",
+        "updated_at": "2026-03-04T13:44:27+00:00",
         "version": 1
       }
     }

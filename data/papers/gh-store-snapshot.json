@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-04T10:54:23.954399+00:00",
+  "snapshot_time": "2026-03-04T10:59:26.917297+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -60510,6 +60510,30 @@
         "object_id": "paper:arxiv.1911.03347",
         "created_at": "2026-03-04T09:56:19+00:00",
         "updated_at": "2026-03-04T09:56:38+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2509.11141": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.11141",
+        "url": "https://arxiv.org/html/2509.11141v1",
+        "title": "When Turns Hostile: Interpreting How Emojis Trigger LLMs\u2019 Toxicity",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-03-04T10:58:39.432Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1735,
+        "object_id": "paper:arxiv.2509.11141",
+        "created_at": "2026-03-04T10:58:39+00:00",
+        "updated_at": "2026-03-04T10:59:02+00:00",
         "version": 1
       }
     }

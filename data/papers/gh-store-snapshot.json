@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-04T14:22:12.060161+00:00",
+  "snapshot_time": "2026-03-04T15:46:29.404743+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -60518,6 +60518,62 @@
         "object_id": "paper:arxiv.2404.10102",
         "created_at": "2026-03-04T13:44:00+00:00",
         "updated_at": "2026-03-04T13:44:27+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2510.16629": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.16629",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-03-04T15:45:38.897Z",
+            "data": {
+              "session_id": "session_1772639138880_xy9an59",
+              "source_id": "arxiv",
+              "paper_id": "2510.16629",
+              "start_time": "2026-03-04T15:45:29.843Z",
+              "end_time": "2026-03-04T15:45:38.880Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 9
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1746,
+        "object_id": "interactions:arxiv.2510.16629",
+        "created_at": "2026-03-04T15:45:30+00:00",
+        "updated_at": "2026-03-04T15:46:02+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.16629": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.16629",
+        "url": "https://arxiv.org/abs/2510.16629",
+        "title": "On the Impossibility of Retrain Equivalence in Machine Unlearning",
+        "authors": "Jiatong Yu, Yinghui He, Anirudh Goyal, Sanjeev Arora",
+        "abstract": "Machine unlearning seeks to selectively remove the \"influence\" of specific training data on a model's outputs. The ideal goal is Retrain Equivalence--behavior identical to a model trained from scratch on only the retained data. This goal was formulated for models trained on i.i.d. data batches, but modern pipelines often involve multi-stage training, with each stage having a distinct data distribution and objective. Examples include LLM fine-tuning for alignment, reasoning ability, etc. Our study shows via theory and experiments that this shift to multi-stage training introduces a fundamental barrier for machine unlearning. The theory indicates that the outcome of local unlearning--methods that only use gradients computed on the forget set--is path-dependent. That is, a model's behavior during unlearning is influenced by the order of its training stages during learning, making it impossible for path-oblivious algorithms to universally achieve Retrain Equivalence. We empirically demonstrate the same phenomenon in LLM post-training across Llama and Qwen models (1B to 14B) with gradient ascent, NPO, and SimNPO local unlearning algorithms. Models fine-tuned via different orderings of identical training stages diverge in behavior during unlearning, with the degradation in GSM8K accuracy after unlearning varying by over 20% across paths. We also observe that some learning paths consistently produce models that unlearn slowly. During unlearning, whether the probability mass gets squeezed into paraphrasing or alternative concepts is also path-dependent. These results consistently show that Retrain Equivalence is an ill-posed target for local unlearning algorithms, so long as the target models are trained in stages. In situations where access to models' training histories is hard, the current work calls for rethinking the definition and desiderata of machine unlearning.",
+        "timestamp": "2026-03-04T15:45:19.277Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/18",
+        "tags": [
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1745,
+        "object_id": "paper:arxiv.2510.16629",
+        "created_at": "2026-03-04T15:45:19+00:00",
+        "updated_at": "2026-03-04T15:45:40+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-04T13:38:37.996274+00:00",
+  "snapshot_time": "2026-03-04T13:42:14.004895+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -60425,6 +60425,30 @@
         "object_id": "paper:arxiv.2601.03267",
         "created_at": "2026-03-04T13:37:40+00:00",
         "updated_at": "2026-03-04T13:38:08+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2407.01557": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2407.01557",
+        "url": "https://arxiv.org/html/2407.01557v1",
+        "title": "AI Governance and Accountability: An Analysis of Anthropic\u2019s Claude",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-03-04T13:41:22.511Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1742,
+        "object_id": "paper:arxiv.2407.01557",
+        "created_at": "2026-03-04T13:41:22+00:00",
+        "updated_at": "2026-03-04T13:41:48+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-05T19:16:39.884721+00:00",
+  "snapshot_time": "2026-03-05T19:34:32.778503+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -60967,6 +60967,35 @@
         "object_id": "paper:arxiv.2406.18664",
         "created_at": "2026-03-05T08:25:12+00:00",
         "updated_at": "2026-03-05T08:25:30+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2303.17548": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2303.17548",
+        "url": "https://arxiv.org/abs/2303.17548",
+        "title": "Whose Opinions Do Language Models Reflect?",
+        "authors": "Shibani Santurkar, Esin Durmus, Faisal Ladhak, Cinoo Lee, Percy Liang, Tatsunori Hashimoto",
+        "abstract": "Language models (LMs) are increasingly being used in open-ended contexts, where the opinions reflected by LMs in response to subjective queries can have a profound impact, both on user satisfaction, as well as shaping the views of society at large. In this work, we put forth a quantitative framework to investigate the opinions reflected by LMs -- by leveraging high-quality public opinion polls and their associated human responses. Using this framework, we create OpinionsQA, a new dataset for evaluating the alignment of LM opinions with those of 60 US demographic groups over topics ranging from abortion to automation. Across topics, we find substantial misalignment between the views reflected by current LMs and those of US demographic groups: on par with the Democrat-Republican divide on climate change. Notably, this misalignment persists even after explicitly steering the LMs towards particular demographic groups. Our analysis not only confirms prior observations about the left-leaning tendencies of some human feedback-tuned LMs, but also surfaces groups whose opinions are poorly reflected by current LMs (e.g., 65+ and widowed individuals). Our code and data are available at this https URL.",
+        "timestamp": "2026-03-05T19:33:05.199Z",
+        "rating": "novote",
+        "publishedDate": "2023/03/30",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Computers and Society (cs.CY)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1757,
+        "object_id": "paper:arxiv.2303.17548",
+        "created_at": "2026-03-05T19:33:05+00:00",
+        "updated_at": "2026-03-05T19:33:51+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-04T21:05:02.749637+00:00",
+  "snapshot_time": "2026-03-05T08:21:50.356818+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -60781,6 +60781,30 @@
         "object_id": "paper:arxiv.2603.03035",
         "created_at": "2026-03-04T19:09:57+00:00",
         "updated_at": "2026-03-04T19:10:29+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2412.06370": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2412.06370",
+        "url": "https://arxiv.org/html/2412.06370v1",
+        "title": "Exploring Memorization and Copyright Violation in Frontier LLMs: A Study of the New York Times v. OpenAI 2023 Lawsuit",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-03-05T08:21:03.609Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1753,
+        "object_id": "paper:arxiv.2412.06370",
+        "created_at": "2026-03-05T08:21:04+00:00",
+        "updated_at": "2026-03-05T08:21:27+00:00",
         "version": 1
       }
     }

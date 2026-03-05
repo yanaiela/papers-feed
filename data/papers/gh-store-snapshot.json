@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-05T08:24:41.294404+00:00",
+  "snapshot_time": "2026-03-05T08:25:56.028060+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -60820,6 +60820,47 @@
         "object_id": "paper:arxiv.2412.06370",
         "created_at": "2026-03-05T08:21:04+00:00",
         "updated_at": "2026-03-05T08:21:27+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2406.18664": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2406.18664",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1756,
+        "object_id": "interactions:arxiv.2406.18664",
+        "created_at": "2026-03-05T08:25:20+00:00",
+        "updated_at": "2026-03-05T08:25:25+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2406.18664": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2406.18664",
+        "url": "https://arxiv.org/abs/2406.18664",
+        "title": "Evaluating Copyright Takedown Methods for Language Models",
+        "authors": "Boyi Wei, Weijia Shi, Yangsibo Huang, Noah A. Smith, Chiyuan Zhang, Luke Zettlemoyer, Kai Li, Peter Henderson",
+        "abstract": "Language models (LMs) derive their capabilities from extensive training on diverse data, including potentially copyrighted material. These models can memorize and generate content similar to their training data, posing potential concerns. Therefore, model creators are motivated to develop mitigation methods that prevent generating protected content. We term this procedure as copyright takedowns for LMs, noting the conceptual similarity to (but legal distinction from) the DMCA takedown This paper introduces the first evaluation of the feasibility and side effects of copyright takedowns for LMs. We propose CoTaEval, an evaluation framework to assess the effectiveness of copyright takedown methods, the impact on the model's ability to retain uncopyrightable factual knowledge from the training data whose recitation is embargoed, and how well the model maintains its general utility and efficiency. We examine several strategies, including adding system prompts, decoding-time filtering interventions, and unlearning approaches. Our findings indicate that no tested method excels across all metrics, showing significant room for research in this unique problem setting and indicating potential unresolved challenges for live policy proposals.",
+        "timestamp": "2026-03-05T08:25:11.796Z",
+        "rating": "novote",
+        "publishedDate": "2024/06/26",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1755,
+        "object_id": "paper:arxiv.2406.18664",
+        "created_at": "2026-03-05T08:25:12+00:00",
+        "updated_at": "2026-03-05T08:25:30+00:00",
         "version": 1
       }
     }

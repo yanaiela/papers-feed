@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-05T19:44:44.775723+00:00",
+  "snapshot_time": "2026-03-05T19:45:27.550862+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -61107,7 +61107,7 @@
         "title": "Knowledge Conflicts for LLMs: A Survey",
         "authors": "Rongwu Xu, Zehan Qi, Zhijiang Guo, Cunxiang Wang, Hongru Wang, Yue Zhang, Wei Xu",
         "abstract": "This survey provides an in-depth analysis of knowledge conflicts for large language models (LLMs), highlighting the complex challenges they encounter when blending contextual and parametric knowledge. Our focus is on three categories of knowledge conflicts: context-memory, inter-context, and intra-memory conflict. These conflicts can significantly impact the trustworthiness and performance of LLMs, especially in real-world applications where noise and misinformation are common. By categorizing these conflicts, exploring the causes, examining the behaviors of LLMs under such conflicts, and reviewing available solutions, this survey aims to shed light on strategies for improving the robustness of LLMs, thereby serving as a valuable resource for advancing research in this evolving area.",
-        "timestamp": "2026-03-05T19:43:54.220Z",
+        "timestamp": "2026-03-05T19:44:37.406Z",
         "rating": "novote",
         "publishedDate": "2024/03/13",
         "tags": [
@@ -61121,10 +61121,10 @@
         "sourceType": "url"
       },
       "meta": {
-        "issue_number": 1763,
+        "issue_number": 1764,
         "object_id": "paper:arxiv.2403.08319",
-        "created_at": "2026-03-05T19:43:54+00:00",
-        "updated_at": "2026-03-05T19:44:18+00:00",
+        "created_at": "2026-03-05T19:44:37+00:00",
+        "updated_at": "2026-03-05T19:45:00+00:00",
         "version": 1
       }
     }

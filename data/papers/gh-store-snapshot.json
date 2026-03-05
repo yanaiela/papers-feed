@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-05T19:38:00.157014+00:00",
+  "snapshot_time": "2026-03-05T19:40:22.593365+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -61039,6 +61039,63 @@
         "object_id": "paper:arxiv.2402.11355",
         "created_at": "2026-03-05T19:36:07+00:00",
         "updated_at": "2026-03-05T19:36:53+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2310.06816": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.06816",
+        "url": "https://arxiv.org/abs/2310.06816",
+        "title": "Text Embeddings Reveal (Almost) As Much As Text",
+        "authors": "John X. Morris, Volodymyr Kuleshov, Vitaly Shmatikov, Alexander M. Rush",
+        "abstract": "How much private information do text embeddings reveal about the original text? We investigate the problem of embedding \\textit{inversion}, reconstructing the full text represented in dense text embeddings. We frame the problem as controlled generation: generating text that, when reembedded, is close to a fixed point in latent space. We find that although a na\u00efve model conditioned on the embedding performs poorly, a multi-step method that iteratively corrects and re-embeds text is able to recover $92\\%$ of $32\\text{-token}$ text inputs exactly. We train our model to decode text embeddings from two state-of-the-art embedding models, and also show that our model can recover important personal information (full names) from a dataset of clinical notes. Our code is available on Github: \\href{this https URL}{this http URL}.",
+        "timestamp": "2026-03-05T19:38:30.403Z",
+        "rating": "novote",
+        "publishedDate": "2023/10/10",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1762,
+        "object_id": "paper:arxiv.2310.06816",
+        "created_at": "2026-03-05T19:38:30+00:00",
+        "updated_at": "2026-03-05T19:39:01+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2402.11355": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2402.11355",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-03-05T19:38:23.117Z",
+            "data": {
+              "session_id": "session_1772739503097_mggid1z",
+              "source_id": "arxiv",
+              "paper_id": "2402.11355",
+              "start_time": "2026-03-05T19:38:14.869Z",
+              "end_time": "2026-03-05T19:38:23.097Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1760,
+        "object_id": "interactions:arxiv.2402.11355",
+        "created_at": "2026-03-05T19:37:35+00:00",
+        "updated_at": "2026-03-05T19:38:45+00:00",
         "version": 1
       }
     }

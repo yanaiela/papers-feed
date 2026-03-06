@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-05T19:47:43.961550+00:00",
+  "snapshot_time": "2026-03-06T18:45:54.999546+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -61179,6 +61179,46 @@
         "object_id": "paper:arxiv.2306.09479",
         "created_at": "2026-03-05T19:46:31+00:00",
         "updated_at": "2026-03-05T19:46:57+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2512.04068": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2512.04068",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1768,
+        "object_id": "interactions:arxiv.2512.04068",
+        "created_at": "2026-03-06T18:45:11+00:00",
+        "updated_at": "2026-03-06T18:45:13+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2512.04068": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2512.04068",
+        "url": "https://arxiv.org/abs/2512.04068",
+        "title": "Learning Steerable Clarification Policies with Collaborative Self-play",
+        "authors": "Jonathan Berant, Maximillian Chen, Adam Fisch, Reza Aghajani, Fantine Huot, Mirella Lapata, Jacob Eisenstein",
+        "abstract": "To handle underspecified or ambiguous queries, AI assistants need a policy for managing their uncertainty to determine (a) when to guess the user intent and answer directly, (b) when to enumerate and answer multiple possible intents, and (c) when to ask a clarifying question. However, such policies are contextually dependent on factors such as user preferences or modality. For example, enumerating multiple possible user intentions is cumbersome on small screens or in a voice setting. In this work, we propose to train steerable policies for managing this uncertainty using self-play. Given two agents, one simulating a user and the other an AI assistant, we generate conversations where the user issues a potentially ambiguous query, and the assistant needs to determine how to respond. Importantly, the model takes as input the numerical cost of each clarification question, and each generated word, and is asked to take the action that will maximize its final reward, which is the cost-penalized accuracy. We use Reinforced Self-Training (ReST) to train our model to achieve high reward and show this leads to a steerable policy that changes its behavior predictably conditioned on the provided costs, leading to higher reward and accuracy. Moreover, our procedure also generalizes to numerical cost values that were unobserved at training time.",
+        "timestamp": "2026-03-06T18:45:03.957Z",
+        "rating": "novote",
+        "publishedDate": "2025/12/03",
+        "tags": [
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1767,
+        "object_id": "paper:arxiv.2512.04068",
+        "created_at": "2026-03-06T18:45:04+00:00",
+        "updated_at": "2026-03-06T18:45:33+00:00",
         "version": 1
       }
     }

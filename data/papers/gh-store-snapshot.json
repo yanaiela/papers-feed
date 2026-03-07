@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-07T09:50:42.000128+00:00",
+  "snapshot_time": "2026-03-07T09:54:07.648012+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -61250,6 +61250,32 @@
         "object_id": "paper:arxiv.2512.04068",
         "created_at": "2026-03-06T18:45:04+00:00",
         "updated_at": "2026-03-06T18:45:33+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.10159": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.10159",
+        "url": "https://arxiv.org/abs/2510.10159",
+        "title": "BabyBabelLM: A Multilingual Benchmark of Developmentally Plausible Training Data",
+        "authors": "Jaap Jumelet, Abdellah Fourtassi, Akari Haga, Bastian Bunzeck, Bhargav Shandilya, Diana Galvan-Sosa, Faiz Ghifari Haznitrama, Francesca Padovani, Francois Meyer, Hai Hu, Julen Etxaniz, Laurent Pr\u00e9vot, Linyang He, Mar\u00eda Grandury, Mila Marcheva, Negar Foroutan, Nikitas Theodoropoulos, Pouya Sadeghi, Siyuan Song, Suchir Salhan, Susana Zhou, Yurii Paniv, Ziyin Zhang, Arianna Bisazza, Alex Warstadt, Leshem Choshen",
+        "abstract": "We present BabyBabelLM, a multilingual collection of datasets modeling the language a person observes from birth until they acquire a native language. We curate developmentally plausible pretraining data aiming to cover the equivalent of 100M English words of content in each of 45 languages. We compile evaluation suites and train baseline models in each language. BabyBabelLM aims to facilitate multilingual pretraining and cognitive modeling.",
+        "timestamp": "2026-03-07T09:53:29.422Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/11",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1769,
+        "object_id": "paper:arxiv.2510.10159",
+        "created_at": "2026-03-07T09:53:29+00:00",
+        "updated_at": "2026-03-07T09:53:46+00:00",
         "version": 1
       }
     }

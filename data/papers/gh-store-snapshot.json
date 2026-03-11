@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-11T19:16:10.060530+00:00",
+  "snapshot_time": "2026-03-11T19:20:13.662915+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -61820,6 +61820,46 @@
         "object_id": "paper:arxiv.2504.09387",
         "created_at": "2026-03-11T19:15:18+00:00",
         "updated_at": "2026-03-11T19:15:43+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.22598": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.22598",
+        "url": "https://arxiv.org/abs/2506.22598",
+        "title": "RExBench: Can coding agents autonomously implement AI research extensions?",
+        "authors": "Nicholas Edwards, Yukyung Lee, Yujun Audrey Mao, Yulu Qin, Sebastian Schuster, Najoung Kim",
+        "abstract": "Agents based on Large Language Models (LLMs) have shown promise for performing sophisticated software engineering tasks autonomously. In addition, there has been progress towards developing agents that can perform parts of the research pipeline in machine learning and the natural sciences. We argue that research extension and its implementation is a critical capability for such systems, and introduce RExBench to support the evaluation of this capability. RExBench is a benchmark consisting of 12 realistic research experiment implementation tasks that aim to investigate research hypotheses that have not previously been implemented. Each task is set up as an extension to an existing research paper and codebase, accompanied by domain expert-written instructions. RExBench is robust to data contamination, and supports an automatic evaluation infrastructure that executes agent outputs to determine whether the success criteria are met. We use this benchmark to evaluate nine LLM agents implemented using three different frameworks: aider, Claude Code, and OpenHands. We find that all agents evaluated fail to autonomously implement the majority of the extensions. Although the success rate improves with additional human-written hints, the best performance under this setting remains below 40%. This indicates that current agents are still short of being able to handle realistic research extension tasks without substantial human guidance.",
+        "timestamp": "2026-03-11T19:19:25.701Z",
+        "rating": "novote",
+        "publishedDate": "2025/06/27",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1787,
+        "object_id": "paper:arxiv.2506.22598",
+        "created_at": "2026-03-11T19:19:26+00:00",
+        "updated_at": "2026-03-11T19:19:49+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2504.09387": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.09387",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1786,
+        "object_id": "interactions:arxiv.2504.09387",
+        "created_at": "2026-03-11T19:16:55+00:00",
+        "updated_at": "2026-03-11T19:16:57+00:00",
         "version": 1
       }
     }

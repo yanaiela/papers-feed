@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-11T19:21:27.268747+00:00",
+  "snapshot_time": "2026-03-11T19:27:59.751011+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -61890,6 +61890,32 @@
         "object_id": "interactions:arxiv.2506.22598",
         "created_at": "2026-03-11T19:20:26+00:00",
         "updated_at": "2026-03-11T19:20:57+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2410.22590": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2410.22590",
+        "url": "https://arxiv.org/abs/2410.22590",
+        "title": "Characterizing the Role of Similarity in the Property Inferences of Language Models",
+        "authors": "Juan Diego Rodriguez, Aaron Mueller, Kanishka Misra",
+        "abstract": "Property inheritance -- a phenomenon where novel properties are projected from higher level categories (e.g., birds) to lower level ones (e.g., sparrows) -- provides a unique window into how humans organize and deploy conceptual knowledge. It is debated whether this ability arises due to explicitly stored taxonomic knowledge vs. simple computations of similarity between mental representations. How are these mechanistic hypotheses manifested in contemporary language models? In this work, we investigate how LMs perform property inheritance with behavioral and causal representational analysis experiments. We find that taxonomy and categorical similarities are not mutually exclusive in LMs' property inheritance behavior. That is, LMs are more likely to project novel properties from one category to the other when they are taxonomically related and at the same time, highly similar. Our findings provide insight into the conceptual structure of language models and may suggest new psycholinguistic experiments for human subjects.",
+        "timestamp": "2026-03-11T19:27:13.374Z",
+        "rating": "novote",
+        "publishedDate": "2024/10/29",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1789,
+        "object_id": "paper:arxiv.2410.22590",
+        "created_at": "2026-03-11T19:27:13+00:00",
+        "updated_at": "2026-03-11T19:27:36+00:00",
         "version": 1
       }
     }

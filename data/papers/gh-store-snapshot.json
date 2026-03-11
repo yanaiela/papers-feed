@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-11T19:08:00.694516+00:00",
+  "snapshot_time": "2026-03-11T19:16:10.060530+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -61794,6 +61794,32 @@
         "object_id": "interactions:openreview.KS8mIvetg2",
         "created_at": "2026-03-11T19:07:09+00:00",
         "updated_at": "2026-03-11T19:07:32+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2504.09387": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.09387",
+        "url": "https://arxiv.org/abs/2504.09387",
+        "title": "On Language Models' Sensitivity to Suspicious Coincidences",
+        "authors": "Sriram Padmanabhan, Kanishka Misra, Kyle Mahowald, Eunsol Choi",
+        "abstract": "Humans are sensitive to suspicious coincidences when generalizing inductively over data, as they make assumptions as to how the data was sampled. This results in smaller, more specific hypotheses being favored over more general ones. For instance, when provided the set {Austin, Dallas, Houston}, one is more likely to think that this is sampled from \"Texas Cities\" over \"US Cities\" even though both are compatible. Suspicious coincidence is strongly connected to pragmatic reasoning, and can serve as a testbed to analyze systems on their sensitivity towards the communicative goals of the task (i.e., figuring out the true category underlying the data). In this paper, we analyze whether suspicious coincidence effects are reflected in language models' (LMs) behavior. We do so in the context of two domains: 1) the number game, where humans made judgments of whether a number (e.g., 4) fits a list of given numbers (e.g., 16, 32, 2); and 2) by extending the number game setup to prominent cities. For both domains, the data is compatible with multiple hypotheses and we study which hypothesis is most consistent with the models' behavior. On analyzing five models, we do not find strong evidence for suspicious coincidences in LMs' zero-shot behavior. However, when provided access to the hypotheses space via chain-of-thought or explicit prompting, LMs start to show an effect resembling suspicious coincidences, sometimes even showing effects consistent with humans. Our study suggests that inductive reasoning behavior in LMs can be enhanced with explicit access to the hypothesis landscape.",
+        "timestamp": "2026-03-11T19:15:18.355Z",
+        "rating": "novote",
+        "publishedDate": "2025/04/13",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1785,
+        "object_id": "paper:arxiv.2504.09387",
+        "created_at": "2026-03-11T19:15:18+00:00",
+        "updated_at": "2026-03-11T19:15:43+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-11T19:28:53.089653+00:00",
+  "snapshot_time": "2026-03-11T19:32:22.007328+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -61946,6 +61946,32 @@
         "object_id": "interactions:arxiv.2410.22590",
         "created_at": "2026-03-11T19:28:00+00:00",
         "updated_at": "2026-03-11T19:28:24+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2502.10835": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2502.10835",
+        "url": "https://arxiv.org/abs/2502.10835",
+        "title": "Back Attention: Understanding and Enhancing Multi-Hop Reasoning in Large Language Models",
+        "authors": "Zeping Yu, Yonatan Belinkov, Sophia Ananiadou",
+        "abstract": "We investigate how large language models perform latent multi-hop reasoning in prompts like \"Wolfgang Amadeus Mozart's mother's spouse is\". To analyze this process, we introduce logit flow, an interpretability method that traces how logits propagate across layers and positions toward the final prediction. Using logit flow, we identify four distinct stages in single-hop knowledge prediction: (A) entity subject enrichment, (B) entity attribute extraction, (C) relation subject enrichment, and (D) relation attribute extraction. Extending this analysis to multi-hop reasoning, we find that failures often stem from the relation attribute extraction stage, where conflicting logits reduce prediction accuracy. To address this, we propose back attention, a novel mechanism that enables lower layers to leverage higher-layer hidden states from different positions during attention computation. With back attention, a 1-layer transformer achieves the performance of a 2-layer transformer. Applied to four LLMs, back attention improves accuracy on five reasoning datasets, demonstrating its effectiveness in enhancing latent multi-hop reasoning ability.",
+        "timestamp": "2026-03-11T19:31:28.965Z",
+        "rating": "novote",
+        "publishedDate": "2025/02/15",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1791,
+        "object_id": "paper:arxiv.2502.10835",
+        "created_at": "2026-03-11T19:31:29+00:00",
+        "updated_at": "2026-03-11T19:31:48+00:00",
         "version": 1
       }
     }

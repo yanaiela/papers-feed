@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-13T19:03:43.954592+00:00",
+  "snapshot_time": "2026-03-13T19:05:17.027542+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -62179,6 +62179,52 @@
         "object_id": "interactions:openreview.qZvC8w8DUD",
         "created_at": "2026-03-13T19:01:11+00:00",
         "updated_at": "2026-03-13T19:02:38+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.THzx1jhZ2a": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "THzx1jhZ2a",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1798,
+        "object_id": "interactions:openreview.THzx1jhZ2a",
+        "created_at": "2026-03-13T19:04:43+00:00",
+        "updated_at": "2026-03-13T19:04:45+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.THzx1jhZ2a": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "THzx1jhZ2a",
+        "url": "https://openreview.net/forum?id=THzx1jhZ2a&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2F2026%2FWorkshop%2FBigPicture%2FProgram_Chairs%23submission-status)",
+        "title": "Challenging Quadratic Attention - A Holistic View On the Rise of Alternative Language Model Architectures",
+        "authors": "Alexander M. Fichtl, Jeremias Bohn, Josefin Kelber, Edoardo Mosca, Georg Groh",
+        "abstract": "Transformers have dominated sequence processing tasks for the past seven years\u2014most notably language modeling. However, the inherent quadratic complexity of their attention mechanism remains a significant bottleneck as context length increases. We review and distill the recent efforts to overcome this bottleneck, including advances in (sub-quadratic) attention variants, recurrent neural networks, state space models, and hybrid architectures. We critically analyze approaches regarding compute and memory complexity, benchmark results, and fundamental limitations to assess whether the dominance of pure-attention transformers may soon be challenged, which we consider possible for domain-specific or edge device applications.",
+        "timestamp": "2026-03-13T19:04:36.444Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "natural language processing",
+          "language models",
+          "attention",
+          "sub-quadratic",
+          "alternative architectures",
+          "hybrids",
+          "transformers"
+        ],
+        "doi": "",
+        "journalName": "ACL 2026 Workshop BigPicture Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1797,
+        "object_id": "paper:openreview.THzx1jhZ2a",
+        "created_at": "2026-03-13T19:04:36+00:00",
+        "updated_at": "2026-03-13T19:04:55+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-13T05:49:50.943121+00:00",
+  "snapshot_time": "2026-03-13T19:02:03.246465+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -62077,6 +62077,36 @@
         "object_id": "interactions:arxiv.2502.10835",
         "created_at": "2026-03-11T19:33:49+00:00",
         "updated_at": "2026-03-11T19:34:15+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.qZvC8w8DUD": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "qZvC8w8DUD",
+        "url": "https://openreview.net/forum?id=qZvC8w8DUD&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2F2026%2FWorkshop%2FBigPicture%2FProgram_Chairs%23submission-status)",
+        "title": "Harnessing the Latent Space: From Steering Vectors to Model Calibrators for Control and Trust",
+        "authors": "Nishant Subramani",
+        "abstract": "Language models have changed from unreliable text generators to highly-capable large models with trillions of parameters. Capability increases come hand-in-hand with increases in scale, making understanding the internal representations of models more challenging. Since millions of users increasing rely on language models to interact with external tools or make decisions in medium or high-stakes scenarios, we need to establish control over model behavior and know when to trust model outputs. In this paper, we discuss our contributions on harnessing the latent spaces by proposing steering vectors for control and developing latent space-based model calibrators for trust. Together, our contributions help demystify the latent spaces of language models and offer new insights into how to harness model internals to build more trustworthy language technology.",
+        "timestamp": "2026-03-13T19:00:57.776Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "steering",
+          "mechanistic interpretability",
+          "calibration",
+          "control",
+          "trustworthiness"
+        ],
+        "doi": "",
+        "journalName": "ACL 2026 Workshop BigPicture Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1793,
+        "object_id": "paper:openreview.qZvC8w8DUD",
+        "created_at": "2026-03-13T19:00:58+00:00",
+        "updated_at": "2026-03-13T19:01:19+00:00",
         "version": 1
       }
     }

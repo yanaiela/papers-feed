@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-13T19:02:03.246465+00:00",
+  "snapshot_time": "2026-03-13T19:03:43.954592+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -62107,6 +62107,78 @@
         "object_id": "paper:openreview.qZvC8w8DUD",
         "created_at": "2026-03-13T19:00:58+00:00",
         "updated_at": "2026-03-13T19:01:19+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.DivmWmMvt7": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "DivmWmMvt7",
+        "url": "https://openreview.net/forum?id=DivmWmMvt7&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2F2026%2FWorkshop%2FBigPicture%2FProgram_Chairs%23submission-status)",
+        "title": "Speaking of Language: Reflections on Metalanguage Research in NLP",
+        "authors": "Nathan Schneider, Antonios Anastasopoulos",
+        "abstract": "This work aims to shine a spotlight on the topic of metalanguage. We first define metalanguage, link it to NLP and LLMs, and then discuss our two labs' metalanguage-centered efforts. Finally, we discuss four dimensions of metalanguage and metalinguistic tasks, offering a list of understudied future research directions.",
+        "timestamp": "2026-03-13T19:02:21.142Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "metalanguage",
+          "cross-lab collaboration"
+        ],
+        "doi": "",
+        "journalName": "ACL 2026 Workshop BigPicture Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1795,
+        "object_id": "paper:openreview.DivmWmMvt7",
+        "created_at": "2026-03-13T19:02:21+00:00",
+        "updated_at": "2026-03-13T19:02:40+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.qZvC8w8DUD": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "qZvC8w8DUD",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-03-13T19:01:10.613Z",
+            "data": {
+              "session_id": "session_1773428470587_si10hvo",
+              "source_id": "openreview",
+              "paper_id": "qZvC8w8DUD",
+              "start_time": "2026-03-13T19:01:04.731Z",
+              "end_time": "2026-03-13T19:01:10.587Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-03-13T19:02:15.476Z",
+            "data": {
+              "session_id": "session_1773428535142_8aury5y",
+              "source_id": "openreview",
+              "paper_id": "qZvC8w8DUD",
+              "start_time": "2026-03-13T19:02:01.210Z",
+              "end_time": "2026-03-13T19:02:15.142Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 14
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1794,
+        "object_id": "interactions:openreview.qZvC8w8DUD",
+        "created_at": "2026-03-13T19:01:11+00:00",
+        "updated_at": "2026-03-13T19:02:38+00:00",
         "version": 1
       }
     }

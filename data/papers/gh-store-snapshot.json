@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-16T09:57:08.946713+00:00",
+  "snapshot_time": "2026-03-16T20:01:47.281549+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -62446,6 +62446,33 @@
         "object_id": "paper:openreview.Kd97lfFfTu",
         "created_at": "2026-03-16T09:56:19+00:00",
         "updated_at": "2026-03-16T09:56:44+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2603.11327": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2603.11327",
+        "url": "https://arxiv.org/abs/2603.11327",
+        "title": "Meta-Reinforcement Learning with Self-Reflection for Agentic Search",
+        "authors": "Teng Xiao, Yige Yuan, Hamish Ivison, Huaisheng Zhu, Faeze Brahman, Nathan Lambert, Pradeep Dasigi, Noah A. Smith, Hannaneh Hajishirzi",
+        "abstract": "This paper introduces MR-Search, an in-context meta reinforcement learning (RL) formulation for agentic search with self-reflection. Instead of optimizing a policy within a single independent episode with sparse rewards, MR-Search trains a policy that conditions on past episodes and adapts its search strategy across episodes. MR-Search learns to learn a search strategy with self-reflection, allowing search agents to improve in-context exploration at test-time. Specifically, MR-Search performs cross-episode exploration by generating explicit self-reflections after each episode and leveraging them as additional context to guide subsequent attempts, thereby promoting more effective exploration during test-time. We further introduce a multi-turn RL algorithm that estimates a dense relative advantage at the turn level, enabling fine-grained credit assignment on each episode. Empirical results across various benchmarks demonstrate the advantages of MR-Search over baselines based RL, showing strong generalization and relative improvements of 9.2% to 19.3% across eight benchmarks. Our code and data are available at this https URL.",
+        "timestamp": "2026-03-16T20:00:50.132Z",
+        "rating": "novote",
+        "publishedDate": "2026/03/11",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1805,
+        "object_id": "paper:arxiv.2603.11327",
+        "created_at": "2026-03-16T20:00:50+00:00",
+        "updated_at": "2026-03-16T20:01:18+00:00",
         "version": 1
       }
     }

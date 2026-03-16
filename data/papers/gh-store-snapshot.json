@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-15T16:43:22.584588+00:00",
+  "snapshot_time": "2026-03-16T09:57:08.946713+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -62418,6 +62418,34 @@
         "object_id": "paper:arxiv.2512.02556",
         "created_at": "2026-03-15T16:42:36+00:00",
         "updated_at": "2026-03-15T16:42:59+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.Kd97lfFfTu": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "Kd97lfFfTu",
+        "url": "https://openreview.net/forum?id=Kd97lfFfTu",
+        "title": "Not All Data Are Unlearned Equally",
+        "authors": "Aravind Krishnan, Siva Reddy, Marius Mosbach",
+        "abstract": "Machine unlearning is concerned with the task of removing knowledge learned from particular data points from a trained model. In the context of large language models (LLMs), unlearning has recently received increased attention, particularly for removing knowledge about named entities from models for privacy purposes. While various approaches have been proposed to address the unlearning problem, most existing approaches treat all data points to be unlearned equally, i.e., unlearning that Montreal is a city in Canada is treated exactly the same as unlearning the phone number of the first author of this paper. In this work, we show that this all data is equal assumption does not hold for LLM unlearning. We study how the success of unlearning depends on the frequency of the knowledge we want to unlearn in the pre-training data of a model and find that frequency strongly affects unlearning, i.e., more frequent knowledge is harder to unlearn. Additionally, we uncover a misalignment between probability- and generation-based evaluations of unlearning and show that this problem worsens as models become larger. Overall, our experiments highlight the need for better evaluation practices and novel methods for LLM unlearning that take the training data of models into account.",
+        "timestamp": "2026-03-16T09:56:19.044Z",
+        "rating": "novote",
+        "publishedDate": "08 Jul 2025",
+        "tags": [
+          "LLM unlearning",
+          "analysis",
+          "frequency"
+        ],
+        "doi": "",
+        "journalName": "COLM 2025",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1804,
+        "object_id": "paper:openreview.Kd97lfFfTu",
+        "created_at": "2026-03-16T09:56:19+00:00",
+        "updated_at": "2026-03-16T09:56:44+00:00",
         "version": 1
       }
     }

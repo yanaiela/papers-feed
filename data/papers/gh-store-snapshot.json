@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-18T08:49:25.165388+00:00",
+  "snapshot_time": "2026-03-18T09:26:44.849602+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -62626,6 +62626,49 @@
         "object_id": "interactions:arxiv.2603.14347",
         "created_at": "2026-03-18T08:34:44+00:00",
         "updated_at": "2026-03-18T08:35:04+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2204.01075": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2204.01075",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1811,
+        "object_id": "interactions:arxiv.2204.01075",
+        "created_at": "2026-03-18T09:25:59+00:00",
+        "updated_at": "2026-03-18T09:26:01+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2204.01075": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2204.01075",
+        "url": "https://arxiv.org/abs/2204.01075",
+        "title": "Data Cards: Purposeful and Transparent Dataset Documentation for Responsible AI",
+        "authors": "Mahima Pushkarna, Andrew Zaldivar, Oddur Kjartansson",
+        "abstract": "As research and industry moves towards large-scale models capable of numerous downstream tasks, the complexity of understanding multi-modal datasets that give nuance to models rapidly increases. A clear and thorough understanding of a dataset's origins, development, intent, ethical considerations and evolution becomes a necessary step for the responsible and informed deployment of models, especially those in people-facing contexts and high-risk domains. However, the burden of this understanding often falls on the intelligibility, conciseness, and comprehensiveness of the documentation. It requires consistency and comparability across the documentation of all datasets involved, and as such documentation must be treated as a user-centric product in and of itself. In this paper, we propose Data Cards for fostering transparent, purposeful and human-centered documentation of datasets within the practical contexts of industry and research. Data Cards are structured summaries of essential facts about various aspects of ML datasets needed by stakeholders across a dataset's lifecycle for responsible AI development. These summaries provide explanations of processes and rationales that shape the data and consequently the models, such as upstream sources, data collection and annotation methods; training and evaluation methods, intended use; or decisions affecting model performance. We also present frameworks that ground Data Cards in real-world utility and human-centricity. Using two case studies, we report on desirable characteristics that support adoption across domains, organizational structures, and audience groups. Finally, we present lessons learned from deploying over 20 Data Cards.",
+        "timestamp": "2026-03-18T09:25:52.387Z",
+        "rating": "novote",
+        "publishedDate": "2022/04/03",
+        "tags": [
+          "Human-Computer Interaction (cs.HC)",
+          "Artificial Intelligence (cs.AI)",
+          "Databases (cs.DB)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1810,
+        "object_id": "paper:arxiv.2204.01075",
+        "created_at": "2026-03-18T09:25:52+00:00",
+        "updated_at": "2026-03-18T09:26:15+00:00",
         "version": 1
       }
     }

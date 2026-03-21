@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-21T16:20:04.622766+00:00",
+  "snapshot_time": "2026-03-21T17:07:20.553639+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -63128,6 +63128,50 @@
         "object_id": "paper:arxiv.2603.09970",
         "created_at": "2026-03-21T16:19:12+00:00",
         "updated_at": "2026-03-21T16:19:35+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.eRCfnVsVSE": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "eRCfnVsVSE",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1822,
+        "object_id": "interactions:openreview.eRCfnVsVSE",
+        "created_at": "2026-03-21T17:06:49+00:00",
+        "updated_at": "2026-03-21T17:06:50+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.eRCfnVsVSE": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "eRCfnVsVSE",
+        "url": "https://openreview.net/forum?id=eRCfnVsVSE&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICML.cc%2F2026%2FWorkshop_Proposals%2FAuthors%23your-submissions)",
+        "title": "Model Forensics",
+        "authors": "Yanai Elazar, Matthew Finlayson, Alisa Liu, Niloofar Mireshghallah, Saeed Mahloujifar",
+        "abstract": "The rise of industrial-scale generative models and inference-as-a-service has reduced transparency around the entire life cycle of models, from data curation and training to alignment and inference. This loss of transparency has increased demand for tools and methods of extracting information about black-box language models in a post-hoc manner. In this workshop proposal, we introduce the term \"model forensics\" to refer to a wide range of methods that reveal information about different aspects of a model's lifecycle, such as training data, model architecture, training procedure, etc. The workshop will bring together practitioners in all these different topics to discuss the state-of-the-art of this ever-growing field, and its importance in the years to come.",
+        "timestamp": "2026-03-21T17:06:34.050Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "model forensics",
+          "watermarking",
+          "reconstruction",
+          "membership-inference",
+          "data reconstruction"
+        ],
+        "doi": "",
+        "journalName": "Submitted to ICML 2026 Workshop Proposals",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1821,
+        "object_id": "paper:openreview.eRCfnVsVSE",
+        "created_at": "2026-03-21T17:06:35+00:00",
+        "updated_at": "2026-03-21T17:06:56+00:00",
         "version": 1
       }
     }

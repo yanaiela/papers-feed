@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-22T06:43:36.455524+00:00",
+  "snapshot_time": "2026-03-22T08:04:12.685796+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -63187,6 +63187,30 @@
         "object_id": "paper:openreview.eRCfnVsVSE",
         "created_at": "2026-03-21T17:06:35+00:00",
         "updated_at": "2026-03-21T17:06:56+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2306.05969": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2306.05969",
+        "url": "https://arxiv.org/pdf/2306.05969",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-03-22T08:03:24.275Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1823,
+        "object_id": "paper:arxiv.2306.05969",
+        "created_at": "2026-03-22T08:03:24+00:00",
+        "updated_at": "2026-03-22T08:03:46+00:00",
         "version": 1
       }
     }

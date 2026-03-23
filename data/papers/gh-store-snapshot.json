@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-23T15:00:31.005888+00:00",
+  "snapshot_time": "2026-03-23T15:01:23.110152+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -63350,7 +63350,7 @@
         "title": "Large Reasoning Models Struggle to Transfer Parametric Knowledge Across Scripts",
         "authors": "Lucas Bandarkar, Alan Ansell, Trevor Cohn",
         "abstract": "In this work, we analyze shortcomings in cross-lingual knowledge transfer in large, modern reasoning LLMs. We demonstrate that the perceived gap in knowledge transfer is primarily a script barrier. First, we conduct an observational data analysis on the performance of thinking models on two datasets with local knowledge from around the world, ECLeKTic and MultiLoKo. Our regression analysis shows that script match - not language or family - is the primary predictor of knowledge transfer failure once model capability and question difficulty are accounted for. We further this finding by providing the LLMs with the key entities of the questions in their source language and find that this disproportionately improves cross-script questions. We then posit that these LLMs could be reasoning better at test-time. To evaluate this, we develop a synthetic generation pipeline to design SFT samples to encourage the model to better reason about transliteration ambiguities when trying to fetch parametric knowledge at inference-time. We show that teaching two models to reason better reduces the cross-script transfer gap. As a result, we conclude that there is potential to improve cross-lingual parametric knowledge transfer during post-training.",
-        "timestamp": "2026-03-23T14:59:36.345Z",
+        "timestamp": "2026-03-23T15:00:22.780Z",
         "rating": "novote",
         "publishedDate": "2026/03/17",
         "tags": [
@@ -63362,10 +63362,10 @@
         "sourceType": "url"
       },
       "meta": {
-        "issue_number": 1827,
+        "issue_number": 1828,
         "object_id": "paper:arxiv.2603.17070",
-        "created_at": "2026-03-23T14:59:37+00:00",
-        "updated_at": "2026-03-23T14:59:59+00:00",
+        "created_at": "2026-03-23T15:00:23+00:00",
+        "updated_at": "2026-03-23T15:00:46+00:00",
         "version": 1
       }
     }

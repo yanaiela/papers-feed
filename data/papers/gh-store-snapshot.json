@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-28T08:15:26.854906+00:00",
+  "snapshot_time": "2026-03-28T08:16:03.398159+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -63768,7 +63768,7 @@
         "title": "Localizing Factual Inconsistencies in Attributable Text Generation",
         "authors": "Arie Cattan, Paul Roit, Shiyue Zhang, David Wan, Roee Aharoni, Idan Szpektor, Mohit Bansal, Ido Dagan",
         "abstract": "There has been an increasing interest in detecting hallucinations in model-generated texts, both manually and automatically, at varying levels of granularity. However, most existing methods fail to precisely pinpoint the errors. In this work, we introduce QASemConsistency, a new formalism for localizing factual inconsistencies in attributable text generation, at a fine-grained level. Drawing inspiration from Neo-Davidsonian formal semantics, we propose decomposing the generated text into minimal predicate-argument level propositions, expressed as simple question-answer (QA) pairs, and assess whether each individual QA pair is supported by a trusted reference text. As each QA pair corresponds to a single semantic relation between a predicate and an argument, QASemConsistency effectively localizes the unsupported information. We first demonstrate the effectiveness of the QASemConsistency methodology for human annotation, by collecting crowdsourced annotations of granular consistency errors, while achieving a substantial inter-annotator agreement. This benchmark includes more than 3K instances spanning various tasks of attributable text generation. We also show that QASemConsistency yields factual consistency scores that correlate well with human judgments. Finally, we implement several methods for automatically detecting localized factual inconsistencies, with both supervised entailment models and LLMs.",
-        "timestamp": "2026-03-28T08:14:28.291Z",
+        "timestamp": "2026-03-28T08:15:12.196Z",
         "rating": "novote",
         "publishedDate": "2024/10/09",
         "tags": [
@@ -63779,10 +63779,10 @@
         "sourceType": "url"
       },
       "meta": {
-        "issue_number": 1830,
+        "issue_number": 1832,
         "object_id": "paper:arxiv.2410.07473",
-        "created_at": "2026-03-28T08:14:28+00:00",
-        "updated_at": "2026-03-28T08:14:52+00:00",
+        "created_at": "2026-03-28T08:15:12+00:00",
+        "updated_at": "2026-03-28T08:15:33+00:00",
         "version": 1
       }
     }

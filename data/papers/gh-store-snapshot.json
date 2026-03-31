@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-03-31T06:12:54.992430+00:00",
+  "snapshot_time": "2026-03-31T14:47:01.452079+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -64479,6 +64479,48 @@
         "object_id": "paper:arxiv.1612.00837",
         "created_at": "2026-03-30T16:31:35+00:00",
         "updated_at": "2026-03-30T16:31:58+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.1910.14464": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1910.14464",
+        "url": "https://arxiv.org/abs/1910.14464",
+        "title": "What Question Answering can Learn from Trivia Nerds",
+        "authors": "Jordan Boyd-Graber, Benjamin B\u00f6rschinger",
+        "abstract": "In addition to the traditional task of getting machines to answer questions, a major research question in question answering is to create interesting, challenging questions that can help systems learn how to answer questions and also reveal which systems are the best at answering questions. We argue that creating a question answering dataset -- and the ubiquitous leaderboard that goes with it -- closely resembles running a trivia tournament: you write questions, have agents (either humans or machines) answer the questions, and declare a winner. However, the research community has ignored the decades of hard-learned lessons from decades of the trivia community creating vibrant, fair, and effective question answering competitions. After detailing problems with existing QA datasets, we outline the key lessons -- removing ambiguity, discriminating skill, and adjudicating disputes -- that can transfer to QA research and how they might be implemented for the QA community.",
+        "timestamp": "2026-03-31T14:45:57.415Z",
+        "rating": "novote",
+        "publishedDate": "2019/10/31",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1842,
+        "object_id": "paper:arxiv.1910.14464",
+        "created_at": "2026-03-31T14:45:58+00:00",
+        "updated_at": "2026-03-31T14:46:31+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2509.14233": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.14233",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1841,
+        "object_id": "interactions:arxiv.2509.14233",
+        "created_at": "2026-03-31T06:47:23+00:00",
+        "updated_at": "2026-03-31T06:47:25+00:00",
         "version": 1
       }
     }

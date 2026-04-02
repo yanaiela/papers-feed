@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-02T08:13:02.854437+00:00",
+  "snapshot_time": "2026-04-02T08:41:33.008894+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -64668,6 +64668,32 @@
         "object_id": "paper:arxiv.2210.07022",
         "created_at": "2026-04-02T08:12:08+00:00",
         "updated_at": "2026-04-02T08:12:28+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2603.03276": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2603.03276",
+        "url": "https://arxiv.org/abs/2603.03276",
+        "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+        "authors": "Shengbang Tong, David Fan, John Nguyen, Ellis Brown, Gaoyue Zhou, Shengyi Qian, Boyang Zheng, Th\u00e9ophane Vallaeys, Junlin Han, Rob Fergus, Naila Murray, Marjan Ghazvininejad, Mike Lewis, Nicolas Ballas, Amir Bar, Michael Rabbat, Jakob Verbeek, Luke Zettlemoyer, Koustuv Sinha, Yann LeCun, Saining Xie",
+        "abstract": "The visual world offers a critical axis for advancing foundation models beyond language. Despite growing interest in this direction, the design space for native multimodal models remains opaque. We provide empirical clarity through controlled, from-scratch pretraining experiments, isolating the factors that govern multimodal pretraining without interference from language pretraining. We adopt the Transfusion framework, using next-token prediction for language and diffusion for vision, to train on diverse data including text, video, image-text pairs, and even action-conditioned video. Our experiments yield four key insights: (i) Representation Autoencoder (RAE) provides an optimal unified visual representation by excelling at both visual understanding and generation; (ii) visual and language data are complementary and yield synergy for downstream capabilities; (iii) unified multimodal pretraining leads naturally to world modeling, with capabilities emerging from general training; and (iv) Mixture-of-Experts (MoE) enables efficient and effective multimodal scaling while naturally inducing modality specialization. Through IsoFLOP analysis, we compute scaling laws for both modalities and uncover a scaling asymmetry: vision is significantly more data-hungry than language. We demonstrate that the MoE architecture harmonizes this scaling asymmetry by providing the high model capacity required by language while accommodating the data-intensive nature of vision, paving the way for truly unified multimodal models.",
+        "timestamp": "2026-04-02T08:40:46.574Z",
+        "rating": "novote",
+        "publishedDate": "2026/03/03",
+        "tags": [
+          "Computer Vision and Pattern Recognition (cs.CV)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1850,
+        "object_id": "paper:arxiv.2603.03276",
+        "created_at": "2026-04-02T08:40:47+00:00",
+        "updated_at": "2026-04-02T08:41:07+00:00",
         "version": 1
       }
     }

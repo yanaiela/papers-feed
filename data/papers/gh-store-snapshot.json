@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-03T07:17:39.720915+00:00",
+  "snapshot_time": "2026-04-03T07:18:17.942938+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -64795,7 +64795,7 @@
         "title": "Gauge Symmetries for Efficient Zero- Knowledge Proofs of Transformers",
         "authors": "Hong Wang, Kelly Wang",
         "abstract": "We introduce GaugeZKP, a symmetry-aware verification framework for Transformers that exploits the maximal gauge group of attention. For canonical models the maximal group is G\u2098\u2090\u2093 = ((GL(d\u2096))\u02b0 \u00d7 (GL(d\u1d65))\u02b0) \u22ca S\u2095; with RoPE (LLaMA/Qwen), the Q/K action reduces to the rotary commutant C_RoPE.\n\nWe operationalize this via a one-time proof of gauge equivalence (PoGE) to a canonical model and per-inference proofs (PoVI) on that canonical model. On Halo2 circuits, canonicalization reduces model-level prover gates/constraints by up to \u224826% without changing model function; because this optimization is upstream of the prover, pairing with frameworks like EZKL/zkVM further reduces proving time/memory on the smaller circuit. Analytically, the savings multiply with parameter tying in grouped/single-query attention (GQA/MQA) and with MoE sparsity, since PoGE/PoVI scale with the number of distinct parameter blocks rather than with the head count.",
-        "timestamp": "2026-04-03T07:16:50.393Z",
+        "timestamp": "2026-04-03T07:17:36.460Z",
         "rating": "novote",
         "publishedDate": "",
         "tags": [
@@ -64809,10 +64809,10 @@
         "sourceType": "url"
       },
       "meta": {
-        "issue_number": 1852,
+        "issue_number": 1853,
         "object_id": "paper:openreview.1Ne3tfQC0T",
-        "created_at": "2026-04-03T07:16:50+00:00",
-        "updated_at": "2026-04-03T07:17:13+00:00",
+        "created_at": "2026-04-03T07:17:36+00:00",
+        "updated_at": "2026-04-03T07:17:53+00:00",
         "version": 1
       }
     }

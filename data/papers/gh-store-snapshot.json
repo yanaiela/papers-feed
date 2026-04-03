@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-03T11:01:46.635844+00:00",
+  "snapshot_time": "2026-04-03T11:11:41.951288+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -65050,6 +65050,62 @@
         "object_id": "interactions:arxiv.2603.25579",
         "created_at": "2026-04-03T10:17:30+00:00",
         "updated_at": "2026-04-03T10:19:43+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.MMYTA3v66p": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "MMYTA3v66p",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1863,
+        "object_id": "interactions:openreview.MMYTA3v66p",
+        "created_at": "2026-04-03T11:11:35+00:00",
+        "updated_at": "2026-04-03T11:11:37+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.MMYTA3v66p": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "MMYTA3v66p",
+        "url": "https://openreview.net/forum?id=MMYTA3v66p",
+        "title": "Causal Discovery and Inference through Next-Token Prediction",
+        "authors": "Eivinas Butkus, Nikolaus Kriegeskorte",
+        "abstract": "Deep neural networks have been criticized as fundamentally *statistical* systems that fail to capture causal structure and perform causal reasoning. Here we demonstrate that a GPT-style transformer trained for next-token prediction can simultaneously discover instances of linear Gaussian structural causal models (SCMs) and learn to answer counterfactual queries about those SCMs. First, we show that the network generalizes to counterfactual queries about SCMs for which it has seen interventional data but not any examples of counterfactual inference. The network must, thus, have successfully composed discovered causal structures with a learned counterfactual inference algorithm. Second, we decode the implicit \u201cmental\u201d SCM from the network's residual stream activations and manipulate it using gradient descent with predictable effects on the network's output. Our results suggest that statistical prediction may be sufficient to drive the emergence of internal causal models and causal inference capacities in deep neural networks.",
+        "timestamp": "2026-04-03T11:11:00.608Z",
+        "rating": "novote",
+        "publishedDate": "18 Sept 2025",
+        "tags": [
+          "causal inference",
+          "causal discovery",
+          "transformers",
+          "large language models",
+          "language modeling",
+          "mechanistic interpretability",
+          "structural causal models",
+          "neural probing",
+          "decoding",
+          "causal intervention",
+          "next-token prediction",
+          "counterfactual reasoning",
+          "causal representation learning",
+          "Pearl's causal hierarchy",
+          "ladder of causation",
+          "emergent representations",
+          "world models"
+        ],
+        "doi": "",
+        "journalName": "NeurIPS 2025 poster",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1862,
+        "object_id": "paper:openreview.MMYTA3v66p",
+        "created_at": "2026-04-03T11:11:00+00:00",
+        "updated_at": "2026-04-03T11:11:19+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-03T10:08:12.733513+00:00",
+  "snapshot_time": "2026-04-03T10:10:01.644139+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -64964,6 +64964,32 @@
         "object_id": "paper:arxiv.2603.20957",
         "created_at": "2026-04-03T07:51:39+00:00",
         "updated_at": "2026-04-03T07:52:01+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2603.23433": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2603.23433",
+        "url": "https://arxiv.org/abs/2603.23433",
+        "title": "Mecha-nudges for Machines",
+        "authors": "Giulio Frey, Kawin Ethayarajh",
+        "abstract": "Nudges are subtle changes to the way choices are presented to human decision-makers (e.g., opt-in vs. opt-out by default) that shift behavior without restricting options or changing incentives. As AI agents increasingly make decisions in the same environments as humans, the presentation of choices may be optimized for machines as well as people. We introduce mecha-nudges: changes to how choices are presented that systematically influence AI agents without degrading the decision environment for humans. To formalize mecha-nudges, we combine the Bayesian persuasion framework with V-usable information, a generalization of Shannon information that is observer-relative. This yields a common scale (bits of usable information) for comparing a wide range of interventions, contexts, and models. Applying our framework to product listings on Etsy -- a global marketplace for independent sellers -- we find that following ChatGPT's release, listings have significantly more machine-usable information about product selection, consistent with systematic mecha-nudging.",
+        "timestamp": "2026-04-03T10:09:12.319Z",
+        "rating": "novote",
+        "publishedDate": "2026/03/24",
+        "tags": [
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1860,
+        "object_id": "paper:arxiv.2603.23433",
+        "created_at": "2026-04-03T10:09:12+00:00",
+        "updated_at": "2026-04-03T10:09:37+00:00",
         "version": 1
       }
     }

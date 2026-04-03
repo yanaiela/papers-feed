@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-03T07:32:48.532332+00:00",
+  "snapshot_time": "2026-04-03T07:52:26.404800+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -64861,6 +64861,34 @@
         "object_id": "paper:arxiv.2308.05576",
         "created_at": "2026-04-03T07:32:03+00:00",
         "updated_at": "2026-04-03T07:32:22+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2603.20957": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2603.20957",
+        "url": "https://arxiv.org/abs/2603.20957",
+        "title": "Alignment Whack-a-Mole : Finetuning Activates Verbatim Recall of Copyrighted Books in Large Language Models",
+        "authors": "Xinyue Liu, Niloofar Mireshghallah, Jane C. Ginsburg, Tuhin Chakrabarty",
+        "abstract": "Frontier LLM companies have repeatedly assured courts and regulators that their models do not store copies of training data. They further rely on safety alignment strategies via RLHF, system prompts, and output filters to block verbatim regurgitation of copyrighted works, and have cited the efficacy of these measures in their legal defenses against copyright infringement claims. We show that finetuning bypasses these protections: by training models to expand plot summaries into full text, a task naturally suited for commercial writing assistants, we cause GPT-4o, Gemini-2.5-Pro, and DeepSeek-V3.1 to reproduce up to 85-90% of held-out copyrighted books, with single verbatim spans exceeding 460 words, using only semantic descriptions as prompts and no actual book text. This extraction generalizes across authors: finetuning exclusively on Haruki Murakami's novels unlocks verbatim recall of copyrighted books from over 30 unrelated authors. The effect is not specific to any training author or corpus: random author pairs and public-domain finetuning data produce comparable extraction, while finetuning on synthetic text yields near-zero extraction, indicating that finetuning on individual authors' works reactivates latent memorization from pretraining. Three models from different providers memorize the same books in the same regions ($r \\ge 0.90$), pointing to an industry-wide vulnerability. Our findings offer compelling evidence that model weights store copies of copyrighted works and that the security failures that manifest after finetuning on individual authors' works undermine a key premise of recent fair use rulings, where courts have conditioned favorable outcomes on the adequacy of measures preventing reproduction of protected expression.",
+        "timestamp": "2026-04-03T07:51:39.050Z",
+        "rating": "novote",
+        "publishedDate": "2026/03/21",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Computers and Society (cs.CY)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1859,
+        "object_id": "paper:arxiv.2603.20957",
+        "created_at": "2026-04-03T07:51:39+00:00",
+        "updated_at": "2026-04-03T07:52:01+00:00",
         "version": 1
       }
     }

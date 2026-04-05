@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-05T13:50:28.113388+00:00",
+  "snapshot_time": "2026-04-05T16:48:46.368410+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -65701,6 +65701,74 @@
         "object_id": "interactions:openreview.KFF1GtUtZX",
         "created_at": "2026-04-05T13:01:16+00:00",
         "updated_at": "2026-04-05T13:50:06+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2405.14838": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2405.14838",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-04-05T16:48:04.257Z",
+            "data": {
+              "session_id": "session_1775407683661_2oi8880",
+              "source_id": "arxiv",
+              "paper_id": "2405.14838",
+              "start_time": "2026-04-05T16:47:54.852Z",
+              "end_time": "2026-04-05T16:48:03.661Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 9
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1871,
+        "object_id": "interactions:arxiv.2405.14838",
+        "created_at": "2026-04-05T16:48:05+00:00",
+        "updated_at": "2026-04-05T16:48:25+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2405.14838": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2405.14838",
+        "url": "https://arxiv.org/pdf/2405.14838?",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-04-05T16:47:55.203Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1870,
+        "object_id": "paper:arxiv.2405.14838",
+        "created_at": "2026-04-05T16:47:55+00:00",
+        "updated_at": "2026-04-05T16:48:15+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2603.16177": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2603.16177",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1869,
+        "object_id": "interactions:arxiv.2603.16177",
+        "created_at": "2026-04-05T14:30:21+00:00",
+        "updated_at": "2026-04-05T14:30:23+00:00",
         "version": 1
       }
     }

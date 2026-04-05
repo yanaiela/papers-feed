@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-05T05:33:57.096144+00:00",
+  "snapshot_time": "2026-04-05T07:54:17.827751+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -65271,6 +65271,37 @@
         "object_id": "paper:openreview.MMYTA3v66p",
         "created_at": "2026-04-03T11:11:00+00:00",
         "updated_at": "2026-04-03T11:11:19+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.KFF1GtUtZX": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "KFF1GtUtZX",
+        "url": "https://openreview.net/forum?id=KFF1GtUtZX&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2F2026%2FConference%2FAuthors%23your-submissions)",
+        "title": "Comparing AI-Generated Content in Review vs. Non-Review ArXiv Papers",
+        "authors": "Yanai Elazar, Maria Antoniak",
+        "abstract": "ArXiv recently prohibited the upload of unpublished review papers to its servers in the computer science domain, citing a high prevalence of LLM-generated content in these categories. However, this decision was not accompanied by quantitative evidence. In this work, we investigate this claim by measuring the proportion of LLM-generated content in review vs. non-review research papers in recent years. Using two high-quality detection methods, we find a substantial increase in LLM-generated content across both review and non-review papers, with a higher prevalence in review papers. However, when considering the number of LLM-generated papers published in each category, the estimates of non-review LLM-generated papers prevail substantially, questioning the reasoning behind the decision. Furthermore, we find that this policy will affect papers in certain domains far more than others, with the CS subdiscipline Computers & Society potentially facing cuts of 50%. Our analysis provides an evidence-based framework for evaluating such policy decisions, and we release our code to facilitate future investigations.",
+        "timestamp": "2026-04-05T07:53:31.068Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "science-of-science",
+          "arxiv",
+          "llm-generated-papers",
+          "ai-slop",
+          "review-papers",
+          "ai-papers"
+        ],
+        "doi": "",
+        "journalName": "ACL 2026 Conference Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1864,
+        "object_id": "paper:openreview.KFF1GtUtZX",
+        "created_at": "2026-04-05T07:53:31+00:00",
+        "updated_at": "2026-04-05T07:53:54+00:00",
         "version": 1
       }
     }

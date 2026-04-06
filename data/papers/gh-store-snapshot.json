@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-06T17:38:44.718063+00:00",
+  "snapshot_time": "2026-04-06T17:48:04.318465+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -65868,6 +65868,63 @@
         "object_id": "interactions:arxiv.2603.25764",
         "created_at": "2026-04-06T05:39:05+00:00",
         "updated_at": "2026-04-06T05:39:26+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2604.02645": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.02645",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-04-06T17:47:23.150Z",
+            "data": {
+              "session_id": "session_1775497642582_uvfpkdt",
+              "source_id": "arxiv",
+              "paper_id": "2604.02645",
+              "start_time": "2026-04-06T17:47:17.108Z",
+              "end_time": "2026-04-06T17:47:22.582Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 5
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1877,
+        "object_id": "interactions:arxiv.2604.02645",
+        "created_at": "2026-04-06T17:47:24+00:00",
+        "updated_at": "2026-04-06T17:47:42+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2604.02645": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.02645",
+        "url": "https://arxiv.org/abs/2604.02645",
+        "title": "Speaking of Language: Reflections on Metalanguage Research in NLP",
+        "authors": "Nathan Schneider, Antonios Anastasopoulos",
+        "abstract": "This work aims to shine a spotlight on the topic of metalanguage. We first define metalanguage, link it to NLP and LLMs, and then discuss our two labs' metalanguage-centered efforts. Finally, we discuss four dimensions of metalanguage and metalinguistic tasks, offering a list of understudied future research directions.",
+        "timestamp": "2026-04-06T17:47:17.439Z",
+        "rating": "novote",
+        "publishedDate": "2026/04/03",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1876,
+        "object_id": "paper:arxiv.2604.02645",
+        "created_at": "2026-04-06T17:47:18+00:00",
+        "updated_at": "2026-04-06T17:47:42+00:00",
         "version": 1
       }
     }

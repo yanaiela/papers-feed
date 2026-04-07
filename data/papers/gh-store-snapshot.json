@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-07T14:56:35.001345+00:00",
+  "snapshot_time": "2026-04-07T14:58:08.454447+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -66743,6 +66743,47 @@
         "object_id": "interactions:arxiv.2310.16410",
         "created_at": "2026-04-07T13:47:51+00:00",
         "updated_at": "2026-04-07T13:52:16+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2505.18332": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.18332",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1889,
+        "object_id": "interactions:arxiv.2505.18332",
+        "created_at": "2026-04-07T14:57:42+00:00",
+        "updated_at": "2026-04-07T14:57:44+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2505.18332": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.18332",
+        "url": "https://arxiv.org/abs/2505.18332",
+        "title": "An Attack to Break Permutation-Based Private Third-Party Inference Schemes for LLMs",
+        "authors": "Rahul Thomas, Louai Zahran, Erica Choi, Akilesh Potti, Micah Goldblum, Arka Pal",
+        "abstract": "Recent advances in Large Language Models (LLMs) have led to the widespread adoption of third-party inference services, raising critical privacy concerns. Existing methods of performing private third-party inference, such as Secure Multiparty Computation (SMPC), often rely on cryptographic methods. However, these methods are thousands of times slower than standard unencrypted inference, and fail to scale to large modern LLMs. Therefore, recent lines of work have explored the replacement of expensive encrypted nonlinear computations in SMPC with statistical obfuscation methods - in particular, revealing permuted hidden states to the third parties, with accompanying strong claims of the difficulty of reversal into the unpermuted states. In this work, we begin by introducing a novel reconstruction technique that can recover original prompts from hidden states with nearly perfect accuracy across multiple state-of-the-art LLMs. We then show that extensions of our attack are nearly perfectly effective in reversing permuted hidden states of LLMs, demonstrating the insecurity of three recently proposed privacy schemes. We further dissect the shortcomings of prior theoretical `proofs' of permuation security which allow our attack to succeed. Our findings highlight the importance of rigorous security analysis in privacy-preserving LLM inference.",
+        "timestamp": "2026-04-07T14:57:10.892Z",
+        "rating": "novote",
+        "publishedDate": "2025/05/23",
+        "tags": [
+          "Cryptography and Security (cs.CR)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1888,
+        "object_id": "paper:arxiv.2505.18332",
+        "created_at": "2026-04-07T14:57:11+00:00",
+        "updated_at": "2026-04-07T14:57:33+00:00",
         "version": 1
       }
     }

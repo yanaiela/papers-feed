@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-07T08:55:30.615588+00:00",
+  "snapshot_time": "2026-04-07T09:36:54.703894+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -66294,6 +66294,30 @@
         "object_id": "paper:arxiv.2410.05229",
         "created_at": "2026-04-07T08:54:18+00:00",
         "updated_at": "2026-04-07T08:54:43+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2512.04448": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2512.04448",
+        "url": "https://arxiv.org/html/2512.04448v1",
+        "title": "Has ACL Lost Its Crown? A Decade-Long Quantitative Analysis of Scale and Impact Across Leading AI Conferences",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-04-07T09:35:56.863Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1881,
+        "object_id": "paper:arxiv.2512.04448",
+        "created_at": "2026-04-07T09:35:57+00:00",
+        "updated_at": "2026-04-07T09:36:22+00:00",
         "version": 1
       }
     }

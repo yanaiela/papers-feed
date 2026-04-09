@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-09T09:56:44.706600+00:00",
+  "snapshot_time": "2026-04-09T09:58:20.154901+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -67978,6 +67978,89 @@
         "object_id": "paper:arxiv.2505.13672",
         "created_at": "2026-04-09T09:55:52+00:00",
         "updated_at": "2026-04-09T09:56:15+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.04871": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.04871",
+        "url": "https://arxiv.org/html/2510.04871v1",
+        "title": "Less is More: Recursive Reasoning with Tiny Networks",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-04-09T09:57:34.535Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "reasoning",
+          "recurrent",
+          "arc-agi"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1894,
+        "object_id": "paper:arxiv.2510.04871",
+        "created_at": "2026-04-09T09:57:34+00:00",
+        "updated_at": "2026-04-09T09:57:57+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.jqGWLxbghD": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "jqGWLxbghD",
+        "url": "https://openreview.net/forum?id=jqGWLxbghD",
+        "title": "Latent-Guided Reasoning: Empowering Small LLMs with Large-Model Thinking",
+        "authors": "Hanzhu Chen, Lin Yang, Jie Wang, Junhao Yan, Zhe Wang, Xize Liang, Jianye HAO",
+        "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities in complex reasoning tasks, but their high computational costs limit their widespread practical application. We argue that this inefficiency arises from the tight coupling of high-level cognitive planning (devising the solution strategy) and low-level linguistic realization (generating step-by-step text). To address this challenge, we propose a novel collaborative framework that decouples these two processes through Latent Guidance. Our approach implements a division of labor: a large model acts as an Implicit Thinker, performing high-level cognitive planning and compressing its solution strategy into a set of compact latent guidance vectors. A small, efficient model then serves as an Explicit Executor, which receives this latent guidance to generate a concise and effective reasoning chain. This process is enabled by a dual-loss training objective, grounded in information-theoretic principles, where a reconstruction loss explicitly compels the latent guidance to become a high-fidelity representation of the full reasoning chain. Extensive experiments on 8 diverse reasoning benchmarks demonstrate that our method substantially enhances the reasoning capabilities of small models across various scales (from 0.5B to 8B), allowing them to outperform strong baselines and exhibit superior generalization. Notably, our framework boosts small model accuracy by up to 13.9% over its standalone baseline. Our work introduces a new, theoretically-grounded paradigm for empowering small models with large-model thinking, substantially improving the performance-cost trade-off for complex reasoning.",
+        "timestamp": "2026-04-09T09:57:13.005Z",
+        "rating": "novote",
+        "publishedDate": "26 Jan 2026",
+        "tags": [
+          "Large Language Models",
+          "Efficient Reasoning"
+        ],
+        "doi": "",
+        "journalName": "ICLR 2026 Poster",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1893,
+        "object_id": "paper:openreview.jqGWLxbghD",
+        "created_at": "2026-04-09T09:57:13+00:00",
+        "updated_at": "2026-04-09T09:57:31+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2502.11569": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2502.11569",
+        "url": "https://arxiv.org/abs/2502.11569",
+        "title": "Towards Reasoning Ability of Small Language Models",
+        "authors": "Gaurav Srivastava, Shuxiang Cao, Xuan Wang",
+        "abstract": "Reasoning has long been viewed as an emergent property of large language models (LLMs). However, recent studies challenge this assumption, showing that small language models (SLMs) can also achieve competitive reasoning performance. This paper introduces ThinkSLM, the first extensive benchmark to systematically evaluate and study the reasoning abilities of SLMs trained from scratch or derived from LLMs through quantization, pruning, and distillation. We first establish a reliable evaluation criterion comparing available methods and LLM judges against our human evaluations. Then we present a study evaluating 72 diverse SLMs from six major model families across 17 reasoning benchmarks. We repeat all our experiments three times to ensure a robust assessment. Our findings show that: 1) reasoning ability in SLMs is strongly influenced by training methods and data quality rather than solely model scale; 2) quantization preserves reasoning capability, while pruning significantly disrupts it; 3) larger models consistently exhibit higher robustness against adversarial perturbations and intermediate reasoning, but certain smaller models closely match or exceed the larger models' performance. Our findings challenge the assumption that scaling is the only way to achieve strong reasoning. Instead, we foresee a future where SLMs with strong reasoning capabilities can be developed through structured training or post-training compression. Our ThinkSLM Leaderboard is publicly available at: this https URL",
+        "timestamp": "2026-04-09T09:56:58.827Z",
+        "rating": "novote",
+        "publishedDate": "2025/02/17",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1892,
+        "object_id": "paper:arxiv.2502.11569",
+        "created_at": "2026-04-09T09:56:59+00:00",
+        "updated_at": "2026-04-09T09:57:21+00:00",
         "version": 1
       }
     }

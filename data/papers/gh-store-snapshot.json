@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-14T06:57:10.258569+00:00",
+  "snapshot_time": "2026-04-14T10:59:06.131377+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -68720,6 +68720,33 @@
         "object_id": "paper:arxiv.2211.17192",
         "created_at": "2026-04-14T06:50:36+00:00",
         "updated_at": "2026-04-14T06:50:58+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2603.21852": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2603.21852",
+        "url": "https://arxiv.org/abs/2603.21852",
+        "title": "All elementary functions from a single binary operator",
+        "authors": "Andrzej Odrzywo\u0142ek",
+        "abstract": "A single two-input gate suffices for all of Boolean logic in digital hardware. No comparable primitive has been known for continuous mathematics: computing elementary functions such as sin, cos, sqrt, and log has always required multiple distinct operations. Here I show that a single binary operator, eml(x,y)=exp(x)-ln(y), together with the constant 1, generates the standard repertoire of a scientific calculator. This includes constants such as e, pi, and i; arithmetic operations including addition, subtraction, multiplication, division, and exponentiation as well as the usual transcendental and algebraic functions. For example, exp(x)=eml(x,1), ln(x)=eml(1,eml(eml(1,x),1)), and likewise for all other operations. That such an operator exists was not anticipated; I found it by systematic exhaustive search and established constructively that it suffices for the concrete scientific-calculator basis. In EML (Exp-Minus-Log) form, every such expression becomes a binary tree of identical nodes, yielding a grammar as simple as S -> 1 | eml(S,S). This uniform structure also enables gradient-based symbolic regression: using EML trees as trainable circuits with standard optimizers (Adam), I demonstrate the feasibility of exact recovery of closed-form elementary functions from numerical data at shallow tree depths up to 4. The same architecture can fit arbitrary data, but when the generating law is elementary, it may recover the exact formula.",
+        "timestamp": "2026-04-14T10:58:16.249Z",
+        "rating": "novote",
+        "publishedDate": "2026/03/23",
+        "tags": [
+          "Symbolic Computation (cs.SC)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1914,
+        "object_id": "paper:arxiv.2603.21852",
+        "created_at": "2026-04-14T10:58:17+00:00",
+        "updated_at": "2026-04-14T10:58:43+00:00",
         "version": 1
       }
     }

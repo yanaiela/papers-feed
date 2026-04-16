@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-16T06:34:45.781398+00:00",
+  "snapshot_time": "2026-04-16T07:02:28.058953+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -69123,6 +69123,64 @@
         "object_id": "interactions:arxiv.2504.05058",
         "created_at": "2026-04-16T06:33:56+00:00",
         "updated_at": "2026-04-16T06:34:19+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2410.07163": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2410.07163",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-04-16T07:01:45.755Z",
+            "data": {
+              "session_id": "session_1776322904687_hh0jfcu",
+              "source_id": "arxiv",
+              "paper_id": "2410.07163",
+              "start_time": "2026-04-16T07:01:39.011Z",
+              "end_time": "2026-04-16T07:01:44.687Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1925,
+        "object_id": "interactions:arxiv.2410.07163",
+        "created_at": "2026-04-16T07:01:46+00:00",
+        "updated_at": "2026-04-16T07:02:09+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2410.07163": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2410.07163",
+        "url": "https://arxiv.org/abs/2410.07163",
+        "title": "Simplicity Prevails: Rethinking Negative Preference Optimization for LLM Unlearning",
+        "authors": "Chongyu Fan, Jiancheng Liu, Licong Lin, Jinghan Jia, Ruiqi Zhang, Song Mei, Sijia Liu",
+        "abstract": "This work studies the problem of large language model (LLM) unlearning, aiming to remove unwanted data influences (e.g., copyrighted or harmful content) while preserving model utility. Despite the increasing demand for unlearning, a technically-grounded optimization framework is lacking. Gradient ascent (GA)-type methods, though widely used, are suboptimal as they reverse the learning process without controlling optimization divergence (i.e., deviation from the pre-trained state), leading to risks of over-forgetting and potential model collapse. Negative preference optimization (NPO) has been proposed to address this issue and is considered one of the state-of-the-art LLM unlearning approaches. In this work, we revisit NPO and identify another critical issue: reference model bias. This bias arises from using the reference model (i.e., the model prior to unlearning) to evaluate the unlearning success, which can compromise NPO's effectiveness. Specifically, it leads to (a) uneven allocation of optimization power across forget data with varying difficulty levels and (b) ineffective gradient weight smoothing during the early stages of unlearning optimization. To overcome these challenges, we propose a simple yet effective unlearning optimization framework, called SimNPO, showing that `simplicity' in removing the reliance on a reference model (through the lens of simple preference optimization) benefits unlearning. We provide deeper insights into SimNPO's advantages through an analysis based on mixtures of Markov chains. Extensive experiments further validate SimNPO's efficacy on benchmarks like TOFU and MUSE, as well as its robustness against relearning attacks. Codes are available at this https URL.",
+        "timestamp": "2026-04-16T07:01:40.020Z",
+        "rating": "novote",
+        "publishedDate": "2024/10/09",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1924,
+        "object_id": "paper:arxiv.2410.07163",
+        "created_at": "2026-04-16T07:01:40+00:00",
+        "updated_at": "2026-04-16T07:02:06+00:00",
         "version": 1
       }
     }

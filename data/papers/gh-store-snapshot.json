@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-16T07:05:25.668532+00:00",
+  "snapshot_time": "2026-04-16T07:56:06.328378+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -69211,6 +69211,64 @@
         "object_id": "paper:arxiv.2410.07163",
         "created_at": "2026-04-16T07:01:40+00:00",
         "updated_at": "2026-04-16T07:02:06+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2604.13977": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.13977",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-04-16T07:55:25.676Z",
+            "data": {
+              "session_id": "session_1776326125659_qa1nvvm",
+              "source_id": "arxiv",
+              "paper_id": "2604.13977",
+              "start_time": "2026-04-16T07:55:12.559Z",
+              "end_time": "2026-04-16T07:55:25.659Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 13
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1927,
+        "object_id": "interactions:arxiv.2604.13977",
+        "created_at": "2026-04-16T07:55:13+00:00",
+        "updated_at": "2026-04-16T07:55:41+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2604.13977": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.13977",
+        "url": "https://arxiv.org/abs/2604.13977",
+        "title": "How Can We Synthesize High-Quality Pretraining Data? A Systematic Study of Prompt Design, Generator Model, and Source Data",
+        "authors": "Joel Niklaus, Atsuki Yamaguchi, Michal \u0160tef\u00e1nik, Guilherme Penedo, Hynek Kydl\u00ed\u010dek, Elie Bakouch, Lewis Tunstall, Edward Emanuel Beeching, Thibaud Frere, Colin Raffel, Leandro von Werra, Thomas Wolf",
+        "abstract": "Synthetic data is a standard component in training large language models, yet systematic comparisons across design dimensions, including rephrasing strategy, generator model, and source data, remain absent. We conduct extensive controlled experiments, generating over one trillion tokens, to identify critical factors in rephrasing web text into synthetic pretraining data. Our results reveal that structured output formats, such as tables, math problems, FAQs, and tutorials, consistently outperform both curated web baselines and prior synthetic methods. Notably, increasing the size of the generator model beyond 1B parameters provides no additional benefit. Our analysis also demonstrates that the selection of the original data used for mixing substantially influences performance. By applying our findings, we develop \\textbf{\\textsc{FinePhrase}}, a 486-billion-token open dataset of rephrased web text. We show that \\textsc{FinePhrase} outperforms all existing synthetic data baselines while reducing generation costs by up to 30 times. We provide the dataset, all prompts, and the generation framework to the research community.",
+        "timestamp": "2026-04-16T07:54:52.115Z",
+        "rating": "novote",
+        "publishedDate": "2026/04/15",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1926,
+        "object_id": "paper:arxiv.2604.13977",
+        "created_at": "2026-04-16T07:54:52+00:00",
+        "updated_at": "2026-04-16T07:55:12+00:00",
         "version": 1
       }
     }

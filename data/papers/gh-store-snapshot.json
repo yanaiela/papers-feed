@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-17T12:41:30.483536+00:00",
+  "snapshot_time": "2026-04-17T12:43:50.298423+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -69418,6 +69418,36 @@
         "object_id": "paper:arxiv.2604.13940",
         "created_at": "2026-04-17T12:40:42+00:00",
         "updated_at": "2026-04-17T12:41:02+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2604.13940": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.13940",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-04-17T12:42:55.953Z",
+            "data": {
+              "session_id": "session_1776429775297_pw38549",
+              "source_id": "arxiv",
+              "paper_id": "2604.13940",
+              "start_time": "2026-04-17T12:40:41.426Z",
+              "end_time": "2026-04-17T12:42:55.297Z",
+              "heartbeat_count": 26,
+              "duration_seconds": 130,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 134
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1933,
+        "object_id": "interactions:arxiv.2604.13940",
+        "created_at": "2026-04-17T12:42:57+00:00",
+        "updated_at": "2026-04-17T12:43:23+00:00",
         "version": 1
       }
     }

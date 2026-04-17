@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-16T16:52:16.040464+00:00",
+  "snapshot_time": "2026-04-17T11:34:07.201796+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -69338,6 +69338,62 @@
         "object_id": "interactions:arxiv.2309.07311",
         "created_at": "2026-04-16T16:21:03+00:00",
         "updated_at": "2026-04-16T16:51:52+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2506.19004": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.19004",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-04-17T11:33:24.746Z",
+            "data": {
+              "session_id": "session_1776425603999_k9m1b86",
+              "source_id": "arxiv",
+              "paper_id": "2506.19004",
+              "start_time": "2026-04-17T11:33:16.896Z",
+              "end_time": "2026-04-17T11:33:23.999Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 7
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1931,
+        "object_id": "interactions:arxiv.2506.19004",
+        "created_at": "2026-04-17T11:33:25+00:00",
+        "updated_at": "2026-04-17T11:33:44+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2506.19004": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2506.19004",
+        "url": "https://arxiv.org/abs/2506.19004",
+        "title": "Broken Tokens? Your Language Model can Secretly Handle Non-Canonical Tokenizations",
+        "authors": "Brian Siyuan Zheng, Alisa Liu, Orevaoghene Ahia, Jonathan Hayase, Yejin Choi, Noah A. Smith",
+        "abstract": "Modern tokenizers employ deterministic algorithms to map text into a single \"canonical\" token sequence, yet the same string can be encoded as many non-canonical tokenizations using the tokenizer vocabulary. In this work, we investigate the robustness of LMs to text encoded with non-canonical tokenizations entirely unseen during training. Surprisingly, when evaluated across 20 benchmarks, we find that instruction-tuned models retain up to 93.4% of their original performance when given a randomly sampled tokenization, and 90.8% with character-level tokenization. We see that overall stronger models tend to be more robust, and robustness diminishes as the tokenization departs farther from the canonical form. Motivated by these results, we then identify settings where non-canonical tokenization schemes can *improve* performance, finding that character-level segmentation improves string manipulation and code understanding tasks by up to +14%, and right-aligned digit grouping enhances large-number arithmetic by +33%. Finally, we investigate the source of this robustness, finding that it arises in the instruction-tuning phase. We show that while both base and post-trained models grasp the semantics of non-canonical tokenizations (perceiving them as containing misspellings), base models try to mimic the imagined mistakes and degenerate into nonsensical output, while post-trained models are committed to fluent responses. Overall, our findings suggest that models are less tied to their tokenizer than previously believed, and demonstrate the promise of intervening on tokenization at inference time to boost performance.",
+        "timestamp": "2026-04-17T11:33:17.340Z",
+        "rating": "novote",
+        "publishedDate": "2025/06/23",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1930,
+        "object_id": "paper:arxiv.2506.19004",
+        "created_at": "2026-04-17T11:33:18+00:00",
+        "updated_at": "2026-04-17T11:33:41+00:00",
         "version": 1
       }
     }

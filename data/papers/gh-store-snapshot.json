@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-20T10:58:18.981522+00:00",
+  "snapshot_time": "2026-04-20T11:20:35.304121+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -69738,6 +69738,63 @@
         "object_id": "paper:arxiv.2604.12744",
         "created_at": "2026-04-20T10:56:57+00:00",
         "updated_at": "2026-04-20T10:57:19+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2604.11791": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.11791",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-04-20T11:19:50.114Z",
+            "data": {
+              "session_id": "session_1776683990083_0p6rkaj",
+              "source_id": "arxiv",
+              "paper_id": "2604.11791",
+              "start_time": "2026-04-20T11:19:34.165Z",
+              "end_time": "2026-04-20T11:19:50.083Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 16
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1939,
+        "object_id": "interactions:arxiv.2604.11791",
+        "created_at": "2026-04-20T11:19:34+00:00",
+        "updated_at": "2026-04-20T11:19:57+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2604.11791": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.11791",
+        "url": "https://arxiv.org/abs/2604.11791",
+        "title": "A Mechanistic Analysis of Looped Reasoning Language Models",
+        "authors": "Hugh Blayney, \u00c1lvaro Arroyo, Johan Obando-Ceron, Pablo Samuel Castro, Aaron Courville, Michael M. Bronstein, Xiaowen Dong",
+        "abstract": "Reasoning has become a central capability in large language models. Recent research has shown that reasoning performance can be improved by looping an LLM's layers in the latent dimension, resulting in looped reasoning language models. Despite promising results, few works have investigated how their internal dynamics differ from those of standard feedforward models. In this paper, we conduct a mechanistic analysis of the latent states in looped language models, focusing in particular on how the stages of inference observed in feedforward models compare to those observed in looped ones. To this end, we analyze cyclic recurrence and show that for many of the studied models each layer in the cycle converges to a distinct fixed point; consequently, the recurrent block follows a consistent cyclic trajectory in the latent space. We provide evidence that as these fixed points are reached, attention-head behavior stabilizes, leading to constant behavior across recurrences. Empirically, we discover that recurrent blocks learn stages of inference that closely mirror those of feedforward models, repeating these stages in depth with each iteration. We study how recurrent block size, input injection, and normalization influence the emergence and stability of these cyclic fixed points. We believe these findings help translate mechanistic insights into practical guidance for architectural design.",
+        "timestamp": "2026-04-20T11:19:28.006Z",
+        "rating": "novote",
+        "publishedDate": "2026/04/13",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1938,
+        "object_id": "paper:arxiv.2604.11791",
+        "created_at": "2026-04-20T11:19:28+00:00",
+        "updated_at": "2026-04-20T11:19:53+00:00",
         "version": 1
       }
     }

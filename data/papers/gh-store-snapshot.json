@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-19T17:26:09.117730+00:00",
+  "snapshot_time": "2026-04-20T10:58:18.981522+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -69682,6 +69682,62 @@
         "object_id": "interactions:arxiv.2604.13997",
         "created_at": "2026-04-17T12:48:53+00:00",
         "updated_at": "2026-04-18T08:25:37+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2604.12744": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.12744",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-04-20T10:57:38.003Z",
+            "data": {
+              "session_id": "session_1776682657942_0mqikr7",
+              "source_id": "arxiv",
+              "paper_id": "2604.12744",
+              "start_time": "2026-04-20T10:57:05.506Z",
+              "end_time": "2026-04-20T10:57:37.942Z",
+              "heartbeat_count": 6,
+              "duration_seconds": 30,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 32
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1937,
+        "object_id": "interactions:arxiv.2604.12744",
+        "created_at": "2026-04-20T10:57:06+00:00",
+        "updated_at": "2026-04-20T10:57:55+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2604.12744": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.12744",
+        "url": "https://arxiv.org/abs/2604.12744",
+        "title": "Universal NER v2: Towards a Massively Multilingual Named Entity Recognition Benchmark",
+        "authors": "Terra Blevins, Stephen Mayhew, Marek \u0160uppa, Hila Gonen, Shachar Mirkin, Vasile Pais, Kaja Dobrovoljc, Voula Giouli, Jun Kevin, Eugene Jang, Eungseo Kim, Jeongyeon Seo, Xenophon Gialis, Yuval Pinter",
+        "abstract": "While multilingual language models promise to bring the benefits of LLMs to speakers of many languages, gold-standard evaluation benchmarks in most languages to interrogate these assumptions remain scarce. The Universal NER project, now entering its fourth year, is dedicated to building gold-standard multilingual Named Entity Recognition (NER) benchmark datasets. Inspired by existing massively multilingual efforts for other core NLP tasks (e.g., Universal Dependencies), the project uses a general tagset and thorough annotation guidelines to collect standardized, cross-lingual annotations of named entity spans. The first installment (UNER v1) was released in 2024, and the project has continued and expanded since then, with various organizers, annotators, and collaborators in an active community.",
+        "timestamp": "2026-04-20T10:56:56.523Z",
+        "rating": "novote",
+        "publishedDate": "2026/04/14",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1936,
+        "object_id": "paper:arxiv.2604.12744",
+        "created_at": "2026-04-20T10:56:57+00:00",
+        "updated_at": "2026-04-20T10:57:19+00:00",
         "version": 1
       }
     }

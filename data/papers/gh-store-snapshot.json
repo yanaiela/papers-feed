@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-20T13:08:57.270464+00:00",
+  "snapshot_time": "2026-04-20T15:26:21.388363+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -70028,6 +70028,65 @@
         "object_id": "paper:arxiv.2411.02817",
         "created_at": "2026-04-20T12:59:48+00:00",
         "updated_at": "2026-04-20T13:00:10+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2604.15574": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.15574",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-04-20T15:25:37.004Z",
+            "data": {
+              "session_id": "session_1776698736942_9gapixt",
+              "source_id": "arxiv",
+              "paper_id": "2604.15574",
+              "start_time": "2026-04-20T15:24:57.334Z",
+              "end_time": "2026-04-20T15:25:36.942Z",
+              "heartbeat_count": 7,
+              "duration_seconds": 35,
+              "idle_seconds": 5,
+              "total_elapsed_seconds": 40
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1947,
+        "object_id": "interactions:arxiv.2604.15574",
+        "created_at": "2026-04-20T15:24:57+00:00",
+        "updated_at": "2026-04-20T15:25:55+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2604.15574": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.15574",
+        "url": "https://arxiv.org/abs/2604.15574",
+        "title": "Why Fine-Tuning Encourages Hallucinations and How to Fix It",
+        "authors": "Guy Kaplan, Zorik Gekhman, Zhen Zhu, Lotem Rozner, Yuval Reif, Swabha Swayamdipta, Derek Hoiem, Roy Schwartz",
+        "abstract": "Large language models are prone to hallucinating factually incorrect statements. A key source of these errors is exposure to new factual information through supervised fine-tuning (SFT), which can increase hallucinations w.r.t. knowledge acquired during pre-training. In this work, we explore whether SFT-induced hallucinations can be mitigated using established tools from the continual learning literature, since they arise as a by-product of knowledge degradation during training. We propose a self-distillation-based SFT method that facilitates effective factual learning while minimizing hallucinations w.r.t. pre-existing knowledge by regularizing output-distribution drift. We also show that, in settings where new knowledge acquisition is unnecessary, suppressing factual plasticity by freezing parameter groups, can preserve task performance while reducing hallucinations. Lastly, we investigate the mechanism behind SFT-induced hallucinations through three hypotheses: capacity limitations, behavior cloning, and localized interference. Our experiments show that a main driver is interference among overlapping semantic representations, and that self-distillation succeeds by mitigating this interference.",
+        "timestamp": "2026-04-20T15:24:48.812Z",
+        "rating": "novote",
+        "publishedDate": "2026/04/16",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)",
+          "Neural and Evolutionary Computing (cs.NE)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1946,
+        "object_id": "paper:arxiv.2604.15574",
+        "created_at": "2026-04-20T15:24:49+00:00",
+        "updated_at": "2026-04-20T15:25:26+00:00",
         "version": 1
       }
     }

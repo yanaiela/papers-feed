@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-21T09:40:34.118902+00:00",
+  "snapshot_time": "2026-04-21T10:38:39.112369+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -70235,6 +70235,35 @@
         "object_id": "interactions:arxiv.2604.17108",
         "created_at": "2026-04-21T07:35:22+00:00",
         "updated_at": "2026-04-21T07:35:45+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2504.16430": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.16430",
+        "url": "https://arxiv.org/abs/2504.16430",
+        "title": "MAGIC: Near-Optimal Data Attribution for Deep Learning",
+        "authors": "Andrew Ilyas, Logan Engstrom",
+        "abstract": "The goal of predictive data attribution is to estimate how adding or removing a given set of training datapoints will affect model predictions. In convex settings, this goal is straightforward (i.e., via the infinitesimal jackknife). In large-scale (non-convex) settings, however, existing methods are far less successful -- current methods' estimates often only weakly correlate with ground truth. In this work, we present a new data attribution method (MAGIC) that combines classical methods and recent advances in metadifferentiation to (nearly) optimally estimate the effect of adding or removing training data on model predictions.",
+        "timestamp": "2026-04-21T10:37:56.807Z",
+        "rating": "novote",
+        "publishedDate": "2025/04/23",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Computation and Language (cs.CL)",
+          "Computer Vision and Pattern Recognition (cs.CV)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1950,
+        "object_id": "paper:arxiv.2504.16430",
+        "created_at": "2026-04-21T10:37:57+00:00",
+        "updated_at": "2026-04-21T10:38:16+00:00",
         "version": 1
       }
     }

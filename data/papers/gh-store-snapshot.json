@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-21T07:02:41.050015+00:00",
+  "snapshot_time": "2026-04-21T07:34:46.568332+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -70132,6 +70132,33 @@
         "object_id": "paper:arxiv.2604.15574",
         "created_at": "2026-04-20T15:24:49+00:00",
         "updated_at": "2026-04-20T15:25:26+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2604.17108": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.17108",
+        "url": "https://arxiv.org/abs/2604.17108",
+        "title": "Beyond Word Boundaries: A Hebrew Coreference Benchmark and an Evaluation Protocol for Morphologically Complex Text",
+        "authors": "Refael Shaked Greenfeld, Reut Tsarfaty",
+        "abstract": "Coreference Resolution (CR) is a fundamental NLP task critical for long-form tasks as information extraction, summarization, and many business applications. However, CR methods originally designed for English struggle with Morphologically Rich Languages (MRLs), where mention boundaries do not necessarily align with word boundaries, and a single token may consist of multiple anaphors. CR modeling and evaluation protocols standardly assume that, as in English, words and mentions mostly align. However, this assumption breaks down in MRLs, particularly in the context of LLMs' raw-text processing and end-to-end tasks. To assess and address this challenge, we introduce {\\em KibutzR}, the first comprehensive CR dataset for Modern Hebrew, an MRL rich with complex words and pronominal clitics. We deliver an annotated dataset that identifies mentions at word, sub-word and multi-word levels, and propose an evaluation protocol that directly addresses word/morpheme boundary discrepancies. Our experiments show that contemporary LLMs perform significantly worse on Hebrew than on English, and that performance degrades on raw unsegmented text. Crucially, we show an inverse performance-trend in Hebrew relative to English, where smaller encoders perform far better than contemporary decoder models, leaving ample space for investigation and improvement. We deliver a new benchmark for Hebrew coreference resolution and a segmentation-aware evaluation protocol to inform future work on other MRLs.",
+        "timestamp": "2026-04-21T07:34:01.214Z",
+        "rating": "novote",
+        "publishedDate": "2026/04/18",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1948,
+        "object_id": "paper:arxiv.2604.17108",
+        "created_at": "2026-04-21T07:34:02+00:00",
+        "updated_at": "2026-04-21T07:34:22+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-21T10:49:29.446312+00:00",
+  "snapshot_time": "2026-04-21T14:59:25.293955+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -70294,6 +70294,85 @@
         "object_id": "interactions:arxiv.2504.16430",
         "created_at": "2026-04-21T10:48:35+00:00",
         "updated_at": "2026-04-21T10:48:59+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2407.07410": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2407.07410",
+        "url": "https://arxiv.org/abs/2407.07410",
+        "title": "Mutual Information calculation on different appearances",
+        "authors": "Jiecheng Liao, Junhao Lu, Jeff Ji, Jiacheng He",
+        "abstract": "Mutual information has many applications in image alignment and matching, mainly due to its ability to measure the statistical dependence between two images, even if the two images are from different modalities (e.g., CT and MRI). It considers not only the pixel intensities of the images but also the spatial relationships between the pixels. In this project, we apply the mutual information formula to image matching, where image A is the moving object and image B is the target object and calculate the mutual information between them to evaluate the similarity between the images. For comparison, we also used entropy and information-gain methods to test the dependency of the images. We also investigated the effect of different environments on the mutual information of the same image and used experiments and plots to demonstrate.",
+        "timestamp": "2026-04-21T14:58:27.128Z",
+        "rating": "novote",
+        "publishedDate": "2024/07/10",
+        "tags": [
+          "Computer Vision and Pattern Recognition (cs.CV)",
+          "Graphics (cs.GR)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1954,
+        "object_id": "paper:arxiv.2407.07410",
+        "created_at": "2026-04-21T14:58:27+00:00",
+        "updated_at": "2026-04-21T14:58:51+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2103.04537": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2103.04537",
+        "url": "https://arxiv.org/pdf/2103.04537",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-04-21T14:58:22.063Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1953,
+        "object_id": "paper:arxiv.2103.04537",
+        "created_at": "2026-04-21T14:58:22+00:00",
+        "updated_at": "2026-04-21T14:58:45+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2405.20759": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2405.20759",
+        "url": "https://arxiv.org/abs/2405.20759",
+        "title": "Information Theoretic Text-to-Image Alignment",
+        "authors": "Chao Wang, Giulio Franzese, Alessandro Finamore, Massimo Gallo, Pietro Michiardi",
+        "abstract": "Diffusion models for Text-to-Image (T2I) conditional generation have recently achieved tremendous success. Yet, aligning these models with user's intentions still involves a laborious trial-and-error process, and this challenging alignment problem has attracted considerable attention from the research community. In this work, instead of relying on fine-grained linguistic analyses of prompts, human annotation, or auxiliary vision-language models, we use Mutual Information (MI) to guide model alignment. In brief, our method uses self-supervised fine-tuning and relies on a point-wise (MI) estimation between prompts and images to create a synthetic fine-tuning set for improving model alignment. Our analysis indicates that our method is superior to the state-of-the-art, yet it only requires the pre-trained denoising network of the T2I model itself to estimate MI, and a simple fine-tuning strategy that improves alignment while maintaining image quality. Code available at this https URL.",
+        "timestamp": "2026-04-21T14:58:20.135Z",
+        "rating": "novote",
+        "publishedDate": "2024/05/31",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Computer Vision and Pattern Recognition (cs.CV)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1952,
+        "object_id": "paper:arxiv.2405.20759",
+        "created_at": "2026-04-21T14:58:21+00:00",
+        "updated_at": "2026-04-21T14:58:45+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-23T14:58:13.652602+00:00",
+  "snapshot_time": "2026-04-23T15:06:22.773081+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -71052,6 +71052,126 @@
         "object_id": "paper:openreview.XSYVnvgyo4",
         "created_at": "2026-04-23T14:57:06+00:00",
         "updated_at": "2026-04-23T14:57:40+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.nS8yAy5MLn": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "nS8yAy5MLn",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-04-23T15:04:54.985Z",
+            "data": {
+              "session_id": "session_1776956694379_7a2ijv9",
+              "source_id": "openreview",
+              "paper_id": "nS8yAy5MLn",
+              "start_time": "2026-04-23T15:04:41.859Z",
+              "end_time": "2026-04-23T15:04:54.379Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 13
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1977,
+        "object_id": "interactions:openreview.nS8yAy5MLn",
+        "created_at": "2026-04-23T15:04:55+00:00",
+        "updated_at": "2026-04-23T15:05:22+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.nS8yAy5MLn": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "nS8yAy5MLn",
+        "url": "https://openreview.net/forum?id=nS8yAy5MLn&referrer=%5BProgram%20Chair%20Console%5D%28%2Fgroup%3Fid%3Daclweb.org%2FACL%2F2026%2FWorkshop%2FBigPicture%2FProgram_Chairs%23submission-status%29",
+        "title": "Rereading the Importance of Learning Objectives in Language Model Pre-training",
+        "authors": "Stella Verkijk",
+        "abstract": "It has been more than six years since the development of Transformers and the BERT architecture. Despite their ongoing popularity, it has remained difficult to draw conclusions about their inner workings that are generally true in any area of deployment. Through a focused literature review, this paper challenges one of the conclusions that sprung from the field of BERTology, namely that the removal of the Next Sentence Prediction task during the pre-training phase of BERT does not hurt or slightly improves task performance. This conclusion, drawn in a 2021 work on BERTology that has been well-cited since, is shown to be premature by looking in detail at the papers that the work references for this claim, as well as at other papers studying NSP. This position paper petitions for two things: a reconsideration of versions of the Next Sentence Prediction task or other learning objectives apart from Masked Language Modeling and Next Token Prediction, and for  more room for and appreciation of  critical and rigorous literature review before setting up new experiments in the scientific community of NLP.",
+        "timestamp": "2026-04-23T15:04:42.171Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Language Modeling",
+          "Next Sentence Prediction",
+          "Literature Review"
+        ],
+        "doi": "",
+        "journalName": "ACL 2026 Workshop BigPicture Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1976,
+        "object_id": "paper:openreview.nS8yAy5MLn",
+        "created_at": "2026-04-23T15:04:42+00:00",
+        "updated_at": "2026-04-23T15:05:56+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.UlznoNVQfc": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "UlznoNVQfc",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-04-23T15:04:32.005Z",
+            "data": {
+              "session_id": "session_1776956671118_jdev8lb",
+              "source_id": "openreview",
+              "paper_id": "UlznoNVQfc",
+              "start_time": "2026-04-23T15:04:22.762Z",
+              "end_time": "2026-04-23T15:04:31.118Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1975,
+        "object_id": "interactions:openreview.UlznoNVQfc",
+        "created_at": "2026-04-23T15:04:32+00:00",
+        "updated_at": "2026-04-23T15:05:50+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.UlznoNVQfc": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "UlznoNVQfc",
+        "url": "https://openreview.net/forum?id=UlznoNVQfc&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2F2026%2FWorkshop%2FBigPicture%2FProgram_Chairs%23submission-status)",
+        "title": "Building Arabic NLP from the Ground Up: Twenty Years of Lessons, Failures, and Open Problems",
+        "authors": "Wajdi Zaghouani",
+        "abstract": "This paper reflects on twenty years of building NLP resources and research infrastructure for Arabic, a language spoken by hundreds of millions yet historically underserved relative to languages such as English or Chinese. The first decade focused on foundational linguistic infrastructure; the second shifted toward computational social science, social media analysis, and socially oriented applications. Rather than cataloguing outputs, the paper examines what the experience of building them revealed. Three counterintuitive lessons emerge: building datasets is as much a social process as a technical one; communities formed around shared tasks often matter more than the tasks themselves; and moving from language resources to computational social science exposes challenges that traditional NLP training does not address. We discuss three failures: a depression detection corpus that never reached clinical practice, a period of spreading across too many shared tasks without sufficient depth, and a long-standing assumption that Modern Standard Arabic infrastructure would transfer cleanly to dialectal tasks. These experiences suggest that the hardest problems in developing NLP for underserved communities are not linguistic but social, institutional, and epistemic, and require competencie",
+        "timestamp": "2026-04-23T15:04:22.577Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Arabic Natural Language Processing",
+          "Low-Resource Languages",
+          "NLP Infrastructure",
+          "Dataset Development",
+          "Computational Social Science",
+          "Shared Tasks",
+          "Dialectal Arabic"
+        ],
+        "doi": "",
+        "journalName": "ACL 2026 Workshop BigPicture Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1973,
+        "object_id": "paper:openreview.UlznoNVQfc",
+        "created_at": "2026-04-23T15:04:23+00:00",
+        "updated_at": "2026-04-23T15:05:32+00:00",
         "version": 1
       }
     }

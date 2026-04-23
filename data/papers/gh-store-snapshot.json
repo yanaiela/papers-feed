@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-23T14:53:43.871502+00:00",
+  "snapshot_time": "2026-04-23T14:58:13.652602+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -71021,6 +71021,37 @@
         "object_id": "interactions:openreview.WVb2RTYv6u",
         "created_at": "2026-04-23T14:47:37+00:00",
         "updated_at": "2026-04-23T14:53:05+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.XSYVnvgyo4": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "XSYVnvgyo4",
+        "url": "https://openreview.net/forum?id=XSYVnvgyo4&referrer=%5BProgram%20Chair%20Console%5D%28%2Fgroup%3Fid%3Daclweb.org%2FACL%2F2026%2FWorkshop%2FBigPicture%2FProgram_Chairs%23submission-status%29",
+        "title": "From Zero to Suite: Foundational Language Models Across Four Language Families of Northeast India",
+        "authors": "Badal Nyalang",
+        "abstract": "We present the Northeast India BERT Suite, a collection of eight monolingual masked language models covering Khasi, Mizo, Assamese, Garo, Nyishi, Chakma, Nagamese, and Kokborok. These languages, spanning four typologically distinct families (Austroasiatic, Tibeto- Burman, Indo-Aryan, and a contact language), had virtually no dedicated neural language models prior to this work. Through systematic development, we trained models ranging from 7M to 278M parameters on corpora spanning 41,000 to 5.94 million sentences. Evaluated using pseudo-perplexity on held-out test sets (90/5/5 splits, consistent across all models), our models achieve 67 to 282 times lower perplexity compared to multilingual baselines on the same evaluation data. We document not only our results but our methodology, failures, and the insights that emerged across eight languages: that domain-adaptive pretraining on monolingual data consistently outperforms zero-shot multilingual baselines, that data quality matters more than scale, and that compact architectures offer a viable path for deployment in resource-constrained settings.",
+        "timestamp": "2026-04-23T14:57:06.272Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "low-resource NLP",
+          "masked language models",
+          "Northeast India",
+          "indigenous languages",
+          "BERT",
+          "domain-adaptive pretraining"
+        ],
+        "doi": "",
+        "journalName": "ACL 2026 Workshop BigPicture Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1972,
+        "object_id": "paper:openreview.XSYVnvgyo4",
+        "created_at": "2026-04-23T14:57:06+00:00",
+        "updated_at": "2026-04-23T14:57:40+00:00",
         "version": 1
       }
     }

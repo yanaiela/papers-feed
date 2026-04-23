@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-23T14:49:21.878862+00:00",
+  "snapshot_time": "2026-04-23T14:50:50.036303+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -70812,6 +70812,124 @@
         "object_id": "paper:openreview.AuNExmYH6m",
         "created_at": "2026-04-23T14:45:56+00:00",
         "updated_at": "2026-04-23T14:48:49+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.Za9uGIXVIk": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "Za9uGIXVIk",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-04-23T14:48:50.800Z",
+            "data": {
+              "session_id": "session_1776955730074_uweextj",
+              "source_id": "openreview",
+              "paper_id": "Za9uGIXVIk",
+              "start_time": "2026-04-23T14:47:44.943Z",
+              "end_time": "2026-04-23T14:48:50.074Z",
+              "heartbeat_count": 13,
+              "duration_seconds": 65,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 65
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1970,
+        "object_id": "interactions:openreview.Za9uGIXVIk",
+        "created_at": "2026-04-23T14:48:51+00:00",
+        "updated_at": "2026-04-23T14:50:23+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.Za9uGIXVIk": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "Za9uGIXVIk",
+        "url": "https://openreview.net/forum?id=Za9uGIXVIk&referrer=%5BProgram%20Chair%20Console%5D%28%2Fgroup%3Fid%3Daclweb.org%2FACL%2F2026%2FWorkshop%2FBigPicture%2FProgram_Chairs%23submission-status%29",
+        "title": "Challenging the Myth: A Research Arc on LLMs as Human Simulacra",
+        "authors": "Simon M\u00fcnker, Achim Rettinger, Damian Trilling",
+        "abstract": "When Large Language Models (LLMs) combined with prompt-based approaches as human simulacra emerged, they promised revolutionary shortcuts. Models trained on vast internet corpora may replicate human behavior and communication through text-based alignment. The initial optimism of the NLP community positioned LLMs as universal human proxies capable of replacing participants in surveys, generating authentic social media content, and simulating diverse cultural perspectives. We systematically dismantle this \\textit{\"myth of universal generalization\"} and document a shift toward methodological rigor. Our research reveals fundamental limitations: LLMs exhibit inhuman response patterns in psychometric assessments and produce detectable synthetic content. We analyze the difference between superficial linguistic fluency and genuine human-like representation, and reframe the current paradigm from asking \\textit{\"can LLMs replace humans?\"} to \\textit{\"under what validated conditions might LLMs serve as useful research components in social sciences?\"} Our work shows how interconnected research efforts challenge foundational assumptions and establishes best practices for deploying LLMs as human simulacra.",
+        "timestamp": "2026-04-23T14:47:45.329Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "LLMs as Human Simulacra",
+          "LLM Simulation Validity",
+          "Synthetic Content Analysis"
+        ],
+        "doi": "",
+        "journalName": "ACL 2026 Workshop BigPicture Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1969,
+        "object_id": "paper:openreview.Za9uGIXVIk",
+        "created_at": "2026-04-23T14:47:45+00:00",
+        "updated_at": "2026-04-23T14:49:46+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.AuNExmYH6m": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "AuNExmYH6m",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-04-23T14:46:49.207Z",
+            "data": {
+              "session_id": "session_1776955608581_p44tnur",
+              "source_id": "openreview",
+              "paper_id": "AuNExmYH6m",
+              "start_time": "2026-04-23T14:45:55.331Z",
+              "end_time": "2026-04-23T14:46:48.581Z",
+              "heartbeat_count": 10,
+              "duration_seconds": 50,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 53
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1966,
+        "object_id": "interactions:openreview.AuNExmYH6m",
+        "created_at": "2026-04-23T14:46:50+00:00",
+        "updated_at": "2026-04-23T14:49:37+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.ApwAIMJg3A": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "ApwAIMJg3A",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-04-23T14:44:14.476Z",
+            "data": {
+              "session_id": "session_1776955453770_0b07ufw",
+              "source_id": "openreview",
+              "paper_id": "ApwAIMJg3A",
+              "start_time": "2026-04-23T14:42:58.632Z",
+              "end_time": "2026-04-23T14:44:13.770Z",
+              "heartbeat_count": 15,
+              "duration_seconds": 75,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 75
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1964,
+        "object_id": "interactions:openreview.ApwAIMJg3A",
+        "created_at": "2026-04-23T14:44:15+00:00",
+        "updated_at": "2026-04-23T14:50:09+00:00",
         "version": 1
       }
     }

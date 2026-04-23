@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-23T14:50:50.036303+00:00",
+  "snapshot_time": "2026-04-23T14:52:24.894071+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -70930,6 +70930,67 @@
         "object_id": "interactions:openreview.ApwAIMJg3A",
         "created_at": "2026-04-23T14:44:15+00:00",
         "updated_at": "2026-04-23T14:50:09+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.DivmWmMvt7": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "DivmWmMvt7",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-04-23T14:50:50.295Z",
+            "data": {
+              "session_id": "session_1776955849976_ed611ov",
+              "source_id": "openreview",
+              "paper_id": "DivmWmMvt7",
+              "start_time": "2026-04-23T14:50:34.384Z",
+              "end_time": "2026-04-23T14:50:49.976Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 16
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1971,
+        "object_id": "interactions:openreview.DivmWmMvt7",
+        "created_at": "2026-04-23T14:50:51+00:00",
+        "updated_at": "2026-04-23T14:51:34+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.WVb2RTYv6u": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "WVb2RTYv6u",
+        "url": "https://openreview.net/forum?id=WVb2RTYv6u&referrer=%5BProgram%20Chair%20Console%5D%28%2Fgroup%3Fid%3Daclweb.org%2FACL%2F2026%2FWorkshop%2FBigPicture%2FProgram_Chairs%23submission-status%29",
+        "title": "Beyond Hallucination: Reframing LLM Quality Assessment as Task-Output Alignment",
+        "authors": "Andrew Hoblitzell",
+        "abstract": "Current hallucination detection systems operate under a flawed assumption: that model outputs deviating from factual grounding are uniformly problematic regardless of task context, modality, or cultural setting. Through analysis of computational humor as a motivating case study, we demonstrate that identical model behaviors require radically different evaluations depending on context. We propose reframing hallucination detection as task-output alignment assessment, introducing a three-dimensional framework spanning factual grounding requirements, novelty requirements, and risk tolerance.",
+        "timestamp": "2026-04-23T14:47:18.059Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "hallucination detection",
+          "task-output alignment",
+          "evaluation frameworks",
+          "computational humor",
+          "creative generation",
+          "responsible AI"
+        ],
+        "doi": "",
+        "journalName": "ACL 2026 Workshop BigPicture Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1967,
+        "object_id": "paper:openreview.WVb2RTYv6u",
+        "created_at": "2026-04-23T14:47:18+00:00",
+        "updated_at": "2026-04-23T14:51:07+00:00",
         "version": 1
       }
     }

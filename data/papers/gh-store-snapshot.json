@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-23T14:46:44.861740+00:00",
+  "snapshot_time": "2026-04-23T14:49:21.878862+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -70776,6 +70776,42 @@
         "object_id": "paper:openreview.ApwAIMJg3A",
         "created_at": "2026-04-23T14:42:46+00:00",
         "updated_at": "2026-04-23T14:46:14+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.AuNExmYH6m": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "AuNExmYH6m",
+        "url": "https://openreview.net/forum?id=AuNExmYH6m&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2F2026%2FWorkshop%2FBigPicture%2FProgram_Chairs%23submission-status)",
+        "title": "Open Problems Solved by LLMs? A Survey of Verifiable Mathematical Discovery",
+        "authors": "Ioannis Tzachristas, Georgios Tzachristas",
+        "abstract": "Recent years have produced a small but rapidly growing set of results where Large Language Models (LLMs)---usually embedded in a search-and-verification loop---advance the state of the art on problems previously regarded as \"open'' in the pragmatic sense of lacking a best-known construction, bound, or proof certificate. This paper surveys that emerging line of work with a Big Picture emphasis: what makes these successes possible, what should count as \"solved'' and what design patterns generalize? We (i) propose an evidence ladder for interpreting \"LLM solved an open problem\" claims, (ii) map mathematical subfields by difficulty dimensions that matter for LLM-based discovery, (iii) curate a timeline of key breakthroughs leading to verifiable discovery systems, and (iv) synthesize the techniques and frameworks---tool use, retrieval, search, and verification---that repeatedly appear in successful case studies. We close with an evaluation and reproducibility checklist aimed at making the next wave of claims easier to trust, reproduce, and build upon.",
+        "timestamp": "2026-04-23T14:45:55.672Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "LLM Discovery",
+          "Scientific Discovery",
+          "Mathematical Reasoning",
+          "Verifiable AI",
+          "Tool Use",
+          "Program Synthesis",
+          "Proof Assistants",
+          "Evolutionary Search",
+          "Neuro-symbolic Systems",
+          "AI for Mathematics",
+          "Open Problems"
+        ],
+        "doi": "",
+        "journalName": "ACL 2026 Workshop BigPicture Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1965,
+        "object_id": "paper:openreview.AuNExmYH6m",
+        "created_at": "2026-04-23T14:45:56+00:00",
+        "updated_at": "2026-04-23T14:48:49+00:00",
         "version": 1
       }
     }

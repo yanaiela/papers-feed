@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-23T09:14:49.513908+00:00",
+  "snapshot_time": "2026-04-23T14:46:44.861740+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -70745,6 +70745,37 @@
         "object_id": "interactions:arxiv.2604.14513",
         "created_at": "2026-04-23T08:44:18+00:00",
         "updated_at": "2026-04-23T08:44:40+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.ApwAIMJg3A": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "ApwAIMJg3A",
+        "url": "https://openreview.net/forum?id=ApwAIMJg3A&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2F2026%2FWorkshop%2FBigPicture%2FProgram_Chairs%23submission-status)",
+        "title": "Exploring Multimodal Semantic Change: A Reflection on Visual-Textual Dynamics",
+        "authors": "Mahule Roy, Subhas Roy",
+        "abstract": "Diachronic semantic change research has largely focused on text, often overlooking the multimodal nature of online communication, where images, memes, and emojis co-occur with language. In this work, we explore the feasibility of examining how visual signals relate to textual semantic shifts using a subset of timestamped image-text pairs drawn from the publicly available YFCC100M dataset (2004\u20132014). We introduce a simplified model, Time-Aware Multimodal Alignment (TAMA), which aligns textual and visual representations over time using a basic contrastive approach, and propose a preliminary metric, Multimodal Semantic Drift (MSD), to quantify change. Our early observations suggest that visual trends may occasionally precede textual shifts, but patterns are inconsistent and dataset-limited. We illustrate these trends through case studies, highlight challenges in cross-modal alignment and noisy social media metadata, and stress that results are exploratory. Overall, this work demonstrates that multimodal signals from public datasets like YFCC100M can be integrated into diachronic semantic analysis, while robust conclusions require larger, temporally diverse, and carefully curated subsets.",
+        "timestamp": "2026-04-23T14:42:45.515Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Multimodal semantic change",
+          "diachronic analysis",
+          "visual-text alignment",
+          "YFCC100M",
+          "semantic drift",
+          "exploratory study"
+        ],
+        "doi": "",
+        "journalName": "ACL 2026 Workshop BigPicture Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1963,
+        "object_id": "paper:openreview.ApwAIMJg3A",
+        "created_at": "2026-04-23T14:42:46+00:00",
+        "updated_at": "2026-04-23T14:46:14+00:00",
         "version": 1
       }
     }

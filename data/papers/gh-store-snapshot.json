@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-23T15:10:15.311220+00:00",
+  "snapshot_time": "2026-04-24T08:26:38.742990+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -71217,6 +71217,47 @@
         "object_id": "interactions:openreview.XSYVnvgyo4",
         "created_at": "2026-04-23T15:08:35+00:00",
         "updated_at": "2026-04-23T15:09:33+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2504.11393": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.11393",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1980,
+        "object_id": "interactions:arxiv.2504.11393",
+        "created_at": "2026-04-24T08:26:01+00:00",
+        "updated_at": "2026-04-24T08:26:03+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2504.11393": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.11393",
+        "url": "https://arxiv.org/abs/2504.11393",
+        "title": "DataDecide: How to Predict Best Pretraining Data with Small Experiments",
+        "authors": "Ian Magnusson, Nguyen Tai, Ben Bogin, David Heineman, Jena D. Hwang, Luca Soldaini, Akshita Bhagia, Jiacheng Liu, Dirk Groeneveld, Oyvind Tafjord, Noah A. Smith, Pang Wei Koh, Jesse Dodge",
+        "abstract": "Because large language models are expensive to pretrain on different datasets, using smaller-scale experiments to decide on data is crucial for reducing costs. Which benchmarks and methods of making decisions from observed performance at small scale most accurately predict the datasets that yield the best large models? To empower open exploration of this question, we release models, data, and evaluations in DataDecide -- the most extensive open suite of models over differences in data and scale. We conduct controlled pretraining experiments across 25 corpora with differing sources, deduplication, and filtering up to 100B tokens, model sizes up to 1B parameters, and 3 random seeds. We find that the ranking of models at a single, small size (e.g., 150M parameters) is a strong baseline for predicting best models at our larger target scale (1B) (~80% of com parisons correct). No scaling law methods among 8 baselines exceed the compute-decision frontier of single-scale predictions, but DataDecide can measure improvement in future scaling laws. We also identify that using continuous likelihood metrics as proxies in small experiments makes benchmarks including MMLU, ARC, HellaSwag, MBPP, and HumanEval >80% predictable at the target 1B scale with just 0.01% of the compute.",
+        "timestamp": "2026-04-24T08:25:54.470Z",
+        "rating": "novote",
+        "publishedDate": "2025/04/15",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1979,
+        "object_id": "paper:arxiv.2504.11393",
+        "created_at": "2026-04-24T08:25:55+00:00",
+        "updated_at": "2026-04-24T08:26:17+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-24T09:50:36.833323+00:00",
+  "snapshot_time": "2026-04-25T11:04:20.159441+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -71329,6 +71329,33 @@
         "object_id": "interactions:arxiv.2602.15829",
         "created_at": "2026-04-24T08:32:07+00:00",
         "updated_at": "2026-04-24T09:50:12+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2604.21691": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.21691",
+        "url": "https://arxiv.org/abs/2604.21691",
+        "title": "There Will Be a Scientific Theory of Deep Learning",
+        "authors": "Jamie Simon, Daniel Kunin, Alexander Atanasov, Enric Boix-Adser\u00e0, Blake Bordelon, Jeremy Cohen, Nikhil Ghosh, Florentin Guth, Arthur Jacot, Mason Kamb, Dhruva Karkada, Eric J. Michaud, Berkan Ottlik, Joseph Turnbull",
+        "abstract": "In this paper, we make the case that a scientific theory of deep learning is emerging. By this we mean a theory which characterizes important properties and statistics of the training process, hidden representations, final weights, and performance of neural networks. We pull together major strands of ongoing research in deep learning theory and identify five growing bodies of work that point toward such a theory: (a) solvable idealized settings that provide intuition for learning dynamics in realistic systems; (b) tractable limits that reveal insights into fundamental learning phenomena; (c) simple mathematical laws that capture important macroscopic observables; (d) theories of hyperparameters that disentangle them from the rest of the training process, leaving simpler systems behind; and (e) universal behaviors shared across systems and settings which clarify which phenomena call for explanation.\nTaken together, these bodies of work share certain broad traits: they are concerned with the dynamics of the training process; they primarily seek to describe coarse aggregate statistics; and they emphasize falsifiable quantitative predictions. We argue that the emerging theory is best thought of as a mechanics of the learning process, and suggest the name learning mechanics. We discuss the relationship between this mechanics perspective and other approaches for building a theory of deep learning, including the statistical and information-theoretic perspectives. In particular, we anticipate a symbiotic relationship between learning mechanics and mechanistic interpretability.\nWe also review and address common arguments that fundamental theory will not be possible or is not important. We conclude with a portrait of important open directions in learning mechanics and advice for beginners. We host further introductory materials, perspectives, and open questions at this http URL.",
+        "timestamp": "2026-04-25T11:03:32.248Z",
+        "rating": "novote",
+        "publishedDate": "2026/04/23",
+        "tags": [
+          "Machine Learning (stat.ML)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1983,
+        "object_id": "paper:arxiv.2604.21691",
+        "created_at": "2026-04-25T11:03:32+00:00",
+        "updated_at": "2026-04-25T11:03:58+00:00",
         "version": 1
       }
     }

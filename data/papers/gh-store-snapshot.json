@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-26T11:54:43.398361+00:00",
+  "snapshot_time": "2026-04-26T12:36:04.856997+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -71416,6 +71416,47 @@
         "object_id": "interactions:arxiv.2604.21691",
         "created_at": "2026-04-25T11:04:22+00:00",
         "updated_at": "2026-04-25T16:30:29+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2604.20816": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.20816",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1986,
+        "object_id": "interactions:arxiv.2604.20816",
+        "created_at": "2026-04-26T12:35:39+00:00",
+        "updated_at": "2026-04-26T12:35:41+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2604.20816": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.20816",
+        "url": "https://arxiv.org/abs/2604.20816",
+        "title": "ParetoSlider: Diffusion Models Post-Training for Continuous Reward Control",
+        "authors": "Shelly Golan, Michael Finkelson, Ariel Bereslavsky, Yotam Nitzan, Or Patashnik",
+        "abstract": "Reinforcement Learning (RL) post-training has become the standard for aligning generative models with human preferences, yet most methods rely on a single scalar reward. When multiple criteria matter, the prevailing practice of ``early scalarization'' collapses rewards into a fixed weighted sum. This commits the model to a single trade-off point at training time, providing no inference-time control over inherently conflicting goals -- such as prompt adherence versus source fidelity in image editing. We introduce ParetoSlider, a multi-objective RL (MORL) framework that trains a single diffusion model to approximate the entire Pareto front. By training the model with continuously varying preference weights as a conditioning signal, we enable users to navigate optimal trade-offs at inference time without retraining or maintaining multiple checkpoints. We evaluate ParetoSlider across three state-of-the-art flow-matching backbones: SD3.5, FluxKontext, and LTX-2. Our single preference-conditioned model matches or exceeds the performance of baselines trained separately for fixed reward trade-offs, while uniquely providing fine-grained control over competing generative goals.",
+        "timestamp": "2026-04-26T12:35:17.449Z",
+        "rating": "novote",
+        "publishedDate": "2026/04/22",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Computer Vision and Pattern Recognition (cs.CV)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1985,
+        "object_id": "paper:arxiv.2604.20816",
+        "created_at": "2026-04-26T12:35:18+00:00",
+        "updated_at": "2026-04-26T12:35:43+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-27T13:18:55.448504+00:00",
+  "snapshot_time": "2026-04-28T11:59:11.788539+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -71484,7 +71484,7 @@
         "title": "",
         "authors": "",
         "abstract": "",
-        "timestamp": "2026-04-26T12:38:48.522Z",
+        "timestamp": "2026-04-27T16:20:06.665Z",
         "rating": "novote",
         "publishedDate": "",
         "tags": [],
@@ -71493,10 +71493,10 @@
         "sourceType": "url"
       },
       "meta": {
-        "issue_number": 1987,
+        "issue_number": 1991,
         "object_id": "paper:arxiv.2603.07529",
-        "created_at": "2026-04-26T12:38:48+00:00",
-        "updated_at": "2026-04-26T12:39:08+00:00",
+        "created_at": "2026-04-27T16:20:07+00:00",
+        "updated_at": "2026-04-27T16:20:34+00:00",
         "version": 1
       }
     },
@@ -71610,6 +71610,103 @@
         "object_id": "paper:arxiv.2403.20284",
         "created_at": "2026-04-27T08:54:46+00:00",
         "updated_at": "2026-04-27T08:55:08+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.ZR2KTfCX8Y": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "ZR2KTfCX8Y",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-04-28T11:58:17.850Z",
+            "data": {
+              "session_id": "session_1777377497090_rhnz3fb",
+              "source_id": "openreview",
+              "paper_id": "ZR2KTfCX8Y",
+              "start_time": "2026-04-28T11:58:10.290Z",
+              "end_time": "2026-04-28T11:58:17.090Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 7
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1995,
+        "object_id": "interactions:openreview.ZR2KTfCX8Y",
+        "created_at": "2026-04-28T11:58:19+00:00",
+        "updated_at": "2026-04-28T11:58:47+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.ZR2KTfCX8Y": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "ZR2KTfCX8Y",
+        "url": "https://openreview.net/forum?id=ZR2KTfCX8Y",
+        "title": "Manifold-Aware Concept Erasure",
+        "authors": "Matan Avitan, Yoav Goldberg, Yanai Elazar",
+        "abstract": "Concept erasure must remove a target concept without damaging the rest of the representation, yet unconstrained updates in the full representation space can cause unnecessary distortion and leave residual signal. We propose \\TanGCE{}, a new manifold-aware erasure method that estimates local tangent spaces with neighborhood PCA and restricts erasure updates to that local support. We rely on the intuition that interventions should follow the same local support where natural representations lie: if representations concentrate near a low-dimensional neighborhood, effective edits should stay on that support rather than push them away. Across evaluations spanning 13 language models across five families (0.5B--27B parameters) and a cross-modal vision benchmark (CelebA with CLIP ViT-B/32), \\TanGCE{} consistently removes more recoverable nonlinear concept signal than its ambient ablation and the prior baselines we compare against, while typically incurring less control damage than distortion-based methods.",
+        "timestamp": "2026-04-28T11:58:10.851Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "NeurIPS 2026 Conference Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1994,
+        "object_id": "paper:openreview.ZR2KTfCX8Y",
+        "created_at": "2026-04-28T11:58:11+00:00",
+        "updated_at": "2026-04-28T11:58:35+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.1603.09320": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1603.09320",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 1993,
+        "object_id": "interactions:arxiv.1603.09320",
+        "created_at": "2026-04-27T16:42:17+00:00",
+        "updated_at": "2026-04-27T16:42:20+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.1603.09320": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1603.09320",
+        "url": "https://arxiv.org/abs/1603.09320",
+        "title": "Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs",
+        "authors": "Yu. A. Malkov, D. A. Yashunin",
+        "abstract": "We present a new approach for the approximate K-nearest neighbor search based on navigable small world graphs with controllable hierarchy (Hierarchical NSW, HNSW). The proposed solution is fully graph-based, without any need for additional search structures, which are typically used at the coarse search stage of the most proximity graph techniques. Hierarchical NSW incrementally builds a multi-layer structure consisting from hierarchical set of proximity graphs (layers) for nested subsets of the stored elements. The maximum layer in which an element is present is selected randomly with an exponentially decaying probability distribution. This allows producing graphs similar to the previously studied Navigable Small World (NSW) structures while additionally having the links separated by their characteristic distance scales. Starting search from the upper layer together with utilizing the scale separation boosts the performance compared to NSW and allows a logarithmic complexity scaling. Additional employment of a heuristic for selecting proximity graph neighbors significantly increases performance at high recall and in case of highly clustered data. Performance evaluation has demonstrated that the proposed general metric space search index is able to strongly outperform previous opensource state-of-the-art vector-only approaches. Similarity of the algorithm to the skip list structure allows straightforward balanced distributed implementation.",
+        "timestamp": "2026-04-27T16:42:11.090Z",
+        "rating": "novote",
+        "publishedDate": "2016/03/30",
+        "tags": [
+          "Data Structures and Algorithms (cs.DS)",
+          "Computer Vision and Pattern Recognition (cs.CV)",
+          "Information Retrieval (cs.IR)",
+          "Social and Information Networks (cs.SI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1992,
+        "object_id": "paper:arxiv.1603.09320",
+        "created_at": "2026-04-27T16:42:11+00:00",
+        "updated_at": "2026-04-27T16:42:34+00:00",
         "version": 1
       }
     }

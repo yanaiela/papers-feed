@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-04-29T14:56:30.864713+00:00",
+  "snapshot_time": "2026-05-01T18:27:16.472926+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -72022,6 +72022,63 @@
         "object_id": "paper:arxiv.1603.09320",
         "created_at": "2026-04-27T16:42:11+00:00",
         "updated_at": "2026-04-27T16:42:34+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2602.10346": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2602.10346",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-05-01T18:26:26.879Z",
+            "data": {
+              "session_id": "session_1777659986326_a7bcosv",
+              "source_id": "arxiv",
+              "paper_id": "2602.10346",
+              "start_time": "2026-05-01T18:26:20.396Z",
+              "end_time": "2026-05-01T18:26:26.326Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 1997,
+        "object_id": "interactions:arxiv.2602.10346",
+        "created_at": "2026-05-01T18:26:27+00:00",
+        "updated_at": "2026-05-01T18:26:48+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2602.10346": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2602.10346",
+        "url": "https://arxiv.org/abs/2602.10346",
+        "title": "Geometry-Aware Decoding with Wasserstein-Regularized Truncation and Mass Penalties for Large Language Models",
+        "authors": "Arash Gholami Davoodi, Navid Rezazadeh, Seyed Pouyan Mousavi Davoudi, Pouya Pezeshkpour",
+        "abstract": "Large language models (LLMs) must balance diversity and creativity against logical coherence in open-ended generation. Existing truncation-based samplers are effective but largely heuristic, relying mainly on probability mass and entropy while ignoring semantic geometry of the token space. We present Top-W, a geometry-aware truncation rule that uses Wasserstein distance-defined over token-embedding geometry-to keep the cropped distribution close to the original, while explicitly balancing retained probability mass against the entropy of the kept set. Our theory yields a simple closed-form structure for the fixed-potential subset update: depending on the mass-entropy trade-off, the optimal crop either collapses to a single token or takes the form of a one-dimensional prefix that can be found efficiently with a linear scan. We implement Top-W using efficient geometry-based potentials (nearest-set or k-NN) and pair it with an alternating decoding routine that keeps the standard truncation-and-sampling interface unchanged. Extensive experiments on four benchmarks (GSM8K, GPQA, AlpacaEval, and MT-Bench) across three instruction-tuned models show that Top-W consistently outperforms prior state-of-the-art decoding approaches achieving up to 33.7% improvement. Moreover, we find that Top-W not only improves accuracy-focused performance, but also boosts creativity under judge-based open-ended evaluation.",
+        "timestamp": "2026-05-01T18:26:20.744Z",
+        "rating": "novote",
+        "publishedDate": "2026/02/10",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 1996,
+        "object_id": "paper:arxiv.2602.10346",
+        "created_at": "2026-05-01T18:26:21+00:00",
+        "updated_at": "2026-05-01T18:26:42+00:00",
         "version": 1
       }
     }

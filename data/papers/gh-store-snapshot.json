@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-05-04T11:58:04.217552+00:00",
+  "snapshot_time": "2026-05-05T08:12:09.718716+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -72286,6 +72286,60 @@
         "object_id": "interactions:arxiv.2411.07180",
         "created_at": "2026-05-04T11:54:13+00:00",
         "updated_at": "2026-05-04T11:57:33+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.YFAKZxppJB": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "YFAKZxppJB",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-05-05T08:11:18.109Z",
+            "data": {
+              "session_id": "session_1777968678106_0x71mpj",
+              "source_id": "openreview",
+              "paper_id": "YFAKZxppJB",
+              "start_time": "2026-05-05T08:11:12.327Z",
+              "end_time": "2026-05-05T08:11:18.106Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 2005,
+        "object_id": "interactions:openreview.YFAKZxppJB",
+        "created_at": "2026-05-05T08:11:12+00:00",
+        "updated_at": "2026-05-05T08:11:34+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.YFAKZxppJB": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "YFAKZxppJB",
+        "url": "https://openreview.net/forum?id=YFAKZxppJB",
+        "title": "Pretraining Data Statistics Shape the Phases of Learning in Language Models",
+        "authors": "Yik Siu Chan, Jing Huang, Yanai Elazar, Atticus Geiger",
+        "abstract": "Language model behavior is directly shaped by their pretraining data. Undesirable behaviors, such as relying on heuristics rather than intended algorithms, can also be linked to underlying data properties. While prior work has studied these relationships in fully trained models, we ask how data statistics drive the emergence of such heuristics in training. We hypothesize that entity frequency and distribution in pretraining data influences which heuristics a model adopts and the order in which they emerge. We construct controlled pretraining datasets where we vary properties such as the distribution of entities and the ratio of task-relevant data to natural text. By studying GPT-2-sized models trained on these different data setups, we identify distinct phases of learning: an early phase dominated by a frequency-based heuristic, followed by a longer phase where positional bias plays a large role, and finally the emergence of the intended task behavior. By varying data properties, we show that we can control which heuristics are learned and when they emerge. Further, our synthetic setting can serve as a predictor of the learning trajectories in larger 1B, 7B, and 13B OLMo models, which exhibit similar three-stage learning dynamics. Together, our findings identify properties of pretraining data as causal drivers of heuristic learning and show that these properties can predict training dynamics across model scales.",
+        "timestamp": "2026-05-05T08:11:05.204Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "NeurIPS 2026 Conference Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2004,
+        "object_id": "paper:openreview.YFAKZxppJB",
+        "created_at": "2026-05-05T08:11:05+00:00",
+        "updated_at": "2026-05-05T08:11:36+00:00",
         "version": 1
       }
     }

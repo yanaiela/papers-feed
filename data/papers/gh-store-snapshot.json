@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-05-07T09:54:42.730716+00:00",
+  "snapshot_time": "2026-05-07T11:31:58.383664+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -72743,6 +72743,60 @@
         "object_id": "interactions:openreview.NpsVSN6o4ul",
         "created_at": "2026-05-07T09:53:06+00:00",
         "updated_at": "2026-05-07T09:53:35+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.Sje2qgTHl2": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "Sje2qgTHl2",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-05-07T11:31:07.927Z",
+            "data": {
+              "session_id": "session_1778153467161_j3t49t8",
+              "source_id": "openreview",
+              "paper_id": "Sje2qgTHl2",
+              "start_time": "2026-05-07T11:30:59.748Z",
+              "end_time": "2026-05-07T11:31:07.161Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 7
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 2018,
+        "object_id": "interactions:openreview.Sje2qgTHl2",
+        "created_at": "2026-05-07T11:31:08+00:00",
+        "updated_at": "2026-05-07T11:31:30+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.Sje2qgTHl2": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "Sje2qgTHl2",
+        "url": "https://openreview.net/forum?id=Sje2qgTHl2&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2026%2FConference%2FAuthors%23your-submissions)",
+        "title": "Position Without Positional Embeddings: A Directional Mechanism in NoPE Transformers",
+        "authors": "Matan Avitan, Ido Nachum, Yanai Elazar, Yoav Goldberg",
+        "abstract": "Autoregressive transformers with no positional embeddings (NoPE) can recover absolute position.\nA common explanation is that causal attention creates a position-dependent variance signal, but this account is incomplete because LayerNorm removes per-token scale, so a viable mechanism must encode position in *direction*, not magnitude.\nWe describe the most compact mechanism with two-layer NoPE transformers that accurately extract position.\nIn Layer1, prefix averaging creates a shared beginning of sequence (BOS)-direction component.\nIn Layer2,  the attention's output-value matrix maps the \\bos{} and \\nbos{} contributions into two distinct directions, and a position-dependent \\bos{} attention weight acts as a mixing coefficient that interpolates between them.\nThe resulting directional trajectory is linearly decodable for position.\nInterestingly, we show two transformer variants that converge to the same theoretical mechanism and instantiate it when trained to predict position.",
+        "timestamp": "2026-05-07T11:31:00.399Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "NeurIPS 2026 Conference Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2017,
+        "object_id": "paper:openreview.Sje2qgTHl2",
+        "created_at": "2026-05-07T11:31:00+00:00",
+        "updated_at": "2026-05-07T11:31:26+00:00",
         "version": 1
       }
     }

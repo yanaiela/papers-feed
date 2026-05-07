@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-05-07T11:54:48.565956+00:00",
+  "snapshot_time": "2026-05-07T15:12:14.768073+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -72127,6 +72127,21 @@
               "idle_seconds": 5,
               "total_elapsed_seconds": 105
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-05-07T15:10:07.069Z",
+            "data": {
+              "session_id": "session_1778166607062_guhtsam",
+              "source_id": "openreview",
+              "paper_id": "ZR2KTfCX8Y",
+              "start_time": "2026-05-07T15:10:02.026Z",
+              "end_time": "2026-05-07T15:10:07.062Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 5
+            }
           }
         ]
       },
@@ -72134,7 +72149,7 @@
         "issue_number": 1995,
         "object_id": "interactions:openreview.ZR2KTfCX8Y",
         "created_at": "2026-04-28T11:58:19+00:00",
-        "updated_at": "2026-05-07T11:50:40+00:00",
+        "updated_at": "2026-05-07T15:10:40+00:00",
         "version": 1
       }
     },
@@ -72872,6 +72887,71 @@
         "object_id": "paper:openreview.Sje2qgTHl2",
         "created_at": "2026-05-07T11:31:00+00:00",
         "updated_at": "2026-05-07T11:31:26+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.KMpX6p2uPa": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "KMpX6p2uPa",
+        "url": "https://openreview.net/forum?id=KMpX6p2uPa&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2026%2FEvaluations_and_Datasets_Track%2FAuthors%23your-submissions)",
+        "title": "Revisiting Automated Reviewer Benchmarking in the Age of AI",
+        "authors": "Dang Nguyen, Wanqing Hao, Yanai Elazar, Chenhao Tan",
+        "abstract": "A new class of agentic reviewer systems are emerging as a remedy to the pressure placed on peer review systems by AI-generated research, but it is unclear how we can evaluate them. We introduce a benchmark for AI reviewer systems along two dimensions. First, the outcomes study compares review behavior on ICLR/NeurIPS papers grouped along four quality proxies derived from citations, conference decisions, reviewer scores, and a composite of the three, testing whether reviewers track quality signals. Every system produces more\u2014and more severe\u2014comments on lower-quality papers, with the gap widening as model strength grows (GPT-5.5 emits +40.4% more comments on the low-quality group). Second, the perturbation benchmark injects four categories of controlled errors\u2014math edits, false claims, faulty reasoning, and experimental-design errors\u2014into full-length papers across eight arXiv subject classes and measures detection recall. We evaluate three review methods (zero-shot, OpenAIReview, coarse) across six LLMs spanning frontier and open-weight models. The strongest configuration (OpenAIReview + GPT-5.5) still catches only 35.3% of injected errors: math-token edits are more recoverable, but prose-level errors (false claims, experimental design) stay below 10% across every model. OpenAIReview and coarse are largely complementary in the paragraphs they comment on, suggesting that targeted prompting and system-level combination are plausible routes to higher recall. Our results suggest that today's AI reviewers are viable candidates for conference reviewing while leaving substantial room for better designs.",
+        "timestamp": "2026-05-07T15:11:07.531Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "AI reviewer benchmark",
+          "automated peer reviewing"
+        ],
+        "doi": "",
+        "journalName": "NeurIPS 2026 Evaluations and Datasets Track Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2022,
+        "object_id": "paper:openreview.KMpX6p2uPa",
+        "created_at": "2026-05-07T15:11:07+00:00",
+        "updated_at": "2026-05-07T15:11:34+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.6q9E8JRw0H": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "6q9E8JRw0H",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2020,
+        "object_id": "interactions:openreview.6q9E8JRw0H",
+        "created_at": "2026-05-07T15:10:48+00:00",
+        "updated_at": "2026-05-07T15:10:50+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.6q9E8JRw0H": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "6q9E8JRw0H",
+        "url": "https://openreview.net/forum?id=6q9E8JRw0H&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2026%2FConference%2FAuthors%23your-submissions)",
+        "title": "A Meta-evaluation of Diversity Metrics via Controlled Mixtures of Perspectives",
+        "authors": "Jeremiah Milbauer, Harnoor Dhingra, Yanai Elazar, Emma Strubell",
+        "abstract": "The prevalence of large language models (LLMs) as tools for information access and creativity necessitates the development of rigorous methods to assess the diversity of LLM-generated content in open-ended contexts. While many diversity metrics have been proposed, we identify a significant gap between existing abstract studies of diversity measures, and the practical realities of measuring diversity in text. Drawing on the interdisciplinary framework proposed by Stirling, which decomposes diversity into three necessary dimensions (variety, balance, and disparity), we add a fourth requirement specific to open-ended natural language, invariance to composition, and use this framework to develop a procedure for validating diversity measurements of natural language. Concretely, we: (1) Generate controlled mixtures of real-world, open-ended, human-authored perspectives from Perspectrum with processes directly parameterized by the four criteria; (2) Empirically measure which diversity metrics correlate with the underlying parameters of the generation;\nand (3) Identify statistically significant limitations in these metrics' sensitivity to the four criteria. Our meta-evaluation provides empirical grounding for diversity measurement in open-ended text and a methodology for validating future proposed metrics.",
+        "timestamp": "2026-05-07T15:09:17.072Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "NeurIPS 2026 Conference Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2019,
+        "object_id": "paper:openreview.6q9E8JRw0H",
+        "created_at": "2026-05-07T15:09:17+00:00",
+        "updated_at": "2026-05-07T15:09:48+00:00",
         "version": 1
       }
     }

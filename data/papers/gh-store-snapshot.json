@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-05-05T09:03:59.121049+00:00",
+  "snapshot_time": "2026-05-07T09:53:01.717512+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -72628,6 +72628,91 @@
         "object_id": "paper:openreview.6L4UXc7P3h",
         "created_at": "2026-05-05T08:41:41+00:00",
         "updated_at": "2026-05-05T08:42:06+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2604.08524": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.08524",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-05-07T09:51:57.373Z",
+            "data": {
+              "session_id": "session_1778147516664_puy8hc3",
+              "source_id": "arxiv",
+              "paper_id": "2604.08524",
+              "start_time": "2026-05-07T09:51:37.973Z",
+              "end_time": "2026-05-07T09:51:56.664Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 19
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 2015,
+        "object_id": "interactions:arxiv.2604.08524",
+        "created_at": "2026-05-07T09:51:58+00:00",
+        "updated_at": "2026-05-07T09:52:33+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.NpsVSN6o4ul": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "NpsVSN6o4ul",
+        "url": "https://openreview.net/forum?id=NpsVSN6o4ul",
+        "title": "Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 Small\ud83d\udcdd",
+        "authors": "Kevin Ro Wang, Alexandre Variengien, Arthur Conmy, Buck Shlegeris, Jacob Steinhardt",
+        "abstract": "Research in mechanistic interpretability seeks to explain behaviors of ML models in terms of their internal components. However, most previous work either focuses on simple behaviors in small models, or describes complicated behaviors in larger models with broad strokes. In this work, we bridge this gap by presenting an explanation for how GPT-2 small performs a natural language task that requires logical reasoning: indirect object identification (IOI). Our explanation encompasses 28 attention heads grouped into 7 main classes, which we discovered using a combination of interpretability approaches including causal interventions and projections.\nTo our knowledge, this investigation is the largest end-to-end attempt at reverse-engineering a natural behavior \"in the wild\" in a language model.  We evaluate the reliability of our explanation using three quantitative criteria - faithfulness, completeness and minimality. Though these criteria support our explanation, they also point to remaining gaps in our understanding. \nOur work provides evidence that a mechanistic understanding of large ML models is feasible, opening opportunities to scale our understanding to both larger models and more complex tasks.",
+        "timestamp": "2026-05-07T09:51:57.132Z",
+        "rating": "novote",
+        "publishedDate": "01 Feb 2023",
+        "tags": [
+          "Mechanistic Interpretability",
+          "Transformers",
+          "Language Models",
+          "Interpretability",
+          "Transparency",
+          "Science of ML"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2013,
+        "object_id": "paper:openreview.NpsVSN6o4ul",
+        "created_at": "2026-05-07T09:51:57+00:00",
+        "updated_at": "2026-05-07T09:52:25+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2604.08524": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.08524",
+        "url": "https://arxiv.org/pdf/2604.08524",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-05-07T09:51:38.965Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2010,
+        "object_id": "paper:arxiv.2604.08524",
+        "created_at": "2026-05-07T09:51:39+00:00",
+        "updated_at": "2026-05-07T09:52:05+00:00",
         "version": 1
       }
     }

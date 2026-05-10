@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-05-07T15:12:14.768073+00:00",
+  "snapshot_time": "2026-05-10T08:30:26.604378+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -72952,6 +72952,85 @@
         "object_id": "paper:openreview.6q9E8JRw0H",
         "created_at": "2026-05-07T15:09:17+00:00",
         "updated_at": "2026-05-07T15:09:48+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2604.03444": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.03444",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2026,
+        "object_id": "interactions:arxiv.2604.03444",
+        "created_at": "2026-05-10T08:30:07+00:00",
+        "updated_at": "2026-05-10T08:30:09+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2604.03444": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.03444",
+        "url": "https://arxiv.org/pdf/2604.03444",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-05-10T08:29:21.464Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2025,
+        "object_id": "paper:arxiv.2604.03444",
+        "created_at": "2026-05-10T08:29:22+00:00",
+        "updated_at": "2026-05-10T08:29:49+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2509.13316": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.13316",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2024,
+        "object_id": "interactions:arxiv.2509.13316",
+        "created_at": "2026-05-08T14:48:57+00:00",
+        "updated_at": "2026-05-08T14:48:59+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2509.13316": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.13316",
+        "url": "https://arxiv.org/abs/2509.13316",
+        "title": "Do Natural Language Descriptions of Model Activations Convey Privileged Information?",
+        "authors": "Millicent Li, Alberto Mario Ceballos Arroyo, Giordano Rogers, Naomi Saphra, Byron C. Wallace",
+        "abstract": "Recent interpretability methods have proposed to translate LLM internal representations into natural language descriptions using a second verbalizer LLM. This is intended to illuminate how the target model represents and operates on inputs. But do such activation verbalization approaches actually provide privileged knowledge about the internal workings of the target model, or do they merely convey information about its inputs? We critically evaluate popular verbalization methods across datasets used in prior work and find that they can succeed at benchmarks without any access to target model internals, suggesting that these datasets may not be ideal for evaluating verbalization methods. We then run controlled experiments which reveal that verbalizations often reflect the parametric knowledge of the verbalizer LLM which generated them, rather than the knowledge of the target LLM whose activations are decoded. Taken together, our results indicate a need for targeted benchmarks and experimental controls to rigorously assess whether verbalization methods provide meaningful insights into the operations of LLMs.",
+        "timestamp": "2026-05-08T14:48:50.590Z",
+        "rating": "novote",
+        "publishedDate": "2025/09/16",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2023,
+        "object_id": "paper:arxiv.2509.13316",
+        "created_at": "2026-05-08T14:48:51+00:00",
+        "updated_at": "2026-05-08T14:49:21+00:00",
         "version": 1
       }
     }

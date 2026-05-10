@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-05-10T11:02:02.368872+00:00",
+  "snapshot_time": "2026-05-10T11:09:49.600406+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -73266,6 +73266,34 @@
         "object_id": "interactions:arxiv.2601.10160",
         "created_at": "2026-05-10T11:01:09+00:00",
         "updated_at": "2026-05-10T11:01:35+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2203.03466": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2203.03466",
+        "url": "https://arxiv.org/abs/2203.03466",
+        "title": "Tensor Programs V: Tuning Large Neural Networks via Zero-Shot Hyperparameter Transfer",
+        "authors": "Greg Yang, Edward J. Hu, Igor Babuschkin, Szymon Sidor, Xiaodong Liu, David Farhi, Nick Ryder, Jakub Pachocki, Weizhu Chen, Jianfeng Gao",
+        "abstract": "Hyperparameter (HP) tuning in deep learning is an expensive process, prohibitively so for neural networks (NNs) with billions of parameters. We show that, in the recently discovered Maximal Update Parametrization (muP), many optimal HPs remain stable even as model size changes. This leads to a new HP tuning paradigm we call muTransfer: parametrize the target model in muP, tune the HP indirectly on a smaller model, and zero-shot transfer them to the full-sized model, i.e., without directly tuning the latter at all. We verify muTransfer on Transformer and ResNet. For example, 1) by transferring pretraining HPs from a model of 13M parameters, we outperform published numbers of BERT-large (350M parameters), with a total tuning cost equivalent to pretraining BERT-large once; 2) by transferring from 40M parameters, we outperform published numbers of the 6.7B GPT-3 model, with tuning cost only 7% of total pretraining cost. A Pytorch implementation of our technique can be found at this http URL and installable via `pip install mup`.",
+        "timestamp": "2026-05-10T11:08:55.718Z",
+        "rating": "novote",
+        "publishedDate": "2022/03/07",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Disordered Systems and Neural Networks (cond-mat.dis-nn)",
+          "Neural and Evolutionary Computing (cs.NE)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2033,
+        "object_id": "paper:arxiv.2203.03466",
+        "created_at": "2026-05-10T11:08:56+00:00",
+        "updated_at": "2026-05-10T11:09:23+00:00",
         "version": 1
       }
     }

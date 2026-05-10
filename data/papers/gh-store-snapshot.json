@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-05-10T08:43:24.948739+00:00",
+  "snapshot_time": "2026-05-10T10:14:54.399221+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -73047,6 +73047,57 @@
         "object_id": "paper:arxiv.2509.13316",
         "created_at": "2026-05-08T14:48:51+00:00",
         "updated_at": "2026-05-08T14:49:21+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2304.09707": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2304.09707",
+        "url": "https://arxiv.org/abs/2304.09707",
+        "title": "Disentangling Neuron Representations with Concept Vectors",
+        "authors": "Laura O'Mahony, Vincent Andrearczyk, Henning Muller, Mara Graziani",
+        "abstract": "Mechanistic interpretability aims to understand how models store representations by breaking down neural networks into interpretable units. However, the occurrence of polysemantic neurons, or neurons that respond to multiple unrelated features, makes interpreting individual neurons challenging. This has led to the search for meaningful vectors, known as concept vectors, in activation space instead of individual neurons. The main contribution of this paper is a method to disentangle polysemantic neurons into concept vectors encapsulating distinct features. Our method can search for fine-grained concepts according to the user's desired level of concept separation. The analysis shows that polysemantic neurons can be disentangled into directions consisting of linear combinations of neurons. Our evaluations show that the concept vectors found encode coherent, human-understandable features.",
+        "timestamp": "2026-05-10T10:14:05.263Z",
+        "rating": "novote",
+        "publishedDate": "2023/04/19",
+        "tags": [
+          "Computer Vision and Pattern Recognition (cs.CV)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2028,
+        "object_id": "paper:arxiv.2304.09707",
+        "created_at": "2026-05-10T10:14:05+00:00",
+        "updated_at": "2026-05-10T10:14:29+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2509.22755": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2509.22755",
+        "url": "https://arxiv.org/html/2509.22755v1",
+        "title": "Concept Activation Vectors: a Unifying View and Adversarial Attacks",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-05-10T10:13:52.769Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2027,
+        "object_id": "paper:arxiv.2509.22755",
+        "created_at": "2026-05-10T10:13:53+00:00",
+        "updated_at": "2026-05-10T10:14:19+00:00",
         "version": 1
       }
     }

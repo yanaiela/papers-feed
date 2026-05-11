@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-05-10T12:31:19.474751+00:00",
+  "snapshot_time": "2026-05-11T08:37:20.200065+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -73369,6 +73369,71 @@
         "object_id": "interactions:arxiv.2203.03466",
         "created_at": "2026-05-10T11:18:50+00:00",
         "updated_at": "2026-05-10T12:30:51+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2604.01615": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.01615",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2037,
+        "object_id": "interactions:arxiv.2604.01615",
+        "created_at": "2026-05-11T08:37:09+00:00",
+        "updated_at": "2026-05-11T08:37:14+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2605.01664": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2605.01664",
+        "url": "https://arxiv.org/html/2605.01664v1",
+        "title": "A Hybrid Retrieval and Reranking Framework for Evidence-Grounded Retrieval-Augmented Generation",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-05-11T08:36:29.835Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2036,
+        "object_id": "paper:arxiv.2605.01664",
+        "created_at": "2026-05-11T08:36:30+00:00",
+        "updated_at": "2026-05-11T08:36:56+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2604.01615": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.01615",
+        "url": "https://arxiv.org/abs/2604.01615",
+        "title": "Analysis of LLM Performance on AWS Bedrock: Receipt-item Categorisation Case Study",
+        "authors": "Gabby Sanchez, Sneha Oommen, Cassandra T. Britto, Di Wang, Jung-De Chiou, Maria Spichkova",
+        "abstract": "This paper presents a systematic, cost-aware evaluation of large language models (LLMs) for receipt-item categorisation within a production-oriented classification framework. We compare four instruction-tuned models available through AWS Bedrock: Claude 3.7 Sonnet, Claude 4 Sonnet, Mixtral 8x7B Instruct, and Mistral 7B Instruct. The aim of the study was (1) to assess performance across accuracy, response stability, and token-level cost, and (2) to investigate what prompting methods, zero-shot or few-shot, are especially appropriate both in terms of accuracy and in terms of incurred costs. Results of our experiments demonstrated that Claude 3.7 Sonnet achieves the most favourable balance between classification accuracy and cost efficiency.",
+        "timestamp": "2026-05-11T08:36:20.955Z",
+        "rating": "novote",
+        "publishedDate": "2026/04/02",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Software Engineering (cs.SE)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2035,
+        "object_id": "paper:arxiv.2604.01615",
+        "created_at": "2026-05-11T08:36:21+00:00",
+        "updated_at": "2026-05-11T08:36:52+00:00",
         "version": 1
       }
     }

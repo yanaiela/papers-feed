@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-05-17T19:31:30.398482+00:00",
+  "snapshot_time": "2026-05-18T08:54:15.847517+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -73723,6 +73723,33 @@
         "object_id": "paper:openreview.HozsY9Gdcl",
         "created_at": "2026-05-17T19:28:30+00:00",
         "updated_at": "2026-05-17T19:28:48+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2602.17452": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2602.17452",
+        "url": "https://arxiv.org/abs/2602.17452",
+        "title": "Jolt Atlas: Verifiable Inference via Lookup Arguments in Zero Knowledge",
+        "authors": "Wyatt Benno, Alberto Centelles, Antoine Douchet, Khalil Gibran",
+        "abstract": "We present Jolt Atlas, a zero-knowledge machine learning (zkML) framework that extends the Jolt proving system to model inference. Unlike zkVMs (zero-knowledge virtual machines), which emulate CPU instruction execution, Jolt Atlas adapts Jolt's lookup-centric approach and applies it directly to ONNX tensor operations. The ONNX computational model eliminates the need for CPU registers and simplifies memory consistency verification. In addition, ONNX is an open-source, portable format, which makes it easy to share and deploy models across different frameworks, hardware platforms, and runtime environments without requiring framework-specific conversions.\nOur lookup arguments, which use sumcheck protocol, are well-suited for non-linear functions -- key building blocks in modern ML. We apply optimisations such as neural teleportation to reduce the size of lookup tables while preserving model accuracy, as well as several tensor-level verification optimisations detailed in this paper. We demonstrate that Jolt Atlas can prove model inference in memory-constrained environments -- a prover property commonly referred to as \\textit{streaming}. Furthermore, we discuss how Jolt Atlas achieves zero-knowledge through the BlindFold technique, as introduced in Vega. In contrast to existing zkML frameworks, we show practical proving times for classification, embedding, automated reasoning, and small language models.\nJolt Atlas enables cryptographic verification that can be run on-device, without specialised hardware. The resulting proofs are succinctly verifiable. This makes Jolt Atlas well-suited for privacy-centric and adversarial environments. In a companion work, we outline various use cases of Jolt Atlas, including how it serves as guardrails in agentic commerce and for trustless AI context (often referred to as \\textit{AI memory}).",
+        "timestamp": "2026-05-18T08:53:26.688Z",
+        "rating": "novote",
+        "publishedDate": "2026/02/19",
+        "tags": [
+          "Cryptography and Security (cs.CR)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2041,
+        "object_id": "paper:arxiv.2602.17452",
+        "created_at": "2026-05-18T08:53:27+00:00",
+        "updated_at": "2026-05-18T08:53:51+00:00",
         "version": 1
       }
     }

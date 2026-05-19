@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-05-19T13:31:23.679939+00:00",
+  "snapshot_time": "2026-05-19T15:29:55.675223+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -73817,6 +73817,21 @@
               "idle_seconds": 3,
               "total_elapsed_seconds": 768
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-05-19T15:28:33.975Z",
+            "data": {
+              "session_id": "session_1779204513626_yj4ckyd",
+              "source_id": "arxiv",
+              "paper_id": "2602.17452",
+              "start_time": "2026-05-19T15:28:20.575Z",
+              "end_time": "2026-05-19T15:28:33.626Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 13
+            }
           }
         ]
       },
@@ -73824,7 +73839,45 @@
         "issue_number": 2042,
         "object_id": "interactions:arxiv.2602.17452",
         "created_at": "2026-05-18T08:54:35+00:00",
-        "updated_at": "2026-05-18T10:51:11+00:00",
+        "updated_at": "2026-05-19T15:29:00+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2605.13339": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2605.13339",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2044,
+        "object_id": "interactions:arxiv.2605.13339",
+        "created_at": "2026-05-19T15:29:36+00:00",
+        "updated_at": "2026-05-19T15:29:38+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2605.13339": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2605.13339",
+        "url": "https://arxiv.org/pdf/2605.13339",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-05-19T15:28:55.352Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2043,
+        "object_id": "paper:arxiv.2605.13339",
+        "created_at": "2026-05-19T15:28:56+00:00",
+        "updated_at": "2026-05-19T15:29:19+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-05-19T15:29:55.675223+00:00",
+  "snapshot_time": "2026-05-20T08:49:50.950990+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -71982,6 +71982,21 @@
               "idle_seconds": 0,
               "total_elapsed_seconds": 5
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-05-20T08:49:02.915Z",
+            "data": {
+              "session_id": "session_1779266942390_i5vfi2o",
+              "source_id": "arxiv",
+              "paper_id": "2602.15829",
+              "start_time": "2026-05-20T08:48:16.488Z",
+              "end_time": "2026-05-20T08:49:02.390Z",
+              "heartbeat_count": 9,
+              "duration_seconds": 45,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 46
+            }
           }
         ]
       },
@@ -71989,7 +72004,7 @@
         "issue_number": 1982,
         "object_id": "interactions:arxiv.2602.15829",
         "created_at": "2026-04-24T08:32:07+00:00",
-        "updated_at": "2026-04-24T09:50:12+00:00",
+        "updated_at": "2026-05-20T08:49:25+00:00",
         "version": 1
       }
     },
@@ -73878,6 +73893,34 @@
         "object_id": "paper:arxiv.2605.13339",
         "created_at": "2026-05-19T15:28:56+00:00",
         "updated_at": "2026-05-19T15:29:19+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.KBMOKmX2he": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "KBMOKmX2he",
+        "url": "https://openreview.net/forum?id=KBMOKmX2he",
+        "title": "LIMA: Less Is More for Alignment",
+        "authors": "Chunting Zhou, Pengfei Liu, Puxin Xu, Srini Iyer, Jiao Sun, Yuning Mao, Xuezhe Ma, Avia Efrat, Ping Yu, LILI YU, Susan Zhang, Gargi Ghosh, Mike Lewis, Luke Zettlemoyer, Omer Levy",
+        "abstract": "Large language models are trained in two stages: (1) unsupervised pretraining from raw text, to learn general-purpose representations, and (2) large scale instruction tuning and reinforcement learning, to better align to end tasks and user preferences. \nWe measure the relative importance of these two stages by training LIMA, a 65B parameter LLaMa language model fine-tuned with the standard supervised loss on only 1,000 carefully curated prompts and responses, without any reinforcement learning or human preference modeling.\nLIMA demonstrates remarkably strong performance, learning to follow specific response formats from only a handful of examples in the training data, including complex queries that range from planning trip itineraries to speculating about alternate history.\nMoreover, the model tends to generalize well to unseen tasks that did not appear in the training data.\nIn a controlled human study, responses from LIMA are either equivalent or strictly preferred to GPT-4 in 43\\% of cases; this statistic is as high as 58\\% when compared to Bard and 65\\% versus DaVinci003, which was trained with human feedback.\nTaken together, these results strongly suggest that almost all knowledge in large language models is learned during pretraining, and only limited instruction tuning data is necessary to teach models to produce high quality output.",
+        "timestamp": "2026-05-20T08:49:03.684Z",
+        "rating": "novote",
+        "publishedDate": "21 Sept 2023",
+        "tags": [
+          "large language models",
+          "supervised instruction fine-tuning",
+          "chat assistant"
+        ],
+        "doi": "",
+        "journalName": "NeurIPS 2023 poster",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2045,
+        "object_id": "paper:openreview.KBMOKmX2he",
+        "created_at": "2026-05-20T08:49:04+00:00",
+        "updated_at": "2026-05-20T08:49:24+00:00",
         "version": 1
       }
     }

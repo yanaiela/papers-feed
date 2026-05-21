@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-05-20T08:51:14.665773+00:00",
+  "snapshot_time": "2026-05-21T14:41:58.131699+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -73921,6 +73921,48 @@
         "object_id": "paper:openreview.KBMOKmX2he",
         "created_at": "2026-05-20T08:49:04+00:00",
         "updated_at": "2026-05-20T08:49:24+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.AQu10cXtC0": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "AQu10cXtC0",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2048,
+        "object_id": "interactions:openreview.AQu10cXtC0",
+        "created_at": "2026-05-21T14:41:33+00:00",
+        "updated_at": "2026-05-21T14:41:35+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.AQu10cXtC0": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "AQu10cXtC0",
+        "url": "https://openreview.net/forum?id=AQu10cXtC0&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2F2026%2FWorkshop%2FBigPicture%2FProgram_Chairs%23submission-status)",
+        "title": "Language Models as Measurement Apparatus for Culture",
+        "authors": "Kent K. Chang",
+        "abstract": "Language models are increasingly used to quantify cultural phenomena, but what makes such measurement distinctively \\textit{cultural}?\nThis paper argues that NLP work on culture is a \\textit{material-discursive practice}: the apparatus---model, data, annotation, evaluation---participates in constituting the cultural reality it measures, rather than passively recording it.\nDrawing on Karen Barad's concept of the \\textit{agential cut}---the contingent boundary between phenomenon and instrument---I show that the apparatus's substantive design choices draw such boundaries, and that the boundary is entangled from the start because language models have already internalized much of the cultural material they measure.\nI illustrate this through three case studies on television and film dialogue and two examinations of the apparatus itself: erasure of character names as cultural markers, and attunement to historically distant Restoration drama.\nThis big picture analysis proposes a research program that is theory-driven, empirically rigorous, and culturally contingent, treating each agential cut as a conscious commitment.",
+        "timestamp": "2026-05-21T14:40:51.527Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "language models",
+          "operationalization",
+          "cultural analytics"
+        ],
+        "doi": "",
+        "journalName": "ACL 2026 Workshop BigPicture Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2047,
+        "object_id": "paper:openreview.AQu10cXtC0",
+        "created_at": "2026-05-21T14:40:52+00:00",
+        "updated_at": "2026-05-21T14:41:25+00:00",
         "version": 1
       }
     }

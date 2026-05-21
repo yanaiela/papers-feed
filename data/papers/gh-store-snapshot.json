@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-05-21T14:41:58.131699+00:00",
+  "snapshot_time": "2026-05-21T19:28:42.301479+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -73963,6 +73963,33 @@
         "object_id": "paper:openreview.AQu10cXtC0",
         "created_at": "2026-05-21T14:40:52+00:00",
         "updated_at": "2026-05-21T14:41:25+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2408.01416": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2408.01416",
+        "url": "https://arxiv.org/abs/2408.01416",
+        "title": "The Quest for the Right Mediator: Surveying Mechanistic Interpretability Through the Lens of Causal Mediation Analysis",
+        "authors": "Aaron Mueller, Jannik Brinkmann, Millicent Li, Samuel Marks, Koyena Pal, Nikhil Prakash, Can Rager, Aruna Sankaranarayanan, Arnab Sen Sharma, Jiuding Sun, Eric Todd, David Bau, Yonatan Belinkov",
+        "abstract": "Interpretability provides a toolset for understanding how and why neural networks behave in certain ways. However, there is little unity in the field: most studies employ ad-hoc evaluations and do not share theoretical foundations, making it difficult to measure progress and compare the pros and cons of different techniques. Furthermore, while mechanistic understanding is frequently discussed, the basic causal units underlying these mechanisms are often not explicitly defined. In this article, we propose a perspective on interpretability research grounded in causal mediation analysis. Specifically, we describe the history and current state of interpretability taxonomized according to the types of causal units (mediators) employed, as well as methods used to search over mediators. We discuss the pros and cons of each mediator, providing insights as to when particular kinds of mediators and search methods are most appropriate. We argue that this framing yields a more cohesive narrative of the field and helps researchers select appropriate methods based on their research objective. Our analysis yields actionable recommendations for future work, including the discovery of new mediators and the development of standardized evaluations tailored to these goals.",
+        "timestamp": "2026-05-21T19:27:51.549Z",
+        "rating": "novote",
+        "publishedDate": "2024/08/02",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2049,
+        "object_id": "paper:arxiv.2408.01416",
+        "created_at": "2026-05-21T19:27:52+00:00",
+        "updated_at": "2026-05-21T19:28:13+00:00",
         "version": 1
       }
     }

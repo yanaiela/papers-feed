@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-05-22T06:34:24.391649+00:00",
+  "snapshot_time": "2026-05-22T15:55:32.347875+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -74160,6 +74160,92 @@
         "object_id": "paper:arxiv.2501.12948",
         "created_at": "2026-05-22T06:33:41+00:00",
         "updated_at": "2026-05-22T06:34:01+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.CB3S2eQqCk": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "CB3S2eQqCk",
+        "url": "https://openreview.net/forum?id=CB3S2eQqCk&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2026%2FConference%2FArea_Chairs%23assigned-submissions)",
+        "title": "What to Forget in Unlearning? Forget Set Curation for Language Models",
+        "authors": "",
+        "abstract": "Machine unlearning aims to remove targeted data or behaviors from a trained model without retraining from scratch. Yet most evaluations assume that the examples to forget are already known. In realistic language-model deployments, a requester may ask a model to stop reproducing a song or book without knowing which spans, documents, quotations, or near-duplicates in a trillion-token corpus support that behavior. We study this missing upstream problem, *forget set curation*: mapping a suppression request to the data passed to an unlearning algorithm. We introduce **CleanSlate**, a benchmark for verbatim output suppression over songs and books, with model-specific extraction profiles, content-grounded QA, and capability-retention evaluations. CleanSlate exposes two failure modes. Natural lexical and exact-substring curators often yield forget sets that lead to weak suppression. An evaluation-aware curator suppresses requested continuations almost completely, but causes collateral regression on non-requested  content and model-dependent capability loss. These results show that practical unlearning is not only an optimization problem once a forget set is given: the data chosen for forgetting determines both what can be unlearnt and what else is damaged.",
+        "timestamp": "2026-05-22T15:54:47.804Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "NeurIPS 2026 Conference Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2059,
+        "object_id": "paper:openreview.CB3S2eQqCk",
+        "created_at": "2026-05-22T15:54:48+00:00",
+        "updated_at": "2026-05-22T15:55:10+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.vx4bu7BamD": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "vx4bu7BamD",
+        "url": "https://openreview.net/forum?id=vx4bu7BamD&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2026%2FConference%2FArea_Chairs%23assigned-submissions)",
+        "title": "A Fair Evaluation Framework Based on Unlearning",
+        "authors": "",
+        "abstract": "Benchmark contamination threatens fair evaluation of large language models, as reported scores may be inflated by benchmark items, near-duplicates, or answer patterns encountered during pretraining. While prior work mitigates this issue through contamination detection, refreshed benchmarks, or inference-time rewriting, many widely used benchmarks could not be simply be discarded. This raises a practical question: how can we obtain reliable evaluation signals for fairly comparing models on the original benchmark when standard reported scores may already be influenced by leakage? We propose an intervention-based evaluation protocol that derives a less leakage-sensitive signal from an existing benchmark. Instead of directly treating the standard benchmark score as the final comparison, we first weaken benchmark-specific answer associations through contradiction-based unlearning on the evaluation split, where each input is paired with alternative answers from its candidate answer space. We then retrain the intervened model on the official training split using the same supervised pipeline. The resulting relearned performance serves as a leakage-reduced signal for model comparison, while the gap from the standard score indicates how much of the original performance is not stably recovered after benchmark-specific answer memory has been weakened. Across multiple model families and benchmarks, contradiction-based unlearning reduces target-benchmark performance close to random, while retraining restores it only partially. Cross-dataset and related-task analyses show that non-target trainability is largely preserved, suggesting selective suppression of benchmark-specific answer associations rather than broad model damage. These results support benchmark unlearning followed by relearning as a practical diagnostic tool for fairer evaluation on existing benchmarks under possible leakage. Our repository is available at https://anonymous.4open.science/r/e-F278.",
+        "timestamp": "2026-05-22T15:54:42.220Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "NeurIPS 2026 Conference Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2058,
+        "object_id": "paper:openreview.vx4bu7BamD",
+        "created_at": "2026-05-22T15:54:42+00:00",
+        "updated_at": "2026-05-22T15:55:02+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.qZJHM44aet": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "qZJHM44aet",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2057,
+        "object_id": "interactions:openreview.qZJHM44aet",
+        "created_at": "2026-05-22T15:54:40+00:00",
+        "updated_at": "2026-05-22T15:54:42+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.qZJHM44aet": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "qZJHM44aet",
+        "url": "https://openreview.net/forum?id=qZJHM44aet&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2026%2FConference%2FArea_Chairs%23assigned-submissions)",
+        "title": "Extracting Training Data from Diffusion Language Models via Infilling",
+        "authors": "",
+        "abstract": "Memorization in large language models has been studied almost exclusively through prefix-conditioned extraction, a natural choice for autoregressive models. However, diffusion language models (DLMs) can denoise masked tokens at arbitrary positions. Thus, prefix-only probing reveals only one facet of memorization in DLMs and significantly underestimates the risk of training-data extraction. \n  \n  In order to realistically model extractability of training data in DLMs, we introduce infilling extraction, a data-extraction protocol parameterized by an arbitrary binary mask that subsumes prefix-only probing and accounts for the bidirectional inductive bias of DLMs. Instantiating it on LLaDA-8B and Dream-7B across five extraction modes, three training pipelines, and three corpora covering verbatim and partial leakage, we find that mask geometry governs extractability: edge-conditioned masks extract up to three times more verbatim sequences than prefix-conditioned ones, and bidirectional access opens channels inaccessible in autoregressive models.\n  In particular, we show that a realistic adversary with access to training data where personally identifiable information has been redacted, can even achieve higher recall on extracting redacted email addresses from DLMs than from scale-matched autoregressive models. \n  Tunable parameters for decoding measurably affect extraction performance, while a follow-up supervised finetuning stage does not eliminate the prior memorization.",
+        "timestamp": "2026-05-22T15:54:26.888Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "NeurIPS 2026 Conference Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2055,
+        "object_id": "paper:openreview.qZJHM44aet",
+        "created_at": "2026-05-22T15:54:27+00:00",
+        "updated_at": "2026-05-22T15:54:50+00:00",
         "version": 1
       }
     }

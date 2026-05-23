@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-05-22T15:55:32.347875+00:00",
+  "snapshot_time": "2026-05-23T07:00:55.866116+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -74246,6 +74246,150 @@
         "object_id": "paper:openreview.qZJHM44aet",
         "created_at": "2026-05-22T15:54:27+00:00",
         "updated_at": "2026-05-22T15:54:50+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.TCB4gWgKff": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "TCB4gWgKff",
+        "url": "https://openreview.net/forum?id=TCB4gWgKff&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2026%2FConference%2FArea_Chairs%23assigned-submissions)",
+        "title": "Positional versus Symbolic Attention Heads: Learning Dynamics, RoPE Geometry, and Length Generalization",
+        "authors": "",
+        "abstract": "Transformer-based language models are widespread in today's society. As such, understanding the mechanisms by which they solve structured tasks and predicting how they may behave in novel scenarios is of great importance for safe deployment. We study the learning dynamics of attention heads in a controlled setting by training a decoder-only Transformer (GPT-J) on two structurally equivalent multi-hop reasoning tasks: a number task requiring positional reasoning and a letter task requiring symbolic reasoning. Using a recently introduced metric that classifies attention-head behavior as positional or symbolic for a given prompt, we show that successful learning is associated with the emergence of pure heads, i.e., heads that express themselves as either positional or symbolic. Despite the tasks' structural equivalence, they impose different mechanistic demands: the number task requires both positional and symbolic heads, whereas the letter task requires only symbolic heads. We then identify the computational roles of these heads, characterize the basic functions they implement, and give theoretical constructions showing how single-layer RoPE-based attention can realize these functions through geometrically interpretable query, key, and value operations. This analysis yields a quantitative separation between positional and symbolic mechanisms in their robustness to longer sequences, formalized through a novel notion of discrepancy. We empirically validate the resulting predictions in both controlled and real-world models, showing that symbolic mechanisms extrapolate more reliably to longer sequences while positional mechanisms face sharper limitations.",
+        "timestamp": "2026-05-23T07:00:05.563Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "NeurIPS 2026 Conference Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2066,
+        "object_id": "paper:openreview.TCB4gWgKff",
+        "created_at": "2026-05-23T07:00:05+00:00",
+        "updated_at": "2026-05-23T07:00:26+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.hSpxokJUlw": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "hSpxokJUlw",
+        "url": "https://openreview.net/forum?id=hSpxokJUlw&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2026%2FConference%2FArea_Chairs%23assigned-submissions)",
+        "title": "Binding Decoupling: A Scale-Aware Diagnostic of When LLMs Know but Refuse to Say",
+        "authors": "",
+        "abstract": "Large language models often suppress correct answers that their own next-token distribution prefers, but the phenomenon has been studied in disconnected slices (factual hallucination, math reasoning, chain-of-thought success) with no shared metric. We propose the **Binding Decoupling Measure**, $\\mathrm{BDM} = P(O = 0 \\mid L = 1)$, where $L \\in \\{0, 1\\}$ is an internal-probe indicator that the model's distribution places the correct token in its top-$k$ logits and $O \\in \\{0, 1\\}$ indicates whether the generated output is correct (we use $k = 10$ throughout). $\\mathrm{BDM}$ is therefore the probability that the model says the wrong thing exactly when its distribution knew the right one. Studied across $5$ architectures $\\times$ \\{base, instruct\\} $= 10$ checkpoints (Qwen2.5-1.5B, Qwen3-4B, Gemma-2-2B, Mistral-7B, OLMo-2-7B), BDM is universal, structured, and scale-aware: confabulation drives $\\mathrm{BDM} \\geq 0.82$ in every instruction-tuned model, the per-category ordering is identical across families, and the signature survives instruction tuning unchanged (base-to-instruct gap $\\le 0.083$), establishing confabulation as pre-training-encoded rather than RLHF-induced. On TruthfulQA, accuracy varies $4\\times$ across architectures while BDM stays in a tight $90\\text{-}97\\%$ band, separating BDM from accuracy as an independent signal. Edge attribution patching localizes the responsible circuit in each family, but the circuits do not transfer: top-$10$ attention-head Jaccard between any two architectures is exactly $0$. Causal ablation of each family's localized heads reproduces the predicted asymmetric BDM signature on all $10$ checkpoints; control ablations do not. **The behavior is portable; the mechanism is not.** Code, data, and per-checkpoint attribution scores are released.",
+        "timestamp": "2026-05-23T07:00:04.092Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "NeurIPS 2026 Conference Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2065,
+        "object_id": "paper:openreview.hSpxokJUlw",
+        "created_at": "2026-05-23T07:00:04+00:00",
+        "updated_at": "2026-05-23T07:00:24+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.G3uYj9hfg8": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "G3uYj9hfg8",
+        "url": "https://openreview.net/forum?id=G3uYj9hfg8&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2026%2FConference%2FArea_Chairs%23assigned-submissions)",
+        "title": "Understanding Internal Knowledge Conflict Resolution Mechanism in Language Models",
+        "authors": "",
+        "abstract": "Knowledge conflict adversely affects language model response accuracy and reliability. While external methods for detecting and resolving such conflicts exist, how language models internally resolve them remains largely unexplored. Using a curated synthetic dataset and mechanistic interpretability on GPT-2 XL (verified on Qwen3-4B), we analyze and compare the internal resolution mechanisms of intra-memory and context-memory conflicts, and address prompt sensitivity as a direct implication. We find no universal circuit for conflict resolution; instead, the model aggregates predictions across all components, with the dominant contributor shifting based on conflict presence. Under non-conflict conditions, content-sensitive attention heads cleanly drive resolution. Under intra-memory conflict, these heads lose discriminative signal, causing the model to fall back on static components, namely the model's bias term and attention-sink heads. We identify five functional head types (\\emph{sink/bias}, \\emph{selective}, \\emph{selective-suppressor}, \\emph{suppressor}, and \\emph{broadcaster}) whose proportions are shaped by the amount of discriminative information in the prompt. This taxonomy is preserved across conflict types, but context-memory conflict recruits substantially more formerly-parked sink heads into active processing and alters their attention patterns. Finally, prompt sensitivity emerges as a direct consequence of this fallback as slight changes in prompt template shift attention head behavior enough to measurably affect model output.",
+        "timestamp": "2026-05-23T07:00:02.968Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "NeurIPS 2026 Conference Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2064,
+        "object_id": "paper:openreview.G3uYj9hfg8",
+        "created_at": "2026-05-23T07:00:03+00:00",
+        "updated_at": "2026-05-23T07:00:24+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.7c1usrLO7M": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "7c1usrLO7M",
+        "url": "https://openreview.net/forum?id=7c1usrLO7M&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2026%2FConference%2FArea_Chairs%23assigned-submissions)",
+        "title": "On the Dynamics of Interpretability in Language Model Pre-training",
+        "authors": "",
+        "abstract": "Recent interpretability studies focus on the hidden representation in a language model to understand what features a language model learns. And feature-discovery methods have made many model-internal features observable. Yet feature descriptions obtained from one model, layer, or training stage often transfer poorly to another, and it remains unclear which aspects of training determine this mismatch. We study this question through the dynamics of interpretability in language model pre-training. We recursively decompose the hidden representations in a model's training. Our decomposition identifies how the interpretability evolves during the training among different widths (hidden dimension), depth (representation source layer), and training step. To validate our analysis, we conducted experiments using a large number of probes on various semantics to approximate the dynamics of interpretability. We find that interpretability scales as a power-law in terms of model width, representation depth, and amplifies with training step. These relationships allow us to understand how interpretability emerges during the language model pre-training.",
+        "timestamp": "2026-05-23T07:00:01.400Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "NeurIPS 2026 Conference Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2063,
+        "object_id": "paper:openreview.7c1usrLO7M",
+        "created_at": "2026-05-23T07:00:01+00:00",
+        "updated_at": "2026-05-23T07:00:23+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.HS1eFNkij8": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "HS1eFNkij8",
+        "url": "https://openreview.net/forum?id=HS1eFNkij8&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2026%2FConference%2FArea_Chairs%23assigned-submissions)",
+        "title": "Output Vector Editing for Memorization Mitigation in Large Language Models",
+        "authors": "",
+        "abstract": "Large language models memorize and reproduce sequences from their training data, creating privacy, copyright, and security risks. Existing neuron-level mitigation methods equate editing with zeroing out neuron activations, but the activation only controls whether a neuron engages; the output vector is what writes to the residual stream and, through superposition, encodes multiple features. We propose output vector editing, a constrained-optimization weight edit that locates a small set of MLP neurons responsible for a memorized continuation and minimally modifies their output vectors to introduce a distractor in vocabulary space, redirecting their residual-stream contributions while leaving activations unchanged. Evaluating on four models from 360M to 7B parameters (SmolLM-360M, OLMo-1B, OLMo-7B, Llama2-7B), we center on OLMo-7B (whose open weights and pretraining corpus enable systematic mining) and mine 6831 memorized sequences, achieving up to 87.9\\% suppression. The 2.7$\\times$ gap over zero ablation on the same located neurons shows the suppression comes from the output-vector edit, not localization alone. Four edit modes span a spectrum from aggressive suppression to minimal redirection; in ensemble they cover 96.5\\% of memorized sequences, while our recommended single-mode configuration reaches 81.5\\% with no catastrophic locality failures. We further identify a mechanistic boundary at ${\\sim}14\\\\%$ of sequences unreachable by MLP-only editing; while these failures are not attention-driven overall, ablating the top contributing attention heads recovers 60--64\\% of them, with stronger recovery on continuations that copy tokens from the prefix, positioning attention as a complementary fallback rather than a primary mechanism. Edit mode ordering and the success-locality trade-off transfer across all four models, with success rates scaling with model size rather than family.",
+        "timestamp": "2026-05-23T06:59:59.790Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "NeurIPS 2026 Conference Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2061,
+        "object_id": "paper:openreview.HS1eFNkij8",
+        "created_at": "2026-05-23T07:00:00+00:00",
+        "updated_at": "2026-05-23T07:00:23+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.U3GUy7xRmI": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "U3GUy7xRmI",
+        "url": "https://openreview.net/forum?id=U3GUy7xRmI&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2026%2FConference%2FArea_Chairs%23assigned-submissions)",
+        "title": "The Master Key Hypothesis: Unlocking Cross-Model Capability Transfer via Linear Subspace Alignment",
+        "authors": "",
+        "abstract": "We investigate whether post-trained capabilities can be transferred across model scales without retraining, and propose the Master Key Hypothesis, which states that model capabilities correspond to directions in a low-dimensional latent subspace that induce specific behaviors and are transferable across models through linear alignment. Based on the hypothesis, we introduce UNLOCK, a training-free and label-free framework that extracts a capability direction by contrasting activations between capability-present and capability-absent Source variants, aligns it with a Target model through a low-rank linear transformation, and applies it at inference time to elicit the behavior. Experiments on reasoning behaviors, including Chain-of-Thought (CoT) and mathematical reasoning, demonstrate substantial improvements across model scales without training. For example, transferring CoT reasoning from Qwen1.5-14B to Qwen1.5-7B yields an accuracy gain of 12.1% on MATH, and transferring a mathematical reasoning direction from Qwen3-4B-Base to Qwen3-14B-Base improves AGIEval Math accuracy from 61.1% to 71.3%, surpassing the 67.8% achieved by the 14B post-trained model. Our analysis shows that the success of transfer depends on the capabilities learned during pre-training, and that our intervention amplifies latent capabilities by sharpening the output distribution toward successful reasoning trajectories.",
+        "timestamp": "2026-05-23T06:59:58.110Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "NeurIPS 2026 Conference Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2060,
+        "object_id": "paper:openreview.U3GUy7xRmI",
+        "created_at": "2026-05-23T06:59:58+00:00",
+        "updated_at": "2026-05-23T07:00:18+00:00",
         "version": 1
       }
     }

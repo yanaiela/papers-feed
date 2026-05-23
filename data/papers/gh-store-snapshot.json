@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-05-23T07:00:55.866116+00:00",
+  "snapshot_time": "2026-05-23T07:45:56.822829+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -74390,6 +74390,46 @@
         "object_id": "paper:openreview.U3GUy7xRmI",
         "created_at": "2026-05-23T06:59:58+00:00",
         "updated_at": "2026-05-23T07:00:18+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2605.22705": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2605.22705",
+        "url": "https://arxiv.org/abs/2605.22705",
+        "title": "Tokenization with Split Trees",
+        "authors": "Craig W. Schmidt, Michael Krumdick, Adam Wiemerslage, Seth Ebner, Varshini Reddy, Yuval Pinter, Chris Tanner",
+        "abstract": "We introduce Tokenization with Split Trees (ToaST), a subword tokenization method that directly optimizes compression under a new recursive inference procedure. ToaST greedily splits each pretoken into a full binary tree using precomputed byte n-gram counts, independent of any vocabulary. Given a vocabulary, inference recursively descends each split tree and emits the first in-vocabulary node reached on each path. Vocabulary selection is formulated as an Integer Program (IP) that minimizes the total token count over all split trees under this inference procedure. The Linear Programming (LP) relaxation is near-integral in practice, yielding provably near-optimal vocabularies, with training time empirically scaling quadratically in the number of split trees. On English text, ToaST reduces token counts by more than 11% compared to BPE, WordPiece, and UnigramLM at vocabulary sizes of 40,960 and above, reducing the number of inference tokens for models using this tokenizer, thus extending the effective context length. ToaST also uses common single-byte tokens less frequently than these baselines, leading to a substantial improvement in Renyi efficiency. In experiments training 1.5B parameter language models, ToaST achieves the highest CORE score, outperforming baselines by 2.6%--7.6%, with significance for two of three, and scoring best on 13 of 22 individual tasks.",
+        "timestamp": "2026-05-23T07:44:54.129Z",
+        "rating": "novote",
+        "publishedDate": "2026/05/21",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2068,
+        "object_id": "paper:arxiv.2605.22705",
+        "created_at": "2026-05-23T07:44:54+00:00",
+        "updated_at": "2026-05-23T07:45:18+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.G3uYj9hfg8": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "G3uYj9hfg8",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2067,
+        "object_id": "interactions:openreview.G3uYj9hfg8",
+        "created_at": "2026-05-23T07:01:44+00:00",
+        "updated_at": "2026-05-23T07:01:46+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-05-24T10:27:12.203046+00:00",
+  "snapshot_time": "2026-05-24T10:34:20.516444+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -74649,6 +74649,33 @@
         "object_id": "interactions:arxiv.2605.20285",
         "created_at": "2026-05-23T07:52:27+00:00",
         "updated_at": "2026-05-24T06:10:19+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.08867": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.08867",
+        "url": "https://arxiv.org/abs/2510.08867",
+        "title": "ReviewerToo: Should AI Join The Program Committee? A Look At The Future of Peer Review",
+        "authors": "Gaurav Sahu, Hugo Larochelle, Laurent Charlin, Christopher Pal",
+        "abstract": "Peer review is the cornerstone of scientific publishing, yet it suffers from inconsistencies, reviewer subjectivity, and scalability challenges. We introduce ReviewerToo, a modular framework for studying and deploying AI-assisted peer review to complement human judgment with systematic and consistent assessments. ReviewerToo supports systematic experiments with specialized reviewer personas and structured evaluation criteria, and can be partially or fully integrated into real conference workflows. We validate ReviewerToo on a carefully curated dataset of 1,963 paper submissions from ICLR 2025, where our experiments with the gpt-oss-120b model achieves 81.8% accuracy for the task of categorizing a paper as accept/reject compared to 83.9% for the average human reviewer. Additionally, ReviewerToo-generated reviews are rated as higher quality than the human average by an LLM judge, though still trailing the strongest expert contributions. Our analysis highlights domains where AI reviewers excel (e.g., fact-checking, literature coverage) and where they struggle (e.g., assessing methodological novelty and theoretical contributions), underscoring the continued need for human expertise. Based on these findings, we propose guidelines for integrating AI into peer-review pipelines, showing how AI can enhance consistency, coverage, and fairness while leaving complex evaluative judgments to domain experts. Our work provides a foundation for systematic, hybrid peer-review systems that scale with the growth of scientific publishing.",
+        "timestamp": "2026-05-24T10:33:32.239Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/09",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2072,
+        "object_id": "paper:arxiv.2510.08867",
+        "created_at": "2026-05-24T10:33:32+00:00",
+        "updated_at": "2026-05-24T10:33:50+00:00",
         "version": 1
       }
     }

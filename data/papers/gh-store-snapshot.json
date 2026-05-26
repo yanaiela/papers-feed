@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-05-26T18:50:44.655565+00:00",
+  "snapshot_time": "2026-05-26T18:53:05.456326+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -74973,6 +74973,33 @@
         "object_id": "paper:arxiv.2605.25052",
         "created_at": "2026-05-26T18:49:34+00:00",
         "updated_at": "2026-05-26T18:49:55+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.WqUo9oKpcX": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "WqUo9oKpcX",
+        "url": "https://openreview.net/forum?id=WqUo9oKpcX",
+        "title": "The Geometric Canary: Predicting Steerability and Detecting Drift via Representational Stability",
+        "authors": "",
+        "abstract": "Reliable deployment of language models requires two capabilities that appear distinct but share a common geometric foundation: predicting whether a model will accept targeted behavioral control, and detecting when its internal structure degrades. We show that geometric stability, the consistency of a representation's pairwise distance structure, addresses both. Supervised Shesha variants that measure task-aligned geometric stability predict linear steerability with near-perfect accuracy ($\\rho = 0.89$-$0.97$) across 35-69 embedding models and three NLP tasks, capturing unique variance beyond class separability (partial $\\rho = 0.62$-$0.76$). A critical dissociation emerges: unsupervised stability fails entirely for steering on real-world tasks ($\\rho \\approx 0.10$), revealing that task alignment is essential for controllability prediction. However, unsupervised stability excels at drift detection, measuring nearly $2\\times$ greater geometric change than CKA during post-training alignment (up to $5.23\\times$ in Llama) while providing earlier warning in 73\\% of models and maintaining a $6\\times$ lower false alarm rate than Procrustes. Together, supervised and unsupervised stability form complementary diagnostics for the LLM deployment lifecycle: one for pre-deployment controllability assessment, the other for post-deployment monitoring.",
+        "timestamp": "2026-05-26T18:52:09.115Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Applications of interpretability",
+          "Interpretability tooling and software"
+        ],
+        "doi": "",
+        "journalName": "ICML 2026 Workshop Mech Interp Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2080,
+        "object_id": "paper:openreview.WqUo9oKpcX",
+        "created_at": "2026-05-26T18:52:09+00:00",
+        "updated_at": "2026-05-26T18:52:36+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-05-26T18:53:42.533355+00:00",
+  "snapshot_time": "2026-05-26T20:17:56.181039+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -75030,6 +75030,33 @@
         "object_id": "interactions:openreview.WqUo9oKpcX",
         "created_at": "2026-05-26T18:52:43+00:00",
         "updated_at": "2026-05-26T18:53:12+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2604.03754": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.03754",
+        "url": "https://arxiv.org/abs/2604.03754",
+        "title": "Testing the Limits of Truth Directions in LLMs",
+        "authors": "Angelos Poulis, Mark Crovella, Evimaria Terzi",
+        "abstract": "Large language models (LLMs) have been shown to encode truth of statements in their activation space along a linear truth direction. Previous studies have argued that these directions are universal in certain aspects, while more recent work has questioned this conclusion drawing on limited generalization across some settings. In this work, we identify a number of limits of truth-direction universality that have not been previously understood. We first show that truth directions are highly layer-dependent, and that a full understanding of universality requires probing at many layers in the model. We then show that truth directions depend heavily on task type, emerging in earlier layers for factual and later layers for reasoning tasks; they also vary in performance across levels of task complexity. Finally, we show that model instructions dramatically affect truth directions; simple correctness evaluation instructions significantly affect the generalization ability of truth probes. Our findings indicate that universality claims for truth directions are more limited than previously known, with significant differences observable for various model layers, task difficulties, task types, and prompt templates.",
+        "timestamp": "2026-05-26T20:17:07.863Z",
+        "rating": "novote",
+        "publishedDate": "2026/04/04",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2082,
+        "object_id": "paper:arxiv.2604.03754",
+        "created_at": "2026-05-26T20:17:08+00:00",
+        "updated_at": "2026-05-26T20:17:29+00:00",
         "version": 1
       }
     }

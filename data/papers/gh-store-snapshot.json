@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-06-04T09:00:16.416907+00:00",
+  "snapshot_time": "2026-06-04T09:01:50.079271+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -75636,6 +75636,130 @@
         "object_id": "paper:openreview.0gs11R6gCM",
         "created_at": "2026-06-04T08:58:49+00:00",
         "updated_at": "2026-06-04T08:59:10+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.0gs11R6gCM": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "0gs11R6gCM",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-06-04T09:00:50.515Z",
+            "data": {
+              "session_id": "session_1780563650507_9cj53c3",
+              "source_id": "openreview",
+              "paper_id": "0gs11R6gCM",
+              "start_time": "2026-06-04T09:00:36.982Z",
+              "end_time": "2026-06-04T09:00:50.507Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 14
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 2100,
+        "object_id": "interactions:openreview.0gs11R6gCM",
+        "created_at": "2026-06-04T09:00:51+00:00",
+        "updated_at": "2026-06-04T09:01:21+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.DzpyGJQ6dt": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "DzpyGJQ6dt",
+        "url": "https://openreview.net/forum?id=DzpyGJQ6dt&noteId=DzpyGJQ6dt&invitationId=ICML.cc/2026/Workshop/Mech_Interp/Submission796/-/Meta_Review&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3DICML.cc%2F2026%2FWorkshop%2FMech_Interp%2FArea_Chairs%23assigned-submissions)",
+        "title": "When Does Interleaving Prevent Emergent Misalignment?",
+        "authors": "",
+        "abstract": "Large language models finetuned on narrow harmful tasks are prone to\nemergent misalignment (EM), where harmful behavior generalizes beyond the\ntraining distribution. Interleaving benign data during finetuning has been\nproposed as a mitigation, but recent work disagrees on whether it prevents\nEM. In this paper, we investigate this disagreement on Qwen-2.5 7B and 32B, and find that no single property of the interleaved data, taken\nin isolation, accounts for the gap. Instead, much of it traces to the\nevaluation itself, as the standard EM benchmark is sensitive to the length\nof the prompts it uses, and lengthening the evaluation prompts substantially\nshifts measured misalignment across model sizes. We then identify a\nregion in the model's activations that predicts whether a given\ninterleaved set will prevent EM, and show that reformulating benign data\nto fall within it substantially reduces EM on both 7B and 32B. This suggests that the standard EM benchmark, which relies on short prompts, may misrepresent the effectiveness of proposed mitigations.",
+        "timestamp": "2026-06-04T09:00:37.221Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Applications of interpretability"
+        ],
+        "doi": "",
+        "journalName": "ICML 2026 Workshop Mech Interp Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2099,
+        "object_id": "paper:openreview.DzpyGJQ6dt",
+        "created_at": "2026-06-04T09:00:37+00:00",
+        "updated_at": "2026-06-04T09:01:01+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.w6AMDyISCt": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "w6AMDyISCt",
+        "url": "https://openreview.net/forum?id=w6AMDyISCt&noteId=w6AMDyISCt&invitationId=ICML.cc/2026/Workshop/Mech_Interp/Submission521/-/Meta_Review&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3DICML.cc%2F2026%2FWorkshop%2FMech_Interp%2FArea_Chairs%23assigned-submissions)",
+        "title": "Cracks in the Foundation: Seemingly Minor Architectural Choices Impact Long Context Extension",
+        "authors": "",
+        "abstract": "One might imagine that architectural variations within the dense transformer paradigm have a limited effect on accuracy. However, we demonstrate that this is not the case in the long context setting. Specifically, we show that a set of four minor architectural decisions--- all made by at least one of the Olmo, Llama, and Qwen dense model families--- have a compoundingly negative effect on long context extensibility. Any one of these choices alone has a minor impact on long context performance, but combining three or more can drop the performance downstream by up to 47%. Furthermore, these differences are not detectable from short-context loss or validation datasets. We demonstrate this with controlled ablations that hold data, tokenizer, and extension recipe fixed while varying normalization, GQA, pretraining context length, and sliding window attention. We show that much of the variation in long context ability across model families is driven by these architectural features and detectable from applying context extension early in pretraining. After over 170,000 GPU hours of training, we release the resulting set of models as OlmPool, a set of 26 comparable 7B models with checkpoints before and after long-context extension. This pool includes several architectures that outperform the Llama 3 architecture on long context extensibility. In an analysis of our ablation models, we identify patterns in attention sink behavior and attention distributions across context that are attributable to specific architectural differences.",
+        "timestamp": "2026-06-04T09:00:36.325Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Interpretability tooling and software",
+          "Applications of interpretability"
+        ],
+        "doi": "",
+        "journalName": "ICML 2026 Workshop Mech Interp Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2098,
+        "object_id": "paper:openreview.w6AMDyISCt",
+        "created_at": "2026-06-04T09:00:36+00:00",
+        "updated_at": "2026-06-04T09:01:00+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.XbObSkvI5H": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "XbObSkvI5H",
+        "url": "https://openreview.net/forum?id=XbObSkvI5H&noteId=XbObSkvI5H&invitationId=ICML.cc/2026/Workshop/Mech_Interp/Submission112/-/Meta_Review&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3DICML.cc%2F2026%2FWorkshop%2FMech_Interp%2FArea_Chairs%23assigned-submissions)",
+        "title": "Bergson: An Open Source Library for Data Attribution",
+        "authors": "",
+        "abstract": "Data attribution is a promising field in interpretability that aims to explain model behavior through the influence of its training data, with applications including debugging undesirable model behavior and training dataset curation. However, significant engineering effort is required to perform it at scale, and many cutting edge techniques lack open-source tooling and support. Bergson is an open source library that aims to enable faster progress in the field by providing a host of techniques that scale to very large language models and pre-training scale datasets. The library natively supports on-disk gradient stores, multi-node distributed training, and quality of life tools for researchers. Finally, we introduce the first open-source implementations of three leading data attribution methods: MAGIC, SOURCE, and TrackStar. The library is available at \\href{https://anonymous.4open.science/r/bergson-D64C/}{this https url}.",
+        "timestamp": "2026-06-04T09:00:34.418Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Training Data Attribution",
+          "Interpretability tooling and software"
+        ],
+        "doi": "",
+        "journalName": "ICML 2026 Workshop Mech Interp Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2097,
+        "object_id": "paper:openreview.XbObSkvI5H",
+        "created_at": "2026-06-04T09:00:34+00:00",
+        "updated_at": "2026-06-04T09:00:59+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.0XWyC74CR8": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "0XWyC74CR8",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2096,
+        "object_id": "interactions:openreview.0XWyC74CR8",
+        "created_at": "2026-06-04T09:00:27+00:00",
+        "updated_at": "2026-06-04T09:00:30+00:00",
         "version": 1
       }
     }

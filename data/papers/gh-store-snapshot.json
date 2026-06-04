@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-06-04T08:56:44.840336+00:00",
+  "snapshot_time": "2026-06-04T08:58:47.177933+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -75293,6 +75293,21 @@
               "idle_seconds": 1,
               "total_elapsed_seconds": 36
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-06-04T08:57:44.234Z",
+            "data": {
+              "session_id": "session_1780563463408_wzfuanw",
+              "source_id": "openreview",
+              "paper_id": "WqUo9oKpcX",
+              "start_time": "2026-06-04T08:56:31.799Z",
+              "end_time": "2026-06-04T08:57:43.408Z",
+              "heartbeat_count": 14,
+              "duration_seconds": 70,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 72
+            }
           }
         ]
       },
@@ -75300,7 +75315,7 @@
         "issue_number": 2081,
         "object_id": "interactions:openreview.WqUo9oKpcX",
         "created_at": "2026-05-26T18:52:43+00:00",
-        "updated_at": "2026-06-04T08:56:14+00:00",
+        "updated_at": "2026-06-04T08:58:05+00:00",
         "version": 1
       }
     },
@@ -75413,6 +75428,76 @@
         "object_id": "paper:arxiv.1710.09829",
         "created_at": "2026-05-27T18:03:45+00:00",
         "updated_at": "2026-05-27T18:04:11+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.nAF339DOb0": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "nAF339DOb0",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2088,
+        "object_id": "interactions:openreview.nAF339DOb0",
+        "created_at": "2026-06-04T08:58:08+00:00",
+        "updated_at": "2026-06-04T08:58:11+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.rkloeJAWnz": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "rkloeJAWnz",
+        "url": "https://openreview.net/forum?id=rkloeJAWnz&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3DICML.cc%2F2026%2FWorkshop%2FMech_Interp%2FArea_Chairs%23assigned-submissions)",
+        "title": "Observing and Controlling Features in Vision-Language-Action Models",
+        "authors": "",
+        "abstract": "Vision-Language-Action Models (VLAs) have shown remarkable progress towards embodied intelligence. While their architecture partially resembles that of Large Language Models (LLMs), VLAs exhibit higher complexity due to their multi-modal inputs/outputs and often hybrid nature of transformer and diffusion heads. This is part of the reason why insights from mechanistic interpretability in LLMs, which explain how the internal model representations relate to their output behavior, do not trivially transfer to VLA counterparts. In this work, we study the linear separability of action-relevant features across VLA architectures, and show that observability varies significantly by design: in the transformer-based OpenVLA, action-relevant features are poorly linearly separable, whereas in the hybrid architecture $\\pi_{0.5}$, such features are accurately recovered from internal representations. Building on this, we show that lightweight linear interventions grounded in optimal control can reliably steer $\\pi_{0.5}$'s behavior while preserving closed-loop capabilities, enabling alignment with user preferences and task requirements without fine-tuning.",
+        "timestamp": "2026-06-04T08:57:52.213Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Methods (probing",
+          "steering",
+          "causal interventions)",
+          "Applications of interpretability",
+          "Other"
+        ],
+        "doi": "",
+        "journalName": "ICML 2026 Workshop Mech Interp Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2087,
+        "object_id": "paper:openreview.rkloeJAWnz",
+        "created_at": "2026-06-04T08:57:52+00:00",
+        "updated_at": "2026-06-04T08:58:15+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.nAF339DOb0": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "nAF339DOb0",
+        "url": "https://openreview.net/forum?id=nAF339DOb0&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3DICML.cc%2F2026%2FWorkshop%2FMech_Interp%2FArea_Chairs%23assigned-submissions)",
+        "title": "On the Role of Mechanistic Interpretability for Vision-Language Prompt Learning",
+        "authors": "",
+        "abstract": "Recent advances in mechanistic interpretability of vision-language models (VLMs) such as CLIP propose using sparse autoencoders (SAEs) to discover monosemantic, human-understandable features that explain CLIP\u2019s internal representations. Existing work using SAEs to probe VLMs primarily focuses on post-hoc interpretability analysis. We posit that SAE-based interpretability methods are not just probing tools, but can also serve as meaningful training guides for adapting VLMs to downstream tasks. To this end, we propose IPL (Interpretability-Guided Prompt Learning), which leverages SAE decoders to extract interpretable concept directions, composes them into prompt tokens via a learnable attention selector, and injects the resulting tokens into both the vision and text encoder layers of CLIP for adaptation. We further study how prompt tokens obtained by probing vision-only, text-only, and unified concept directions from respective interpretability methods affect performance on downstream tasks. We perform extensive experiments across downstream settings such as base-to-novel generalization, domain generalization, cross-dataset transfer, and few-shot learning. % on 15 datasets.  While IPL using vision-only and text-only concept directions obtains decent gains, IPL with unified concept directions achieves the strongest results, outperforming prior prompt-learning methods % in terms of average accuracy over 15 datasets across all downstream settings.",
+        "timestamp": "2026-06-04T08:57:50.040Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "Applications of interpretability"
+        ],
+        "doi": "",
+        "journalName": "ICML 2026 Workshop Mech Interp Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2086,
+        "object_id": "paper:openreview.nAF339DOb0",
+        "created_at": "2026-06-04T08:57:50+00:00",
+        "updated_at": "2026-06-04T08:58:12+00:00",
         "version": 1
       }
     }

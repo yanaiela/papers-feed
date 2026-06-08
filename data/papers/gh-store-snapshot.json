@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-06-08T13:17:49.905264+00:00",
+  "snapshot_time": "2026-06-08T13:34:38.608510+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -75467,6 +75467,21 @@
               "idle_seconds": 0,
               "total_elapsed_seconds": 30
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-06-08T13:33:16.031Z",
+            "data": {
+              "session_id": "session_1780925595174_yaqv4pk",
+              "source_id": "arxiv",
+              "paper_id": "2605.20285",
+              "start_time": "2026-06-08T13:16:42.604Z",
+              "end_time": "2026-06-08T13:33:15.174Z",
+              "heartbeat_count": 198,
+              "duration_seconds": 990,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 993
+            }
           }
         ]
       },
@@ -75474,7 +75489,7 @@
         "issue_number": 2071,
         "object_id": "interactions:arxiv.2605.20285",
         "created_at": "2026-05-23T07:52:27+00:00",
-        "updated_at": "2026-06-08T13:17:20+00:00",
+        "updated_at": "2026-06-08T13:34:03+00:00",
         "version": 1
       }
     },
@@ -76388,13 +76403,29 @@
       "data": {
         "sourceId": "arxiv",
         "paperId": "2509.26601",
-        "interactions": []
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-06-08T13:33:19.796Z",
+            "data": {
+              "session_id": "session_1780925599358_hkhymsy",
+              "source_id": "arxiv",
+              "paper_id": "2509.26601",
+              "start_time": "2026-06-08T13:33:16.910Z",
+              "end_time": "2026-06-08T13:33:19.358Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 2
+            }
+          }
+        ]
       },
       "meta": {
         "issue_number": 2115,
         "object_id": "interactions:arxiv.2509.26601",
         "created_at": "2026-06-08T10:06:58+00:00",
-        "updated_at": "2026-06-08T10:07:01+00:00",
+        "updated_at": "2026-06-08T13:33:43+00:00",
         "version": 1
       }
     },

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-06-08T14:00:19.918337+00:00",
+  "snapshot_time": "2026-06-08T14:52:39.596606+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -76601,6 +76601,48 @@
         "object_id": "paper:openreview.llbKs0wakR",
         "created_at": "2026-06-08T10:07:34+00:00",
         "updated_at": "2026-06-08T10:07:56+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2605.27912": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2605.27912",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2118,
+        "object_id": "interactions:arxiv.2605.27912",
+        "created_at": "2026-06-08T14:51:51+00:00",
+        "updated_at": "2026-06-08T14:51:54+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2605.27912": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2605.27912",
+        "url": "https://arxiv.org/abs/2605.27912",
+        "title": "Privately Estimating Monotone Statistics in Polynomial Time",
+        "authors": "Gavin Brown, Ephraim Linder, Mahbod Majid, Vikrant Singhal",
+        "abstract": "We study efficient differentially private algorithms for estimating monotone statistics, i.e., statistics that are monotone under the addition of new observations. The starting point for our investigation is subsample-and-aggregate: a classical paradigm that partitions the dataset into blocks, estimates the statistic on each block, and then privately aggregates the estimates. While practical and generically applicable, this approach is quite data-hungry. We improve upon this framework for the class of monotone statistics -- compared to subsample-and-aggregate, our algorithms save a factor of $t$ in sample complexity and pay a factor of $e^t$ in running time, where $t>0$ is a tunable parameter. We complement our results with a query-complexity lower bound, showing that our algorithms are essentially optimal for this task. As an application, we obtain improved results for private eigenvalue estimation, private loss estimation, and privately estimating a single parameter of a high-dimensional model, e.g., in linear regression.",
+        "timestamp": "2026-06-08T14:51:42.229Z",
+        "rating": "novote",
+        "publishedDate": "2026/05/27",
+        "tags": [
+          "Cryptography and Security (cs.CR)",
+          "Data Structures and Algorithms (cs.DS)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2117,
+        "object_id": "paper:arxiv.2605.27912",
+        "created_at": "2026-06-08T14:51:42+00:00",
+        "updated_at": "2026-06-08T14:52:10+00:00",
         "version": 1
       }
     }

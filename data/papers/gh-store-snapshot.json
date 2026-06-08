@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-06-08T10:07:45.067873+00:00",
+  "snapshot_time": "2026-06-08T10:08:33.735509+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -76391,6 +76391,35 @@
         "object_id": "paper:arxiv.2604.20835",
         "created_at": "2026-06-08T10:06:17+00:00",
         "updated_at": "2026-06-08T10:06:41+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.llbKs0wakR": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "llbKs0wakR",
+        "url": "https://openreview.net/forum?id=llbKs0wakR&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2F2026%2FWorkshop%2FBigPicture%2FProgram_Chairs%23submission-status)",
+        "title": "Memorisation Meets Compositionality in Natural Language Processing",
+        "authors": "Verna Dankers",
+        "abstract": "Memorisation in deep learning is undergoing a paradigm shift; it is increasingly recognised as a mechanism that can support, rather than hinder, generalisation. This is particularly relevant in NLP, where language combines compositional, generalisable structure with non-compositional expressions such as idioms, requiring memorisation from models and humans alike. My PhD work investigated memorisation in transformer models in generic terms, and through the lens of (non-)compositionality, from both data and model-internal perspectives.\nI analysed which training examples require memorisation, whether memorisation supports generalisation, and where memorisation occurs within model layers. I also studied how transformers process non-compositional idiom translations and how they balance compositional generalisation with non-compositional memorisation. Based on my findings, I stress that memorisation is an inherent part of learning natural language, can be beneficial, and is partially predictable. Yet it is not cleanly separable from generalisation, both at the level of data and of model parameters. Here, I summarise those findings and reflect on my PhD work.",
+        "timestamp": "2026-06-08T10:07:34.184Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "memorisation",
+          "neural machine translation",
+          "compositionality",
+          "idioms"
+        ],
+        "doi": "",
+        "journalName": "ACL 2026 Workshop BigPicture Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2116,
+        "object_id": "paper:openreview.llbKs0wakR",
+        "created_at": "2026-06-08T10:07:34+00:00",
+        "updated_at": "2026-06-08T10:07:56+00:00",
         "version": 1
       }
     }

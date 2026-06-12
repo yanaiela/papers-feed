@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-06-11T14:08:05.673002+00:00",
+  "snapshot_time": "2026-06-12T14:39:18.949885+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -76809,6 +76809,32 @@
         "object_id": "paper:arxiv.2605.27912",
         "created_at": "2026-06-08T14:51:42+00:00",
         "updated_at": "2026-06-08T14:52:10+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2606.12360": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2606.12360",
+        "url": "https://arxiv.org/abs/2606.12360",
+        "title": "Anatomy of Post-Training: Using Interpretability to Characterize Data and Shape the Learning Signal",
+        "authors": "Leon Bergen, Usha Bhalla, Sidharth Baskaran, Max Loeffler, Raphael Sarfati, Dhruvil Gala, Ryan Panwar, Santiago Aranguri, Thomas Fel, Atticus Geiger, Matthew Kowal, Siddharth Boppana, Daniel Balsam, Owen Lewis, Jack Merullo, Thomas McGrath, Ekdeep Singh Lubana",
+        "abstract": "Language-model post-training is the main stage at which model behavior is shaped, yet it still largely involves optimization of scalar rewards that summarize diverse desiderata. This abstraction gives practitioners little visibility into what their data actually teaches models, allowing spurious correlations to be learned by a model and inducing undesirable behaviors such as over-stylization and sycophancy. To address this problem, we ask: can we inspect a preference dataset before optimization and decide, at the level of concepts, which behaviors a model should be allowed to learn? Motivated by this, we introduce a data-centric post-training pipeline that uses interpretability protocols to develop statistical hypotheses for the latent concepts separating preferred from dispreferred generations, making them explicit for fine-grained user feedback. Building on this view, we unify several interpretability-based training protocols as ways of shaping rewards via feature or data interventions. Empirically, we show that our pipeline diagnoses undesirable signals in existing preference data, mitigates off-target learning, and can also help amplify or shape desired properties such as safeguards and model personality. More broadly, our results suggest that interpretability can turn post-training from optimizing opaque proxy rewards into a process of auditing and sculpting the learning signal itself.",
+        "timestamp": "2026-06-12T14:38:23.514Z",
+        "rating": "novote",
+        "publishedDate": "2026/06/10",
+        "tags": [
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2119,
+        "object_id": "paper:arxiv.2606.12360",
+        "created_at": "2026-06-12T14:38:24+00:00",
+        "updated_at": "2026-06-12T14:38:48+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-06-14T08:44:47.789531+00:00",
+  "snapshot_time": "2026-06-14T08:46:00.231143+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -77117,6 +77117,47 @@
         "object_id": "paper:arxiv.2206.07697",
         "created_at": "2026-06-14T08:43:50+00:00",
         "updated_at": "2026-06-14T08:44:16+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2205.15540": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2205.15540",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2127,
+        "object_id": "interactions:arxiv.2205.15540",
+        "created_at": "2026-06-14T08:45:05+00:00",
+        "updated_at": "2026-06-14T08:45:07+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2205.15540": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2205.15540",
+        "url": "https://arxiv.org/abs/2205.15540",
+        "title": "MACE: An Efficient Model-Agnostic Framework for Counterfactual Explanation",
+        "authors": "Wenzhuo Yang, Jia Li, Caiming Xiong, Steven C.H. Hoi",
+        "abstract": "Counterfactual explanation is an important Explainable AI technique to explain machine learning predictions. Despite being studied actively, existing optimization-based methods often assume that the underlying machine-learning model is differentiable and treat categorical attributes as continuous ones, which restricts their real-world applications when categorical attributes have many different values or the model is non-differentiable. To make counterfactual explanation suitable for real-world applications, we propose a novel framework of Model-Agnostic Counterfactual Explanation (MACE), which adopts a newly designed pipeline that can efficiently handle non-differentiable machine-learning models on a large number of feature values. in our MACE approach, we propose a novel RL-based method for finding good counterfactual examples and a gradient-less descent method for improving proximity. Experiments on public datasets validate the effectiveness with better validity, sparsity and proximity.",
+        "timestamp": "2026-06-14T08:44:37.340Z",
+        "rating": "novote",
+        "publishedDate": "2022/05/31",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2125,
+        "object_id": "paper:arxiv.2205.15540",
+        "created_at": "2026-06-14T08:44:37+00:00",
+        "updated_at": "2026-06-14T08:45:02+00:00",
         "version": 1
       }
     }

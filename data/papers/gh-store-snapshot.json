@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-06-14T08:41:43.639995+00:00",
+  "snapshot_time": "2026-06-14T08:44:47.789531+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -77015,6 +77015,108 @@
         "object_id": "interactions:arxiv.2606.12360",
         "created_at": "2026-06-12T14:41:13+00:00",
         "updated_at": "2026-06-14T08:41:09+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2403.06135": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2403.06135",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2124,
+        "object_id": "interactions:arxiv.2403.06135",
+        "created_at": "2026-06-14T08:44:06+00:00",
+        "updated_at": "2026-06-14T08:44:07+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.03283": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.03283",
+        "url": "https://arxiv.org/abs/2510.03283",
+        "title": "MACE: A Hybrid LLM Serving System with Colocated SLO-aware Continuous Retraining Alignment",
+        "authors": "Yufei Li, Yu Fu, Yue Dong, Cong Liu",
+        "abstract": "Large language models (LLMs) deployed on edge servers are increasingly used in latency-sensitive applications such as personalized assistants, recommendation, and content moderation. However, the non-stationary nature of user data necessitates frequent retraining, which introduces a fundamental tension between inference latency and model accuracy under constrained GPU resources. Existing retraining strategies either delay model updates, over-commit resources to retraining, or overlook iteration-level retraining granularity. In this paper, we identify that iteration-level scheduling is crucial for adapting retraining frequency to model drift without violating service-level objectives (SLOs). We propose MACE, a hybrid LLM system that colocates concurrent inference (prefill, decode) and fine-tuning, with intelligent memory management to maximize task performance while promising inference throughput. MACE leverages the insight that not all model updates equally affect output alignment and allocates GPU cycles accordingly to balance throughput, latency, and update freshness. Our trace-driven evaluation shows that MACE matches or exceeds continuous retraining while reducing inference latency by up to 63% and maintaining throughput under resource constraints. Compared to periodic retraining, MACE improves latency breakdown across prefill, decode, and finetune stages, and sustains GPU utilization above 85% in NVIDIA AGX Orin. These results demonstrate that iteration-level hybrid scheduling is a promising direction for deploying LLMs with continual learning capabilities on edge platforms.",
+        "timestamp": "2026-06-14T08:43:53.681Z",
+        "rating": "novote",
+        "publishedDate": "2025/09/28",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)",
+          "Distributed",
+          "Parallel",
+          "and Cluster Computing (cs.DC)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2123,
+        "object_id": "paper:arxiv.2510.03283",
+        "created_at": "2026-06-14T08:43:54+00:00",
+        "updated_at": "2026-06-14T08:44:16+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2403.06135": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2403.06135",
+        "url": "https://arxiv.org/abs/2403.06135",
+        "title": "MACE: Mass Concept Erasure in Diffusion Models",
+        "authors": "Shilin Lu, Zilan Wang, Leyang Li, Yanzhu Liu, Adams Wai-Kin Kong",
+        "abstract": "The rapid expansion of large-scale text-to-image diffusion models has raised growing concerns regarding their potential misuse in creating harmful or misleading content. In this paper, we introduce MACE, a finetuning framework for the task of mass concept erasure. This task aims to prevent models from generating images that embody unwanted concepts when prompted. Existing concept erasure methods are typically restricted to handling fewer than five concepts simultaneously and struggle to find a balance between erasing concept synonyms (generality) and maintaining unrelated concepts (specificity). In contrast, MACE differs by successfully scaling the erasure scope up to 100 concepts and by achieving an effective balance between generality and specificity. This is achieved by leveraging closed-form cross-attention refinement along with LoRA finetuning, collectively eliminating the information of undesirable concepts. Furthermore, MACE integrates multiple LoRAs without mutual interference. We conduct extensive evaluations of MACE against prior methods across four different tasks: object erasure, celebrity erasure, explicit content erasure, and artistic style erasure. Our results reveal that MACE surpasses prior methods in all evaluated tasks. Code is available at this https URL.",
+        "timestamp": "2026-06-14T08:43:50.141Z",
+        "rating": "novote",
+        "publishedDate": "2024/03/10",
+        "tags": [
+          "Computer Vision and Pattern Recognition (cs.CV)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2122,
+        "object_id": "paper:arxiv.2403.06135",
+        "created_at": "2026-06-14T08:43:50+00:00",
+        "updated_at": "2026-06-14T08:44:10+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2206.07697": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2206.07697",
+        "url": "https://arxiv.org/abs/2206.07697",
+        "title": "MACE: Higher Order Equivariant Message Passing Neural Networks for Fast and Accurate Force Fields",
+        "authors": "Ilyes Batatia, D\u00e1vid P\u00e9ter Kov\u00e1cs, Gregor N. C. Simm, Christoph Ortner, G\u00e1bor Cs\u00e1nyi",
+        "abstract": "Creating fast and accurate force fields is a long-standing challenge in computational chemistry and materials science. Recently, several equivariant message passing neural networks (MPNNs) have been shown to outperform models built using other approaches in terms of accuracy. However, most MPNNs suffer from high computational cost and poor scalability. We propose that these limitations arise because MPNNs only pass two-body messages leading to a direct relationship between the number of layers and the expressivity of the network. In this work, we introduce MACE, a new equivariant MPNN model that uses higher body order messages. In particular, we show that using four-body messages reduces the required number of message passing iterations to just two, resulting in a fast and highly parallelizable model, reaching or exceeding state-of-the-art accuracy on the rMD17, 3BPA, and AcAc benchmark tasks. We also demonstrate that using higher order messages leads to an improved steepness of the learning curves.",
+        "timestamp": "2026-06-14T08:43:49.576Z",
+        "rating": "novote",
+        "publishedDate": "2022/06/15",
+        "tags": [
+          "Machine Learning (stat.ML)",
+          "Materials Science (cond-mat.mtrl-sci)",
+          "Machine Learning (cs.LG)",
+          "Chemical Physics (physics.chem-ph)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2121,
+        "object_id": "paper:arxiv.2206.07697",
+        "created_at": "2026-06-14T08:43:50+00:00",
+        "updated_at": "2026-06-14T08:44:16+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-06-21T18:16:44.729541+00:00",
+  "snapshot_time": "2026-06-22T06:16:02.576519+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -78302,6 +78302,60 @@
         "object_id": "paper:arxiv.2605.03907",
         "created_at": "2026-06-21T12:53:46+00:00",
         "updated_at": "2026-06-21T12:54:06+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2311.08968": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2311.08968",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-06-22T06:15:13.809Z",
+            "data": {
+              "session_id": "session_1782108913147_bf4qv43",
+              "source_id": "arxiv",
+              "paper_id": "2311.08968",
+              "start_time": "2026-06-22T06:15:06.865Z",
+              "end_time": "2026-06-22T06:15:13.147Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 2153,
+        "object_id": "interactions:arxiv.2311.08968",
+        "created_at": "2026-06-22T06:15:14+00:00",
+        "updated_at": "2026-06-22T06:15:41+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2311.08968": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2311.08968",
+        "url": "https://arxiv.org/html/2311.08968v2",
+        "title": "Identifying Linear Relational Concepts in Large Language Models",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-06-22T06:15:07.345Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2152,
+        "object_id": "paper:arxiv.2311.08968",
+        "created_at": "2026-06-22T06:15:08+00:00",
+        "updated_at": "2026-06-22T06:15:29+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-06-22T06:35:59.281687+00:00",
+  "snapshot_time": "2026-06-23T07:20:30.612876+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -78446,6 +78446,33 @@
         "object_id": "paper:arxiv.2311.08968",
         "created_at": "2026-06-22T06:15:08+00:00",
         "updated_at": "2026-06-22T06:15:29+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2606.19749": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2606.19749",
+        "url": "https://arxiv.org/abs/2606.19749",
+        "title": "Benchmarking Agentic Review Systems",
+        "authors": "Dang Nguyen, Wanqing Hao, Yanai Elazar, Chenhao Tan",
+        "abstract": "A new class of agentic review systems are emerging as a remedy to the pressure placed on peer review systems by AI-assisted research, but it is unclear how they should be evaluated. We evaluate two open-source systems (OpenAIReview and coarse), one proprietary system (Reviewer3), and a zero-shot baseline, across six LLMs spanning frontier and efficient models. First, we study whether AI reviews on ICLR/NeurIPS papers track with papers' quality as approximated by external signals such as citations and acceptance decisions. Every system performs above chance in pairwise accuracy, and the best is OpenAIReview + GPT-5.5 at 83.0%. Second, to test whether systems can catch errors with known ground truth, we construct a perturbation benchmark that injects four categories of errors into papers across eight arXiv subject classes and measure detection recall. The strongest configuration (OpenAIReview + GPT-5.5) catches 71.6% of injected errors, leaving substantial room for improvement. The union of detections across six models reaches 83.3% recall, suggesting different models detect different errors and better harness design can potentially increase performance. Beyond these benchmarks, we study a public deployment of OpenAIReview with real users. Votes on its comments skew positive at 1.44 to 1, and the most common complaints are about false positives and minor nitpicks. Together, by evaluating full review systems backed by state-of-the-art models on real research papers, we show that while AI reviews still have room for improvement, they can already track human quality judgments well, catch important errors, and earn positive feedback from real users.",
+        "timestamp": "2026-06-23T07:19:41.150Z",
+        "rating": "novote",
+        "publishedDate": "2026/06/18",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2154,
+        "object_id": "paper:arxiv.2606.19749",
+        "created_at": "2026-06-23T07:19:41+00:00",
+        "updated_at": "2026-06-23T07:20:06+00:00",
         "version": 1
       }
     }

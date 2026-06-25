@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-06-25T13:37:02.932631+00:00",
+  "snapshot_time": "2026-06-25T13:38:07.721055+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -78820,27 +78820,23 @@
       "data": {
         "sourceId": "arxiv",
         "paperId": "2402.09631",
-        "url": "https://arxiv.org/abs/2402.09631",
-        "title": "Representation Surgery: Theory and Practice of Affine Steering",
-        "authors": "Shashwat Singh, Shauli Ravfogel, Jonathan Herzig, Roee Aharoni, Ryan Cotterell, Ponnurangam Kumaraguru",
-        "abstract": "Language models often exhibit undesirable behavior, e.g., generating toxic or gender-biased text. In the case of neural language models, an encoding of the undesirable behavior is often present in the model's representations. Thus, one natural (and common) approach to prevent the model from exhibiting undesirable behavior is to steer the model's representations in a manner that reduces the probability of it generating undesirable text. This paper investigates the formal and empirical properties of steering functions, i.e., transformation of the neural language model's representations that alter its behavior. First, we derive two optimal, in the least-squares sense, affine steering functions under different constraints. Our theory provides justification for existing approaches and offers a novel, improved steering approach. Second, we offer a series of experiments that demonstrate the empirical effectiveness of the methods in mitigating bias and reducing toxic generation.",
-        "timestamp": "2026-06-25T13:36:14.442Z",
+        "url": "https://arxiv.org/pdf/2402.09631",
+        "title": "",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-06-25T13:36:50.142Z",
         "rating": "novote",
-        "publishedDate": "2024/02/15",
-        "tags": [
-          "Machine Learning (cs.LG)",
-          "Computation and Language (cs.CL)",
-          "Computers and Society (cs.CY)"
-        ],
+        "publishedDate": "",
+        "tags": [],
         "doi": "",
         "journalName": "",
         "sourceType": "url"
       },
       "meta": {
-        "issue_number": 2167,
+        "issue_number": 2168,
         "object_id": "paper:arxiv.2402.09631",
-        "created_at": "2026-06-25T13:36:14+00:00",
-        "updated_at": "2026-06-25T13:36:37+00:00",
+        "created_at": "2026-06-25T13:36:50+00:00",
+        "updated_at": "2026-06-25T13:37:14+00:00",
         "version": 1
       }
     }

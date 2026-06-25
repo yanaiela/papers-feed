@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-06-25T13:38:40.193128+00:00",
+  "snapshot_time": "2026-06-25T13:52:21.536969+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -78882,6 +78882,47 @@
         "object_id": "interactions:arxiv.2402.09631",
         "created_at": "2026-06-25T13:36:57+00:00",
         "updated_at": "2026-06-25T13:38:13+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.1412.6572": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1412.6572",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2171,
+        "object_id": "interactions:arxiv.1412.6572",
+        "created_at": "2026-06-25T13:51:34+00:00",
+        "updated_at": "2026-06-25T13:51:36+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.1412.6572": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1412.6572",
+        "url": "https://arxiv.org/abs/1412.6572",
+        "title": "Explaining and Harnessing Adversarial Examples",
+        "authors": "Ian J. Goodfellow, Jonathon Shlens, Christian Szegedy",
+        "abstract": "Several machine learning models, including neural networks, consistently misclassify adversarial examples---inputs formed by applying small but intentionally worst-case perturbations to examples from the dataset, such that the perturbed input results in the model outputting an incorrect answer with high confidence. Early attempts at explaining this phenomenon focused on nonlinearity and overfitting. We argue instead that the primary cause of neural networks' vulnerability to adversarial perturbation is their linear nature. This explanation is supported by new quantitative results while giving the first explanation of the most intriguing fact about them: their generalization across architectures and training sets. Moreover, this view yields a simple and fast method of generating adversarial examples. Using this approach to provide examples for adversarial training, we reduce the test set error of a maxout network on the MNIST dataset.",
+        "timestamp": "2026-06-25T13:51:17.857Z",
+        "rating": "novote",
+        "publishedDate": "2014/12/20",
+        "tags": [
+          "Machine Learning (stat.ML)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2170,
+        "object_id": "paper:arxiv.1412.6572",
+        "created_at": "2026-06-25T13:51:18+00:00",
+        "updated_at": "2026-06-25T13:51:49+00:00",
         "version": 1
       }
     }

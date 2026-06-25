@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-06-25T06:59:21.795172+00:00",
+  "snapshot_time": "2026-06-25T07:06:58.225494+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -78688,6 +78688,47 @@
         "object_id": "paper:openreview.ZXH8KUgFx3",
         "created_at": "2026-06-25T06:58:11+00:00",
         "updated_at": "2026-06-25T06:58:30+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2604.09839": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.09839",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2162,
+        "object_id": "interactions:arxiv.2604.09839",
+        "created_at": "2026-06-25T07:06:28+00:00",
+        "updated_at": "2026-06-25T07:06:30+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2604.09839": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.09839",
+        "url": "https://arxiv.org/abs/2604.09839",
+        "title": "Steered LLM Activations are Non-Surjective",
+        "authors": "Aayush Mishra, Daniel Khashabi, Anqi Liu",
+        "abstract": "Activation steering is a popular white-box control technique that modifies model activations to elicit an abstract change in its behavior. It has also become a standard tool in interpretability (e.g., probing truthfulness, or translating activations into human-readable explanations) and safety research (e.g., jailbreakability). However, it is unclear whether steered behavior is realizable by any textual prompt. In this work, we cast this question as a surjectivity problem: for a fixed model, does every steered activation admit a preimage under the model's natural forward pass? Under practical assumptions, we prove that activation steering pushes the residual stream off the manifold of states reachable from discrete prompts. Almost surely, no prompt can reproduce the same internal behavior induced by steering. We also illustrate this finding empirically across three widely used LLMs. Our results establish a formal separation between white-box steerability and black-box prompting. We therefore caution against interpreting the ease and success of activation steering as evidence of prompt-based interpretability or vulnerability, and argue for evaluation protocols that explicitly decouple white-box and black-box interventions.",
+        "timestamp": "2026-06-25T07:06:07.905Z",
+        "rating": "novote",
+        "publishedDate": "2026/04/10",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2161,
+        "object_id": "paper:arxiv.2604.09839",
+        "created_at": "2026-06-25T07:06:08+00:00",
+        "updated_at": "2026-06-25T07:06:36+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-06-24T13:23:03.511808+00:00",
+  "snapshot_time": "2026-06-25T06:59:21.795172+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -78632,6 +78632,62 @@
         "object_id": "interactions:arxiv.2603.13285",
         "created_at": "2026-06-23T21:54:52+00:00",
         "updated_at": "2026-06-24T05:08:00+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.ZXH8KUgFx3": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "ZXH8KUgFx3",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-06-25T06:58:29.521Z",
+            "data": {
+              "session_id": "session_1782370709428_zzw0i8j",
+              "source_id": "openreview",
+              "paper_id": "ZXH8KUgFx3",
+              "start_time": "2026-06-25T06:58:19.823Z",
+              "end_time": "2026-06-25T06:58:29.428Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 5,
+              "total_elapsed_seconds": 10
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 2160,
+        "object_id": "interactions:openreview.ZXH8KUgFx3",
+        "created_at": "2026-06-25T06:58:30+00:00",
+        "updated_at": "2026-06-25T06:58:56+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.ZXH8KUgFx3": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "ZXH8KUgFx3",
+        "url": "https://openreview.net/forum?id=ZXH8KUgFx3",
+        "title": "Compositional Abilities Emerge Multiplicatively: Exploring Diffusion Models on a Synthetic Task",
+        "authors": "Maya Okawa, Ekdeep Singh Lubana, Robert P. Dick, Hidenori Tanaka",
+        "abstract": "Modern generative models exhibit unprecedented capabilities to generate extremely realistic data. However, given the inherent compositionality of real world, reliable use of these models in practical applications mandates they exhibit the ability to compose their capabilities, generating and reasoning over entirely novel samples never seen in the training distribution. Prior work demonstrates recent vision diffusion models exhibit intriguing compositional generalization abilities, but also fail rather unpredictably. What are the reasons underlying this behavior? Which concepts does the model generally find difficult to compose to form novel data? To address these questions, we perform a controlled study of compositional generalization in conditional diffusion models in a synthetic setting, varying different attributes of the training data and measuring the model's ability to generate samples out-of-distribution. Our results show that: (i) the compositional structure of the data-generating process governs the order in which capabilities and an ability to compose them emerges; (ii) learning individual concepts impacts performance on compositional tasks, multiplicatively explaining sudden emergence; and (iii) learning and composing capabilities is difficult under correlations. We hope our study inspires further grounded research on understanding capabilities and compositionality in generative models from a data-centric perspective.",
+        "timestamp": "2026-06-25T06:58:11.108Z",
+        "rating": "novote",
+        "publishedDate": "23 Jun 2023",
+        "tags": [
+          "Diffusion model; Science of deep learning; Mechanistic interpretability"
+        ],
+        "doi": "",
+        "journalName": "DeployableGenerativeAI",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2159,
+        "object_id": "paper:openreview.ZXH8KUgFx3",
+        "created_at": "2026-06-25T06:58:11+00:00",
+        "updated_at": "2026-06-25T06:58:30+00:00",
         "version": 1
       }
     }

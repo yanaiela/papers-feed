@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-06-26T02:35:33.647819+00:00",
+  "snapshot_time": "2026-06-26T22:44:03.766348+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -79010,6 +79010,44 @@
         "object_id": "paper:arxiv.2401.00690",
         "created_at": "2026-06-26T02:26:34+00:00",
         "updated_at": "2026-06-26T02:26:55+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.xK0zRemqmT": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "xK0zRemqmT",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2175,
+        "object_id": "interactions:openreview.xK0zRemqmT",
+        "created_at": "2026-06-26T22:43:55+00:00",
+        "updated_at": "2026-06-26T22:43:57+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.xK0zRemqmT": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "xK0zRemqmT",
+        "url": "https://openreview.net/forum?id=xK0zRemqmT&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2026%2FConference%2FArea_Chairs%23assigned-submissions)",
+        "title": "Specialist Mediators: Causal Localization of Dense Fine-Tuning",
+        "authors": "",
+        "abstract": "Dense fine-tuning can turn a base language model into a domain specialist, but task accuracy alone does not reveal which internal computations mediate the new behavior. We introduce *specialist mediators*: internal mechanisms through which a dense specialist's lift over its base causally flows. We identify these mediators by patching specialist activations into the base model and asking which patches recover in-domain performance while minimally perturbing off-domain behavior. This separates three questions that are often conflated: where the specialist behavior is localized, how much of it can be recovered by activation patching, and whether a sparse trainable update can implement the same behavior. We formalize these links with exact recovery results, a first-order recovery approximation, and a bound showing when patching recovery can transfer to localized training. In synthetic transformers and structural causal models with planted mediators, patching recovers the true causal mechanisms even when activation-magnitude baselines are misled by non-causal distractors. In Pythia-410M specialists for math (GSM8K), multitask knowledge (MMLU), and biomedical QA (PubMedQA), single-patch localization ranks first on every domain and seed by area under the recovery curve, with small mechanism budgets recovering much of the patchable specialist gap. A localized-LoRA stress test then shows why the separation matters: patching-localized adapters improve negative log-likelihood when the selected attention mechanisms carry the specialist gap, but fail on GSM8K where MLP blocks carry substantial lift. Thus specialist localization is useful both as a route to sparse adaptation and as a diagnostic for when sparse adaptation fails.",
+        "timestamp": "2026-06-26T22:43:18.001Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "NeurIPS 2026 Conference Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2173,
+        "object_id": "paper:openreview.xK0zRemqmT",
+        "created_at": "2026-06-26T22:43:20+00:00",
+        "updated_at": "2026-06-26T22:43:39+00:00",
         "version": 1
       }
     }

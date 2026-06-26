@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-06-26T02:16:32.185540+00:00",
+  "snapshot_time": "2026-06-26T02:27:19.383843+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -78969,6 +78969,32 @@
         "object_id": "paper:arxiv.1412.6572",
         "created_at": "2026-06-25T13:51:18+00:00",
         "updated_at": "2026-06-25T13:51:49+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2401.00690": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2401.00690",
+        "url": "https://arxiv.org/abs/2401.00690",
+        "title": "Benchmarking Large Language Models on Controllable Generation under Diversified Instructions",
+        "authors": "Yihan Chen, Benfeng Xu, Quan Wang, Yi Liu, Zhendong Mao",
+        "abstract": "While large language models (LLMs) have exhibited impressive instruction-following capabilities, it is still unclear whether and to what extent they can respond to explicit constraints that might be entailed in various instructions. As a significant aspect of LLM alignment, it is thus important to formulate such a specialized set of instructions as well as investigate the resulting behavior of LLMs. To address this vacancy, we propose a new benchmark CoDI-Eval to systematically and comprehensively evaluate LLMs' responses to instructions with various constraints. We construct a large collection of constraints-attributed instructions as a test suite focused on both generalization and coverage. Specifically, we advocate an instruction diversification process to synthesize diverse forms of constraint expression and also deliberate the candidate task taxonomy with even finer-grained sub-categories. Finally, we automate the entire evaluation process to facilitate further developments. Different from existing studies on controllable text generation, CoDI-Eval extends the scope to the prevalent instruction-following paradigm for the first time. We provide extensive evaluations of representative LLMs (e.g., ChatGPT, Vicuna) on CoDI-Eval, revealing their limitations in following instructions with specific constraints and there is still a significant gap between open-source and commercial closed-source LLMs. We believe this benchmark will facilitate research into improving the controllability of LLMs' responses to instructions. Our data and code are available at this https URL.",
+        "timestamp": "2026-06-26T02:26:33.843Z",
+        "rating": "novote",
+        "publishedDate": "2024/01/01",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2172,
+        "object_id": "paper:arxiv.2401.00690",
+        "created_at": "2026-06-26T02:26:34+00:00",
+        "updated_at": "2026-06-26T02:26:55+00:00",
         "version": 1
       }
     }

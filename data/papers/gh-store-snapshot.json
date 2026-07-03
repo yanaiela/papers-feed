@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-07-01T15:02:00.517168+00:00",
+  "snapshot_time": "2026-07-03T01:35:28.960590+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -79571,6 +79571,48 @@
         "object_id": "interactions:openreview.hSpxokJUlw",
         "created_at": "2026-07-01T15:00:21+00:00",
         "updated_at": "2026-07-01T15:00:24+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2606.29121": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2606.29121",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2191,
+        "object_id": "interactions:arxiv.2606.29121",
+        "created_at": "2026-07-03T01:35:01+00:00",
+        "updated_at": "2026-07-03T01:35:03+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2606.29121": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2606.29121",
+        "url": "https://arxiv.org/abs/2606.29121",
+        "title": "How Anthropomorphic Language Impacts Public Perceptions of AI",
+        "authors": "Betty Li Hou, Sophie Hao, Sunoo Park, Tal Linzen",
+        "abstract": "Public discourse about artificial intelligence (AI) often uses anthropomorphic language: language that attributes human capabilities and characteristics to the system. This practice has been criticized for setting misleading expectations, inflating claims, and fueling hype around AI, which may distort public understanding of AI and impact policy priorities. We study the effects of anthropomorphic framing by comparing changes in participants' perceptions (N=815) when reading passages with and without anthropomorphic language, designed to reflect realistic public-facing AI discourse. We further examine whether these effects differ across two types of AI technologies -- large language models and recommendation systems -- and measure changes in perceptions of AI across several dimensions that are prominent in current public discourse. In a separate condition using a text that explicitly discusses the dangers of AI, we show that individuals' views of AI can shift in response to reading a text; yet in the main conditions of the experiment, where we compare anthropomorphic and non-anthropomorphic descriptions, we find that whether the text uses anthropomorphic language does not substantially affect participants' perceptions of AI. Our results indicate that any immediate effects on public opinions of AI are modest, although they leave open the possibility that anthropomorphic language could have an effect in naturalistic settings, or over gradual, continued exposure.",
+        "timestamp": "2026-07-03T01:34:49.101Z",
+        "rating": "novote",
+        "publishedDate": "2026/06/28",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Computers and Society (cs.CY)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2190,
+        "object_id": "paper:arxiv.2606.29121",
+        "created_at": "2026-07-03T01:34:49+00:00",
+        "updated_at": "2026-07-03T01:35:07+00:00",
         "version": 1
       }
     }

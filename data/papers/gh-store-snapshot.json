@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-07-03T06:17:44.011314+00:00",
+  "snapshot_time": "2026-07-03T16:31:31.680963+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -79674,6 +79674,46 @@
         "object_id": "paper:arxiv.2606.29121",
         "created_at": "2026-07-03T01:34:49+00:00",
         "updated_at": "2026-07-03T01:35:07+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2604.16812": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.16812",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2193,
+        "object_id": "interactions:arxiv.2604.16812",
+        "created_at": "2026-07-03T16:31:00+00:00",
+        "updated_at": "2026-07-03T16:31:03+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2604.16812": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.16812",
+        "url": "https://arxiv.org/abs/2604.16812",
+        "title": "Introspection Adapters: Training LLMs to Report Their Learned Behaviors",
+        "authors": "Keshav Shenoy, Li Yang, Abhay Sheshadri, S\u00f6ren Mindermann, Jack Lindsey, Sam Marks, Rowan Wang",
+        "abstract": "When model developers or users fine-tune an LLM, this can induce behaviors that are unexpected, deliberately harmful, or hard to detect. It would be far easier to audit LLMs if they could simply describe their behaviors in natural language. Here, we study a scalable approach to rapidly identify learned behaviors of many LLMs derived from a shared base LLM. Given a model $M$, our method works by finetuning models $M_i$ from $M$ with implanted behaviors $b_i$; the $(M_i, b_i)$ pairs serve as labeled training data. We then train an introspection adapter (IA): a single LoRA adapter jointly trained across the finetunes $M_i$ to cause them to verbalize their implanted behaviors. We find that this IA induces self-description of learned behaviors even in finetunes of $M$ that were trained in very different ways from the $M_i$. For example, IAs generalize to AuditBench, achieving state-of-the-art at identifying explicitly hidden concerning behaviors. IAs can also be used to detect encrypted finetuning API attacks. They scale favorably with model size and training data diversity. Overall, our results suggest that IAs are a scalable, effective, and practically useful approach to auditing fine-tuned LLMs.",
+        "timestamp": "2026-07-03T16:30:47.036Z",
+        "rating": "novote",
+        "publishedDate": "2026/04/18",
+        "tags": [
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2192,
+        "object_id": "paper:arxiv.2604.16812",
+        "created_at": "2026-07-03T16:30:47+00:00",
+        "updated_at": "2026-07-03T16:31:07+00:00",
         "version": 1
       }
     }

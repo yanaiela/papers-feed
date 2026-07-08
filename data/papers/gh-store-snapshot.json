@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-07-08T00:51:38.193864+00:00",
+  "snapshot_time": "2026-07-08T01:06:31.920931+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -79774,6 +79774,46 @@
         "object_id": "paper:arxiv.2502.14143",
         "created_at": "2026-07-08T00:50:48+00:00",
         "updated_at": "2026-07-08T00:51:10+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2607.03973": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2607.03973",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2197,
+        "object_id": "interactions:arxiv.2607.03973",
+        "created_at": "2026-07-08T01:06:03+00:00",
+        "updated_at": "2026-07-08T01:06:05+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2607.03973": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2607.03973",
+        "url": "https://arxiv.org/abs/2607.03973",
+        "title": "MANCE: Manifold Aware Concept Erasure",
+        "authors": "Matan Avitan, Yoav Goldberg, Yanai Elazar",
+        "abstract": "Concept erasure aims to remove a target concept from a representation while preserving the other information encoded in it. This is difficult because representations encode many concepts that are often correlated with the erasure target, so removing the target risks damaging them. We propose the Manifold Constraint Hypothesis (MCH): if natural representations concentrate on a structured, lower-dimensional manifold, then interventions should be constrained to that manifold and better preserve other information encoded in the representation during interventions. We instantiate MCH in a new concept erasure method: MANifold aware Concept Erasure (MANCE). MANCE performs iterative updates to the representations using signals from a classifier that predicts a target concept. We estimate the manifold using representations obtained from natural inputs, and then we project the concept removal update to the estimated manifold. We perform extensive evaluation on 119 settings spanning text and vision, including 13 language models, three NLP concepts, and 40 CelebA-CLIP attributes. Employing MANCE on top of previous methods shows consistent improved leakage results. We also introduce MANCE+ and MANCE++, which prepend a closed-form erasure algorithm before employing MANCE, achieving better leakage--surgicality tradeoffs relative to matched full-space updates. MANCE++, our best method, achieves state-of-the-art results on nonlinear concept erasure. These results support MCH in the erasure setting: interventions should be constrained to the natural representation manifold.",
+        "timestamp": "2026-07-08T01:05:43.190Z",
+        "rating": "novote",
+        "publishedDate": "2026/07/04",
+        "tags": [
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2196,
+        "object_id": "paper:arxiv.2607.03973",
+        "created_at": "2026-07-08T01:05:43+00:00",
+        "updated_at": "2026-07-08T01:06:06+00:00",
         "version": 1
       }
     }

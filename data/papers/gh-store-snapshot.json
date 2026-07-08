@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-07-08T09:02:03.652662+00:00",
+  "snapshot_time": "2026-07-08T17:13:41.954770+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -79860,6 +79860,95 @@
         "object_id": "paper:arxiv.2607.03973",
         "created_at": "2026-07-08T01:05:43+00:00",
         "updated_at": "2026-07-08T01:06:06+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.qD2hf23Jb9": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "qD2hf23Jb9",
+        "url": "https://openreview.net/forum?id=qD2hf23Jb9&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2FARR%2F2026%2FMay%2FAuthors%23your-submissions)",
+        "title": "Quantifying and Mitigating Default Behaviors in Text-to-Image Models",
+        "authors": "Royi Rassin, Aviv Slobodkin, Shauli Ravfogel, Yanai Elazar, Yoav Goldberg",
+        "abstract": "Text-to-image (T2I) models consistently collapse to stereotypical attribute values when prompts leave concepts underspecified, a phenomenon we term default behaviors. We conduct a large-scale empirical study using GRADE, an LLM-driven measurement approach that quantifies diversity at the level of individual concept attributes. We find pervasive default behaviors across all evaluated T2I models, with stronger models tending to be less diverse. We trace these defaults to reporting bias in training captions: when captions omit common attributes, the accompanying images are dominated by a narrow set of values, and model outputs closely mirror this skew. We further show that a simple mitigation technique, making underspecified attributes explicit in the prompt is sufficient to mitigate this collapse.",
+        "timestamp": "2026-07-08T17:12:44.547Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "text-to-image generation",
+          "diversity evaluation",
+          "default behaviors",
+          "reporting bias",
+          "prompt rewriting"
+        ],
+        "doi": "",
+        "journalName": "ACL ARR 2026 May Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2200,
+        "object_id": "paper:openreview.qD2hf23Jb9",
+        "created_at": "2026-07-08T17:12:45+00:00",
+        "updated_at": "2026-07-08T17:13:10+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.KIG1vxU7iI": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "KIG1vxU7iI",
+        "url": "https://openreview.net/forum?id=KIG1vxU7iI&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2FARR%2F2026%2FMay%2FAuthors%23your-submissions)",
+        "title": "Revisiting Automated Reviewer Benchmarking in the Age of AI",
+        "authors": "Dang Nguyen, Wanqing Hao, Yanai Elazar, Chenhao Tan",
+        "abstract": "A new class of agentic reviewer systems are emerging as a remedy to the pressure placed on peer review systems by AI-assisted research, but it is unclear how they should be evaluated. We evaluate two open-source reviewer systems (OpenAIReview and coarse), one proprietary system (Reviewer3), and a zero-shot baseline, across six LLMs spanning frontier and efficient models. First, we study whether AI reviewers' behavior on ICLR/NeurIPS papers track with papers' quality as approximated by external sources such as citations and conference decisions. Every system performs above chance in pairwise accuracy, and the best is OpenAIReview + GPT-5.5 at 83%. Second, to test whether systems can catch errors with known ground truth, we construct a perturbation benchmark that injects four categories of errors into papers across eight arXiv subject classes and measure detection recall. The strongest configuration (OpenAIReview + GPT-5.5) catches 71.6% of injected errors, leaving substantial room for improvement. The union of detections across six models reaches 83.3% recall, suggesting different models detect different errors and better harness design can potentially increase performance. Together, by evaluating full reviewer systems backed by state-of-the-art models on real research papers, we show that today's AI reviewers can already track human quality judgments well, but still have room for improvement.",
+        "timestamp": "2026-07-08T17:12:43.957Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "automated reviewing",
+          "evaluation",
+          "benchmark"
+        ],
+        "doi": "",
+        "journalName": "ACL ARR 2026 May Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2199,
+        "object_id": "paper:openreview.KIG1vxU7iI",
+        "created_at": "2026-07-08T17:12:44+00:00",
+        "updated_at": "2026-07-08T17:13:11+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.M8NxFPgVYD": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "M8NxFPgVYD",
+        "url": "https://openreview.net/forum?id=M8NxFPgVYD&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2FARR%2F2026%2FMay%2FAuthors%23your-submissions)",
+        "title": "LLM-Generated or Human-Written? Comparing Review and Non-Review Papers on ArXiv",
+        "authors": "Yanai Elazar, Maria Antoniak",
+        "abstract": "ArXiv recently prohibited the upload of unpublished review papers to its servers in the Computer Science domain, citing a high prevalence of LLM-generated content in these categories. However, this decision was not accompanied by quantitative evidence. In this work, we investigate this claim by measuring the proportion of LLM-generated content in review vs. non-review research papers in recent years.\nUsing two high-quality detection methods, we find a substantial increase in LLM-generated content across both review and non-review papers, with a higher prevalence in review papers. \nHowever, when considering the number of LLM-generated papers published in each category, the estimates of non-review LLM-generated papers are almost six times higher.\nFurthermore, we find that this policy will affect papers in certain domains far more than others, with the CS subdiscipline Computers & Society potentially facing cuts of 50%.\nOur analysis provides an evidence-based framework for evaluating such policy decisions.",
+        "timestamp": "2026-07-08T17:12:42.773Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "science-of-science",
+          "arxiv",
+          "llm-generated-papers",
+          "ai-slop",
+          "review-papers",
+          "ai-papers"
+        ],
+        "doi": "",
+        "journalName": "ACL ARR 2026 May Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2198,
+        "object_id": "paper:openreview.M8NxFPgVYD",
+        "created_at": "2026-07-08T17:12:43+00:00",
+        "updated_at": "2026-07-08T17:13:04+00:00",
         "version": 1
       }
     }

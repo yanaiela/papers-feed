@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-07-09T20:18:16.581655+00:00",
+  "snapshot_time": "2026-07-09T22:41:59.900373+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -80016,6 +80016,30 @@
         "object_id": "paper:arxiv.2607.04222",
         "created_at": "2026-07-09T20:17:35+00:00",
         "updated_at": "2026-07-09T20:17:53+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2211.09110": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2211.09110",
+        "url": "https://www.google.com/url?q=https://arxiv.org/abs/2211.09110&sa=D&source=docs&ust=1783640475349650&usg=AOvVaw3VKGzZgY7hfavXm-VVBLRe",
+        "title": "Redirecting",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-07-09T22:41:16.819Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2204,
+        "object_id": "paper:arxiv.2211.09110",
+        "created_at": "2026-07-09T22:41:17+00:00",
+        "updated_at": "2026-07-09T22:41:38+00:00",
         "version": 1
       }
     }

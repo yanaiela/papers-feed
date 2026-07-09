@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-07-09T23:17:43.493040+00:00",
+  "snapshot_time": "2026-07-09T23:27:00.643786+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -81117,6 +81117,47 @@
         "object_id": "paper:arxiv.2104.14337",
         "created_at": "2026-07-09T23:15:57+00:00",
         "updated_at": "2026-07-09T23:16:24+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2504.17550": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.17550",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2271,
+        "object_id": "interactions:arxiv.2504.17550",
+        "created_at": "2026-07-09T23:26:17+00:00",
+        "updated_at": "2026-07-09T23:26:18+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2504.17550": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.17550",
+        "url": "https://arxiv.org/abs/2504.17550",
+        "title": "HalluLens: LLM Hallucination Benchmark",
+        "authors": "Yejin Bang, Ziwei Ji, Alan Schelten, Anthony Hartshorn, Tara Fowler, Cheng Zhang, Nicola Cancedda, Pascale Fung",
+        "abstract": "Large language models (LLMs) often generate responses that deviate from user input or training data, a phenomenon known as \"hallucination.\" These hallucinations undermine user trust and hinder the adoption of generative AI systems. Addressing hallucinations is essential for the advancement of LLMs. This paper introduces a comprehensive hallucination benchmark, incorporating both new extrinsic and existing intrinsic evaluation tasks, built upon clear taxonomy of hallucination. A major challenge in benchmarking hallucinations is the lack of a unified framework due to inconsistent definitions and categorizations. We disentangle LLM hallucination from \"factuality,\" proposing a clear taxonomy that distinguishes between extrinsic and intrinsic hallucinations, to promote consistency and facilitate research. Extrinsic hallucinations, where the generated content is not consistent with the training data, are increasingly important as LLMs evolve. Our benchmark includes dynamic test set generation to mitigate data leakage and ensure robustness against such leakage. We also analyze existing benchmarks, highlighting their limitations and saturation. The work aims to: (1) establish a clear taxonomy of hallucinations, (2) introduce new extrinsic hallucination tasks, with data that can be dynamically regenerated to prevent saturation by leakage, (3) provide a comprehensive analysis of existing benchmarks, distinguishing them from factuality evaluations.",
+        "timestamp": "2026-07-09T23:26:10.886Z",
+        "rating": "novote",
+        "publishedDate": "2025/04/24",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2270,
+        "object_id": "paper:arxiv.2504.17550",
+        "created_at": "2026-07-09T23:26:11+00:00",
+        "updated_at": "2026-07-09T23:26:38+00:00",
         "version": 1
       }
     }

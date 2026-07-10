@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-07-10T16:40:43.001283+00:00",
+  "snapshot_time": "2026-07-10T16:44:05.743372+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -81508,6 +81508,46 @@
         "object_id": "paper:arxiv.2604.26644",
         "created_at": "2026-07-10T15:19:30+00:00",
         "updated_at": "2026-07-10T15:19:56+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2508.07955": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2508.07955",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2282,
+        "object_id": "interactions:arxiv.2508.07955",
+        "created_at": "2026-07-10T16:43:41+00:00",
+        "updated_at": "2026-07-10T16:43:43+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2508.07955": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2508.07955",
+        "url": "https://arxiv.org/abs/2508.07955",
+        "title": "Expert Preference-based Evaluation of Automated Related Work Generation",
+        "authors": "Furkan \u015eahinu\u00e7, Subhabrata Dutta, Iryna Gurevych",
+        "abstract": "Expert domain writing, such as scientific writing, typically demands extensive domain knowledge. Although large language models (LLMs) show promising potential in this task, evaluating the quality of automatically generated scientific writing is a crucial open issue, as it requires knowledge of domain-specific criteria and the ability to discern expert preferences. Conventional automatic evaluation metrics and LLM-as-a-judge systems, primarily designed for mainstream NLP tasks, are insufficient to grasp expert preferences and domain-specific quality standards. To address this gap and support realistic human-AI collaborative writing, we focus on related work generation, one of the most challenging scientific tasks, as an exemplar. We propose GREP, a multi-turn evaluation framework that integrates classical related work evaluation criteria with expert-specific preferences. GREP decomposes the evaluation into smaller fine-grained dimensions. This localized evaluation is further augmented with contrastive examples to provide detailed contextual guidance for the evaluation dimensions. Empirical investigation reveals that GREP is able to assess the quality of related work sections in a much more robust manner compared to standard LLM judges, reflects natural scenarios of scientific writing, and bears a strong correlation with the assessment of human experts. We also observe that generations from state-of-the-art LLMs struggle to satisfy validation constraints of a suitable related work section.",
+        "timestamp": "2026-07-10T16:43:20.228Z",
+        "rating": "novote",
+        "publishedDate": "2025/08/11",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2281,
+        "object_id": "paper:arxiv.2508.07955",
+        "created_at": "2026-07-10T16:43:21+00:00",
+        "updated_at": "2026-07-10T16:43:43+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-07-10T16:31:33.875598+00:00",
+  "snapshot_time": "2026-07-10T16:33:35.366499+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -80214,17 +80214,32 @@
           },
           {
             "type": "reading_session",
-            "timestamp": "2026-07-10T16:30:43.957Z",
+            "timestamp": "2026-07-10T16:31:36.121Z",
             "data": {
-              "session_id": "session_1783701043394_navsg7o",
+              "session_id": "session_1783701096096_cvoixqs",
               "source_id": "openreview",
               "paper_id": "M8NxFPgVYD",
-              "start_time": "2026-07-10T16:29:37.713Z",
-              "end_time": "2026-07-10T16:30:43.394Z",
-              "heartbeat_count": 13,
-              "duration_seconds": 65,
+              "start_time": "2026-07-10T16:31:30.046Z",
+              "end_time": "2026-07-10T16:31:36.096Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
               "idle_seconds": 1,
-              "total_elapsed_seconds": 66
+              "total_elapsed_seconds": 6
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-07-10T16:32:43.025Z",
+            "data": {
+              "session_id": "session_1783701162973_xa82zk6",
+              "source_id": "openreview",
+              "paper_id": "M8NxFPgVYD",
+              "start_time": "2026-07-10T16:32:30.523Z",
+              "end_time": "2026-07-10T16:32:42.973Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 12
             }
           }
         ]
@@ -80233,7 +80248,7 @@
         "issue_number": 2201,
         "object_id": "interactions:openreview.M8NxFPgVYD",
         "created_at": "2026-07-09T07:09:08+00:00",
-        "updated_at": "2026-07-10T16:31:10+00:00",
+        "updated_at": "2026-07-10T16:33:12+00:00",
         "version": 1
       }
     },

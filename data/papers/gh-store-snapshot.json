@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-07-10T16:23:36.571213+00:00",
+  "snapshot_time": "2026-07-10T16:25:29.215662+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -80154,17 +80154,32 @@
           },
           {
             "type": "reading_session",
-            "timestamp": "2026-07-10T16:22:48.871Z",
+            "timestamp": "2026-07-10T16:23:30.989Z",
             "data": {
-              "session_id": "session_1783700568671_il9acqe",
+              "session_id": "session_1783700610979_fvkxjg5",
               "source_id": "openreview",
               "paper_id": "M8NxFPgVYD",
-              "start_time": "2026-07-10T16:22:41.746Z",
-              "end_time": "2026-07-10T16:22:48.671Z",
-              "heartbeat_count": 1,
-              "duration_seconds": 5,
-              "idle_seconds": 2,
-              "total_elapsed_seconds": 7
+              "start_time": "2026-07-10T16:23:00.569Z",
+              "end_time": "2026-07-10T16:23:30.979Z",
+              "heartbeat_count": 6,
+              "duration_seconds": 30,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 30
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-07-10T16:24:33.094Z",
+            "data": {
+              "session_id": "session_1783700673074_h6izdxs",
+              "source_id": "openreview",
+              "paper_id": "M8NxFPgVYD",
+              "start_time": "2026-07-10T16:24:14.425Z",
+              "end_time": "2026-07-10T16:24:33.074Z",
+              "heartbeat_count": 3,
+              "duration_seconds": 15,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 19
             }
           }
         ]
@@ -80173,7 +80188,7 @@
         "issue_number": 2201,
         "object_id": "interactions:openreview.M8NxFPgVYD",
         "created_at": "2026-07-09T07:09:08+00:00",
-        "updated_at": "2026-07-10T16:23:32+00:00",
+        "updated_at": "2026-07-10T16:25:00+00:00",
         "version": 1
       }
     },

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-07-13T21:45:34.012255+00:00",
+  "snapshot_time": "2026-07-13T21:48:34.231153+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -80559,17 +80559,32 @@
           },
           {
             "type": "reading_session",
-            "timestamp": "2026-07-13T21:44:35.716Z",
+            "timestamp": "2026-07-13T21:45:37.521Z",
             "data": {
-              "session_id": "session_1783979075670_ww24thv",
+              "session_id": "session_1783979137509_7h3n46s",
               "source_id": "openreview",
               "paper_id": "M8NxFPgVYD",
-              "start_time": "2026-07-13T21:44:27.776Z",
-              "end_time": "2026-07-13T21:44:35.670Z",
-              "heartbeat_count": 1,
-              "duration_seconds": 5,
+              "start_time": "2026-07-13T21:45:09.705Z",
+              "end_time": "2026-07-13T21:45:37.509Z",
+              "heartbeat_count": 5,
+              "duration_seconds": 25,
               "idle_seconds": 3,
-              "total_elapsed_seconds": 8
+              "total_elapsed_seconds": 28
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-07-13T21:47:22.734Z",
+            "data": {
+              "session_id": "session_1783979242702_e304xt0",
+              "source_id": "openreview",
+              "paper_id": "M8NxFPgVYD",
+              "start_time": "2026-07-13T21:47:10.472Z",
+              "end_time": "2026-07-13T21:47:22.702Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 12
             }
           }
         ]
@@ -80578,7 +80593,7 @@
         "issue_number": 2201,
         "object_id": "interactions:openreview.M8NxFPgVYD",
         "created_at": "2026-07-09T07:09:08+00:00",
-        "updated_at": "2026-07-13T21:45:10+00:00",
+        "updated_at": "2026-07-13T21:47:58+00:00",
         "version": 1
       }
     },

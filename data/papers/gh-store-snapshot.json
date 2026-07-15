@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-07-15T14:47:48.797881+00:00",
+  "snapshot_time": "2026-07-15T14:56:07.465553+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -82179,6 +82179,333 @@
         "object_id": "paper:arxiv.2508.07955",
         "created_at": "2026-07-10T16:43:21+00:00",
         "updated_at": "2026-07-10T16:43:43+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.09462": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.09462",
+        "url": "https://arxiv.org/abs/2510.09462",
+        "title": "Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols",
+        "authors": "Mikhail Terekhov, Alexander Panfilov, Daniil Dzenhaliou, Caglar Gulcehre, Maksym Andriushchenko, Ameya Prabhu, Jonas Geiping",
+        "abstract": "AI control protocols serve as a defense mechanism to stop untrusted LLM agents from causing harm in autonomous settings. Prior work treats this as a security problem, stress testing with exploits that use the deployment context to subtly complete harmful side tasks, such as backdoor insertion. In practice, most AI control protocols are fundamentally based on LLM monitors, which can become a central point of failure. We study adaptive attacks by an untrusted model that knows the protocol and the monitor model, which is plausible if the untrusted model was trained with a later knowledge cutoff or can search for this information autonomously. We instantiate a simple adaptive attack vector by which the attacker embeds publicly known or zero-shot prompt injections in the model outputs. Using this tactic, frontier models consistently evade diverse monitors and complete malicious tasks on two main AI control benchmarks. The attack works universally against current protocols that rely on a monitor. Furthermore, the recent Defer-to-Resample protocol even backfires, as its resampling amplifies the prompt injection and effectively reframes it as a best-of-$n$ attack. In general, adaptive attacks on monitor models represent a major blind spot in current control protocols and should become a standard component of evaluations for future AI control mechanisms.",
+        "timestamp": "2026-07-15T14:55:23.323Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/10",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)",
+          "Cryptography and Security (cs.CR)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2294,
+        "object_id": "paper:arxiv.2510.09462",
+        "created_at": "2026-07-15T14:55:23+00:00",
+        "updated_at": "2026-07-15T14:55:44+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.17057": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.17057",
+        "url": "https://arxiv.org/abs/2510.17057",
+        "title": "The Ends Justify the Thoughts: RL-Induced Motivated Reasoning in LLM CoTs",
+        "authors": "Nikolaus Howe, Micah Carroll",
+        "abstract": "Chain-of-Thought (CoT) monitoring has emerged as a compelling method for detecting harmful behaviors such as reward hacking for reasoning models, under the assumption that models' reasoning processes are informative of such behaviors. In practice, LLM training often produces unintended behaviors due to imperfect reward signals, leading models to develop misaligned tendencies. A common corrective approach is to apply post-hoc instructions to avoid problematic behaviors, but what happens to the model's reasoning process when these instructions conflict with learned behaviors? We investigate this question in simple settings and find that models engage in systematic motivated reasoning -- generating plausible-sounding justifications for violating their instructions while downplaying potential harms or contradictions. Concerningly, we find that as motivated reasoning becomes more prevalent over the course of training, an 8B-parameter CoT monitor is increasingly fooled by the motivated reasoning, being persuaded to judge the answer as following the constitution, despite correctly identifying the answer as contradicting the constitution when not provided with the model's reasoning trace. While we find that large frontier reasoning models closely track human ability in detecting motivated reasoning, this should not give us too much solace, as frontier model developers rely on smaller models for monitoring due to their low latency and deployment costs. Our results underscore the necessity for further research into the emergence and detection of motivated reasoning in model evaluation and oversight. Code for this paper is available at this https URL. WARNING: some examples in this paper may be upsetting.",
+        "timestamp": "2026-07-15T14:55:19.687Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/20",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2293,
+        "object_id": "paper:arxiv.2510.17057",
+        "created_at": "2026-07-15T14:55:19+00:00",
+        "updated_at": "2026-07-15T14:55:40+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.19476": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.19476",
+        "url": "https://arxiv.org/abs/2510.19476",
+        "title": "A Concrete Roadmap towards Safety Cases based on Chain-of-Thought Monitoring",
+        "authors": "Julian Schulz",
+        "abstract": "As AI systems approach dangerous capability levels where inability safety cases become insufficient, we need alternative approaches to ensure safety. This paper presents a roadmap for constructing safety cases based on chain-of-thought (CoT) monitoring in reasoning models and outlines our research agenda. We argue that CoT monitoring might support both control and trustworthiness safety cases. We propose a two-part safety case: (1) establishing that models lack dangerous capabilities when operating without their CoT, and (2) ensuring that any dangerous capabilities enabled by a CoT are detectable by CoT monitoring. We systematically examine two threats to monitorability: neuralese and encoded reasoning, which we categorize into three forms (linguistic drift, steganography, and alien reasoning) and analyze their potential drivers. We evaluate existing and novel techniques for maintaining CoT faithfulness. For cases where models produce non-monitorable reasoning, we explore the possibility of extracting a monitorable CoT from a non-monitorable CoT. To assess the viability of CoT monitoring safety cases, we establish prediction markets to aggregate forecasts on key technical milestones influencing their feasibility.",
+        "timestamp": "2026-07-15T14:55:14.188Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/22",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2292,
+        "object_id": "paper:arxiv.2510.19476",
+        "created_at": "2026-07-15T14:55:14+00:00",
+        "updated_at": "2026-07-15T14:55:41+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.01367": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.01367",
+        "url": "https://arxiv.org/abs/2510.01367",
+        "title": "Is It Thinking or Cheating? Detecting Implicit Reward Hacking by Measuring Reasoning Effort",
+        "authors": "Xinpeng Wang, Nitish Joshi, Barbara Plank, Rico Angell, He He",
+        "abstract": "Reward hacking, where a reasoning model exploits loopholes in a reward function to achieve high rewards without solving the intended task, poses a significant threat. This behavior may be explicit, i.e. verbalized in the model's chain-of-thought (CoT), or implicit, where the CoT appears benign thus bypasses CoT monitors. To detect implicit reward hacking, we propose TRACE (Truncated Reasoning AUC Evaluation). Our key observation is that hacking occurs when exploiting the loophole is easier than solving the actual task. This means that the model is using less 'effort' than required to achieve high reward. TRACE quantifies effort by measuring how early a model's reasoning becomes sufficient to obtain the reward. We progressively truncate a model's CoT at various lengths, force the model to answer, and estimate the expected reward at each cutoff. A hacking model, which takes a shortcut, will achieve a high expected reward with only a small fraction of its CoT, yielding a large area under the accuracy-vs-length curve. TRACE achieves over 65% gains over our strongest 72B CoT monitor in math reasoning, and over 30% gains over a 32B monitor in coding. We further show that TRACE can discover unknown loopholes during training. Overall, TRACE offers a scalable unsupervised approach for oversight where current monitoring methods prove ineffective.",
+        "timestamp": "2026-07-15T14:55:12.466Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/01",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2291,
+        "object_id": "paper:arxiv.2510.01367",
+        "created_at": "2026-07-15T14:55:12+00:00",
+        "updated_at": "2026-07-15T14:55:33+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.04040": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.04040",
+        "url": "https://arxiv.org/abs/2510.04040",
+        "title": "FaithCoT-Bench: Benchmarking Instance-Level Faithfulness of Chain-of-Thought Reasoning",
+        "authors": "Xu Shen, Song Wang, Zhen Tan, Laura Yao, Xinyu Zhao, Kaidi Xu, Xin Wang, Tianlong Chen",
+        "abstract": "Large language models (LLMs) increasingly rely on Chain-of-Thought (CoT) prompting to improve problem-solving and provide seemingly transparent explanations. However, growing evidence shows that CoT often fail to faithfully represent the underlying reasoning process, raising concerns about their reliability in high-risk applications. Although prior studies have focused on mechanism-level analyses showing that CoTs can be unfaithful, they leave open the practical challenge of deciding whether a specific trajectory is faithful to the internal reasoning of the model. To address this gap, we introduce FaithCoT-Bench, a unified benchmark for instance-level CoT unfaithfulness detection. Our framework establishes a rigorous task formulation that formulates unfaithfulness detection as a discriminative decision problem, and provides FINE-CoT (Faithfulness instance evaluation for Chain-of-Thought), an expert-annotated collection of over 1,000 trajectories generated by four representative LLMs across four domains, including more than 300 unfaithful instances with fine-grained causes and step-level evidence. We further conduct a systematic evaluation of eleven representative detection methods spanning counterfactual, logit-based, and LLM-as-judge paradigms, deriving empirical insights that clarify the strengths and weaknesses of existing approaches and reveal the increased challenges of detection in knowledge-intensive domains and with more advanced models. To the best of our knowledge, FaithCoT-Bench establishes the first comprehensive benchmark for instance-level CoT faithfulness, setting a solid basis for future research toward more interpretable and trustworthy reasoning in LLMs.",
+        "timestamp": "2026-07-15T14:55:09.822Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/05",
+        "tags": [
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2290,
+        "object_id": "paper:arxiv.2510.04040",
+        "created_at": "2026-07-15T14:55:10+00:00",
+        "updated_at": "2026-07-15T14:55:30+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.27378": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.27378",
+        "url": "https://arxiv.org/abs/2510.27378",
+        "title": "Measuring Chain-of-Thought Monitorability Through Faithfulness and Verbosity",
+        "authors": "Austin Meek, Eitan Sprejer, Iv\u00e1n Arcuschin, Austin J. Brockmeier, Steven Basart",
+        "abstract": "Chain-of-thought (CoT) outputs let us read a model's step-by-step reasoning. Since any long, serial reasoning process must pass through this textual trace, the quality of the CoT is a direct window into what the model is thinking. This visibility could help us spot unsafe or misaligned behavior (monitorability), but only if the CoT is transparent about its internal reasoning (faithfulness). Fully measuring faithfulness is difficult, so researchers often focus on examining the CoT in cases where the model changes its answer after adding a cue to the input. This proxy finds some instances of unfaithfulness but loses information when the model maintains its answer, and does not investigate aspects of reasoning not tied to the cue. We extend these results to a more holistic sense of monitorability by introducing verbosity: whether the CoT lists every factor needed to solve the task. We combine faithfulness and verbosity into a single monitorability score that shows how well the CoT serves as the model's external `working memory', a property that many safety schemes based on CoT monitoring depend on. We evaluate instruction-tuned and reasoning models on BBH, GPQA, and MMLU. Our results show that models can appear faithful yet remain hard to monitor when they leave out key factors, and that monitorability differs sharply across model families. We release our evaluation code using the Inspect library to support reproducible future work.",
+        "timestamp": "2026-07-15T14:55:06.081Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/31",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2289,
+        "object_id": "paper:arxiv.2510.27378",
+        "created_at": "2026-07-15T14:55:06+00:00",
+        "updated_at": "2026-07-15T14:55:33+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.23966": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.23966",
+        "url": "https://arxiv.org/abs/2510.23966",
+        "title": "A Pragmatic Way to Measure Chain-of-Thought Monitorability",
+        "authors": "Scott Emmons, Roland S. Zimmermann, David K. Elson, Rohin Shah",
+        "abstract": "While Chain-of-Thought (CoT) monitoring offers a unique opportunity for AI safety, this opportunity could be lost through shifts in training practices or model architecture. To help preserve monitorability, we propose a pragmatic way to measure two components of it: legibility (whether the reasoning can be followed by a human) and coverage (whether the CoT contains all the reasoning needed for a human to also produce the final output). We implement these metrics with an autorater prompt that enables any capable LLM to compute the legibility and coverage of existing CoTs. After sanity-checking our prompted autorater with synthetic CoT degradations, we apply it to several frontier models on challenging benchmarks, finding that they exhibit high monitorability. We present these metrics, including our complete autorater prompt, as a tool for developers to track how design decisions impact monitorability. While the exact prompt we share is still a preliminary version under ongoing development, we are sharing it now in the hopes that others in the community will find it useful. Our method helps measure the default monitorability of CoT - it should be seen as a complement, not a replacement, for the adversarial stress-testing needed to test robustness against deliberately evasive models.",
+        "timestamp": "2026-07-15T14:55:04.106Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/28",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Software Engineering (cs.SE)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2288,
+        "object_id": "paper:arxiv.2510.23966",
+        "created_at": "2026-07-15T14:55:04+00:00",
+        "updated_at": "2026-07-15T14:55:29+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2507.11473": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2507.11473",
+        "url": "https://arxiv.org/abs/2507.11473",
+        "title": "Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety",
+        "authors": "Tomek Korbak, Mikita Balesni, Elizabeth Barnes, Yoshua Bengio, Joe Benton, Joseph Bloom, Mark Chen, Alan Cooney, Allan Dafoe, Anca Dragan, Scott Emmons, Owain Evans, David Farhi, Ryan Greenblatt, Dan Hendrycks, Marius Hobbhahn, Evan Hubinger, Geoffrey Irving, Erik Jenner, Daniel Kokotajlo, Victoria Krakovna, Shane Legg, David Lindner, David Luan, Aleksander M\u0105dry, Julian Michael, Neel Nanda, Dave Orr, Jakub Pachocki, Ethan Perez, Mary Phuong, Fabien Roger, Joshua Saxe, Buck Shlegeris, Mart\u00edn Soto, Eric Steinberger, Jasmine Wang, Wojciech Zaremba, Bowen Baker, Rohin Shah, Vlad Mikulik",
+        "abstract": "AI systems that \"think\" in human language offer a unique opportunity for AI safety: we can monitor their chains of thought (CoT) for the intent to misbehave. Like all other known AI oversight methods, CoT monitoring is imperfect and allows some misbehavior to go unnoticed. Nevertheless, it shows promise and we recommend further research into CoT monitorability and investment in CoT monitoring alongside existing safety methods. Because CoT monitorability may be fragile, we recommend that frontier model developers consider the impact of development decisions on CoT monitorability.",
+        "timestamp": "2026-07-15T14:55:01.157Z",
+        "rating": "novote",
+        "publishedDate": "2025/07/15",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2287,
+        "object_id": "paper:arxiv.2507.11473",
+        "created_at": "2026-07-15T14:55:01+00:00",
+        "updated_at": "2026-07-15T14:55:22+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2507.05246": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2507.05246",
+        "url": "https://arxiv.org/abs/2507.05246",
+        "title": "When Chain of Thought is Necessary, Language Models Struggle to Evade Monitors",
+        "authors": "Scott Emmons, Erik Jenner, David K. Elson, Rif A. Saurous, Senthooran Rajamanoharan, Heng Chen, Irhum Shafkat, Rohin Shah",
+        "abstract": "While chain-of-thought (CoT) monitoring is an appealing AI safety defense, recent work on \"unfaithfulness\" has cast doubt on its reliability. These findings highlight an important failure mode, particularly when CoT acts as a post-hoc rationalization in applications like auditing for bias. However, for the distinct problem of runtime monitoring to prevent severe harm, we argue the key property is not faithfulness but monitorability. To this end, we introduce a conceptual framework distinguishing CoT-as-rationalization from CoT-as-computation. We expect that certain classes of severe harm will require complex, multi-step reasoning that necessitates CoT-as-computation. Replicating the experimental setups of prior work, we increase the difficulty of the bad behavior to enforce this necessity condition; this forces the model to expose its reasoning, making it monitorable. We then present methodology guidelines to stress-test CoT monitoring against deliberate evasion. Applying these guidelines, we find that models can learn to obscure their intentions, but only when given significant help, such as detailed human-written strategies or iterative optimization against the monitor. We conclude that, while not infallible, CoT monitoring offers a substantial layer of defense that requires active protection and continued stress-testing.",
+        "timestamp": "2026-07-15T14:54:58.651Z",
+        "rating": "novote",
+        "publishedDate": "2025/07/07",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2286,
+        "object_id": "paper:arxiv.2507.05246",
+        "created_at": "2026-07-15T14:54:58+00:00",
+        "updated_at": "2026-07-15T14:55:18+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2505.05410": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.05410",
+        "url": "https://arxiv.org/abs/2505.05410",
+        "title": "Reasoning Models Don't Always Say What They Think",
+        "authors": "Yanda Chen, Joe Benton, Ansh Radhakrishnan, Jonathan Uesato, Carson Denison, John Schulman, Arushi Somani, Peter Hase, Misha Wagner, Fabien Roger, Vlad Mikulik, Samuel R. Bowman, Jan Leike, Jared Kaplan, Ethan Perez",
+        "abstract": "Chain-of-thought (CoT) offers a potential boon for AI safety as it allows monitoring a model's CoT to try to understand its intentions and reasoning processes. However, the effectiveness of such monitoring hinges on CoTs faithfully representing models' actual reasoning processes. We evaluate CoT faithfulness of state-of-the-art reasoning models across 6 reasoning hints presented in the prompts and find: (1) for most settings and models tested, CoTs reveal their usage of hints in at least 1% of examples where they use the hint, but the reveal rate is often below 20%, (2) outcome-based reinforcement learning initially improves faithfulness but plateaus without saturating, and (3) when reinforcement learning increases how frequently hints are used (reward hacking), the propensity to verbalize them does not increase, even without training against a CoT monitor. These results suggest that CoT monitoring is a promising way of noticing undesired behaviors during training and evaluations, but that it is not sufficient to rule them out. They also suggest that in settings like ours where CoT reasoning is not necessary, test-time monitoring of CoTs is unlikely to reliably catch rare and catastrophic unexpected behaviors.",
+        "timestamp": "2026-07-15T14:54:56.007Z",
+        "rating": "novote",
+        "publishedDate": "2025/05/08",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2285,
+        "object_id": "paper:arxiv.2505.05410",
+        "created_at": "2026-07-15T14:54:56+00:00",
+        "updated_at": "2026-07-15T14:55:18+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2503.11926": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2503.11926",
+        "url": "https://arxiv.org/abs/2503.11926",
+        "title": "Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation",
+        "authors": "Bowen Baker, Joost Huizinga, Leo Gao, Zehao Dou, Melody Y. Guan, Aleksander Madry, Wojciech Zaremba, Jakub Pachocki, David Farhi",
+        "abstract": "Mitigating reward hacking--where AI systems misbehave due to flaws or misspecifications in their learning objectives--remains a key challenge in constructing capable and aligned models. We show that we can monitor a frontier reasoning model, such as OpenAI o3-mini, for reward hacking in agentic coding environments by using another LLM that observes the model's chain-of-thought (CoT) reasoning. CoT monitoring can be far more effective than monitoring agent actions and outputs alone, and we further found that a LLM weaker than o3-mini, namely GPT-4o, can effectively monitor a stronger model. Because CoT monitors can be effective at detecting exploits, it is natural to ask whether those exploits can be suppressed by incorporating a CoT monitor directly into the agent's training objective. While we show that integrating CoT monitors into the reinforcement learning reward can indeed produce more capable and more aligned agents in the low optimization regime, we find that with too much optimization, agents learn obfuscated reward hacking, hiding their intent within the CoT while still exhibiting a significant rate of reward hacking. Because it is difficult to tell when CoTs have become obfuscated, it may be necessary to pay a monitorability tax by not applying strong optimization pressures directly to the chain-of-thought, ensuring that CoTs remain monitorable and useful for detecting misaligned behavior.",
+        "timestamp": "2026-07-15T14:54:53.478Z",
+        "rating": "novote",
+        "publishedDate": "2025/03/14",
+        "tags": [
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2284,
+        "object_id": "paper:arxiv.2503.11926",
+        "created_at": "2026-07-15T14:54:53+00:00",
+        "updated_at": "2026-07-15T14:55:11+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2307.13702": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2307.13702",
+        "url": "https://arxiv.org/abs/2307.13702",
+        "title": "Measuring Faithfulness in Chain-of-Thought Reasoning",
+        "authors": "Tamera Lanham, Anna Chen, Ansh Radhakrishnan, Benoit Steiner, Carson Denison, Danny Hernandez, Dustin Li, Esin Durmus, Evan Hubinger, Jackson Kernion, Kamil\u0117 Luko\u0161i\u016bt\u0117, Karina Nguyen, Newton Cheng, Nicholas Joseph, Nicholas Schiefer, Oliver Rausch, Robin Larson, Sam McCandlish, Sandipan Kundu, Saurav Kadavath, Shannon Yang, Thomas Henighan, Timothy Maxwell, Timothy Telleen-Lawton, Tristan Hume, Zac Hatfield-Dodds, Jared Kaplan, Jan Brauner, Samuel R. Bowman, Ethan Perez",
+        "abstract": "Large language models (LLMs) perform better when they produce step-by-step, \"Chain-of-Thought\" (CoT) reasoning before answering a question, but it is unclear if the stated reasoning is a faithful explanation of the model's actual reasoning (i.e., its process for answering the question). We investigate hypotheses for how CoT reasoning may be unfaithful, by examining how the model predictions change when we intervene on the CoT (e.g., by adding mistakes or paraphrasing it). Models show large variation across tasks in how strongly they condition on the CoT when predicting their answer, sometimes relying heavily on the CoT and other times primarily ignoring it. CoT's performance boost does not seem to come from CoT's added test-time compute alone or from information encoded via the particular phrasing of the CoT. As models become larger and more capable, they produce less faithful reasoning on most tasks we study. Overall, our results suggest that CoT can be faithful if the circumstances such as the model size and task are carefully chosen.",
+        "timestamp": "2026-07-15T14:54:49.524Z",
+        "rating": "novote",
+        "publishedDate": "2023/07/17",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2283,
+        "object_id": "paper:arxiv.2307.13702",
+        "created_at": "2026-07-15T14:54:50+00:00",
+        "updated_at": "2026-07-15T14:55:16+00:00",
         "version": 1
       }
     }

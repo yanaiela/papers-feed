@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-07-18T01:56:06.368131+00:00",
+  "snapshot_time": "2026-07-18T01:57:47.424844+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -80026,17 +80026,32 @@
           },
           {
             "type": "reading_session",
-            "timestamp": "2026-07-18T01:55:21.692Z",
+            "timestamp": "2026-07-18T01:54:47.674Z",
             "data": {
-              "session_id": "session_1784339721223_6nqm15v",
+              "session_id": "session_1784339687262_2ogbnk4",
               "source_id": "openreview",
               "paper_id": "xK0zRemqmT",
-              "start_time": "2026-07-18T01:55:07.158Z",
-              "end_time": "2026-07-18T01:55:21.223Z",
-              "heartbeat_count": 2,
-              "duration_seconds": 10,
+              "start_time": "2026-07-18T01:54:07.977Z",
+              "end_time": "2026-07-18T01:54:47.262Z",
+              "heartbeat_count": 7,
+              "duration_seconds": 35,
               "idle_seconds": 4,
-              "total_elapsed_seconds": 14
+              "total_elapsed_seconds": 39
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-07-18T01:56:24.481Z",
+            "data": {
+              "session_id": "session_1784339784091_lg5owdm",
+              "source_id": "openreview",
+              "paper_id": "xK0zRemqmT",
+              "start_time": "2026-07-18T01:56:02.933Z",
+              "end_time": "2026-07-18T01:56:24.091Z",
+              "heartbeat_count": 4,
+              "duration_seconds": 20,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 21
             }
           }
         ]
@@ -80045,7 +80060,7 @@
         "issue_number": 2175,
         "object_id": "interactions:openreview.xK0zRemqmT",
         "created_at": "2026-06-26T22:43:55+00:00",
-        "updated_at": "2026-07-18T01:55:47+00:00",
+        "updated_at": "2026-07-18T01:56:58+00:00",
         "version": 1
       }
     },

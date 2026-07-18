@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-07-18T01:57:47.424844+00:00",
+  "snapshot_time": "2026-07-18T01:59:53.805026+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -61281,6 +61281,21 @@
               "idle_seconds": 0,
               "total_elapsed_seconds": 10
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-07-18T01:59:11.959Z",
+            "data": {
+              "session_id": "session_1784339951344_i5e4710",
+              "source_id": "arxiv",
+              "paper_id": "2512.13961",
+              "start_time": "2026-07-18T01:57:57.803Z",
+              "end_time": "2026-07-18T01:59:11.344Z",
+              "heartbeat_count": 14,
+              "duration_seconds": 70,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 74
+            }
           }
         ]
       },
@@ -61288,7 +61303,7 @@
         "issue_number": 1587,
         "object_id": "interactions:arxiv.2512.13961",
         "created_at": "2026-02-17T08:18:47+00:00",
-        "updated_at": "2026-02-17T08:59:37+00:00",
+        "updated_at": "2026-07-18T01:59:31+00:00",
         "version": 1
       }
     },
@@ -83691,6 +83706,32 @@
         "object_id": "interactions:openreview.vx4bu7BamD",
         "created_at": "2026-07-01T14:58:37+00:00",
         "updated_at": "2026-07-17T17:27:23+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2412.15115": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2412.15115",
+        "url": "https://arxiv.org/abs/2412.15115",
+        "title": "Qwen2.5 Technical Report",
+        "authors": "Qwen, An Yang, Baosong Yang, Beichen Zhang, Binyuan Hui, Bo Zheng, Bowen Yu, Chengyuan Li, Dayiheng Liu, Fei Huang, Haoran Wei, Huan Lin, Jian Yang, Jianhong Tu, Jianwei Zhang, Jianxin Yang, Jiaxi Yang, Jingren Zhou, Junyang Lin, Kai Dang, Keming Lu, Keqin Bao, Kexin Yang, Le Yu, Mei Li, Mingfeng Xue, Pei Zhang, Qin Zhu, Rui Men, Runji Lin, Tianhao Li, Tianyi Tang, Tingyu Xia, Xingzhang Ren, Xuancheng Ren, Yang Fan, Yang Su, Yichang Zhang, Yu Wan, Yuqiong Liu, Zeyu Cui, Zhenru Zhang, Zihan Qiu",
+        "abstract": "In this report, we introduce Qwen2.5, a comprehensive series of large language models (LLMs) designed to meet diverse needs. Compared to previous iterations, Qwen 2.5 has been significantly improved during both the pre-training and post-training stages. In terms of pre-training, we have scaled the high-quality pre-training datasets from the previous 7 trillion tokens to 18 trillion tokens. This provides a strong foundation for common sense, expert knowledge, and reasoning capabilities. In terms of post-training, we implement intricate supervised finetuning with over 1 million samples, as well as multistage reinforcement learning. Post-training techniques enhance human preference, and notably improve long text generation, structural data analysis, and instruction following. To handle diverse and varied use cases effectively, we present Qwen2.5 LLM series in rich sizes. Open-weight offerings include base and instruction-tuned models, with quantized versions available. In addition, for hosted solutions, the proprietary models currently include two mixture-of-experts (MoE) variants: Qwen2.5-Turbo and Qwen2.5-Plus, both available from Alibaba Cloud Model Studio. Qwen2.5 has demonstrated top-tier performance on a wide range of benchmarks evaluating language understanding, reasoning, mathematics, coding, human preference alignment, etc. Specifically, the open-weight flagship Qwen2.5-72B-Instruct outperforms a number of open and proprietary models and demonstrates competitive performance to the state-of-the-art open-weight model, Llama-3-405B-Instruct, which is around 5 times larger. Qwen2.5-Turbo and Qwen2.5-Plus offer superior cost-effectiveness while performing competitively against GPT-4o-mini and GPT-4o respectively. Additionally, as the foundation, Qwen2.5 models have been instrumental in training specialized models such as Qwen2.5-Math, Qwen2.5-Coder, QwQ, and multimodal models.",
+        "timestamp": "2026-07-18T01:59:15.136Z",
+        "rating": "novote",
+        "publishedDate": "2024/12/19",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2298,
+        "object_id": "paper:arxiv.2412.15115",
+        "created_at": "2026-07-18T01:59:15+00:00",
+        "updated_at": "2026-07-18T01:59:35+00:00",
         "version": 1
       }
     }

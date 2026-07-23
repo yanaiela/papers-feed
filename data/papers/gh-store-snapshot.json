@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-07-23T12:41:03.822800+00:00",
+  "snapshot_time": "2026-07-23T12:42:03.829133+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -84354,6 +84354,30 @@
         "object_id": "paper:openreview.JHXwv04ufz",
         "created_at": "2026-07-23T12:40:05+00:00",
         "updated_at": "2026-07-23T12:40:28+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.GNHgbGQVSm": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "GNHgbGQVSm",
+        "url": "https://openreview.net/forum?id=GNHgbGQVSm&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2026%2FConference%2FAuthors%23your-submissions)",
+        "title": "Category Learning in Language Models from Pretraining Data",
+        "authors": "Jimin Mun, Yanai Elazar, Maarten Sap",
+        "abstract": "Humans readily learn categorical knowledge, recognizing that, e.g., _airplanes are fast_, and apply it flexibly: inferring that _red airplanes are fast_, but _broken airplanes are not_. Can language models (LMs) learn to robustly reason about categories? To investigate, we train LMs of two scales (68M and 355M parameters) from scratch on two 2.1M-example datasets of Wikipedia articles and TinyStories, with precise control over the categorical information each model sees. We explore four expressions of fictional category knowledge, ranging from direct repetition of category-feature associations to individual instantiation, exceptions, and context-dependent usage. Our key findings are: (a) models tend to over-generalize category-feature association to both correct and incorrect contexts; (b) over-generalization, however, can be mitigated even in small models with diverse category-knowledge expressions, underscoring the importance of training data diversity; and (c) despite their small scale, models can learn contextual flexibility, supporting more robust category learning, especially when given diverse category expressions during training, as with over-generalization mitigation. Together, these findings advance our understanding of how LMs acquire categorical knowledge and underscore the critical role of training data curation in building models that generalize robustly.",
+        "timestamp": "2026-07-23T12:40:57.304Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "NeurIPS 2026 Conference Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2322,
+        "object_id": "paper:openreview.GNHgbGQVSm",
+        "created_at": "2026-07-23T12:40:57+00:00",
+        "updated_at": "2026-07-23T12:41:19+00:00",
         "version": 1
       }
     }

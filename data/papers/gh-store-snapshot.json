@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-07-26T11:27:15.115496+00:00",
+  "snapshot_time": "2026-07-26T11:28:52.767001+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -84551,6 +84551,48 @@
         "object_id": "paper:arxiv.2508.09288",
         "created_at": "2026-07-26T11:26:35+00:00",
         "updated_at": "2026-07-26T11:26:54+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2605.11086": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2605.11086",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2327,
+        "object_id": "interactions:arxiv.2605.11086",
+        "created_at": "2026-07-26T11:28:09+00:00",
+        "updated_at": "2026-07-26T11:28:10+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2605.11086": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2605.11086",
+        "url": "https://arxiv.org/abs/2605.11086",
+        "title": "ExploitGym: Can AI Agents Turn Security Vulnerabilities into Real Attacks?",
+        "authors": "Zhun Wang, Nico Schiller, Hongwei Li, Srijiith Sesha Narayana, Milad Nasr, Nicholas Carlini, Xiangyu Qi, Eric Wallace, Elie Bursztein, Luca Invernizzi, Kurt Thomas, Yan Shoshitaishvili, Wenbo Guo, Jingxuan He, Thorsten Holz, Dawn Song",
+        "abstract": "AI agents are rapidly gaining capabilities that could significantly reshape cybersecurity, making rigorous evaluation urgent. A critical capability is exploitation: turning a vulnerability, which is not yet an attack, into a concrete security impact, such as unauthorized file access or code execution. Exploitation is a particularly challenging task because it requires low-level program reasoning (e.g., about memory layout), runtime adaptation, and sustained progress over long horizons. Meanwhile, it is inherently dual-use, supporting defensive workflows while lowering the barrier for offense. Despite its importance and diagnostic value, exploitation remains under-evaluated. To address this gap, we introduce ExploitGym, a large-scale, diverse, realistic benchmark on the exploitation capabilities of AI agents. Given a program input that triggers a vulnerability, ExploitGym tasks agents with progressively extending it into a working exploit. The benchmark comprises 898 instances sourced from real-world vulnerabilities across three domains, including userspace programs, Google's V8 JavaScript engine, and the Linux kernel. We vary the security protections applied to each instance, isolating their impact on agent performance. All configurations are packaged in reproducible containerized environments. Our evaluation shows that while exploitation remains challenging, frontier models can successfully exploit a non-trivial fraction of vulnerabilities. For example, the strongest configurations are Anthropic's latest model Claude Mythos Preview and OpenAI's GPT-5.5, which produce working exploits for 157 and 120 instances, respectively. Notably, even with widely used defenses enabled, models retain non-trivial success rates. These results establish ExploitGym as an effective testbed for exploitation and highlight the growing cybersecurity risks posed by increasingly capable AI agents.",
+        "timestamp": "2026-07-26T11:28:00.521Z",
+        "rating": "novote",
+        "publishedDate": "2026/05/11",
+        "tags": [
+          "Cryptography and Security (cs.CR)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2326,
+        "object_id": "paper:arxiv.2605.11086",
+        "created_at": "2026-07-26T11:28:00+00:00",
+        "updated_at": "2026-07-26T11:28:24+00:00",
         "version": 1
       }
     }

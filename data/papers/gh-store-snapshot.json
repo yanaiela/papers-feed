@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-08-01T14:11:31.837182+00:00",
+  "snapshot_time": "2026-08-01T19:46:38.049237+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -85007,6 +85007,30 @@
         "object_id": "interactions:arxiv.2607.20349",
         "created_at": "2026-07-28T15:52:20+00:00",
         "updated_at": "2026-07-28T16:12:11+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.syOnNK76mE": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "syOnNK76mE",
+        "url": "https://openreview.net/forum?id=syOnNK76mE&noteId=syOnNK76mE&invitationId=aclweb.org/ACL/ARR/2026/August/Area_Chairs/-/Max_Load_And_Unavailability_Request&referrer=%5BArea%20Chairs%20Console%5D(%2Fgroup%3Fid%3Daclweb.org%2FACL%2FARR%2F2026%2FAugust%2FArea_Chairs%23area-chair-tasks)",
+        "title": "Area Chair Unavailability and Maximum Load Request for Volunteer Service",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-08-01T19:45:47.925Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "ACL ARR 2026 August Area Chairs Max Load And Unavailability Request Form",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2331,
+        "object_id": "paper:openreview.syOnNK76mE",
+        "created_at": "2026-08-01T19:45:48+00:00",
+        "updated_at": "2026-08-01T19:46:06+00:00",
         "version": 1
       }
     }

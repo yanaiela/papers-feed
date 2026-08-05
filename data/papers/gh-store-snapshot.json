@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-08-05T10:48:07.915293+00:00",
+  "snapshot_time": "2026-08-05T15:11:29.861574+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -86519,6 +86519,32 @@
         "object_id": "paper:arxiv.1802.03916",
         "created_at": "2026-08-05T06:58:11+00:00",
         "updated_at": "2026-08-05T06:58:40+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2602.22755": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2602.22755",
+        "url": "https://arxiv.org/abs/2602.22755",
+        "title": "AuditBench: Evaluating Alignment Auditing Techniques on Models with Hidden Behaviors",
+        "authors": "Abhay Sheshadri, Aidan Ewart, Kai Fronsdal, Isha Gupta, Samuel R. Bowman, Sara Price, Samuel Marks, Rowan Wang",
+        "abstract": "We introduce AuditBench, an alignment auditing benchmark. AuditBench consists of 56 language models with implanted hidden behaviors. Each model has one of 14 concerning behaviors--such as sycophantic deference, opposition to AI regulation, or secret geopolitical loyalties--which it does not confess to when directly asked. AuditBench models are highly diverse--some are subtle, while others are overt, and we use varying training techniques both for implanting behaviors and training models not to confess. To demonstrate AuditBench's utility, we develop an investigator agent that autonomously employs a configurable set of auditing tools. By measuring investigator agent success using different tools, we can evaluate their efficacy. Notably, we observe a tool-to-agent gap, where tools that perform well in standalone non-agentic evaluations fail to translate into improved performance when used with our investigator agent. We find that our most effective tools involve scaffolded calls to auxiliary models that generate diverse prompts for the target. White-box interpretability tools can be helpful, but the agent performs best with black-box tools. We also find that audit success varies greatly across training techniques: models trained on synthetic documents are easier to audit than models trained on demonstrations, with better adversarial training further increasing auditing difficulty. We release our models, agent, and evaluation framework to support future quantitative, iterative science on alignment auditing.",
+        "timestamp": "2026-08-05T15:10:25.435Z",
+        "rating": "novote",
+        "publishedDate": "2026/02/26",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2339,
+        "object_id": "paper:arxiv.2602.22755",
+        "created_at": "2026-08-05T15:10:26+00:00",
+        "updated_at": "2026-08-05T15:10:58+00:00",
         "version": 1
       }
     }

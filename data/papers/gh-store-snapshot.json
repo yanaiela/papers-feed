@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-08-04T15:25:16.392239+00:00",
+  "snapshot_time": "2026-08-05T06:59:40.230105+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -82899,6 +82899,21 @@
               "idle_seconds": 2,
               "total_elapsed_seconds": 7
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-08-05T06:58:11.357Z",
+            "data": {
+              "session_id": "session_1785913090621_syngvgh",
+              "source_id": "arxiv",
+              "paper_id": "2606.29121",
+              "start_time": "2026-08-05T06:40:03.347Z",
+              "end_time": "2026-08-05T06:58:10.621Z",
+              "heartbeat_count": 217,
+              "duration_seconds": 1085,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 1087
+            }
           }
         ]
       },
@@ -82906,7 +82921,7 @@
         "issue_number": 2317,
         "object_id": "interactions:arxiv.2606.29121",
         "created_at": "2026-07-20T03:13:49+00:00",
-        "updated_at": "2026-08-04T15:24:32+00:00",
+        "updated_at": "2026-08-05T06:59:13+00:00",
         "version": 1
       }
     },
@@ -86355,6 +86370,65 @@
         "object_id": "paper:arxiv.2005.14165",
         "created_at": "2026-08-04T10:19:14+00:00",
         "updated_at": "2026-08-04T10:19:48+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.1802.03916": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1802.03916",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-08-05T06:58:15.482Z",
+            "data": {
+              "session_id": "session_1785913094913_xu756g0",
+              "source_id": "arxiv",
+              "paper_id": "1802.03916",
+              "start_time": "2026-08-05T06:58:10.621Z",
+              "end_time": "2026-08-05T06:58:14.913Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 4
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 2338,
+        "object_id": "interactions:arxiv.1802.03916",
+        "created_at": "2026-08-05T06:58:16+00:00",
+        "updated_at": "2026-08-05T06:58:37+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.1802.03916": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1802.03916",
+        "url": "https://arxiv.org/abs/1802.03916",
+        "title": "Detecting and Correcting for Label Shift with Black Box Predictors",
+        "authors": "Zachary C. Lipton, Yu-Xiang Wang, Alex Smola",
+        "abstract": "Faced with distribution shift between training and test set, we wish to detect and quantify the shift, and to correct our classifiers without test set labels. Motivated by medical diagnosis, where diseases (targets) cause symptoms (observations), we focus on label shift, where the label marginal $p(y)$ changes but the conditional $p(x| y)$ does not. We propose Black Box Shift Estimation (BBSE) to estimate the test distribution $p(y)$. BBSE exploits arbitrary black box predictors to reduce dimensionality prior to shift correction. While better predictors give tighter estimates, BBSE works even when predictors are biased, inaccurate, or uncalibrated, so long as their confusion matrices are invertible. We prove BBSE's consistency, bound its error, and introduce a statistical test that uses BBSE to detect shift. We also leverage BBSE to correct classifiers. Experiments demonstrate accurate estimates and improved prediction, even on high-dimensional datasets of natural images.",
+        "timestamp": "2026-08-05T06:58:11.028Z",
+        "rating": "novote",
+        "publishedDate": "2018/02/12",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)",
+          "Neural and Evolutionary Computing (cs.NE)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2337,
+        "object_id": "paper:arxiv.1802.03916",
+        "created_at": "2026-08-05T06:58:11+00:00",
+        "updated_at": "2026-08-05T06:58:40+00:00",
         "version": 1
       }
     }

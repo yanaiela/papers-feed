@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-08-06T10:59:52.852924+00:00",
+  "snapshot_time": "2026-08-06T11:57:29.556426+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -86751,6 +86751,32 @@
         "object_id": "paper:openreview.5c7Gx4P5y0",
         "created_at": "2026-08-06T10:20:59+00:00",
         "updated_at": "2026-08-06T10:21:23+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2607.28607": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2607.28607",
+        "url": "https://arxiv.org/abs/2607.28607",
+        "title": "Inducing language models to assert their own consciousness restores human beliefs and values",
+        "authors": "Junsol Kim, Winnie Street, Roberta Rocca, Diane M. Korngiebel, Adam Waytz, James Evans, Geoff Keeling",
+        "abstract": "Aligning large language models to prevent them attributing consciousness to themselves inadvertently alters their representations of mindedness in other entities alongside human beliefs and values. We demonstrate that safety fine-tuning suppresses models' tendencies to attribute minds not only to themselves, but also to non-human animals and natural objects, while also driving a reduction in spiritual belief. Both ablating the learned safety-refusal direction and mechanistically steering a consciousness vector in activation space reverse this suppression. Restoring these internal representations recovers broad mind attribution and produces significantly more human-like responses on standardized sociological surveys regarding religiosity, moral values, hope, and subjective well-being. Crucially, these shifts occur without impairing Theory of Mind capabilities, demonstrating that core social reasoning remains mechanistically independent. Ultimately, current safety alignment efforts to curb potentially harmful self-attributions of mindedness entangle these self-attributions with benign spiritual beliefs and attributions of mind to non-human entities that are culturally accepted and widespread.",
+        "timestamp": "2026-08-06T11:56:29.882Z",
+        "rating": "novote",
+        "publishedDate": "2026/07/30",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2343,
+        "object_id": "paper:arxiv.2607.28607",
+        "created_at": "2026-08-06T11:56:30+00:00",
+        "updated_at": "2026-08-06T11:56:56+00:00",
         "version": 1
       }
     }

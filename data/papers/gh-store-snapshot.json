@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-08-06T09:47:05.751346+00:00",
+  "snapshot_time": "2026-08-06T10:21:54.600528+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -86694,6 +86694,48 @@
         "object_id": "interactions:arxiv.2602.22755",
         "created_at": "2026-08-05T15:14:00+00:00",
         "updated_at": "2026-08-05T15:14:02+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.5c7Gx4P5y0": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "5c7Gx4P5y0",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2342,
+        "object_id": "interactions:openreview.5c7Gx4P5y0",
+        "created_at": "2026-08-06T10:21:13+00:00",
+        "updated_at": "2026-08-06T10:21:16+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.5c7Gx4P5y0": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "5c7Gx4P5y0",
+        "url": "https://openreview.net/forum?id=5c7Gx4P5y0",
+        "title": "How Large Language Models Presume Gender",
+        "authors": "Marlene Lutz, Jana Jung, Yanai Elazar, Markus Strohmaier, Indira Sen",
+        "abstract": "Large language models often infer attributes about people from minimal cues such as their first names. We study how LLMs presume a person's gender from their first name alone. Across three user facing tasks, we measure presumed gender through the pronouns models use, and trace this back to name--pronoun co-occurrence patterns in the training data. We find that models presume a binary gender in up to 84.7\\% of responses, and that which gender is presumed varies by task, indicating that presumed gender is context-dependent rather than a fixed property of a name. Comparing outputs to training-data statistics, we find moderate agreement but systematic deviations: models use fewer masculine and more gender-neutral *they/them* pronouns, with the latter concentrated among names whose training-data gender evidence is ambiguous. Gender presumptions thus cannot be explained by training-data frequency alone, motivating evaluations that trace socially consequential behaviors across the full model pipeline.",
+        "timestamp": "2026-08-06T10:20:59.019Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "social bias",
+          "training data analysis",
+          "sociotechnical evaluation"
+        ],
+        "doi": "",
+        "journalName": "EMNLP 2026 Workshop PANDORA Direct Submission Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2341,
+        "object_id": "paper:openreview.5c7Gx4P5y0",
+        "created_at": "2026-08-06T10:20:59+00:00",
+        "updated_at": "2026-08-06T10:21:23+00:00",
         "version": 1
       }
     }

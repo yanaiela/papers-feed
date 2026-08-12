@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-08-12T10:33:56.295765+00:00",
+  "snapshot_time": "2026-08-12T10:37:07.377359+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -81548,6 +81548,21 @@
               "idle_seconds": 3,
               "total_elapsed_seconds": 23
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-08-12T10:35:56.118Z",
+            "data": {
+              "session_id": "session_1786530956097_2tbqayd",
+              "source_id": "openreview",
+              "paper_id": "CB3S2eQqCk",
+              "start_time": "2026-08-12T10:35:48.241Z",
+              "end_time": "2026-08-12T10:35:56.097Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 8
+            }
           }
         ]
       },
@@ -81555,7 +81570,7 @@
         "issue_number": 2184,
         "object_id": "interactions:openreview.CB3S2eQqCk",
         "created_at": "2026-07-01T14:58:52+00:00",
-        "updated_at": "2026-08-05T10:47:15+00:00",
+        "updated_at": "2026-08-12T10:36:32+00:00",
         "version": 1
       }
     },
@@ -86859,6 +86874,33 @@
         "object_id": "paper:arxiv.2409.16235",
         "created_at": "2026-08-10T11:49:14+00:00",
         "updated_at": "2026-08-10T11:49:40+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2401.12926": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2401.12926",
+        "url": "https://arxiv.org/abs/2401.12926",
+        "title": "DsDm: Model-Aware Dataset Selection with Datamodels",
+        "authors": "Logan Engstrom, Axel Feldmann, Aleksander Madry",
+        "abstract": "When selecting data for training large-scale models, standard practice is to filter for examples that match human notions of data quality. Such filtering yields qualitatively clean datapoints that intuitively should improve model behavior. However, in practice the opposite can often happen: we find that selecting according to similarity with \"high quality\" data sources may not increase (and can even hurt) performance compared to randomly selecting data.\nTo develop better methods for selecting data, we start by framing dataset selection as an optimization problem that we can directly solve for: given target tasks, a learning algorithm, and candidate data, select the subset that maximizes model performance. This framework thus avoids handpicked notions of data quality, and instead models explicitly how the learning process uses train datapoints to predict on the target tasks. Our resulting method greatly improves language model (LM) performance on both pre-specified tasks and previously unseen tasks. Specifically, choosing target tasks representative of standard LM problems and evaluating on diverse held-out benchmarks, our selected datasets provide a 2x compute multiplier over baseline methods.",
+        "timestamp": "2026-08-12T10:36:00.618Z",
+        "rating": "novote",
+        "publishedDate": "2024/01/23",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2348,
+        "object_id": "paper:arxiv.2401.12926",
+        "created_at": "2026-08-12T10:36:01+00:00",
+        "updated_at": "2026-08-12T10:36:32+00:00",
         "version": 1
       }
     }

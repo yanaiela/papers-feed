@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-08-12T10:25:36.338458+00:00",
+  "snapshot_time": "2026-08-12T10:31:18.245893+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -75867,6 +75867,21 @@
               "idle_seconds": 2,
               "total_elapsed_seconds": 42
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-08-12T10:29:31.294Z",
+            "data": {
+              "session_id": "session_1786530570291_4gw7wzu",
+              "source_id": "openreview",
+              "paper_id": "qZJHM44aet",
+              "start_time": "2026-08-12T10:27:33.018Z",
+              "end_time": "2026-08-12T10:29:30.291Z",
+              "heartbeat_count": 23,
+              "duration_seconds": 115,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 117
+            }
           }
         ]
       },
@@ -75874,7 +75889,7 @@
         "issue_number": 2057,
         "object_id": "interactions:openreview.qZJHM44aet",
         "created_at": "2026-05-22T15:54:40+00:00",
-        "updated_at": "2026-08-12T10:25:00+00:00",
+        "updated_at": "2026-08-12T10:30:12+00:00",
         "version": 1
       }
     },
@@ -86116,6 +86131,21 @@
               "idle_seconds": 0,
               "total_elapsed_seconds": 12
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-08-12T10:30:24.997Z",
+            "data": {
+              "session_id": "session_1786530624991_9brdd3b",
+              "source_id": "openreview",
+              "paper_id": "vx4bu7BamD",
+              "start_time": "2026-08-12T10:30:04.823Z",
+              "end_time": "2026-08-12T10:30:24.991Z",
+              "heartbeat_count": 4,
+              "duration_seconds": 20,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 20
+            }
           }
         ]
       },
@@ -86123,7 +86153,7 @@
         "issue_number": 2183,
         "object_id": "interactions:openreview.vx4bu7BamD",
         "created_at": "2026-07-01T14:58:37+00:00",
-        "updated_at": "2026-08-04T12:48:04+00:00",
+        "updated_at": "2026-08-12T10:30:53+00:00",
         "version": 1
       }
     },

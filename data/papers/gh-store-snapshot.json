@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-08-13T11:22:36.396027+00:00",
+  "snapshot_time": "2026-08-14T07:21:01.418949+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -83691,6 +83691,21 @@
               "idle_seconds": 0,
               "total_elapsed_seconds": 0
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-08-14T07:20:10.300Z",
+            "data": {
+              "session_id": "session_1786692009565_rr54omc",
+              "source_id": "arxiv",
+              "paper_id": "2604.16812",
+              "start_time": "2026-08-14T06:49:19.666Z",
+              "end_time": "2026-08-14T07:20:09.565Z",
+              "heartbeat_count": 369,
+              "duration_seconds": 1845,
+              "idle_seconds": 5,
+              "total_elapsed_seconds": 1850
+            }
           }
         ]
       },
@@ -83698,7 +83713,7 @@
         "issue_number": 2193,
         "object_id": "interactions:arxiv.2604.16812",
         "created_at": "2026-07-03T16:31:00+00:00",
-        "updated_at": "2026-08-08T11:46:03+00:00",
+        "updated_at": "2026-08-14T07:20:32+00:00",
         "version": 1
       }
     },
@@ -87409,6 +87424,62 @@
         "object_id": "paper:arxiv.1712.09913",
         "created_at": "2026-08-13T07:41:00+00:00",
         "updated_at": "2026-08-13T07:41:25+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2603.10145": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2603.10145",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-08-14T07:20:16.325Z",
+            "data": {
+              "session_id": "session_1786692016319_byh2jr0",
+              "source_id": "arxiv",
+              "paper_id": "2603.10145",
+              "start_time": "2026-08-14T07:20:13.209Z",
+              "end_time": "2026-08-14T07:20:16.319Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 3
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 2354,
+        "object_id": "interactions:arxiv.2603.10145",
+        "created_at": "2026-08-14T07:20:17+00:00",
+        "updated_at": "2026-08-14T07:20:39+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2603.10145": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2603.10145",
+        "url": "https://arxiv.org/abs/2603.10145",
+        "title": "Lost in Backpropagation: The LM Head is a Gradient Bottleneck",
+        "authors": "Nathan Godey, Yoav Artzi",
+        "abstract": "The last layer of neural language models (LMs) projects output features of dimension $D$ to logits in dimension $V$, the size of the vocabulary, where usually $D \\ll V$. This mismatch is known to raise risks of limited expressivity in neural LMs, creating a so-called softmax bottleneck. We show the softmax bottleneck is not only an expressivity bottleneck but also an optimization bottleneck. Backpropagating $V$-dimensional gradients through a rank-$D$ linear layer induces unavoidable compression, which alters the training feedback provided to the vast majority of the parameters. We present a theoretical analysis of this phenomenon and measure empirically that 95-99% of the gradient norm is suppressed by the output layer, resulting in vastly suboptimal update directions. We conduct controlled pretraining experiments showing that the gradient bottleneck makes trivial patterns unlearnable, and drastically affects the training dynamics of LLMs. We argue that this inherent flaw contributes to training inefficiencies at scale independently of the model architecture, and raises the need for new LM head designs.",
+        "timestamp": "2026-08-14T07:20:09.903Z",
+        "rating": "novote",
+        "publishedDate": "2026/03/10",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2352,
+        "object_id": "paper:arxiv.2603.10145",
+        "created_at": "2026-08-14T07:20:10+00:00",
+        "updated_at": "2026-08-14T07:20:30+00:00",
         "version": 1
       }
     }

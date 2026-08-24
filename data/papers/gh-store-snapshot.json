@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-08-19T07:47:40.882264+00:00",
+  "snapshot_time": "2026-08-24T16:08:17.399368+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -87699,6 +87699,50 @@
         "object_id": "paper:arxiv.2608.11256",
         "created_at": "2026-08-16T11:22:31+00:00",
         "updated_at": "2026-08-16T11:22:52+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.Hy4UjONUAJ": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "Hy4UjONUAJ",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2359,
+        "object_id": "interactions:openreview.Hy4UjONUAJ",
+        "created_at": "2026-08-24T16:07:24+00:00",
+        "updated_at": "2026-08-24T16:07:26+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.Hy4UjONUAJ": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "Hy4UjONUAJ",
+        "url": "https://openreview.net/forum?id=Hy4UjONUAJ&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DEMNLP%2F2026%2FConference%2FAuthors%23your-submissions)",
+        "title": "Quantifying and Mitigating Default Behaviors in Text-to-Image Models",
+        "authors": "Royi Rassin, Aviv Slobodkin, Shauli Ravfogel, Yanai Elazar, Yoav Goldberg",
+        "abstract": "Text-to-image (T2I) models consistently collapse to stereotypical attribute values when prompts leave concepts underspecified, a phenomenon we term default behaviors. We conduct a large-scale empirical study using GRADE, an LLM-driven measurement approach that quantifies diversity at the level of individual concept attributes. We find pervasive default behaviors across all evaluated T2I models, with stronger models tending to be less diverse. We trace these defaults to reporting bias in training captions: when captions omit common attributes, the accompanying images are dominated by a narrow set of values, and model outputs closely mirror this skew. We further show that a simple mitigation technique, making underspecified attributes explicit in the prompt is sufficient to mitigate this collapse.",
+        "timestamp": "2026-08-24T16:07:18.713Z",
+        "rating": "novote",
+        "publishedDate": "21 Aug 2026",
+        "tags": [
+          "text-to-image generation",
+          "diversity evaluation",
+          "default behaviors",
+          "reporting bias",
+          "prompt rewriting"
+        ],
+        "doi": "",
+        "journalName": "EMNLP 2026 Findings",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2358,
+        "object_id": "paper:openreview.Hy4UjONUAJ",
+        "created_at": "2026-08-24T16:07:19+00:00",
+        "updated_at": "2026-08-24T16:07:48+00:00",
         "version": 1
       }
     }

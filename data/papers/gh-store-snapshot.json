@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-08-24T16:08:17.399368+00:00",
+  "snapshot_time": "2026-08-25T08:22:53.533907+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -87743,6 +87743,34 @@
         "object_id": "paper:openreview.Hy4UjONUAJ",
         "created_at": "2026-08-24T16:07:19+00:00",
         "updated_at": "2026-08-24T16:07:48+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2510.22953": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2510.22953",
+        "url": "https://arxiv.org/abs/2510.22953",
+        "title": "Manifold Approximation leads to Robust Kernel Alignment",
+        "authors": "Mohammad Tariqul Islam, Du Liu, Deblina Sarkar",
+        "abstract": "Centered kernel alignment (CKA) is a popular metric for comparing representations, determining equivalence of networks, and neuroscience research. However, CKA does not account for the underlying manifold and relies on numerous heuristics that cause it to behave differently at different scales of data. In this work, we propose Manifold approximated Kernel Alignment (MKA), which incorporates manifold geometry into the alignment task. We derive a theoretical framework for MKA. We perform empirical evaluations on synthetic datasets and real-world examples to characterize and compare MKA to its contemporaries. Our findings suggest that manifold-aware kernel alignment provides a more robust foundation for measuring representations, with potential applications in representation learning.",
+        "timestamp": "2026-08-25T08:21:58.510Z",
+        "rating": "novote",
+        "publishedDate": "2025/10/27",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (stat.ML)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2360,
+        "object_id": "paper:arxiv.2510.22953",
+        "created_at": "2026-08-25T08:21:59+00:00",
+        "updated_at": "2026-08-25T08:22:26+00:00",
         "version": 1
       }
     }

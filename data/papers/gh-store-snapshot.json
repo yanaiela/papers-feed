@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-08-26T10:26:50.449244+00:00",
+  "snapshot_time": "2026-08-27T16:27:17.844238+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -87835,6 +87835,47 @@
         "object_id": "paper:arxiv.2608.11426",
         "created_at": "2026-08-26T10:25:54+00:00",
         "updated_at": "2026-08-26T10:26:19+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2504.20185": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.20185",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2365,
+        "object_id": "interactions:arxiv.2504.20185",
+        "created_at": "2026-08-27T16:27:02+00:00",
+        "updated_at": "2026-08-27T16:27:04+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2504.20185": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.20185",
+        "url": "https://arxiv.org/abs/2504.20185",
+        "title": "AI Supply Chains: An Emerging Ecosystem of AI Actors, Products, and Services",
+        "authors": "Aspen Hopkins, Sarah H. Cen, Andrew Ilyas, Isabella Struckman, Luis Videgaray, Aleksander M\u0105dry",
+        "abstract": "The widespread adoption of AI in recent years has led to the emergence of AI supply chains: complex networks of AI actors contributing models, datasets, and more to the development of AI products and services. AI supply chains have many implications yet are poorly understood. In this work, we take a first step toward a formal study of AI supply chains and their implications, providing two illustrative case studies indicating that both AI development and regulation are complicated in the presence of supply chains. We begin by presenting a brief historical perspective on AI supply chains, discussing how their rise reflects a longstanding shift towards specialization and outsourcing that signals the healthy growth of the AI industry. We then model AI supply chains as directed graphs and demonstrate the power of this abstraction by connecting examples of AI issues to graph properties. Finally, we examine two case studies in detail, providing theoretical and empirical results in both. In the first, we show that information passing (specifically, of explanations) along the AI supply chains is imperfect, which can result in misunderstandings that have real-world implications. In the second, we show that upstream design choices (e.g., by base model providers) have downstream consequences (e.g., on AI products fine-tuned on the base model). Together, our findings motivate further study of AI supply chains and their increasingly salient social, economic, regulatory, and technical implications.",
+        "timestamp": "2026-08-27T16:26:30.315Z",
+        "rating": "novote",
+        "publishedDate": "2025/04/28",
+        "tags": [
+          "Computers and Society (cs.CY)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "10.1609/aies.v8i2.36628",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2364,
+        "object_id": "paper:arxiv.2504.20185",
+        "created_at": "2026-08-27T16:26:31+00:00",
+        "updated_at": "2026-08-27T16:26:53+00:00",
         "version": 1
       }
     }

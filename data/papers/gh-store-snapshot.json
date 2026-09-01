@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-08-31T17:09:20.165143+00:00",
+  "snapshot_time": "2026-09-01T12:26:50.877307+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -88048,6 +88048,30 @@
         "object_id": "paper:arxiv.2406.14473",
         "created_at": "2026-08-31T17:04:31+00:00",
         "updated_at": "2026-08-31T17:04:53+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.kx9a6Euqex": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "kx9a6Euqex",
+        "url": "https://openreview.net/forum?id=kx9a6Euqex&noteId=kx9a6Euqex",
+        "title": "The State of Interpretability for AI Safety: A Survey of Foundations, Methods, and Research Directions",
+        "authors": "Fazl Barez, Tung-Yu Wu, Aaron Maiwald, Abir Harrasse, Adi Simhi, Ant\u00eda Garc\u00eda, Belinda Z. Li, Damiano Fornasiere, Florent Draye, Gabriele Dominici, Hunar Batra, Hassan Sajjad, Michael Lan, Narmeen Fatimah Oozeer, Or David Shafran, Riley Harris, Shriyash Kaustubh Upadhyay, Shay B. Cohen, Yu Zhao, Yanai Elazar, Ziyu Yao, Robert Trager, Naomi Saphra, Mor Geva, Yoshua Bengio, Stella Biderman, (hide authors)",
+        "abstract": "We survey interpretability for AI safety, focusing on mechanistic interpretability (MI)\u2014the study of neural networks' internal representations and computations to develop causal understanding and support targeted interventions. We first situate MI within the broader interpretability landscape, contrasting its mechanism-level evidence with behavioral evaluation while emphasizing how behavioral, attributional, and representation-based methods can complement mechanistic analysis. We introduce core foundations for MI from first principles, including features, polysemanticity, superposition, transformer computation, and circuits, and survey methods for feature decomposition, circuit discovery and causal verification, interpreting intermediate representations, training-data attribution, learning dynamics, knowledge localization, and representation steering. We then characterize six research orientations---Pragmatic, Ambitious, Developmental, Interpretability Across Time, Introspective, and Automated Interpretability---as agendas defined by their goals, assumptions, and trade-offs rather than by exclusive method sets. Finally, we examine how mechanistic understanding can support safety interventions, including knowledge editing, steering, monitoring, and automated interpretability agents, while assessing their limitations, failure modes, open problems, and relationship to behavioral safety measures.",
+        "timestamp": "2026-09-01T12:25:58.852Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "Submitted to TMLR",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2370,
+        "object_id": "paper:openreview.kx9a6Euqex",
+        "created_at": "2026-09-01T12:25:59+00:00",
+        "updated_at": "2026-09-01T12:26:22+00:00",
         "version": 1
       }
     }

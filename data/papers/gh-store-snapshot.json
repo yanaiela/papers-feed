@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-09-08T15:59:29.883295+00:00",
+  "snapshot_time": "2026-09-09T08:29:27.818876+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -88278,6 +88278,47 @@
         "object_id": "interactions:openreview.2URFvxSwkr",
         "created_at": "2026-09-08T11:36:37+00:00",
         "updated_at": "2026-09-08T11:36:39+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2504.14128": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.14128",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2378,
+        "object_id": "interactions:arxiv.2504.14128",
+        "created_at": "2026-09-09T08:28:56+00:00",
+        "updated_at": "2026-09-09T08:28:58+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2504.14128": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2504.14128",
+        "url": "https://arxiv.org/abs/2504.14128",
+        "title": "TALES: Text Adventure Learning Environment Suite",
+        "authors": "Christopher Zhang Cui, Xingdi Yuan, Ziang Xiao, Prithviraj Ammanabrolu, Marc-Alexandre C\u00f4t\u00e9",
+        "abstract": "Reasoning is an essential skill to enable Large Language Models (LLMs) to interact with the world. As tasks become more complex, they demand increasingly sophisticated and diverse reasoning capabilities for sequential decision-making, requiring structured reasoning over the context history to determine the next best action. We introduce TALES, a diverse collection of synthetic and human-written text-adventure games designed to challenge and evaluate diverse reasoning capabilities. We present results over a range of LLMs, open- and closed-weights, performing a qualitative analysis on the top performing models. Despite an impressive showing on synthetic games, even the top LLM-driven agents fail to achieve 15% on games designed for human enjoyment. Code and visualization of the experiments can be found at this https URL.",
+        "timestamp": "2026-09-09T08:28:44.207Z",
+        "rating": "novote",
+        "publishedDate": "2025/04/19",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2377,
+        "object_id": "paper:arxiv.2504.14128",
+        "created_at": "2026-09-09T08:28:44+00:00",
+        "updated_at": "2026-09-09T08:29:04+00:00",
         "version": 1
       }
     }

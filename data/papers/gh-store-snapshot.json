@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-09-09T09:03:00.579883+00:00",
+  "snapshot_time": "2026-09-09T11:34:14.463800+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -88362,6 +88362,30 @@
         "object_id": "paper:arxiv.2510.01645",
         "created_at": "2026-09-09T09:02:19+00:00",
         "updated_at": "2026-09-09T09:02:38+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2411.12372": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2411.12372",
+        "url": "https://arxiv.org/html/2411.12372v1",
+        "title": "RedPajama: an Open Dataset for Training Large Language Models",
+        "authors": "",
+        "abstract": "",
+        "timestamp": "2026-09-09T11:33:26.953Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2381,
+        "object_id": "paper:arxiv.2411.12372",
+        "created_at": "2026-09-09T11:33:27+00:00",
+        "updated_at": "2026-09-09T11:33:49+00:00",
         "version": 1
       }
     }

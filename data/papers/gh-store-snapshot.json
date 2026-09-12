@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-09-10T08:11:18.651169+00:00",
+  "snapshot_time": "2026-09-12T19:45:29.400034+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -88558,6 +88558,46 @@
         "object_id": "paper:arxiv.8057451",
         "created_at": "2026-09-09T13:00:48+00:00",
         "updated_at": "2026-09-09T13:01:11+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2603.21438": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2603.21438",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2388,
+        "object_id": "interactions:arxiv.2603.21438",
+        "created_at": "2026-09-12T19:44:48+00:00",
+        "updated_at": "2026-09-12T19:44:50+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2603.21438": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2603.21438",
+        "url": "https://arxiv.org/abs/2603.21438",
+        "title": "PROMPT2BOX:Improving LLM Weakness Discovery and Specificity Estimation by Uncovering Entailment Structure among Prompts",
+        "authors": "Neeladri Bhuiya, Shib Sankar Dasgupta, Andrew McCallum, Haw-Shiuan Chang",
+        "abstract": "To discover the weaknesses of LLMs, researchers often embed prompts into a vector space and cluster them to extract insightful patterns. However, vector embeddings primarily capture topical similarity; as a result, prompts that share a topic but differ in specificity, and consequently in difficulty, are often represented similarly, making fine-grained weakness analysis difficult. To address this limitation, we propose Prompt2Box, which embeds prompts into a box embedding space using a trained encoder. The encoder, trained on existing and synthesized datasets, outputs box embeddings that capture not only semantic similarity but also specificity relations between prompts (e.g., \"writing an adventure story\" is more specific than \"writing a story\"). We further develop a novel dimension reduction technique for box embeddings to facilitate dataset visualization and comparison. Our experiments demonstrate that box embeddings consistently capture prompt specificity better than vector baselines and achieve 45% error reduction on average in predicting specificity compared to the prompt length baseline. On the downstream task of creating hierarchical clustering trees for 17 LLMs from the UltraFeedback dataset, Prompt2Box can identify 13.5% more LLM weaknesses than vector baselines and achieves an approximately 33% stronger correlation between hierarchical depth and instruction specificity. The code is available at this https URL.",
+        "timestamp": "2026-09-12T19:44:39.053Z",
+        "rating": "novote",
+        "publishedDate": "2026/03/22",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2387,
+        "object_id": "paper:arxiv.2603.21438",
+        "created_at": "2026-09-12T19:44:39+00:00",
+        "updated_at": "2026-09-12T19:45:04+00:00",
         "version": 1
       }
     }

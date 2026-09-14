@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-09-14T16:28:41.968319+00:00",
+  "snapshot_time": "2026-09-14T16:32:08.393133+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -88879,6 +88879,59 @@
         "object_id": "paper:arxiv.2609.10264",
         "created_at": "2026-09-14T13:02:01+00:00",
         "updated_at": "2026-09-14T13:02:22+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.1908.04626": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1908.04626",
+        "url": "https://arxiv.org/abs/1908.04626",
+        "title": "Attention is not not Explanation",
+        "authors": "Sarah Wiegreffe, Yuval Pinter",
+        "abstract": "Attention mechanisms play a central role in NLP systems, especially within recurrent neural network (RNN) models. Recently, there has been increasing interest in whether or not the intermediate representations offered by these modules may be used to explain the reasoning for a model's prediction, and consequently reach insights regarding the model's decision-making process. A recent paper claims that `Attention is not Explanation' (Jain and Wallace, 2019). We challenge many of the assumptions underlying this work, arguing that such a claim depends on one's definition of explanation, and that testing it needs to take into account all elements of the model, using a rigorous experimental design. We propose four alternative tests to determine when/whether attention can be used as explanation: a simple uniform-weights baseline; a variance calibration based on multiple random seed runs; a diagnostic framework using frozen weights from pretrained models; and an end-to-end adversarial attention training protocol. Each allows for meaningful interpretation of attention mechanisms in RNN models. We show that even when reliable adversarial distributions can be found, they don't perform well on the simple diagnostic, indicating that prior work does not disprove the usefulness of attention mechanisms for explainability.",
+        "timestamp": "2026-09-14T16:31:22.736Z",
+        "rating": "novote",
+        "publishedDate": "2019/08/13",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2392,
+        "object_id": "paper:arxiv.1908.04626",
+        "created_at": "2026-09-14T16:31:23+00:00",
+        "updated_at": "2026-09-14T16:31:46+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.1902.10186": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "1902.10186",
+        "url": "https://arxiv.org/abs/1902.10186",
+        "title": "Attention is not Explanation",
+        "authors": "Sarthak Jain, Byron C. Wallace",
+        "abstract": "Attention mechanisms have seen wide adoption in neural NLP models. In addition to improving predictive performance, these are often touted as affording transparency: models equipped with attention provide a distribution over attended-to input units, and this is often presented (at least implicitly) as communicating the relative importance of inputs. However, it is unclear what relationship exists between attention weights and model outputs. In this work, we perform extensive experiments across a variety of NLP tasks that aim to assess the degree to which attention weights provide meaningful `explanations' for predictions. We find that they largely do not. For example, learned attention weights are frequently uncorrelated with gradient-based measures of feature importance, and one can identify very different attention distributions that nonetheless yield equivalent predictions. Our findings show that standard attention modules do not provide meaningful explanations and should not be treated as though they do. Code for all experiments is available at this https URL.",
+        "timestamp": "2026-09-14T16:31:20.419Z",
+        "rating": "novote",
+        "publishedDate": "2019/02/26",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2391,
+        "object_id": "paper:arxiv.1902.10186",
+        "created_at": "2026-09-14T16:31:20+00:00",
+        "updated_at": "2026-09-14T16:31:42+00:00",
         "version": 1
       }
     }

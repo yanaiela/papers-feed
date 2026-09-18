@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-09-18T14:40:27.290859+00:00",
+  "snapshot_time": "2026-09-18T14:46:00.157100+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -89448,6 +89448,49 @@
         "object_id": "paper:arxiv.2605.24084",
         "created_at": "2026-09-18T14:25:32+00:00",
         "updated_at": "2026-09-18T14:25:50+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.I2gT4bb2Vp": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "I2gT4bb2Vp",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2402,
+        "object_id": "interactions:openreview.I2gT4bb2Vp",
+        "created_at": "2026-09-18T14:44:44+00:00",
+        "updated_at": "2026-09-18T14:44:46+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.I2gT4bb2Vp": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "I2gT4bb2Vp",
+        "url": "https://openreview.net/forum?id=I2gT4bb2Vp",
+        "title": "A Label-Free Method For Evaluating Intervention Surgicality with Sparse Autoencoders",
+        "authors": "Matan Avitan, Yoav Goldberg, Yanai Elazar",
+        "abstract": "Representation interventions aim to change a target concept while preserving nontarget information. Existing evaluations commonly assess *effectiveness*, whether the target changes as intended, and *surgicality*, whether non-target information is preserved. Whereas effectiveness uses target labels, probe-based surgicality evaluations require additional labeled control concepts and typically test only one or a few of them. This creates a fundamental limitation in surgicality evaluation. An intervened representation typically encodes thousands of concepts that these controls do not cover. To address this limitation, we propose a method to automatically determine whether an intervention has damaged a large number of concepts. The method is based on sparse autoencoders (SAEs), without control-concept labels. We compare clean and intervened activation patterns from a fixed SAE across features, excluding those associated with the target concept. We focus on erasure interventions for surgicality evaluation, but the method also applies to steering and other types of interventions. Across five vision and language datasets, every retained labeled concept maps to at least one SAE feature. Between 7.1% and 70.7% of live SAE features have no measured association with the retained concept labels. We validate our originaldataset score against damage to additional annotated controls on a generalization dataset. The original labeled-control score misranks interventions relative to this additional-control damage. Our score matches these rankings more closely in three of four comparisons and ties in the fourth. These results support broader surgicality evaluation without expanding the labeled control inventory.",
+        "timestamp": "2026-09-18T14:44:32.817Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "interpretability",
+          "evaluation method",
+          "concept erasure",
+          "interventions"
+        ],
+        "doi": "",
+        "journalName": "ICLR 2027 Conference Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2401,
+        "object_id": "paper:openreview.I2gT4bb2Vp",
+        "created_at": "2026-09-18T14:44:33+00:00",
+        "updated_at": "2026-09-18T14:45:31+00:00",
         "version": 1
       }
     }

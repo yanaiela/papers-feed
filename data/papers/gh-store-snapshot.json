@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-09-18T08:14:14.047593+00:00",
+  "snapshot_time": "2026-09-18T13:45:51.624648+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -89298,6 +89298,48 @@
         "object_id": "interactions:arxiv.2609.16927",
         "created_at": "2026-09-18T08:13:23+00:00",
         "updated_at": "2026-09-18T08:13:47+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2605.30348": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2605.30348",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2397,
+        "object_id": "interactions:arxiv.2605.30348",
+        "created_at": "2026-09-18T13:45:09+00:00",
+        "updated_at": "2026-09-18T13:45:11+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2605.30348": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2605.30348",
+        "url": "https://arxiv.org/abs/2605.30348",
+        "title": "LLMSurgeon: Diagnosing Data Mixture of Large Language Models",
+        "authors": "Yaxin Luo, Jiacheng Cui, Xiaohan Zhao, Xinyi Shang, Jiacheng Liu, Xinyue Bi, Zhaoyi Li, Zhiqiang Shen",
+        "abstract": "The pretraining data mixture of Large Language Models (LLMs) constitutes their \"digital DNA\", shaping model behaviors, capabilities, and failure modes. Yet this composition is rarely disclosed, making post-hoc auditing of data combination or provenance difficult. In this work, we formalize $\\textbf{Data Mixture Surgery (DMS)}$: given only generated text from a target LLM, estimate the domain-level distribution of its pretraining corpus under a predefined taxonomy. We propose $\\textbf{LLMSurgeon}$, a strong framework that casts DMS as an inverse problem under the label-shift assumption. Rather than directly aggregating classifier outputs, LLMSurgeon estimates a calibrated $\\textit{soft}$ confusion matrix and solves a constrained inverse problem to correct systematic domain confusion and recover the latent mixture prior. To evaluate, we introduce $\\textbf{LLMScan}$, a recipe-verifiable evaluation suite built from open-source LLMs with transparent pretraining mixtures. Across LLMScan, LLMSurgeon recovers domain mixtures with high fidelity under fixed protocols. Our work presents a practical, post-hoc approach for auditing the digital DNA of foundation models without access to their training data.",
+        "timestamp": "2026-09-18T13:45:00.101Z",
+        "rating": "novote",
+        "publishedDate": "2026/05/28",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Artificial Intelligence (cs.AI)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2396,
+        "object_id": "paper:arxiv.2605.30348",
+        "created_at": "2026-09-18T13:45:00+00:00",
+        "updated_at": "2026-09-18T13:45:22+00:00",
         "version": 1
       }
     }

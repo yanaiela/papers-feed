@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-09-20T07:01:44.589557+00:00",
+  "snapshot_time": "2026-09-22T06:58:08.160596+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -89596,6 +89596,33 @@
         "object_id": "paper:openreview.I2gT4bb2Vp",
         "created_at": "2026-09-18T14:44:33+00:00",
         "updated_at": "2026-09-18T14:45:31+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.H1ZRWirwQx": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "H1ZRWirwQx",
+        "url": "https://openreview.net/forum?id=H1ZRWirwQx&referrer=%5BReviewers%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2026%2FWorkshop%2FATTRIB%2FReviewers%23assigned-submissions)",
+        "title": "Evaluating Data Attribution Through Filtering Efficacy",
+        "authors": "",
+        "abstract": "Data attribution explains model behaviors in terms of training data and has promising applications in model debugging and training data curation. In practice these applications often measure the filtering efficacy of removing the top <1% of documents, but the typical evaluation metric, the linear datamodeling score (LDS), is a rank correlation that does not predict how large an effect such an intervention will have, and existing scaling-law work focuses on the effects of removing 60%-90% of the training data. We formulate the query loss difference (QLD): the difference in query loss between filtering out top-k attributed documents and removing k documents selected uniformly at random. Using QLD, we study the scaling behavior of EK-FAC across finetuning datasets of 4K-512K documents, two model scales, and degrees of filtering from 40 documents to 10% of the dataset, and make comparisons with MAGIC and BM25. We find that for a given optimizer, LDS is mostly flat across dataset size and training hyperparameters, whereas QLD is sensitive: it exhibits approximate power-law scaling with degree of filtering and scales sublinearly with the percentage of data removed, while filtering efficacy at a fixed dataset size and filtering budget scales at a lower exponent as model size increases. Across dataset scales, MAGIC consistently shows greater filtering efficacy than EK-FAC, while BM25 at many points approaches EK-FAC's efficacy. We hope these results are a first step towards scaling laws for data attribution that predict a priori how much data must be removed to suppress a capability.",
+        "timestamp": "2026-09-22T06:57:20.677Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "data attribution",
+          "data filtering"
+        ],
+        "doi": "",
+        "journalName": "NeurIPS 2026 Workshop ATTRIB Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2403,
+        "object_id": "paper:openreview.H1ZRWirwQx",
+        "created_at": "2026-09-22T06:57:21+00:00",
+        "updated_at": "2026-09-22T06:57:41+00:00",
         "version": 1
       }
     }

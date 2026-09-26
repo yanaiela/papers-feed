@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-09-25T11:18:46.590895+00:00",
+  "snapshot_time": "2026-09-26T13:29:14.339798+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -90127,6 +90127,91 @@
         "object_id": "interactions:arxiv.2603.19025",
         "created_at": "2026-09-23T08:07:33+00:00",
         "updated_at": "2026-09-23T08:07:35+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.ikAiWp0Wbi": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "ikAiWp0Wbi",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2411,
+        "object_id": "interactions:openreview.ikAiWp0Wbi",
+        "created_at": "2026-09-26T13:28:36+00:00",
+        "updated_at": "2026-09-26T13:28:38+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.ikAiWp0Wbi": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "ikAiWp0Wbi",
+        "url": "https://openreview.net/forum?id=ikAiWp0Wbi&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2027%2FConference%2FAuthors%23your-submissions)",
+        "title": "Evaluating Textual Diversity Metrics with Controlled Mixtures of Diverse Perspectives",
+        "authors": "Jeremiah Milbauer, Harnoor Dhingra, Yanai Elazar, Emma Strubell",
+        "abstract": "The prevalence of large language models (LLMs) as tools for information access and creativity necessitates the development of rigorous methods to assess the diversity of LLM-generated content in open-ended contexts. While many diversity metrics have been proposed in the literature, incorporating both varied representations of text and methods for measuring diversity, we identify a significant gap between existing abstract studies of diversity, and the practical realities of measuring diversity in text. Drawing on the interdisciplinary framework proposed by Stirling, which decomposes diversity into three necessary dimensions (variety, balance, and disparity), we add a fourth requirement specific to open-ended natural language, invariance to composition, and operationalize the framework to develop a generalizable procedure for validating proposed diversity measurements of natural language grounded in real datasets of diverse text. Concretely, we: (1) Demonstrate how to generate controlled mixtures of diverse real-world, open-ended text from existing datasets with processes that make the four fundamental diversity criteria directly accessible; and (2) Empirically measure and statistically test which diversity metrics correspond with the underlying conceptual diversity. Our evaluation bridges the gap between theoretical notions of diversity and empirical work in natural language processing, providing grounding for diversity measurement in open-ended text and a methodology for validating future proposed metrics.",
+        "timestamp": "2026-09-26T13:28:26.902Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "diversity",
+          "homogeneity",
+          "metrics",
+          "natural language processing"
+        ],
+        "doi": "",
+        "journalName": "ICLR 2027 Conference Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2410,
+        "object_id": "paper:openreview.ikAiWp0Wbi",
+        "created_at": "2026-09-26T13:28:27+00:00",
+        "updated_at": "2026-09-26T13:28:48+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.TZOQb2USfi": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "TZOQb2USfi",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2409,
+        "object_id": "interactions:openreview.TZOQb2USfi",
+        "created_at": "2026-09-26T13:28:27+00:00",
+        "updated_at": "2026-09-26T13:28:29+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.TZOQb2USfi": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "TZOQb2USfi",
+        "url": "https://openreview.net/forum?id=TZOQb2USfi&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2027%2FConference%2FAuthors%23your-submissions)",
+        "title": "LeCAT: Measuring LLM Category Learning from Pretraining Data",
+        "authors": "Jimin Mun, Maarten Sap, Yanai Elazar",
+        "abstract": "How do LLMs learn category knowledge that humans easily learn and apply, such as that airplanes are fast, that red airplanes are fast, yet that broken airplanes are not? We develop LECAT, a framework to analyze the learning of category knowledge, via an evaluation pipeline to measure output behavior of LLMs and a data analysis pipeline to trace or inject knowledge in pretraining data. Then, to systematically analyze and synthesize pre-training data, we use four expressions of category knowledge from cognitive science, ranging from direct statement of category-feature associations to individual instantiation, exceptions, and context- dependent usage. Using our framework, we first assess open-source pretrained models using 100 curated category-feature pairs and analyze their training data. We observe that in both small (70m) and larger models (6.9b & 7b), instantiations of category members in training data led to improved category knowledge. To confirm our findings and further test controlled exposure such as curriculum learn- ing, we train 68M parameter model from scratch using a 2.1M-example datasets of TinyStories, with precise control over the categorical information each model sees. We find that models tend to over-generalize category-feature association to both correct and incorrect contexts but diverse category-knowledge expressions can mitigate over-generalization and lead to contextual flexibility. Together, these findings advance our understanding of how LLMs acquire categorical knowledge and underscore the critical role of training data curation in building models that generalize robustly",
+        "timestamp": "2026-09-26T13:28:18.730Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "LLM",
+          "Pretraining",
+          "Category Learning"
+        ],
+        "doi": "",
+        "journalName": "ICLR 2027 Conference Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2408,
+        "object_id": "paper:openreview.TZOQb2USfi",
+        "created_at": "2026-09-26T13:28:19+00:00",
+        "updated_at": "2026-09-26T13:28:45+00:00",
         "version": 1
       }
     }

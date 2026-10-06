@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-10-06T07:15:29.198862+00:00",
+  "snapshot_time": "2026-10-06T07:38:20.493873+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -90931,6 +90931,47 @@
         "object_id": "paper:openreview.zzxEIDw8Um",
         "created_at": "2026-10-06T07:14:41+00:00",
         "updated_at": "2026-10-06T07:15:03+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2610.01821": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2610.01821",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2426,
+        "object_id": "interactions:arxiv.2610.01821",
+        "created_at": "2026-10-06T07:38:05+00:00",
+        "updated_at": "2026-10-06T07:38:07+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2610.01821": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2610.01821",
+        "url": "https://arxiv.org/abs/2610.01821",
+        "title": "Beyond Linear Concepts: Discovering and Aligning Non-Linear Concept Manifolds in Large Language Models",
+        "authors": "Tido Specht, Elias Benedict Krey, Nils Neukirch, Nils Strodthoff",
+        "abstract": "Understanding information processing in large language models (LLMs) requires dissecting the geometric organization of their internal token representations. While existing mechanistic interpretability (MI) methods seek to extract concepts, they are constrained by a strong linearity assumption challenged by evidence of non-linear feature manifolds. We move beyond linear concepts by adapting Non-Linear Multi-Dimensional Concept Discovery (NLMCD) from computer vision to token-level LLM activations, modeling concepts as low-dimensional manifolds. To compare concept manifolds across layers and models, we introduce a concept-based alignment (CBA) score, a generalized Rand index that measures geometric proximity without explicit feature matching. Our analysis yields six key findings: (i) a neighboring-layer sanity check shows CBA is more sensitive than PCA- or CKA-based linear baselines; (ii) layer-by-layer alignment matrices reveal two block structures in intermediate and late layers, consistent across models and obscured by linear metrics; (iii) concept composition remains syntax-dominated through most of the network before giving way to increasingly mixed syntactic-semantic concepts in later layers, with increasing output-orientation toward the final layers; (iv) multilingual concept sharing between English and Mandarin is training-dependent rather than universal, strongest in Qwen, weaker in Llama, and absent in GPT-2; (v) inter-model alignment mirrors this structure, with strong correspondence between same-family Qwen models of different scale but weak alignment across model families; and (vi) across Tulu-3 training stages, alignment is highest between adjacent stages, with the largest shift between the base model and SFT, while subsequent preference-alignment stages (DPO, RLVR) leave early layers largely unchanged and RLVR mostly preserves DPO's concepts in late layers.",
+        "timestamp": "2026-10-06T07:37:38.683Z",
+        "rating": "novote",
+        "publishedDate": "2026/10/01",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2425,
+        "object_id": "paper:arxiv.2610.01821",
+        "created_at": "2026-10-06T07:37:39+00:00",
+        "updated_at": "2026-10-06T07:37:57+00:00",
         "version": 1
       }
     }

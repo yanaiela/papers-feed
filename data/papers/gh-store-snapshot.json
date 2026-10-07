@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-10-07T08:55:18.364853+00:00",
+  "snapshot_time": "2026-10-07T17:18:29.889909+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -91177,6 +91177,46 @@
         "object_id": "paper:arxiv.2407.01492",
         "created_at": "2026-10-07T08:54:35+00:00",
         "updated_at": "2026-10-07T08:54:54+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2604.06628": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.06628",
+        "url": "https://arxiv.org/abs/2604.06628",
+        "title": "Rethinking Generalization in Reasoning SFT: A Conditional Analysis on Optimization, Data, and Model Capability",
+        "authors": "Qihan Ren, Peng Wang, Ruikun Cai, Shuai Shao, Dadi Guo, Yuejin Xie, Yafu Li, Quanshi Zhang, Xia Hu, Jing Shao, Dongrui Liu",
+        "abstract": "A prevailing narrative in LLM post-training holds that supervised finetuning (SFT) memorizes while reinforcement learning (RL) generalizes. We revisit this claim for reasoning SFT with long chain-of-thought (CoT) supervision and find that cross-domain generalization is not absent but conditional, jointly shaped by optimization dynamics, training data, and base-model capability. Some reported failures are under-optimization artifacts: cross-domain performance first degrades before recovering and improving with extended training (a dip-and-recovery pattern), so shorttraining checkpoints can underestimate generalization. Data quality and structure both matter: low-quality solutions broadly hurt generalization,while verified long-CoT traces yield consistent cross-domain gains. Model capability is essential: stronger models internalize transferable procedural patterns (e.g., backtracking) even from a toy arithmetic game, while weaker ones imitate surface verbosity. This generalization is asymmetric, however: reasoning improves while safety degrades, reframing the question from whether reasoning SFT generalizes to under what conditions and at what cost.",
+        "timestamp": "2026-10-07T17:17:40.643Z",
+        "rating": "novote",
+        "publishedDate": "2026/04/08",
+        "tags": [
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2429,
+        "object_id": "paper:arxiv.2604.06628",
+        "created_at": "2026-10-07T17:17:41+00:00",
+        "updated_at": "2026-10-07T17:18:05+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2407.01492": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2407.01492",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2428,
+        "object_id": "interactions:arxiv.2407.01492",
+        "created_at": "2026-10-07T08:56:09+00:00",
+        "updated_at": "2026-10-07T08:56:12+00:00",
         "version": 1
       }
     }

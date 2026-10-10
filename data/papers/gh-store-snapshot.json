@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-10-07T17:48:38.358949+00:00",
+  "snapshot_time": "2026-10-10T10:11:08.754253+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -91262,6 +91262,33 @@
         "object_id": "interactions:arxiv.2407.01492",
         "created_at": "2026-10-07T08:56:09+00:00",
         "updated_at": "2026-10-07T08:56:12+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2403.14791": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2403.14791",
+        "url": "https://arxiv.org/abs/2403.14791",
+        "title": "Particip-AI: A Democratic Surveying Framework for Anticipating Future AI Use Cases, Harms and Benefits",
+        "authors": "Jimin Mun, Liwei Jiang, Jenny Liang, Inyoung Cheong, Nicole DeCario, Yejin Choi, Tadayoshi Kohno, Maarten Sap",
+        "abstract": "General purpose AI, such as ChatGPT, seems to have lowered the barriers for the public to use AI and harness its power. However, the governance and development of AI still remain in the hands of a few, and the pace of development is accelerating without a comprehensive assessment of risks. As a first step towards democratic risk assessment and design of general purpose AI, we introduce PARTICIP-AI, a carefully designed framework for laypeople to speculate and assess AI use cases and their impacts. Our framework allows us to study more nuanced and detailed public opinions on AI through collecting use cases, surfacing diverse harms through risk assessment under alternate scenarios (i.e., developing and not developing a use case), and illuminating tensions over AI development through making a concluding choice on its development. To showcase the promise of our framework towards informing democratic AI development, we run a medium-scale study with inputs from 295 demographically diverse participants. Our analyses show that participants' responses emphasize applications for personal life and society, contrasting with most current AI development's business focus. We also surface diverse set of envisioned harms such as distrust in AI and institutions, complementary to those defined by experts. Furthermore, we found that perceived impact of not developing use cases significantly predicted participants' judgements of whether AI use cases should be developed, and highlighted lay users' concerns of techno-solutionism. We conclude with a discussion on how frameworks like PARTICIP-AI can further guide democratic AI development and governance.",
+        "timestamp": "2026-10-10T10:10:25.126Z",
+        "rating": "novote",
+        "publishedDate": "2024/03/21",
+        "tags": [
+          "Computers and Society (cs.CY)",
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2430,
+        "object_id": "paper:arxiv.2403.14791",
+        "created_at": "2026-10-10T10:10:25+00:00",
+        "updated_at": "2026-10-10T10:10:48+00:00",
         "version": 1
       }
     }

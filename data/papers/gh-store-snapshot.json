@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-10-12T04:48:28.167504+00:00",
+  "snapshot_time": "2026-10-12T10:20:02.951772+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -86207,13 +86207,29 @@
       "data": {
         "sourceId": "arxiv",
         "paperId": "2306.05685",
-        "interactions": []
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-10-12T10:19:12.192Z",
+            "data": {
+              "session_id": "session_1791800352167_gexvrmd",
+              "source_id": "arxiv",
+              "paper_id": "2306.05685",
+              "start_time": "2026-10-12T10:19:05.991Z",
+              "end_time": "2026-10-12T10:19:12.167Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 6
+            }
+          }
+        ]
       },
       "meta": {
         "issue_number": 2236,
         "object_id": "interactions:arxiv.2306.05685",
         "created_at": "2026-07-09T23:12:08+00:00",
-        "updated_at": "2026-07-09T23:12:10+00:00",
+        "updated_at": "2026-10-12T10:19:33+00:00",
         "version": 1
       }
     },
@@ -86508,13 +86524,29 @@
       "data": {
         "sourceId": "arxiv",
         "paperId": "2110.14168",
-        "interactions": []
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-10-12T10:18:45.860Z",
+            "data": {
+              "session_id": "session_1791800325271_zquarn2",
+              "source_id": "arxiv",
+              "paper_id": "2110.14168",
+              "start_time": "2026-10-12T10:18:38.646Z",
+              "end_time": "2026-10-12T10:18:45.271Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 7
+            }
+          }
+        ]
       },
       "meta": {
         "issue_number": 2219,
         "object_id": "interactions:arxiv.2110.14168",
         "created_at": "2026-07-09T23:10:15+00:00",
-        "updated_at": "2026-07-09T23:10:17+00:00",
+        "updated_at": "2026-10-12T10:19:09+00:00",
         "version": 1
       }
     },

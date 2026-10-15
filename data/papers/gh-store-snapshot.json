@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-10-15T15:43:21.553586+00:00",
+  "snapshot_time": "2026-10-15T15:51:56.888106+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -91704,6 +91704,47 @@
         "object_id": "paper:arxiv.2310.15213",
         "created_at": "2026-10-15T15:42:33+00:00",
         "updated_at": "2026-10-15T15:42:52+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2610.20456": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2610.20456",
+        "url": "https://arxiv.org/abs/2610.20456",
+        "title": "The COUNT: Counting N-grams Unlocks Scaling on Host Memory and Training-Free Adaptation",
+        "authors": "Ian Magnusson, Noah A. Smith, Pang Wei Koh",
+        "abstract": "The scaling relationship of compute and performance for language models (LMs) has been extensively studied; more recently, models are being designed to scale memory use, as well. In particular, adding embeddings for n-grams scales memory separately from compute use, because each pass only processes individual embedding rows, which are much smaller than the storage used for the whole embedding table. However, existing methods train embeddings from scratch, which needs expensive GPU memory for fast reading and writing. Meanwhile, the ordinary memory of the host system is cheap and underutilized by these training methods. To scale on host memory, we introduce COUNT (Counting Offline Unlocks N-gram Transformers), which builds n-gram embeddings without adding learned parameters by storing precomputed n-gram counts on host. We use the corpus frequencies to weight together the LM's own unembeddings of the next tokens most often following the current n-gram history. At a fixed compute budget, COUNT can be added as an additional input embedding for pretraining 1B-parameter LMs to improve validation loss as much as an LM with 57% more compute. If GPU memory is limited, using COUNT to let backbone parameters fill GPU memory gives better performance than splitting memory with additional learned n-gram embeddings. Beyond efficiency, COUNT allows switching in a different table of n-gram counts from a domain-specific corpus at inference time to adapt to a new task without any training.",
+        "timestamp": "2026-10-15T15:51:08.215Z",
+        "rating": "novote",
+        "publishedDate": "2026/10/14",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2445,
+        "object_id": "paper:arxiv.2610.20456",
+        "created_at": "2026-10-15T15:51:08+00:00",
+        "updated_at": "2026-10-15T15:51:33+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2310.15213": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.15213",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2444,
+        "object_id": "interactions:arxiv.2310.15213",
+        "created_at": "2026-10-15T15:43:26+00:00",
+        "updated_at": "2026-10-15T15:43:28+00:00",
         "version": 1
       }
     }

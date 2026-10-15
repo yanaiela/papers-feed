@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-10-15T15:41:02.854716+00:00",
+  "snapshot_time": "2026-10-15T15:43:21.553586+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -91677,6 +91677,33 @@
         "object_id": "paper:arxiv.2506.17352",
         "created_at": "2026-10-15T08:28:21+00:00",
         "updated_at": "2026-10-15T08:28:40+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2310.15213": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2310.15213",
+        "url": "https://arxiv.org/abs/2310.15213",
+        "title": "Function Vectors in Large Language Models",
+        "authors": "Eric Todd, Millicent L. Li, Arnab Sen Sharma, Aaron Mueller, Byron C. Wallace, David Bau",
+        "abstract": "We report the presence of a simple neural mechanism that represents an input-output function as a vector within autoregressive transformer language models (LMs). Using causal mediation analysis on a diverse range of in-context-learning (ICL) tasks, we find that a small number attention heads transport a compact representation of the demonstrated task, which we call a function vector (FV). FVs are robust to changes in context, i.e., they trigger execution of the task on inputs such as zero-shot and natural text settings that do not resemble the ICL contexts from which they are collected. We test FVs across a range of tasks, models, and layers and find strong causal effects across settings in middle layers. We investigate the internal structure of FVs and find while that they often contain information that encodes the output space of the function, this information alone is not sufficient to reconstruct an FV. Finally, we test semantic vector composition in FVs, and find that to some extent they can be summed to create vectors that trigger new complex tasks. Our findings show that compact, causal internal vector representations of function abstractions can be explicitly extracted from LLMs. Our code and data are available at this https URL.",
+        "timestamp": "2026-10-15T15:42:33.057Z",
+        "rating": "novote",
+        "publishedDate": "2023/10/23",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2443,
+        "object_id": "paper:arxiv.2310.15213",
+        "created_at": "2026-10-15T15:42:33+00:00",
+        "updated_at": "2026-10-15T15:42:52+00:00",
         "version": 1
       }
     }

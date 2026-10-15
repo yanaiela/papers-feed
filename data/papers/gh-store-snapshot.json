@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-10-12T10:29:04.897939+00:00",
+  "snapshot_time": "2026-10-15T06:26:54.725353+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -91448,6 +91448,46 @@
         "object_id": "interactions:arxiv.2109.07958",
         "created_at": "2026-10-12T10:26:12+00:00",
         "updated_at": "2026-10-12T10:26:15+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2610.12728": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2610.12728",
+        "url": "https://arxiv.org/abs/2610.12728",
+        "title": "A Categorical Atlas of Parameter-Efficient Fine-Tuning: Cones, Orbits, and Gauges",
+        "authors": "Xiaoyu Li, Zhizhou Sha, Chiwun Yang, Dai Shi",
+        "abstract": "Parameter-efficient fine-tuning has hundreds of methods, usually compared by parameter count and benchmark score. We compare them as maps. A pretrained checkpoint is a base point in weight space, and a weight-space method is a smooth map from a small parameter space that starts at that point. These maps form a slice category in which the frozen model is initial and full fine-tuning terminal. Three invariants of the map do most of the work. Its image near the base point governs expressivity, through the first-order image, the dimension, a min-cut bound on rank and whether that point is smooth or an apex. Its fibres, with the optimizer's metric, govern training dynamics. Base change moves the base point and covers splitting initialisations, quantisation, restarts and merging. We prove, for example, that zero-initialised LoRA, and Householder reflection adaptation at its default start under stated rank and parity conditions, begin at the apex of a cone; that no exact initialisation lets LoRA reach an update of rank above twice its own; that exactly orthogonal methods never change a weight's singular values in exact arithmetic, however often they are merged; that under Adam with no epsilon, weight decay or clipping and one shared schedule, LoRA+ from the standard zero initialisation follows exactly the trajectory of plain LoRA with its scale multiplied by the learning-rate ratio; that Adam with shared hyperparameters respects only the signed permutations inside LoRA's continuous symmetry group of full-rank factors; and that the activation function decides when a scaling adapter folds into preceding weights. We classify 382 methods from 138 papers by seven coordinates read off their formulas, with 403 simulation arrows and 485 obstructions. Every numbered result is proved in full, and results due to others are credited where we re-derive them.",
+        "timestamp": "2026-10-15T06:26:02.861Z",
+        "rating": "novote",
+        "publishedDate": "2026/10/08",
+        "tags": [
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2435,
+        "object_id": "paper:arxiv.2610.12728",
+        "created_at": "2026-10-15T06:26:03+00:00",
+        "updated_at": "2026-10-15T06:26:26+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2009.03300": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2009.03300",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2434,
+        "object_id": "interactions:arxiv.2009.03300",
+        "created_at": "2026-10-13T14:00:05+00:00",
+        "updated_at": "2026-10-13T14:00:09+00:00",
         "version": 1
       }
     }

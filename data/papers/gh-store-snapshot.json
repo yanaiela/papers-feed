@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-10-19T06:58:27.958144+00:00",
+  "snapshot_time": "2026-10-19T08:42:17.905762+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -92141,6 +92141,62 @@
         "object_id": "paper:arxiv.2607.07316",
         "created_at": "2026-10-19T06:56:19+00:00",
         "updated_at": "2026-10-19T06:56:42+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2512.00193": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2512.00193",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-10-19T08:41:09.419Z",
+            "data": {
+              "session_id": "session_1792399267716_mw3c9kn",
+              "source_id": "arxiv",
+              "paper_id": "2512.00193",
+              "start_time": "2026-10-19T08:41:00.513Z",
+              "end_time": "2026-10-19T08:41:07.716Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 7
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 2454,
+        "object_id": "interactions:arxiv.2512.00193",
+        "created_at": "2026-10-19T08:41:10+00:00",
+        "updated_at": "2026-10-19T08:41:46+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2512.00193": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2512.00193",
+        "url": "https://arxiv.org/abs/2512.00193",
+        "title": "A Rosetta Stone for AI Benchmarks",
+        "authors": "Anson Ho, Jean-Stanislas Denain, David Atanasov, Samuel Albanie, Rohin Shah",
+        "abstract": "Most AI benchmarks saturate within years or even months after they are introduced, making it hard to study long-run trends in AI capabilities. To address this challenge, we build a statistical framework that stitches benchmarks together, putting model capabilities and benchmark difficulties on a single numerical scale. This acts as a \"Rosetta Stone\", allowing us to compare models across a wide range of abilities and time, even if they are not evaluated on the same benchmarks. Moreover, this works without assuming how capabilities evolve across time or with training compute. We demonstrate three applications of this framework. First, we use it to measure the speed of AI progress over time, and to forecast future AI capabilities. Second, we estimate the rate of improvements in algorithmic efficiency, finding estimates that are higher, but broadly consistent with prior work. Finally, we find that our approach can be used to detect rapid accelerations in AI progress.",
+        "timestamp": "2026-10-19T08:41:01.255Z",
+        "rating": "novote",
+        "publishedDate": "2025/11/28",
+        "tags": [
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2452,
+        "object_id": "paper:arxiv.2512.00193",
+        "created_at": "2026-10-19T08:41:01+00:00",
+        "updated_at": "2026-10-19T08:41:22+00:00",
         "version": 1
       }
     }

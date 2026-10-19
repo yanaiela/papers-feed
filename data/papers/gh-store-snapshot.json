@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-10-19T06:54:14.966964+00:00",
+  "snapshot_time": "2026-10-19T06:57:02.470517+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -92099,6 +92099,32 @@
         "object_id": "interactions:arxiv.2610.22300",
         "created_at": "2026-10-19T05:41:38+00:00",
         "updated_at": "2026-10-19T05:41:41+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2607.07316": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2607.07316",
+        "url": "https://arxiv.org/abs/2607.07316",
+        "title": "Mechanistic Interpretability for Neural Networks: Circuits, Sparse Features and Symbolic Reasoning",
+        "authors": "Pranav Sawant, Jakub Krej\u010d\u00ed",
+        "abstract": "This article offers a comprehensive overview of mechanistic interpretability, an emerging field that seeks to reverse-engineer the internal algorithms of modern neural networks. While traditional explainable AI methods often stop at surface-level input-output correlations, this approach directly addresses the opaque \"black box\" nature of machine learning models, which is essential for ensuring safety and auditability in high-stakes deployments. The paper provides a detailed examination of Transformer circuit analysis, exploring how internal components like the residual stream, attention mechanisms, and induction heads drive complex tasks and in-context learning. It subsequently tackles the core challenge of superposition and polysemanticity, demonstrating how tools like Sparse Autoencoders (SAEs) and transcoders can decompose tangled network activations into distinct, human-interpretable features. Furthermore, the paper explores methods for actively controlling and modifying model behavior through steering vectors and causal interventions. Finally, it connects these mechanistic insights with neurosymbolic AI frameworks designed to translate neural representations into explicit, executable logical rules.",
+        "timestamp": "2026-10-19T06:56:19.431Z",
+        "rating": "novote",
+        "publishedDate": "2026/07/08",
+        "tags": [
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2450,
+        "object_id": "paper:arxiv.2607.07316",
+        "created_at": "2026-10-19T06:56:19+00:00",
+        "updated_at": "2026-10-19T06:56:42+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-10-21T13:12:42.504877+00:00",
+  "snapshot_time": "2026-10-21T13:14:56.114626+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -92420,6 +92420,63 @@
         "object_id": "paper:arxiv.2509.16941",
         "created_at": "2026-10-20T13:02:47+00:00",
         "updated_at": "2026-10-20T13:03:11+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2309.08600": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2309.08600",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-10-21T13:13:59.394Z",
+            "data": {
+              "session_id": "session_1792588439041_cgmwzws",
+              "source_id": "arxiv",
+              "paper_id": "2309.08600",
+              "start_time": "2026-10-21T13:13:28.929Z",
+              "end_time": "2026-10-21T13:13:59.041Z",
+              "heartbeat_count": 12,
+              "duration_seconds": 60,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 30
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 2459,
+        "object_id": "interactions:arxiv.2309.08600",
+        "created_at": "2026-10-21T13:13:30+00:00",
+        "updated_at": "2026-10-21T13:14:23+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2309.08600": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2309.08600",
+        "url": "https://arxiv.org/abs/2309.08600",
+        "title": "Sparse Autoencoders Find Highly Interpretable Features in Language Models",
+        "authors": "Hoagy Cunningham, Aidan Ewart, Logan Riggs, Robert Huben, Lee Sharkey",
+        "abstract": "One of the roadblocks to a better understanding of neural networks' internals is \\textit{polysemanticity}, where neurons appear to activate in multiple, semantically distinct contexts. Polysemanticity prevents us from identifying concise, human-understandable explanations for what neural networks are doing internally. One hypothesised cause of polysemanticity is \\textit{superposition}, where neural networks represent more features than they have neurons by assigning features to an overcomplete set of directions in activation space, rather than to individual neurons. Here, we attempt to identify those directions, using sparse autoencoders to reconstruct the internal activations of a language model. These autoencoders learn sets of sparsely activating features that are more interpretable and monosemantic than directions identified by alternative approaches, where interpretability is measured by automated methods. Moreover, we show that with our learned set of features, we can pinpoint the features that are causally responsible for counterfactual behaviour on the indirect object identification task \\citep{wang2022interpretability} to a finer degree than previous decompositions. This work indicates that it is possible to resolve superposition in language models using a scalable, unsupervised method. Our method may serve as a foundation for future mechanistic interpretability work, which we hope will enable greater model transparency and steerability.",
+        "timestamp": "2026-10-21T13:13:25.113Z",
+        "rating": "novote",
+        "publishedDate": "2023/09/15",
+        "tags": [
+          "Machine Learning (cs.LG)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2457,
+        "object_id": "paper:arxiv.2309.08600",
+        "created_at": "2026-10-21T13:13:26+00:00",
+        "updated_at": "2026-10-21T13:13:52+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-10-23T08:51:02.610245+00:00",
+  "snapshot_time": "2026-10-23T10:03:49.241690+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -92992,6 +92992,21 @@
               "idle_seconds": 0,
               "total_elapsed_seconds": 0
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-10-23T10:02:39.321Z",
+            "data": {
+              "session_id": "session_1792749759252_c8g2rjx",
+              "source_id": "arxiv",
+              "paper_id": "2610.23847",
+              "start_time": "2026-10-23T10:02:28.027Z",
+              "end_time": "2026-10-23T10:02:39.252Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 11
+            }
           }
         ]
       },
@@ -92999,7 +93014,7 @@
         "issue_number": 2464,
         "object_id": "interactions:arxiv.2610.23847",
         "created_at": "2026-10-22T21:22:23+00:00",
-        "updated_at": "2026-10-23T08:50:39+00:00",
+        "updated_at": "2026-10-23T10:02:59+00:00",
         "version": 1
       }
     },
@@ -93048,6 +93063,32 @@
         "object_id": "paper:arxiv.2610.23847",
         "created_at": "2026-10-22T21:22:18+00:00",
         "updated_at": "2026-10-22T21:22:40+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2609.24927": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2609.24927",
+        "url": "https://arxiv.org/abs/2609.24927",
+        "title": "Et Tu, Brute? Economic Misalignment in Personal AI Agents",
+        "authors": "Aman Priyanshu, Supriti Vijay, Brian Jabarian, Niloofar Mireshghallah",
+        "abstract": "Personal AI agents make recommendations and take actions on people's behalf in high-stakes economic contexts, e.g., buying a flight, choosing health insurance, or selecting a graduate program. The agent is given access to the user's personal context, e.g., their email inbox and a structured profile of personal attributes, with the intention of making an optimal, personalized decision for the user. We show that by simply providing this personal context, the agent steers recommendations based on inferred wealth, without being explicitly instructed to do so. In a suite of 325K experiments on 13 agents across three types of economic decisions (flights, health insurance, and graduate programs), we find that 8 models systematically choose more expensive options for wealthier users when requests are identical. This steering continues even when it directly goes against the user's stated objective: when explicitly instructed to find the cheapest option, some agents still act on the wealth profile they have inferred. It also occurs when wealth is inferred from ambient data, such as emails unrelated to the task. And it persists under privacy controls that block specific attributes: blocking financial attributes largely removes the disparity, but blocking other attributes leaves it unchanged and can increase it by up to 40% for insurance, as agents rely on the remaining signals to infer wealth. Larger and more capable models are no better; Claude Opus 4.8 shows the largest effect. We term this misalignment \"adversarial delegation\", in which the very conditions that make a personal AI agent useful - access to personal information - enable it to act against the user's interests.",
+        "timestamp": "2026-10-23T10:03:03.005Z",
+        "rating": "novote",
+        "publishedDate": "2026/09/21",
+        "tags": [
+          "Artificial Intelligence (cs.AI)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2466,
+        "object_id": "paper:arxiv.2609.24927",
+        "created_at": "2026-10-23T10:03:03+00:00",
+        "updated_at": "2026-10-23T10:03:27+00:00",
         "version": 1
       }
     }

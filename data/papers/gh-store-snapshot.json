@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-10-23T10:03:49.241690+00:00",
+  "snapshot_time": "2026-10-24T09:00:02.043826+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -93089,6 +93089,62 @@
         "object_id": "paper:arxiv.2609.24927",
         "created_at": "2026-10-23T10:03:03+00:00",
         "updated_at": "2026-10-23T10:03:27+00:00",
+        "version": 1
+      }
+    },
+    "interactions:openreview.F7mKUlQcat": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "F7mKUlQcat",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2469,
+        "object_id": "interactions:openreview.F7mKUlQcat",
+        "created_at": "2026-10-24T08:59:26+00:00",
+        "updated_at": "2026-10-24T08:59:30+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.F7mKUlQcat": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "F7mKUlQcat",
+        "url": "https://openreview.net/forum?id=F7mKUlQcat",
+        "title": "LECAT: Measuring LLM Category Learning from Pretraining Data",
+        "authors": "Jimin Mun, Maarten Sap, Yanai Elazar",
+        "abstract": "Humans know that _airplanes are fast_, that this extends to _red airplanes_, but that it does not hold for _broken airplanes_. How do LLMs acquire category knowledge that humans learn and apply effortlessly? We introduce LeCat, a two-part framework to analyze LLM's **Le**arning of **Cat**egory knowledge. First, we use LeCat to evaluate models on their ability to learn category knowledge, distinguishing between three cases: memorization of in-domain category knowledge, generalization to unseen instances, and ability to flexibly use knowledge in appropriate contexts. Then, we use LeCat to trace how this knowledge can be learned in pretraining from text that may encode category knowledge in various ways, such as verbatim repetition or exceptions, which we refer to as forms of \"knowledge expression\". We first assess open-source pretrained models using 199 curated category-feature pairs and analyze their training data. Our findings suggest that strengthening context and category-feature co-occurrence likelihood (PMI) improve learning for larger models and verbatim rule-like statements diminish flexible category learning. To systematically isolate these effects, we then train a 68M model from scratch with precise control over the categorical information each sees in their training data, confirming that verbatim repetition reduces flexible learning but mixture of diverse knowledge expressions lead to more robust category learning. Together, our findings highlight that while contextual flexibility is persistently difficult for models, _how_ category knowledge is expressed in pretraining greatly impacts models' acquisition of robust category knowledge.",
+        "timestamp": "2026-10-24T08:59:11.016Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "category learning",
+          "pretraining",
+          "large language models"
+        ],
+        "doi": "",
+        "journalName": "ACL ARR 2026 October Desk Rejected Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2468,
+        "object_id": "paper:openreview.F7mKUlQcat",
+        "created_at": "2026-10-24T08:59:11+00:00",
+        "updated_at": "2026-10-24T08:59:33+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2609.24927": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2609.24927",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2467,
+        "object_id": "interactions:arxiv.2609.24927",
+        "created_at": "2026-10-23T10:05:33+00:00",
+        "updated_at": "2026-10-23T10:05:35+00:00",
         "version": 1
       }
     }

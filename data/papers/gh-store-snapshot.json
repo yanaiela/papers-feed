@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-10-24T09:23:03.576921+00:00",
+  "snapshot_time": "2026-10-24T09:27:14.744541+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -50831,6 +50831,51 @@
               "idle_seconds": 0,
               "total_elapsed_seconds": 1
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-10-24T09:24:03.799Z",
+            "data": {
+              "session_id": "session_1792833843786_hb2c6n4",
+              "source_id": "arxiv",
+              "paper_id": "2601.17036",
+              "start_time": "2026-10-24T09:23:59.584Z",
+              "end_time": "2026-10-24T09:24:03.786Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 4
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-10-24T09:24:35.927Z",
+            "data": {
+              "session_id": "session_1792833875916_n97i0nx",
+              "source_id": "arxiv",
+              "paper_id": "2601.17036",
+              "start_time": "2026-10-24T09:24:30.948Z",
+              "end_time": "2026-10-24T09:24:35.916Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 5
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-10-24T09:25:49.658Z",
+            "data": {
+              "session_id": "session_1792833949626_9n3iprr",
+              "source_id": "arxiv",
+              "paper_id": "2601.17036",
+              "start_time": "2026-10-24T09:25:33.370Z",
+              "end_time": "2026-10-24T09:25:49.626Z",
+              "heartbeat_count": 6,
+              "duration_seconds": 30,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 16
+            }
           }
         ]
       },
@@ -50838,7 +50883,7 @@
         "issue_number": 1235,
         "object_id": "interactions:arxiv.2601.17036",
         "created_at": "2026-01-27T06:56:47+00:00",
-        "updated_at": "2026-10-24T09:22:35+00:00",
+        "updated_at": "2026-10-24T09:26:47+00:00",
         "version": 1
       }
     },

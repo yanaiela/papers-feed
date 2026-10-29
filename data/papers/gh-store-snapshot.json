@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-10-29T07:18:58.279649+00:00",
+  "snapshot_time": "2026-10-29T07:20:43.959283+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -93443,6 +93443,47 @@
         "object_id": "paper:arxiv.2509.07968",
         "created_at": "2026-10-29T07:18:00+00:00",
         "updated_at": "2026-10-29T07:18:23+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2505.16944": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.16944",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2478,
+        "object_id": "interactions:arxiv.2505.16944",
+        "created_at": "2026-10-29T07:20:24+00:00",
+        "updated_at": "2026-10-29T07:20:27+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2505.16944": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2505.16944",
+        "url": "https://arxiv.org/abs/2505.16944",
+        "title": "AGENTIF: Benchmarking Instruction Following of Large Language Models in Agentic Scenarios",
+        "authors": "Yunjia Qi, Hao Peng, Xiaozhi Wang, Amy Xin, Youfeng Liu, Bin Xu, Lei Hou, Juanzi Li",
+        "abstract": "Large Language Models (LLMs) have demonstrated advanced capabilities in real-world agentic applications. Growing research efforts aim to develop LLM-based agents to address practical demands, introducing a new challenge: agentic scenarios often involve lengthy instructions with complex constraints, such as extended system prompts and detailed tool specifications. While adherence to such instructions is crucial for agentic applications, whether LLMs can reliably follow them remains underexplored. In this paper, we introduce AgentIF, the first benchmark for systematically evaluating LLM instruction following ability in agentic scenarios. AgentIF features three key characteristics: (1) Realistic, constructed from 50 real-world agentic applications. (2) Long, averaging 1,723 words with a maximum of 15,630 words. (3) Complex, averaging 11.9 constraints per instruction, covering diverse constraint types, such as tool specifications and condition constraints. To construct AgentIF, we collect 707 human-annotated instructions across 50 agentic tasks from industrial application agents and open-source agentic systems. For each instruction, we annotate the associated constraints and corresponding evaluation metrics, including code-based evaluation, LLM-based evaluation, and hybrid code-LLM evaluation. We use AgentIF to systematically evaluate existing advanced LLMs. We observe that current models generally perform poorly, especially in handling complex constraint structures and tool specifications. We further conduct error analysis and analytical experiments on instruction length and meta constraints, providing some findings about the failure modes of existing LLMs. We have released the code and data to facilitate future research.",
+        "timestamp": "2026-10-29T07:19:57.212Z",
+        "rating": "novote",
+        "publishedDate": "2025/05/22",
+        "tags": [
+          "Artificial Intelligence (cs.AI)",
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2476,
+        "object_id": "paper:arxiv.2505.16944",
+        "created_at": "2026-10-29T07:19:57+00:00",
+        "updated_at": "2026-10-29T07:20:19+00:00",
         "version": 1
       }
     }

@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-11-03T09:51:23.825676+00:00",
+  "snapshot_time": "2026-11-03T16:55:56.727152+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -93869,6 +93869,46 @@
         "object_id": "interactions:arxiv.2509.16941",
         "created_at": "2026-11-03T04:58:48+00:00",
         "updated_at": "2026-11-03T09:50:57+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2610.02986": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2610.02986",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2485,
+        "object_id": "interactions:arxiv.2610.02986",
+        "created_at": "2026-11-03T16:55:23+00:00",
+        "updated_at": "2026-11-03T16:55:27+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2610.02986": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2610.02986",
+        "url": "https://arxiv.org/abs/2610.02986",
+        "title": "OLMo-Detect: A Multi-Stage, Confounder-Controlled Benchmark for Membership Inference on Large Language Models",
+        "authors": "Tao Shi, Chaoyi Xiang, Qiongkai Xu, Jey Han Lau",
+        "abstract": "Membership inference on large language models (LLMs) aims to determine whether a given text sample was included in an LLM's training data, without access to its training corpus. Despite recent progress, existing benchmarks suffer from three limitations: limited coverage of training stages, insufficient distributional alignment between members and non-members, and lack of rigorous filtering of non-members against the training corpus. To address these limitations, we propose OLMo-Detect, a multi-stage, confounder-controlled benchmark built upon the fully open OLMo 2 pipeline. OLMo-Detect spans pre-training, mid-training, and post-training, explicitly aligns members and non-members on three key axes, and rigorously filters non-members via infini-gram. To assess robustness to distribution shifts, we further introduce OLMo-Detect (Shifted), a variant where members are misaligned with non-members. We evaluate 15 unsupervised and 3 supervised membership inference attacks (MIAs) across the OLMo 2 family, finding that: (i) overall performance is limited: the best unsupervised and supervised MIAs both reach an AUC of only 0.68, and supervised MIAs degrade under cross-domain evaluation; (ii) MIA performance peaks at mid-training and is lower at pre-training and post-training, a pattern driven by data type rather than a stage effect: curated math data is far more detectable than other types; (iii) overall scores improve from 1B to 13B but plateau at 32B; and (iv) no unsupervised MIA is robust to distribution shifts, with AUCs shifting by up to 0.42. Finally, we find that our findings on OLMo 2 generalize to OLMo 3 and non-OLMo models.",
+        "timestamp": "2026-11-03T16:55:07.686Z",
+        "rating": "novote",
+        "publishedDate": "2026/10/02",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2484,
+        "object_id": "paper:arxiv.2610.02986",
+        "created_at": "2026-11-03T16:55:08+00:00",
+        "updated_at": "2026-11-03T16:55:30+00:00",
         "version": 1
       }
     }

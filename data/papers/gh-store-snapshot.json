@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-11-05T13:16:08.589551+00:00",
+  "snapshot_time": "2026-11-05T15:42:50.004938+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -62901,6 +62901,51 @@
               "idle_seconds": 4,
               "total_elapsed_seconds": 169
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-11-05T15:40:01.494Z",
+            "data": {
+              "session_id": "session_1793893200984_aa71a96",
+              "source_id": "arxiv",
+              "paper_id": "2602.15029",
+              "start_time": "2026-11-05T15:39:55.534Z",
+              "end_time": "2026-11-05T15:40:00.984Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 0,
+              "total_elapsed_seconds": 5
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-11-05T15:40:52.719Z",
+            "data": {
+              "session_id": "session_1793893252681_668a7yl",
+              "source_id": "arxiv",
+              "paper_id": "2602.15029",
+              "start_time": "2026-11-05T15:40:45.272Z",
+              "end_time": "2026-11-05T15:40:52.681Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 7
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-11-05T15:41:50.404Z",
+            "data": {
+              "session_id": "session_1793893310283_8zo2o4g",
+              "source_id": "arxiv",
+              "paper_id": "2602.15029",
+              "start_time": "2026-11-05T15:41:29.105Z",
+              "end_time": "2026-11-05T15:41:50.283Z",
+              "heartbeat_count": 4,
+              "duration_seconds": 20,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 21
+            }
           }
         ]
       },
@@ -62908,7 +62953,7 @@
         "issue_number": 1616,
         "object_id": "interactions:arxiv.2602.15029",
         "created_at": "2026-02-18T09:01:16+00:00",
-        "updated_at": "2026-09-26T14:10:56+00:00",
+        "updated_at": "2026-11-05T15:42:23+00:00",
         "version": 1
       }
     },

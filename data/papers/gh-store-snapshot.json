@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-11-05T08:23:40.468871+00:00",
+  "snapshot_time": "2026-11-05T13:16:08.589551+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -74277,6 +74277,21 @@
               "idle_seconds": 0,
               "total_elapsed_seconds": 5
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-11-05T13:15:09.610Z",
+            "data": {
+              "session_id": "session_1793884509498_8ckzo0f",
+              "source_id": "arxiv",
+              "paper_id": "2604.21691",
+              "start_time": "2026-11-05T13:14:47.438Z",
+              "end_time": "2026-11-05T13:15:09.498Z",
+              "heartbeat_count": 4,
+              "duration_seconds": 20,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 22
+            }
           }
         ]
       },
@@ -74284,7 +74299,7 @@
         "issue_number": 1984,
         "object_id": "interactions:arxiv.2604.21691",
         "created_at": "2026-04-25T11:04:22+00:00",
-        "updated_at": "2026-07-24T07:20:23+00:00",
+        "updated_at": "2026-11-05T13:15:38+00:00",
         "version": 1
       }
     },
@@ -94052,6 +94067,62 @@
         "object_id": "paper:arxiv.2407.05430",
         "created_at": "2026-11-05T08:22:53+00:00",
         "updated_at": "2026-11-05T08:23:18+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2610.40655": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2610.40655",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-11-05T13:15:18.601Z",
+            "data": {
+              "session_id": "session_1793884518568_b8b8w11",
+              "source_id": "arxiv",
+              "paper_id": "2610.40655",
+              "start_time": "2026-11-05T13:15:09.582Z",
+              "end_time": "2026-11-05T13:15:18.568Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 4,
+              "total_elapsed_seconds": 9
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 2491,
+        "object_id": "interactions:arxiv.2610.40655",
+        "created_at": "2026-11-05T13:15:19+00:00",
+        "updated_at": "2026-11-05T13:15:44+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2610.40655": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2610.40655",
+        "url": "https://arxiv.org/abs/2610.40655",
+        "title": "Elucidating the Design Space of LM Data Attribution",
+        "authors": "Steven Yu, Sheng-Yu Wang, Kimia Hamidieh, Antonio Torralba, David Bau",
+        "abstract": "Data attribution methods for Language Models (LMs) are typically evaluated using downstream tasks like fact retrieval. However, existing evaluations vary multiple dataset properties simultaneously, making it impossible to isolate exactly why an attribution algorithm fails. To diagnose these failures, we explore the design space of LLM data attribution, with a primary focus on evaluation. We introduce the Controlled Attribution Benchmark (CATT) for fact tracing, in which we fine-tune LLMs on entirely fictitious knowledge, providing unambiguous ground truth for attribution. This synthetic setup allows us to systematically alter one dataset configuration at a time, such as document redundancy and lexical distractors. With this configurable evaluation, we demonstrate that redundancy and distractors consistently degrade attribution performance. Rather than proposing a new estimator, we examine two design choices that are underexplored: the loss used to compute gradients and how per-token attribution scores are aggregated into a document score. We find that the true causal evidence within a training document is highly localized, but standard methods dilute this evidence into noise by averaging attribution scores across the entire document. We find that replacing standard cross-entropy loss gradients with the negative log-odds gradients surfaces the critical tokens from other uninformative ones. We can then aggregate only the top token scores to improve ground truth recall by 35 to 72 percentage points across multiple baselines on our diagnostic benchmark. The negative log-odds correction also generalizes to FTRACE-TREX, improving counterfactual retraining performance for every method we test, by up to 4.9x.",
+        "timestamp": "2026-11-05T13:14:43.834Z",
+        "rating": "novote",
+        "publishedDate": "2026/10/29",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2490,
+        "object_id": "paper:arxiv.2610.40655",
+        "created_at": "2026-11-05T13:14:44+00:00",
+        "updated_at": "2026-11-05T13:15:07+00:00",
         "version": 1
       }
     }

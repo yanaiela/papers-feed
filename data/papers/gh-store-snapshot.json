@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-11-08T10:03:46.734932+00:00",
+  "snapshot_time": "2026-11-08T10:06:03.681420+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -94267,6 +94267,32 @@
         "object_id": "interactions:arxiv.2606.15583",
         "created_at": "2026-11-07T12:28:19+00:00",
         "updated_at": "2026-11-07T12:28:44+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2604.18307": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2604.18307",
+        "url": "https://arxiv.org/abs/2604.18307",
+        "title": "Reasoning Models Know What's Important, and Encode It in Their Activations",
+        "authors": "Yaniv Nikankin, Martin Tutek, Tomer Ashuach, Jonathan Rosenfeld, Yonatan Belinkov",
+        "abstract": "Language models often solve complex tasks by generating long reasoning chains, consisting of many steps with varying importance. While some steps are crucial for generating the final answer, others are removable. Determining which steps matter most, and why, remains an open question central to understanding how models process reasoning. We investigate if this question is best approached through model internals or through tokens of the reasoning chain itself. We find that model activations contain more information than tokens for identifying important reasoning steps. Crucially, by training probes on model activations to predict importance, we show that models encode an internal representation of step importance, even prior to the generation of subsequent steps. The internal representations of importance in different models yield high agreement on which steps are important. The representation is distributed across layers, and does not correlate with surface-level features, such as a step's relative position or its length. Our findings suggest that analyzing activations can reveal aspects of reasoning that surface-level approaches fundamentally miss, indicating that reasoning analyses should look into model internals.",
+        "timestamp": "2026-11-08T10:05:10.745Z",
+        "rating": "novote",
+        "publishedDate": "2026/04/20",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2494,
+        "object_id": "paper:arxiv.2604.18307",
+        "created_at": "2026-11-08T10:05:11+00:00",
+        "updated_at": "2026-11-08T10:05:38+00:00",
         "version": 1
       }
     }

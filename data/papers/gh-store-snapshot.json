@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-11-14T19:03:16.229970+00:00",
+  "snapshot_time": "2026-11-14T19:04:25.645639+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -94731,7 +94731,7 @@
         "title": "Pretraining Data Statistics Shape the Phases of Learning Entity Comparison in Language Models",
         "authors": "Yik Siu Chan, Jing Huang, Yanai Elazar, Atticus Geiger",
         "abstract": "How does data shape language model (LM) behavior throughout pretraining? We investigate this question through a case study on entity comparison, e.g., Between France and Brazil, which country is larger?, across nine comparison tasks spanning five entity types. We begin with controlled experiments in which we train small LMs (163M parameters) on mixtures of natural text from pretraining corpora and synthetic task data. Our analysis identifies three distinct phases of learning: (1) an early phase where the LM selects entities by frequency, (2) a middle phase where the LM selects entities by position in the prompt (first vs. last mentioned entity), and (3) a late phase where the LM selects the entity that is the correct answer. We show that the emergence of these three phases is causally determined by statistical properties of the training data. With small amounts of task-specific synthetic data, we observe only the first two phases and the model fails to learn the task; with large amounts, the model jumps directly from the frequency-based heuristic to solving the task correctly. Moreover, changing the entity frequency distribution from a naturally occurring Zipfian distribution (a small number of entities are very common and the vast majority are rare) to a uniform one weakens the frequency phase and speeds up learning of the task. Lastly, we show that the three phases of training dynamics from our controlled experiments appear in the open source model OLMo-2 32B. Together, our findings demonstrate that properties of pretraining data are causal drivers of heuristic learning and show that small-scale synthetic experiments can predict training dynamics at larger scales.",
-        "timestamp": "2026-11-14T19:02:30.429Z",
+        "timestamp": "2026-11-14T19:03:17.167Z",
         "rating": "novote",
         "publishedDate": "2026/11/12",
         "tags": [
@@ -94743,10 +94743,40 @@
         "sourceType": "url"
       },
       "meta": {
-        "issue_number": 2503,
+        "issue_number": 2504,
         "object_id": "paper:arxiv.2611.16882",
-        "created_at": "2026-11-14T19:02:31+00:00",
-        "updated_at": "2026-11-14T19:02:51+00:00",
+        "created_at": "2026-11-14T19:03:17+00:00",
+        "updated_at": "2026-11-14T19:03:37+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2611.16882": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2611.16882",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-11-14T19:03:34.648Z",
+            "data": {
+              "session_id": "session_1794683014326_5njtga7",
+              "source_id": "arxiv",
+              "paper_id": "2611.16882",
+              "start_time": "2026-11-14T19:03:20.828Z",
+              "end_time": "2026-11-14T19:03:34.326Z",
+              "heartbeat_count": 2,
+              "duration_seconds": 10,
+              "idle_seconds": 3,
+              "total_elapsed_seconds": 13
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 2505,
+        "object_id": "interactions:arxiv.2611.16882",
+        "created_at": "2026-11-14T19:03:35+00:00",
+        "updated_at": "2026-11-14T19:03:56+00:00",
         "version": 1
       }
     }

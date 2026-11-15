@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-11-15T08:12:35.371749+00:00",
+  "snapshot_time": "2026-11-15T08:30:15.775061+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -94837,6 +94837,33 @@
         "object_id": "interactions:arxiv.2611.16882",
         "created_at": "2026-11-14T19:03:35+00:00",
         "updated_at": "2026-11-15T08:12:14+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2610.15836": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2610.15836",
+        "url": "https://arxiv.org/abs/2610.15836?utm_source=chatgpt.com",
+        "title": "Latent Taxonomies: How Property Induction Develops in Language Model Pre-training",
+        "authors": "Jan Sobotka, Ekaterina Goliakova, Marcin Detyniecki, Antoine Bosselut, Xavier Renard",
+        "abstract": "When told that robins have sesamoid bones, people are far more prone to extend the property to sparrows than to whales. This behavior, called category-based property induction, is well documented in humans, but whether and how it develops in language models trained only to predict the next token is unclear. To shed light on this, we construct a hierarchical taxonomy of synthetic entities grouped by the properties they share. We then inject facts from this latent taxonomy into the continued pre-training of Pythia and OLMo 2 models from 70M to 7B parameters, and track the development of inductive behaviors. We find that taxonomically aligned induction emerges from next-token prediction alone: a property learned for one entity transfers more strongly within its taxonomic category than across categories. Internally, entities that share a deeper category become more similar in activation space, and clustering recovers the full taxonomic tree from entity representations. Contrary to the usual expectation that scale helps, we find that induction weakens with model size when the data budget is fixed, suggesting that larger models memorize individual facts rather than compress them into shared structure. Induction also strengthens with more pre-training before the taxonomy injection, transfers to novel in-context properties, and can be overridden by a latent taxonomy implied by the prompt. Together, these results show that a model's inductive generalization reflects the latent organization of its training data, with implications for data curation and for predicting how far a learned fact will spread.",
+        "timestamp": "2026-11-15T08:29:27.619Z",
+        "rating": "novote",
+        "publishedDate": "2026/10/11",
+        "tags": [
+          "Computation and Language (cs.CL)",
+          "Machine Learning (cs.LG)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2506,
+        "object_id": "paper:arxiv.2610.15836",
+        "created_at": "2026-11-15T08:29:28+00:00",
+        "updated_at": "2026-11-15T08:29:53+00:00",
         "version": 1
       }
     }

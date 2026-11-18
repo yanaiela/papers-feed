@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-11-18T15:50:40.909681+00:00",
+  "snapshot_time": "2026-11-18T16:12:00.470007+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -95132,6 +95132,20 @@
         "object_id": "paper:arxiv.2608.05188",
         "created_at": "2026-11-18T15:49:54+00:00",
         "updated_at": "2026-11-18T15:50:17+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2608.05188": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2608.05188",
+        "interactions": []
+      },
+      "meta": {
+        "issue_number": 2515,
+        "object_id": "interactions:arxiv.2608.05188",
+        "created_at": "2026-11-18T15:50:40+00:00",
+        "updated_at": "2026-11-18T15:50:43+00:00",
         "version": 1
       }
     }

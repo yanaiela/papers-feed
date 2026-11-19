@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-11-19T11:29:41.107166+00:00",
+  "snapshot_time": "2026-11-19T11:31:03.626704+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -95265,17 +95265,32 @@
         "interactions": [
           {
             "type": "reading_session",
-            "timestamp": "2026-11-19T11:28:53.295Z",
+            "timestamp": "2026-11-19T11:28:16.021Z",
             "data": {
-              "session_id": "session_1795087733168_xm3wioq",
+              "session_id": "session_1795087695454_akt6sle",
               "source_id": "arxiv",
               "paper_id": "2605.00674",
-              "start_time": "2026-11-19T11:28:27.629Z",
-              "end_time": "2026-11-19T11:28:53.168Z",
-              "heartbeat_count": 5,
-              "duration_seconds": 25,
-              "idle_seconds": 1,
-              "total_elapsed_seconds": 26
+              "start_time": "2026-11-19T11:28:08.885Z",
+              "end_time": "2026-11-19T11:28:15.454Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 7
+            }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-11-19T11:29:34.883Z",
+            "data": {
+              "session_id": "session_1795087773897_amoyo8p",
+              "source_id": "arxiv",
+              "paper_id": "2605.00674",
+              "start_time": "2026-11-19T11:29:11.741Z",
+              "end_time": "2026-11-19T11:29:33.897Z",
+              "heartbeat_count": 4,
+              "duration_seconds": 20,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 22
             }
           }
         ]
@@ -95284,7 +95299,7 @@
         "issue_number": 2524,
         "object_id": "interactions:arxiv.2605.00674",
         "created_at": "2026-11-19T11:28:16+00:00",
-        "updated_at": "2026-11-19T11:29:36+00:00",
+        "updated_at": "2026-11-19T11:29:56+00:00",
         "version": 1
       }
     },

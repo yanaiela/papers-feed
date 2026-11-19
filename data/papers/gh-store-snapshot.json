@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-11-19T11:25:39.327090+00:00",
+  "snapshot_time": "2026-11-19T11:29:41.107166+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -94193,6 +94193,21 @@
               "idle_seconds": 4,
               "total_elapsed_seconds": 124
             }
+          },
+          {
+            "type": "reading_session",
+            "timestamp": "2026-11-19T11:27:36.426Z",
+            "data": {
+              "session_id": "session_1795087655937_ld8zwjl",
+              "source_id": "arxiv",
+              "paper_id": "2509.16941",
+              "start_time": "2026-11-19T11:27:29.337Z",
+              "end_time": "2026-11-19T11:27:35.937Z",
+              "heartbeat_count": 1,
+              "duration_seconds": 5,
+              "idle_seconds": 2,
+              "total_elapsed_seconds": 7
+            }
           }
         ]
       },
@@ -94200,7 +94215,7 @@
         "issue_number": 2483,
         "object_id": "interactions:arxiv.2509.16941",
         "created_at": "2026-11-03T04:58:48+00:00",
-        "updated_at": "2026-11-03T09:50:57+00:00",
+        "updated_at": "2026-11-19T11:28:04+00:00",
         "version": 1
       }
     },
@@ -95240,6 +95255,62 @@
         "object_id": "paper:arxiv.2505.23281",
         "created_at": "2026-11-19T11:24:03+00:00",
         "updated_at": "2026-11-19T11:24:24+00:00",
+        "version": 1
+      }
+    },
+    "interactions:arxiv.2605.00674": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2605.00674",
+        "interactions": [
+          {
+            "type": "reading_session",
+            "timestamp": "2026-11-19T11:28:53.295Z",
+            "data": {
+              "session_id": "session_1795087733168_xm3wioq",
+              "source_id": "arxiv",
+              "paper_id": "2605.00674",
+              "start_time": "2026-11-19T11:28:27.629Z",
+              "end_time": "2026-11-19T11:28:53.168Z",
+              "heartbeat_count": 5,
+              "duration_seconds": 25,
+              "idle_seconds": 1,
+              "total_elapsed_seconds": 26
+            }
+          }
+        ]
+      },
+      "meta": {
+        "issue_number": 2524,
+        "object_id": "interactions:arxiv.2605.00674",
+        "created_at": "2026-11-19T11:28:16+00:00",
+        "updated_at": "2026-11-19T11:29:36+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2605.00674": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2605.00674",
+        "url": "https://arxiv.org/abs/2605.00674",
+        "title": "Beyond Benchmarks: MathArena as an Evaluation Platform for Mathematics with LLMs",
+        "authors": "Jasper Dekoninck, Nikola Jovanovi\u0107, Tim Gehrunger, K\u00e1ri R\u00f6gnvaldsson, Ivo Petrov, Chenhao Sun, Martin Vechev",
+        "abstract": "Large language models (LLMs) are becoming increasingly capable mathematical collaborators, but static benchmarks are no longer sufficient for evaluating progress: they are often narrow in scope, quickly saturated, and rarely updated. This makes it hard to compare models reliably and track progress over time. Instead, we need evaluation platforms: continuously maintained systems that run, aggregate, and analyze evaluations across many benchmarks to give a comprehensive picture of model performance within a broad domain. In this work, we build on the original MathArena benchmark by substantially broadening its scope from final-answer olympiad problems to a continuously maintained evaluation platform for mathematical reasoning with LLMs. MathArena now covers a much wider range of tasks, including proof-based competitions, research-level arXiv problems, and formal proof generation in Lean. Additionally, we maintain a clear evaluation protocol for all models and regularly design new benchmarks as model capabilities improve to ensure that MathArena remains challenging. Notably, the strongest model, GPT-5.5, now reaches 98% on the 2026 USA Math Olympiad and 74% on research-level questions, showing that frontier models can now comfortably solve extremely challenging mathematical problems. This highlights the importance of continuously maintained evaluation platforms like MathArena to track the rapid progress of LLMs in mathematical reasoning.",
+        "timestamp": "2026-11-19T11:28:09.278Z",
+        "rating": "novote",
+        "publishedDate": "2026/05/01",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2522,
+        "object_id": "paper:arxiv.2605.00674",
+        "created_at": "2026-11-19T11:28:09+00:00",
+        "updated_at": "2026-11-19T11:28:33+00:00",
         "version": 1
       }
     }

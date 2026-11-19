@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-11-19T11:31:03.626704+00:00",
+  "snapshot_time": "2026-11-19T13:50:58.569957+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -95326,6 +95326,32 @@
         "object_id": "paper:arxiv.2605.00674",
         "created_at": "2026-11-19T11:28:09+00:00",
         "updated_at": "2026-11-19T11:28:33+00:00",
+        "version": 1
+      }
+    },
+    "paper:arxiv.2607.16072": {
+      "data": {
+        "sourceId": "arxiv",
+        "paperId": "2607.16072",
+        "url": "https://arxiv.org/abs/2607.16072",
+        "title": "Frontier Language Models Struggle to Copy: Text Can Be Better Viewed in 2D",
+        "authors": "Haodong Wen, Yiran Zhang, Yingfa Chen, Kaifeng Lyu",
+        "abstract": "While large language models (LLMs) can solve advanced reasoning problems in seconds, we show that even frontier models fail to perform a much simpler operation: exactly copying an input string that lies well within their context windows. We attribute this failure to positional encodings in Transformer architectures, whose inductive bias favors copying through a shortcut based on matching local contexts rather than carefully locating the corresponding input positions. To address this issue, we introduce 2D-RoPE, which organizes text into a 2D grid rather than a 1D sequence and assigns each token a row ID and a column ID. Under this view, copying becomes simply retrieving input tokens at a fixed column offset, which makes the task easy to learn. In synthetic copy experiments, shallow Transformers with 2D-RoPE achieve perfect copying at input lengths hundreds of times longer than those seen during training, whereas standard positional encodings fall far behind. We further show that the advantage of 2D-RoPE language models on copy tasks consistently holds in large-scale pretraining on DCLM with model sizes up to 1.4B parameters. Overall, our results suggest that viewing text in 2D can benefit language modeling, and we hope this encourages future work to further explore the potential of 2D positional encodings.",
+        "timestamp": "2026-11-19T13:50:05.795Z",
+        "rating": "novote",
+        "publishedDate": "2026/07/17",
+        "tags": [
+          "Computation and Language (cs.CL)"
+        ],
+        "doi": "",
+        "journalName": "",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2562,
+        "object_id": "paper:arxiv.2607.16072",
+        "created_at": "2026-11-19T13:50:06+00:00",
+        "updated_at": "2026-11-19T13:50:32+00:00",
         "version": 1
       }
     }

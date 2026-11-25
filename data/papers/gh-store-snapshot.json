@@ -1,5 +1,5 @@
 {
-  "snapshot_time": "2026-11-24T13:38:00.993222+00:00",
+  "snapshot_time": "2026-11-25T10:26:56.728466+00:00",
   "repository": "yanaiela/papers-feed",
   "objects": {
     "interactions:arxiv.2411.00640": {
@@ -95556,6 +95556,38 @@
         "object_id": "interactions:arxiv.2611.26216",
         "created_at": "2026-11-24T09:30:04+00:00",
         "updated_at": "2026-11-24T09:30:07+00:00",
+        "version": 1
+      }
+    },
+    "paper:openreview.c5to2QhNTH": {
+      "data": {
+        "sourceId": "openreview",
+        "paperId": "c5to2QhNTH",
+        "url": "https://openreview.net/forum?id=c5to2QhNTH&referrer=%5BProgram%20Chair%20Console%5D(%2Fgroup%3Fid%3DISCOL%2F2026%2FSeminar%2FProgram_Chairs%23submission-status)",
+        "title": "Emotional Drift: When a Model Tells You What You Feel",
+        "authors": "Lee Gal",
+        "abstract": "Emotional Drift is the widening gap, across a conversation, between what a user has said about their own state and what the model gives back as that state, whether by enlarging what was said or by supplying what was not. People bring feelings to models every day; when a user arrives upset, the model tries to help, and sometimes, instead of staying with what the user said, it takes the feeling over and returns it as the user's own. We argue that Emotional Drift can run toward over-involvement or toward detachment, and we hypothesize that it compounds turn by turn rather than arriving as a single breach.\n\nDisclaimers, the standard remedy for hallucination, do not reach this failure. Disclaimers do appear in the cases below, unevenly, but none covers the move itself: a model that has just told a user what they feel does not present it as a guess, although when challenged directly it names the projection and withdraws it. A user can check a fact. A claim about how they feel has no such check; the only person who could reject it is the one being told it, at the moment it sounds right.\n\nAccepted to the AI and the Self workshop, NeurIPS 2026.",
+        "timestamp": "2026-11-25T10:26:04.017Z",
+        "rating": "novote",
+        "publishedDate": "",
+        "tags": [
+          "emotional drift",
+          "language models",
+          "sycophancy",
+          "emotional support",
+          "human-AI interaction",
+          "evaluation",
+          "annotation reliability"
+        ],
+        "doi": "",
+        "journalName": "ISCOL 2026 Seminar Submission",
+        "sourceType": "url"
+      },
+      "meta": {
+        "issue_number": 2568,
+        "object_id": "paper:openreview.c5to2QhNTH",
+        "created_at": "2026-11-25T10:26:04+00:00",
+        "updated_at": "2026-11-25T10:26:29+00:00",
         "version": 1
       }
     }
